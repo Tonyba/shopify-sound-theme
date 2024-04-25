@@ -1,4 +1,23 @@
-<h2>hello word</h2>
+
+{{ 'two-cols-products.css' | asset_url | stylesheet_tag }}
+
+<div
+  class="products-wrapper"
+  style="background-color: {{ section.settings.bg_color }};"
+>
+  <div class="page-width">
+    <h2 style="text-align: {{ section.settings.title_alignment }}">
+      {{ section.settings.title }}
+    </h2>
+    <div class="grid cols-2">
+      {% for product in section.settings.products %}
+        <li class="grid-item">
+            {%- render 'product-card', product: product, stacked: false, background: "transparent", text_color: "black", show_badges: true -%}
+        </li>
+      {% endfor %}
+    </div>
+  </div>
+</div>
 
 {% schema %}
     {
