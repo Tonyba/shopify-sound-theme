@@ -1,4 +1,19 @@
-<h2>reviews</h2>
+
+
+{%liquid
+
+    assign s = section.settings.heading
+    assign heading = s.heading
+
+%}
+
+<div class="grid cols-2">
+    <div class="grid-item">
+        <h2>{{heading}}</h2>
+        <p></p>
+    </div>
+    <div class="grid-item"></div>
+</div>
 
 
 {% schema %}
@@ -6,7 +21,14 @@
         "name": "Reviews Scroller",
         "class": "reviews-scroller",
         "tag": "section",
-        "settings": [],
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading",
+                "default": "Quick links"
+              }
+        ],
         "presets": [
             {
                 "name": "Reviews Scroller"
