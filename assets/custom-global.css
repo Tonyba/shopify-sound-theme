@@ -21,6 +21,10 @@
     gap: 20px;
 }
 
+.gap-40 {
+    gap: 40px;
+}
+
 h2 {
     margin-bottom: 20px;
     font-size: 40px;
