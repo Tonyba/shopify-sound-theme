@@ -2,16 +2,16 @@
 {{ "reviews-scroller.css" | asset_url | stylesheet_tag }}
 
 {%liquid
-
     assign s = section.settings
-    assign heading = s.heading
 
+    assign heading = s.heading
+    assign text = s.text
 %}
 
 <div class="grid cols-2">
     <div class="grid-item">
         <h2>{{heading}}</h2>
-        <p></p>
+        <p>{{ text }}</p>
     </div>
     <div class="grid-item"></div>
 </div>
