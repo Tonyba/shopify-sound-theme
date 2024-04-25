@@ -13,3 +13,7 @@
 .two-cols-products-section  .product-card__info   {
     padding: 24px 32px 32px 32px;
 }
+
+.two-cols-products-section h2 {
+    margin-bottom: 40px;
+}
