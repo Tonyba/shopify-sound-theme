@@ -8,3 +8,11 @@
 .slideshow__controls .circle-button--bordered {
     color: white
 }
+
+.grid {
+    display: grid;
+}
+
+.cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
