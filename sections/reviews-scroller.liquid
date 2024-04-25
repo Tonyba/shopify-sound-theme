@@ -10,16 +10,20 @@
     assign btn_link = s.btn_link
 %}
 
-<div class="grid cols-2 gap-40">
-    <div class="grid-item">
-        <h2>{{heading}}</h2>
-        <p>{{ text }}</p>
-        {% if btn_text != blank  %}
-        <a type="button" class="button" href="{{ btn_link }}">{{ btn_text }}</a>
-        {% endif %}
+<div class="container">
+    <div class="grid cols-2 gap-40">
+        <div class="grid-item">
+            <h2>{{heading}}</h2>
+            <p>{{ text }}</p>
+            {% if btn_text != blank  %}
+            <a type="button" class="button" href="{{ btn_link }}">{{ btn_text }}</a>
+            {% endif %}
+        </div>
+        <div class="grid-item"></div>
     </div>
-    <div class="grid-item"></div>
 </div>
+
+
 
  
 {% schema %}
@@ -31,7 +35,18 @@
             {
                 "type": "slide",
                 "name": "Review",
-                "settings": []
+                "settings": [
+                    {
+                        "type": "text",
+                        "label": "Review Title",
+                        "id": "review_title"
+                    },
+                    {
+                        "type": "textarea",
+                        "label": "Review Text",
+                        "id": "review_text"
+                    }
+                ]
             }
         ],
         "settings": [
