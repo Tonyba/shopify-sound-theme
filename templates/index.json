@@ -115,6 +115,12 @@
         "product_card_text_color": "#000000"
       }
     },
+    "reviews_scroller_jWQtdn": {
+      "type": "reviews-scroller",
+      "settings": {
+        "heading": "Trusted by Over 300,000 Customers"
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -290,6 +296,7 @@
     "slideshow",
     "brands_carousel_wMaEte",
     "two_cols_products_gRDEqC",
+    "reviews_scroller_jWQtdn",
     "featured-collection",
     "media-grid",
     "press"
