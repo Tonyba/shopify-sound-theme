@@ -6,9 +6,8 @@
     
     <div class="review-info">
         <div class="stars"> {% render 'five-stars' %}</div>
-        <h3>{{ review.review_title }}</h3>
-        <p>{{ review.review_text }}</p>
+        <h3 class="review-title" >{{ review.review_title }}</h3>
+        <p class="review-text">{{ review.review_text }}</p>
+        <div class="review-author">{{ review.author }}</div>
     </div>
-
-
 </div>
