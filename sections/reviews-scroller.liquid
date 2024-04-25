@@ -19,7 +19,13 @@
             <a type="button" class="button" href="{{ btn_link }}">{{ btn_text }}</a>
             {% endif %}
         </div>
-        <div class="grid-item"></div>
+        <div class="grid-item">
+        
+            {%- for block in section.blocks -%}
+                {% render 'review-before-after-item' review=block.settings %}
+            {%- endfor -%}
+
+        </div>
     </div>
 </div>
 
