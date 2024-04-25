@@ -9,3 +9,7 @@
 .two-cols-products-section  .products-wrapper {
     padding: 100px 0;
 }
+
+.two-cols-products-section  .product-card__info   {
+    padding: 24px 32px 32px 32px;
+}
