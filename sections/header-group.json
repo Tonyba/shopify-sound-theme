@@ -8,22 +8,19 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
-            "url": ""
+            "text": "Announce something here"
           }
         }
       },
       "block_order": [
         "message"
       ],
-      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
         "background": "#1a1a1a",
-        "background_gradient": "",
         "text_color": "#ffffff"
       }
     },
@@ -36,15 +33,11 @@
         "logo_max_width": 120,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
-        "sidebar_menu": "",
-        "secondary_menu": "",
         "menu_open_trigger": "click",
         "opening_from": "bottom",
         "layout": "logo_left_navigation_center",
         "show_social_media": true,
-        "show_locale_selector": false,
-        "show_country_selector": false,
-        "show_country_flag": false,
+        "show_country_flag": true,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
         "reduce_padding": false,
