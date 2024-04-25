@@ -101,6 +101,11 @@
         "padding_right": 0
       }
     },
+    "two_cols_products_gRDEqC": {
+      "type": "two-cols-products",
+      "settings": {
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -275,6 +280,7 @@
   "order": [
     "slideshow",
     "brands_carousel_wMaEte",
+    "two_cols_products_gRDEqC",
     "featured-collection",
     "media-grid",
     "press"
