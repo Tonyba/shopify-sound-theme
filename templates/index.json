@@ -19,7 +19,7 @@
             "button_background": "#1a1a1a",
             "button_text_color": "#fff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
@@ -29,7 +29,7 @@
           "settings": {
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "Tell your story",
             "title": "Slide title",
             "heading_tag": "h0",
