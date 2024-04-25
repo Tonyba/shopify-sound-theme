@@ -16,3 +16,7 @@
 .cols-2 {
     grid-template-columns: repeat(2, 1fr);
 }
+
+.gap-20 {
+    gap: 20px;
+}
