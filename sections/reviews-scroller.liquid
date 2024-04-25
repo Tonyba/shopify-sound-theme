@@ -6,12 +6,17 @@
 
     assign heading = s.heading
     assign text = s.text
+    assign btn_text = s.btn_text
+    assign btn_link = s.btn_link
 %}
 
 <div class="grid cols-2">
     <div class="grid-item">
         <h2>{{heading}}</h2>
         <p>{{ text }}</p>
+        {% if btn_text != blank  %}
+        <a href="{{ btn_link }}">{{ btn_text }}</a>
+        {% endif %}
     </div>
     <div class="grid-item"></div>
 </div>
@@ -34,6 +39,20 @@
                 "id": "text",
                 "label": "Text",
                 "default": "Quick links"
+            },
+            {
+                "type": "header",
+                "content": "button"
+            },
+            {
+                "type": "text",
+                "id": "btn_text",
+                "label": "Button Text"
+            },
+            {
+                "type": "url",
+                "id": "btn_link",
+                "label": "Button Link"
             }
         ],
         "presets": [
