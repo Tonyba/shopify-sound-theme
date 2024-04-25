@@ -1,3 +1,7 @@
 .two-cols-products-section product-card {
     height: 100%;
 }
+
+.two-cols-products-section li {
+    list-style-type: none;
+}
