@@ -27,19 +27,20 @@
         "slide-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/19773397446b797bf372c7bcb6d301ee.png",
             "content_max_width": 500,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "Tell your story",
             "title": "Beauty Products At Home 2",
             "heading_tag": "h0",
-            "button_text": "",
+            "button_text": "Shop Now",
             "button_link": "",
             "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
+            "button_background": "#1a1a1a",
+            "button_text_color": "#fff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
