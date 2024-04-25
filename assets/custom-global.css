@@ -1,4 +1,6 @@
 .shopify-section--slideshow .prose .h1 {
     font-size: 50px;
     font-weight: 600;
+    letter-spacing: 3%;
+    line-height: 45px;
 }
