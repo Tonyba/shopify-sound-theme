@@ -22,7 +22,7 @@
         <div class="grid-item">
         
             {%- for block in section.blocks -%}
-                {% render 'review-before-after-item' review=block.settings %}
+                {% render 'review-before-after-item' review:block.settings %}
             {%- endfor -%}
 
         </div>
