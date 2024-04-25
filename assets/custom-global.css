@@ -4,3 +4,7 @@
     letter-spacing: 3%;
  
 }
+
+.slideshow__controls .circle-button--bordered {
+    color: white
+}
