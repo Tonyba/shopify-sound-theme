@@ -110,7 +110,9 @@
           "the-3p-fulfilled-snowboard",
           "the-collection-snowboard-hydrogen"
         ],
-        "bg_color": "transparent"
+        "bg_color": "rgba(0,0,0,0)",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": "#000000"
       }
     },
     "featured-collection": {
