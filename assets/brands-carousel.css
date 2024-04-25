@@ -1,0 +1,28 @@
+.brands-carousel img {
+    max-width: 100%;
+}
+
+.brands-carousel .splide__list {
+    align-items: center;
+}
+
+.brands-carousel:after,
+.brands-carousel:before {
+    content: "";
+    width: 147px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(92.35deg, #F3F3F3 1.97%, rgba(243, 234, 221, 0.63) 104.47%);
+}
+
+.brands-carousel:before {
+
+    left: 0;
+}
+
+.brands-carousel:after {
+    right: 0;
+    transform: rotate(-180deg);
+}
