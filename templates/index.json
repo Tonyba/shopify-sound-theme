@@ -104,6 +104,12 @@
     "two_cols_products_gRDEqC": {
       "type": "two-cols-products",
       "settings": {
+        "title": "take care of yourself at home",
+        "title_alignment": "center",
+        "products": [
+
+        ],
+        "bg_color": "transparent"
       }
     },
     "featured-collection": {
