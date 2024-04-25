@@ -6,9 +6,10 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "content_max_width": 780,
+            "image": "shopify:\/\/shop_images\/19773397446b797bf372c7bcb6d301ee.png",
+            "content_max_width": 500,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "Tell your story",
             "title": "Slide title",
             "heading_tag": "h0",
