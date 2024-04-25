@@ -1,0 +1,145 @@
+{{ 'brands-carousel.css' | asset_url | stylesheet_tag }}
+
+<div
+  class="splide brands-carousel {% if section.settings.is_autoscroll %}autoscroll{% endif %}"
+  style="background-color: {{ section.settings.carousel_bg }}; padding: {{ section.settings.padding_top }}px {{ section.settings.padding_right }}px {{ section.settings.padding_bottom }}px {{ section.settings.padding_left }}px"
+>
+  <div class="splide__track">
+    <div class="splide__list">
+      {% for block in section.blocks %}
+        <div class="splide__slide">
+          <img decoding="async" src="{{ block.settings.image | image_url }}" alt="brand-image">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% if section.settings.is_autoscroll %}
+  <script src="{{ 'autoscroll.min.js' | asset_url }}" defer></script>
+{% endif %}
+
+<script defer>
+  function init() {
+    const splide = document.querySelector('.splide.brands-carousel');
+    const config = {
+      type: 'loop',
+      arrows: false,
+      pagination: false,
+      perPage: 10,
+      gap: 20,
+      autoscroll: {
+        speed: 1000,
+      },
+    };
+    const splideInstance = new Splide(splide, config);
+
+    if (splide.classList.contains('autoscroll')) {
+      deferAutoScroll(function () {
+        splideInstance.mount(window.splide.Extensions);
+      });
+    } else {
+      splideInstance.mount();
+    }
+  }
+
+  function deferAutoScroll(method) {
+    if (typeof window.splide != 'undefined') {
+      method();
+    } else {
+      setTimeout(function () {
+        deferAutoScroll(method);
+      }, 50);
+    }
+  }
+
+  function deferSplide(method) {
+    if (typeof Splide != 'undefined') {
+      method();
+    } else {
+      setTimeout(function () {
+        deferSplide(method);
+      }, 50);
+    }
+  }
+
+  deferSplide(init);
+</script>
+
+{% schema %}
+{
+  "name": "Brands Carousel",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "is_autoscroll",
+      "default": true,
+      "label": "Autoscroll",
+      "info": "It'll make the brand carousel autoscroll"
+    },
+    {
+      "type": "color",
+      "id": "carousel_bg",
+      "label": "Background Color",
+      "default": "transparent"
+    },
+    {
+      "type": "header",
+      "content": "Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Top"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_left",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Left"
+    },
+    {
+      "type": "range",
+      "id": "padding_right",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Right"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Image",
+      "type": "slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Select an Image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
