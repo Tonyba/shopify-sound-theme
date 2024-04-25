@@ -10,7 +10,7 @@
             "content_max_width": 500,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Tell your stor",
+            "subheading": "With advanced technology, achieving long-lasting results has never been easier. Embrace the convenience and effectiveness of DIY laser hair removal",
             "title": "Beauty Products At Home",
             "heading_tag": "h1",
             "button_text": "Shop Now",
@@ -31,7 +31,7 @@
             "content_max_width": 500,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Tell your story",
+            "subheading": "With advanced technology, achieving long-lasting results has never been easier. Embrace the convenience and effectiveness of DIY laser hair removal",
             "title": "Beauty Products At Home 2",
             "heading_tag": "h1",
             "button_text": "Shop Now",
@@ -49,6 +49,9 @@
       "block_order": [
         "slide-1",
         "slide-2"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "full_width": true,
