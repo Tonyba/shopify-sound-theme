@@ -232,7 +232,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "automated-collection",
         "products": [
 
         ],
