@@ -5,3 +5,7 @@
 .two-cols-products-section li {
     list-style-type: none;
 }
+
+.two-cols-products-section  .products-wrapper {
+    padding: 100px 0;
+}
