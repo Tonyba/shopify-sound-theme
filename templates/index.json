@@ -119,7 +119,9 @@
       "type": "reviews-scroller",
       "settings": {
         "heading": "Trusted by Over 300,000 Customers",
-        "text": "See real Customers bare it all and hear about their experience. \u2028As they say, a picture’s worth a thousand hairs."
+        "text": "See real Customers bare it all and hear about their experience. \u2028As they say, a picture’s worth a thousand hairs.",
+        "btn_text": "See More",
+        "btn_link": "#"
       }
     },
     "featured-collection": {
