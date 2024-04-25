@@ -1,7 +1,7 @@
 <div class="review-before-after-item">
 
     {% if review.review_img != blank  %}
-        <img src="{{ review.review_img | image_url }}" alt="Before & After">
+        <img decoding="async" loading="lazy" src="{{ review.review_img | image_url }}" alt="Before & After">
     {% endif %}
     
     <div class="review-info">
