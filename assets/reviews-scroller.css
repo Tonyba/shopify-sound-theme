@@ -11,3 +11,7 @@
     display: flex;
     white-space: nowrap;
 }
+
+.reviews-carousel-section > .grid-item:last-child {
+    overflow: hidden;
+}
