@@ -217,7 +217,7 @@
     "featured_collection_new_dgJL97": {
       "type": "featured-collection-new",
       "custom_css": [
-
+        ".section-header {justify-items: end;}"
       ],
       "settings": {
         "collection": "automated-collection",
