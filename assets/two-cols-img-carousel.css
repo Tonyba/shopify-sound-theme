@@ -11,6 +11,10 @@
     margin-bottom: 20px;
 }
 
+.two-cols-image-carousel .splide__pagination {
+    gap: 10px;
+}
+
 .two-cols-image-carousel .splide__pagination button {
         width: 10px;
         height: 10px;
