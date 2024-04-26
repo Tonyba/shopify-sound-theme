@@ -1,10 +1,16 @@
+{{ 'blog_post_loop.css' | asset_url | stylesheet_tag }}
+
 
 <div class="container">
     <div class="grid 2-cols">
         
     </div>
     <div class="grid 5-cols">
+        {% for post in section.settings.blog_posts %}
 
+            {% render 'blog_post' post: post %}
+
+        {% endfor %}
     </div>
 </div>
 
