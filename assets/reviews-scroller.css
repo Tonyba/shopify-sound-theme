@@ -22,6 +22,7 @@
 .reviews-carousel-section .scroll-wrapper .review-before-after-item {
     flex-grow: 1;
     flex-shrink: 0;
+    max-width: 392px;
 }
 
 .reviews-carousel-section  .scroll-wrapper .review-before-after-item {
@@ -33,6 +34,3 @@
     display: flex;
 }
 
-/* .reviews-carousel-section > .grid-item:last-child {
-    overflow: hidden;
-} */
