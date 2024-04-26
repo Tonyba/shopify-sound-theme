@@ -52,12 +52,12 @@
     font-size: 15px;
 }
 
-.reviews-carousel-section .left-side-inner {
-   
+.reviews-carousel-section > div:first-child {
+   width: 30%;
 }
 
-.reviews-carousel-section > div {
-    width: 50%;
+.reviews-carousel-section > div:last-child {
+    width: 70%;
 }
 
 .reviews-carousel-section .scroll-wrapper .review-before-after-item {
