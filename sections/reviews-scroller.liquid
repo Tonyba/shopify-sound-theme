@@ -46,9 +46,13 @@
     }
 
     defer(function() {
-        
-            console.log(OverlayScrollbars)
-    
+        const customScroll = document.querySelector('scroll-wrapper');
+        OverlayScrollbars(customScroll, {
+            overflow: {
+              y: 'hidden',
+            },
+          });
+
     });
     
 })();
