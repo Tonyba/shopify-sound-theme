@@ -9930,3 +9930,9 @@ html,body{max-width:100%!important;
 .carousel-top-message{
 transform: translateX(-50%) translateY(-15%)!important;
     left: 50%!important;}
+
+.two-cols-image-carousel .splide__pagination {
+ 
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
