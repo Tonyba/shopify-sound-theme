@@ -12,7 +12,10 @@
                 </div>
             </div>
             <div class="grid-item">
-                {% render 'custom-horizontal-product' product: section.settings.top_prod %}
+                <div class="top-product">
+                    {% render 'custom-horizontal-product' product: section.settings.top_prod is_big: true %}
+                </div>
+                
             </div>
         </div>
     </div>    
