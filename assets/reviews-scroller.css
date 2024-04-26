@@ -20,7 +20,7 @@
     background-color: #D8D8D8 !important;
 }
 
-.reviews-carousel-section {
+.reviews-carousel-section .os-scrollbar{
     max-width: 570px;
 }
 
