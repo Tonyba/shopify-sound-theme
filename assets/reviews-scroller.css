@@ -10,7 +10,7 @@
 .reviews-carousel-section .scroll-wrapper {
     display: flex;
     /* white-space: nowrap; */
-    max-width: 500px;
+    max-width: 300px;
 }
 
 .reviews-carousel-section .scroll-wrapper .review-before-after-item {
