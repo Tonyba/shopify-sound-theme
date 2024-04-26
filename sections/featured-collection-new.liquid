@@ -41,7 +41,7 @@
       {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
 
       <scroll-carousel selector="product-card-featured-new" id="{{ scroll_area_id }}" class="scroll-area bleed {% if section.settings.products_count > section.settings.products_per_row_desktop %}is-scrollable{% endif %}">
-        <reveal-items selector=".product-list > *">
+        <reveal-items selector="product-list > *">
           <product-list class="product-list">
             {%- assign products = section.settings.products | default: section.settings.collection.products -%}
 
