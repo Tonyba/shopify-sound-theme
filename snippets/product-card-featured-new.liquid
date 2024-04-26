@@ -83,7 +83,7 @@ Supported variables
         {%- endif -%}
       </a>
 
-  
+   
     </div>
   {%- endif -%}
 
@@ -124,7 +124,7 @@ Supported variables
         <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></span>
       {%- endif -%}
 
-      
+      <p class="prod-desc">90% hair reduction in 4 weeks</p>
 
       {%- render 'price-list', product: product, text_alignment: text_alignment -%}
     </div>
@@ -164,10 +164,6 @@ Supported variables
                   {% endif %}
                 </fieldset>
 
-              
-   
-
-              
               {%- when 'variant' -%}
                 <fieldset class="product-card__variant-list" data-option-position="{{ product_option.position }}">
                   {%- for option_value in product_option.values limit: 4 -%}
@@ -190,32 +186,15 @@ Supported variables
               {%- endcase -%}
           </div>
 
- 
-
-          
           {%- break -%}
-       
         {%- endif -%}
-   
-        
       {%- endfor -%}
-
-
-
-
-      
     {%- endif -%}
-
- 
-
-    
-    
   </div>
 
-  
- {%- if show_quick_buy and product.available -%}
-        <div class="bottombuttons">
-    <div class="learnmores"> <a href="{{ product.url }}" class="view-more-buttons">Learn More</a>
+     {%- if show_quick_buy and product.available -%}
+        <div class="bottombuttos">
+    <div class="learnmore"> <a href="{{ product.url }}" class="view-more-button">Learn More</a>
 </div>
 
         <div class="product-card__quick-buy">
@@ -254,8 +233,6 @@ Supported variables
           
           {%- endif -%}
         </div>
-        
-   </div>
+         </div>
       {%- endif -%}
-
 </product-card>
