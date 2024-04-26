@@ -18,7 +18,7 @@
             <a type="button" class="button" href="{{ product.url }}">Shop Now</a>
 
         </div>
-        <div class="grid-item">
+        <div class="grid-item horizontal-img">
             <a href="{{ product.url }}">           
              {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 64px, 80px', widths: '64,128,80,160', class: 'horizontal-product__image rounded-xs' -}}
             </a>
