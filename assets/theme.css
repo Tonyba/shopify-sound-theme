@@ -9915,3 +9915,11 @@ split-lines {
   color: black;
   font-weight: bold;
 }
+
+#shopify-section-template--16704955089049__featured_collection_new_dgJL97 .product-card__quick-buy {
+  opacity: 1;
+  visibility: visible;
+ position:relative;
+  transform: translateY(0px);
+  bottom:0;
+}
