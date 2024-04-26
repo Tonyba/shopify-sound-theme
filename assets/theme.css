@@ -9894,3 +9894,12 @@ split-lines {
   align-content: flex-start;
   justify-content: space-between;
 }
+#shopify-section-template--16704955089049__featured_collection_new_dgJL97 .color-swatch--sm {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+}
+
+#shopify-section-template--16704955089049__featured_collection_new_dgJL97 .star-rating {
+  order: -1;
+}
