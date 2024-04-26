@@ -37,7 +37,8 @@
 }
 
 .reviews-carousel-section .left-side {
-    
+    display: flex;
+    justify-content: flex-start;
 }
 
 .reviews-carousel-section a {
