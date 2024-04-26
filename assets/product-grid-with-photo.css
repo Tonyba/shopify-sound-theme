@@ -3,3 +3,8 @@
     padding: 20px 30px;
     border-radius: 15px;
 }
+
+.horizontal-custom-prod h3 {
+    font-weight: 700;
+    font-size: 27px;
+}
