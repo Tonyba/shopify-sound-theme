@@ -191,8 +191,7 @@ Supported variables
       {%- endfor -%}
     {%- endif -%}
   </div>
-</product-card>
-   {%- if show_quick_buy and product.available -%}
+     {%- if show_quick_buy and product.available -%}
         <div class="product-card__quick-buy">
           {%- assign quick_add_label = 'product.general.quick_add' | t -%}
 
@@ -229,3 +228,4 @@ Supported variables
           {%- endif -%}
         </div>
       {%- endif -%}
+</product-card>
