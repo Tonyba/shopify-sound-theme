@@ -20,11 +20,13 @@
             {% endif %}
         </div>
         <div class="grid-item">
-        
-            {%- for block in section.blocks -%}
-                {% render 'review-before-after-item' review:block.settings %}
-            {%- endfor -%}
-
+            
+            <div class="scroll-wrapper">
+                {%- for block in section.blocks -%}
+                    {% render 'review-before-after-item' review:block.settings %}
+                {%- endfor -%}
+    
+            </div>
         </div>
     </div>
 </div>
