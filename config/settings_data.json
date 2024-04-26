@@ -140,5 +140,16 @@
       "product_color_display": "swatch",
       "product_info_alignment": "center"
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".two-cols-products-section .product-card__figure {height: 400px;}",
+      ".two-cols-products-section .product-card {border-radius: 20px;}",
+      ".two-cols-products-section .product-card__info {display: inline-flex; flex-direction: row; align-content: flex-start; justify-content: space-between;}",
+      ".two-cols-products-section .color-swatch--sm {width: 25px; height: 25px; border-radius: 100%;}",
+      ".two-cols-products-section .rating {display: none;}",
+      ".two-cols-products-section .star-rating {order: -1;}",
+      ".two-cols-products-section .product-card__aside{margin-top:30px;}"
+    ]
   }
 }
