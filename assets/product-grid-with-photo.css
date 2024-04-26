@@ -23,3 +23,7 @@
     line-height: 1.2;
     margin-bottom: 10px;
 }
+
+.bottom-products .product-desc {
+    font-size: 14px !important;
+}
