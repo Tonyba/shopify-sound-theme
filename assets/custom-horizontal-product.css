@@ -28,6 +28,6 @@
     font-weight: 500;
 }
 
-.top-product {
-
+.horizontal-custom-prod .stars-rating svg {
+    width: 75px;
 }
