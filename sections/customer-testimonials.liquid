@@ -1,2 +1,61 @@
 <iframe loading="lazy" src="https://www.tiktok.com/oembed?url=https://www.tiktok.com/@scout2015/video/6718335390845095173
     " frameborder="0"></iframe>
+
+{% schema %}
+    {
+        "name": "Customer Testimonials",
+        "settings": [
+            {
+               "type": "text",
+               "label": "Heading",
+               "id": "heading"
+            },
+            {
+                "type": "text",
+                "label": "Video 1",
+                "id": "vid_1"
+            },
+            {
+                "type": "text",
+                "label": "Video 2",
+                "id": "vid_2"
+            },
+            {
+                "type": "text",
+                "label": "Video 3",
+                "id": "vid_3"
+            },
+            {
+                "type": "text",
+                "label": "Video 4",
+                "id": "vid_4"
+            }
+        ],
+        "blocks": [
+
+            {
+                "type": "slide",
+                "name": "Testimonial",
+                "settings": [
+                    {
+                        "id": "testimonial_img",
+                        "label": "Testimonial Image",
+                        "type": "image_picker"
+                    },
+
+                    {
+                        "type": "textarea",
+                        "label": "Testimonial Text",
+                        "id": "testimonial_text"
+                    }
+                ]
+            }
+
+        ],
+        "presets": [
+            {
+              "name": "Customer Testimonials"
+            }
+        ]
+    }
+{% endschema %}
