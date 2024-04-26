@@ -26,6 +26,11 @@
     text-align: center;
 }
 
+.header__link-list li a {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
 .section:has(.top-shop-message) {
     padding: 0;
 }
