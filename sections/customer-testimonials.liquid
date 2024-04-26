@@ -5,7 +5,7 @@
         {{ section.settings.vid_1 }}
         {{ section.settings.vid_2 }}
         {{ section.settings.vid_3 }}
-        {{ section.settings.vid_4 }}
+        {{ section.settings.vid_4 }} 
     </div>
     <div class="splide testimonial-carousel">
         <div class="splide__track">
@@ -44,7 +44,9 @@
             const testimonialCarousel = document.querySelector('.splide.testimonial-carousel');
 
             const args = {
-                perPage: 1
+                perPage: 1,
+                arrows: true,
+                pagination: true
             }
 
             const splideInstance = new Splide(testimonialCarousel, args);
