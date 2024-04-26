@@ -26,9 +26,27 @@
     border: 1px solid #e5e5e5;
     border-radius: 100%;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .testimonial-carousel .splide__arrow svg {
     width: 16px; 
     height: 16px;
+}
+
+.testimonial-carousel .splide__pagination button {
+        background-color: #b2b2b2;
+        width: 5px;
+        height: 5px;
+        border-radius: 100%;
+}
+
+.testimonial-carousel .splide__pagination {
+    gap: 20px;
+}
+
+.testimonial-carousel .splide__pagination button.is-active {
+    background-color: black;
 }
