@@ -54,6 +54,7 @@
 
 .reviews-carousel-section > div:first-child {
    width: 35%;
+   padding-right: 40px;
 }
 
 .reviews-carousel-section > div:last-child {
