@@ -9925,11 +9925,12 @@ split-lines {
 }
 .reviews-carousel-section{padding-left:30px;}
 
-#shopify-section-template--16704955089049__customer_testimonials_7AXfGP .grid.cols-4 {
-    gap: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(263px, 1fr))
-      max-width: 100%;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;}
+
+
+@media (max-width: 800px) { /* Adjust this breakpoint as needed */
+  #shopify-section-template--16704955089049__customer_testimonials_7AXfGP .grid.cols-4 {
+  
+   
+        grid-template-columns: repeat(3, 1fr); /* Switch to 3 columns when the viewport is 800px or smaller */
+    }
+}
