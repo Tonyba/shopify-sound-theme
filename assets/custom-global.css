@@ -19,7 +19,10 @@
 
 .top-shop-message {
     background-color: black;
-    color: white
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 30px
 }
 
 .cols-2 {
