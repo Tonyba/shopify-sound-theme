@@ -13,6 +13,6 @@
     flex-wrap: wrap;
 }
 
-.reviews-carousel-section > .grid-item:last-child {
+/* .reviews-carousel-section > .grid-item:last-child {
     overflow: hidden;
-}
+} */
