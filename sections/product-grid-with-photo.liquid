@@ -4,7 +4,9 @@
 <div class="grid two-cols" >
     <div class="grid-item">
         <div class="col-img">
+            {% if  section.settings.col_img != blank %}
             <img src="{{ section.settings.col_img  | image_url }}" decoding="async" loading="lazy" alt="Column image">
+            {% endif %}
         </div>
     </div>
     <div class="grid-item">
