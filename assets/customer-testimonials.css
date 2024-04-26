@@ -1,3 +1,9 @@
+
+.testimonial-carousel {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 .testimonial-carousel .testimonial-slide {
     display: flex;
     flex-direction: column;
