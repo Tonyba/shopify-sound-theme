@@ -18,6 +18,10 @@
     flex-shrink: 0;
 }
 
+.reviews-carousel-section  .scroll-wrapper .review-before-after-item {
+    display: block;
+}
+
 /* .reviews-carousel-section > .grid-item:last-child {
     overflow: hidden;
 } */
