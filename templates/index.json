@@ -181,6 +181,16 @@
         ]
       }
     },
+    "customer_testimonials_W7PxDW": {
+      "type": "customer-testimonials",
+      "settings": {
+        "heading": "",
+        "vid_1": "",
+        "vid_2": "",
+        "vid_3": "",
+        "vid_4": ""
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -215,6 +225,7 @@
     "two_cols_products_gRDEqC",
     "reviews_scroller_jWQtdn",
     "product_grid_with_photo_pp868q",
+    "customer_testimonials_W7PxDW",
     "featured-collection"
   ]
 }
