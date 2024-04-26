@@ -5,7 +5,28 @@
 {% schema %}
     {
         "name": "Product Grid - Photo",
-        "settings": [],
+        "settings": [
+            {
+                "type": "text",
+                "label": "Heading",
+                "id": "heading"
+            },
+            {
+                "type": "image_picker",
+                "label": "Column Image",
+                "id": "col_img"
+            },
+            {
+                "type": "product",
+                "label": "Top Product",
+                "id": "top_prod"
+            },
+            {
+                "type": "product_list",
+                "id": "bottom_prods",
+                "label": "Bottom Products"
+            }
+        ],
         "presets": [
             {
                "name": "Product Grid with Photo"
