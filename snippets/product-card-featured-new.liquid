@@ -192,7 +192,12 @@ Supported variables
     {%- endif -%}
   </div>
 
-    {%- if show_quick_buy and product.available -%}
+   
+     {%- if show_quick_buy and product.available -%}
+        <div class="bottombuttos">
+    <div class="learnmore"> <a href="{{ product.url }}" class="view-more-button">Learn More</a>
+</div>
+
         <div class="product-card__quick-buy">
           {%- assign quick_add_label = 'product.general.quick_add' | t -%}
 
@@ -223,7 +228,6 @@ Supported variables
               {%- render 'button', content: quick_add_label, aria_controls: quick_buy_id -%}
             </div>
 
-        
             <quick-buy-drawer id="{{ quick_buy_id }}" header-bordered open-from="bottom" handle="{{ product.handle }}" role="region" aria-live="polite" class="quick-buy-drawer drawer">
               {%- comment -%}Quick buy content is filled on demand for performance reasons {%- endcomment -%}
             </quick-buy-drawer>
