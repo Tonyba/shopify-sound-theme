@@ -16,7 +16,9 @@
                 <div class="splide__track">
                     <div class="splide__list">
                         <div class="splide__slide">
-                            
+                            {% for item in section.blocks %}
+                                <img src="{{ item.settings.image | image_url }}" alt="img slide" />
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
