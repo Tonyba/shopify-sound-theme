@@ -245,6 +245,11 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "two_cols_img_carousel_7KGijH": {
+      "type": "two-cols-img-carousel",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -254,6 +259,7 @@
     "reviews_scroller_jWQtdn",
     "product_grid_with_photo_pp868q",
     "customer_testimonials_7AXfGP",
-    "featured-collection"
+    "featured-collection",
+    "two_cols_img_carousel_7KGijH"
   ]
 }
