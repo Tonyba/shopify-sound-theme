@@ -190,13 +190,7 @@ Supported variables
               {%- endcase -%}
           </div>
 
-          {%- break -%}
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
-  </div>
-
-     {%- if show_quick_buy and product.available -%}
+   {%- if show_quick_buy and product.available -%}
         <div class="bottombuttons">
     <div class="learnmores"> <a href="{{ product.url }}" class="view-more-buttons">Learn More</a>
 </div>
@@ -239,6 +233,15 @@ Supported variables
         </div>
          </div>
       {%- endif -%}
+
+          
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  </div>
+
+  
 
   
 </product-card>
