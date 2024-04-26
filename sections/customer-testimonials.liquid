@@ -13,7 +13,7 @@
                
                     {% for testimonial in section.blocks %}
                         <div class="splide__slide">
-                            {% render 'icon-quote' %}
+                        <div class="icon-quote">{% render 'icon-quote' %}</div>
                         <div class="testimonial-slide">
                             <div class="testimonials-stars">{% render 'five-stars' %}</div>
                             <p class="testimonial-text">{{ testimonial.settings.testimonial_text }}</p>
