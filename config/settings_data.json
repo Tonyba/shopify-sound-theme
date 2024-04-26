@@ -156,7 +156,9 @@
       ".two-cols-products-section .color-swatch--sm {width: 25px; height: 25px; border-radius: 100%;}",
       ".two-cols-products-section .rating {display: none;}",
       ".two-cols-products-section .star-rating {order: -1;}",
-      ".two-cols-products-section .product-card__aside {margin-top: 30px;}"
+      ".two-cols-products-section .product-card__aside {margin-top: 30px;}",
+      ".learnmore {display: inline-flex; width: 50%;}",
+      ".view-more-button {border: 1px solid; width: 100%; border-radius: 100px; padding: 9px 18px; text-align: center;}"
     ]
   }
 }
