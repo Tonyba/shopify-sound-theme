@@ -10,7 +10,10 @@
         </div>
     </div>
     <div class="grid 5-cols">
-        {% for post in section.settings.blog_posts %}
+
+        {{ section.settings.blog_posts.articles | json  }}
+
+        {% for post in section.settings.blog_posts.articles %}
 
             {% render 'blog_post' post: post %}
 
