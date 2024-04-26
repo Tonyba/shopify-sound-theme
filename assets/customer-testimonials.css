@@ -60,6 +60,9 @@
 .testimonial-carousel .splide__arrows {
     display: flex;
     order: 1;
+    justify-content: center;
+    gap: 100px;
+    margin-top: -100px 
 }
 
 
