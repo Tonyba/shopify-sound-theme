@@ -193,6 +193,10 @@ Supported variables
   </div>
 
      {%- if show_quick_buy and product.available -%}
+        
+    <a href="{{ product.url }}" class="view-more-button">View More</a>
+
+
         <div class="product-card__quick-buy">
           {%- assign quick_add_label = 'product.general.quick_add' | t -%}
 
