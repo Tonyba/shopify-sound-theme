@@ -16,6 +16,10 @@
     background-color: black !important;
 }
 
+.reviews-carousel-section .os-scrollbar-track  {
+    background-color: #D8D8D8 !important;
+}
+
 .reviews-carousel-section {
     display: flex;
 }
