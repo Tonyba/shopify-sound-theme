@@ -16,14 +16,14 @@
         "links_J6WQRU": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "shop",
             "show_menu_title": true
           }
         },
         "links": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "policy",
             "show_menu_title": true
           }
         },
