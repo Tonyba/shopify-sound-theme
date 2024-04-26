@@ -10,6 +10,7 @@
 .reviews-carousel-section .scroll-wrapper {
     display: flex;
     white-space: nowrap;
+    flex-wrap: wrap;
 }
 
 .reviews-carousel-section > .grid-item:last-child {
