@@ -9927,3 +9927,6 @@ split-lines {
 
 html,body{max-width:100%!important;
          overflow-x:hidden!important;}
+.carousel-top-message{
+transform: translateX(-50%) translateY(-15%);
+    left: 50%;}
