@@ -9882,4 +9882,5 @@ split-lines {
   opacity: 1;
   visibility: visible;
  position:relative;
+  transform: translateY(15px);
 }
