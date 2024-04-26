@@ -40,7 +40,9 @@
     max-width: 800px;
 }
 
-
+.reviews-carousel-section .left-side-inner {
+    max-width: 410px;
+}
 
 .reviews-carousel-section > div {
     width: 50%;
