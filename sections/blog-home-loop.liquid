@@ -1,7 +1,7 @@
 {{ 'blog_post_loop.css' | asset_url | stylesheet_tag }}
 
 
-<div class="container">
+<div class="container"> 
     <div class="grid cols-2">
         <div class="grid-item"><h2>{{ section.settings.heading }}</h2>  </div>
         
@@ -9,7 +9,7 @@
             <a class="btn" href="{{ section.settings.btn_link }}">{{ section.settings.btn_text }}</a>
         </div>
     </div>
-    <div class="grid cols-5 "> 
+    <div class="grid cols-5 gap-40"> 
 
         {% for post in section.settings.blog_posts.articles %}
 
