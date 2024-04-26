@@ -21,3 +21,14 @@
 .testimonial-carousel .quote-icon svg {
     fill: #e5e5e5
 }
+
+.testimonial-carousel .splide__arrow  {
+    border: 1px solid #e5e5e5;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.testimonial-carousel .splide__arrow svg {
+    width: 16px; 
+    height: 16px;
+}
