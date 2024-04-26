@@ -33,7 +33,7 @@
 
 .reviews-carousel-section .grid-item:first-child {
     display: flex;
-    justify-self: flex-end
+    justify-content: flex-end;
 }
 
 .reviews-carousel-section .left-side {
