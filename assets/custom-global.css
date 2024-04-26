@@ -73,6 +73,20 @@ h2 {
     transform: scaleX(-1);
 }
 
+
+.footer {
+    background-color: black;
+}
+
+.footer * {
+    color: white;
+    fill: white;
+}
+
+.footer input {
+border-color: white;
+}
+
 @media screen and (min-width: 1150px) {
     #shopify-section-template--16704955089049__featured-collection .section-header {
         grid-template-columns: 100%;
