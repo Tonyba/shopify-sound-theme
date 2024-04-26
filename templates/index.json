@@ -172,7 +172,7 @@
       "type": "product-grid-with-photo",
       "settings": {
         "bg_color": "#f3f3f3",
-        "heading": "",
+        "heading": "At-Home Products",
         "col_img": "shopify:\/\/shop_images\/effafaad017dc4d91153eb1eaf4ca50e.jpg",
         "top_prod": "ipl-hair-remover",
         "bottom_prods": [
