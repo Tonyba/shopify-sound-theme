@@ -227,47 +227,8 @@ Supported variables
       {%- endfor -%}
     {%- endif -%}
   </div>
-   {%- if show_quick_buy and product.available -%}
-        <div class="bottombuttos">
-    <div class="learnmore"> <a href="{{ product.url }}" class="view-more-button">Learn More</a>
-</div>
 
-        <div class="product-card__quick-buy">
-          {%- assign quick_add_label = 'product.general.quick_add' | t -%}
 
-          {%- if product.variants.size == 1 and product.selling_plan_groups.size == 0 -%}
-            {%- form 'product', product, is: 'product-form' -%}
-              <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-
-              <div class="pointer-fine:hidden">
-                <button type="submit" is="custom-button" class="product-card__mobile-quick-buy-button" aria-label="{{ quick_add_label | escape }}">
-                  {%- render 'icon' with 'quick-buy-cart' -%}
-                </button>
-              </div>
-
-              <div class="pointer-coarse:hidden">
-                {%- render 'button', type: 'submit', content: quick_add_label -%}
-              </div>
-            {%- endform -%}
-          {%- else -%}
-            {%- capture quick_buy_id -%}quick-buy-{{ section.id }}-{{ product.id }}{%- endcapture -%}
-
-            <div class="pointer-fine:hidden">
-              <button type="button" aria-controls="{{ quick_buy_id }}" aria-expanded="false" aria-label="{{ quick_add_label | escape }}" is="custom-button" class="product-card__mobile-quick-buy-button">
-                {%- render 'icon' with 'quick-buy-cart' -%}
-              </button>
-            </div>
-
-            <div class="pointer-coarse:hidden">
-              {%- render 'button', content: quick_add_label, aria_controls: quick_buy_id -%}
-            </div>
-
-            <quick-buy-drawer id="{{ quick_buy_id }}" header-bordered open-from="bottom" handle="{{ product.handle }}" role="region" aria-live="polite" class="quick-buy-drawer drawer">
-              {%- comment -%}Quick buy content is filled on demand for performance reasons {%- endcomment -%}
-            </quick-buy-drawer>
-          
-          {%- endif -%}
-        </div>
-         </div>
-      {%- endif -%}
+  
+  
 </product-card>
