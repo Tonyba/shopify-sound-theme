@@ -1,5 +1,6 @@
-.product-grid-col-photo .container > .grid {
-    padding: 100px 0
+.product-grid-col-photo .container  {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .product-grid-col-photo .col-img img {
