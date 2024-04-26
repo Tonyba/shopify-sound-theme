@@ -11,6 +11,13 @@
     margin-bottom: 20px;
 }
 
+.two-cols-image-carousel .splide__pagination button {
+        width: 10px;
+        height: 10px;
+        background-color: black;
+        border-radius: 100%;
+}
+
 .two-cols-image-carousel .text{
     margin-bottom: 20px;
 }
