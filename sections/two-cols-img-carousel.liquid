@@ -5,23 +5,22 @@
     <div class="grid cols-2">
         <div class="grid-item">
         
-            <h2>{{ section.settings.heading }}</h2>
-            <h3>{{ section.settings.subheading }}</h3>
-            <p>{{ section.settings.text }}</p>
+            <h2 class="heading" >{{ section.settings.heading }}</h2>
+            <h3 class="subheading" >{{ section.settings.subheading }}</h3>
+            <p class="text" >{{ section.settings.text }}</p>
             
             <img src="//shop-sitetest.myshopify.com/cdn/shop/files/07c7995e598f637918823e6733524978.png?v=1714104320" alt="logos">
-           
     
         </div>
         <div class="grid-item">
             <div class="splide image-carousel">
                 <div class="splide__track">
-                    <div class="splide__list">
-                        <div class="splide__slide">
+                    <div class="splide__list">    
                             {% for item in section.blocks %}
-                                <img src="{{ item.settings.image | image_url }}" alt="img slide" />
-                            {% endfor %}
-                        </div>
+                                <div class="splide__slide">
+                                    <img src="{{ item.settings.image | image_url }}" alt="img slide" />
+                                </div>
+                            {% endfor %}                              
                     </div>
                 </div>
             </div>
