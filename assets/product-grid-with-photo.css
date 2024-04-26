@@ -10,6 +10,11 @@
 }
 
 
+
+.horizontal-custom-prod .product-desc {
+    color: #B3B3B3;
+}
+
 .horizontal-custom-prod .product-price {
     font-size: 18px;
     font-weight: 600;
