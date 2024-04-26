@@ -3,6 +3,10 @@
     padding-bottom: 100px;
 }
 
+.product-grid-col-photo h2 {
+    margin-bottom: 50px;
+}
+
 .product-grid-col-photo .col-img img {
     width: 100%;
     height: 100%;
