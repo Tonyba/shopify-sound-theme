@@ -10,6 +10,7 @@
 .reviews-carousel-section .scroll-wrapper {
     display: flex;
     white-space: nowrap;
+    max-width: 500px;
 }
 
 /* .reviews-carousel-section > .grid-item:last-child {
