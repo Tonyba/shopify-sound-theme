@@ -2,7 +2,14 @@
 
 
 <div class="grid two-cols" >
-
+    <div class="grid-item">
+        <div class="col-img">
+            <img src="{{ section.settings.col_img  | image_url }}" decoding="async" loading="lazy" alt="Column image">
+        </div>
+    </div>
+    <div class="grid-item">
+        {% render 'horizontal-product' product: section.settings.top_prod %}
+    </div>
 </div>
 
 
