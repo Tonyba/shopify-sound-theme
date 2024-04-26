@@ -15,7 +15,7 @@
 .reviews-carousel-section .os-scrollbar-handle {
     background-color: black !important;
     max-width: 120px;
-   
+   cursor: grab;
 }
 
 .reviews-carousel-section .os-scrollbar-track  {
