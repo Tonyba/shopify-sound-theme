@@ -13,9 +13,13 @@
             </div>
             <div class="grid-item">
                 <div class="top-product">
-                    {% render 'custom-horizontal-product' product: section.settings.top_prod is_big: true %}
+                    {% render 'custom-horizontal-product' product: section.settings.top_prod %}
                 </div>
-                
+                <div class="bottom-products grid cols-2 gap-20">
+                    {% for product in section.settings.bottom_prods %}
+                        {% render 'custom-horizontal-product' product: product  %}
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>    
