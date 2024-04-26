@@ -39,7 +39,7 @@
 .reviews-carousel-section .left-side {
     display: flex;
     justify-content: flex-start;
-    min-width: 1000px;
+    min-width: 797px;
 }
 
 .reviews-carousel-section .left-side-inner {
@@ -48,6 +48,7 @@
 
 .reviews-carousel-section a {
     margin-top: 20px;
+    border-radius: 0;
 }
 
 .reviews-carousel-section .left-side-inner {
