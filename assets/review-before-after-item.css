@@ -14,3 +14,8 @@
     color: #575757;
     font-size: 15px;
 }
+
+.review-before-after-item .review-author {
+    margin-top: 10px;
+    font-size: 18px;
+}
