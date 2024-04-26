@@ -240,7 +240,7 @@
         "background": "#f3f3f3",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
+        "heading_color": "#000000",
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
