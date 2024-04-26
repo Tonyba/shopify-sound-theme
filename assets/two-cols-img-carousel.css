@@ -5,9 +5,8 @@
     font-size: 99px;
     font-weight: 700;
 }
-
-.two-cols-image-carousel .subheading {
-    font-size: 30;
+.two-cols-image-carousel h3 {
+    font-size: 30px;
     font-weight: 500;
 }
 
