@@ -214,8 +214,11 @@
         "vid_4": "<blockquote class=\"tiktok-embed\" cite=\"https:\/\/www.tiktok.com\/@pabloelectrum\/video\/7360081977627774213\" data-video-id=\"7360081977627774213\" style=\"max-width: 605px;min-width: 325px;height:580px;\"> <section> <a target=\"_blank\" title=\"@pabloelectrum\" href=\"https:\/\/www.tiktok.com\/@pabloelectrum?refer=embed\">@pabloelectrum<\/a> <a title=\"tomacorriente\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/tomacorriente?refer=embed\">#tomacorriente<\/a> <a title=\"electricidad\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/electricidad?refer=embed\">#electricidad<\/a> <a title=\"cortocircuito\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/cortocircuito?refer=embed\">#cortocircuito<\/a> <a title=\"electricity\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/electricity?refer=embed\">#electricity<\/a> <a title=\"energy\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/energy?refer=embed\">#energy<\/a> <a title=\"enchufe\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/enchufe?refer=embed\">#enchufe<\/a> <a target=\"_blank\" title=\"♬ sonido original - Pablo ELECTRUM\" href=\"https:\/\/www.tiktok.com\/music\/sonido-original-7360082048616057605?refer=embed\">♬ sonido original - Pablo ELECTRUM<\/a> <\/section> <\/blockquote> <script async=\"\" src=\"https:\/\/www.tiktok.com\/embed.js\"><\/script>"
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
+    "featured_collection_new_dgJL97": {
+      "type": "featured-collection-new",
+      "custom_css": [
+        ".section-header {justify-items: center; margin: auto;}"
+      ],
       "settings": {
         "collection": "automated-collection",
         "products": [
@@ -229,33 +232,6 @@
         "products_per_row_desktop": 3,
         "subheading": "",
         "title": "Best Bundles",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "#f3f3f3",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "#000000",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "featured_collection_new_dgJL97": {
-      "type": "featured-collection-new",
-      "settings": {
-        "collection": "automated-collection",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "Featured new",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -311,7 +287,6 @@
     "reviews_scroller_jWQtdn",
     "product_grid_with_photo_pp868q",
     "customer_testimonials_7AXfGP",
-    "featured-collection",
     "featured_collection_new_dgJL97",
     "two_cols_img_carousel_7KGijH",
     "blog_home_loop_ttXaDD"
