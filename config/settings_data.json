@@ -162,7 +162,8 @@
       ".learnmore {display: inline-flex; width: 50%;}",
       ".view-more-button {border: 1px solid; width: 100%; border-radius: 100px; padding: 9px 18px; text-align: center;}",
       ".bottombuttos {display: inline-flex; justify-content: space-between; align-items: center; flex-wrap: nowrap; flex-direction: row; padding: 10px 10px 20px 10px;}",
-      ".two-cols-products-section .text-subdued {color: black; font-weight: bold;}"
+      ".two-cols-products-section .text-subdued {color: black; font-weight: bold;}",
+      ".testimonial-carousel .icon-quote svg{fill:#e5e5e5e5;}"
     ]
   }
 }
