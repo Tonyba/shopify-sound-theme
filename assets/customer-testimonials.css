@@ -10,8 +10,9 @@
     position: absolute;
     fill: #b2b2b2;
     z-index: -1;
-    top: 10px;
+    top: 25px;
     left: 0;
+    transform: scaleX();
 }
 
 .testimonial-carousel .testimonial-slide {
