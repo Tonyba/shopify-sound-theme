@@ -21,6 +21,10 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
+.cols-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
 .align-item-center {
     align-items: center;
 }
@@ -46,3 +50,11 @@ h2 {
 .splide__arrow--prev svg {
     transform: scaleX(-1);
 }
+
+@media screen and (min-width: 1150px) {
+    #shopify-section-template--16704955089049__featured-collection .section-header {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+}
+
