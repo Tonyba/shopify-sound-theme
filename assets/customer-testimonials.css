@@ -10,7 +10,7 @@
     position: absolute;
     fill: #b2b2b2;
     z-index: -1;
-    top: 25px;
+    top: 0px;
     left: 0;
     transform: scaleX();
 }
