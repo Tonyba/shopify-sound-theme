@@ -191,10 +191,7 @@ Supported variables
       {%- endfor -%}
     {%- endif -%}
   </div>
-  {% for product in collection.products %}
-    <a href="{{ product.url }}" class="view-more-button">View More</a>
-  </div>
-{% endfor %}
+
      {%- if show_quick_buy and product.available -%}
         <div class="product-card__quick-buy">
           {%- assign quick_add_label = 'product.general.quick_add' | t -%}
