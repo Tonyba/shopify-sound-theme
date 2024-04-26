@@ -13,6 +13,11 @@
     max-width: 500px;
 }
 
+.reviews-carousel-section .scroll-wrapper .review-before-after-item {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
 /* .reviews-carousel-section > .grid-item:last-child {
     overflow: hidden;
 } */
