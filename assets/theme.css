@@ -9878,3 +9878,7 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
+.two-cols-products-section .product-card__quick-buy {
+  opacity: 1;
+  visibility: visible;
+}
