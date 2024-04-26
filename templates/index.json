@@ -172,23 +172,13 @@
       "type": "product-grid-with-photo",
       "settings": {
         "bg_color": "#f3f3f3",
-        "heading": "At-Home Products",
+        "heading": "",
         "col_img": "shopify:\/\/shop_images\/effafaad017dc4d91153eb1eaf4ca50e.jpg",
         "top_prod": "ipl-hair-remover",
         "bottom_prods": [
           "crystal-hair-remover",
           "laser-light-therapy-mask"
         ]
-      }
-    },
-    "customer_testimonials_W7PxDW": {
-      "type": "customer-testimonials",
-      "settings": {
-        "heading": "",
-        "vid_1": "",
-        "vid_2": "",
-        "vid_3": "",
-        "vid_4": ""
       }
     },
     "featured-collection": {
@@ -217,6 +207,46 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "press": {
+      "type": "press",
+      "blocks": {
+        "16644243327ba53d2a-0": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Share info about what your customers say about your products.",
+            "show_rating": false,
+            "rating": 4
+          }
+        },
+        "16644243327ba53d2a-1": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Or share content about your promotion, offers...",
+            "show_rating": false,
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "16644243327ba53d2a-0",
+        "16644243327ba53d2a-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
     }
   },
   "order": [
@@ -225,7 +255,7 @@
     "two_cols_products_gRDEqC",
     "reviews_scroller_jWQtdn",
     "product_grid_with_photo_pp868q",
-    "customer_testimonials_W7PxDW",
-    "featured-collection"
+    "featured-collection",
+    "press"
   ]
 }
