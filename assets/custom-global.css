@@ -80,7 +80,10 @@ h2 {
 
 .footer * {
     color: white;
-    fill: white;
+}
+
+.footer .social-media svg {
+    fill: white
 }
 
 .footer input {
