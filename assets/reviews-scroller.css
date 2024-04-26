@@ -13,6 +13,14 @@
    
 }
 
+.reviews-carousel-section {
+    display: flex;
+}
+
+.reviews-carousel-section > div {
+    width: 50%;
+}
+
 .reviews-carousel-section .scroll-wrapper .review-before-after-item {
     flex-grow: 1;
     flex-shrink: 0;
