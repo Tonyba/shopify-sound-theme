@@ -154,7 +154,7 @@ Supported variables
           {%- endif -%}
         </div>
 
-      {% render 'five-stars' %}
+     <div class="star-rating">{% render 'five-stars' %}</div> 
 
       {%- else -%}
         <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></span>
