@@ -46,13 +46,10 @@
     }
 
     defer(function() {
-        const customScroll = document.querySelector('scroll-wrapper');
+        const customScroll = document.querySelector('.scroll-wrapper');
        
         new OverlayScrollbars(customScroll, {
-            overflow: {
-              y: 'hidden',
-              x:'scroll'
-            },
+            
           });
 
     });
