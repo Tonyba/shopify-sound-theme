@@ -33,6 +33,36 @@
     </div>
 </div>
 
+<script defer>
+    (function () {
+
+        function defer(method) {
+            if (typeof Splide != 'undefined' ) {
+                method();
+            } else {
+                setTimeout(function() { defer(method) }, 50);
+            }
+        }
+
+        defer(function() {
+
+            const testimonialCarousel = document.querySelector('.splide.image-carousel');
+
+            const args = {
+                perPage: 1,
+                arrows: false,
+                pagination: true,
+                type: 'loop'
+            }
+
+            const splideInstance = new Splide(testimonialCarousel, args);
+        
+            splideInstance.mount();
+
+        });
+     
+    })();
+</script>
 
 
 {% schema %}
