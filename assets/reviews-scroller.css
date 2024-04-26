@@ -31,6 +31,11 @@
     display: flex;
 }
 
+.reviews-carousel-section .grid-item:first-child {
+    display: flex;
+    justify-self: flex-end
+}
+
 .reviews-carousel-section > div {
     width: 50%;
 }
