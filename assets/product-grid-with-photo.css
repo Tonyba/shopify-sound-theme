@@ -7,6 +7,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
+    max-height: 1080px;
 }
 
 .product-grid-col-photo .horizontal-img {
