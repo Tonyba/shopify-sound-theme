@@ -11,6 +11,11 @@
 }
 
 .two-cols-image-carousel .left-info {
+    padding: 50px 30px;
+    background-color: #f3f3f3;
+}
+
+.two-cols-image-carousel .left-info {
 text-align: center;
 }
 
