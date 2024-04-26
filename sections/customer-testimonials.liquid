@@ -14,7 +14,7 @@
                             <div class="testimonials-stars">{% render 'five-stars' %}</div>
                             <p class="testimonial-text">{{ testimonial.settings.testimonial_text }}</p>
                             {% if testimonial.testimonial_img != blank %}
-                                <img loading="lazy" decoding="async" width="200" height="200" src="{{ testimonial.settings.testimonial_img | image_url}}" alt="Testimonial">
+                                <img loading="lazy" decoding="async" width="130" height="130" src="{{ testimonial.settings.testimonial_img | image_url}}" alt="Testimonial">
                             {% endif %}
                         </div>
                     {% endfor %}
