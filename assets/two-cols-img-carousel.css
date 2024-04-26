@@ -41,7 +41,7 @@ text-align: center;
     color: white;
     background-color: black;
     border-radius: 50px;
-    padding: 20px 25px;
+    padding: 20px 35px;
     display: block;
     width: max-content;
     margin: auto;
@@ -50,4 +50,6 @@ text-align: center;
     left: 10%;
     transform: translateX(50%);
     z-index: 1;
+    font-size: 20px;
+    font-weight: 600;
 }
