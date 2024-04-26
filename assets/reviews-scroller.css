@@ -12,6 +12,10 @@
     padding-bottom: 60px;
 }
 
+.reviews-carousel-section .os-scrollbar-handle {
+    background-color: black;
+}
+
 .reviews-carousel-section {
     display: flex;
 }
