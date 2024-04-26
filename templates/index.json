@@ -248,6 +248,17 @@
     },
     "two_cols_img_carousel_7KGijH": {
       "type": "two-cols-img-carousel",
+      "blocks": {
+        "slide_RVEGCh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a9b63c188eb1ca2218bd700b30ef32ff_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_RVEGCh"
+      ],
       "settings": {
       }
     }
