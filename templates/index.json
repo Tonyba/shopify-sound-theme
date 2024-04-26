@@ -249,6 +249,11 @@
     "two_cols_img_carousel_7KGijH": {
       "type": "two-cols-img-carousel",
       "blocks": {
+        "slide_AdGepM": {
+          "type": "slide",
+          "settings": {
+          }
+        },
         "slide_RVEGCh": {
           "type": "slide",
           "settings": {
@@ -263,10 +268,14 @@
         }
       },
       "block_order": [
+        "slide_AdGepM",
         "slide_RVEGCh",
         "slide_Pkcijm"
       ],
       "settings": {
+        "heading": "986,800",
+        "subheading": "Over 986,800 Satisfied Users in 60+ Countries",
+        "text": "Bring your devices together for more personalized help around the home.1 And create automations tailored to your needs to simplify everyday tasks."
       }
     }
   },
