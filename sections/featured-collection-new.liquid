@@ -46,7 +46,7 @@
             {%- assign products = section.settings.products | default: section.settings.collection.products -%}
 
             {%- for product in products limit: section.settings.products_count -%}
-              {%- render 'product-card', product: product, stacked: section.settings.stack_products, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
+              {%- render 'product-card-featured-new', product: product, stacked: section.settings.stack_products, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
             {%- else -%}
               {%- for i in (1..section.settings.products_count) -%}
                 {%- capture placeholder_image -%}product-{% cycle '1', '2', '3', '4', '5', '6' %}{%- endcapture -%}
