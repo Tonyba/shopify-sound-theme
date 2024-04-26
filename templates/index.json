@@ -271,6 +271,15 @@
         "subheading": "Over <span>986,800<\/span> Satisfied Users in 60+ Countries",
         "text": "Bring your devices together for more personalized help around the home.1 And create automations tailored to your needs to simplify everyday tasks."
       }
+    },
+    "blog_home_loop_ttXaDD": {
+      "type": "blog-home-loop",
+      "settings": {
+        "heading": "Blogs",
+        "btn_text": "View All",
+        "btn_link": "shopify:\/\/blogs\/news",
+        "blog_posts": "news"
+      }
     }
   },
   "order": [
@@ -281,6 +290,7 @@
     "product_grid_with_photo_pp868q",
     "customer_testimonials_7AXfGP",
     "featured-collection",
-    "two_cols_img_carousel_7KGijH"
+    "two_cols_img_carousel_7KGijH",
+    "blog_home_loop_ttXaDD"
   ]
 }
