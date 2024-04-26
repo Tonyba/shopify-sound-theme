@@ -1,16 +1,31 @@
 
+<div class="horizontal-custom-prod">
+    <div class="grid cols-2">
+        <div class="grid-item">
+            <div class="stars-rating">  {% render 'five-stars'  %}</div>
+            <h3>{{ product.title }}</h3>
+            <p class="product-desc" >90% hair reduction in 4 weeks</p>
+            <div class="product-price">
+                {%- if settings.currency_code_enabled -%}
+                    {{- product.price | money_with_currency -}}
+                  {%- else -%}
+                    {{- product.price | money -}}
+                  {%- endif -%}
+            </div>
 
-<div class="grid cols-2">
+            <a type="button" class="button" href="{{ product.url }}">Shop Now</a>
 
-
-    <div class="grid-item"></div>
-    <div class="grid-item">
-        {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 64px, 80px', widths: '64,128,80,160', class: 'horizontal-product__image rounded-xs' -}}
+        </div>
+        <div class="grid-item">
+            <a href="{{ product.url }}">           
+             {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 64px, 80px', widths: '64,128,80,160', class: 'horizontal-product__image rounded-xs' -}}
+            </a>
+        </div>
     
     </div>
 
-
-
 </div>
+
+
 
 
