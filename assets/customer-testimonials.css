@@ -1,0 +1,23 @@
+.testimonial-carousel .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonial-carousel .testimonial-text {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.testimonial-carousel img {
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.testimonial-carousel .quote-icon svg {
+    fill: #e5e5e5
+}
