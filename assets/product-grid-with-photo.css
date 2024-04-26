@@ -8,3 +8,9 @@
     font-weight: 700;
     font-size: 27px;
 }
+
+
+.horizontal-custom-prod .product-price {
+    font-size: 17px;
+    font-weight: 600;
+}
