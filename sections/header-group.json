@@ -2,6 +2,18 @@
   "type": "header",
   "name": "Header group",
   "sections": {
+    "custom_html_nMH4Xg": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<span class=\"top-shop-message\">Free Shipping &amp; Up To 55% Off<\/span>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "disabled": true,
@@ -42,6 +54,7 @@
     }
   },
   "order": [
+    "custom_html_nMH4Xg",
     "announcement-bar",
     "header"
   ]
