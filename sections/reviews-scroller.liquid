@@ -34,11 +34,24 @@
 
 <script src="{{ 'OverlayScrollbars.min.js' | asset_url }}" defer></script>
 <script defer>
-    (function () {
+(function () {
 
-       console.log(OverlayScrollbars)
+    function defer(method) {
+
+        if ( typeof OverlayScrollbars != 'undefined' ) {
+            method();
+        } else {
+            setTimeout(function() { defer(method) }, 50);
+        }
+    }
+
+    defer(function() {
+        
+            console.log(OverlayScrollbars)
     
-    })();
+    });
+    
+})();
 </script>
 
  
