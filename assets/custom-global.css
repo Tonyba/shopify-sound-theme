@@ -54,7 +54,7 @@ h2 {
 @media screen and (min-width: 1150px) {
     #shopify-section-template--16704955089049__featured-collection .section-header {
         grid-template-columns: 100%;
-        text-align: center;
+        justify-content: center;
     }
 }
 
