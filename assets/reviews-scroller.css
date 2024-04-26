@@ -22,6 +22,11 @@
     display: block;
 }
 
+
+.reviews-carousel-section .os-content {
+    display: flex;
+}
+
 /* .reviews-carousel-section > .grid-item:last-child {
     overflow: hidden;
 } */
