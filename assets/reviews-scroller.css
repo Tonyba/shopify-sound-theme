@@ -36,6 +36,10 @@
     justify-self: flex-end
 }
 
+.reviews-carousel-section .left-side {
+    max-width: 300px;
+}
+
 .reviews-carousel-section > div {
     width: 50%;
 }
