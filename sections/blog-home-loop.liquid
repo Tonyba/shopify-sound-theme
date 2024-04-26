@@ -9,9 +9,7 @@
             <a class="btn" href="{{ section.settings.btn_link }}">{{ section.settings.btn_text }}</a>
         </div>
     </div>
-    <div class="grid 5-cols">
-
-        {{ section.settings.blog_posts.articles | json  }}
+    <div class="grid 5-cols"> 
 
         {% for post in section.settings.blog_posts.articles %}
 
