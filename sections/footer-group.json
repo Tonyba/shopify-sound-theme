@@ -27,11 +27,12 @@
             "show_menu_title": true
           }
         },
-        "links_VGbnmB": {
-          "type": "links",
+        "text_dcNPAa": {
+          "type": "text",
           "settings": {
-            "menu": "footer",
-            "show_menu_title": true
+            "title": "Keep In Touch",
+            "content": "<p>Support: Support@Skinpetra.com<\/p><p>Distributors: Distributor@Skinpetra.com<\/p><p><\/p><p>Mon-Fr: 9AM - 7PM EST<\/p><p>+1833-2558-99658<\/p>",
+            "enable_follow_on_shop": true
           }
         },
         "newsletter": {
@@ -48,7 +49,7 @@
         "text",
         "links_J6WQRU",
         "links",
-        "links_VGbnmB",
+        "text_dcNPAa",
         "newsletter"
       ],
       "settings": {
