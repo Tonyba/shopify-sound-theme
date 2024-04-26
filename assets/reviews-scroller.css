@@ -41,6 +41,10 @@
     justify-content: flex-start;
 }
 
+.reviews-carousel-section .left-side-inner {
+    max-width: 410px;
+}
+
 .reviews-carousel-section a {
     margin-top: 20px;
 }
