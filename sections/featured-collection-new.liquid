@@ -50,7 +50,7 @@
             {%- else -%}
               {%- for i in (1..section.settings.products_count) -%}
                 {%- capture placeholder_image -%}product-{% cycle '1', '2', '3', '4', '5', '6' %}{%- endcapture -%}
-                {%- render 'product-card-featured-new-placeholder', stacked: section.settings.stack_products, placeholder_image: placeholder_image, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, text_alignment: settings.product_info_alignment -%}
+                {%- render 'product-card-placeholder', stacked: section.settings.stack_products, placeholder_image: placeholder_image, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, text_alignment: settings.product_info_alignment -%}
               {%- endfor -%}
             {%- endfor -%}
           </product-list>
