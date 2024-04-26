@@ -21,6 +21,10 @@
 }
 
 .reviews-carousel-section {
+    max-width: 570px;
+}
+
+.reviews-carousel-section {
     display: flex;
 }
 
