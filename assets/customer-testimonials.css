@@ -59,6 +59,7 @@
 
 .testimonial-carousel .splide__arrows {
     display: flex;
+    order: 1;
 }
 
 
