@@ -1,6 +1,16 @@
 
 {{ 'custom-horizontal-product.css' | asset_url | stylesheet_tag }}
 
+{%liquid 
+
+    assign desktop_img = "165px"
+
+    if is_big
+        assign desktop_img = "280px"
+    endif
+
+%}
+
 <div class="horizontal-custom-prod">
     <div class="grid cols-2">
         <div class="grid-item">
@@ -20,7 +30,7 @@
         </div>
         <div class="grid-item horizontal-img">
             <a href="{{ product.url }}">           
-             {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 64px, 165px', widths: '64,128,165,160', class: 'horizontal-product__image rounded-xs' -}}
+             {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 64px, {{desktop_img}}', widths: '64,128,165,{{desktop_img}}', class: 'horizontal-product__image rounded-xs' -}}
             </a>
         </div>
     
