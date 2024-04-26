@@ -255,16 +255,16 @@
             "image": "shopify:\/\/shop_images\/a9b63c188eb1ca2218bd700b30ef32ff_1.png"
           }
         },
-        "slide_Pkcijm": {
+        "slide_nkKnez": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/07c7995e598f637918823e6733524978.png"
+            "image": "shopify:\/\/shop_images\/a9b63c188eb1ca2218bd700b30ef32ff_1.png"
           }
         }
       },
       "block_order": [
         "slide_RVEGCh",
-        "slide_Pkcijm"
+        "slide_nkKnez"
       ],
       "settings": {
         "heading": "986,800",
