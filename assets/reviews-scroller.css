@@ -53,11 +53,11 @@
 }
 
 .reviews-carousel-section > div:first-child {
-   width: 30%;
+   width: 35%;
 }
 
 .reviews-carousel-section > div:last-child {
-    width: 70%;
+    width: 65%;
 }
 
 .reviews-carousel-section .scroll-wrapper .review-before-after-item {
