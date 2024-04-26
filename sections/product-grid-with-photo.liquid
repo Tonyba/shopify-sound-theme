@@ -1,18 +1,23 @@
 {{ 'product-grid-with-photo.css' | asset_url | stylesheet_tag }}
 
 
-<div class="grid two-cols" >
-    <div class="grid-item">
-        <div class="col-img">
-            {% if  section.settings.col_img != blank %}
-            <img src="{{ section.settings.col_img  | image_url }}" decoding="async" loading="lazy" alt="Column image">
-            {% endif %}
+
+<div class="container">
+    <div class="grid cols-2 " >
+        <div class="grid-item">
+            <div class="col-img">
+                {% if  section.settings.col_img != blank %}
+                <img src="{{ section.settings.col_img  | image_url }}" decoding="async" loading="lazy" alt="Column image">
+                {% endif %}
+            </div>
+        </div>
+        <div class="grid-item">
+            {% render 'horizontal-product' product: section.settings.top_prod %}
         </div>
     </div>
-    <div class="grid-item">
-        {% render 'horizontal-product' product: section.settings.top_prod %}
-    </div>
 </div>
+
+
 
 
 {% schema %}
