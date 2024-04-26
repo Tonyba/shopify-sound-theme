@@ -45,4 +45,8 @@ text-align: center;
     display: block;
     width: max-content;
     margin: auto;
+    top: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(50%);
 }
