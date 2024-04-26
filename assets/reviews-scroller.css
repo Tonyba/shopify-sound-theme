@@ -13,7 +13,7 @@
 }
 
 .reviews-carousel-section .os-scrollbar-handle {
-    background-color: black;
+    background-color: black !important;
 }
 
 .reviews-carousel-section {
