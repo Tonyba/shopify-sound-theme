@@ -196,7 +196,17 @@ Supported variables
           {%- break -%}
        
         {%- endif -%}
-     {%- if show_quick_buy and product.available -%}
+   
+        
+      {%- endfor -%}
+
+
+
+
+      
+    {%- endif -%}
+
+  {%- if show_quick_buy and product.available -%}
         <div class="bottombuttons">
     <div class="learnmores"> <a href="{{ product.url }}" class="view-more-buttons">Learn More</a>
 </div>
@@ -239,10 +249,9 @@ Supported variables
         </div>
          </div>
       {%- endif -%}
-        
-      {%- endfor -%}
-      
-    {%- endif -%}
+
+
+    
     
   </div>
 
