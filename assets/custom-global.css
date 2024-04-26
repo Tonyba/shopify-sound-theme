@@ -17,6 +17,10 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+.cols-2 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .align-item-center {
     align-items: center;
 }
