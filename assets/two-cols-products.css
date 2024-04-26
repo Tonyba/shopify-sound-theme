@@ -1,5 +1,10 @@
-.two-cols-products-section product-card {
+.two-cols-products-section product-card,
+.two-cols-products-section .product-card__figure  img   {
     height: 100%;
+}
+
+.two-cols-products-section .product-card__figure {
+    height: 985px;
 }
 
 .two-cols-products-section li {
