@@ -1,9 +1,16 @@
-.testimonial-carousel .testimonial {
+.testimonial-carousel .testimonial-slide {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap: 20px;
+}
+
+.testimonial-carousel {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .testimonial-carousel .testimonial-text {
@@ -45,7 +52,15 @@
 
 .testimonial-carousel .splide__pagination {
     gap: 20px;
+    margin-top: 40px;
 }
+
+
+
+.testimonial-carousel .splide__arrows {
+    display: flex;
+}
+
 
 .testimonial-carousel .splide__pagination button.is-active {
     background-color: black;
