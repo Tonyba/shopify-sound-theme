@@ -6,9 +6,13 @@
     font-weight: 700;
 }
 
-.two-cols-image-carousel h3 {
+.two-cols-image-carousel .subheading {
     font-size: 30;
     font-weight: 500;
+}
+
+.two-cols-image-carousel .left-info {
+text-align: center;
 }
 
 .two-cols-image-carousel p{
