@@ -9903,3 +9903,7 @@ split-lines {
 #shopify-section-template--16704955089049__featured_collection_new_dgJL97 .star-rating {
   order: -1;
 }
+
+#shopify-section-template--16704955089049__featured_collection_new_dgJL97 .product-card__aside {
+  margin-top: 30px;
+}
