@@ -9924,3 +9924,12 @@ split-lines {
   bottom:0;
 }
 .reviews-carousel-section{padding-left:30px;}
+
+#shopify-section-template--16704955089049__customer_testimonials_7AXfGP .grid.cols-4 {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(263px, 1fr))
+      max-width: 100%;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;;
