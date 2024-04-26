@@ -4,6 +4,14 @@
     margin-bottom: 100px;
 }
 
+.testimonial-carousel .icon-quote svg {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    fill: #b2b2b2;
+    z-index: -1;
+}
+
 .testimonial-carousel .testimonial-slide {
     display: flex;
     flex-direction: column;
