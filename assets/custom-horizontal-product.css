@@ -10,5 +10,6 @@
 }
 
 .product-grid-col-photo .horizontal-img {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
