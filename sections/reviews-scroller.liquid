@@ -14,15 +14,17 @@
 <div class="">
     <div class="reviews-carousel-section">
         <div class="grid-item">
-            <div class="left-side-wrapper">
+           
                 <div class="left-side">
-                    <h2>{{heading}}</h2>
-                    <p>{{ text }}</p>
-                    {% if btn_text != blank  %}
-                    <a type="button" class="button" href="{{ btn_link }}">{{ btn_text }}</a>
-                    {% endif %}
+                    <div class="left-side-inner">
+                        <h2>{{heading}}</h2>
+                        <p>{{ text }}</p>
+                        {% if btn_text != blank  %}
+                        <a type="button" class="button" href="{{ btn_link }}">{{ btn_text }}</a>
+                        {% endif %}
+                    </div>
                 </div>
-            </div>
+           
             
             
         </div>
