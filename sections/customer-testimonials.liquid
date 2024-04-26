@@ -10,8 +10,9 @@
     <div class="splide testimonial-carousel">
         <div class="splide__track">
             <div class="splide__list"> 
-                <div class="splide__slide">
+               
                     {% for testimonial in section.blocks %}
+                        <div class="splide__slide">
                         <div class="testimonial">
                             <div class="testimonials-stars">{% render 'five-stars' %}</div>
                             <p class="testimonial-text">{{ testimonial.settings.testimonial_text }}</p>
@@ -19,8 +20,9 @@
                                 <img loading="lazy" decoding="async" width="130" height="130" src="{{ testimonial.settings.testimonial_img | image_url}}" alt="Testimonial">
                             {% endif %}
                         </div>
+                    </div> 
                     {% endfor %}
-                </div> 
+               
             </div>
         </div>
     </div>
