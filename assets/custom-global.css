@@ -9,8 +9,17 @@
     color: white
 }
 
+.relative {
+    position: relative;
+}
+
 .grid {
     display: grid;
+}
+
+.top-shop-message {
+    background-color: black;
+    color: white
 }
 
 .cols-2 {
