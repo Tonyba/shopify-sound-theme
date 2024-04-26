@@ -29,6 +29,11 @@
     "product_color_display": "swatch",
     "product_info_alignment": "start",
     "cart_type": "drawer",
+    "social_facebook": "#",
+    "social_twitter": "#",
+    "social_pinterest": "#",
+    "social_instagram": "#",
+    "social_tiktok": "#",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [
