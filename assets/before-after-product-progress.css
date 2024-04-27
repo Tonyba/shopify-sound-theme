@@ -13,6 +13,7 @@
     max-width: 470px;
     margin: auto;
     border: 1px solid black;
+    display: flex;
 }
 
 .before-after-product-progress .tabs-header button  {
