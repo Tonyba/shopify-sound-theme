@@ -184,7 +184,7 @@
         "collage_images_alignment": "middle",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "rgba(0,0,0,0)",
         "button_background": "",
         "button_text_color": ""
       }
