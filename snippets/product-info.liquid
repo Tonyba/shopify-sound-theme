@@ -233,6 +233,11 @@
             {% endfor %}
           </ul>
          
+      
+      {%- when 'right-side-info-features' -%}
+          {% render 'right-side-info-features' %}
+
+
       {%- when 'inventory' -%}
         <div class="product-info__inventory {{ block.shopify_attributes }}">
           {%- render 'inventory', product: product, low_threshold: block.settings.low_inventory_threshold, form_id: product_form_id -%}
