@@ -29,3 +29,7 @@
     background-color: black;
     color: white;
 }
+
+.before-after-product-progress .tab-content:not(.active) {
+    display: none;
+}
