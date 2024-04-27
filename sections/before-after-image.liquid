@@ -46,7 +46,22 @@ LIQUID
     {%- endif -%}
 
     <div class="section-stack__main">
-      <div {% render 'surface', class: 'before-after shadow', text_color: section.settings.before_text_color %}>
+
+      {% render 'before-after-image' 
+        before_text_color: section.settings.before_text_color, 
+        after_text_color: section.settings.after_text_color,
+        text_position: text_position, 
+        expand_image: section.settings.expand_image,
+        before_image: section.settings.before_image,
+        after_image: section.settings.after_image,
+        before_after_text_position: section.settings.before_after_text_position,
+        before_text: section.settings.before_text,
+        after_text: section.settings.after_text
+        drag_cursor_background: section.settings.drag_cursor_background,
+        drag_cursor_color: section.settings.drag_cursor_color
+      %}
+
+      {% comment %} <div {% render 'surface', class: 'before-after shadow', text_color: section.settings.before_text_color %}>
         <div {% render 'surface', class: 'before-after__before-image', text_color: section.settings.before_text_color %}>
           {%- capture sizes -%}(max-width: 999px) 100vw, {% if text_position == 'center' and section.settings.expand_image %}min({{ settings.page_width }}px, 100vw){% else %}1000px{% endif %}{%- endcapture -%}
 
@@ -87,7 +102,7 @@ LIQUID
             </svg>
           </split-cursor>
         </div>
-      </div>
+      </div> {% endcomment %}
     </div>
   </div>
 </div>
@@ -196,6 +211,7 @@ LIQUID
       "id": "drag_initial_position",
       "min": 0,
       "max": 100,
+      "step": 1,
       "unit": "%",
       "label": "Drag initial position",
       "default": 50
