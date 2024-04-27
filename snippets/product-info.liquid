@@ -225,14 +225,12 @@
 
         %}
         <h3 class="product-list-heading">{{ block.settings.list_heading }}</h3>
-       
+          <ul>
+            {% for text in product_text_list %}
+              <li>{{ text }}</li>
+            {% endfor %}
+          </ul>
          
-          {% for text in product_text_list %}
-
-            <p>{{ text }}</p>
-
-          {% endfor %}
-
       {%- when 'inventory' -%}
         <div class="product-info__inventory {{ block.shopify_attributes }}">
           {%- render 'inventory', product: product, low_threshold: block.settings.low_inventory_threshold, form_id: product_form_id -%}
