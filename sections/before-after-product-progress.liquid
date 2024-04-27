@@ -49,9 +49,7 @@
 
       function selectTab() {
         const btn = this;
-        const tabId = btn.id;
-
-        console.log(tabId);
+        const tabId = btn.getAttribute('data-target-id');
 
         [...tabHeader].forEach( function(item) {
             item.classList.remove('active');
