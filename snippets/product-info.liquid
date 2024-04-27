@@ -203,7 +203,7 @@
           </div>
         {%- endif -%}
 
-      {%- when 'quantity_selector' -%}
+      {% comment %} {%- when 'quantity_selector' -%}
         {%- if product.available -%}
           <div class="product-info__quantity-selector {{ block.shopify_attributes }}">
             <div class="form-control">
@@ -216,7 +216,7 @@
               </quantity-selector>
             </div>
           </div>
-        {%- endif -%}
+        {%- endif -%} {% endcomment %}
 
       {%- when 'inventory' -%}
         <div class="product-info__inventory {{ block.shopify_attributes }}">
