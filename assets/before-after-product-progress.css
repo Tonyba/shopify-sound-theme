@@ -35,8 +35,11 @@
 }
 
 .before-after-product-progress .tab-content-title{
-   
     font-weight: 600;
     font-size: 35px;
-    
+}
+
+.before-after-product-progress .tab-content-subtitle {
+    font-size: 30px;
+    font-weight: 400;
 }
