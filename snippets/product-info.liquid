@@ -36,7 +36,7 @@
       
       
       <div class="new-custom-price">
-        {%- when 'price' -%}
+       
           <div class="product-info__price">
             <div class="rating-with-text">
               {%- render 'price-list', variant: product.selected_or_first_available_variant, form_id: product_form_id, size: 'lg', block: block -%}
@@ -63,7 +63,7 @@
             {%- endif -%}
          </div>
       </div>
-      
+
       {%- when 'rating' -%}
         {%- comment -%}If the previous block is of type price, then the rating has been rendered inside it so we do not render it twice{%- endcomment -%}
 
