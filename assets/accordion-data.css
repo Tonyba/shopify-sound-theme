@@ -5,9 +5,16 @@ button.accordion {
     text-align: left;
     border: none;
     outline: none;
-    transition: 0.4s;
     display: flex;
     justify-content: space-between;
+}
+
+button.accordion .accordion-icon svg  {
+    transition: 0.2s;
+}
+
+button.accordion.active .accordion-icon svg {
+    transform: rotate(180deg);
 }
   
 
