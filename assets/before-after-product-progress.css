@@ -23,3 +23,9 @@
    text-align: center;
    width: 100%;
 }
+
+.before-after-product-progress .tabs-header button.active,
+.before-after-product-progress .tabs-header button:hover {
+    background-color: black;
+    color: white;
+}
