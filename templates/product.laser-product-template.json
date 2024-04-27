@@ -72,6 +72,11 @@
           "type": "right-side-info-features",
           "settings": {
           }
+        },
+        "accordion_data_HMmkUe": {
+          "type": "accordion-data",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -85,7 +90,8 @@
         "quantity_selector",
         "buy_buttons",
         "product_icon_list_z6aKEG",
-        "right_side_info_features_HKtxDQ"
+        "right_side_info_features_HKtxDQ",
+        "accordion_data_HMmkUe"
       ],
       "settings": {
         "full_width": true,
