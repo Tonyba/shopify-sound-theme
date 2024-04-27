@@ -30,6 +30,6 @@
     color: white;
 }
 
-.before-after-product-progress .tab-content:not(.active) {
+.before-after-product-progress .tab-content-item:not(.active) {
     display: none;
 }
