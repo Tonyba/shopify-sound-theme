@@ -22,10 +22,7 @@ button.accordion.active .accordion-icon svg {
     transform: rotate(180deg);
 }
 
-button.accordion.active  {
-    margin-bottom: 18px;
-}
-  
+
 
 .panel {
 max-height: 0;
