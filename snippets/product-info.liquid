@@ -227,7 +227,7 @@
         <h3 class="product-list-heading">{{ block.settings.list_heading }}</h3>
           <ul class="icon-list" >
             {% for text in product_text_list %}
-              <li class="icon-list-item">{{ text }}</li>
+              <li class="icon-list-item"> <span class="icon-list"> {% render 'icon-circle-check' %} </span>  {{ text }}</li>
             {% endfor %}
           </ul>
          
