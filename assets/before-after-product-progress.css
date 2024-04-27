@@ -50,6 +50,10 @@
    color: #222;
 }
 
+.before-after-product-progress .headings h2 {
+    font-weight: 600;
+}
+
 .before-after-product-progress  img {
     max-height: 480px;
     object-fit: cover;
