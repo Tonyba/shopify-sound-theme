@@ -10,7 +10,7 @@
 
         <div class="tabs-header">
             {% for tab in section.blocks %}
-                <button id="{{ tab.id }}" class="tab-header-btn">{{ tab.settings.title }}</button>
+                <button data-target-id="{{ tab.id }}" class="tab-header-btn">{{ tab.settings.title }}</button>
             {% endfor %}    
         </div>
 
