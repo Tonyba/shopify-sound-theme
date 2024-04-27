@@ -43,3 +43,11 @@
 
 /*right side info features info end*/
 
+/* variation | quantity */
+
+.new-custom-variation {
+    display: flex;
+    padding-right: 50px;
+}
+
+/* variation | quantity  end*/
