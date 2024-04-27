@@ -126,6 +126,28 @@
         "drag_cursor_color": "#000000"
       }
     },
+    "before_after_product_progress_FGYqGQ": {
+      "type": "before-after-product-progress",
+      "blocks": {
+        "slide_EcPAUb": {
+          "type": "slide",
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "before_text": "Before",
+            "after_text": "After"
+          }
+        }
+      },
+      "block_order": [
+        "slide_EcPAUb"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": ""
+      }
+    },
     "1714242086a4fbce2e": {
       "type": "apps",
       "blocks": {
@@ -156,6 +178,7 @@
   "order": [
     "main",
     "before_after_image_6LP9BY",
+    "before_after_product_progress_FGYqGQ",
     "1714242086a4fbce2e"
   ]
 }
