@@ -162,6 +162,8 @@
         "subheading": "",
         "title": "Before\/after",
         "content": "<p>Showcase your product benefit by using before\/after image comparison.<\/p>",
+        "before_image": "shopify:\/\/shop_images\/19773397446b797bf372c7bcb6d301ee.png",
+        "after_image": "shopify:\/\/shop_images\/effafaad017dc4d91153eb1eaf4ca50e.jpg",
         "expand_image": false,
         "text_position": "start",
         "before_after_text_position": "top",
