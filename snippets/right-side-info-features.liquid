@@ -1,3 +1,5 @@
+{{ 'accordion-data.css' | asset_url | stylesheet_tag }}
+
 <div class="grid cols-4 info-features">
     <div class="grid-item">
         <img src="https://cdn.shopify.com/s/files/1/0640/3588/1113/files/derma_430x.png?v=1714248225" width="40" height="40" decoding="async" alt="feature-1">
@@ -16,3 +18,28 @@
         <p>Free Shiping</p>
     </div>
 </div>
+
+<script async>
+    (function () {
+
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+        });
+        }
+    
+    })();
+</script>
