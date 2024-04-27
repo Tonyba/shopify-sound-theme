@@ -1,4 +1,4 @@
-.accordion {
+button.accordion {
     cursor: pointer;
     padding: 18px 0;
     width: 100%;
@@ -6,6 +6,8 @@
     border: none;
     outline: none;
     transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
 }
   
 
