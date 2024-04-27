@@ -6,7 +6,7 @@
     <div class="grid cols-2 align-item-center">
         <div class="grid-item">
             <div class="stars-rating">  {% render 'five-stars'  %}</div>
-            <h3>{{ product.title }}</h3>
+            <h3><a href="{{ product.url }}" >{{ product.title }}</a></h3>
             <p class="product-desc" >90% hair reduction in 4 weeks</p>
             <div class="product-price">
                 {%- if settings.currency_code_enabled -%}
