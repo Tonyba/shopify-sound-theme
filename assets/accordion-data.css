@@ -14,6 +14,10 @@ button.accordion {
     border-top: 1px solid black;
 }
 
+.accordion-data  {
+    margin-top: 10px;
+}
+
 .accordion-data .accordion-item:last-of-type {
     border-bottom: 1px solid black;
 } 
