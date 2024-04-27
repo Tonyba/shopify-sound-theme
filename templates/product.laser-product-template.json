@@ -35,12 +35,6 @@
             "size_chart_page": ""
           }
         },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {
@@ -85,7 +79,6 @@
         "price",
         "separator_Wia3pD",
         "variant_picker",
-        "rating",
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
@@ -111,28 +104,26 @@
         "input_text_color": ""
       }
     },
-    "related-products": {
-      "type": "related-products",
+    "before_after_image_6LP9BY": {
+      "type": "before-after-image",
       "settings": {
-        "recommendations_count": 6,
-        "products": [
-
-        ],
         "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "You may also like",
-        "content": "",
+        "subheading": "Visible Results Within 3 Weeks",
+        "title": "Full Body Hair Removal Treatment Less than 10 Minutes",
+        "content": "<p>Showcase your product benefit by using before\/after image comparison.<\/p>",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "top",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
       }
     },
     "1714242086a4fbce2e": {
@@ -164,7 +155,7 @@
   },
   "order": [
     "main",
-    "related-products",
+    "before_after_image_6LP9BY",
     "1714242086a4fbce2e"
   ]
 }
