@@ -48,7 +48,6 @@
           </div>
 
       {%- when 'variant_picker' -%}
-        <p>hey</p>
         <div class="new-custom-variation">
           <div class="product-info__variant-picker" {{ block.shopify_attributes }}>
             {%- render 'variant-picker', product: product, form_id: product_form_id, update_url: update_url, hide_sold_out_variants: block.settings.hide_sold_out_variants, block: block -%}
