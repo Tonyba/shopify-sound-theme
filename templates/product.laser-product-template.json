@@ -111,7 +111,7 @@
           "type": "slide",
           "settings": {
             "title": "1-4 Weeks",
-            "subtitle": "",
+            "subtitle": "3 treatments per week",
             "text": "",
             "before_text": "Before",
             "after_text": "After"
@@ -121,7 +121,7 @@
           "type": "slide",
           "settings": {
             "title": "5-8 Weeks",
-            "subtitle": "",
+            "subtitle": "3 treatments per week",
             "text": "",
             "before_text": "Before",
             "after_text": "After"
@@ -131,7 +131,7 @@
           "type": "slide",
           "settings": {
             "title": "8-12 Weeks",
-            "subtitle": "",
+            "subtitle": "3 treatments per week",
             "text": "",
             "before_text": "Before",
             "after_text": "After"
