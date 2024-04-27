@@ -12,7 +12,7 @@ button.accordion {
 }
 
 .accordion-item{
-    border-top: 1px solid black;
+    border-top: 1px solid #5F5F5F;
 }
 
 .accordion-data  {
@@ -20,7 +20,7 @@ button.accordion {
 }
 
 .accordion-data .accordion-item:last-of-type {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #5F5F5F;
 } 
 
 /* button.accordion.active {
