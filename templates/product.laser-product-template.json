@@ -57,6 +57,12 @@
             "payment_button_text_color": ""
           }
         },
+        "product_icon_list_z6aKEG": {
+          "type": "product-icon-list",
+          "settings": {
+            "list_heading": "Long-lasting hair removal.\u2028"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -73,6 +79,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "product_icon_list_z6aKEG",
         "description"
       ],
       "settings": {
