@@ -52,6 +52,7 @@
 .new-custom-variation .product-info__variant-picker {
     padding-right: 50px;
     margin-right: 50px;
+    border-right: 1px dashed #B1B1B1;
 }
 
 /* variation | quantity  end*/
