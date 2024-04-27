@@ -225,6 +225,7 @@
 
         %}
         <h3 class="product-list-heading">{{ block.settings.list_heading }}</h3>
+        {{ product_text_list | json }}
         {% for text in product_text_list %}
          <p>{{ text }}hey</p>
         {% endfor %}
