@@ -221,7 +221,7 @@
 
       {%-  when 'product-icon-list' -%}
         {%liquid 
-          assign product_text_list = product.metafields.custom.product_text_list | split: '-'
+          assign product_text_list = product.metafields.custom.product_text_list | split: '\n'
 
         %}
         <h3 class="product-list-heading">{{ block.settings.list_heading }}</h3>
