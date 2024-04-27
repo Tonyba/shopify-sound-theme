@@ -1,3 +1,5 @@
 .before-after-product-progress .headings {
     text-align: center;
+    max-width: 670px;
+    margin: auto;
 }
