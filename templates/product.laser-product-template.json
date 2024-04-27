@@ -114,7 +114,9 @@
             "subtitle": "3 treatments per week",
             "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
             "before_text": "Before",
-            "after_text": "After"
+            "before_image": "shopify:\/\/shop_images\/image_19.png",
+            "after_text": "Week 4",
+            "after_image": "shopify:\/\/shop_images\/image_18.png"
           }
         },
         "slide_QHgzCz": {
@@ -124,7 +126,7 @@
             "subtitle": "3 treatments per week",
             "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
             "before_text": "Before",
-            "after_text": "After"
+            "after_text": "Week 8"
           }
         },
         "slide_4AYcWE": {
@@ -134,7 +136,7 @@
             "subtitle": "3 treatments per week",
             "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
             "before_text": "Before",
-            "after_text": "After"
+            "after_text": "Week 12"
           }
         }
       },
