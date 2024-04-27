@@ -62,12 +62,6 @@
           "settings": {
             "list_heading": "Long-lasting hair removal.\u2028"
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
         }
       },
       "block_order": [
@@ -79,8 +73,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
-        "product_icon_list_z6aKEG",
-        "description"
+        "product_icon_list_z6aKEG"
       ],
       "settings": {
         "full_width": true,
