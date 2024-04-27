@@ -10,7 +10,6 @@
   
   /* Style the accordion panel. Note: hidden by default */
   .panel {
-    padding: 0 18px;
     display: none;
     overflow: hidden;
   }
