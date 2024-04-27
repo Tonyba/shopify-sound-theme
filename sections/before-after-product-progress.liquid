@@ -7,6 +7,17 @@
             <h2 class="heading">{{ section.settings.heading }}</h2>
             <h3 class="subheading">{{ section.settings.subheading }}</h3>
         </div>
+
+        <div class="tabs-header">
+            {% for tab in section.blocks %}
+                <button class="tab-header-btn">{{ tab.settings.title }}</button>
+            {% endfor %}    
+        </div>
+
+        <div class="tabs-content">
+        
+        </div>
+
     </div>
 
 </div>
