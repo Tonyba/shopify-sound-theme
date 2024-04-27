@@ -20,6 +20,11 @@
             "show_taxes_notice": false
           }
         },
+        "separator_Wia3pD": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -73,6 +78,7 @@
         "title",
         "badges",
         "price",
+        "separator_Wia3pD",
         "variant_picker",
         "rating",
         "payment_terms",
