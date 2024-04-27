@@ -57,6 +57,7 @@
         });
 
         [...tabContent].forEach((content) => {
+            console.log(content.id, tabId)
             content.classList.remove('active');
             if(content.id == tabId) content.classList.add('active');
         });
