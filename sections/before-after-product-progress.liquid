@@ -17,7 +17,7 @@
         <div class="tabs-content">
            
                 {% for item in section.blocks %}
-                    <div id="{{ item.id }}" class="tab-content-item grid cols-2 gap-100"> 
+                    <div id="{{ item.id }}" class="tab-content-item grid cols-2 gap-100 {% if forloop.index == 1 %} active{% endif %}"> 
                         <div class="grid-item">
                             <h4 class="tab-content-title">{{ item.settings.title }}</h4>
                             <h5 class="tab-content-subtitle">{{ item.settings.subtitle }}</h5>
