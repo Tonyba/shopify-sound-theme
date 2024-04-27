@@ -225,7 +225,7 @@
 
         %}
         <h3 class="product-list-heading">{{ block.settings.list_heading }}</h3>
-        {{ product.metafields.custom.product_text_list | json }}
+        {{ product.metafields.custom | json }}
         {% comment %} {% for text in product_text_list %}
          <p>{{ text }}hey</p>
         {% endfor %} {% endcomment %}
