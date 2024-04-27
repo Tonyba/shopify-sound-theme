@@ -4,6 +4,10 @@
     fill: #FF004A;
 }
 
+.icon-list .icon-list-item {
+    color: #777;
+}
+
 .product-list-heading {
     font-size: 21px;
     font-weight: 600;
