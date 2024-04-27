@@ -10,7 +10,7 @@ button.accordion {
     border-top: 1px solid black;
 }
 
-.accordion-data .accordion:last-child {
+.accordion-data .accordion:last-of-type {
     border-bottom: 1px solid black;
 } 
 
