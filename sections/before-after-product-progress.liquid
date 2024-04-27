@@ -25,16 +25,10 @@
                         </div>
                         <div class="grid-item">
                             {% render 'before-after-image' 
-                                before_text_color: section.settings.before_text_color, 
-                                after_text_color: section.settings.after_text_color,
-                                expand_image: section.settings.expand_image,
-                                before_image: section.settings.before_image,
-                                after_image: section.settings.after_image,
-                                before_after_text_position: section.settings.before_after_text_position,
-                                before_text: section.settings.before_text,
-                                after_text: section.settings.after_text
-                                drag_cursor_background: section.settings.drag_cursor_background,
-                                drag_cursor_color: section.settings.drag_cursor_color
+                                before_image: item.settings.before_image,
+                                after_image: item.settings.after_image,
+                                before_text: item.settings.before_text,
+                                after_text: item.settings.after_text
                               %}
                         </div>
                     </div>
