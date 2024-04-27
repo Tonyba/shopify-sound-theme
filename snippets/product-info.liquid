@@ -37,34 +37,35 @@
 
       <div  class="custom-variation">
         {%- when 'price' -%}
-          <div class="product-info__price">
-            <div class="rating-with-text">
-              {%- render 'price-list', variant: product.selected_or_first_available_variant, form_id: product_form_id, size: 'lg', block: block -%}
-              {%- render 'product-badges', types: 'sold_out, discount', product: product, form_id: product_form_id, class: 'product-info__badge-list' -%}
-  
-              {%- comment -%}If the next block is a rating block, then we add it as part of this one to have it inline{%- endcomment -%}
-              {%- if next_block.type == 'rating' -%}
-                {%- render 'product-rating', product: product, show_empty: next_block.settings.show_empty, block: next_block -%}
-              {%- endif -%}
-            </div>
-  
-            {%- if block.settings.show_taxes_notice -%}
-              <p class="text-sm text-subdued">
-                {%- if cart.taxes_included -%}
-                  {{ 'product.general.taxes_included' | t }}
-                {%- else -%}
-                  {{ 'product.general.taxes_excluded' | t }}
-                {%- endif -%}
-  
-                {%- if shop.shipping_policy.body != blank -%}
-                  {{ 'product.general.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                {%- endif -%}
-              </p>
+        <div class="product-info__price">
+          <div class="rating-with-text">
+            {%- render 'price-list', variant: product.selected_or_first_available_variant, form_id: product_form_id, size: 'lg', block: block -%}
+            {%- render 'product-badges', types: 'sold_out, discount', product: product, form_id: product_form_id, class: 'product-info__badge-list' -%}
+
+            {%- comment -%}If the next block is a rating block, then we add it as part of this one to have it inline{%- endcomment -%}
+            {%- if next_block.type == 'rating' -%}
+              {%- render 'product-rating', product: product, show_empty: next_block.settings.show_empty, block: next_block -%}
             {%- endif -%}
           </div>
+
+          {%- if block.settings.show_taxes_notice -%}
+            <p class="text-sm text-subdued">
+              {%- if cart.taxes_included -%}
+                {{ 'product.general.taxes_included' | t }}
+              {%- else -%}
+                {{ 'product.general.taxes_excluded' | t }}
+              {%- endif -%}
+
+              {%- if shop.shipping_policy.body != blank -%}
+                {{ 'product.general.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+              {%- endif -%}
+            </p>
+          {%- endif -%}
+        </div>
       </div>
 
-      
+    
+        
 
       {%- when 'rating' -%}
         {%- comment -%}If the previous block is of type price, then the rating has been rendered inside it so we do not render it twice{%- endcomment -%}
