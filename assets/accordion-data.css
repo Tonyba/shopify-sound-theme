@@ -10,6 +10,10 @@ button.accordion {
     border-top: 1px solid black;
 }
 
+button.accordion:last-child {
+    border-bottom: 1px solid black;
+} 
+
 /* button.accordion.active {
     padding: 18px 0 5px 0;
 } */
