@@ -59,6 +59,10 @@
     gap: 40px;
 }
 
+.gap-100 {
+    gap: 100px;
+}
+
 h2 {
     margin-bottom: 20px;
     font-size: 40px;
