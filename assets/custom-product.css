@@ -55,4 +55,11 @@
     position: relative;
 }
 
+.new-custom-variation .product-info__variant-picker:after {
+    content: "";
+    position: absolute;
+    border-right: 1px dashed #b1b1b1;
+    height: 58px;
+}
+
 /* variation | quantity  end*/
