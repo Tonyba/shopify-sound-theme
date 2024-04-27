@@ -8,7 +8,7 @@
     "block_shadow_opacity": 10,
     "block_shadow_vertical_offset": 18,
     "button_style": "fill",
-    "background": "rgba(0,0,0,0)",
+    "background": "#ffffff",
     "text_color": "#1a1a1a",
     "header_background": "#ffffff",
     "header_text_color": "#1a1a1a",
