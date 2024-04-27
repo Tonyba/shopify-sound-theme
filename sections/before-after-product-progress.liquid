@@ -1,4 +1,4 @@
-<div class="section-wrapper">
+<div class="section-wrapper" style="background-color: {{ section.settings.bg_color }}" >
 
     <div class="container">
 
@@ -22,6 +22,12 @@
                 "type": "text",
                 "label": "Subheading",
                 "id": "subheading"
+            },
+            {
+                "type": "color",
+                "label": "Background Color",
+                "id": "bg_color",
+                "default": "transparent"
             }
         ],
         "blocks": [
