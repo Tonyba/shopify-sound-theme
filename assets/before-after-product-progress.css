@@ -33,3 +33,10 @@
 .before-after-product-progress .tab-content-item:not(.active) {
     display: none;
 }
+
+.before-after-product-progress .tab-content-title{
+   
+    font-weight: 600;
+    font-size: 33px;
+    
+}
