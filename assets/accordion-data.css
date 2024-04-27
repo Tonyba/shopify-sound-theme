@@ -10,9 +10,9 @@ button.accordion {
     border-top: 1px solid black;
 }
 
-button.accordion.active {
+/* button.accordion.active {
     padding: 18px 0 5px 0;
-}
+} */
 
 button.accordion .accordion-icon svg  {
     transition: 0.2s;
