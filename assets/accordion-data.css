@@ -7,10 +7,14 @@ button.accordion {
     outline: none;
     display: flex;
     justify-content: space-between;
+   
+}
+
+.accordion-item{
     border-top: 1px solid black;
 }
 
-.accordion-data .accordion:last-of-type {
+.accordion-data .accordion-item:last-of-type {
     border-bottom: 1px solid black;
 } 
 
