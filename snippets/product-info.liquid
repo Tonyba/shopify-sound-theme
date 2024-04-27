@@ -221,7 +221,7 @@
 
       {%-  when 'product-icon-list' -%}
         <h3 class="product-list-heading">{{ block.settings.list_heading }}</h3>
-        <p>{{ product.custom | json }}</p>
+        <p>{{ product | json }}</p>
 
       {%- when 'inventory' -%}
         <div class="product-info__inventory {{ block.shopify_attributes }}">
