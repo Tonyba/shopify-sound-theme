@@ -12,6 +12,10 @@
     gap: 10px;
 }
 
+.icon-list .icon {
+    line-height: 1;
+}
+
 .product-list-heading {
     font-size: 21px;
     font-weight: 600;
