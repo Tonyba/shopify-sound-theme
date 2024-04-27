@@ -145,7 +145,7 @@
         "enable_review_integration": true,
         "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
         "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
+        "review_button_background": "#ff004a",
         "review_button_text_color": "#ffffff"
       }
     }
