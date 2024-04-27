@@ -34,6 +34,8 @@
 .info-features img {
     margin: auto;
     margin-bottom: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 /*right side info features info end*/
