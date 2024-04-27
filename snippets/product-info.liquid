@@ -35,7 +35,6 @@
         </variant-sku>
 
       {%- when 'price' -%}
-        
           <div class="product-info__price">
             <div class="rating-with-text">
               {%- render 'price-list', variant: product.selected_or_first_available_variant, form_id: product_form_id, size: 'lg', block: block -%}
@@ -46,6 +45,8 @@
                 {%- render 'product-rating', product: product, show_empty: next_block.settings.show_empty, block: next_block -%}
               {%- endif -%}
             </div>
+          </div>
+          
       {%- when 'variant_picker' -%}
         <div class="new-custom-variation">
           <div class="product-info__variant-picker" {{ block.shopify_attributes }}>
