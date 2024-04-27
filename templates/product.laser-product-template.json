@@ -20,6 +20,16 @@
             "show_taxes_notice": false
           }
         },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -35,16 +45,6 @@
           "type": "description",
           "settings": {
             "collapse_content": false
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
           }
         },
         "quantity_selector": {
@@ -68,10 +68,10 @@
         "title",
         "badges",
         "price",
+        "variant_picker",
         "rating",
         "payment_terms",
         "description",
-        "variant_picker",
         "quantity_selector",
         "buy_buttons"
       ],
