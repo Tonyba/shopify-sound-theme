@@ -49,4 +49,9 @@
     display: flex;
 }
 
+.new-custom-variation .product-info__variant-picker {
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
 /* variation | quantity  end*/
