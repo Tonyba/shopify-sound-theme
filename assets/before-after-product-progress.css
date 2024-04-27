@@ -4,9 +4,17 @@
     margin: auto;
 }
 
+.before-after-product-progress .tabs-header,
+.before-after-product-progress .tabs-header button  {
+    border-radius: 150px;
+}
+
 .before-after-product-progress .tabs-header {
     max-width: 470px;
     margin: auto;
     border: 1px solid black;
-    border-radius: 150px;
+}
+
+.before-after-product-progress .tabs-header button  {
+   
 }
