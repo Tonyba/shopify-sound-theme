@@ -16,5 +16,7 @@
 }
 
 .before-after-product-progress .tabs-header button  {
-   
+   font-size: 18px;
+   font-weight: 600;
+   padding: 20px 0;
 }
