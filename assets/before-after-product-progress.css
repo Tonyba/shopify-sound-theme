@@ -50,7 +50,7 @@
    color: #222;
 }
 
-.before-after-product-progress img {
+.before-after-product-progress  img {
     max-height: 588px;
     object-fit: cover;
 }
