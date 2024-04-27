@@ -225,7 +225,11 @@
 
         %}
         <h3 class="product-list-heading">{{ block.settings.list_heading }}</h3>
-        <p>{{ product_text_list | json }}</p>
+        {% for text in product_text_list %}
+
+         <p>{{ text }}</p>
+
+        {% endfor %}
 
       {%- when 'inventory' -%}
         <div class="product-info__inventory {{ block.shopify_attributes }}">
