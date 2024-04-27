@@ -148,6 +148,14 @@
         "subheading": ""
       }
     },
+    "before_after_product_progress_XCUDWx": {
+      "type": "before-after-product-progress",
+      "settings": {
+        "heading": "Full Body Hair Removal Treatment Less than 10 Minutes",
+        "subheading": "Visible Results Within 3 Weeks",
+        "bg_color": "#f3f3f3"
+      }
+    },
     "1714242086a4fbce2e": {
       "type": "apps",
       "blocks": {
@@ -179,6 +187,7 @@
     "main",
     "before_after_image_6LP9BY",
     "before_after_product_progress_FGYqGQ",
+    "before_after_product_progress_XCUDWx",
     "1714242086a4fbce2e"
   ]
 }
