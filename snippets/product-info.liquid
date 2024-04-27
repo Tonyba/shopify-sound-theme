@@ -221,14 +221,14 @@
 
       {%-  when 'product-icon-list' -%}
         {%liquid 
-          assign product_text_list = product.metafields.custom.product_text_list | split: ','
+          assign product_text_list = product.metafields.custom.product_text_list
 
         %}
         <h3 class="product-list-heading">{{ block.settings.list_heading }}</h3>
-        {{ product.metafields.custom | json }}
-        {% comment %} {% for text in product_text_list %}
-         <p>{{ text }}hey</p>
-        {% endfor %} {% endcomment %}
+       
+      
+         <p>{{ product_text_list }}hey</p>
+        
 
       {%- when 'inventory' -%}
         <div class="product-info__inventory {{ block.shopify_attributes }}">
