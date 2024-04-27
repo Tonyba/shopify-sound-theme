@@ -69,6 +69,6 @@
 
 #shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .section {
     
-    max-width: 1300px;
+    --container-max-width: 1300px
 
 }
