@@ -8,9 +8,14 @@
     transition: 0.4s;
 }
   
-  /* Style the accordion panel. Note: hidden by default */
-  .panel {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out
-  }
+
+.panel {
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out
+}
+
+.accordion-icon svg {
+    width: 12px;
+    height: 12px;
+}
