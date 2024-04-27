@@ -9,7 +9,8 @@
     <div class="splide__list">
       {% for block in section.blocks %}
         <div class="splide__slide">
-          <img decoding="async" src="{{ block.settings.image | image_url }}" alt="brand-image">
+          {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+          {% comment %} <img decoding="async" src="{{ block.settings.image | image_url }}" width="{{ block.settings.image. }}" alt="brand-image"> {% endcomment %}
         </div>
       {% endfor %}
     </div>
