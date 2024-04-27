@@ -18,8 +18,8 @@ button.accordion.active .accordion-icon svg {
     transform: rotate(180deg);
 }
 
-button.accordion + .panel {
-    padding-bottom: 18px;
+button.accordion.active  {
+    margin-bottom: 18px;
 }
   
 
