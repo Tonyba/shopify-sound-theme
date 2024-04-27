@@ -50,7 +50,6 @@
 </div>
 
 {%- assign buy_buttons_block = section.blocks | where: 'type', 'buy_buttons' | first -%}
-<p> some price list here</p>
 {%- if section.settings.show_fixed_add_to_cart and product.available and buy_buttons_block != blank -%}
   {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
 
