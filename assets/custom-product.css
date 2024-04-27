@@ -31,5 +31,10 @@
     text-align: center;
 }
 
+.info-features img {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
 /*right side info features info end*/
 
