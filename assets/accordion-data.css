@@ -17,6 +17,10 @@ button.accordion .accordion-icon svg  {
 button.accordion.active .accordion-icon svg {
     transform: rotate(180deg);
 }
+
+button.accordion.active + .panel {
+    padding-bottom: 18px;
+}
   
 
 .panel {
