@@ -237,6 +237,9 @@
       {%- when 'right-side-info-features' -%}
           {% render 'right-side-info-features' %}
 
+      
+      {%- when 'accordion-data' -%}
+          {% render 'accordion-data' product: product %}
 
       {%- when 'inventory' -%}
         <div class="product-info__inventory {{ block.shopify_attributes }}">
