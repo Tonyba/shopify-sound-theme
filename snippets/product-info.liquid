@@ -218,6 +218,10 @@
           </div>
         {%- endif -%} {% endcomment %}
 
+
+      {%-  when 'product-icon-list' -%}
+        <p>some list here</p>
+
       {%- when 'inventory' -%}
         <div class="product-info__inventory {{ block.shopify_attributes }}">
           {%- render 'inventory', product: product, low_threshold: block.settings.low_inventory_threshold, form_id: product_form_id -%}
