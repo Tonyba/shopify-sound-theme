@@ -104,13 +104,33 @@
         "input_text_color": ""
       }
     },
-    "before_after_product_progress_FGYqGQ": {
+    "before_after_product_progress_XCUDWx": {
       "type": "before-after-product-progress",
       "blocks": {
-        "slide_EcPAUb": {
+        "slide_tWeeq9": {
           "type": "slide",
           "settings": {
-            "title": "",
+            "title": "1-4 Weeks",
+            "subtitle": "",
+            "text": "",
+            "before_text": "Before",
+            "after_text": "After"
+          }
+        },
+        "slide_QHgzCz": {
+          "type": "slide",
+          "settings": {
+            "title": "5-8 Weeks",
+            "subtitle": "",
+            "text": "",
+            "before_text": "Before",
+            "after_text": "After"
+          }
+        },
+        "slide_4AYcWE": {
+          "type": "slide",
+          "settings": {
+            "title": "8-12 Weeks",
             "subtitle": "",
             "text": "",
             "before_text": "Before",
@@ -119,15 +139,10 @@
         }
       },
       "block_order": [
-        "slide_EcPAUb"
+        "slide_tWeeq9",
+        "slide_QHgzCz",
+        "slide_4AYcWE"
       ],
-      "settings": {
-        "heading": "",
-        "subheading": ""
-      }
-    },
-    "before_after_product_progress_XCUDWx": {
-      "type": "before-after-product-progress",
       "settings": {
         "heading": "Full Body Hair Removal Treatment Less than 10 Minutes",
         "subheading": "Visible Results Within 3 Weeks",
@@ -163,7 +178,6 @@
   },
   "order": [
     "main",
-    "before_after_product_progress_FGYqGQ",
     "before_after_product_progress_XCUDWx",
     "1714242086a4fbce2e"
   ]
