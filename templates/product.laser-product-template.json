@@ -113,6 +113,7 @@
             "title": "1-4 Weeks",
             "subtitle": "3 treatments per week",
             "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "progress": 0,
             "before_text": "Before",
             "before_image": "shopify:\/\/shop_images\/image_19.png",
             "after_text": "Week 4",
@@ -125,6 +126,7 @@
             "title": "5-8 Weeks",
             "subtitle": "3 treatments per week",
             "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "progress": 0,
             "before_text": "Before",
             "before_image": "shopify:\/\/shop_images\/effafaad017dc4d91153eb1eaf4ca50e.jpg",
             "after_text": "Week 8",
@@ -137,6 +139,7 @@
             "title": "8-12 Weeks",
             "subtitle": "3 treatments per week",
             "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "progress": 0,
             "before_text": "Before",
             "before_image": "shopify:\/\/shop_images\/effafaad017dc4d91153eb1eaf4ca50e.jpg",
             "after_text": "Week 12",
@@ -152,31 +155,8 @@
       "settings": {
         "heading": "Full Body Hair Removal Treatment Less than 10 Minutes",
         "subheading": "Visible Results Within 3 Weeks",
-        "bg_color": "#f3f3f3"
-      }
-    },
-    "before_after_image_rWgjQh": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Before\/after",
-        "content": "<p>Showcase your product benefit by using before\/after image comparison.<\/p>",
-        "before_image": "shopify:\/\/shop_images\/19773397446b797bf372c7bcb6d301ee.png",
-        "after_image": "shopify:\/\/shop_images\/effafaad017dc4d91153eb1eaf4ca50e.jpg",
-        "expand_image": false,
-        "text_position": "start",
-        "before_after_text_position": "top",
-        "before_text": "Before",
-        "after_text": "After",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
+        "bg_color": "#f3f3f3",
+        "drag_cursor_background": "#000"
       }
     },
     "1714242086a4fbce2e": {
@@ -209,7 +189,6 @@
   "order": [
     "main",
     "before_after_product_progress_XCUDWx",
-    "before_after_image_rWgjQh",
     "1714242086a4fbce2e"
   ]
 }
