@@ -10,6 +10,6 @@
   
   /* Style the accordion panel. Note: hidden by default */
   .panel {
-    display: none;
+    max-height: 0;
     overflow: hidden;
   }
