@@ -68,6 +68,7 @@
 
 
 #shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .section {
-    padding-block-start: unset;
-    padding-block-end: unset;
+    
+    max-width: 1300px;
+
 }
