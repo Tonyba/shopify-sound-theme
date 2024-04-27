@@ -55,4 +55,9 @@
     object-fit: cover;
 }
 
+.before-after-product-progress .tab-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
