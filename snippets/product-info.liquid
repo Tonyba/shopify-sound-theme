@@ -33,6 +33,9 @@
         <variant-sku form="{{ product_form_id }}" class="product-info__sku text-xs text-subdued" {% if product.selected_or_first_available_variant.sku == blank %}hidden{% endif %} {{ block.shopify_attributes }}>
           {{- 'product.general.sku' | t }} {{ product.selected_or_first_available_variant.sku -}}
         </variant-sku>
+      <div>
+      
+      
 
       {%- when 'price' -%}
         <div class="product-info__price">
@@ -59,7 +62,8 @@
               {%- endif -%}
             </p>
           {%- endif -%}
-        </div>
+        
+        </div> 
 
       {%- when 'rating' -%}
         {%- comment -%}If the previous block is of type price, then the rating has been rendered inside it so we do not render it twice{%- endcomment -%}
