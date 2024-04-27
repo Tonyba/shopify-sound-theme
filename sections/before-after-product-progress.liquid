@@ -43,7 +43,7 @@
       const tabContent = document.querySelectorAll('.tabs-content .tab-content');
 
       [...tabHeader].forEach( function(item) {
-        item.classList.remove('active');
+       
         item.addEventListener('click', selectTab);
       });
 
@@ -51,7 +51,10 @@
         const btn = this;
         const tabId = btn.id;
 
-        btn.classList.add('active');
+        [...tabHeader].forEach( function(item) {
+            item.classList.remove('active');
+            btn.classList.add('active');
+        });
 
         [...tabContent].forEach((content) => {
             content.classList.remove('active');
