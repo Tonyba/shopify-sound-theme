@@ -104,28 +104,6 @@
         "input_text_color": ""
       }
     },
-    "before_after_image_6LP9BY": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "Visible Results Within 3 Weeks",
-        "title": "Full Body Hair Removal Treatment Less than 10 Minutes",
-        "content": "<p>Showcase your product benefit by using before\/after image comparison.<\/p>",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "top",
-        "before_text": "Before",
-        "after_text": "After",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
-    },
     "before_after_product_progress_FGYqGQ": {
       "type": "before-after-product-progress",
       "blocks": {
@@ -185,7 +163,6 @@
   },
   "order": [
     "main",
-    "before_after_image_6LP9BY",
     "before_after_product_progress_FGYqGQ",
     "before_after_product_progress_XCUDWx",
     "1714242086a4fbce2e"
