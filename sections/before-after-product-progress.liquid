@@ -41,9 +41,16 @@
 
       const tabHeader = document.querySelectorAll('.tabs-header button');
 
-      [...tabHeader].forEach((item) => {
-        console.log('hey')
+      [...tabHeader].forEach( function(item) {
+        item.addEventListener('click', selectTab);
       });
+
+      function selectTab() {
+
+        console.log(this)
+
+      }
+
     
     }());
 </script>
