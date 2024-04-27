@@ -1,29 +1,38 @@
 {{ 'accordion-data.css' | asset_url | stylesheet_tag }}
 
+{%liquid
+
+    assign details = product.metafields.custom.details
+    assign works = product.metafields.custom.how_it_works
+    assign shipping = product.metafields.custom.shipping_returns
+    assign faqs = product.metafields.custom.faqs
+
+ %}
+
 <div class="accordion-data">
     <div class="accordion-item">
         <button class="accordion">Details <span class="accordion-icon"> {% render 'icon-chevron-up' %} </span></button>
         <div class="panel">
-          <p>Lorem ipsum...</p>
+          <p>{{details}}</p>
         </div>
     </div>
     
     <div class="accordion-item">
         <button class="accordion">How it Works <span class="accordion-icon"> {% render 'icon-chevron-up' %} </span></button>
         <div class="panel">
-          <p>Lorem ipsum...</p>
+          <p>{{works}}</p>
         </div>
     </div>
     <div class="accordion-item">
         <button class="accordion">Shipping & Returns <span class="accordion-icon"> {% render 'icon-chevron-up' %} </span></button>
         <div class="panel">
-          <p>Lorem ipsum...</p>
+          <p>{{shipping}}</p>
         </div>
     </div>
     <div class="accordion-item">
         <button class="accordion">FAQS <span class="accordion-icon"> {% render 'icon-chevron-up' %} </span></button>
         <div class="panel">
-          <p>Lorem ipsum...</p>
+          <p>{{faqs}}</p>
         </div>
     </div>
 
