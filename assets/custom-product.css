@@ -29,13 +29,15 @@
 /* right side info features */
 .info-features {
     text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .info-features img {
     margin: auto;
     margin-bottom: 10px;
-    font-size: 12px;
-    text-transform: uppercase;
+   
 }
 
 /*right side info features info end*/
