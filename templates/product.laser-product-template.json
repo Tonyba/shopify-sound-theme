@@ -159,6 +159,35 @@
         "drag_cursor_background": "#000000"
       }
     },
+    "multiple_images_with_text_Pwad3c": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_i8kbzR": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_i8kbzR"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "1714242086a4fbce2e": {
       "type": "apps",
       "blocks": {
@@ -189,6 +218,7 @@
   "order": [
     "main",
     "before_after_product_progress_XCUDWx",
+    "multiple_images_with_text_Pwad3c",
     "1714242086a4fbce2e"
   ]
 }
