@@ -156,7 +156,37 @@
         "heading": "Full Body Hair Removal Treatment Less than 10 Minutes",
         "subheading": "Visible Results Within 3 Weeks",
         "bg_color": "#f3f3f3",
-        "drag_cursor_background": "#000"
+        "drag_cursor_background": "#000000"
+      }
+    },
+    "multiple_images_with_text_4hxck8": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_CfNrea": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4789a76e11ecb14af5b2cc40c008904c.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "Effective Home Treatments",
+            "title": "Pain-Free & Effective SkinPetra IPL",
+            "content": "<p>“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely to be absorbed by the melanin in your skin and more by the melanin in your hair for safer, and more effective at-home treatments.” <\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_CfNrea"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "1714242086a4fbce2e": {
@@ -189,6 +219,7 @@
   "order": [
     "main",
     "before_after_product_progress_XCUDWx",
+    "multiple_images_with_text_4hxck8",
     "1714242086a4fbce2e"
   ]
 }
