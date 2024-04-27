@@ -1,4 +1,7 @@
 <style>
+
+    
+
     .progress-bar {
         width: 100px;
         height: 100px;
@@ -6,6 +9,12 @@
         background: 
           radial-gradient(closest-side, white 79%, transparent 80% 100%),
           conic-gradient(#FF004A 33%, black 0);    
+      }
+
+      .progress-bar::before {
+        counter-reset: percentage var(--progress-value);
+        content: counter(percentage) '%';
+        animation: progress 2s 1 forwards;
       }
 </style>
 
