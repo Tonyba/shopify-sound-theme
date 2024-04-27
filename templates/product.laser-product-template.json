@@ -31,11 +31,6 @@
           "settings": {
           }
         },
-        "separator": {
-          "type": "separator",
-          "settings": {
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -75,7 +70,6 @@
         "price",
         "rating",
         "payment_terms",
-        "separator",
         "description",
         "variant_picker",
         "quantity_selector",
