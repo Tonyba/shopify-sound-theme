@@ -61,15 +61,6 @@
     width: 65%;
 }
 
-.reviews-carousel-section .scroll-wrapper .review-before-after-item {
-    flex-grow: 1;
-    flex-shrink: 0;
-    max-width: 392px;
-}
-
-.reviews-carousel-section  .scroll-wrapper .review-before-after-item {
-    display: block;
-}
 
 
 .reviews-carousel-section .os-content {
