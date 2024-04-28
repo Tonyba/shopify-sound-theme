@@ -12,6 +12,10 @@
   
 }
 
+.visible-results .container  {
+    width: 100%;
+}
+
 
 .visible-results .wrapper {
     padding: 200px 0;
