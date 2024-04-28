@@ -1,7 +1,9 @@
 .routine .subheading {
     color: #FF004A;
 }
-
+.routine  h2 {
+    font-weight: 500;
+}
 .routine  img {
     border-radius: 20px;
 }
