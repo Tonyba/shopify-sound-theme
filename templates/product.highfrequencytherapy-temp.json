@@ -40,12 +40,6 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -54,12 +48,17 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": true,
             "atc_button_background": "",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "accordion_data_9aq9g6": {
+          "type": "accordion-data",
+          "settings": {
           }
         }
       },
@@ -70,9 +69,9 @@
         "separator",
         "variant_picker",
         "payment_terms",
-        "description",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "accordion_data_9aq9g6"
       ],
       "settings": {
         "full_width": true,
