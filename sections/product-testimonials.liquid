@@ -1,4 +1,7 @@
 
+{{ "OverlayScrollbars.min.css" | asset_url | stylesheet_tag }}
+
+
 <div class="section-wrapper reviews-carousel-section">
     <h2>{{ section.settings.heading }}</h2>
     <div class="product-testimonials scroll-wrapper">
@@ -8,7 +11,7 @@
     </div>
 </div>
 
-
+<script src="{{ 'OverlayScrollbars.min.js' | asset_url }}" defer></script>
 <script defer>
     (function () {
     
