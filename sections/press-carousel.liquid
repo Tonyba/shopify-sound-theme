@@ -11,7 +11,7 @@
         <div class="splide__track">
             <div class="splide__list">
                 {% for press in section.blocks %}
-                    <div class="splide__slide">
+                    <div class="splide__slide press-item">
                         <p> {{ press.settings.text }}</p>
                         {{- press.settings.image | image_url: width: press.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
                     </div>
