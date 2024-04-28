@@ -156,10 +156,40 @@
         "bg_color": "#ece3dc",
         "image": "shopify:\/\/shop_images\/c92f017f13b5c38f44ac046428d87526_1_1.png"
       }
+    },
+    "product_testimonials_prqpDg": {
+      "type": "product-testimonials",
+      "blocks": {
+        "slide_3kNM4B": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“100% Percent Recomened”",
+            "author": "Shayden Thomas",
+            "review_text": "\"Doesn't hurt at all! I've been using it for weeks and noticed a difference. Definitely going to tell my sister to get one too!\"",
+            "review_img": "shopify:\/\/shop_images\/cd5e507524f1309b7ddfcd58b9106f7d.png"
+          }
+        },
+        "slide_UDyNQ8": {
+          "type": "slide",
+          "settings": {
+            "review_title": "",
+            "author": "",
+            "review_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_3kNM4B",
+        "slide_UDyNQ8"
+      ],
+      "settings": {
+        "heading": "Results From Our Satisfied Customers"
+      }
     }
   },
   "order": [
     "main",
-    "check_list_P9dcVV"
+    "check_list_P9dcVV",
+    "product_testimonials_prqpDg"
   ]
 }
