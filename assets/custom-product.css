@@ -72,10 +72,10 @@
 /* variation | quantity  end*/
 
 
-#shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .section {
-    
+#shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .section,
+#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .section
+ {
     --container-max-width: 1300px
-
 }
 
 #shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .prose > p:first-child {
