@@ -218,7 +218,9 @@
 /*stars rating */
 
 .product-info__price {
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*stars rating end*/
