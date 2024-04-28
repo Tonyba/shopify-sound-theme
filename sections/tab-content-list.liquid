@@ -12,6 +12,26 @@
                 {% endfor %}    
             {% endfor %}
         </div>
+
+        <div class="tabs-content">
+           
+            {% for item in section.blocks %}
+                <div id="{{ item.id }}" class="tab-content-item align-item-center grid cols-2 gap-100 {% if forloop.index == 1 %} active{% endif %}"> 
+                    <div class="grid-item">
+                        <div class="image">
+                            {{- item.settings.left_image | image_url: width: item.settings.left_image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+                        </div>
+                       
+                    </div>
+                    <div class="grid-item">
+                        <div class="image">
+                            {{- item.settings.right | image_url: width: item.settings.right.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+       
+    </div>
     </div>
 
 </div>
