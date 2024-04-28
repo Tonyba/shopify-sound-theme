@@ -1,0 +1,47 @@
+{% schema %}
+    {
+        "name": "Safety Body Parts",
+        "class": "safety-body-parts",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "image_picker",
+                "label": "Left Image",
+                "id": "left_img"
+            },
+            {
+                "type": "image_picker",
+                "label": "Right Image",
+                "id": "right_img"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "Body Part",
+                "settings": [
+                    {
+                        "type": "text",
+                        "label": "Title",
+                        "id": "title"
+                    },
+                    {
+                        "type": "html",
+                        "label": "Icon",
+                        "id": "icon"
+                    }
+
+                ]
+            }
+        ],
+        "presets": [
+            {
+              "name": "Safety Body Parts"
+            }
+        ]
+    }
+{% endschema %}
