@@ -22,6 +22,14 @@
     display: flex;
 }
 
+.w-70 {
+    width: 70%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
 .os-scrollbar-handle {
     background-color: black !important;
     cursor: grab;
