@@ -10,13 +10,22 @@
                 <div class="subheading">{{ section.settings.subheading }}</div>
                 <h2 class="heading" >{{ section.settings.heading }}</h2>
                 <p>{{ section.settings.text }}</p>
-                {% for item in section.blocks %}
-                    <div class="table-item">
-                        {{ item.settings.item_text }}
 
-                        <span class="table-price-item">{{ item.settings.price }}</span>
-                    </div>
-                {% endfor %}
+                <div class="table-price">
+                    {% for item in section.blocks %}
+                        <div class="table-item">
+                            {{ item.settings.item_text }}
+    
+                            <span class="table-price-item">{{ item.settings.price }}</span>
+                        </div>
+                    {% endfor %}
+    
+                </div>
+
+                <p class="after-table">
+                    {{ section.settings.after_table_text }}
+                </p>
+                
             </div>
         </div>
         
