@@ -189,5 +189,10 @@
 #shopify-section-template--16709264310425__faq_LqUXTr .accordion-box  {
     padding: 0;
     background-color: unset;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
 }
+
+
 /*faqs end*/
