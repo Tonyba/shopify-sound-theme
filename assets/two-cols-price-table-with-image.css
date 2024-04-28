@@ -32,6 +32,10 @@
     border-bottom: unset;
 }
 
+.price-table-with-image .top-badge {
+    position: absolute;
+    background-color: black;
+}
 
 .price-table-with-image  .after-table {
     font-weight: 600;
