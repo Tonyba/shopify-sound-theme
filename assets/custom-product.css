@@ -121,3 +121,8 @@
 #shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx .multiple-images-with-text {
     gap: unset;
 }
+
+.multiple-images-with-text img {
+    width: 100%;
+    object-fit: cover;
+}
