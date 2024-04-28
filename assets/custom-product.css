@@ -146,6 +146,11 @@ compare-at-price {
     order: 1;
 }
 
+.right-left-section .multiple-images-with-text
+ {
+    gap: unset;
+}
+
 #shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .section,
 #shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .section,
 #shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx .section,
@@ -232,7 +237,7 @@ compare-at-price {
 
 
 #shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .multiple-images-with-text__content-list,
-#shopify-section-template--16709264310425__multiple_images_with_text_3ndzkV .multiple-images-with-text__content-list{
+#shopify-section-template--16709264310425__multiple_images_with_text_3ndzkV .multiple-images-with-text__content-list {
     padding-left: 50px;
 }
 
