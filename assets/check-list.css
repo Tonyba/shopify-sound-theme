@@ -14,6 +14,6 @@
 .check-list .icon {
     position: absolute;
     left: -15px;
-    top: calc(50% - 1px );
+    top: 50%;
     transform: translateY(-50%);
 }   
