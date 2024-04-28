@@ -4,6 +4,10 @@
     <div class="image">
         {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
     </div>
+    <div>
+        <h2>{{ section.settings.heading }}</h2>
+        <div class="subheading">{{ section.settings.subheading }}</div>
+    </div>
 </div>
 
 {% schema %}
