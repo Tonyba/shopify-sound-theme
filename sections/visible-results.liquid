@@ -1,2 +1,58 @@
 {{ 'visible-results.css' | asset_img_url | stylesheet_tag }}
 
+<div class="grid">
+
+</div>
+
+{% schema %}
+    {
+        "name": "Visible Results",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "color",
+                "id": "bg_color",
+                "label": "Background Color"
+            },
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "text",
+                "id": "subheading",
+                "label": "Subheading"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "Column Text",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "top_text",
+                        "label": "Top Text"
+                    },
+                    {
+                        "type": "text",
+                        "id": "bottom_text",
+                        "label": "Bottom Text"
+                    }
+                ]
+            }
+        ],
+            
+        "presets": [
+            {
+               "name": "Visible Results"                                
+            }
+        ]
+    }
+{% endschema %}
+
