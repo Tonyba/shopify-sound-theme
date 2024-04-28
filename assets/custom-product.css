@@ -117,6 +117,13 @@
     color: #FF004A
 }
 
+#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .prose > p:first-child ,
+#shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx .prose > p:first-child,
+#shopify-section-template--16709264310425__multiple_images_with_text_3ndzkV .prose > p:first-child {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
 #shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .prose > .h1,
 #shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .prose > .h1,
 #shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx .prose > .h1,
