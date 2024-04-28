@@ -9,6 +9,8 @@
 }
 .routine  img {
     border-radius: 20px;
+    height: 100%;
+    object-fit: cover;
 }
 
 .routine .headings {
