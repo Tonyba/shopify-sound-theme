@@ -2,7 +2,10 @@
     font-size: 50px;
     font-weight: 600;
     letter-spacing: 3%;
- 
+}
+
+.button--secondary {
+    color: white;
 }
 
 .slideshow__controls .circle-button--bordered {
