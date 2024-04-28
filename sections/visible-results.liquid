@@ -6,17 +6,19 @@
         {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
     </div>
 
-    <div class="content" >
-        <h2>{{ section.settings.heading }}</h2>
-        <div class="subheading">{{ section.settings.subheading }}</div>
-
-        <div class="grid cols-3">
-            {% for item in section.blocks %}
-                <div class="grid-item">
-                    <h3 class="top-text">{{ item.settings.top_text }}</h3>
-                    <p class="bottom-text">{{ item.settings.bottom_text }}</p>
-                </div>
-            {% endfor %}
+    <div class="container">
+        <div class="content" >
+            <h2>{{ section.settings.heading }}</h2>
+            <div class="subheading">{{ section.settings.subheading }}</div>
+    
+            <div class="grid cols-3">
+                {% for item in section.blocks %}
+                    <div class="grid-item">
+                        <h3 class="top-text">{{ item.settings.top_text }}</h3>
+                        <p class="bottom-text">{{ item.settings.bottom_text }}</p>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </div>
