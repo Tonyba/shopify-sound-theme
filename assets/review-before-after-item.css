@@ -38,3 +38,7 @@
 .review-before-after-item img {
     width: 100%;
 }
+
+.review-before-after-item.horizontal-review  {
+    max-width: 456px;
+}
