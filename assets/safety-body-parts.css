@@ -30,5 +30,8 @@
     border-radius: 100%;
     width: 93px;
     height: 93px;
-    border: 1px solid black
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
