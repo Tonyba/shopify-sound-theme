@@ -16,7 +16,7 @@
 }
 
 .icon-list .icon-list-item * {
-    font-weight: 400;
+    font-weight: 400 !important;
 }
 
 .icon-list .icon {
