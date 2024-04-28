@@ -55,6 +55,12 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "product_icon_list_X9BFY9": {
+          "type": "product-icon-list",
+          "settings": {
+            "list_heading": "All the hair-free goodness:"
+          }
         }
       },
       "block_order": [
@@ -65,7 +71,8 @@
         "separator",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "product_icon_list_X9BFY9"
       ],
       "settings": {
         "full_width": true,
