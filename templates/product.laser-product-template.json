@@ -541,6 +541,31 @@
         "button_text_color": ""
       }
     },
+    "two_cols_list_image_8qdxQj": {
+      "type": "two-cols-list-image",
+      "blocks": {
+        "slide_LnxC8M": {
+          "type": "slide",
+          "settings": {
+            "text": "Laser"
+          }
+        },
+        "slide_gHXGnt": {
+          "type": "slide",
+          "settings": {
+            "text": "Razor"
+          }
+        }
+      },
+      "block_order": [
+        "slide_LnxC8M",
+        "slide_gHXGnt"
+      ],
+      "settings": {
+        "heading": "In the Box",
+        "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
+      }
+    },
     "1714242086a4fbce2e": {
       "type": "apps",
       "blocks": {
@@ -580,6 +605,7 @@
     "multiple_images_with_text_rbVrWj",
     "multiple_images_with_text_eHiNmx",
     "multiple_images_with_text_3ndzkV",
+    "two_cols_list_image_8qdxQj",
     "1714242086a4fbce2e"
   ]
 }
