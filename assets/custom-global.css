@@ -21,6 +21,22 @@
     display: flex;
 }
 
+.reviews-carousel-section .os-scrollbar-handle {
+    background-color: black !important;
+    max-width: 120px;
+    cursor: grab;
+}
+
+.reviews-carousel-section .os-scrollbar-track  {
+    background-color: #D8D8D8 !important;
+}
+
+.reviews-carousel-section .os-scrollbar{
+    max-width: 570px;
+    margin: auto;
+}
+
+
 .top-shop-message {
     background-color: black;
     color: white;
