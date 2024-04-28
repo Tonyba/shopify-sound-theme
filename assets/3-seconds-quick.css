@@ -18,3 +18,7 @@
 .three-seconds-heat h3 {
     font-size: 28px;
 }
+
+.three-seconds-heat .state-subtitle {
+    font-size: 20px;
+}
