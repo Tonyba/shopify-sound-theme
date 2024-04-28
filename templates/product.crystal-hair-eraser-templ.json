@@ -103,9 +103,17 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "check_list_P9dcVV": {
+      "type": "check-list",
+      "settings": {
+        "bg_color": "#ece3dc",
+        "image": "shopify:\/\/shop_images\/c92f017f13b5c38f44ac046428d87526_1_1.png"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "check_list_P9dcVV"
   ]
 }
