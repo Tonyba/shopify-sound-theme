@@ -241,6 +241,20 @@
     },
     "custom_multicolumn_CqdQrY": {
       "type": "custom-multicolumn",
+      "blocks": {
+        "slide_N7PPXC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2b771f8b8352bf153ae27505ecdff092.png",
+            "title": "",
+            "text": "",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_N7PPXC"
+      ],
       "settings": {
         "heading": "4 Glass Tubes",
         "subheading": "Meet The Needs Of Each Part Of Your Skin"
