@@ -19,4 +19,6 @@
 
 .visible-results .bottom-text {
     font-size: 18px;
+    color: #777;
+    text-transform: capitalize;
 }
