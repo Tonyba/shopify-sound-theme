@@ -12,6 +12,9 @@
 
 .custom-multicolumn .subheading {
     margin-bottom: 50px;
+    color: #5E5E5E;
+    font-size: 27px;
+    font-weight: 500;
 }
 
 .custom-multicolumn .grid-item {
