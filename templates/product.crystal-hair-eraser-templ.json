@@ -207,11 +207,48 @@
         "heading": "Results From Our Satisfied Customers",
         "title_left": true
       }
+    },
+    "before_after_product_progress_xD6BQm": {
+      "type": "before-after-product-progress",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "bg_color": "transparent",
+        "drag_cursor_background": "#000"
+      }
+    },
+    "171434810895cd0ab2": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_MxmkXF": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_MxmkXF"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "#f3f3f3",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
     "main",
     "check_list_P9dcVV",
-    "product_testimonials_prqpDg"
+    "product_testimonials_prqpDg",
+    "before_after_product_progress_xD6BQm",
+    "171434810895cd0ab2"
   ]
 }
