@@ -417,6 +417,34 @@
     },
     "press_carousel_idJVxd": {
       "type": "press-carousel",
+      "blocks": {
+        "slide_MCD8pd": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/ad3e2346f4c0ed84b29ccdb325793a37.png"
+          }
+        },
+        "slide_eiL9VL": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f.png"
+          }
+        },
+        "slide_TKnejb": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_MCD8pd",
+        "slide_eiL9VL",
+        "slide_TKnejb"
+      ],
       "settings": {
         "heading": "Hot Off the Press",
         "subheading": "mAGAZINES"
