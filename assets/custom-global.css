@@ -129,6 +129,14 @@ display: none;
     font-display: swap; 
     font-family: 'IBM Plex Sans';
     font-style: normal;
+    font-weight: 700;
+    src: url('https://cdn.shopify.com/s/files/1/0640/3588/1113/files/ibm-plex-sans-v19-latin-700.woff2?v=1714312269') format('woff2');
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
     font-weight: 500;
     src: url('https://cdn.shopify.com/s/files/1/0640/3588/1113/files/ibm-plex-sans-v19-latin-500.woff2?v=1714307990') format('woff2');
 }
