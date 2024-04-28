@@ -1,7 +1,7 @@
 
 <div class="section-wrapper">
     <h2></h2>
-    <div class="product-testimonials">
+    <div class="product-testimonials scroll-wrapper">
     
     </div>
 </div>
@@ -49,7 +49,34 @@
                 "id": "heading"
             }
         ],
-        "blocks": [],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "Review",
+                "settings": [
+                    {
+                        "type": "text",
+                        "label": "Review Title",
+                        "id": "review_title"
+                    },
+                    {
+                        "type": "text",
+                        "label": "Review Author",
+                        "id": "author"
+                    },
+                    {
+                        "type": "textarea",
+                        "label": "Review Text",
+                        "id": "review_text"
+                    },
+                    {
+                        "type": "image_picker",
+                        "label": "Review Image",
+                        "id": "review_img"
+                    }
+                ]
+            }
+        ],
         "presets": [
             {
                "name": "Product Testimonials"
