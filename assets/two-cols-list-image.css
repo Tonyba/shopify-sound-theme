@@ -6,6 +6,7 @@
 
 .col-list-with-image img  {
     max-width: 465px;
+    display: inline;
 }
 
 
