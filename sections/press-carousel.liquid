@@ -1,8 +1,11 @@
 {{ 'press-carousel.css' | asset_url | stylesheet_tag }}
 
 <div class="section-wrapper">
-    <div class="subheading"></div>
-    <h2></h2>
+    <div class="headings">
+        <div class="subheading">{{ section.settings.subheading }}</div>
+        <h2>{{ section.settings.heading }}</h2>
+    </div>
+ 
     <div class="splide press-carousel">
         <div class="splide__track">
             <div class="splide__list">
