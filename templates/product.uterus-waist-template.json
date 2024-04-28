@@ -493,7 +493,7 @@
       ],
       "settings": {
         "full_width": true,
-        "extra_css_class": "right-left-section pt-0",
+        "extra_css_class": "right-left-section pt-0 section-wrapper-margin-b",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
@@ -501,6 +501,40 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
+      }
+    },
+    "two_cols_list_image_KwhcVY": {
+      "type": "two-cols-list-image",
+      "blocks": {
+        "slide_eyx67A": {
+          "type": "slide",
+          "settings": {
+            "text": "Product 1"
+          }
+        },
+        "slide_WjNWdF": {
+          "type": "slide",
+          "settings": {
+            "text": "Product2"
+          }
+        },
+        "slide_QfLUQe": {
+          "type": "slide",
+          "settings": {
+            "text": "Product3"
+          }
+        }
+      },
+      "block_order": [
+        "slide_eyx67A",
+        "slide_WjNWdF",
+        "slide_QfLUQe"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cn-11134207-7qukw-lfysgvjyak94ae_1.png",
+        "bg_Color": "#F3F3F3",
+        "heading": "In the Box",
+        "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
       }
     },
     "171433367028cbf9e0": {
@@ -541,6 +575,7 @@
     "multiple_images_with_text_pP6VMN",
     "multiple_images_with_text_VxBBbx",
     "multiple_images_with_text_fHXbM6",
+    "two_cols_list_image_KwhcVY",
     "171433367028cbf9e0"
   ]
 }
