@@ -55,6 +55,22 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "product_icon_list_8Ed3Ap": {
+          "type": "product-icon-list",
+          "settings": {
+            "list_heading": ""
+          }
+        },
+        "right_side_info_features_6YGhHU": {
+          "type": "right-side-info-features",
+          "settings": {
+          }
+        },
+        "accordion_data_eXQJRJ": {
+          "type": "accordion-data",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -65,7 +81,10 @@
         "separator",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "product_icon_list_8Ed3Ap",
+        "right_side_info_features_6YGhHU",
+        "accordion_data_eXQJRJ"
       ],
       "settings": {
         "full_width": true,
