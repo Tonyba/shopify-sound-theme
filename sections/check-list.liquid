@@ -8,7 +8,7 @@
             <div class="grid-item">
                 <ul>
                     {% for item in section.blocks %}
-                        <li class="list-item"><span class="icon"></span> {{ item.settings.text }}</li>
+                        <li class="list-item"><span class="icon">{% render 'icon-checked' %}</span> {{ item.settings.text }}</li>
                     {% endfor %}
                 </ul>
             </div>
