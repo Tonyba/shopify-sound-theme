@@ -14,3 +14,8 @@
 .routine .headings {
     text-align: center;
 }
+
+.routine .step-item {
+    padding: 15px 30px;
+    border-radius: 20px;
+}
