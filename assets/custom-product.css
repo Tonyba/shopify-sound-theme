@@ -2,6 +2,9 @@
     font-size: 18px;
 }
 
+price-list {
+    font-weight: 500;
+}
 /*icon list*/
 
 .icon-list svg {
