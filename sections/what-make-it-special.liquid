@@ -1,9 +1,36 @@
 {{ 'what-make-it-special.css' | asset_url | stylesheet_tag }}
 
+<div class="section-wrapper">
+    <div class="container">
+        
+        <div class="grid 2-cols">
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+        </div>
 
+    </div>
+</div>
 
 {% schema %}
     {
-        "name": "What Makes It Special"
+        "name": "What Makes It Special",
+        "class": "what-make-it-special",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            }
+        ],
+        "presets": [
+            {
+              "name": "What Makes It Special"
+            }
+        ]
     }
 {% endschema %}
