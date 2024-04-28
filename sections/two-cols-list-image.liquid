@@ -8,7 +8,7 @@
                 {% for item in section.blocks %}
                     <li class="icon-list-item"> 
                         <span class="icon">{% render 'icon-circle-check' %}</span>  
-                        <span class="text">{{ item.text }}</span> 
+                        <span class="text">{{ item.settings.text }}</span> 
                     </li>
                 {% endfor %}
             </ul>
