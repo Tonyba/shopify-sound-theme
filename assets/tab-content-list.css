@@ -50,7 +50,9 @@
 .tab-content-list .icon-list-item {
     margin-bottom: 20px;
 }
-
+.tab-content-list p {
+    color: #4F4F4F;
+}
 .tab-content-list h3 {
     font-size: 22px;
     color: #000;
