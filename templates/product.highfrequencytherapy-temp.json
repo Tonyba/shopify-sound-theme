@@ -401,6 +401,7 @@
         "item_QxMAYr": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/7bd6a8c8d2950dbc1025bb89aa8879c4.jpg",
             "image_rotation_degrees": -2,
             "subheading": "Flash Window",
             "title": "Smooth, soft skin",
