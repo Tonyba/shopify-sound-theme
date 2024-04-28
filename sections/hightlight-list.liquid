@@ -3,7 +3,9 @@
 
 <div class="flex gap-40 container">
     <div class="w-50">
-        {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+        <figure style="{% if section.settings.img_h != blank %}max-height:{{ section.settings.img-h}}px {% endif %}">
+            {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+        </figure>
     </div>
     <div class="w-50">
         <div class="subheading">{{ section.settings.subheading }}</div>
@@ -35,6 +37,11 @@
                 "type": "image_picker",
                 "id": "image",
                 "label": "Image"
+            },
+            {
+                "type": "number",
+                "label": "Image Max Height",
+                "id": "img_h"
             },
             {
                 "type": "text",
