@@ -7,7 +7,7 @@
     <h2>{{ section.settings.heading }}</h2>
     <div class="product-testimonials scroll-wrapper">
         {%- for block in section.blocks -%}
-            {% render 'review-before-after-item' review:block.settings %}
+            {% render 'review-before-after-item' review:block.settings, is_left: section.settings.title_left  %}
         {%- endfor -%}
     </div>
 </div>
