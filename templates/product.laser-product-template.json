@@ -454,21 +454,10 @@
     "multiple_images_with_text_rbVrWj": {
       "type": "multiple-images-with-text",
       "blocks": {
-        "item_QKzT4E": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/f71c36f9442e186e7ee894ca901a5048.jpg",
-            "image_rotation_degrees": 0,
-            "subheading": "",
-            "title": "Image with text",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
         "item_3acy4E": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/f71c36f9442e186e7ee894ca901a5048.jpg",
             "image_rotation_degrees": 0,
             "subheading": "Flash Window",
             "title": "Completely Pain-Free",
@@ -479,7 +468,6 @@
         }
       },
       "block_order": [
-        "item_QKzT4E",
         "item_3acy4E"
       ],
       "settings": {
