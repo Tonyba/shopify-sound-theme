@@ -75,6 +75,10 @@
     left: 15px
 }
 
+.before-after-product-progress .before-after__after-image  .before-after__label{
+    right: 15px
+}
+
 .before-after-product-progress  img {
     max-height: 480px;
     object-fit: cover;
