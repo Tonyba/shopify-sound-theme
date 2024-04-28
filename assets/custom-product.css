@@ -88,7 +88,7 @@ compare-at-price {
     --container-max-width: 1300px
 }
 
-.right-left-section .pt-0 .section {
+.right-left-section.pt-0 .section {
     padding-top: unset;
 }
 
