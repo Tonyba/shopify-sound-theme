@@ -210,11 +210,29 @@
     },
     "before_after_product_progress_xD6BQm": {
       "type": "before-after-product-progress",
+      "blocks": {
+        "slide_bdnnQC": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "get Rid of Strawberry Skin",
+            "title": "No More Dark Pores",
+            "subtitle": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction. In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "text": "",
+            "progress": 0,
+            "before_text": "Before",
+            "after_text": "After"
+          }
+        }
+      },
+      "block_order": [
+        "slide_bdnnQC"
+      ],
       "settings": {
-        "heading": "",
-        "subheading": "",
-        "bg_color": "transparent",
-        "drag_cursor_background": "#000"
+        "heading": "clean and hairless skin",
+        "just_simple_image": true,
+        "subheading": "REVEAL SMOOTHER SKIN",
+        "bg_color": "rgba(0,0,0,0)",
+        "drag_cursor_background": "#000000"
       }
     },
     "171434810895cd0ab2": {
