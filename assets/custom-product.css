@@ -127,6 +127,13 @@ compare-at-price {
     font-size: 16px;
 }
 
+.right-left-section .prose > .h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
 
 #shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .section,
 #shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .section,
