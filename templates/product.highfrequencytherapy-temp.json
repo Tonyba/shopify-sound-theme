@@ -194,11 +194,20 @@
       "settings": {
         "heading": "Results From Our Satisfied Customers"
       }
+    },
+    "what_make_it_special_PLt79V": {
+      "type": "what-make-it-special",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/8cc178bb9c7e3c3b6767a2a0c96c87e5.png",
+        "heading": "",
+        "info_text": ""
+      }
     }
   },
   "order": [
     "main",
     "visible_results_UbQKUh",
-    "product_testimonials_tmP6tw"
+    "product_testimonials_tmP6tw",
+    "what_make_it_special_PLt79V"
   ]
 }
