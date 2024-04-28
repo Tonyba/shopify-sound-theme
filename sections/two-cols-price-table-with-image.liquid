@@ -6,6 +6,7 @@
         
         <div class="grid cols-2 gap-40">
             <div class="grid-item relative">
+                <div class="top-badge"> <span class="badge-icon"> {% render 'icon-piggy' %} </span> Save 90%!</div>
                 {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
             </div>
             <div class="grid-item">
