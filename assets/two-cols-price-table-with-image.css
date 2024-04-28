@@ -39,8 +39,8 @@
     color: #222;
 }
 
-.price-table-with-image  {
-
+.price-table-with-image  .table-price-item {
+    color: #FF004A;
 }
 
 .price-table-with-image  .is-last {
