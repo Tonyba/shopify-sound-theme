@@ -205,11 +205,27 @@
             "item_text": "Waxing",
             "price": 320
           }
+        },
+        "slide_zPHwmN": {
+          "type": "slide",
+          "settings": {
+            "item_text": "Laser",
+            "price": 950
+          }
+        },
+        "slide_TaWBBQ": {
+          "type": "slide",
+          "settings": {
+            "item_text": "SkinPetra IPL",
+            "price": 220
+          }
         }
       },
       "block_order": [
         "slide_iJMQJH",
-        "slide_yaY38Q"
+        "slide_yaY38Q",
+        "slide_zPHwmN",
+        "slide_TaWBBQ"
       ],
       "settings": {
         "bg_color": "#f3f3f3",
