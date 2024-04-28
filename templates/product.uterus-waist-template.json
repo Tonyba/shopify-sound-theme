@@ -290,16 +290,20 @@
         "slide_VFPTEG": {
           "type": "slide",
           "settings": {
+            "left_image": "shopify:\/\/shop_images\/8b438d2943e79e1f4dd3f974ab658ccc.png",
             "tab_title": "Pills",
             "left_list": "",
+            "right_image": "shopify:\/\/shop_images\/0ccc4f9f1b63eaa0a2704b63ad64087f_b8a92119-b500-4e37-9799-0e285cb4532d.png",
             "right-list": ""
           }
         },
         "slide_gNUCdU": {
           "type": "slide",
           "settings": {
+            "left_image": "shopify:\/\/shop_images\/8b438d2943e79e1f4dd3f974ab658ccc.png",
             "tab_title": "Heating Pads",
             "left_list": "",
+            "right_image": "shopify:\/\/shop_images\/0ccc4f9f1b63eaa0a2704b63ad64087f_b8a92119-b500-4e37-9799-0e285cb4532d.png",
             "right-list": ""
           }
         }
