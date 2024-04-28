@@ -121,6 +121,11 @@
 #shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx .multiple-images-with-text {
     gap: unset;
 }
+
+.multiple-images-with-text {
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .multiple-images-with-text__content-with-nav {
     max-width: unset;
 }
