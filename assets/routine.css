@@ -2,6 +2,10 @@
     color: #FF004A;
 }
 
+.routine  img {
+    border-radius: 20px;
+}
+
 .routine .headings {
     text-align: center;
 }
