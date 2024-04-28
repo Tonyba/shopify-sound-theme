@@ -3,3 +3,8 @@
     height: 100%;
     object-fit: cover;
 }
+
+.what-make-it-special h3 {
+    color: #FF004A;
+    font-size: 24px;
+}
