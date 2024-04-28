@@ -273,7 +273,8 @@ compare-at-price {
     width: 100%;
 }
 
-#shopify-section-template--16709264310425__faq_LqUXTr .accordion-box  {
+#shopify-section-template--16709264310425__faq_LqUXTr .accordion-box,
+.custom-faqs  .accordion-box {
     padding: 0;
     background-color: unset;
     display: grid;
