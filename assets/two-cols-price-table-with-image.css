@@ -11,3 +11,11 @@
 .price-table-with-image h2 + p:not(.after-table)  {
     color: #777 ;
 }
+
+.price-table-with-image  .table-price {
+    margin: 40px 0;
+}
+
+.price-table-with-image  .after-table {
+    font-weight: 600;
+}
