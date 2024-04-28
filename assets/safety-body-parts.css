@@ -46,6 +46,7 @@
 .safety-body-parts .left-img,
 .safety-body-parts .right-img {
     position: absolute;
+    bottom: 0;
 }
 
 .safety-body-parts .left-img {
