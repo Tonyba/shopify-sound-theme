@@ -10,6 +10,7 @@
 
 .price-table-with-image h2 + p:not(.after-table)  {
     color: #777 ;
+    font-size: 18px;
 }
 
 .price-table-with-image  .table-price {
