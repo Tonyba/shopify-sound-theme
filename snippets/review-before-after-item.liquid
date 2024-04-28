@@ -6,7 +6,7 @@
         {{- review.review_img | image_url: width: review.review_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
     {% endif %}
     
-    <div class="review-info {% if condition %}horizontal-review{% endif %}">
+    <div class="review-info {% if is_left %}horizontal-review{% endif %}">
 
         {% if is_left %}
             <div class="grid cols-2">
