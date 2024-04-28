@@ -34,6 +34,14 @@
     width: 50%;
 }
 
+.w-60 {
+    width: 60%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
 .os-scrollbar-handle {
     background-color: black !important;
     cursor: grab;
