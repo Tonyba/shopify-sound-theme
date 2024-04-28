@@ -5,7 +5,7 @@
 
 .price-table-with-image  h2 {
     line-height: 1.2;
-  
+    font-weight: 500;
 }
 
 .price-table-with-image h2 + p:not(.after-table)  {
