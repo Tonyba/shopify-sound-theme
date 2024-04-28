@@ -73,36 +73,42 @@
 
 
 #shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .section,
-#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .section
+#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .section,
+#shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx .section
  {
     --container-max-width: 1300px
 }
 
-#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .section {
+#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .section ,
+#shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx .section {
     padding-bottom: unset;
     background-color: transparent !important;
 } 
 
-#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj img  {
+#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj img ,
+#shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx img {
     border-radius: 0;
 }
 
 #shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .prose > p:first-child,
-#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .prose > p:first-child  {
+#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .prose > p:first-child ,
+#shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx .prose > p:first-child  {
     font-size: 24px;
     font-weight: 400;
     color: #FF004A
 }
 
 #shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .prose > .h1,
-#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .prose > .h1 {
+#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .prose > .h1,
+#shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx .prose > .h1 {
     font-size: 40px;
     font-weight: 500;
     margin-top: 10px;
 }
 
 #shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .prose > p:last-child,
-#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .prose > p:last-child {
+#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .prose > p:last-child,
+#shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx .prose > p:last-child {
     font-size: 21px;
     color: #4f4f4f;
 }
