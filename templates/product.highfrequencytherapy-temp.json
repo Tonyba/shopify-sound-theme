@@ -402,8 +402,8 @@
           "type": "item",
           "settings": {
             "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Heading 1",
+            "subheading": "Flash Window",
+            "title": "Smooth, soft skin",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "button_url": "",
             "button_text": ""
