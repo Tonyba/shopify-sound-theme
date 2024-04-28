@@ -11,6 +11,10 @@
     font-size: 21px;
 }
 
+.custom-multicolumn p {
+    color: #777;
+}
+
 .custom-multicolumn  {
     text-align: center;
 }
