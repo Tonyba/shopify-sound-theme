@@ -104,6 +104,17 @@
         "input_text_color": ""
       }
     },
+    "3_seconds_quick_tUKe8W": {
+      "type": "3-seconds-quick",
+      "settings": {
+        "bg_color": "",
+        "heading": "",
+        "subheading": "",
+        "stage_title": "",
+        "stage_subtitle": "",
+        "right_img": "shopify:\/\/shop_images\/d31a09a0dae633c57a975532583a6bea.png"
+      }
+    },
     "171433367028cbf9e0": {
       "type": "apps",
       "blocks": {
@@ -133,6 +144,7 @@
   },
   "order": [
     "main",
+    "3_seconds_quick_tUKe8W",
     "171433367028cbf9e0"
   ]
 }
