@@ -351,6 +351,34 @@
         "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely to be absorbed by the melanin in your skin and more by the melanin in your hair for safer, and more effective at-home treatments.”"
       }
     },
+    "press_carousel_kdbbCz": {
+      "type": "press-carousel",
+      "blocks": {
+        "slide_A8x4ca": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
+          }
+        },
+        "slide_WHUB3X": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f_53fc781b-f018-4ca2-b71b-e9ba8a057813.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_A8x4ca",
+        "slide_WHUB3X"
+      ],
+      "settings": {
+        "is_autoscroll": true,
+        "heading": "Hot Off the Press",
+        "subheading": "mAGAZINES"
+      }
+    },
     "17143306286f1c2a35": {
       "type": "apps",
       "blocks": {
@@ -386,6 +414,7 @@
     "custom_multicolumn_CqdQrY",
     "routine_AkENrV",
     "big_img_section_rmm7Ak",
+    "press_carousel_kdbbCz",
     "17143306286f1c2a35"
   ]
 }
