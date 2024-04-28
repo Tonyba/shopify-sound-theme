@@ -16,6 +16,11 @@
     margin: 40px 0;
 }
 
+.price-table-with-image  .table-item {
+    display: flex;
+    justify-content: space-between;
+}
+
 .price-table-with-image  .after-table {
     font-weight: 600;
     font-size: 15px;
