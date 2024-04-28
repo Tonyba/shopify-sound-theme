@@ -8,6 +8,11 @@
     max-width: 465px;
 }
 
+
+.col-list-with-image .grid-item:has(img) {
+    text-align: right;
+}
+
 .col-list-with-image  span {
     color: #4F4F4F;
     font-size: 20px;
