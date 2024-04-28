@@ -19,7 +19,11 @@
 .price-table-with-image  .table-item {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 20px;
+}
+
+.price-table-with-image .table-item:not(:last-child) {
+    border-bottom: 1px solid black;
 }
 
 .price-table-with-image  .after-table {
