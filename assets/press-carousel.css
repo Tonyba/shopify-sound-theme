@@ -21,7 +21,7 @@
     left: 50%;
     border-radius: 100%;
     opacity:1;
-    mix-blend-mode: color-burn;
+    mix-blend-mode: lighten;
     transform: translateX(-50%);
     background: linear-gradient(180.04deg, #FFEEDA 0.03%, #FFFAF4 99.97%);
 }
