@@ -1,12 +1,15 @@
 {{ 'visible-results.css' | asset_img_url | stylesheet_tag }}
 
-<div class="wrapepr" style="background-color: {{ section.settings.bg_color }} " >
-    <div class="" ></div>
+<div class="wrapper" style="background-color: {{ section.settings.bg_color }} " >
+    <div class="image">
+        {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+    </div>
 </div>
 
 {% schema %}
     {
         "name": "Visible Results",
+        "class": "visible-results",
         "settings": [
             {
                 "type": "image_picker",
