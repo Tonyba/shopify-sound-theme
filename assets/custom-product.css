@@ -268,7 +268,8 @@ compare-at-price {
 
 
 /*faqs*/
-#shopify-section-template--16709264310425__faq_LqUXTr .section-stack__main {
+#shopify-section-template--16709264310425__faq_LqUXTr .section-stack__main,
+.custom-faqs .section-stack__main {
     width: 100%;
 }
 
