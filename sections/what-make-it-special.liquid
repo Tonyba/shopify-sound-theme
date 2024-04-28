@@ -4,7 +4,9 @@
     <div class="container">
         
         <div class="grid 2-cols">
-            <div class="grid-item"></div>
+            <div class="grid-item">
+                {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+            </div>
             <div class="grid-item"></div>
         </div>
 
