@@ -34,3 +34,7 @@
     font-size: 15px;
     color: #222;
 }
+
+.price-table-with-image  .is-last {
+    background-color: white;
+}
