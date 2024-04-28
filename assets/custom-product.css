@@ -296,11 +296,13 @@ compare-at-price {
     font-weight: 400;
 }
 
-#shopify-section-template--16709264310425__faq_LqUXTr .accordion {
+#shopify-section-template--16709264310425__faq_LqUXTr .accordion,
+.custom-faqs .accordion {
     border-block-end-width: 0
 }
 
-#shopify-section-template--16709264310425__faq_LqUXTr  .accordion p {
+#shopify-section-template--16709264310425__faq_LqUXTr  .accordion p,
+.custom-faqs .accordion p {
     padding-top: 20px;
 }
 
