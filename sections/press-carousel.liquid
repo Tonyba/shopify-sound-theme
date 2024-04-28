@@ -1,4 +1,5 @@
 {{ 'press-carousel.css' | asset_url | stylesheet_tag }}
+{{ 'splide.min.css' | asset_url | stylesheet_tag }}
 
 <div class="section-wrapper">
     <div class="headings">
@@ -9,7 +10,12 @@
     <div class="splide press-carousel">
         <div class="splide__track">
             <div class="splide__list">
-                <div class="splide__slide"></div>
+                {% for press in section.blocks %}
+                    <div class="splide__slide">
+                        <p> {{ press.settings.text }}</p>
+                        {{- press.settings.image | image_url: width: press.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </div>
