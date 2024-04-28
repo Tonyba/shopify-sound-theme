@@ -106,6 +106,19 @@
     },
     "3_seconds_quick_tUKe8W": {
       "type": "3-seconds-quick",
+      "blocks": {
+        "slide_ReRmFN": {
+          "type": "slide",
+          "settings": {
+            "icon_color": "#fbca4e",
+            "title": "50°",
+            "btn_text": "Daily Warm"
+          }
+        }
+      },
+      "block_order": [
+        "slide_ReRmFN"
+      ],
       "settings": {
         "bg_color": "linear-gradient(99.09deg, rgba(243, 230, 214, 1) 0.29%, rgba(254, 248, 240, 1) 99.4%)",
         "heading": "3 Seconds Quick Heat",
