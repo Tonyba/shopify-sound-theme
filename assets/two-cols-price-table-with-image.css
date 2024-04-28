@@ -43,6 +43,10 @@
     color: #FF004A;
 }
 
+.price-table-with-image img {
+    border-radius: 20px;
+}
+
 .price-table-with-image  .is-last {
     background-color: white;
     font-weight: 600;
