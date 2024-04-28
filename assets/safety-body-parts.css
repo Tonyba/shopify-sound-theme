@@ -1,3 +1,9 @@
 .safety-body-parts .full-w {
     padding-top: 100px;
 }
+
+.safety-body-parts  h2 {
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+}
