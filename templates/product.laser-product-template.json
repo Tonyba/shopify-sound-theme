@@ -369,6 +369,46 @@
     },
     "routine_yaThnt": {
       "type": "routine",
+      "blocks": {
+        "slide_YwUyrD": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 1",
+            "subheading": "Shave, epilate or wax the area to remove the hair",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_b6VPhR": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 2",
+            "subheading": "Select the right light intensity for your skin tone",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_DYVrPr": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 3",
+            "subheading": "Put the laser on desired spot",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_9idWbF": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 4",
+            "subheading": "Press the 'flash' button to start your routine",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        }
+      },
+      "block_order": [
+        "slide_YwUyrD",
+        "slide_b6VPhR",
+        "slide_DYVrPr",
+        "slide_9idWbF"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/2e4b05eef0be573f053f42527bd9d01a.png",
         "heading": "Meet the Routine",
