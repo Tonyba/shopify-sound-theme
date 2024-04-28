@@ -44,4 +44,5 @@
 
 .tab-content-list .icon-list-item  {
     display: flex;
+    gap: 20px;
 }
