@@ -488,6 +488,47 @@
         "button_text_color": ""
       }
     },
+    "two_cols_list_image_tBY647": {
+      "type": "two-cols-list-image",
+      "blocks": {
+        "slide_6y7ftf": {
+          "type": "slide",
+          "settings": {
+            "text": "Mashroom Tube"
+          }
+        },
+        "slide_7CqHNB": {
+          "type": "slide",
+          "settings": {
+            "text": "Tongue Tube"
+          }
+        },
+        "slide_cRaVRV": {
+          "type": "slide",
+          "settings": {
+            "text": "Bend Tube"
+          }
+        },
+        "slide_Fg6rn3": {
+          "type": "slide",
+          "settings": {
+            "text": "Comb Tube"
+          }
+        }
+      },
+      "block_order": [
+        "slide_6y7ftf",
+        "slide_7CqHNB",
+        "slide_cRaVRV",
+        "slide_Fg6rn3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/f54c9ac2da2098e2acaa0e1cc85227cb.png",
+        "bg_Color": "#F3F3F3",
+        "heading": "In the Box",
+        "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
+      }
+    },
     "17143306286f1c2a35": {
       "type": "apps",
       "blocks": {
@@ -527,6 +568,7 @@
     "multiple_images_with_text_rdtyyE",
     "multiple_images_with_text_xhE9mY",
     "multiple_images_with_text_VFC7z8",
+    "two_cols_list_image_tBY647",
     "17143306286f1c2a35"
   ]
 }
