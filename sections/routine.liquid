@@ -1,8 +1,52 @@
+
+<div class="container">
+
+</div>
+
 {% schema %}
     {
         "name": "Routine",
         "class": "routine",
-        "settings": [],
+        "settings": [
+            {
+                "type": "image_picker",
+                "label": "Image",
+                "id": "image"
+            },
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "text",
+                "id": "subheading",
+                "label": "Subheading"
+            }
+        ],
+        "blocks": [
+            {
+               "type": "slide",
+               "name": "Step",
+               "settings": [
+                {
+                    "type": "text",
+                    "id": "heading",
+                    "label": "Heading"
+                },
+                {
+                    "type": "text",
+                    "id": "subheading",
+                    "label": "Subheading"
+                },
+                {
+                    "type": "textarea",
+                    "id": "text",
+                    "label": "Text"
+                }
+               ]
+            }
+        ],
         "presets": [
             {
               "name": "routine"
