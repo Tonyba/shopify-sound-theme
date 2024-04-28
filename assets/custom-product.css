@@ -125,4 +125,5 @@
 .multiple-images-with-text img {
     width: 100%;
     object-fit: cover;
+    max-width: unset;
 }
