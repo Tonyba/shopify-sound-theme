@@ -2,3 +2,8 @@
     font-size: 24px;
     color: #FF004A
 }
+
+.price-table-with-image  h2 {
+    line-height: 1.2;
+    font-weight: 600;
+}
