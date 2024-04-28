@@ -116,3 +116,8 @@
 #shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx multiple-images-with-text-image-list {
     order: 1;
 }
+
+#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .multiple-images-with-text,
+#shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx .multiple-images-with-text {
+    gap: unset;
+}
