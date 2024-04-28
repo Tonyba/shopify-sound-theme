@@ -358,6 +358,58 @@
         "subheading": "HOW TO USE"
       }
     },
+    "press_carousel_PV6PqQ": {
+      "type": "press-carousel",
+      "blocks": {
+        "slide_cQLVJq": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
+          }
+        },
+        "slide_yLVrGm": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f_53fc781b-f018-4ca2-b71b-e9ba8a057813.png"
+          }
+        },
+        "slide_jCagNP": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/3bbf467d37c3cb3101c3efeac22258ac.png"
+          }
+        },
+        "slide_KnA3tw": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f.png"
+          }
+        },
+        "slide_tqFDef": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/ad3e2346f4c0ed84b29ccdb325793a37.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_cQLVJq",
+        "slide_yLVrGm",
+        "slide_jCagNP",
+        "slide_KnA3tw",
+        "slide_tqFDef"
+      ],
+      "settings": {
+        "is_autoscroll": true,
+        "heading": "Hot Off the Press",
+        "subheading": "mAGAZINES"
+      }
+    },
     "171433367028cbf9e0": {
       "type": "apps",
       "blocks": {
@@ -392,6 +444,7 @@
     "hightlight_list_mnLzJV",
     "tab_content_list_m9DxxM",
     "routine_irhwaJ",
+    "press_carousel_PV6PqQ",
     "171433367028cbf9e0"
   ]
 }
