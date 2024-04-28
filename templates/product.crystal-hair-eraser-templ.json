@@ -61,6 +61,16 @@
           "settings": {
             "list_heading": "All the hair-free goodness:"
           }
+        },
+        "right_side_info_features_8xainx": {
+          "type": "right-side-info-features",
+          "settings": {
+          }
+        },
+        "accordion_data_99FmzC": {
+          "type": "accordion-data",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -72,7 +82,9 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "product_icon_list_X9BFY9"
+        "product_icon_list_X9BFY9",
+        "right_side_info_features_8xainx",
+        "accordion_data_99FmzC"
       ],
       "settings": {
         "full_width": true,
