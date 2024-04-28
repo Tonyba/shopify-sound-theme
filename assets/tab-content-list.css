@@ -58,6 +58,7 @@
     height: 220px;
     object-fit: contain;
     margin-bottom: 20px;
+    border-bottom: 1px solid black;
 }
 
 .tab-content-list h3 {
