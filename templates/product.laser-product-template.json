@@ -236,6 +236,12 @@
         "after_table_text": "*Cost evaluated over 4 years<br>\n*Cost of standard out of home treatments."
       }
     },
+    "product_testimonials_KVrUgn": {
+      "type": "product-testimonials",
+      "settings": {
+        "heading": ""
+      }
+    },
     "1714242086a4fbce2e": {
       "type": "apps",
       "blocks": {
@@ -268,6 +274,7 @@
     "before_after_product_progress_XCUDWx",
     "multiple_images_with_text_Pwad3c",
     "two_cols_price_table_with_image_tjAkjz",
+    "product_testimonials_KVrUgn",
     "1714242086a4fbce2e"
   ]
 }
