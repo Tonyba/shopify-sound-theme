@@ -23,3 +23,13 @@
 .review-before-after-item:not(:last-child) {
     margin-right: 20px;
 }
+
+.review-before-after-item {
+    flex-grow: 1;
+    flex-shrink: 0;
+    max-width: 392px;
+}
+
+.review-before-after-item {
+    display: block;
+}
