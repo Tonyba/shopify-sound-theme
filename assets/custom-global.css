@@ -122,7 +122,11 @@ border-color: white;
 }
 
 .rating-with-text .rating  {
-display: none;
+    display: none;
+}
+
+.headings.center {
+    text-align: center;
 }
 
 @font-face {
