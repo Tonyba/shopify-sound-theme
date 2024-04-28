@@ -1,7 +1,7 @@
 
 <div class="full-w" style="background-color: {{ section.settings.bg_color }}" >
 
-    <div class="container">
+    <div class="container relative">
         <h2>{{ section.settings.heading }}</h2>
         <div class="inner-container">
             <div class="grid cols-3 gap-40">
@@ -12,6 +12,12 @@
                     </div>
                 {% endfor %}
             </div>
+        </div>
+        <div class="left-img">
+            {{- section.settings.left_img | image_url: width: section.settings.left_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+        </div>
+        <div class="right-img">
+            {{- section.settings.left_img | image_url: width: section.settings.left_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
         </div>
     </div>
 
@@ -26,7 +32,8 @@
             {
                 "type": "color",
                 "label": "Background Color",
-                "id": "bg_color"
+                "id": "bg_color",
+                "default": "#f3f3f3"
             },
             {
                 "type": "text",
