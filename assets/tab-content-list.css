@@ -47,7 +47,12 @@
     gap: 20px;
 }
 
+.tab-content-list .icon-list-item {
+    margin-bottom: 20px;
+}
+
 .tab-content-list h3 {
     font-size: 22px;
     color: #000;
+    line-height: 1;
 }
