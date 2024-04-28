@@ -147,6 +147,12 @@
         "right_img": "shopify:\/\/shop_images\/d31a09a0dae633c57a975532583a6bea.png"
       }
     },
+    "product_testimonials_kFXNEf": {
+      "type": "product-testimonials",
+      "settings": {
+        "heading": "Trusted By Thousands"
+      }
+    },
     "171433367028cbf9e0": {
       "type": "apps",
       "blocks": {
@@ -177,6 +183,7 @@
   "order": [
     "main",
     "3_seconds_quick_tUKe8W",
+    "product_testimonials_kFXNEf",
     "171433367028cbf9e0"
   ]
 }
