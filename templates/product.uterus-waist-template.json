@@ -441,6 +441,68 @@
         "button_text_color": ""
       }
     },
+    "multiple_images_with_text_VxBBbx": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_eVNDGy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Womens-Uterus-Warmer-Womb-Heating-Therapy-Massage-Belt18_1_1.png",
+            "image_rotation_degrees": -2,
+            "subheading": "AutoGlide Mode",
+            "title": "Constant Temperature Heating Therapy",
+            "content": "<p>Swap out the time and money you'd spend on laser, in-salon waxing, or annoying razors for affordable, long-term hair removal.<br\/><\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_eVNDGy"
+      ],
+      "settings": {
+        "full_width": true,
+        "extra_css_class": "right-left-section pt-0 reversed",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "multiple_images_with_text_fHXbM6": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_gmUxkC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Womens-Uterus-Warmer-Womb-Heating-Therapy-Massage-Belt18_1_1.png",
+            "image_rotation_degrees": -2,
+            "subheading": "Laser-like Results, From Home",
+            "title": "Soothing Massage",
+            "content": "<p>Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With SkinPetra IPL, get laser-like results from the comfort of your home.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_gmUxkC"
+      ],
+      "settings": {
+        "full_width": true,
+        "extra_css_class": "right-left-section pt-0",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "171433367028cbf9e0": {
       "type": "apps",
       "blocks": {
@@ -477,6 +539,8 @@
     "routine_irhwaJ",
     "press_carousel_PV6PqQ",
     "multiple_images_with_text_pP6VMN",
+    "multiple_images_with_text_VxBBbx",
+    "multiple_images_with_text_fHXbM6",
     "171433367028cbf9e0"
   ]
 }
