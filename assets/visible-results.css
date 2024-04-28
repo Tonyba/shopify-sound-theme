@@ -1,4 +1,7 @@
-.visible-results h2 {
+.visible-results .headings * {
     font-weight: 500;
 }
 
+.visible-results  .subheading {
+    font-size: 30px;
+}
