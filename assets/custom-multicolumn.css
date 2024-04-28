@@ -10,6 +10,10 @@
     margin-bottom: 0;
 }
 
+.custom-multicolumn .subheading {
+    margin-bottom: 50px;
+}
+
 .custom-multicolumn .grid-item {
     padding: 35px
 }
