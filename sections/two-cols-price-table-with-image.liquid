@@ -15,7 +15,7 @@
                     {% for item in section.blocks %}
                         <div class="table-item {% if forloop.index == section.blocks.size %} is-last {% endif %}">
                             {{ item.settings.item_text }}
-                            <span class="table-price-item">{{ item.settings.price | money_without_currency }}</span>
+                            <span class="table-price-item">${{ item.settings.price  }}</span>
                         </div>
                     {% endfor %}
     

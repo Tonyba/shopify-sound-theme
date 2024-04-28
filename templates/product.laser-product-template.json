@@ -198,10 +198,18 @@
             "item_text": "Shaving",
             "price": 480
           }
+        },
+        "slide_yaY38Q": {
+          "type": "slide",
+          "settings": {
+            "item_text": "Waxing",
+            "price": 320
+          }
         }
       },
       "block_order": [
-        "slide_iJMQJH"
+        "slide_iJMQJH",
+        "slide_yaY38Q"
       ],
       "settings": {
         "bg_color": "#f3f3f3",
