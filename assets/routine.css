@@ -7,8 +7,13 @@
     font-weight: 500;
     margin-bottom: 50px;
 }
-.routine  img {
+
+.routine figure,
+.routine  img  {
     border-radius: 20px;
+}
+
+.routine  img {
     height: 100%;
     object-fit: cover;
 }
