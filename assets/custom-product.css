@@ -1,6 +1,9 @@
 .text-on-sale {
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: 500 ;
 }
+
+
 
 price-list,
 compare-at-price {
