@@ -46,3 +46,8 @@
     display: flex;
     gap: 20px;
 }
+
+.tab-content-list h3 {
+    font-size: 22px;
+    color: #000;
+}
