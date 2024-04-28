@@ -53,6 +53,40 @@
 
 </div>
 
+
+<script async>
+    (function () {
+
+      const tabHeader = document.querySelectorAll('.tabs-header button');
+      const tabContent = document.querySelectorAll('.tabs-content .tab-content-item');
+
+      [...tabHeader].forEach( function(item) {
+       
+        item.addEventListener('click', selectTab);
+      });
+
+      function selectTab() {
+        const btn = this;
+        const tabId = btn.getAttribute('data-target-id');
+
+        [...tabHeader].forEach( function(item) {
+            item.classList.remove('active');
+            btn.classList.add('active');
+        });
+
+        [...tabContent].forEach((content) => {
+           
+            content.classList.remove('active');
+            if(content.id == tabId) content.classList.add('active');
+        });
+        
+      }
+
+    
+    }());
+</script>
+
+
 {% schema %}
     {
         "name": "tab Content List",
