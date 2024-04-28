@@ -37,7 +37,8 @@
 .body-part {
     text-align: center;
     font-size: 17px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    z-index: 1;
 }
 
 .safety-body-parts .left-img,
