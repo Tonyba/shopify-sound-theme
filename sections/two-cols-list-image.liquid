@@ -6,7 +6,10 @@
             <p>{{ section.settings.text }}</p>
             <ul>
                 {% for item in section.settings %}
-                    
+                    <li class="icon-list-item"> 
+                        <span class="icon"> {% render 'icon-circle-check' %} } </span>  
+                        <span class="text">{{ item.text }}</span> 
+                    </li>
                 {% endfor %}
             </ul>
         </div>
