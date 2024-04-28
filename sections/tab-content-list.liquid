@@ -18,6 +18,7 @@
             {% for item in section.blocks %}
                 {%liquid 
                     assign left_list_items = item.settings.left_list | split: '<br>'
+                    assign right_list_item = item.settings.right_list | split : 'br'
                 %}
                 <div id="{{ item.id }}" class="tab-content-item align-item-center grid cols-2 gap-100 {% if forloop.index == 1 %} active{% endif %}"> 
                     <div class="grid-item">
@@ -36,6 +37,13 @@
                         <div class="image">
                             {{- item.settings.right_image | image_url: width: item.settings.right_image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
                         </div>
+                        <ul>
+                            {% for item in right_list_item %}
+                                
+                                    <li class="icon-list-item"> <span class="icon">{% render 'icon-circle-check' %}</span> <div class="item-content">{{ item }}</div> </li>
+                            
+                            {% endfor %}
+                         </ul>
                     </div>
                 </div>
             {% endfor %}
