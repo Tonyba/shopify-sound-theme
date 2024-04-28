@@ -60,6 +60,13 @@
     font-weight: 500;
 }
 
+.before-after-product-progress .before-after__label {
+    color: white;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+}
+
 .before-after-product-progress  img {
     max-height: 480px;
     object-fit: cover;
