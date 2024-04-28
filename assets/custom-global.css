@@ -173,6 +173,10 @@ border-color: white;
     background: linear-gradient(95.94deg, #F5E8DA 57.87%, #FEF8F0 100%);
 }
 
+.pt-0 {
+    padding-top: unset;
+}
+
 @font-face {
     font-display: swap; 
     font-family: 'IBM Plex Sans';
