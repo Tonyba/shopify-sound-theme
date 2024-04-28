@@ -67,6 +67,10 @@
     padding: 7px 15px;
 }
 
+.before-after-product-progress .before-after__label--top {
+    top: 20px;
+}
+
 .before-after-product-progress  img {
     max-height: 480px;
     object-fit: cover;
