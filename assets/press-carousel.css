@@ -8,6 +8,20 @@
     padding: 30px;
 }
 
+.press-carousel-wrapper {
+    position: relative;
+
+}
+
+.press-carousel-wrapper::after {
+    content: "";
+    width: 728px;
+    height: 728px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(180.04deg, #FFEEDA 0.03%, #FFFAF4 99.97%);
+}
+
 .press-item p{
     margin-bottom: 30px;
     font-size: 19px;
