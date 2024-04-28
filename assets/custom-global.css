@@ -129,7 +129,7 @@ display: none;
     font-display: swap; 
     font-family: 'IBM Plex Sans';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     src: url('https://cdn.shopify.com/s/files/1/0640/3588/1113/files/ibm-plex-sans-v19-latin-500.woff2?v=1714307990') format('woff2');
 }
 
@@ -140,6 +140,8 @@ display: none;
     font-weight: 300;
     src: url('https://cdn.shopify.com/s/files/1/0640/3588/1113/files/ibm-plex-sans-v19-latin-300.woff2?v=1714310424') format('woff2');
 }
+
+
 
 @media screen and (min-width: 1150px) {
     #shopify-section-template--16704955089049__featured-collection .section-header {
