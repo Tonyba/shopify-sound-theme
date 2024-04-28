@@ -261,11 +261,22 @@
             "text": "",
             "bg_color": ""
           }
+        },
+        "slide_wXnKG8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7fce66593aa328ebe833e0dcf2ac0f89_1.png",
+            "border_radius": 0,
+            "title": "",
+            "text": "",
+            "bg_color": ""
+          }
         }
       },
       "block_order": [
         "slide_N7PPXC",
-        "slide_fAkbPe"
+        "slide_fAkbPe",
+        "slide_wXnKG8"
       ],
       "settings": {
         "heading": "4 Glass Tubes",
