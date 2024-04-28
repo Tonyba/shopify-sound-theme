@@ -9,7 +9,7 @@
 
     <div class="grid cols-4">
         {% for column in section.blocks %}
-            <div class="grid-item" style="background-color: {{ column.settings.bg_color }}; border-radius: {{ column.settings.border_radius }}" >
+            <div class="grid-item" style="background: {{ column.settings.bg_color }}; border-radius: {{ column.settings.border_radius }}" >
                 {% if column.settings.image != blank %}
                     <figure>
                         {{- column.settings.image | image_url: width: column.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
