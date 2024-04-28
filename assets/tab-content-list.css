@@ -7,19 +7,19 @@
     margin-bottom: 50px;
 }
 
-.before-after-product-progress .tabs-header,
-.before-after-product-progress .tabs-header button  {
+.tab-content-list .tabs-header,
+.tab-content-list .tabs-header button  {
     border-radius: 150px;
 }
 
-.before-after-product-progress .tabs-header {
+.tab-content-list .tabs-header {
     max-width: 470px;
     margin: 50px auto;
     border: 1px solid black;
     display: flex;
 }
 
-.before-after-product-progress .tabs-header button  {
+.tab-content-list .tabs-header button  {
    font-size: 18px;
    font-weight: 600;
    padding: 20px 0;
@@ -27,12 +27,12 @@
    width: 100%;
 }
 
-.before-after-product-progress .tabs-header button.active,
-.before-after-product-progress .tabs-header button:hover {
+.tab-content-list .tabs-header button.active,
+.tab-content-list .tabs-header button:hover {
     background-color: black;
     color: white;
 }
 
-.before-after-product-progress .tab-content-item:not(.active) {
+.tab-content-list .tab-content-item:not(.active) {
     display: none;
 }
