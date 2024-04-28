@@ -269,6 +269,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/0863c4de1d29eb1fd2869e9f3076fbd2.jpg",
+        "img_h": 800,
         "heading": "6 Highlights",
         "subheading": "Portable And Compact"
       }

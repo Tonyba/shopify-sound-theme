@@ -1,6 +1,12 @@
 
 {{ 'hightlight-list.css' | asset_url | stylesheet_tag }}
 
+<style>
+    .hightlist-list img  {
+        {% if section.settings.img_h != blank %}max-height:{{ section.settings.img-h}}px {% endif %}
+    }
+</style>
+
 <div class="flex gap-40 container">
     <div class="w-50">
         <figure style="{% if section.settings.img_h != blank %}max-height:{{ section.settings.img-h}}px {% endif %}">
