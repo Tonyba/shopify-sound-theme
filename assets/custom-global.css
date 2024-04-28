@@ -121,6 +121,10 @@ border-color: white;
     padding: 100px 0;
 }
 
+.transparent {
+    background-color: transparent;
+}
+
 .rating-with-text .rating  {
     display: none;
 }
