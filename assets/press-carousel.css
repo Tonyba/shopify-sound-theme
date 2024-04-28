@@ -15,9 +15,11 @@
 
 .press-carousel-wrapper::before {
     content: "";
+    position: absolute;
     width: 728px;
     height: 728px;
     left: 50%;
+    border-radius: 100%;
     transform: translateX(-50%);
     background: linear-gradient(180.04deg, #FFEEDA 0.03%, #FFFAF4 99.97%);
 }
