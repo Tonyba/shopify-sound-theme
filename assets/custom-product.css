@@ -15,8 +15,8 @@
  
 }
 
-.icon-list  .text {
-    font-weight: 400 !important;
+.icon-list  span.text {
+    font-weight: 400;
 }
 
 .icon-list .icon {
