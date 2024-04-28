@@ -42,3 +42,9 @@
     font-size: 17px;
     text-transform: uppercase
 }
+
+.safety-body-parts .left-img {
+    position: absolute;
+    left: 0;
+
+}
