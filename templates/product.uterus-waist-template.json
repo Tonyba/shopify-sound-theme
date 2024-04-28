@@ -158,10 +158,50 @@
             "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
             "review_img": "shopify:\/\/shop_images\/eabbcb1c651a945c42070c2f372b7bc4.jpg"
           }
+        },
+        "slide_BGpxWn": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/eabbcb1c651a945c42070c2f372b7bc4.jpg"
+          }
+        },
+        "slide_wTRq93": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/eabbcb1c651a945c42070c2f372b7bc4.jpg"
+          }
+        },
+        "slide_6HXjw8": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/eabbcb1c651a945c42070c2f372b7bc4.jpg"
+          }
+        },
+        "slide_e6tywh": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/eabbcb1c651a945c42070c2f372b7bc4.jpg"
+          }
         }
       },
       "block_order": [
-        "slide_8Xixpa"
+        "slide_8Xixpa",
+        "slide_BGpxWn",
+        "slide_wTRq93",
+        "slide_6HXjw8",
+        "slide_e6tywh"
       ],
       "settings": {
         "heading": "Trusted By Thousands"
