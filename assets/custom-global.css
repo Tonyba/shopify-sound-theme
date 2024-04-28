@@ -17,6 +17,10 @@
     display: grid;
 }
 
+.scroll-wrapper .os-content {
+    display: flex;
+}
+
 .top-shop-message {
     background-color: black;
     color: white;
