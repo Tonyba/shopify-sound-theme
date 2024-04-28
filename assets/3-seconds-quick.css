@@ -24,3 +24,7 @@
 .three-seconds-heat .state-subtitle {
     font-size: 20px;
 }
+
+.three-seconds-heat .stage-item {
+    background-color: #F9EFE3;
+}
