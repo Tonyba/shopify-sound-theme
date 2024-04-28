@@ -2,6 +2,10 @@
     font-weight: 500;
 }
 
+.visible-results .image {
+    position: absolute;
+}
+
 .visible-results h2 {
     font-size: 50px;
     margin-bottom: unset;
