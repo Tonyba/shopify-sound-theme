@@ -44,3 +44,7 @@
 .review-before-after-item.horizontal-review  {
     max-width: 515px;
 }
+
+.review-before-after-item.horizontal-review .review-author {
+    text-align: right;
+}
