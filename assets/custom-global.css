@@ -146,6 +146,13 @@ border-color: white;
     text-transform: uppercase;
 }
 
+.heading-divider {
+    background-color: #d0d0d0;
+    height: 5px;
+    width: 42px;
+    margin: 20px 0;
+}
+
 @font-face {
     font-display: swap; 
     font-family: 'IBM Plex Sans';
