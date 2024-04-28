@@ -6,11 +6,11 @@
         
         <h2>{{ section.settings.heading }}</h2>
         <div class="tabs-header">
-            {% for item in collection %}
+           
                 {% for tab in section.blocks %}
                     <button data-target-id="{{ tab.id }}" class="tab-header-btn{% if forloop.index == 1 %} active{% endif %}">{{ tab.settings.tab_title }}</button>
                 {% endfor %}    
-            {% endfor %}
+            
         </div>
 
         <div class="tabs-content">
