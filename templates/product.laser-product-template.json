@@ -189,6 +189,17 @@
         "button_text_color": ""
       }
     },
+    "two_cols_price_table_with_image_tjAkjz": {
+      "type": "two-cols-price-table-with-image",
+      "settings": {
+        "bg_color": "#f3f3f3",
+        "image": "shopify:\/\/shop_images\/8a2e0646767543030ee025a2226bf8d2.jpg",
+        "heading": "",
+        "subheading": "",
+        "text": "",
+        "after_table_text": ""
+      }
+    },
     "1714242086a4fbce2e": {
       "type": "apps",
       "blocks": {
@@ -220,6 +231,7 @@
     "main",
     "before_after_product_progress_XCUDWx",
     "multiple_images_with_text_Pwad3c",
+    "two_cols_price_table_with_image_tjAkjz",
     "1714242086a4fbce2e"
   ]
 }
