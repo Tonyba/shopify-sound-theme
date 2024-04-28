@@ -6,3 +6,29 @@
     font-weight: 500;
     margin-bottom: 50px;
 }
+
+.before-after-product-progress .tabs-header,
+.before-after-product-progress .tabs-header button  {
+    border-radius: 150px;
+}
+
+.before-after-product-progress .tabs-header {
+    max-width: 470px;
+    margin: 50px auto;
+    border: 1px solid black;
+    display: flex;
+}
+
+.before-after-product-progress .tabs-header button  {
+   font-size: 18px;
+   font-weight: 600;
+   padding: 20px 0;
+   text-align: center;
+   width: 100%;
+}
+
+.before-after-product-progress .tabs-header button.active,
+.before-after-product-progress .tabs-header button:hover {
+    background-color: black;
+    color: white;
+}
