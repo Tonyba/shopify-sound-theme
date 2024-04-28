@@ -5,6 +5,8 @@
         
         <h2>{{ section.settings.heading }}</h2>
 
+
+
     </div>
 
 </div>
@@ -20,7 +22,28 @@
                 "label": "Heading"
             }
         ],
-        "blocks": [],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "Tab",
+                "settings": [
+                    {
+                        "type": "header",
+                        "content": "Left Content"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "left_image",
+                        "label": "Left Image"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "right_image",
+                        "label": "right_image"
+                    }
+                ]
+            }
+        ],
         "presets": [
             {
                 "name": "Tab Content List"
