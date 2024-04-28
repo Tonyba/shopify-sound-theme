@@ -24,6 +24,10 @@
     overflow: hidden;
 }
 
+.hightlist-list img {
+    object-fit: cover;
+}
+
 .highlight-item:not(:last-child) {
     margin-bottom: 40px;
 }
