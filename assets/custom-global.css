@@ -129,8 +129,12 @@ border-color: white;
     display: none;
 }
 
-.headings.center {
+.center {
     text-align: center;
+}
+
+.right {
+    text-align: right;
 }
 
 .subheading {
