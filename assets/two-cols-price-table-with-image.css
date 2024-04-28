@@ -40,6 +40,12 @@
     font-weight: 300;
     padding: 10px 20px;
     border-radius: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.price-table-with-image .badge-icon {
+        line-height: 1;
 }
 
 .price-table-with-image  .after-table {
