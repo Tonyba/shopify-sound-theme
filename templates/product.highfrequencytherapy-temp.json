@@ -246,6 +246,17 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/2b771f8b8352bf153ae27505ecdff092.png",
+            "border_radius": 0,
+            "title": "",
+            "text": "",
+            "bg_color": ""
+          }
+        },
+        "slide_fAkbPe": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3f1b1ee1d7a1d7c724bfe90f28febd4d_1.png",
+            "border_radius": 0,
             "title": "",
             "text": "",
             "bg_color": ""
@@ -253,7 +264,8 @@
         }
       },
       "block_order": [
-        "slide_N7PPXC"
+        "slide_N7PPXC",
+        "slide_fAkbPe"
       ],
       "settings": {
         "heading": "4 Glass Tubes",
