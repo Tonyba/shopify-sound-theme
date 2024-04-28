@@ -19,9 +19,10 @@
     width: 728px;
     height: 728px;
     left: 50%;
-    top: 0;
+    top: -100px;
     transform: translateX(-50%);
     border-radius: 100%;
+    z-index: -1;
     background-image: url(https://cdn.shopify.com/s/files/1/0640/3588/1113/files/Ellipse_21.png?v=1714314528);
     background-size: cover;
 }
