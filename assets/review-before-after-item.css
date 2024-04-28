@@ -34,3 +34,7 @@
 .review-before-after-item {
     display: block;
 }
+
+.review-before-after-item  img {
+    width: 100%;
+}
