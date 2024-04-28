@@ -15,6 +15,11 @@
     margin-bottom: 50px;
 }
 
+.hightlist-list h3 {
+    font-size: 22px;
+    color: #000;
+}
+
 .hightlist-list .icon {
     display: flex;
     justify-content: center;
