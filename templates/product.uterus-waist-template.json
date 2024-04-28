@@ -318,6 +318,46 @@
         "heading": "SkinPetra Warm Uterus Waist Comparet To:"
       }
     },
+    "routine_irhwaJ": {
+      "type": "routine",
+      "blocks": {
+        "slide_kgP4QC": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 1",
+            "subheading": "Insert the electrode into the wand",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_6QkEJe": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 2",
+            "subheading": "Turn on the device and gradually adjust the dial",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_9CUfyn": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 3",
+            "subheading": "Move the wand in a circular motion",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        }
+      },
+      "block_order": [
+        "slide_kgP4QC",
+        "slide_6QkEJe",
+        "slide_9CUfyn"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/fb18c1197543ef32abbb5bb6a486182a.jpg",
+        "img_max_height": 0,
+        "heading": "Follow The Steps For Usability",
+        "subheading": "HOW TO USE"
+      }
+    },
     "171433367028cbf9e0": {
       "type": "apps",
       "blocks": {
@@ -351,6 +391,7 @@
     "product_testimonials_kFXNEf",
     "hightlight_list_mnLzJV",
     "tab_content_list_m9DxxM",
+    "routine_irhwaJ",
     "171433367028cbf9e0"
   ]
 }
