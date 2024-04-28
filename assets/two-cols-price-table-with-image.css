@@ -19,6 +19,7 @@
 .price-table-with-image  .table-item {
     display: flex;
     justify-content: space-between;
+    padding: 15px;
 }
 
 .price-table-with-image  .after-table {
