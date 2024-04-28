@@ -2,8 +2,9 @@
     font-size: 18px;
 }
 
-price-list * {
-    font-weight: 500 !important;
+price-list,
+compare-at-price {
+    font-weight: 500 ;
 }
 /*icon list*/
 
