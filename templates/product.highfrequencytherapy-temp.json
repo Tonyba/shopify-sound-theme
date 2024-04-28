@@ -247,8 +247,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2b771f8b8352bf153ae27505ecdff092_1.png",
             "border_radius": 30,
-            "title": "",
-            "text": "",
+            "title": "Mashroom Tube",
+            "text": "For Wide Areas Such as cheeks or Forehead",
             "bg_color": "linear-gradient(180deg, rgba(239, 239, 239, 1), rgba(253, 253, 253, 1) 100%)"
           }
         },
@@ -257,8 +257,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/3f1b1ee1d7a1d7c724bfe90f28febd4d_1.png",
             "border_radius": 30,
-            "title": "",
-            "text": "",
+            "title": "Tongue Tube",
+            "text": "For Small areas of the face such as eyes or nose",
             "bg_color": "linear-gradient(180deg, rgba(239, 239, 239, 1), rgba(253, 253, 253, 1) 100%)"
           }
         },
@@ -267,8 +267,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/7fce66593aa328ebe833e0dcf2ac0f89_1.png",
             "border_radius": 30,
-            "title": "",
-            "text": "",
+            "title": "Bend Tube",
+            "text": "For nasal fossa or spots on the face",
             "bg_color": "linear-gradient(180deg, rgba(239, 239, 239, 1), rgba(253, 253, 253, 1) 100%)"
           }
         },
@@ -277,8 +277,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/3c29b4125a96ab0df3b21254ca2b3848.png",
             "border_radius": 30,
-            "title": "",
-            "text": "",
+            "title": "Comb Tube",
+            "text": "For Hair",
             "bg_color": "linear-gradient(180deg, rgba(239, 239, 239, 1), rgba(253, 253, 253, 1) 100%)"
           }
         }
