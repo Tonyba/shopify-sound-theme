@@ -56,3 +56,7 @@
 .safety-body-parts .right-img  {
     right: 0;
 }
+
+.safety-body-parts .left-img  img {
+    width: 500px;
+}
