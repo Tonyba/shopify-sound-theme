@@ -44,9 +44,8 @@
               {%- if next_block.type == 'rating' -%}
                 {%- render 'product-rating', product: product, show_empty: next_block.settings.show_empty, block: next_block -%}
               {%- endif -%}
-
-              <span class="stars-rating">{% render 'five-stars' %}</span>
             </div>
+            <span class="stars-rating">{% render 'five-stars' %}</span>
           </div>
 
       {%- when 'variant_picker' -%}
