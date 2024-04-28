@@ -12,3 +12,7 @@
 .what-make-it-special .subsection p {
     font-size: 18px;
 }
+
+.what-make-it-special .subsection {
+    margin-bottom: 30px;
+}
