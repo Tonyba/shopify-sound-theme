@@ -88,6 +88,16 @@ compare-at-price {
     --container-max-width: 1300px
 }
 
+
+.right-left-section > .h1:after  {
+    content: "";
+    display: block;
+    width: 42px;
+    height: 5px;
+    background-color: #d0d0d0;
+    margin-top: 25px;
+}
+
 #shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .section,
 #shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .section,
 #shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx .section,
