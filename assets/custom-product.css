@@ -127,6 +127,10 @@ compare-at-price {
     font-size: 16px;
 }
 
+.right-left-section img {
+    border-radius: 0;
+}
+
 .right-left-section .prose > .h1 {
     font-size: 40px;
     font-weight: 500;
