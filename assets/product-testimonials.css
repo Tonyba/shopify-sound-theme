@@ -9,9 +9,10 @@
 .product-tesminonials h2 {
     text-align: center;
     margin: auto;
-    max-width: 500px;
+    max-width: 550px;
     font-weight: 600;
     margin-bottom: 50px;
+    line-height: 1.2;
 }
 
 .product-tesminonials .os-scrollbar{
