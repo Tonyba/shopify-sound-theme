@@ -169,6 +169,10 @@ border-color: white;
     margin: 20px 0;
 }
 
+.gradient-bg {
+    background: linear-gradient(95.94deg, #F5E8DA 57.87%, #FEF8F0 100%);
+}
+
 @font-face {
     font-display: swap; 
     font-family: 'IBM Plex Sans';
