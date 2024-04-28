@@ -41,3 +41,7 @@
     width: 30px;
     height: 30px;
 }
+
+.tab-content-list .icon-list-item  {
+    display: flex;
+}
