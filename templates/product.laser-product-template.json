@@ -180,6 +180,7 @@
       ],
       "settings": {
         "full_width": true,
+        "extra_css_class": "",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
@@ -411,6 +412,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/2e4b05eef0be573f053f42527bd9d01a.png",
+        "img_max_height": 0,
         "heading": "Meet the Routine",
         "subheading": "Skinpetra IPL Benefits"
       }
@@ -472,6 +474,7 @@
       ],
       "settings": {
         "full_width": true,
+        "extra_css_class": "",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
@@ -502,6 +505,7 @@
       ],
       "settings": {
         "full_width": true,
+        "extra_css_class": "",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
@@ -532,6 +536,7 @@
       ],
       "settings": {
         "full_width": true,
+        "extra_css_class": "",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
@@ -577,7 +582,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/dc2a7c13e3c98f6f1c70004dde2e2947.png",
-        "bg_Color": "#F3F3F3",
+        "bg_Color": "#f3f3f3",
         "heading": "In the Box",
         "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
       }
@@ -653,6 +658,7 @@
         "item_BAqb4z"
       ],
       "settings": {
+        "extra_class": "custom-faqs",
         "full_width": true,
         "subheading": "",
         "title": "FAQ",
