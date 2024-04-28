@@ -61,7 +61,7 @@ LIQUID
   {%- assign is_narrow = true -%}
 {%- endif -%}
 
-<div class="{{ section.settings.extra_css_class }}" {% render 'section-properties', narrow: is_narrow %}>
+<div  {% render 'section-properties', narrow: is_narrow %}>
   <multiple-images-with-text class="multiple-images-with-text">
     <multiple-images-with-text-image-list reversed swipeable="false" layout="{{ section.settings.images_layout }}" class="multiple-images-with-text__image-list">
       {%- if visible_images_count == 0 -%}
