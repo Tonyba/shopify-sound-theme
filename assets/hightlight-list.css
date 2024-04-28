@@ -20,6 +20,10 @@
     color: #000;
 }
 
+.highlight-item:last-of-type {
+    margin-bottom: 40px;
+}
+
 .hightlist-list .icon {
     display: flex;
     justify-content: center;
