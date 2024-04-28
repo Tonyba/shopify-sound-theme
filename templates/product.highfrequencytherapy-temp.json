@@ -342,6 +342,14 @@
         "heading": "Meet the Routine",
         "subheading": "Skinpetra IPL Benefits"
       }
+    },
+    "big_img_section_rmm7Ak": {
+      "type": "big-img-section",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/081eaf81b32d59000571f733b0789289.jpg",
+        "heading": "",
+        "text": ""
+      }
     }
   },
   "order": [
@@ -350,6 +358,7 @@
     "product_testimonials_tmP6tw",
     "what_make_it_special_PLt79V",
     "custom_multicolumn_CqdQrY",
-    "routine_AkENrV"
+    "routine_AkENrV",
+    "big_img_section_rmm7Ak"
   ]
 }
