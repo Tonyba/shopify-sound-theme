@@ -6,6 +6,8 @@
 .safety-body-parts .inner-container {
     max-width: 700px;
     background-color: #FF004A0D;
+    padding: 50px 100px;
+    margin: auto;
 }
 
 .safety-body-parts  h2 {
