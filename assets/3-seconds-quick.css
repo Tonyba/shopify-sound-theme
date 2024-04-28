@@ -17,6 +17,11 @@
     margin-top: 30px;
 }
 
+.three-seconds-heat .content-container {
+    max-width: 605px;
+    margin-left: auto;
+}
+
 .three-seconds-heat h3 {
     font-size: 28px;
 }
