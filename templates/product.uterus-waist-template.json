@@ -537,6 +537,59 @@
         "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
       }
     },
+    "faq_QjbtmW": {
+      "type": "faq",
+      "blocks": {
+        "item_XzGTWA": {
+          "type": "item",
+          "settings": {
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "item_zFkYcR": {
+          "type": "item",
+          "settings": {
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "item_i6AakH": {
+          "type": "item",
+          "settings": {
+            "title": "Who Should Not Use IPL?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_XzGTWA",
+        "item_zFkYcR",
+        "item_i6AakH"
+      ],
+      "settings": {
+        "extra_class": "custom-faqs",
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Let’s Answer Your Questions<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
     "171433367028cbf9e0": {
       "type": "apps",
       "blocks": {
@@ -576,6 +629,7 @@
     "multiple_images_with_text_VxBBbx",
     "multiple_images_with_text_fHXbM6",
     "two_cols_list_image_KwhcVY",
+    "faq_QjbtmW",
     "171433367028cbf9e0"
   ]
 }
