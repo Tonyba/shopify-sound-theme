@@ -4,6 +4,7 @@
     position: relative;
     padding: 20px;
     padding-left: 40px;
+    font-size: 22px;
 }
 
 .check-list li:not(:last-child) {
