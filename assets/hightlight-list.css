@@ -20,6 +20,10 @@
     color: #000;
 }
 
+.hightlist-list figure {
+    overflow: hidden;
+}
+
 .highlight-item:not(:last-child) {
     margin-bottom: 40px;
 }
