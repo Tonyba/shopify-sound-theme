@@ -293,6 +293,54 @@
         "heading": "4 Glass Tubes",
         "subheading": "Meet The Needs Of Each Part Of Your Skin"
       }
+    },
+    "routine_AkENrV": {
+      "type": "routine",
+      "blocks": {
+        "slide_gnCERw": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 1",
+            "subheading": "Insert the electrode into the wand",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_pUFhgP": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 2",
+            "subheading": "Turn on the device and gradually adjust the dial",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_r63cEU": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 3",
+            "subheading": "Move the wand in a circular motion",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_BpCJqF": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 4",
+            "subheading": "Tap the Tip of the wand against the lesion 2-3 times",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        }
+      },
+      "block_order": [
+        "slide_gnCERw",
+        "slide_pUFhgP",
+        "slide_r63cEU",
+        "slide_BpCJqF"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/27f1bb0655ed2cbfb8b88c85f6979b52.jpg",
+        "heading": "Meet the Routine",
+        "subheading": "Skinpetra IPL Benefits"
+      }
     }
   },
   "order": [
@@ -300,6 +348,7 @@
     "visible_results_UbQKUh",
     "product_testimonials_tmP6tw",
     "what_make_it_special_PLt79V",
-    "custom_multicolumn_CqdQrY"
+    "custom_multicolumn_CqdQrY",
+    "routine_AkENrV"
   ]
 }
