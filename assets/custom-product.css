@@ -122,6 +122,11 @@ compare-at-price {
     color: #FF004A
 }
 
+.right-left-section  .prose > p:first-child {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
 
 #shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .section,
 #shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .section,
