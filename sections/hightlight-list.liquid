@@ -1,7 +1,7 @@
 
 {{ 'hightlight-list.css' | asset_url | stylesheet_tag }}
 
-<div class="flex">
+<div class="flex gap-40">
     <div class="w-50">
         {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
     </div>
