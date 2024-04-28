@@ -20,6 +20,8 @@
     display: flex;
     justify-content: space-between;
     padding: 17px 20px;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .price-table-with-image .table-item:not(:last-child) {
