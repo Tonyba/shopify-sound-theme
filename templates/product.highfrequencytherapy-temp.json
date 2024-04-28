@@ -100,6 +100,34 @@
     },
     "visible_results_UbQKUh": {
       "type": "visible-results",
+      "blocks": {
+        "slide_AHKzx9": {
+          "type": "slide",
+          "settings": {
+            "top_text": "97%",
+            "bottom_text": "experienced tighter and firmer skin"
+          }
+        },
+        "slide_VdQtwk": {
+          "type": "slide",
+          "settings": {
+            "top_text": "86%",
+            "bottom_text": "noticed an improvement in skin tone and texture"
+          }
+        },
+        "slide_p8ciYD": {
+          "type": "slide",
+          "settings": {
+            "top_text": "92%",
+            "bottom_text": "saw a reduction in breakouts"
+          }
+        }
+      },
+      "block_order": [
+        "slide_AHKzx9",
+        "slide_VdQtwk",
+        "slide_p8ciYD"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/02014bfbcf05bc386ced34f32c8951aa_1.png",
         "bg_color": "linear-gradient(99.09deg, rgba(243, 230, 214, 1) 0.29%, rgba(254, 248, 240, 1) 99.4%)",
