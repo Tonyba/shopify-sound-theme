@@ -1,3 +1,7 @@
 .product-tesminonials {
     padding-bottom: 50px;
 }
+
+.product-tesminonials .os-scrollbar:first-child {
+    max-width: 1300px;
+}
