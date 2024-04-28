@@ -511,6 +511,36 @@
         "button_text_color": ""
       }
     },
+    "multiple_images_with_text_3ndzkV": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_JHWBHK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/63d69191b961bf1753cc721c18273f73.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "Laser-like Results, From Home",
+            "title": "Keep Private? No Problem",
+            "content": "<p>At-home removal treatment to keep private, avoid embarrassing trips to the salon.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_JHWBHK"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "1714242086a4fbce2e": {
       "type": "apps",
       "blocks": {
@@ -549,6 +579,7 @@
     "press_carousel_idJVxd",
     "multiple_images_with_text_rbVrWj",
     "multiple_images_with_text_eHiNmx",
+    "multiple_images_with_text_3ndzkV",
     "1714242086a4fbce2e"
   ]
 }
