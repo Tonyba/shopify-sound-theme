@@ -36,3 +36,8 @@
 .tab-content-list .tab-content-item:not(.active) {
     display: none;
 }
+
+.tab-content-list .icon svg {
+    width: 30px;
+    height: 30px;
+}
