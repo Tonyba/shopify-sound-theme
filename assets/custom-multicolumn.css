@@ -5,6 +5,11 @@
     margin-bottom: 20px;
 }
 
+.custom-multicolumn h2 {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
 .custom-multicolumn .grid-item {
     padding: 35px
 }
