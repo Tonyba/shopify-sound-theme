@@ -5,7 +5,11 @@
         
         <h2>{{ section.settings.heading }}</h2>
 
-
+        {% for item in collection %}
+            {% for tab in section.blocks %}
+                <button data-target-id="{{ tab.id }}" class="tab-header-btn{% if forloop.index == 1 %} active{% endif %}">{{ tab.settings.title }}</button>
+            {% endfor %}    
+        {% endfor %}
 
     </div>
 
@@ -37,9 +41,30 @@
                         "label": "Left Image"
                     },
                     {
+                        "type": "text",
+                        "id": "tab_title",
+                        "label": "Tab Title"
+                    },
+                    {
+                        "type": "html",
+                        "id": "left_list",
+                        "label": "List Items",
+                        "info": "Add a <br> for new list item"
+                    },
+                    {
+                        "type": "header",
+                        "content": "Roght Content"
+                    },
+                    {
                         "type": "image_picker",
                         "id": "right_image",
                         "label": "right_image"
+                    },
+                    {
+                        "type": "html",
+                        "id": "right-list",
+                        "label": "List Items",
+                        "info": "Add a <br> for new list item"
                     }
                 ]
             }
