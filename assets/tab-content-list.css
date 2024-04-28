@@ -53,6 +53,13 @@
 .tab-content-list p {
     color: #4F4F4F;
 }
+
+.tab-content-list img {
+    height: 220px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
 .tab-content-list h3 {
     font-size: 22px;
     color: #000;
