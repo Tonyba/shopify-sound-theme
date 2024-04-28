@@ -238,6 +238,30 @@
     },
     "product_testimonials_KVrUgn": {
       "type": "product-testimonials",
+      "blocks": {
+        "slide_kAUdW6": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/image_18.png"
+          }
+        },
+        "slide_BcYJ4W": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/Screenshot_11.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_kAUdW6",
+        "slide_BcYJ4W"
+      ],
       "settings": {
         "heading": "Results From Our Satisfied Customers"
       }
