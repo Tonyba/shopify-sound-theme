@@ -1,11 +1,22 @@
-<div class="section-wrapper">
+<div class="section-wrapper" style="background-color: {{ section.settings.bg_color }}" >
 
     <div class="container">
         
         <div class="grid 2-cols">
             <div class="grid-item relative">
+                {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
             </div>
             <div class="grid-item">
+                <div class="subheading">{{ section.settings.subheading }}</div>
+                <h2 class="heading" >{{ section.settings.heading }}</h2>
+                <p>{{ section.settings.text }}</p>
+                {% for item in section.blocks %}
+                    <div class="table-item">
+                        {{ item.settings.item_text }}
+
+                        <span class="table-price-item">{{ item.settings.price }}</span>
+                    </div>
+                {% endfor %}
             </div>
         </div>
         
