@@ -5,9 +5,11 @@
 .safety-body-parts  h2 {
     text-align: center;
     margin: auto;
-    max-width: 300px
+    max-width: 300px;
+    line-height: 1.2;
 }
 
 .safety-body-parts  h2 span {
     color: #FF004A;
+    font-size: 30px;
 }
