@@ -83,13 +83,15 @@
     background-color: transparent !important;
 } 
 
-#shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .prose > p:first-child {
+#shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .prose > p:first-child,
+#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .prose > p:first-child  {
     font-size: 24px;
     font-weight: 400;
     color: #FF004A
 }
 
-#shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .prose > .h1 {
+#shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .prose > .h1,
+#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .prose > .h1 {
     font-size: 40px;
     font-weight: 500;
     margin-top: 10px;
