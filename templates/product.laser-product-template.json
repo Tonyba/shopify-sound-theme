@@ -481,63 +481,34 @@
         "button_text_color": ""
       }
     },
-    "images_with_text_scrolling_GyepxM": {
-      "type": "images-with-text-scrolling",
+    "multiple_images_with_text_eHiNmx": {
+      "type": "multiple-images-with-text",
       "blocks": {
-        "item_nnAn8R": {
+        "item_nrpcQd": {
           "type": "item",
           "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "item_CWjXBC": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "item_hjT6jA": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "item_bNXVQ4": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "image": "shopify:\/\/shop_images\/8b2faf2384ca164279507e1f208be091.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "AutoGlide Mode",
+            "title": "Suitable For Men",
+            "content": "<p>The ideal solution to tackle unwanted hair on your chest, face, arms and legs.<\/p>",
+            "button_url": "",
+            "button_text": ""
           }
         }
       },
       "block_order": [
-        "item_nnAn8R",
-        "item_CWjXBC",
-        "item_hjT6jA",
-        "item_bNXVQ4"
+        "item_nrpcQd"
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": true,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "1714242086a4fbce2e": {
@@ -577,7 +548,7 @@
     "routine_yaThnt",
     "press_carousel_idJVxd",
     "multiple_images_with_text_rbVrWj",
-    "images_with_text_scrolling_GyepxM",
+    "multiple_images_with_text_eHiNmx",
     "1714242086a4fbce2e"
   ]
 }
