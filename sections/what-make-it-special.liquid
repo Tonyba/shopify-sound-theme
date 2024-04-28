@@ -13,8 +13,8 @@
 
                 {% for item in section.blocks %}
                     <div class="subsection">
-                        <h3>{{ item.title }}</h3>
-                        <p>{{ item.text }}</p>
+                        <h3>{{ item.settings.title }}</h3>
+                        <p>{{ item.settings.text }}</p>
                     </div>
                 {% endfor %}
 
