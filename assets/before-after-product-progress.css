@@ -47,7 +47,8 @@
 
 .before-after-product-progress .tab-content-text {
     font-size: 21px;
-   color: #222;
+    color: #222;
+    font-weight: 400;
 }
 
 .before-after-product-progress .headings h2 {
