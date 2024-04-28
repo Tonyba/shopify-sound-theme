@@ -7,6 +7,11 @@
     line-height: 1.2;
 }
 
+
+.big-img-section  p{
+    font-size: 17px;
+}
+
 .big-img-section .w-65 {
     padding: 40px;
 }
