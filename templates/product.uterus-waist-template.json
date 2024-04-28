@@ -560,12 +560,52 @@
             "title": "Who Should Not Use IPL?",
             "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
           }
+        },
+        "item_znxNGq": {
+          "type": "item",
+          "settings": {
+            "title": "When Can I See the Effect, and is it Permanent?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "item_RG8xaK": {
+          "type": "item",
+          "settings": {
+            "title": "Does IPL Hair Remover Hurt?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "item_3F6BFa": {
+          "type": "item",
+          "settings": {
+            "title": "Who Should Not Use IPL?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "item_Qtbccr": {
+          "type": "item",
+          "settings": {
+            "title": "Do I Need to Shave Before Using IPL?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "item_w3dhYw": {
+          "type": "item",
+          "settings": {
+            "title": "Which Areas of the Body Can I Use This On?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
         }
       },
       "block_order": [
         "item_XzGTWA",
         "item_zFkYcR",
-        "item_i6AakH"
+        "item_i6AakH",
+        "item_znxNGq",
+        "item_RG8xaK",
+        "item_3F6BFa",
+        "item_Qtbccr",
+        "item_w3dhYw"
       ],
       "settings": {
         "extra_class": "custom-faqs",
