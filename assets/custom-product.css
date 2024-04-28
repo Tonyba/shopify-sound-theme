@@ -116,7 +116,7 @@ compare-at-price {
     background-color: transparent !important;
 }
 
-.right-left-section  > p:first-child  {
+.right-left-section  .prose > p:first-child {
     font-size: 24px;
     font-weight: 400;
     color: #FF004A
