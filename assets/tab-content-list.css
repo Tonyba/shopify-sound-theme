@@ -69,8 +69,7 @@
     padding-bottom: 50px;
     margin-bottom: 50px;
     border-bottom: 1px solid black;
-    margin-right: auto;
-    margin-left: auto;
+    width: 100%;
 }
 
 .tab-content-list h3 {
