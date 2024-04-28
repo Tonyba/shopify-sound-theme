@@ -38,6 +38,8 @@
     color: white;
     font-size: 23px;
     font-weight: 300;
+    padding: 10px 20px;
+    border-radius: 70px;
 }
 
 .price-table-with-image  .after-table {
