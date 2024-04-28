@@ -8,9 +8,8 @@
     padding: 30px;
 }
 
-.press-item  .headings {
+.press-carousel-wrapper .headings {
     position: relative;
-    z-index: 1;
 }
 
 .press-carousel-wrapper {
