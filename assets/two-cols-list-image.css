@@ -1,3 +1,6 @@
 .col-list-with-image p {
     margin-bottom: 20px;
 }
+.col-list-with-image  span {
+    color: #4F4F4F;
+}
