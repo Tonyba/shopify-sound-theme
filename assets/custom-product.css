@@ -185,4 +185,9 @@
 #shopify-section-template--16709264310425__faq_LqUXTr .section-stack__main {
     width: 100%;
 }
+
+#shopify-section-template--16709264310425__faq_LqUXTr .accordion-box  {
+    padding: 0;
+    background-color: unset;
+}
 /*faqs end*/
