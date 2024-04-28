@@ -24,3 +24,11 @@
     color: #FF004A;
     font-size: 30px;
 }
+
+.safety-body-parts .body-icon {
+    background-color: white;
+    border-radius: 100%;
+    width: 93px;
+    height: 93px;
+    border: 1px solid black
+}
