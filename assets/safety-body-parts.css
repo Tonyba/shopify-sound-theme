@@ -37,4 +37,7 @@
 
 .body-part {
     text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 20px;
 }
