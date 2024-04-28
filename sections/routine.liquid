@@ -1,6 +1,9 @@
 
 <div class="container">
 
+    <div class="subheading">{{ section.settings.subheading }}</div>
+    <h2 class="heading" >{{ section.settings.heading }}</h2>
+
     <div class="grid cols-2">
         <div class="grid-item">
             {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
