@@ -14,3 +14,13 @@
 .hightlist-list .heading-divider {
     margin-bottom: 50px;
 }
+
+.hightlist-list .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #FF004A;
+    border-radius: 100%;
+}
