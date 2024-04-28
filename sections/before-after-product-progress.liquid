@@ -10,12 +10,12 @@
 <div class="section-wrapper-padding" style="background-color: {{ section.settings.bg_color }}" >
 
     <div class="container">
-        <div class="headings">
+        <div class="headings {% if section.settings.just_simple_image %}is_simple_img{% endif %}">
             <h2 class="heading">{{ section.settings.heading }}</h2>
             <h3 class="subheading">{{ section.settings.subheading }}</h3>
         </div>
 
-        <div class="tabs-header">
+        <div class="tabs-header {% if section.settings.just_simple_image %}is_simple_img{% endif %}">
             {% for tab in section.blocks %}
                 <button data-target-id="{{ tab.id }}" class="tab-header-btn{% if forloop.index == 1 %} active{% endif %}">
                   
