@@ -56,6 +56,11 @@
             "payment_button_text_color": ""
           }
         },
+        "right_side_info_features_4tHREc": {
+          "type": "right-side-info-features",
+          "settings": {
+          }
+        },
         "product_icon_list_PMUFtB": {
           "type": "product-icon-list",
           "settings": {
@@ -77,6 +82,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "right_side_info_features_4tHREc",
         "product_icon_list_PMUFtB",
         "accordion_data_9aq9g6"
       ],
