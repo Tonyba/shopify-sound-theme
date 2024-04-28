@@ -16,6 +16,7 @@
 .routine figure,
 .routine  img  {
     border-radius: 20px;
+    width: 100%;
 }
 
 .routine  img {
