@@ -20,7 +20,7 @@
     color: #000;
 }
 
-.highlight-item:last-of-type {
+.highlight-item:not(:last-child) {
     margin-bottom: 40px;
 }
 
