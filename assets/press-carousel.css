@@ -13,7 +13,7 @@
 
 }
 
-.press-carousel-wrapper::after {
+.press-carousel-wrapper::before {
     content: "";
     width: 728px;
     height: 728px;
