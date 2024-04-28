@@ -2,8 +2,10 @@
     background-color: #FEF6F3;
     border-radius: 15px;
     position: relative;
+    padding: 20px;
 }
 
 .check-list .icon {
     position: absolute;
+    left: -15px;
 }   
