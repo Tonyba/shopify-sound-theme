@@ -134,10 +134,31 @@
         "heading": "Visible Results in 3-4 Days",
         "subheading": "Just use two or three times per week."
       }
+    },
+    "product_testimonials_tmP6tw": {
+      "type": "product-testimonials",
+      "blocks": {
+        "slide_EWApb6": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_EWApb6"
+      ],
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
     "main",
-    "visible_results_UbQKUh"
+    "visible_results_UbQKUh",
+    "product_testimonials_tmP6tw"
   ]
 }
