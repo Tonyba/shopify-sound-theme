@@ -306,6 +306,15 @@
         "heading": "Results From Our Satisfied Customers"
       }
     },
+    "safety_body_parts_CUBHMY": {
+      "type": "safety-body-parts",
+      "settings": {
+        "bg_color": "#f3f3f3",
+        "heading": "",
+        "left_img": "shopify:\/\/shop_images\/3_7.png",
+        "right_img": "shopify:\/\/shop_images\/beautiful-girl-with-perfect-face_1.png"
+      }
+    },
     "1714242086a4fbce2e": {
       "type": "apps",
       "blocks": {
@@ -339,6 +348,7 @@
     "multiple_images_with_text_Pwad3c",
     "two_cols_price_table_with_image_tjAkjz",
     "product_testimonials_KVrUgn",
+    "safety_body_parts_CUBHMY",
     "1714242086a4fbce2e"
   ]
 }
