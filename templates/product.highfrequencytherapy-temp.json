@@ -204,10 +204,34 @@
             "title": "Includes 4 beauty applicators\u2028",
             "text": "For treating a variety of areas face, body and hair.\u2028"
           }
+        },
+        "slide_LJfcYf": {
+          "type": "slide",
+          "settings": {
+            "title": "Customizable Dial\u2028",
+            "text": "The electrical current can be increased or decreased for your comfort level.\u2028"
+          }
+        },
+        "slide_rTTkXc": {
+          "type": "slide",
+          "settings": {
+            "title": "Simple to clean\u2028",
+            "text": "All you need to do is turn the power off and then wipe the electrodes with a damp cloth and surface disinfectant.\u2028"
+          }
+        },
+        "slide_nVNXXL": {
+          "type": "slide",
+          "settings": {
+            "title": "Quick to set up\u2028",
+            "text": "Just plug in the device and apply your preferred applicator\u2028"
+          }
         }
       },
       "block_order": [
-        "slide_pbaNbP"
+        "slide_pbaNbP",
+        "slide_LJfcYf",
+        "slide_rTTkXc",
+        "slide_nVNXXL"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/8cc178bb9c7e3c3b6767a2a0c96c87e5.png",
