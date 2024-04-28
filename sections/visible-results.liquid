@@ -8,9 +8,11 @@
 
     <div class="container">
         <div class="content" >
-            <h2>{{ section.settings.heading }}</h2>
-            <div class="subheading">{{ section.settings.subheading }}</div>
-    
+            <div class="headings center">
+                <h2>{{ section.settings.heading }}</h2>
+                <div class="subheading">{{ section.settings.subheading }}</div>
+            </div>
+
             <div class="grid cols-3">
                 {% for item in section.blocks %}
                     <div class="grid-item center">
