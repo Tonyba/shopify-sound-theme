@@ -350,6 +350,32 @@
         "heading": "Pain-Free & Effective SkinPetra High Frequency Therapy",
         "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely to be absorbed by the melanin in your skin and more by the melanin in your hair for safer, and more effective at-home treatments.”"
       }
+    },
+    "17143306286f1c2a35": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_E3r7Gf": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_E3r7Gf"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -359,6 +385,7 @@
     "what_make_it_special_PLt79V",
     "custom_multicolumn_CqdQrY",
     "routine_AkENrV",
-    "big_img_section_rmm7Ak"
+    "big_img_section_rmm7Ak",
+    "17143306286f1c2a35"
   ]
 }
