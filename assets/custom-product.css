@@ -111,6 +111,11 @@ compare-at-price {
     margin-top: 25px;
 }
 
+.right-left-section  .section {
+    padding-bottom: unset;
+    background-color: transparent !important;
+}
+
 #shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .section,
 #shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .section,
 #shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx .section,
