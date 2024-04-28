@@ -1,11 +1,28 @@
 
-<div></div>
+<div class="section-wrapper-padding" style="background" >
+    <div class="grid cols-2">
+        <div class="grid-item"></div>
+        <div class="grid-item">
+            
+        </div>
+    </div>
+</div>
 
 {% schema %}
     {
         "name": "3 Seconds Quick Heat",
         "class": "three-seconds-heat",
         "settings": [
+            {
+                "type": "image_picker",
+                "id": "bg_image",
+                "label": "Background Image"
+            },
+            {
+                "type": "color_background",
+                "id": "bg_color",
+                "label": "Background Color"
+            },
             {
                 "type": "text",
                 "id": "heading",
