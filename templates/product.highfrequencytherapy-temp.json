@@ -395,6 +395,35 @@
         "subheading": "mAGAZINES"
       }
     },
+    "multiple_images_with_text_rdtyyE": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_QxMAYr": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_QxMAYr"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "17143306286f1c2a35": {
       "type": "apps",
       "blocks": {
@@ -431,6 +460,7 @@
     "routine_AkENrV",
     "big_img_section_rmm7Ak",
     "press_carousel_kdbbCz",
+    "multiple_images_with_text_rdtyyE",
     "17143306286f1c2a35"
   ]
 }
