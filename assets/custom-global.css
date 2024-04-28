@@ -129,6 +129,10 @@ border-color: white;
     text-align: center;
 }
 
+.subheading {
+    color: #FF004A
+}
+
 @font-face {
     font-display: swap; 
     font-family: 'IBM Plex Sans';
