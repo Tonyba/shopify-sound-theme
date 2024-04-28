@@ -80,6 +80,16 @@
     --container-max-width: 1300px
 }
 
+#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .prose > .h1:after,
+#shopify-section-template--16709264310425__multiple_images_with_text_eHiNmx .prose > .h1:after,
+#shopify-section-template--16709264310425__multiple_images_with_text_3ndzkV .prose > .h1:after {
+    content: "";
+    display: block;
+    width: 42px;
+    height: 5px;
+    background-color: #d0d0d0;
+}
+
 #shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .section {
     padding-top: unset;
 }
