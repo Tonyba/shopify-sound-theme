@@ -29,4 +29,7 @@
     background-color: #F9EFE3;
     padding: 37px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
