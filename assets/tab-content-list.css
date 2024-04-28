@@ -57,7 +57,8 @@
 .tab-content-list img {
     height: 220px;
     object-fit: contain;
-    margin-bottom: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
     border-bottom: 1px solid black;
 }
 
