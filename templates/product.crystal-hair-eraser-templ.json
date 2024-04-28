@@ -168,10 +168,20 @@
             "review_text": "\"Doesn't hurt at all!\" I've been using it for weeks and noticed a difference. Definitely going to tell my sister to get one too!\"",
             "review_img": "shopify:\/\/shop_images\/cd5e507524f1309b7ddfcd58b9106f7d.png"
           }
+        },
+        "slide_mJbzR4": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“100% Percent Recomened”",
+            "author": "Shayden Thomas",
+            "review_text": "\"Doesn't hurt at all!\" I've been using it for weeks and noticed a difference. Definitely going to tell my sister to get one too!\"",
+            "review_img": "shopify:\/\/shop_images\/d43d50a2b0cfb3c05c05ae75f2a1cd24.png"
+          }
         }
       },
       "block_order": [
-        "slide_3kNM4B"
+        "slide_3kNM4B",
+        "slide_mJbzR4"
       ],
       "settings": {
         "heading": "Results From Our Satisfied Customers",
