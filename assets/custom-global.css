@@ -121,6 +121,9 @@ border-color: white;
     padding: 100px 0;
 }
 
+.rating-with-text .rating  {
+display: none;
+}
 
 @font-face {
     font-display: swap; 
