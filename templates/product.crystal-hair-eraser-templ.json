@@ -216,9 +216,9 @@
           "settings": {
             "tab_title": "get Rid of Strawberry Skin",
             "title": "No More Dark Pores",
-            "subtitle": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction. In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
-            "text": "",
-            "progress": 0,
+            "subtitle": "",
+            "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction. In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "progress": 25,
             "before_text": "Before",
             "after_text": "After"
           }
