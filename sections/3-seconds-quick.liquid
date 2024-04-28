@@ -15,38 +15,41 @@
 </style>
 
 <div class="section-wrapper-padding relative">
-    <div class="grid cols-2">
-        <div class="grid-item">
-            
-        </div>
-        <div class="grid-item">
-            <h2>{{ section.settings.heading }}</h2>
-            <div class="subheading">{{ section.settings.subheading }}</div>
-
-            <div class="inner-container">
-                <div class="grid cols-2">
-                    <div class="grid-item">
-                        <h3>{{ section.settings.stage_title }}</h3>
-                        <div class="state-subtitle">{{ section.settings.stage_subtitle }}</div>
-                        {% for item in section.blocks %}
-                            <div class="state-item">
-                                <div class="flex">
-                                    <span class="icon">{% render 'icon-temperature' icon_color: item.settings.icon_color  %}</span>
-                                    <span class="text">{{ item.settings.title }}</span>
+    <div class="container">
+        <div class="grid cols-2">
+            <div class="grid-item">
+                
+            </div>
+            <div class="grid-item">
+                <h2>{{ section.settings.heading }}</h2>
+                <div class="subheading">{{ section.settings.subheading }}</div>
+    
+                <div class="inner-container">
+                    <div class="grid cols-2">
+                        <div class="grid-item">
+                            <h3>{{ section.settings.stage_title }}</h3>
+                            <div class="state-subtitle">{{ section.settings.stage_subtitle }}</div>
+                            {% for item in section.blocks %}
+                                <div class="state-item">
+                                    <div class="flex">
+                                        <span class="icon">{% render 'icon-temperature' icon_color: item.settings.icon_color  %}</span>
+                                        <span class="text">{{ item.settings.title }}</span>
+                                    </div>
+                                    <div class="button-text">
+                                        {{ item.settings.btn_text }}
+                                    </div>
                                 </div>
-                                <div class="button-text">
-                                    {{ item.settings.btn_text }}
-                                </div>
-                            </div>
-                        {% endfor %}
-                    </div>
-                    <div class="grid-item">
-                        {{- section.settings.right_img | image_url: width: section.settings.right_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+                            {% endfor %}
+                        </div>
+                        <div class="grid-item">
+                            {{- section.settings.right_img | image_url: width: section.settings.right_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>    
     </div>
+
 </div>
 
 {% schema %}
