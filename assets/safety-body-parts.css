@@ -5,5 +5,7 @@
 .safety-body-parts  h2 {
     text-align: center;
     margin: auto;
-    max-width: 500px;
+    max-width: 350px
 }
+
+.safety-body-parts  h2 {}
