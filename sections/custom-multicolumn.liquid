@@ -1,4 +1,25 @@
+{{ 'custom-multicolumn.css' | asset_url | stylesheet_tag }}
 
+<div class="container">
+
+    <div class="headings">
+        <h2>{{ section.settings.heading }}</h2>
+        <div class="subheading">{{ section.settings.subheading }}</div>
+    </div>
+
+    <div class="grid cols-4">
+        {% for column in section.blocks %}
+            <div class="grid-item" style="background-color: {{ column.settings.bg_color }}; border-radius: {{ column.settings.border_radius }}" >
+                {% if column.settings.image != blank %}
+                    {{- column.settings.image | image_url: width: column.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+                {% endif %}
+                <h3>{{ column.settings.title }}</h3>
+                <p>{{ column.settings.text }}</p>
+            </div>
+        {% endfor %}
+    </div>
+
+</div>
 
 {% schema %}
     {
@@ -25,6 +46,16 @@
                         "type": "image_picker",
                         "id": "image",
                         "label": "Image"              
+                    },
+                    {
+                        "type": "range",
+                        "id": "border_radius",
+                        "min": 0,
+                        "max": 100,
+                        "step": 1,
+                        "unit": "px",
+                        "label": "Border Radius",
+                        "default": 0
                     },
                     {
                         "type": "text",
