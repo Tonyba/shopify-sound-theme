@@ -282,13 +282,16 @@ compare-at-price {
     column-gap: 40px;
     row-gap: 20px;
 }
-#shopify-section-template--16709264310425__faq_LqUXTr .accordion__toggle {
+
+#shopify-section-template--16709264310425__faq_LqUXTr .accordion__toggle,
+.custom-faqs .accordion__toggle {
     background-color: #F3F3F3;
     padding: 14px 18px;
     border: unset;
 }
 
-#shopify-section-template--16709264310425__faq_LqUXTr .accordion__toggle > span:first-child {
+#shopify-section-template--16709264310425__faq_LqUXTr .accordion__toggle > span:first-child,
+.custom-faqs .accordion__toggle > span:first-child {
     font-size: 18px;
     font-weight: 400;
 }
