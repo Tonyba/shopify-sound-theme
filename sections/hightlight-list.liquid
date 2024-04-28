@@ -1,8 +1,28 @@
 
 
 <div class="flex">
-    <div class="w-50"></div>
-    <div class="w-50"></div>
+    <div class="w-50">
+        {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+    </div>
+    <div class="w-50">
+        <div class="subheading">{{ section.settings.subheading }}</div>
+        <h2>{{ section.settings.heading }}</h2>
+        <div class="heading-divider"></div>
+
+        {% for item in section.blocks %}
+            <div class="highlight-item">
+                <div class="flex">
+                    <div class="w-35">
+                        <span class="icon">{{ item.settings.svg_icon }}</span>
+                    </div>
+                    <div class="w-65">
+                        <h3>{{ section.settings.title }}</h3>
+                        <p>{{ section.settings.text }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 </div>
 
 {% schema %}
