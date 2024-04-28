@@ -8,6 +8,11 @@
     top: 0;
 }
 
+.visible-results .content {
+    max-width: 1025px;
+    margin-left: auto;
+}
+
 
 .visible-results .wrapper {
     padding: 200px 0;
