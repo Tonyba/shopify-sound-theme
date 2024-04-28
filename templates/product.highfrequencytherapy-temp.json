@@ -426,6 +426,68 @@
         "button_text_color": ""
       }
     },
+    "multiple_images_with_text_xhE9mY": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_98BKyM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e0859a08c76a2a0658fbdfb72925cb1e.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "AutoGlide Mode",
+            "title": "Save time & money",
+            "content": "<p>Swap out the time and money you'd spend on laser, in-salon waxing, or annoying razors for affordable, long-term hair removal.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_98BKyM"
+      ],
+      "settings": {
+        "full_width": true,
+        "extra_css_class": "right-left-section pt-0 reversed",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "multiple_images_with_text_VFC7z8": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_eHFirM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3af40f6443b4e7a67a7d4822b274d0f1.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "Laser-like Results, From Home",
+            "title": "Cheaper than razors, effective like laser.",
+            "content": "<p>Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With SkinPetra IPL, get laser-like results from the comfort of your home.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_eHFirM"
+      ],
+      "settings": {
+        "full_width": true,
+        "extra_css_class": "right-left-section pt-0",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "17143306286f1c2a35": {
       "type": "apps",
       "blocks": {
@@ -463,6 +525,8 @@
     "big_img_section_rmm7Ak",
     "press_carousel_kdbbCz",
     "multiple_images_with_text_rdtyyE",
+    "multiple_images_with_text_xhE9mY",
+    "multiple_images_with_text_VFC7z8",
     "17143306286f1c2a35"
   ]
 }
