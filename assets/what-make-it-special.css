@@ -21,6 +21,10 @@
     margin-bottom: 30px;
 }
 
+.what-make-it-special .subsection:last-child {
+    margin-bottom: 50px;
+}
+
 .what-make-it-special .info-text {
     padding: 12px 17px;
     background: linear-gradient(97.25deg, #F3E6D6 1.63%, #FEF7EE 101.61%);
