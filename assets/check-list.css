@@ -1,4 +1,9 @@
 .check-list li {
     background-color: #FEF6F3;
     border-radius: 15px;
+    position: relative;
 }
+
+.check-list .icon {
+    position: absolute;
+}   
