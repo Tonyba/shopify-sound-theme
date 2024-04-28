@@ -133,6 +133,10 @@ border-color: white;
     color: #FF004A
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 @font-face {
     font-display: swap; 
     font-family: 'IBM Plex Sans';
