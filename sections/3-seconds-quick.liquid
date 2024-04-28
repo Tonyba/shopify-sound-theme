@@ -1,0 +1,60 @@
+
+<div></div>
+
+{% schema %}
+    {
+        "name": "3 Seconds Quick Heat",
+        "class": "three-seconds-heat",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "text",
+                "id": "subheading",
+                "label": "Subheading"
+            },
+            {
+                "type": "text",
+                "id": "stage_title",
+                "label": "Stage Title"
+            },
+            {
+                "type": "text",
+                "id": "stage_subtitle",
+                "label": "Stage Sub Title"
+            },
+            {
+                "type": "image_picker",
+                "id": "right_img",
+                "label": "Right Image"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "item",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title"
+                    },
+                    {
+                        "type": "text",
+                        "id": "btn_text",
+                        "label": "Button Text"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+              "name": "3 Seconds Quick Heat"
+            }
+        ]
+    }
+{% endschema %}
+
