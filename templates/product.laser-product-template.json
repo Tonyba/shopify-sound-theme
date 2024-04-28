@@ -110,6 +110,7 @@
         "slide_tWeeq9": {
           "type": "slide",
           "settings": {
+            "tab_title": "1-4 Weeks",
             "title": "1-4 Weeks",
             "subtitle": "3 treatments per week",
             "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
@@ -123,6 +124,7 @@
         "slide_QHgzCz": {
           "type": "slide",
           "settings": {
+            "tab_title": "5-8 Weeks",
             "title": "5-8 Weeks",
             "subtitle": "3 treatments per week",
             "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
@@ -136,6 +138,7 @@
         "slide_4AYcWE": {
           "type": "slide",
           "settings": {
+            "tab_title": "8-12 Weeks",
             "title": "8-12 Weeks",
             "subtitle": "3 treatments per week",
             "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
@@ -154,6 +157,7 @@
       ],
       "settings": {
         "heading": "Full Body Hair Removal Treatment Less than 10 Minutes",
+        "just_simple_image": false,
         "subheading": "Visible Results Within 3 Weeks",
         "bg_color": "#f3f3f3",
         "drag_cursor_background": "#000000"
@@ -304,7 +308,8 @@
         "slide_tdWgDy"
       ],
       "settings": {
-        "heading": "Results From Our Satisfied Customers"
+        "heading": "Results From Our Satisfied Customers",
+        "title_left": false
       }
     },
     "safety_body_parts_CUBHMY": {
