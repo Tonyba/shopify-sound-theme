@@ -1,4 +1,20 @@
 
+<div class="section-wrapper-margin section-wrapper-padding">
+    <div class="container">
+        <div class="grid cols-2">
+            <div class="grid-item">
+                {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+            </div>
+            <div class="grid-item">
+                <ul>
+                    {% for item in section.blocks %}
+                        <li class="list-item"><span class="icon"></span> {{ item.settings.text }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
 {% schema %}
     {
