@@ -8,6 +8,11 @@
     margin-bottom: 50px;
 }
 
+
+.routine figure {
+    overflow: hidden;
+}
+
 .routine figure,
 .routine  img  {
     border-radius: 20px;
