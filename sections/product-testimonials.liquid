@@ -1,8 +1,10 @@
 
 <div class="section-wrapper">
-    <h2></h2>
+    <h2>{{ section.settings.heading }}</h2>
     <div class="product-testimonials scroll-wrapper">
-    
+        {%- for block in section.blocks -%}
+            {% render 'review-before-after-item' review:block.settings %}
+        {%- endfor -%}
     </div>
 </div>
 
