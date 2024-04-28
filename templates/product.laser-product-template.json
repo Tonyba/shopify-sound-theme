@@ -446,8 +446,51 @@
         "slide_TKnejb"
       ],
       "settings": {
+        "is_autoscroll": true,
         "heading": "Hot Off the Press",
         "subheading": "mAGAZINES"
+      }
+    },
+    "multiple_images_with_text_rbVrWj": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_QKzT4E": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f71c36f9442e186e7ee894ca901a5048.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Image with text",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_3acy4E": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "Flash Window",
+            "title": "Completely Pain-Free",
+            "content": "<p>Commit to your comfort with 6 intensity levels and experience a pain-free treatment.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_QKzT4E",
+        "item_3acy4E"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "1714242086a4fbce2e": {
@@ -486,6 +529,7 @@
     "safety_body_parts_CUBHMY",
     "routine_yaThnt",
     "press_carousel_idJVxd",
+    "multiple_images_with_text_rbVrWj",
     "1714242086a4fbce2e"
   ]
 }
