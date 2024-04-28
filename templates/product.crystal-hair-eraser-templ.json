@@ -106,6 +106,52 @@
     },
     "check_list_P9dcVV": {
       "type": "check-list",
+      "blocks": {
+        "slide_Gxw6Dy": {
+          "type": "slide",
+          "settings": {
+            "text": "Micro Etched Crystals & Ergonomic Grip"
+          }
+        },
+        "slide_QekVAJ": {
+          "type": "slide",
+          "settings": {
+            "text": "Hairs and Chicken Skin"
+          }
+        },
+        "slide_gjraUy": {
+          "type": "slide",
+          "settings": {
+            "text": "Gentle and easy to use"
+          }
+        },
+        "slide_rQTwLL": {
+          "type": "slide",
+          "settings": {
+            "text": "Pain Free and hassle free"
+          }
+        },
+        "slide_4bPaAQ": {
+          "type": "slide",
+          "settings": {
+            "text": "Saves time and money"
+          }
+        },
+        "slide_afFLeE": {
+          "type": "slide",
+          "settings": {
+            "text": "reusable and ecofriendly"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Gxw6Dy",
+        "slide_QekVAJ",
+        "slide_gjraUy",
+        "slide_rQTwLL",
+        "slide_4bPaAQ",
+        "slide_afFLeE"
+      ],
       "settings": {
         "bg_color": "#ece3dc",
         "image": "shopify:\/\/shop_images\/c92f017f13b5c38f44ac046428d87526_1_1.png"
