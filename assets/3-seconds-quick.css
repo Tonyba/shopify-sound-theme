@@ -7,3 +7,10 @@
     font-weight: 500;    
     font-size: 25px;
 }
+
+
+
+.three-seconds-heat .inner-container {
+    background-color: #E7D5BF;
+    padding: 30px;
+}
