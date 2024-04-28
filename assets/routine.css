@@ -1,9 +1,11 @@
 .routine .subheading {
     color: #FF004A;
     text-transform: uppercase;
+    font-size: 17px;
 }
 .routine  h2 {
     font-weight: 500;
+    margin-bottom: 50px;
 }
 .routine  img {
     border-radius: 20px;
