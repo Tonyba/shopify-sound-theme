@@ -5,6 +5,12 @@
     margin-bottom: 20px;
 }
 
+.custom-multicolumn h3 {
+    color: #3E3E3E;
+    font-weight: 500;
+    font-size: 21px;
+}
+
 .custom-multicolumn  {
     text-align: center;
 }
