@@ -588,29 +588,69 @@
         "item_mDEanA": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
             "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
           }
         },
         "item_b3ndPH": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
             "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "item_d9FzqT": {
+          "type": "item",
+          "settings": {
+            "title": "Who Should Not Use IPL?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
           }
         },
         "item_PxEADh": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
+            "title": "When Can I See the Effect, and is it Permanent?",
             "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        },
+        "item_J6wdpb": {
+          "type": "item",
+          "settings": {
+            "title": "Does IPL Hair Remover Hurt?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "item_8EkRrY": {
+          "type": "item",
+          "settings": {
+            "title": "Who Should Not Use IPL?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "item_P4GKbL": {
+          "type": "item",
+          "settings": {
+            "title": "Do I Need to Shave Before Using IPL?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "item_BAqb4z": {
+          "type": "item",
+          "settings": {
+            "title": "Which Areas of the Body Can I Use This On?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
           }
         }
       },
       "block_order": [
         "item_mDEanA",
         "item_b3ndPH",
-        "item_PxEADh"
+        "item_d9FzqT",
+        "item_PxEADh",
+        "item_J6wdpb",
+        "item_8EkRrY",
+        "item_P4GKbL",
+        "item_BAqb4z"
       ],
       "settings": {
         "full_width": true,
