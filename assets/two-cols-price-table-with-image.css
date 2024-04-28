@@ -35,6 +35,8 @@
 .price-table-with-image .top-badge {
     position: absolute;
     background-color: black;
+    color: white;
+    font-size: 23px;
 }
 
 .price-table-with-image  .after-table {
