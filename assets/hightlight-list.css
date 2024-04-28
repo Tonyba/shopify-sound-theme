@@ -3,6 +3,10 @@
     font-weight: 500;
 }
 
+.hightlist-list span {
+    line-height: 1;
+}
+
 .hightlist-list h2 {
     font-weight: 500;
 }
