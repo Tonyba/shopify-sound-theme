@@ -21,8 +21,59 @@
     </div>
 </div>
 
-<script defer>
+<script src="{{ 'splide.min.js' | asset_url }}" defer></script>
+{% if section.settings.is_autoscroll %}
+  <script src="{{ 'autoscroll.min.js' | asset_url }}" defer></script>
+{% endif %}
 
+<script defer>
+    (function () {
+
+        function init() {
+            const splide = document.querySelector('.splide.press-carousel');
+            const config = {
+              type: 'loop',
+              arrows: false,
+              pagination: false,
+              perPage: 10,
+              gap: 20,
+              autoscroll: {
+                speed: 1000,
+              },
+            };
+            const splideInstance = new Splide(splide, config);
+        
+            if (splide.classList.contains('autoscroll')) {
+              deferAutoScroll(function () {
+                splideInstance.mount(window.splide.Extensions);
+              });
+            } else {
+              splideInstance.mount();
+            }
+          }
+        
+          function deferAutoScroll(method) {
+            if (typeof window.splide != 'undefined') {
+              method();
+            } else {
+              setTimeout(function () {
+                deferAutoScroll(method);
+              }, 50);
+            }
+          }
+        
+          function deferSplide(method) {
+            if (typeof Splide != 'undefined') {
+              method();
+            } else {
+              setTimeout(function () {
+                deferSplide(method);
+              }, 50);
+            }
+          }
+        
+          deferSplide(init);
+    })();
 </script>
 
 {% schema %}
