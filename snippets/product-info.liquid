@@ -44,6 +44,8 @@
               {%- if next_block.type == 'rating' -%}
                 {%- render 'product-rating', product: product, show_empty: next_block.settings.show_empty, block: next_block -%}
               {%- endif -%}
+
+              {% render 'five-stars' %}
             </div>
           </div>
 
