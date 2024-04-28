@@ -28,9 +28,7 @@
 .safety-body-parts .body-icon {
     background-color: white;
     border-radius: 100%;
-    padding: 50px;
+    padding: 10px;
     border: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
