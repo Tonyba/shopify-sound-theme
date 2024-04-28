@@ -2,6 +2,11 @@
     padding-bottom: 50px;
 }
 
-.product-tesminonials .os-scrollbar:first-child {
+.product-tesminonials .os-scrollbar-handle {
+    max-width: 120px;
+}
+
+
+.product-tesminonials .os-scrollbar{
     max-width: 1300px;
 }
