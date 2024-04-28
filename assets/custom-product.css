@@ -268,12 +268,16 @@ compare-at-price {
 
 
 /*faqs*/
-#shopify-section-template--16709264310425__faq_LqUXTr .section-stack__main,
+
 .custom-faqs .section-stack__main {
     width: 100%;
 }
 
-#shopify-section-template--16709264310425__faq_LqUXTr .accordion-box,
+.custom-faqs h2 {
+    font-weight: 600;
+}
+
+
 .custom-faqs  .accordion-box {
     padding: 0;
     background-color: unset;
@@ -283,25 +287,25 @@ compare-at-price {
     row-gap: 20px;
 }
 
-#shopify-section-template--16709264310425__faq_LqUXTr .accordion__toggle,
+
 .custom-faqs .accordion__toggle {
     background-color: #F3F3F3;
     padding: 14px 18px;
     border: unset;
 }
 
-#shopify-section-template--16709264310425__faq_LqUXTr .accordion__toggle > span:first-child,
+
 .custom-faqs .accordion__toggle > span:first-child {
     font-size: 18px;
     font-weight: 400;
 }
 
-#shopify-section-template--16709264310425__faq_LqUXTr .accordion,
+
 .custom-faqs .accordion {
     border-block-end-width: 0
 }
 
-#shopify-section-template--16709264310425__faq_LqUXTr  .accordion p,
+
 .custom-faqs .accordion p {
     padding-top: 20px;
 }
