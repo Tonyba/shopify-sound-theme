@@ -524,7 +524,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/f54c9ac2da2098e2acaa0e1cc85227cb.png",
-        "bg_Color": "#F3F3F3",
+        "bg_Color": "#f3f3f3",
         "heading": "In the Box",
         "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
       }
@@ -560,6 +560,7 @@
         "item_aYPDUq"
       ],
       "settings": {
+        "extra_class": "custom-faq",
         "full_width": true,
         "subheading": "",
         "title": "FAQ",
