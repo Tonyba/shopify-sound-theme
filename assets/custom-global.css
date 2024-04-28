@@ -121,6 +121,15 @@ border-color: white;
     padding: 100px 0;
 }
 
+
+@font-face {
+    font-display: swap; 
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdn.shopify.com/s/files/1/0640/3588/1113/files/ibm-plex-sans-v19-latin-500.woff2?v=1714307990') format('woff2');
+  }
+
 @media screen and (min-width: 1150px) {
     #shopify-section-template--16704955089049__featured-collection .section-header {
         grid-template-columns: 100%;
