@@ -3,11 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -23,12 +18,6 @@
           "type": "price",
           "settings": {
             "show_taxes_notice": false
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
           }
         },
         "payment_terms": {
@@ -69,11 +58,9 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "badges",
         "price",
-        "rating",
         "payment_terms",
         "separator",
         "variant_picker",
