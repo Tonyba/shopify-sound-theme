@@ -276,7 +276,22 @@
     },
     "tab_content_list_m9DxxM": {
       "type": "tab-content-list",
+      "blocks": {
+        "slide_gTREPK": {
+          "type": "slide",
+          "settings": {
+            "left_image": "shopify:\/\/shop_images\/0ccc4f9f1b63eaa0a2704b63ad64087f_b8a92119-b500-4e37-9799-0e285cb4532d.png",
+            "tab_title": "",
+            "left_list": "",
+            "right-list": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_gTREPK"
+      ],
       "settings": {
+        "bg_color": "#f3f3f3",
         "heading": "SkinPetra Warm Uterus Waist Comparet To:"
       }
     },
