@@ -9,90 +9,94 @@
   }
 </style>
 
-<div {% render 'section-properties' %}>
-  <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
-    {%- capture content -%}
-      {%- if section.settings.subheading != blank -%}
-        <p class="bold">{{ section.settings.subheading | escape }}</p>
-      {%- endif -%}
-
-      {%- if section.settings.title != blank -%}
-        <h2 class="h2">
-          {%- render 'styled-text', content: section.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient -%}
-        </h2>
-      {%- endif -%}
-
-      {{- section.settings.content -}}
-    {%- endcapture -%}
-
-    {%- capture subcontent -%}
-      <div class="faq-availability">
-        {%- if section.settings.team_avatar != blank or section.settings.support_hours != blank or section.settings.answer_time != blank -%}
-          <div class="v-stack gap-4">
-            {%- if section.settings.team_avatar != blank -%}
-              {%- capture sizes -%}{{ section.settings.team_avatar_width }}px{%- endcapture -%}
-              {%- capture widths -%}{{ section.settings.team_avatar_width }}, {{ section.settings.team_avatar_width | times: 2 | at_most: section.settings.team_avatar.width }}{%- endcapture -%}
-              {%- capture style -%}max-width: {{ section.settings.team_avatar_width }}px{%- endcapture -%}
-              {{- section.settings.team_avatar | image_url: width: section.settings.team_avatar.width | image_tag: loading: 'lazy', style: style, sizes: sizes, widths: widths -}}
+<div class="{{ section.settings.extra_class }}">
+  <div {% render 'section-properties' %}>
+    <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
+      {%- capture content -%}
+        {%- if section.settings.subheading != blank -%}
+          <p class="bold">{{ section.settings.subheading | escape }}</p>
+        {%- endif -%}
+  
+        {%- if section.settings.title != blank -%}
+          <h2 class="h2">
+            {%- render 'styled-text', content: section.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient -%}
+          </h2>
+        {%- endif -%}
+  
+        {{- section.settings.content -}}
+      {%- endcapture -%}
+  
+      {%- capture subcontent -%}
+        <div class="faq-availability">
+          {%- if section.settings.team_avatar != blank or section.settings.support_hours != blank or section.settings.answer_time != blank -%}
+            <div class="v-stack gap-4">
+              {%- if section.settings.team_avatar != blank -%}
+                {%- capture sizes -%}{{ section.settings.team_avatar_width }}px{%- endcapture -%}
+                {%- capture widths -%}{{ section.settings.team_avatar_width }}, {{ section.settings.team_avatar_width | times: 2 | at_most: section.settings.team_avatar.width }}{%- endcapture -%}
+                {%- capture style -%}max-width: {{ section.settings.team_avatar_width }}px{%- endcapture -%}
+                {{- section.settings.team_avatar | image_url: width: section.settings.team_avatar.width | image_tag: loading: 'lazy', style: style, sizes: sizes, widths: widths -}}
+              {%- endif -%}
+  
+              {%- if section.settings.support_hours != blank or section.settings.answer_time != blank -%}
+                <div class="v-stack">
+                  {{- section.settings.support_hours -}}
+  
+                  {%- if section.settings.answer_time != blank -%}
+                    <span class="text-subdued">{{ section.settings.answer_time }}</span>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+  
+          {%- if section.settings.button_text != blank -%}
+            {% render 'button', content: section.settings.button_text, href: section.settings.button_url, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color %}
+          {%- endif -%}
+        </div>
+      {%- endcapture -%}
+  
+      {%- if content != blank or subcontent != blank -%}
+        <div class="section-stack__intro">
+          <div class="v-stack gap-10">
+            {%- if content != blank -%}
+              <div class="prose {% if text_position == 'center' %}text-center{% endif %}">
+                {{- content -}}
+              </div>
             {%- endif -%}
-
-            {%- if section.settings.support_hours != blank or section.settings.answer_time != blank -%}
-              <div class="v-stack">
-                {{- section.settings.support_hours -}}
-
-                {%- if section.settings.answer_time != blank -%}
-                  <span class="text-subdued">{{ section.settings.answer_time }}</span>
-                {%- endif -%}
+  
+            {%- if text_position != 'center' and subcontent != blank -%}
+              <div class="hidden lg:block">
+                {{- subcontent -}}
               </div>
             {%- endif -%}
           </div>
-        {%- endif -%}
-
-        {%- if section.settings.button_text != blank -%}
-          {% render 'button', content: section.settings.button_text, href: section.settings.button_url, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color %}
-        {%- endif -%}
-      </div>
-    {%- endcapture -%}
-
-    {%- if content != blank or subcontent != blank -%}
-      <div class="section-stack__intro">
-        <div class="v-stack gap-10">
-          {%- if content != blank -%}
-            <div class="prose {% if text_position == 'center' %}text-center{% endif %}">
-              {{- content -}}
-            </div>
-          {%- endif -%}
-
-          {%- if text_position != 'center' and subcontent != blank -%}
-            <div class="hidden lg:block">
-              {{- subcontent -}}
-            </div>
-          {%- endif -%}
         </div>
-      </div>
-    {%- endif -%}
-
-    {%- if section.blocks.size > 0 -%}
-      <div class="section-stack__main" >
-        <div {% render 'surface', class: 'accordion-box rounded', background: section.settings.accordion_background, text_color: section.settings.accordion_text_color, background_fallback: 'bg-secondary' %}>
-          {%- for block in section.blocks -%}
-            {%- if block.settings.title != blank and block.settings.content != blank -%}
-              {%- capture accordion_content -%}
-                <div class="prose">{{ block.settings.content }}</div>
-              {%- endcapture -%}
-
-              {%- render 'accordion', title: block.settings.title, content: accordion_content, block: block -%}
-            {%- endif -%}
-          {%- endfor -%}
+      {%- endif -%}
+  
+      {%- if section.blocks.size > 0 -%}
+        <div class="section-stack__main" >
+          <div {% render 'surface', class: 'accordion-box rounded', background: section.settings.accordion_background, text_color: section.settings.accordion_text_color, background_fallback: 'bg-secondary' %}>
+            {%- for block in section.blocks -%}
+              {%- if block.settings.title != blank and block.settings.content != blank -%}
+                {%- capture accordion_content -%}
+                  <div class="prose">{{ block.settings.content }}</div>
+                {%- endcapture -%}
+  
+                {%- render 'accordion', title: block.settings.title, content: accordion_content, block: block -%}
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
         </div>
+      {%- endif -%}
+  
+      <div {% if text_position != 'center' %}class="lg:hidden"{% endif %}>
+        {{- subcontent -}}
       </div>
-    {%- endif -%}
-
-    <div {% if text_position != 'center' %}class="lg:hidden"{% endif %}>
-      {{- subcontent -}}
     </div>
   </div>
 </div>
+
+
 
 {%- comment -%}On the FAQ page, we also output the content with JSON microdata for SEO{%- endcomment -%}
 
