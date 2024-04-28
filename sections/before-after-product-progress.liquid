@@ -17,7 +17,8 @@
 
         <div class="tabs-header">
             {% for tab in section.blocks %}
-                <button data-target-id="{{ tab.id }}" class="tab-header-btn{% if forloop.index == 1 %} active{% endif %}">{{ tab.settings.title }}</button>
+                
+                <button data-target-id="{{ tab.id }}" class="tab-header-btn{% if forloop.index == 1 %} active{% endif %}">{% if condition %}{% endif %}{{ tab.settings.title }}</button>
             {% endfor %}    
         </div>
 
@@ -96,6 +97,11 @@
                 "type": "text",
                 "label": "Heading",
                 "id": "heading"
+            },
+            {
+              "type": "checkbox",
+              "label": "Just Simple Image in Tab Content",
+              "id": "just_simple_image"
             },
             {
                 "type": "text",
