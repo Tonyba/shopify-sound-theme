@@ -34,3 +34,8 @@
     align-self: center;
     flex-direction: column;
 }
+
+.three-seconds-heat .stage-item  .text {
+    font-size: 40px;
+    font-weight: 500;
+}
