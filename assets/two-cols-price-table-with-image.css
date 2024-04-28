@@ -39,7 +39,11 @@
     color: #222;
 }
 
+.price-table-with-image  {
+
+}
+
 .price-table-with-image  .is-last {
     background-color: white;
-
+    font-weight: 600;
 }
