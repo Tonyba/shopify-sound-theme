@@ -9,12 +9,11 @@
 }
 
 .visible-results .content {
-  
+  max-width: 1025px;
 }
 
 .visible-results .container  {
-    width: 100% !important;
-    max-width: 1300px;
+    width: 100%;
 }
 
 
