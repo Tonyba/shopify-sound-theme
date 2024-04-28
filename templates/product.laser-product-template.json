@@ -362,7 +362,7 @@
       ],
       "settings": {
         "bg_color": "#f3f3f3",
-        "heading": "Safe To Use On  <span> All Body Parts <\/span>",
+        "heading": "Safe To Use On   All Body Parts",
         "left_img": "shopify:\/\/shop_images\/3_7.png",
         "right_img": "shopify:\/\/shop_images\/beautiful-girl-with-perfect-face_1.png"
       }
@@ -415,6 +415,13 @@
         "subheading": "Skinpetra IPL Benefits"
       }
     },
+    "press_carousel_idJVxd": {
+      "type": "press-carousel",
+      "settings": {
+        "heading": "Hot Off the Press",
+        "subheading": "mAGAZINES"
+      }
+    },
     "1714242086a4fbce2e": {
       "type": "apps",
       "blocks": {
@@ -450,6 +457,7 @@
     "product_testimonials_KVrUgn",
     "safety_body_parts_CUBHMY",
     "routine_yaThnt",
+    "press_carousel_idJVxd",
     "1714242086a4fbce2e"
   ]
 }
