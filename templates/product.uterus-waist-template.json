@@ -114,10 +114,28 @@
             "title": "50°",
             "btn_text": "Daily Warm"
           }
+        },
+        "slide_yV9UWL": {
+          "type": "slide",
+          "settings": {
+            "icon_color": "#ff8e09",
+            "title": "55°",
+            "btn_text": "Menstrual Care"
+          }
+        },
+        "slide_3FTWhm": {
+          "type": "slide",
+          "settings": {
+            "icon_color": "#fb4e4e",
+            "title": "60°",
+            "btn_text": "Relieve Menstrual Pain"
+          }
         }
       },
       "block_order": [
-        "slide_ReRmFN"
+        "slide_ReRmFN",
+        "slide_yV9UWL",
+        "slide_3FTWhm"
       ],
       "settings": {
         "bg_color": "linear-gradient(99.09deg, rgba(243, 230, 214, 1) 0.29%, rgba(254, 248, 240, 1) 99.4%)",
