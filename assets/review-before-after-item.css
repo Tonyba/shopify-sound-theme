@@ -18,6 +18,7 @@
 .review-before-after-item .review-author {
     margin-top: 10px;
     font-size: 18px;
+    color: black;
 }
 
 .review-before-after-item:not(:last-child) {
