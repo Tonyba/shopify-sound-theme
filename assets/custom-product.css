@@ -133,7 +133,10 @@ compare-at-price {
     margin-top: 10px;
 }
 
-
+.right-left-section .prose > p:last-child {
+    font-size: 21px;
+    color: #4f4f4f;
+}
 
 #shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .section,
 #shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .section,
