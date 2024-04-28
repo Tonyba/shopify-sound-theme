@@ -126,6 +126,11 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+
+#shopify-section-template--16709264310425__multiple_images_with_text_rbVrWj .multiple-images-with-text__content-list{
+    padding-left: 50px;
+}
+
 .multiple-images-with-text__content-with-nav {
     max-width: unset;
 }
