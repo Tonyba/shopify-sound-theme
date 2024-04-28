@@ -28,6 +28,10 @@
 .price-table-with-image .table-item:not(:last-child) {
     border-bottom: 1px solid #B6B6B6;
 }
+.price-table-with-image .table-item:nth-last-child(2) {
+    border-bottom: unset;
+}
+
 
 .price-table-with-image  .after-table {
     font-weight: 600;
@@ -37,5 +41,5 @@
 
 .price-table-with-image  .is-last {
     background-color: white;
-    margin-top: 20px;
+
 }
