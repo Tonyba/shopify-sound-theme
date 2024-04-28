@@ -5,7 +5,7 @@
             <h2>{{ section.settings.heading }}</h2>
             <p>{{ section.settings.text }}</p>
             <ul class="icon-list">
-                {% for item in section.settings %}
+                {% for item in section.blocks %}
                     <li class="icon-list-item"> 
                         <span class="icon">{% render 'icon-circle-check' %}</span>  
                         <span class="text">{{ item.text }}</span> 
