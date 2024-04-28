@@ -10,6 +10,17 @@
             <div class="grid-item">
                 <h2>{{ section.settings.heading }}</h2>
                 <div class="heading-divider"></div>
+
+                {% for item in section.blocks %}
+                    <div class="subsection">
+                        <h3>{{ item.heading }}</h3>
+                        <p>{{ item.text }}</p>
+                    </div>
+                {% endfor %}
+
+                <div class="info-text">
+                    {{ section.settings.info_text }}
+                </div>
             </div>
         </div>
 
