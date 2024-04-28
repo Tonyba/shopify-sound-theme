@@ -2,8 +2,8 @@
     font-size: 18px;
 }
 
-price-list {
-    font-weight: 500;
+price-list * {
+    font-weight: 500 !important;
 }
 /*icon list*/
 
