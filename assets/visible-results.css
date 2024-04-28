@@ -5,6 +5,7 @@
 .visible-results .image {
     position: absolute;
     max-height: 458px;
+    top: 0;
 }
 
 
