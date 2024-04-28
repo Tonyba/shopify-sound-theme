@@ -410,6 +410,37 @@
         "subheading": "mAGAZINES"
       }
     },
+    "multiple_images_with_text_pP6VMN": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_kU8iPd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Womens-Uterus-Warmer-Womb-Heating-Therapy-Massage-Belt18_1.png",
+            "image_rotation_degrees": -2,
+            "subheading": "Flash Window",
+            "title": "Mute Noise Reduction",
+            "content": "<p>Full Mute Working Without Disturbing your Sound Sleep, Full Mute Working Without Disturbing your Sound Sleep<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_kU8iPd"
+      ],
+      "settings": {
+        "full_width": true,
+        "extra_css_class": "right-left-section pt-0",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "171433367028cbf9e0": {
       "type": "apps",
       "blocks": {
@@ -445,6 +476,7 @@
     "tab_content_list_m9DxxM",
     "routine_irhwaJ",
     "press_carousel_PV6PqQ",
+    "multiple_images_with_text_pP6VMN",
     "171433367028cbf9e0"
   ]
 }
