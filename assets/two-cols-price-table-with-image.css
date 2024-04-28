@@ -43,6 +43,8 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    left: 20px;
+    top: -20px;
 }
 
 .price-table-with-image .badge-icon {
