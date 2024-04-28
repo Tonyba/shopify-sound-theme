@@ -1,0 +1,55 @@
+
+<div class="section-wrapper">
+    <h2></h2>
+    <div class="product-testimonials">
+    
+    </div>
+</div>
+
+
+<script defer>
+    (function () {
+    
+        function defer(method) {
+    
+            if ( typeof OverlayScrollbars != 'undefined' ) {
+                method();
+            } else {
+                setTimeout(function() { defer(method) }, 50);
+            }
+        }
+    
+        defer(function() {
+            const customScroll = document.querySelector('.scroll-wrapper');
+           
+            new OverlayScrollbars(customScroll, {
+                overflowBehavior : {         
+                        // visible-hidden  || visible-scroll || hidden || scroll || v-h || v-s || h || s
+                        x :'scroll',
+                        // visible-hidden  || visible-scroll || hidden || scroll || v-h || v-s || h || s
+                        y :'hidden'
+                      },
+                    
+              });
+    
+        });
+        
+    })();
+    </script>
+
+
+{% schema %}
+    {
+        "name": "Product Testimonials",
+        "class": "product-tesminonials",
+        "settings": [
+            {
+                "type": "text",
+                "label": "Heading",
+                "id": "heading"
+            }
+        ],
+        "blocks": [],
+        "presets": []
+    }
+{% endschema %}
