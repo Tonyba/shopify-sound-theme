@@ -2,15 +2,20 @@
 
 <div class="container">
     
-    <div class="flex align-item-center">
-        <div class="w-70">
-            <h2>{{ section.settings.heading }}</h2>
-            <p>{{ section.settings.text }}</p>
+    <div class="section-wrapper-b">
+        <div class="flex align-item-center">
+            <div class="w-70">
+                <h2>{{ section.settings.heading }}</h2>
+                <p>{{ section.settings.text }}</p>
+            </div>
+            <div class="w-30">
+                {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+            </div>
         </div>
-        <div class="w-30">
-            {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
-        </div>
+    
     </div>
+
+  
 </div>
 
 {% schema %}
