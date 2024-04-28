@@ -23,7 +23,7 @@
 }
 
 .price-table-with-image .table-item:not(:last-child) {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #B6B6B6;
 }
 
 .price-table-with-image  .after-table {
