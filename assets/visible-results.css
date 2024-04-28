@@ -6,6 +6,11 @@
     position: absolute;
 }
 
+
+.visible-results .wrapper {
+    padding: 200px 0;
+}
+
 .visible-results h2 {
     font-size: 50px;
     margin-bottom: unset;
