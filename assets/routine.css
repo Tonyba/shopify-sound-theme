@@ -24,3 +24,7 @@
 .routine .step-item:not(:last-child) {
     margin-bottom: 20px;
 }
+
+.routine h3 {
+    color: #FF004A
+}
