@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var lazyLoadImages = document.querySelectorAll(".lazyload-bg ");
+    var lazyLoadImages = document.querySelectorAll(".lazyload-bg");
 
     var lazyLoad = function() {
         lazyLoadImages.forEach(function(image) {
