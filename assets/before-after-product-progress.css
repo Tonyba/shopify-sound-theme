@@ -91,4 +91,6 @@
     gap: 20px;
 }
 
-
+.before-after-product-progress .tabs-header.is_simple_img {
+    max-width: 877px;
+}
