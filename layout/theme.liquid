@@ -55,6 +55,8 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
 
     {{- 'custom-global.css' | asset_url | stylesheet_tag: preload: true -}}
+
+    {{-  'lazyload-bg-img.css' | asset_url | stylesheet_tag -}}
     <script src="{{ 'lazyload-bg-img.js' | asset_url }}" defer></script>
   </head>
 
