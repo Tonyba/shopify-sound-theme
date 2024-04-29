@@ -5,9 +5,9 @@
         <div class="grid-item">
             <div class="subheading">{{ section.settings.subheading }}</div>
             <h2>{{ section.settings.heading }}</h2>
-            {% for item in section.blocks %}
+            {% for item in section.blocks %}  
                 <div class="item flex gap-20">
-                    <div class="icon">{% render 'icon-sun' %}</div>
+                    <div class="icon">{% render 'icon-sunny' %}</div>
                     <div class="content">
                         <h3>{{ item.settings.title }}</h3>
                         <p>{{ item.settings.text }}</p>

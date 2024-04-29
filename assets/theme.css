@@ -9952,3 +9952,9 @@ homepage mobile css
 #shopify-section-template--16704955089049__product_grid_with_photo_pp868q .grid.cols-2.align-item-center{display: inline-flex;
     width: 100%;
     flex-direction: row;}
+
+#shopify-section-template--16704955089049__product_grid_with_photo_pp868q .horizontal-custom-prod {
+    padding: 15px 15px;
+}
+}
+ .grid.cols-2.align-item-center .grid-item
