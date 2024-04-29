@@ -106,6 +106,10 @@
     align-items: center;
 }
 
+.align-item-start {
+    align-items: flex-start;
+}
+
 .justify-content-center {
     justify-content: center;
 }
