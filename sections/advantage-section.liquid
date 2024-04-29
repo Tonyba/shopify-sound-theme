@@ -1,24 +1,27 @@
 {{ 'advantage-section.css' | asset_url | stylesheet_tag }}
 
-<div class="container" style="background: {{ section.settings.bg_color }} ">
-    <div class="grid cols-2">
-        <div class="grid-item">
-            <div class="subheading">{{ section.settings.subheading }}</div>
-            <h2>{{ section.settings.heading }}</h2>
-            {% for item in section.blocks %}  
-                <div class="item flex gap-20">
-                    <div class="icon">{% render 'icon-sunny' %}</div>
-                    <div class="content">
-                        <h3>{{ item.settings.title }}</h3>
-                        <p>{{ item.settings.text }}</p>
+<div class="section-wrapper-margin-b">
+    <div class="container" style="background: {{ section.settings.bg_color }} ">
+        <div class="grid cols-2">
+            <div class="grid-item">
+                <div class="subheading">{{ section.settings.subheading }}</div>
+                <h2>{{ section.settings.heading }}</h2>
+                {% for item in section.blocks %}  
+                    <div class="item flex gap-20">
+                        <div class="icon">{% render 'icon-sunny' %}</div>
+                        <div class="content">
+                            <h3>{{ item.settings.title }}</h3>
+                            <p>{{ item.settings.text }}</p>
+                        </div>
                     </div>
-                </div>
-            {% endfor %}
-        </div>
-        <div class="grid-item lazyload-bg" data-src="{{ section.settings.image | image_url }}">
-            
+                {% endfor %}
+            </div>
+            <div class="grid-item lazyload-bg" data-src="{{ section.settings.image | image_url }}">
+                
+            </div>
         </div>
     </div>
+    
 </div>
 
 
