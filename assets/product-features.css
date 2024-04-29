@@ -1,3 +1,8 @@
 .product-features .icon {
-    display: inline-block;
+    display: inline-flex;
+    width: 90px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #FF004A 0%, rgba(255, 102, 153, 0.733333) 100%);
 }
