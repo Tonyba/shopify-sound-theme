@@ -13,7 +13,9 @@
             <div class="splide__track">
               <div class="splide__list">
                 {% for item in collection %}
-                  <div class="splide__slide"></div>
+                  <div class="splide__slide">
+                    {{ item.settings.tiktok_embed }}
+                  </div>
                 {% endfor %}
               </div>
             </div>
