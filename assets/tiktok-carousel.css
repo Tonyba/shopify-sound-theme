@@ -24,7 +24,11 @@
 }
 
 .tiktok-carousel .splide__arrow--next {
-        right: 0;
+        right: -25px;
+}
+
+.tiktok-carousel .splide__arrow--prev {
+        left: -25px
 }
 
 .tiktok-carousel .splide__slide {
