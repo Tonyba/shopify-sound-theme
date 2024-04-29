@@ -380,6 +380,7 @@
         "slide_PDJnRF"
       ],
       "settings": {
+        "extra_class": "section-wrapper-margin-t",
         "image": "shopify:\/\/shop_images\/4e30ad08e2c467cb4a8ea55b6d8adc49_1_1.png",
         "heading": "Follow The Steps For Usability",
         "subheading": "HOW TO USE"
@@ -562,7 +563,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/0ae87d3d6f9d3b2a8a5ec543d8f3591c_1.png",
-        "bg_Color": "#F3F3F3",
+        "bg_Color": "#f3f3f3",
         "heading": "In the Box",
         "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
       }
