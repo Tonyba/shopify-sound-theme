@@ -321,6 +321,8 @@
       "settings": {
         "heading": "Full Body Hair Removal Treatment Less than 10 Minutes",
         "just_simple_image": true,
+        "max_width": 950,
+        "reverse_heading": false,
         "subheading": "Visible Results Within 3 Weeks",
         "bg_color": "#f3f3f3",
         "drag_cursor_background": "#000000"
