@@ -20,6 +20,15 @@
         height: 20px;
 }
 
+.tiktok-carousel .heading-wrapper p {
+        font-size: 19px;
+        color: #777;
+}
+
+.tiktok-carousel .heading-wrapper p a {
+      color: #FF004A;
+}
+
 
 .tiktok-carousel {
         width: 50px;
