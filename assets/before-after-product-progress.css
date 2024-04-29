@@ -114,7 +114,7 @@
     
 }
 
-.before-after-product-progress .reversed  {
+.before-after-product-progress .reversed.headings  {
     display: flex;
     flex-direction: column;
 }
