@@ -9,6 +9,11 @@
     margin-bottom: 10px;
 }
 
+.product-features  .inner-container {
+    max-width: 681px;
+    margin-left: auto;
+}
+
 .product-features  .grid-item {
     text-align: center;
 }
