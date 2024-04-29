@@ -9936,7 +9936,7 @@ transform: translateX(-50%) translateY(-15%)!important;
     margin-left: auto!important;
     margin-right: auto!important;
 }
-
+  .color-swatch{border-radius: 100%;}
 /**
 homepage mobile css
 **/
@@ -9969,6 +9969,9 @@ homepage mobile css
 #shopify-section-template--16704955089049__two_cols_img_carousel_7KGijH .grid-item .two-cols-image-carousel .left-info{padding: 50px 30px 150px 30px!important;}
 #shopify-section-template--16704955089049__two_cols_img_carousel_7KGijH .grid-item.relative{margin-top:-95px;}
 #shopify-section-template--16704955089049__slideshow{display:none;}
+
+
+
 }
   
 @media screen and (min-width: 768px) {
