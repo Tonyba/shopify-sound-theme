@@ -22,11 +22,10 @@
 .product-features .image {
     position: absolute;
     top: 0;
-    height: 100%;
 }
 
 .product-features .section-wrapper-padding {
-    padding: 200px 0;
+    padding: 250px 0;
 }
 
 @media only screen and (max-width: 767px) {
