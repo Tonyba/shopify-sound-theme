@@ -169,10 +169,50 @@
             "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
             "review_img": "shopify:\/\/shop_images\/image_121.png"
           }
+        },
+        "slide_UTWBy4": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/image_122.png"
+          }
+        },
+        "slide_CYj9R4": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/c5361c55fb5e95034c08b823b8b8ce24.png"
+          }
+        },
+        "slide_peFcDB": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/image_121.png"
+          }
+        },
+        "slide_y67a6x": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/image_122.png"
+          }
         }
       },
       "block_order": [
-        "slide_TQn6BC"
+        "slide_TQn6BC",
+        "slide_UTWBy4",
+        "slide_CYj9R4",
+        "slide_peFcDB",
+        "slide_y67a6x"
       ],
       "settings": {
         "heading": "Real users, real results",
