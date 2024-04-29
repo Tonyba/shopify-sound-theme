@@ -2,7 +2,8 @@
     border-radius: 40px;
 }
 
-.advantage-section img {
+
+.advantage-section .layload-bg {
     border-radius: 0 40px 40px 0;
 }
 
@@ -17,7 +18,7 @@
 }
 
 .advantage-section .grid-item:first-child {
-    padding: 70px 30px 70px 50px;
+    padding: 70px 50px 70px 50px;
 }
 
 .advantage-section .item:not(:last-child) {
