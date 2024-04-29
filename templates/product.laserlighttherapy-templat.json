@@ -230,10 +230,34 @@
             "title": "Reduces the appearance of sunspots",
             "text": "Boost circulation, improve skin texture, optimized for use on all skins tones."
           }
+        },
+        "slide_3TCnyP": {
+          "type": "slide",
+          "settings": {
+            "title": "Promotes healthier, younger-looking Neck skin",
+            "text": "Reduce appearance of redness and dark circles, blemishes, ideal for dull skin"
+          }
+        },
+        "slide_JqMwey": {
+          "type": "slide",
+          "settings": {
+            "title": "All natural. No pain, side effects, or downtime",
+            "text": "Penetrate deep into skin, reduce wrinkles, smooth fine lines, and increase firmness"
+          }
+        },
+        "slide_4rCh4Y": {
+          "type": "slide",
+          "settings": {
+            "title": "Reduces the appearance of pigmentation, redness, and fine lines & wrinkles",
+            "text": "Penetrate deep into skin, reduce wrinkles, smooth fine lines, and increase firmness"
+          }
         }
       },
       "block_order": [
-        "slide_ApdAJ3"
+        "slide_ApdAJ3",
+        "slide_3TCnyP",
+        "slide_JqMwey",
+        "slide_4rCh4Y"
       ],
       "settings": {
         "bg_color": "linear-gradient(103.48deg, #F3E6D6 0%, #FCF5EB 100.22%)",
