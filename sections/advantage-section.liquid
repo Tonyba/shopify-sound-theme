@@ -8,7 +8,12 @@
         </div>
         <div class="grid-item">
             {% for item in section.blocks %}
-                
+                <div class="item flex gap-20">
+                    <div class="icon">{% render 'icon-sun' %}</div>
+                    <div class="content">
+                        <h3>{{ item.settings }}</h3>
+                    </div>
+                </div>
             {% endfor %}
         </div>
     </div>
@@ -42,7 +47,24 @@
                 "label": "Subheading"
             }
         ],
-        "blocks": [],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "Item",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title"
+                    },
+                    {
+                        "type": "textarea",
+                        "id": "text",
+                        "label": "Text"
+                    }
+                ]
+            }
+        ],
         "presets": [
             {
               "name": "Advantage Section"
