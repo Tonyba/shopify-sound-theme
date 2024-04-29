@@ -201,6 +201,10 @@ border-color: white;
     background: linear-gradient(95.94deg, #F5E8DA 57.87%, #FEF8F0 100%);
 }
 
+.gradient-bg-100 {
+    background: linear-gradient(145.62deg, #F3E6D6 0%, #FEF7EF 100.86%);
+}
+
 .pt-0 {
     padding-top: unset;
 }
