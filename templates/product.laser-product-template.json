@@ -113,7 +113,8 @@
             "tab_title": "1-4 Weeks",
             "title": "1-4 Weeks",
             "subtitle": "3 treatments per week",
-            "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "text": "<p>In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.<\/p>",
+            "hide_progress": false,
             "progress": 30,
             "before_text": "Before",
             "before_image": "shopify:\/\/shop_images\/image_19.png",
@@ -127,7 +128,8 @@
             "tab_title": "5-8 Weeks",
             "title": "5-8 Weeks",
             "subtitle": "3 treatments per week",
-            "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "text": "<p>In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.<\/p>",
+            "hide_progress": false,
             "progress": 70,
             "before_text": "Before",
             "before_image": "shopify:\/\/shop_images\/effafaad017dc4d91153eb1eaf4ca50e.jpg",
@@ -141,7 +143,8 @@
             "tab_title": "8-12 Weeks",
             "title": "8-12 Weeks",
             "subtitle": "3 treatments per week",
-            "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "text": "<p>In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.<\/p>",
+            "hide_progress": false,
             "progress": 100,
             "before_text": "Before",
             "before_image": "shopify:\/\/shop_images\/effafaad017dc4d91153eb1eaf4ca50e.jpg",
@@ -158,6 +161,8 @@
       "settings": {
         "heading": "Full Body Hair Removal Treatment Less than 10 Minutes",
         "just_simple_image": false,
+        "max_width": 480,
+        "reverse_heading": false,
         "subheading": "Visible Results Within 3 Weeks",
         "bg_color": "#f3f3f3",
         "drag_cursor_background": "#000000"
@@ -310,6 +315,8 @@
       ],
       "settings": {
         "heading": "Results From Our Satisfied Customers",
+        "before_text": "",
+        "after_text": "",
         "title_left": false
       }
     },
