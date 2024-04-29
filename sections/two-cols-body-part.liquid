@@ -16,12 +16,14 @@
           
 
             <div class="body-parts-wrapper">
-                {% for body_p in section.blocks %}
-                    <div class="body-part">
-                        <div class="body-icon">{{ body_p.settings.icon }}</div>
-                        <h3> {{  body_p.settings.title  }} </h3>
-                    </div>
-                {% endfor %}
+                <div class="grid cols-3 gap-20">
+                    {% for body_p in section.blocks %}
+                        <div class="body-part">
+                            <div class="body-icon">{{ body_p.settings.icon }}</div>
+                            <h3> {{  body_p.settings.title  }} </h3>
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
