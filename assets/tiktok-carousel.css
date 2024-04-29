@@ -4,6 +4,10 @@
         margin: auto;
 }
 
+.tiktok-carousel .heading-wrapper h2 {
+        font-weight: 500;
+}
+
 .tiktok-carousel .splide__arrow {
         position: absolute;
         top: 50%;
