@@ -5,6 +5,7 @@
 
 .two-cols-body-part h2 {
     font-weight: 500;
+    line-height: 1.2;
 }
 
 .two-cols-body-part .grid-item:last-child {
