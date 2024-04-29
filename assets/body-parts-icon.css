@@ -1,0 +1,18 @@
+.safety-body-parts .body-icon {
+    background-color: white;
+    border-radius: 100%;
+    width: 93px;
+    height: 93px;
+    border: 1px solid black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.body-part {
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    z-index: 1;
+}
