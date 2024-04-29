@@ -15,7 +15,7 @@
             <h3 class="subheading">{{ section.settings.subheading }}</h3>
         </div>
 
-        <div class="tabs-header {% if section.settings.just_simple_image %}is_simple_img{% endif %}">
+        <div class="tabs-header {% if section.settings.just_simple_image %}is_simple_img{% endif %}" style="max-width: {{ section.settings.max_width }}px ">
             {% for tab in section.blocks %}
                 <button data-target-id="{{ tab.id }}" class="tab-header-btn{% if forloop.index == 1 %} active{% endif %}">
                   
