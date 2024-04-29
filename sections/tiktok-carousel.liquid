@@ -1,7 +1,8 @@
 {{ 'tiktok-carousel.css' | asset_url | stylesheet_tag }}
 {{ 'splide.min.css' | asset_url | stylesheet_tag }}
 
-<div class="container">
+<div class="section-wrapper-margin">
+  <div class="container">
     <div class="heading-wrapper">
         <h2>{{ section.settings.heading }}</h2>
         <div class="text">
@@ -15,13 +16,17 @@
             <div class="splide__list">
                 {% for item in section.blocks %}      
                     <div class="splide__slide">
-                      <lite-tiktok videoid="{{ item.settings.tiktok_id }}"></lite-tiktok>
+                      <lite-tiktok videoid="{{ item.settings.tiktok_id }}" autoload></lite-tiktok>
                     </div>
                 {% endfor %}
             </div>
         </div>
     </div>
 </div>
+
+
+</div>
+
 
 <script src="{{ 'lite-tiktok.js' | asset_url }}" async></script>
 <script src="{{ 'splide.min.js' | asset_url }}" defer></script>
