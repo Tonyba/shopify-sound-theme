@@ -154,6 +154,10 @@ h2 {
     fill: white
 }
 
+.footer__block-list {
+    gap: 40px
+}
+
 .footer input {
 border-color: white;
 }
