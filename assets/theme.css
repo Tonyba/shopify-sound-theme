@@ -9969,8 +9969,12 @@ homepage mobile css
 #shopify-section-template--16704955089049__two_cols_img_carousel_7KGijH .grid-item .two-cols-image-carousel .left-info{padding: 50px 30px 150px 30px!important;}
 #shopify-section-template--16704955089049__two_cols_img_carousel_7KGijH .grid-item.relative{margin-top:-95px;}
 #shopify-section-template--16704955089049__slideshow{display:none;}
-
-
+/**
+  shop page
+  **/
+#shopify-section-template--16709282070681__3_seconds_quick_tUKe8W .grid-item.w-42{width:0%;}
+#shopify-section-template--16709282070681__3_seconds_quick_tUKe8W .grid-item.w-58{width:100%;}
+#shopify-section-template--16709282070681__3_seconds_quick_tUKe8W .three-seconds-heat .inner-container{padding:20px;}
 
 }
   
