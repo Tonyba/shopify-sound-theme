@@ -1,0 +1,38 @@
+
+
+{% schema %}
+    {
+        "name": "Tiktok Carousel",
+        "class": "tiktok-carousel",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "richtext",
+                "id": "text",
+                "label": "Text"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "Tiktok Video Embed",
+                "settings": [
+                    {
+                        "type": "html",
+                        "id": "tiktok_embed",
+                        "label": "Tiktok Embed"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+               "name": "Tiktok Carousel"
+            }
+        ]
+    }
+{% endschema %}
