@@ -12,7 +12,9 @@
           <div class="splide tiktok-carousel">
             <div class="splide__track">
               <div class="splide__list">
-                <div class="splide__slide"></div>
+                {% for item in collection %}
+                  <div class="splide__slide"></div>
+                {% endfor %}
               </div>
             </div>
           </div>
