@@ -9936,3 +9936,10 @@ transform: translateX(-50%) translateY(-15%)!important;
     margin-left: auto!important;
     margin-right: auto!important;
 }
+
+/**
+homepage mobile css
+**/
+
+@media screen and (max-width: 767px) {
+#shopify-section-template--16704955089049__two_cols_products_gRDEqC .cols-2 {    grid-template-columns: repeat(1, 1fr);}
