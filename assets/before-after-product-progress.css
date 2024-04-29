@@ -94,3 +94,8 @@
 .before-after-product-progress .tabs-header.is_simple_img {
     max-width: 877px;
 }
+
+
+.before-after-product-progress .tabs-content.is_simple_img .tab-title-wrapper {
+margin-bottom: 20px;
+}
