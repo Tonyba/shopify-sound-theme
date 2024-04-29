@@ -297,11 +297,26 @@
             "before_text": "Before",
             "after_text": "After"
           }
+        },
+        "slide_eew3bW": {
+          "type": "slide",
+          "settings": {
+            "simple_img": "shopify:\/\/shop_images\/rs_1200x1200-240206102159-thumbnail_1.png",
+            "tab_title": "Near-Infrared (NIR) Light Therapy",
+            "title": "Near-Infrared (NIR) Light Therapy",
+            "subtitle": "",
+            "text": "",
+            "hide_progress": false,
+            "progress": 0,
+            "before_text": "Before",
+            "after_text": "After"
+          }
         }
       },
       "block_order": [
         "slide_fiazhy",
-        "slide_qCzEWw"
+        "slide_qCzEWw",
+        "slide_eew3bW"
       ],
       "settings": {
         "heading": "Full Body Hair Removal Treatment Less than 10 Minutes",
