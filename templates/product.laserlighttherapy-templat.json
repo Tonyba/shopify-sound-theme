@@ -384,6 +384,13 @@
         "heading": "Follow The Steps For Usability",
         "subheading": "HOW TO USE"
       }
+    },
+    "tiktok_carousel_BcmmjV": {
+      "type": "tiktok-carousel",
+      "settings": {
+        "heading": "What TikTok Says About Us?",
+        "text": ""
+      }
     }
   },
   "order": [
@@ -392,6 +399,7 @@
     "product_testimonials_WUWYJX",
     "advantage_section_fKnB8K",
     "before_after_product_progress_xnAMP9",
-    "routine_Hqaqak"
+    "routine_Hqaqak",
+    "tiktok_carousel_BcmmjV"
   ]
 }
