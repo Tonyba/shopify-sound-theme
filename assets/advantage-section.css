@@ -9,3 +9,7 @@
 .advantage-section .grid-item:first-child {
     padding: 70px 30px 70px 50px;
 }
+
+.advantage-section  h2 {
+    font-weight: 500;
+}
