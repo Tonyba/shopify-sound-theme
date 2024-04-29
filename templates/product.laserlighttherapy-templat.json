@@ -334,14 +334,50 @@
         "slide_tYVgMt": {
           "type": "slide",
           "settings": {
-            "heading": "",
-            "subheading": "",
-            "text": ""
+            "heading": "Step 1",
+            "subheading": "Clean Your Face",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_XcUKaX": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 2",
+            "subheading": "Press and hold the button on the controller",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_BCHNnW": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 3",
+            "subheading": "Press the timing button",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_fXPfNb": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 4",
+            "subheading": "Pres + Or - for Energy Level",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair. Gently exfoliating your skin with The Revealer removes dead skin cells and makes"
+          }
+        },
+        "slide_PDJnRF": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 5",
+            "subheading": "Enjoy the treatment",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
           }
         }
       },
       "block_order": [
-        "slide_tYVgMt"
+        "slide_tYVgMt",
+        "slide_XcUKaX",
+        "slide_BCHNnW",
+        "slide_fXPfNb",
+        "slide_PDJnRF"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/4e30ad08e2c467cb4a8ea55b6d8adc49_1_1.png",
