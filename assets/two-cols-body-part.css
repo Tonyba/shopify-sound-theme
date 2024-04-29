@@ -15,3 +15,7 @@
 .two-cols-body-part .subheading {
     font-size: 24px;
 }
+
+.two-cols-body-part .headings {
+    text-align: left;
+}
