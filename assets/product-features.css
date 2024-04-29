@@ -12,6 +12,7 @@
 .product-features h2 {
     font-size: 55px;
     font-weight: 500;
+    margin-bottom: unset;
 }
 
 .product-features  .inner-container {
