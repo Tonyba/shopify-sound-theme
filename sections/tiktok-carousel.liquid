@@ -15,7 +15,7 @@
             <div class="splide__list">
                 {% for item in section.blocks %}      
                     <div class="splide__slide">
-                        {{ item.settings.tiktok_embed }}
+                      
                     </div>
                 {% endfor %}
             </div>
@@ -23,7 +23,6 @@
     </div>
 </div>
 
-<script async src="https://www.tiktok.com/embed.js"></script>
 <script src="{{ 'splide.min.js' | asset_url }}" defer></script>
 <script defer>
     function init() {
@@ -95,9 +94,9 @@
                 "name": "Tiktok Video Embed",
                 "settings": [
                     {
-                        "type": "html",
-                        "id": "tiktok_embed",
-                        "label": "Tiktok Embed"
+                        "type": "number",
+                        "id": "tiktok_id",
+                        "label": "Tiktok Video Id"
                     }
                 ]
             }
