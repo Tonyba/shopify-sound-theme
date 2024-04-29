@@ -72,6 +72,11 @@
           "type": "right-side-info-features",
           "settings": {
           }
+        },
+        "accordion_data_dBtapa": {
+          "type": "accordion-data",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -85,7 +90,8 @@
         "quantity_selector",
         "buy_buttons",
         "product_icon_list_wgqbzT",
-        "right_side_info_features_J6VCnd"
+        "right_side_info_features_J6VCnd",
+        "accordion_data_dBtapa"
       ],
       "settings": {
         "full_width": true,
