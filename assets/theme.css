@@ -9970,3 +9970,6 @@ homepage mobile css
 #shopify-section-template--16704955089049__slideshow{display:none;}
 }
   
+@media screen and (min-width: 768px) {
+  #shopify-section-template--16704955089049__slideshow_cmeXET{display:none;}
+}
