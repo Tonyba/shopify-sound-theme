@@ -39,15 +39,20 @@
                             <p class="tab-content-text">{{ item.settings.text }}</p>
                         </div>
                         <div class="grid-item">
+                          {% if section.settings.just_simple_image != true %}
                             {% render 'before-after-image' 
-                                before_image: item.settings.before_image,
-                                after_image: item.settings.after_image,
-                                before_text: item.settings.before_text,
-                                after_text: item.settings.after_text,
-                                before_after_text_position: 'top',
-                                drag_cursor_color: '#fff',
-                                drag_cursor_background: section.settings.drag_cursor_background
-                              %}
+                              before_image: item.settings.before_image,
+                              after_image: item.settings.after_image,
+                              before_text: item.settings.before_text,
+                              after_text: item.settings.after_text,
+                              before_after_text_position: 'top',
+                              drag_cursor_color: '#fff',
+                              drag_cursor_background: section.settings.drag_cursor_background
+                            %}
+                          {% else %}
+                            {{- item.settings.simple_img | image_url: width: item.settings.simple_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+                        {% endif %}
+                            
                         </div>
                     </div>
                 {% endfor %}
@@ -129,6 +134,12 @@
                 "name": "Tab Item",
                 "type": "slide",
                 "settings": [
+                  {
+                    "type": "image_picker",
+                    "id": "simple_img",
+                    "label": "Simple Image",
+                    "info": "This image will show if simple image mode is activated"
+                  },
                   {
                     "type": "text",
                     "id": "tab_title",
