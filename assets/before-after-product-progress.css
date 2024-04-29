@@ -99,3 +99,7 @@
 .before-after-product-progress .tabs-content.is_simple_img .tab-title-wrapper {
 margin-bottom: 20px;
 }
+
+.before-after-product-progress .headings.is_simple_img .subheading  {
+    font-size: 18px;
+}
