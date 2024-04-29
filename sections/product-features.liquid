@@ -13,7 +13,8 @@
     <div class="grid cols-4">
         {% for feauture in section.blocks %}
             <div class="grid-item">
-                
+                <span class="icon">{{ feauture.settings.icon }}</span>
+                <h3>{{ feauture.settings.text }}</h3>
             </div>
         {% endfor %}
     </div>
