@@ -5,8 +5,6 @@
         <div class="grid-item">
             <div class="subheading">{{ section.settings.subheading }}</div>
             <h2>{{ section.settings.heading }}</h2>
-        </div>
-        <div class="grid-item">
             {% for item in section.blocks %}
                 <div class="item flex gap-20">
                     <div class="icon">{% render 'icon-sun' %}</div>
@@ -16,6 +14,9 @@
                     </div>
                 </div>
             {% endfor %}
+        </div>
+        <div class="grid-item">
+            
         </div>
     </div>
 </div>
