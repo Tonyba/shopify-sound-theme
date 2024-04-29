@@ -278,6 +278,7 @@
             "title": "Red Light Therapy",
             "subtitle": "",
             "text": "<p><strong>Combat Aging Signs:<\/strong> Diminish the appearance of fine lines, wrinkles, and uneven skin tone, revealing a smoother, more youthful complexion.<br\/><br\/><strong>Rejuvenate Your Skin: <\/strong>Stimulate collagen and elastin production, the building blocks of youthful-looking skin, for enhanced elasticity and firmness.<br\/><strong><br\/>Achieve a Radiant Glow:<\/strong> Revitalize your skin's overall health and radiance, fostering a healthy, glowing appearance.<\/p>",
+            "hide_progress": true,
             "progress": 0,
             "before_text": "Before",
             "after_text": "After"
