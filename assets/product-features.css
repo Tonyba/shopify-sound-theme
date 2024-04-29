@@ -9,6 +9,11 @@
     margin-bottom: 10px;
 }
 
+.product-features h2 {
+    font-size: 55px;
+    font-weight: 500;
+}
+
 .product-features  .inner-container {
     max-width: 681px;
     margin-left: auto;
