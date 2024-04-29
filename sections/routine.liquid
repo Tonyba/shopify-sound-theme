@@ -1,32 +1,36 @@
 {{ 'routine.css' | asset_url | stylesheet_tag }}
 
 
-<div class="container">
+<div class="section-wrapper {{ section.settings.extra_class }}">
+    <div class="container">
 
-    <div class="headings">
-        <div class="subheading">{{ section.settings.subheading }}</div>
-        <h2 class="heading" >{{ section.settings.heading }}</h2>
-    </div>
-
-
-    <div class="grid cols-2 gap-40">
-        <div class="grid-item lazyload-bg" data-src="{{ section.settings.image | image_url }}">
-
-         
-            
+        <div class="headings">
+            <div class="subheading">{{ section.settings.subheading }}</div>
+            <h2 class="heading" >{{ section.settings.heading }}</h2>
         </div>
-        <div class="grid-item">
-            {% for step in section.blocks %}
-                <div class="step-item">
-                    <h3>{{ step.settings.heading }}</h3>
-                    <h4>{{ step.settings.subheading }}</h4>
-                    <p>{{ step.settings.text }}</p>
-                </div>
-            {% endfor %}
+    
+    
+        <div class="grid cols-2 gap-40">
+            <div class="grid-item lazyload-bg" data-src="{{ section.settings.image | image_url }}">
+    
+             
+                
+            </div>
+            <div class="grid-item">
+                {% for step in section.blocks %}
+                    <div class="step-item">
+                        <h3>{{ step.settings.heading }}</h3>
+                        <h4>{{ step.settings.subheading }}</h4>
+                        <p>{{ step.settings.text }}</p>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
+    
     </div>
-
+    
 </div>
+
 
 {% schema %}
     {
