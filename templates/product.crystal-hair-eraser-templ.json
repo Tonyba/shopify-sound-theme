@@ -223,10 +223,38 @@
             "before_text": "Before",
             "after_text": "After"
           }
+        },
+        "slide_AnnLC8": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Ingrown Hair Reduction",
+            "title": "Ingrown Hair Reduction",
+            "subtitle": "",
+            "text": "",
+            "progress": 0,
+            "before_text": "Before",
+            "before_image": "shopify:\/\/shop_images\/7f9fb7c197694644121dc0d26857413f_1.png",
+            "after_text": "After"
+          }
+        },
+        "slide_YBKRBK": {
+          "type": "slide",
+          "settings": {
+            "simple_img": "shopify:\/\/shop_images\/7f9fb7c197694644121dc0d26857413f_1.png",
+            "tab_title": "Skin Firmness Improvement",
+            "title": "Skin Firmness Improvement",
+            "subtitle": "",
+            "text": "",
+            "progress": 0,
+            "before_text": "Before",
+            "after_text": "After"
+          }
         }
       },
       "block_order": [
-        "slide_bdnnQC"
+        "slide_bdnnQC",
+        "slide_AnnLC8",
+        "slide_YBKRBK"
       ],
       "settings": {
         "heading": "clean and hairless skin",
