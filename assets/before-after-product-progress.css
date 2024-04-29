@@ -104,6 +104,12 @@ margin-bottom: 20px;
     font-size: 18px;
 }
 
+
+.before-after-product-progress  {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .before-after-product-progress .headings h2 {
     margin-bottom: unset;
 }
