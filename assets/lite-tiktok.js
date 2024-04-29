@@ -1,4 +1,4 @@
-export class LiteTTEmbed extends HTMLElement {
+class LiteTTEmbed extends HTMLElement {
     constructor() {
         super();
         this.isIframeLoaded = false;
