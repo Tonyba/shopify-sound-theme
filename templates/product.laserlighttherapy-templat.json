@@ -150,17 +150,39 @@
         "slide_APjHXF"
       ],
       "settings": {
-        "bg_color": "linear-gradient(103.48deg, #F3E6D6 0%, #FCF5EB 100.22%)",
-        "bg_features_color": "linear-gradient(188.62deg, #F3E6D6 5.9%, #FCF4EA 92.77%)",
+        "bg_color": "linear-gradient(103.48deg, rgba(243, 230, 214, 1), rgba(252, 245, 235, 1) 100.22%)",
+        "bg_features_color": "linear-gradient(188.62deg, rgba(243, 230, 214, 1) 5.9%, rgba(252, 244, 234, 1) 92.77%)",
         "image": "shopify:\/\/shop_images\/13277468-1184900048392933_1.png",
         "heading": "4D Anti-Aging",
         "subheading": "Reduce Wrinkles and Fine Lines",
         "text": "Designed to strengthen the skin barrier, boost skin glow.\nClinically proven to reduce wrinkles in just <strong>4 weeks<\/strong>."
       }
+    },
+    "product_testimonials_WUWYJX": {
+      "type": "product-testimonials",
+      "blocks": {
+        "slide_TQn6BC": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/image_121.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_TQn6BC"
+      ],
+      "settings": {
+        "heading": "Real users, real results",
+        "title_left": false
+      }
     }
   },
   "order": [
     "main",
-    "product_features_RcFcRk"
+    "product_features_RcFcRk",
+    "product_testimonials_WUWYJX"
   ]
 }
