@@ -8,15 +8,16 @@
             {{ section.settings.text }}
         </div>
 
-        <div class="splide tiktok-carousel">
-            <div class="splide__track">
-                <div class="splide__list">
-                    {% for item in section.blocks %}      
-                        <div class="splide__slide">
-                            {{ item.settings.tiktok_embed }}
-                        </div>
-                    {% endfor %}
-                </div>
+    </div>
+
+    <div class="splide tiktok-carousel">
+        <div class="splide__track">
+            <div class="splide__list">
+                {% for item in section.blocks %}      
+                    <div class="splide__slide">
+                        {{ item.settings.tiktok_embed }}
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </div>
