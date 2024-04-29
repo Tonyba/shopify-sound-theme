@@ -9966,7 +9966,7 @@ homepage mobile css
 #shopify-section-template--16704955089049__featured_collection_new_dgJL97 .prose h2{font-weight:bold!important;}
 #shopify-section-template--16704955089049__two_cols_img_carousel_7KGijH .cols-2{    grid-template-columns: repeat(1, 1fr);}
 #shopify-section-template--16704955089049__two_cols_img_carousel_7KGijH h2.heading{font-size:65px;}
-#shopify-section-template--16704955089049__two_cols_img_carousel_7KGijH .grid-item.two-cols-image-carousel .left-info{padding: 50px 30px 150px 30px!important;}
+#shopify-section-template--16704955089049__two_cols_img_carousel_7KGijH .grid-item .two-cols-image-carousel .left-info{padding: 50px 30px 150px 30px!important;}
 #shopify-section-template--16704955089049__two_cols_img_carousel_7KGijH .grid-item.relative{margin-top:-95px;}
 #shopify-section-template--16704955089049__slideshow{display:none;}
 }
