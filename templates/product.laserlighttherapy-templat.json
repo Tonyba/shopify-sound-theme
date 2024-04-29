@@ -327,6 +327,28 @@
         "bg_color": "#f3f3f3",
         "drag_cursor_background": "#000000"
       }
+    },
+    "routine_Hqaqak": {
+      "type": "routine",
+      "blocks": {
+        "slide_tYVgMt": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "subheading": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_tYVgMt"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4e30ad08e2c467cb4a8ea55b6d8adc49_1_1.png",
+        "img_max_height": 0,
+        "heading": "Follow The Steps For Usability",
+        "subheading": "HOW TO USE"
+      }
     }
   },
   "order": [
@@ -334,6 +356,7 @@
     "product_features_RcFcRk",
     "product_testimonials_WUWYJX",
     "advantage_section_fKnB8K",
-    "before_after_product_progress_xnAMP9"
+    "before_after_product_progress_xnAMP9",
+    "routine_Hqaqak"
   ]
 }
