@@ -2,8 +2,8 @@
 
 <div class="review-before-after-item {% if is_left %}horizontal-review{% endif %} relative">
 
-    <span class="before-after-badge before-badge">{{ after_text }}</span>
-    <span class="before-after-badge after-badge">{{ before_text }}</span>
+    <span class="before-after-badge before-badge">{{  before_text}}</span>
+    <span class="before-after-badge after-badge hey">{{ after_text }}</span>
 
     {% if review.review_img != blank  %} 
         {{- review.review_img | image_url: width: review.review_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
