@@ -20,6 +20,11 @@
     font-size: 30px;
 }
 
+.product-features .inner-container p {
+    font-size: 22px;
+    color: #777;
+}
+
 .product-features  .inner-container {
     max-width: 681px;
     margin-left: auto;
