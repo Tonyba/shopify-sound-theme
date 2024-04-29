@@ -13,10 +13,8 @@
     overflow: hidden;
 }
 
-.routine figure,
-.routine  img  {
+.routine .lazyload-bg {
     border-radius: 20px;
-    width: 100%;
 }
 
 .routine  img {
