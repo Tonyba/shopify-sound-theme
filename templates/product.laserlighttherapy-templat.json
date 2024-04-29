@@ -223,6 +223,18 @@
     },
     "advantage_section_fKnB8K": {
       "type": "advantage-section",
+      "blocks": {
+        "slide_ApdAJ3": {
+          "type": "slide",
+          "settings": {
+            "title": "Reduces the appearance of sunspots",
+            "text": "Boost circulation, improve skin texture, optimized for use on all skins tones."
+          }
+        }
+      },
+      "block_order": [
+        "slide_ApdAJ3"
+      ],
       "settings": {
         "bg_color": "linear-gradient(103.48deg, #F3E6D6 0%, #FCF5EB 100.22%)",
         "image": "shopify:\/\/shop_images\/3cccd0f759baf5f48e293c1972fc35b1.jpg",
