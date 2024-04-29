@@ -6,3 +6,7 @@
 .two-cols-body-part h2 {
     font-weight: 500;
 }
+
+.two-cols-body-part .subheading {
+    font-size: 24px;
+}
