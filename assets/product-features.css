@@ -19,6 +19,11 @@
     padding: 22px;
 }
 
+.product-features .image {
+    position: absolute;
+    top: 0;
+}
+
 @media only screen and (max-width: 767px) {
-    
+
 }
