@@ -205,6 +205,8 @@
       ],
       "settings": {
         "heading": "Results From Our Satisfied Customers",
+        "before_text": "",
+        "after_text": "",
         "title_left": true
       }
     },
@@ -218,7 +220,8 @@
             "tab_title": "Get Rid Of Strawberry Skin",
             "title": "No More Dark Pores",
             "subtitle": "",
-            "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction. In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "text": "<p>In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction. In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.<\/p>",
+            "hide_progress": false,
             "progress": 25,
             "before_text": "Before",
             "after_text": "After"
@@ -231,7 +234,8 @@
             "tab_title": "Ingrown Hair Reduction",
             "title": "Ingrown Hair Reduction",
             "subtitle": "",
-            "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction. In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "text": "<p>In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction. In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.<\/p>",
+            "hide_progress": false,
             "progress": 75,
             "before_text": "Before",
             "before_image": "shopify:\/\/shop_images\/7f9fb7c197694644121dc0d26857413f_1.png",
@@ -245,7 +249,8 @@
             "tab_title": "Skin Firmness Improvement",
             "title": "Skin Firmness Improvement",
             "subtitle": "",
-            "text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction. In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "text": "<p>In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction. In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.<\/p>",
+            "hide_progress": false,
             "progress": 100,
             "before_text": "Before",
             "after_text": "After"
@@ -260,6 +265,8 @@
       "settings": {
         "heading": "Clean And Hairless Skin",
         "just_simple_image": true,
+        "max_width": 870,
+        "reverse_heading": true,
         "subheading": "REVEAL SMOOTHER SKIN",
         "bg_color": "rgba(0,0,0,0)",
         "drag_cursor_background": "#000000"
