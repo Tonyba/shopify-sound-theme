@@ -3,3 +3,9 @@
         max-width: 800px;
         margin: auto;
 }
+
+.tiktok-carousel .splide__arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+}
