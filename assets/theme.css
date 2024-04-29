@@ -9945,4 +9945,5 @@ homepage mobile css
 #shopify-section-template--16704955089049__two_cols_products_gRDEqC .cols-2 {    grid-template-columns: repeat(1, 1fr);}
 #shopify-section-template--16704955089049__reviews_scroller_jWQtdn .reviews-carousel-section>div:first-child{width:100%;}
 #shopify-section-template--16704955089049__reviews_scroller_jWQtdn  .reviews-carousel-section>div:last-child{width:100%;}
+#shopify-section-template--16704955089049__reviews_scroller_jWQtdn  .reviews-carousel-section {flex-direction: column;}
 
