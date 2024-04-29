@@ -10,10 +10,9 @@
 
 
     <div class="grid cols-2 gap-40">
-        <div class="grid-item">
-            <figure style="{% if section.settings.img_max_height > 0  %} max-height: {{ section.settings.img_max_height }}px  {% endif %}" >
-                {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
-            </figure>
+        <div class="grid-item lazyload-bg" data-src="{{ section.settings.image | image_url }}">
+
+         
             
         </div>
         <div class="grid-item">
@@ -38,12 +37,6 @@
                 "type": "image_picker",
                 "label": "Image",
                 "id": "image"
-            },
-            {
-                "type": "number",
-                "id": "img_max_height",
-                "label": "Image Max Height",
-                "default": 0
             },
             {
                 "type": "text",
