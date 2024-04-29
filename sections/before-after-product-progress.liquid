@@ -31,7 +31,10 @@
                     <div id="{{ item.id }}" class="tab-content-item align-item-center grid cols-2 gap-100 {% if forloop.index == 1 %} active{% endif %}"> 
                         <div class="grid-item">
                             <div class="tab-title-wrapper">
-                              {% render 'circle-progress' progress: item.settings.progress %}
+                              {% if item.settings.hide_progress == false %}
+                                {% render 'circle-progress' progress: item.settings.progress %}
+                              {% endif %}
+                            
                               <h4 class="tab-content-title"> {{ item.settings.title }}</h4>
                             </div>
                            
