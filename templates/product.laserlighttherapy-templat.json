@@ -260,11 +260,18 @@
         "slide_4rCh4Y"
       ],
       "settings": {
-        "bg_color": "linear-gradient(103.48deg, #F3E6D6 0%, #FCF5EB 100.22%)",
+        "bg_color": "linear-gradient(103.48deg, rgba(243, 230, 214, 1), rgba(252, 245, 235, 1) 100.22%)",
         "image": "shopify:\/\/shop_images\/3cccd0f759baf5f48e293c1972fc35b1.jpg",
         "img_max_height": 0,
         "heading": "Treat beyond the face",
         "subheading": "Neck & Décolleté"
+      }
+    },
+    "tab_content_list_HeEAqN": {
+      "type": "tab-content-list",
+      "settings": {
+        "bg_color": "#f3f3f3",
+        "heading": "Embrace the Spectrum of Light Therapy"
       }
     }
   },
@@ -272,6 +279,7 @@
     "main",
     "product_features_RcFcRk",
     "product_testimonials_WUWYJX",
-    "advantage_section_fKnB8K"
+    "advantage_section_fKnB8K",
+    "tab_content_list_HeEAqN"
   ]
 }
