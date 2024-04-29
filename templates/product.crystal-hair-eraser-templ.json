@@ -327,38 +327,6 @@
     },
     "tiktok_carousel_Y4zQ46": {
       "type": "tiktok-carousel",
-      "blocks": {
-        "slide_NfE6Rh": {
-          "type": "slide",
-          "settings": {
-            "tiktok_id": 7360081977627773952
-          }
-        },
-        "slide_nWpRD6": {
-          "type": "slide",
-          "settings": {
-            "tiktok_id": 7360081977627773952
-          }
-        },
-        "slide_8tGDQe": {
-          "type": "slide",
-          "settings": {
-            "tiktok_id": 7360081977627773952
-          }
-        },
-        "slide_7r7ywp": {
-          "type": "slide",
-          "settings": {
-            "tiktok_id": 7360081977627773952
-          }
-        }
-      },
-      "block_order": [
-        "slide_NfE6Rh",
-        "slide_nWpRD6",
-        "slide_8tGDQe",
-        "slide_7r7ywp"
-      ],
       "settings": {
         "heading": "What TikTok Says About Us?",
         "text": "<p>With over 120 Million Views on TikTok,<a href=\"#\" target=\"_blank\" title=\"#\"> #SkinPetra<\/a> products are loved and trusted by many. Check out some of The Most Popular Videos<\/p>"
