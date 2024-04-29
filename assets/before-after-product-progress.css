@@ -10,7 +10,6 @@
 }
 
 .before-after-product-progress .tabs-header {
-    max-width: 470px;
     margin: 50px auto;
     border: 1px solid black;
     display: flex;
@@ -91,13 +90,8 @@
     gap: 20px;
 }
 
-.before-after-product-progress .tabs-header.is_simple_img {
-    max-width: 877px;
-}
-
-
 .before-after-product-progress .tabs-content.is_simple_img .tab-title-wrapper {
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .before-after-product-progress .headings.is_simple_img .subheading  {
