@@ -41,7 +41,7 @@
         }; 
         const splideInstance = new Splide(splide, config);
     
-        if (splide.classList.contains('autoscroll')) {
+        if (splide.classList.contains('autoscroll')) { 
           deferAutoScroll(function () {
             splideInstance.mount(window.splide.Extensions);
           });
