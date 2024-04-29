@@ -113,3 +113,8 @@
     flex-direction: column-reverse;
     
 }
+
+.before-after-product-progress .reversed  {
+    display: flex;
+    flex-direction: column;
+}
