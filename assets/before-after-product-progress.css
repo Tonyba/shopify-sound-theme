@@ -103,3 +103,9 @@ margin-bottom: 20px;
 .before-after-product-progress .headings.is_simple_img .subheading  {
     font-size: 18px;
 }
+
+.before-after-product-progress .headings.is_simple_img {
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
