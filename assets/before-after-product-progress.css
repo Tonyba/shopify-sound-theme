@@ -101,7 +101,7 @@
 
 .before-after-product-progress .reversed  {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
 .before-after-product-progress .headings h2 {
