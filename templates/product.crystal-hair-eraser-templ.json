@@ -265,6 +265,13 @@
         "drag_cursor_background": "#000000"
       }
     },
+    "two_cols_body_part_zqetUw": {
+      "type": "two-cols-body-part",
+      "settings": {
+        "heading": "SkinPetra Crystal Hair Removal",
+        "subheading": "Apply For Body Any Part"
+      }
+    },
     "171434810895cd0ab2": {
       "type": "apps",
       "blocks": {
@@ -297,6 +304,7 @@
     "check_list_P9dcVV",
     "product_testimonials_prqpDg",
     "before_after_product_progress_xD6BQm",
+    "two_cols_body_part_zqetUw",
     "171434810895cd0ab2"
   ]
 }
