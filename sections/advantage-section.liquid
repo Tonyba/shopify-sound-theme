@@ -1,6 +1,6 @@
 
 
-<div class="container">
+<div class="container" style="background: {{ section.settings.bg_color }} ">
     <div class="grid cols-2">
         <div class="grid-item">
             <div class="subheading">{{ section.settings.subheading }}</div>
@@ -27,6 +27,11 @@
         "name": "Advantage Section",
         "class": "advantage-section",
         "settings": [
+            {
+                "type": "color_background",
+                "id": "bg_color",
+                "label": "Background Color"
+            },
             {
                 "type": "image_picker",
                 "id": "image",
