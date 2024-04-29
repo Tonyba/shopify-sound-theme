@@ -1,3 +1,8 @@
 .two-cols-body-part img {
     width: 100%;
+    object-fit: cover;
+}
+
+.two-cols-body-part h2 {
+    font-weight: 500;
 }
