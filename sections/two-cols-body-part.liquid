@@ -8,8 +8,12 @@
             {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
         </div>
         <div class="grid-item gradient-bg-100 flex align-item-center flex-column ">
-            <div class="subheading">{{ section.settings.subheading }}</div>
-            <h2>{{ section.settings.heading }}</h2>
+
+            <div class="headings">
+                <div class="subheading">{{ section.settings.subheading }}</div>
+                <h2>{{ section.settings.heading }}</h2>
+            </div>
+          
 
             <div class="body-parts-wrapper">
                 {% for body_p in section.blocks %}
