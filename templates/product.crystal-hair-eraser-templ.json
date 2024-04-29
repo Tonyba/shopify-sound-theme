@@ -231,7 +231,7 @@
             "title": "Ingrown Hair Reduction",
             "subtitle": "",
             "text": "",
-            "progress": 0,
+            "progress": 75,
             "before_text": "Before",
             "before_image": "shopify:\/\/shop_images\/7f9fb7c197694644121dc0d26857413f_1.png",
             "after_text": "After"
@@ -245,7 +245,7 @@
             "title": "Skin Firmness Improvement",
             "subtitle": "",
             "text": "",
-            "progress": 0,
+            "progress": 100,
             "before_text": "Before",
             "after_text": "After"
           }
