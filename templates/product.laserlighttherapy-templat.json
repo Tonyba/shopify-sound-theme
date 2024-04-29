@@ -446,6 +446,99 @@
         "heading": "Hot Off the Press",
         "subheading": ""
       }
+    },
+    "multiple_images_with_text_prbjiP": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_9farBd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/71e8ulm58ML_1.png",
+            "image_rotation_degrees": -2,
+            "subheading": "Flash Window",
+            "title": "Blemishes - free skin for nicer makeup",
+            "content": "<p>Full Mute Working Without Disturbing your Sound Sleep, Full Mute Working Without Disturbing your Sound Sleep<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_9farBd"
+      ],
+      "settings": {
+        "full_width": true,
+        "extra_css_class": "right-left-section pt-0",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "multiple_images_with_text_F8fCf8": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_aLkVHH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/71MiDsPJAkL_1.png",
+            "image_rotation_degrees": -2,
+            "subheading": "AutoGlide Mode",
+            "title": "7- Type Mask Light Therapy",
+            "content": "<p>Swap out the time and money you'd spend on laser, in-salon waxing, or annoying razors for affordable, long-term hair removal.<br\/><\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_aLkVHH"
+      ],
+      "settings": {
+        "full_width": true,
+        "extra_css_class": "right-left-section pt-0 reversed",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "multiple_images_with_text_6E8gFT": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_YGyHy4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Glow-Therapy-LED-Face-Mask-Best-Red-Light_1.png",
+            "image_rotation_degrees": -2,
+            "subheading": "Laser-like Results, From Home",
+            "title": "Transform Your Skin from the Comfort of Home",
+            "content": "<p>Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With SkinPetra IPL, get laser-like results from the comfort of your home.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_YGyHy4"
+      ],
+      "settings": {
+        "full_width": true,
+        "extra_css_class": "right-left-section pt-0",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -456,6 +549,9 @@
     "before_after_product_progress_xnAMP9",
     "routine_Hqaqak",
     "tiktok_carousel_BcmmjV",
-    "press_carousel_w784jj"
+    "press_carousel_w784jj",
+    "multiple_images_with_text_prbjiP",
+    "multiple_images_with_text_F8fCf8",
+    "multiple_images_with_text_6E8gFT"
   ]
 }
