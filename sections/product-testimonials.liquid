@@ -7,7 +7,7 @@
     <h2>{{ section.settings.heading }}</h2>
     <div class="product-testimonials scroll-wrapper">
         {%- for block in section.blocks -%}
-            {% render 'review-before-after-item' review:block.settings, is_left: section.settings.title_left  %}
+            {% render 'review-before-after-item' review:block.settings, is_left: section.settings.title_left, before_text: section.settings.before_text, after_text: section.settings.after_text  %}
         {%- endfor -%}
     </div>
 </div>
@@ -62,7 +62,7 @@
             {
                 "type": "text",
                 "label": "After Text",
-                "id": "after_Text"
+                "id": "after_text"
             },
             {
                 "type": "checkbox",
