@@ -1,6 +1,6 @@
 {{ 'review-before-after-item.css' | asset_url | stylesheet_tag }}
 
-<div class="review-before-after-item {% if is_left %}horizontal-review{% endif %}">
+<div class="review-before-after-item {% if is_left %}horizontal-review{% endif %} relative">
 
     {% if review.review_img != blank  %}
         {{- review.review_img | image_url: width: review.review_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
