@@ -5,3 +5,7 @@
 .advantage-section img {
     border-radius: 0 40px 40px 0;
 }
+
+.advantage-section .grid-item:first-child {
+    padding: 50px 70px 50px 50px;
+}
