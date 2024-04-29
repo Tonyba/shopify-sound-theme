@@ -540,6 +540,66 @@
         "subheading": ""
       }
     },
+    "press_carousel_MYGMMi": {
+      "type": "press-carousel",
+      "blocks": {
+        "slide_zGThnm": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
+          }
+        },
+        "slide_XkJ6Cq": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f_53fc781b-f018-4ca2-b71b-e9ba8a057813.png"
+          }
+        },
+        "slide_TzCWnd": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/3bbf467d37c3cb3101c3efeac22258ac.png"
+          }
+        },
+        "slide_3kP7G4": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f.png"
+          }
+        },
+        "slide_JiyGqK": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
+          }
+        },
+        "slide_fxyVUi": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_zGThnm",
+        "slide_XkJ6Cq",
+        "slide_TzCWnd",
+        "slide_3kP7G4",
+        "slide_JiyGqK",
+        "slide_fxyVUi"
+      ],
+      "settings": {
+        "is_autoscroll": true,
+        "heading": "Hot Off the Press",
+        "subheading": "mAGAZINES"
+      }
+    },
     "171434810895cd0ab2": {
       "type": "apps",
       "blocks": {
@@ -577,6 +637,7 @@
     "two_cols_price_table_with_image_JjB7wC",
     "product_testimonials_CKWDck",
     "routine_FCAXLF",
+    "press_carousel_MYGMMi",
     "171434810895cd0ab2"
   ]
 }
