@@ -561,6 +561,99 @@
         "subheading": "mAGAZINES"
       }
     },
+    "multiple_images_with_text_Wxke8q": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_VV99hn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3823ed8e4af272f70c24385ef0128521.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "Flash Window",
+            "title": "Dead skin Exfoliate, callus removal .",
+            "content": "<p>Full Mute Working Without Disturbing your Sound Sleep, Full Mute Working Without Disturbing your Sound Sleep<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_VV99hn"
+      ],
+      "settings": {
+        "full_width": true,
+        "extra_css_class": "right-left-section pt-0",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "multiple_images_with_text_LhxgJU": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_RQiNDU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9980ce7f750d3972618b51d4daf10351.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "AutoGlide Mode",
+            "title": "No razor Bumps, Happy Waman!",
+            "content": "<p>Swap out the time and money you'd spend on laser, in-salon waxing, or annoying razors for affordable, long-term hair removal.<br\/><\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_RQiNDU"
+      ],
+      "settings": {
+        "full_width": true,
+        "extra_css_class": "right-left-section pt-0 reversed",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "multiple_images_with_text_PDfGiQ": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_Ka9rLa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/449637840dc8e108fc71e9bb903a2f8b.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "Laser-like Results, From Home",
+            "title": "It Is Suitable For Men!",
+            "content": "<p>Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With SkinPetra IPL, get laser-like results from the comfort of your home.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_Ka9rLa"
+      ],
+      "settings": {
+        "full_width": true,
+        "extra_css_class": "right-left-section pt-0",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "171434810895cd0ab2": {
       "type": "apps",
       "blocks": {
@@ -599,6 +692,9 @@
     "product_testimonials_CKWDck",
     "routine_FCAXLF",
     "press_carousel_MYGMMi",
+    "multiple_images_with_text_Wxke8q",
+    "multiple_images_with_text_LhxgJU",
+    "multiple_images_with_text_PDfGiQ",
     "171434810895cd0ab2"
   ]
 }
