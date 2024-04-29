@@ -3,27 +3,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/19773397446b797bf372c7bcb6d301ee.png",
-            "content_max_width": 400,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "With advanced technology, achieving long-lasting results has never been easier. Embrace the convenience and effectiveness of DIY laser hair removal",
-            "title": "Beauty Products At Home",
-            "heading_tag": "h1",
-            "button_text": "Shop Now",
-            "button_link": "",
-            "text_color": "#000000",
-            "button_background": "#1a1a1a",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "slide-2": {
           "type": "image",
           "settings": {
@@ -47,11 +26,50 @@
         }
       },
       "block_order": [
-        "slide-1",
         "slide-2"
       ],
       "custom_css": [
 
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "outline_arrows",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+      }
+    },
+    "slideshow_cmeXET": {
+      "type": "slideshow",
+      "blocks": {
+        "image_gePaP7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/19773397446b797bf372c7bcb6d301ee.png",
+            "content_max_width": 400,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "With advanced technology, achieving long-lasting results has never been easier. Embrace the convenience and effectiveness of DIY laser hair removal",
+            "title": "Beauty Products At Home 2",
+            "heading_tag": "h1",
+            "button_text": "Shop Now",
+            "button_link": "",
+            "text_color": "#000000",
+            "button_background": "#1a1a1a",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_gePaP7"
       ],
       "settings": {
         "full_width": true,
@@ -282,6 +300,7 @@
   },
   "order": [
     "slideshow",
+    "slideshow_cmeXET",
     "brands_carousel_wMaEte",
     "two_cols_products_gRDEqC",
     "reviews_scroller_jWQtdn",
