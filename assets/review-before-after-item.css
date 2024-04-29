@@ -13,8 +13,20 @@
     font-weight: 600;
     font-size: 14px;
     color: white;
-    padding: 10px 15px;
+    padding: 7px 15px;
+    position: absolute;
+    top: 0;
 }
+
+.review-before-after-item .before-badge {
+    left: 0;
+    
+}
+
+.review-before-after-item .after-badge {
+    right: 0;
+}
+
 
 .review-before-after-item  .review-text {
     color: #575757;
