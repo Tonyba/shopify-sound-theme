@@ -1,7 +1,7 @@
 {{ 'tiktok-carousel.css' | asset_url | stylesheet_tag }}
+{{ 'splide.min.css' | asset_url | stylesheet_tag }}
 
 <div class="container">
-
     <div class="heading-wrapper">
         <h2>{{ section.settings.heading }}</h2>
         <div class="text">
@@ -21,6 +21,55 @@
         </div>
     </div>
 </div>
+
+<script src="{{ 'splide.min.js' | asset_url }}" defer></script>
+<script defer>
+    function init() {
+        const splide = document.querySelector('.splide.tiktok-carousel');
+
+        const config = {
+          type: 'loop',
+          arrows: false,
+          pagination: false,
+          perPage: 4,
+          gap: 20,
+          autoscroll: {
+            speed: 1000,
+          },
+        };
+        const splideInstance = new Splide(splide, config);
+    
+        if (splide.classList.contains('autoscroll')) {
+          deferAutoScroll(function () {
+            splideInstance.mount(window.splide.Extensions);
+          });
+        } else {
+          splideInstance.mount();
+        }
+      }
+    
+      function deferAutoScroll(method) {
+        if (typeof window.splide != 'undefined') {
+          method();
+        } else {
+          setTimeout(function () {
+            deferAutoScroll(method);
+          }, 50);
+        }
+      }
+    
+      function deferSplide(method) {
+        if (typeof Splide != 'undefined') {
+          method();
+        } else {
+          setTimeout(function () {
+            deferSplide(method);
+          }, 50);
+        }
+      }
+    
+      deferSplide(init);
+</script>
 
 {% schema %}
     {
