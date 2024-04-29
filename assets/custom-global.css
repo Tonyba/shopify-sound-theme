@@ -205,6 +205,10 @@ border-color: white;
     background: linear-gradient(145.62deg, #F3E6D6 0%, #FEF7EF 100.86%);
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .pt-0 {
     padding-top: unset;
 }
