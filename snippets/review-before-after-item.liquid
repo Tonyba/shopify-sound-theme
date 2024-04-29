@@ -5,7 +5,7 @@
     <span class="before-after-badge before-badge">{{ after_text }}</span>
     <span class="before-after-badge after-badge">{{ before_text }}</span>
 
-    {% if review.review_img != blank  %}
+    {% if review.review_img != blank  %} 
         {{- review.review_img | image_url: width: review.review_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
     {% endif %}
     
