@@ -10,6 +10,11 @@
     padding: 70px 30px 70px 50px;
 }
 
+.advantage-section  .subheading {
+    font-weight: 500;
+    font-size: 22px;
+}
+
 .advantage-section  h2 {
     font-weight: 500;
 }
