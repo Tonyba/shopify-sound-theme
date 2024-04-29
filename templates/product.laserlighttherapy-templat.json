@@ -267,11 +267,31 @@
         "subheading": "Neck & Décolleté"
       }
     },
-    "tab_content_list_HeEAqN": {
-      "type": "tab-content-list",
+    "before_after_product_progress_xnAMP9": {
+      "type": "before-after-product-progress",
+      "blocks": {
+        "slide_fiazhy": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Red Light Therapy",
+            "title": "Red Light Therapy",
+            "subtitle": "",
+            "text": "Combat Aging Signs: Diminish the appearance of fine lines, wrinkles, and uneven skin tone, revealing a smoother, more youthful complexion.\n\nRejuvenate Your Skin: Stimulate collagen and elastin production, the building blocks of youthful-looking skin, for enhanced elasticity and firmness.\n\nAchieve a Radiant Glow: Revitalize your skin's overall health and radiance, fostering a healthy, glowing appearance.",
+            "progress": 0,
+            "before_text": "Before",
+            "after_text": "After"
+          }
+        }
+      },
+      "block_order": [
+        "slide_fiazhy"
+      ],
       "settings": {
+        "heading": "Full Body Hair Removal Treatment Less than 10 Minutes",
+        "just_simple_image": true,
+        "subheading": "Visible Results Within 3 Weeks",
         "bg_color": "#f3f3f3",
-        "heading": "Embrace the Spectrum of Light Therapy"
+        "drag_cursor_background": "#000"
       }
     }
   },
@@ -280,6 +300,6 @@
     "product_features_RcFcRk",
     "product_testimonials_WUWYJX",
     "advantage_section_fKnB8K",
-    "tab_content_list_HeEAqN"
+    "before_after_product_progress_xnAMP9"
   ]
 }
