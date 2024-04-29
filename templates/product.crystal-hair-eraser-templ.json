@@ -265,6 +265,13 @@
         "drag_cursor_background": "#000000"
       }
     },
+    "tiktok_carousel_Y4zQ46": {
+      "type": "tiktok-carousel",
+      "settings": {
+        "heading": "What TikTok Says About Us?",
+        "text": "<p>With over 120 Million Views on TikTok,<a href=\"#\" target=\"_blank\" title=\"#\"> #SkinPetra<\/a> products are loved and trusted by many. Check out some of The Most Popular Videos<\/p>"
+      }
+    },
     "two_cols_body_part_zqetUw": {
       "type": "two-cols-body-part",
       "blocks": {
@@ -357,6 +364,7 @@
     "check_list_P9dcVV",
     "product_testimonials_prqpDg",
     "before_after_product_progress_xD6BQm",
+    "tiktok_carousel_Y4zQ46",
     "two_cols_body_part_zqetUw",
     "171434810895cd0ab2"
   ]
