@@ -1,5 +1,19 @@
 
 
+<div class="container">
+    <div class="grid cols-2">
+        <div class="grid-item">
+            <div class="subheading">{{ section.settings.subheading }}</div>
+            <h2>{{ section.settings.heading }}</h2>
+        </div>
+        <div class="grid-item">
+            {% for item in section.blocks %}
+                
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
 
 {% schema %}
     {
