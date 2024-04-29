@@ -1,0 +1,51 @@
+.press-carousel-wrapper h2 {
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.press-item  {
+    background-color: #f3f3f3;
+    padding: 30px;
+}
+
+.press-carousel-wrapper .headings {
+    position: relative;
+}
+
+.press-carousel-wrapper {
+    position: relative;
+
+}
+
+.press-carousel-wrapper::before {
+    content: "";
+    position: absolute;
+    width: 728px;
+    height: 728px;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+    border-radius: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0640/3588/1113/files/Ellipse_21_1.png?v=1714315038);
+    background-size: cover;
+}
+
+.press-item p{
+    margin-bottom: 30px;
+    font-size: 19px;
+    color: #4F4F4F;
+}
+
+.press-item  img {
+    max-width: 128px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+}

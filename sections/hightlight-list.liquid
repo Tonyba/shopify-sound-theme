@@ -1,0 +1,92 @@
+
+{{ 'hightlight-list.css' | asset_url | stylesheet_tag }}
+
+<style>
+    .hightlist-list img  {
+        {% if section.settings.img_h != blank %}max-height:{{ section.settings.img_h}}px {% endif %}
+    }
+</style>
+
+<div class="flex gap-40 container">
+    <div class="w-50">
+        <figure style="{% if section.settings.img_h != blank %}max-height:{{ section.settings.img_h}}px {% endif %}">
+            {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+        </figure>
+    </div>
+    <div class="w-50">
+        <div class="subheading">{{ section.settings.subheading }}</div>
+        <h2>{{ section.settings.heading }}</h2>
+        <div class="heading-divider"></div>
+
+        {% for item in section.blocks %}
+            <div class="highlight-item">
+                <div class="flex gap-20 align-item-center">
+                    <div class="grid-item">
+                        <span class="icon">{{ item.settings.svg_icon }}</span>
+                    </div>
+                    <div class="grid-item">
+                        <h3>{{ item.settings.title }}</h3>
+                        <p>{{ item.settings.text }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "Hightlight List",
+        "class": "hightlist-list",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "number",
+                "label": "Image Max Height",
+                "id": "img_h"
+            },
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "text",
+                "id": "subheading",
+                "label": "Subheading"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "item",
+                "settings": [
+                    {
+                        "type": "html",
+                        "id": "svg_icon",
+                        "label": "Svg Icon"
+                    },
+                    {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title"
+                    },
+                    {
+                        "type": "textarea",
+                        "id": "text",
+                        "label": "Text"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+              "name": "Hightlight List"
+            }
+        ]
+    }
+{% endschema %}

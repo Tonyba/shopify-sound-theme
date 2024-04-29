@@ -1,0 +1,128 @@
+{{ 'customer-testimonials.css' | asset_url | stylesheet_tag }}
+
+<div class="container">
+    <h2 style="text-align: center">  {{ section.settings.heading }}</h2>
+  
+    <div class="grid cols-4">
+        {{ section.settings.vid_1 }}
+        {{ section.settings.vid_2 }}
+        {{ section.settings.vid_3 }}
+        {{ section.settings.vid_4 }} 
+    </div>
+    <div class="splide testimonial-carousel">
+        <div class="splide__track">
+            <div class="splide__list"> 
+               
+                    {% for testimonial in section.blocks %}
+                        <div class="splide__slide">
+                        <div class="icon-quote">{% render 'icon-quote' %}</div>
+                        <div class="testimonial-slide">
+                            <div class="testimonials-stars">{% render 'five-stars' %}</div>
+                            <p class="testimonial-text">{{ testimonial.settings.testimonial_text }}</p>
+                            {% if testimonial.settings.testimonial_img != blank %}
+                                <img loading="lazy" decoding="async" width="130" height="130" src="{{ testimonial.settings.testimonial_img | image_url}}" alt="Testimonial">
+                            {% endif %}
+                        </div>
+                    </div> 
+                    {% endfor %}
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script async src="https://www.tiktok.com/embed.js"></script>
+
+<script defer>
+    (function () {
+
+        function defer(method) {
+            if (typeof Splide != 'undefined' ) {
+                method();
+            } else {
+                setTimeout(function() { defer(method) }, 50);
+            }
+        }
+
+        defer(function() {
+
+            const testimonialCarousel = document.querySelector('.splide.testimonial-carousel');
+
+            const args = {
+                perPage: 1,
+                arrows: true,
+                pagination: true,
+                type: 'loop'
+            }
+
+            const splideInstance = new Splide(testimonialCarousel, args);
+        
+            splideInstance.mount();
+
+        });
+     
+    })();
+</script>
+
+
+{% schema %}
+    {
+        "name": "Customer Testimonials",
+        "class":"customer-testimonials",
+        "settings": [
+            {
+               "type": "text",
+               "label": "Heading",
+               "id": "heading"
+            },
+            {
+                "type": "html",
+                "label": "Video 1",
+                "id": "vid_1"
+            },
+            {
+                "type": "html",
+                "label": "Video 2",
+                "id": "vid_2"
+            },
+            {
+                "type": "html",
+                "label": "Video 3",
+                "id": "vid_3"
+            },
+            {
+                "type": "html",
+                "label": "Video 4",
+                "id": "vid_4"
+            }
+        ],
+        "blocks": [
+
+            {
+                "type": "slide",
+                "name": "Testimonial",
+                "settings": [
+                    {
+                        "id": "testimonial_img",
+                        "label": "Testimonial Image",
+                        "type": "image_picker"
+                    },
+
+                    {
+                        "type": "textarea",
+                        "label": "Testimonial Text",
+                        "id": "testimonial_text"
+                    }
+                ]
+            }
+
+        ],
+        "presets": [
+            {
+              "name": "Customer Testimonials"
+            }
+        ]
+    }
+{% endschema %}

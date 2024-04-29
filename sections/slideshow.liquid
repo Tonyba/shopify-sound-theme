@@ -87,14 +87,15 @@ LIQUID
 
           <div {% render 'surface', class: content_class, text_color: block.settings.text_color %}>
             <div class="prose">
-              {%- if block.settings.subheading != blank -%}
-                <p class="bold" data-sequence="subheading">{{ block.settings.subheading | escape }}</p>
-              {%- endif -%}
-
+              
               {%- if block.settings.title != blank -%}
                 <p class="{{ block.settings.heading_tag }}" data-sequence="heading">
                   {%- render 'styled-text', content: block.settings.title, apparition_effect: true -%}
                 </p>
+              {%- endif -%}
+
+              {%- if block.settings.subheading != blank -%}
+                <p data-sequence="subheading">{{ block.settings.subheading | escape }}</p>
               {%- endif -%}
 
               {%- if block.settings.button_text != blank -%}

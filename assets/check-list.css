@@ -1,0 +1,19 @@
+.check-list li {
+    background-color: #FEF6F3;
+    border-radius: 15px;
+    position: relative;
+    padding: 20px;
+    padding-left: 40px;
+    font-size: 22px;
+}
+
+.check-list li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.check-list .icon {
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}   

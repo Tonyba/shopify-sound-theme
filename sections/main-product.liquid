@@ -1,3 +1,7 @@
+{{ 'custom-product.css' | asset_url | stylesheet_tag }}
+
+
+
 {%- render 'section-spacing-collapsing' -%}
 
 <style>
@@ -50,7 +54,6 @@
 </div>
 
 {%- assign buy_buttons_block = section.blocks | where: 'type', 'buy_buttons' | first -%}
-
 {%- if section.settings.show_fixed_add_to_cart and product.available and buy_buttons_block != blank -%}
   {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
 
@@ -142,6 +145,28 @@ quick buy information in a template, that will be extracted in JS, but ensure it
     {
       "type": "vendor",
       "name": "Vendor",
+      "limit": 1
+    },
+    {
+      "type": "product-icon-list",
+      "name": "Icon List",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Heading",
+          "id": "list_heading"
+        }
+      ],
+      "limit": 1
+    },
+    {
+      "type": "right-side-info-features",
+      "name": "Right Side Info Features",
+      "limit": 1
+    },
+    {
+      "type": "accordion-data",
+      "name": "Accordion Data",
       "limit": 1
     },
     {
@@ -247,7 +272,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
     {
       "type": "description",
       "name": "Description",
-      "limit": 1,
+      "limit": 1, 
       "settings": [
         {
           "type": "checkbox",
@@ -702,6 +727,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           "id": "products_count",
           "min": 1,
           "max": 10,
+          "step": 1,
           "label": "Products to show",
           "default": 5
         },

@@ -1,0 +1,33 @@
+.two-cols-body-part img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.two-cols-body-part h2 {
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.two-cols-body-part .grid-item:last-child {
+    padding: 45px;
+}
+
+.two-cols-body-part .subheading {
+    font-size: 24px;
+}
+
+.two-cols-body-part .headings {
+    text-align: left;
+}
+
+.two-cols-body-part .body-parts-wrapper {
+    padding: 30px 35px;
+    background-color: #FF004A0D;
+    width: 100%;
+    border-radius: 21px;
+}
+
+.two-cols-body-part .body-icon {
+    background: #f3f3f3;
+}
+

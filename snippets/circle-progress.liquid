@@ -1,0 +1,24 @@
+<style>
+    .progress-bar {
+        display: flex;
+  justify-content: center;
+  align-items: center;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: 
+      }
+
+      .progress-text {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1
+      }
+</style>
+
+<div class="progress-bar" style="background:
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(black {{ progress | minus: 100 | times: -1 }}%, #FF004A 0);" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <span class="progress-text" >{{progress}}%</span>
+</div>
+

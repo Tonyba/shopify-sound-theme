@@ -1,0 +1,144 @@
+
+{{ "reviews-scroller.css" | asset_url | stylesheet_tag }}
+{{ "OverlayScrollbars.min.css" | asset_url | stylesheet_tag }}
+
+{%liquid
+    assign s = section.settings
+
+    assign heading = s.heading
+    assign text = s.text
+    assign btn_text = s.btn_text
+    assign btn_link = s.btn_link
+%}
+
+<div class="">
+    <div class="reviews-carousel-section">
+        <div class="grid-item">
+           
+                <div class="left-side">
+                    <div class="left-side-inner">
+                        <h2>{{heading}}</h2>
+                        <p>{{ text }}</p>
+                        {% if btn_text != blank  %}
+                        <a type="button" class="button" href="{{ btn_link }}">{{ btn_text }}</a>
+                        {% endif %}
+                    </div>
+                </div>
+           
+            
+            
+        </div>
+        <div class="grid-item">
+            
+            <div class="scroll-wrapper">
+                {%- for block in section.blocks -%}
+                    {% render 'review-before-after-item' review:block.settings %}
+                {%- endfor -%}
+    
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="{{ 'OverlayScrollbars.min.js' | asset_url }}" defer></script>
+<script defer>
+(function () {
+
+    function defer(method) {
+
+        if ( typeof OverlayScrollbars != 'undefined' ) {
+            method();
+        } else {
+            setTimeout(function() { defer(method) }, 50);
+        }
+    }
+
+    defer(function() {
+        const customScroll = document.querySelector('.scroll-wrapper');
+       
+        new OverlayScrollbars(customScroll, {
+            overflowBehavior : {         
+                    // visible-hidden  || visible-scroll || hidden || scroll || v-h || v-s || h || s
+                    x :'scroll',
+                    // visible-hidden  || visible-scroll || hidden || scroll || v-h || v-s || h || s
+                    y :'hidden'
+                  },
+                
+          });
+
+    });
+    
+})();
+</script>
+
+ 
+{% schema %}
+    {
+        "name": "Reviews Scroller",
+        "class": "reviews-scroller",
+        "tag": "section",
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "Review",
+                "settings": [
+                    {
+                        "type": "text",
+                        "label": "Review Title",
+                        "id": "review_title"
+                    },
+                    {
+                        "type": "text",
+                        "label": "Review Author",
+                        "id": "author"
+                    },
+                    {
+                        "type": "textarea",
+                        "label": "Review Text",
+                        "id": "review_text"
+                    },
+                    {
+                        "type": "image_picker",
+                        "label": "Review Image",
+                        "id": "review_img"
+                    }
+                ]
+            }
+        ],
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading",
+                "default": "Quick links"
+            },
+            {
+                "type": "textarea",
+                "id": "text",
+                "label": "Text",
+                "default": "Quick links"
+            },
+            {
+                "type": "header",
+                "content": "button"
+            },
+            {
+                "type": "text",
+                "id": "btn_text",
+                "label": "Button Text"
+            },
+            {
+                "type": "url",
+                "id": "btn_link",
+                "label": "Button Link"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Reviews Scroller"
+            }
+        ]
+
+    }
+{% endschema %}

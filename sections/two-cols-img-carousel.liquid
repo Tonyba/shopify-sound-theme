@@ -1,0 +1,108 @@
+{{'two-cols-img-carousel.css' | asset_url | stylesheet_tag }}
+
+
+<div class="container">
+    <div class="grid cols-2 gap-40 align-item-center">
+        <div class="grid-item">
+             
+            <div class="left-info">
+                <h2 class="heading" >{{ section.settings.heading }}</h2>
+                <h3 class="subheading" >{{ section.settings.subheading }}</h3>
+                <p class="text" >{{ section.settings.text }}</p>
+                
+                <img src="//shop-sitetest.myshopify.com/cdn/shop/files/07c7995e598f637918823e6733524978.png?v=1714104320" alt="logos">
+            </div>
+  
+             
+    
+        </div>
+        <div class="grid-item relative">  
+            <div class="carousel-top-message">At-Home SkinPetra’s Products</div>
+            <div class="splide image-carousel">
+                <div class="splide__track">
+                    <div class="splide__list">    
+                            {% for item in section.blocks %}
+                                <div class="splide__slide">
+                                    <img src="{{ item.settings.image | image_url }}" alt="img slide" />
+                                </div>
+                            {% endfor %}                              
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script defer>
+    (function () {
+
+        function defer(method) {
+            if (typeof Splide != 'undefined' ) {
+                method();
+            } else {
+                setTimeout(function() { defer(method) }, 50);
+            }
+        }
+
+        defer(function() {
+
+            const testimonialCarousel = document.querySelector('.splide.image-carousel');
+
+            const args = {
+                perPage: 1,
+                arrows: false,
+                pagination: true,
+                type: 'loop'
+            }
+
+            const splideInstance = new Splide(testimonialCarousel, args);
+        
+            splideInstance.mount();
+
+        });
+     
+    })();
+</script>
+
+
+{% schema %}
+    {   
+        "name": "2 Cols Image Carousel",
+        "class": "two-cols-image-carousel",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "text",
+                "id": "subheading",
+                "label": "Sub Heading"
+            },
+            {
+                "type": "textarea",
+                "id": "text",
+                "label": "Text"
+            }
+        ],
+        "blocks": [ 
+            {
+                "type": "slide",
+                "name": "Image",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "label": "Image",
+                        "id": "image"
+                    }
+                ]
+            }  
+        ],
+        "presets": [
+            {
+               "name": "2 Cols Image Carousel"
+            }
+        ]
+    }
+{% endschema %}

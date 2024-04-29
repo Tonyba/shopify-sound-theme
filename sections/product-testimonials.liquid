@@ -1,0 +1,108 @@
+
+{{ "OverlayScrollbars.min.css" | asset_url | stylesheet_tag }}
+{{ "product-testimonials.css" | asset_url | stylesheet_tag }}
+
+
+<div class="section-wrapper-margin reviews-carousel-section">
+    <h2>{{ section.settings.heading }}</h2>
+    <div class="product-testimonials scroll-wrapper">
+        {%- for block in section.blocks -%}
+            {% render 'review-before-after-item' review:block.settings, is_left: section.settings.title_left, before_text: section.settings.before_text, after_text: section.settings.after_text  %}
+        {%- endfor -%}
+    </div>
+</div>
+
+<script src="{{ 'OverlayScrollbars.min.js' | asset_url }}" defer></script>
+<script defer>
+    (function () {
+    
+        function defer(method) {
+    
+            if ( typeof OverlayScrollbars != 'undefined' ) {
+                method();
+            } else {
+                setTimeout(function() { defer(method) }, 50);
+            }
+        }
+    
+        defer(function() {
+            const customScroll = document.querySelector('.scroll-wrapper');
+           
+            new OverlayScrollbars(customScroll, {
+                overflowBehavior : {         
+                        // visible-hidden  || visible-scroll || hidden || scroll || v-h || v-s || h || s
+                        x :'scroll',
+                        // visible-hidden  || visible-scroll || hidden || scroll || v-h || v-s || h || s
+                        y :'hidden'
+                      },
+                    
+              });
+    
+        });
+        
+    })();
+    </script>
+
+
+{% schema %}
+    {
+        "name": "Product Testimonials",
+        "class": "product-tesminonials",
+        "settings": [
+            {
+                "type": "text",
+                "label": "Heading",
+                "id": "heading"
+            },
+            {
+                "type": "text",
+                "label": "Before Text",
+                "id": "before_text"
+            },
+            {
+                "type": "text",
+                "label": "After Text",
+                "id": "after_text"
+            },
+            {
+                "type": "checkbox",
+                "id": "title_left",
+                "label": "Set Reviews titles to left side?",
+                "default": false
+            }
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "Review",
+                "settings": [
+                    {
+                        "type": "text",
+                        "label": "Review Title",
+                        "id": "review_title"
+                    },
+                    {
+                        "type": "text",
+                        "label": "Review Author",
+                        "id": "author"
+                    },
+                    {
+                        "type": "textarea",
+                        "label": "Review Text",
+                        "id": "review_text"
+                    },
+                    {
+                        "type": "image_picker",
+                        "label": "Review Image",
+                        "id": "review_img"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+               "name": "Product Testimonials"
+            }
+        ]
+    }
+{% endschema %}

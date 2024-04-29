@@ -1,0 +1,43 @@
+.hightlist-list .subheading {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.hightlist-list span {
+    line-height: 1;
+}
+
+.hightlist-list h2 {
+    font-weight: 500;
+}
+
+.hightlist-list .heading-divider {
+    margin-bottom: 50px;
+}
+
+.hightlist-list h3 {
+    font-size: 22px;
+    color: #000;
+}
+
+.hightlist-list figure {
+    overflow: hidden;
+}
+
+.hightlist-list img {
+    object-fit: cover;
+}
+
+.highlight-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.hightlist-list .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #FF004A;
+    border-radius: 100%;
+}

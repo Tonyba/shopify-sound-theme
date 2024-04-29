@@ -9878,3 +9878,102 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
+.two-cols-products-section .product-card__quick-buy {
+  opacity: 1;
+  visibility: visible;
+ position:relative;
+  transform: translateY(0px);
+  bottom:0;
+}
+
+/**bestbundles**/
+
+#shopify-section-template--16704955089049__featured_collection_new_dgJL97 .product-card__info {
+  display: inline-flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+#shopify-section-template--16704955089049__featured_collection_new_dgJL97 .color-swatch--sm {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+}
+
+#shopify-section-template--16704955089049__featured_collection_new_dgJL97 .star-rating {
+  order: -1;
+}
+
+#shopify-section-template--16704955089049__featured_collection_new_dgJL97 .product-card__aside {
+  margin-top: 30px;
+}
+
+
+
+
+#shopify-section-template--16704955089049__featured_collection_new_dgJL97 .text-subdued {
+  color: black;
+  font-weight: bold;
+}
+
+#shopify-section-template--16704955089049__featured_collection_new_dgJL97 .product-card__quick-buy {
+  opacity: 1;
+  visibility: visible;
+ position:relative;
+  transform: translateY(0px);
+  bottom:0;
+}
+.reviews-carousel-section{padding-left:30px;}
+
+html,body{max-width:100%!important;
+         overflow-x:hidden!important;}
+.carousel-top-message{
+transform: translateX(-50%) translateY(-15%)!important;
+    left: 50%!important;}
+
+.two-cols-image-carousel .splide__pagination {
+ 
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+  .color-swatch{border-radius: 100%;}
+/**
+homepage mobile css
+**/
+
+@media screen and (max-width: 767px) {
+#shopify-section-template--16704955089049__two_cols_products_gRDEqC .cols-2 {    grid-template-columns: repeat(1, 1fr);}
+#shopify-section-template--16704955089049__reviews_scroller_jWQtdn .reviews-carousel-section>div:first-child{width:100%;padding:15px;}
+#shopify-section-template--16704955089049__reviews_scroller_jWQtdn .left-side-inner{max-width:100%!important;}
+#shopify-section-template--16704955089049__reviews_scroller_jWQtdn  .reviews-carousel-section>div:last-child{width:100%;}
+#shopify-section-template--16704955089049__reviews_scroller_jWQtdn  .reviews-carousel-section {flex-direction: column;gap:20px;padding-left:0px;padding-top:30px;}
+#shopify-section-template--16704955089049__reviews_scroller_jWQtdn .os-content{    padding: 0px 0px 60px 10px!important;}
+#shopify-section-template--16704955089049__product_grid_with_photo_pp868q .cols-2 {    grid-template-columns: repeat(1, 1fr);}
+#shopify-section-template--16704955089049__product_grid_with_photo_pp868q .grid.cols-2.align-item-center{display: inline-flex;
+    width: 100%;
+    flex-direction: row;}
+
+#shopify-section-template--16704955089049__product_grid_with_photo_pp868q .horizontal-custom-prod {
+    padding: 15px 15px;
+}
+
+#shopify-section-template--16704955089049__product_grid_with_photo_pp868q .grid.cols-2.align-item-center .grid-item{width:50%;}
+#shopify-section-template--16704955089049__product_grid_with_photo_pp868q .grid-item.horizontal-img{width:50%;}
+
+#shopify-section-template--16704955089049__product_grid_with_photo_pp868q .grid-item.horizontal-img img{width:200px!important;}
+
+#shopify-section-template--16704955089049__featured_collection_new_dgJL97 .section-header {justify-content:center;}
+#shopify-section-template--16704955089049__featured_collection_new_dgJL97 .prose h2{font-weight:bold!important;}
+#shopify-section-template--16704955089049__two_cols_img_carousel_7KGijH .cols-2{    grid-template-columns: repeat(1, 1fr);}
+#shopify-section-template--16704955089049__two_cols_img_carousel_7KGijH h2.heading{font-size:65px;}
+#shopify-section-template--16704955089049__two_cols_img_carousel_7KGijH .grid-item .two-cols-image-carousel .left-info{padding: 50px 30px 150px 30px!important;}
+#shopify-section-template--16704955089049__two_cols_img_carousel_7KGijH .grid-item.relative{margin-top:-95px;}
+#shopify-section-template--16704955089049__slideshow{display:none;}
+
+
+
+}
+  
+@media screen and (min-width: 768px) {
+  #shopify-section-template--16704955089049__slideshow_cmeXET{display:none;}
+}

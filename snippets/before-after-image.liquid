@@ -1,0 +1,42 @@
+<div {% render 'surface', class: 'before-after shadow', text_color: before_text_color %}>
+    <div {% render 'surface', class: 'before-after__before-image', text_color: before_text_color %}>
+      {%- capture sizes -%}(max-width: 999px) 100vw, {% if text_position == 'center' and expand_image %}min({{ settings.page_width }}px, 100vw){% else %}1000px{% endif %}{%- endcapture -%}
+
+      {%- if before_image != blank -%}
+        {{- before_image | image_url: width: before_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', draggable: false, class: 'rounded w-full' -}}
+      {%- else -%}
+        {{- 'lifestyle-1' | placeholder_svg_tag: 'placeholder rounded' | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"' -}}
+      {%- endif -%}
+
+      {%- if before_text != blank -%}
+        <p class="before-after__label before-after__label--left before-after__label--{{ before_after_text_position }} h5">
+          {{- before_text | escape -}}
+        </p>
+      {%- endif -%}
+    </div>
+
+    <div {% render 'surface', class: 'before-after__after-image', text_color: after_text_color %}>
+      {%- if after_image != blank -%}
+        {{- after_image | image_url: width: after_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', class: 'object-fill rounded', draggable: false -}}
+      {%- else -%}
+        {{- 'lifestyle-2' | placeholder_svg_tag: 'bg-text filter-invert rounded' | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"' -}}
+      {%- endif -%}
+
+      {%- if after_text != blank -%}
+        <p class="before-after__label before-after__label--right before-after__label--{{ before_after_text_position }} h5">
+          {{- after_text | escape -}}
+        </p>
+      {%- endif -%}
+    </div>
+
+    <div class="before-after__cursor-wrapper">
+      <split-cursor class="before-after__cursor" style="--background: {{ drag_cursor_background.rgb }}">
+        <span class="sr-only">{{ 'general.accessibility.drag' | t }}</span>
+
+        <svg role="presentation" focusable="false" width="28" height="35" viewBox="0 0 32 40">
+          <path d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16V24C32 32.8366 24.8366 40 16 40C7.16344 40 0 32.8366 0 24V16Z" fill="{{ drag_cursor_background }}"></path>
+          <path fill="{{ drag_cursor_color }}" d="M11 14H13V26H11zM15 14H17V26H15zM19 14H21V26H19z"></path>
+        </svg>
+      </split-cursor>
+    </div>
+  </div>

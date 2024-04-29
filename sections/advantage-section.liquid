@@ -1,0 +1,86 @@
+{{ 'advantage-section.css' | asset_url | stylesheet_tag }}
+
+<div class="section-wrapper-margin-b">
+    <div class="container" style="background: {{ section.settings.bg_color }} ">
+        <div class="grid cols-2">
+            <div class="grid-item">
+                <div class="subheading">{{ section.settings.subheading }}</div>
+                <h2>{{ section.settings.heading }}</h2>
+                {% for item in section.blocks %}  
+                    <div class="item flex gap-20">
+                        <div class="icon">{% render 'icon-sunny' %}</div>
+                        <div class="content">
+                            <h3>{{ item.settings.title }}</h3>
+                            <p>{{ item.settings.text }}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="grid-item lazyload-bg" data-src="{{ section.settings.image | image_url }}">
+                
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+{% schema %}
+    {
+        "name": "Advantage Section",
+        "class": "advantage-section",
+        "settings": [
+            {
+                "type": "color_background",
+                "id": "bg_color",
+                "label": "Background Color"
+            },
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "number",
+                "id": "img_max_height",
+                "label": "Image Max Height",
+                "default": 0
+            },
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "text",
+                "id": "subheading",
+                "label": "Subheading"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "Item",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title"
+                    },
+                    {
+                        "type": "textarea",
+                        "id": "text",
+                        "label": "Text"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+              "name": "Advantage Section"
+            }
+        ]
+    }
+{% endschema %}
+
+

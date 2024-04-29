@@ -1,0 +1,128 @@
+.before-after-product-progress .headings {
+    text-align: center;
+    max-width: 670px;
+    margin: auto;
+}
+
+.before-after-product-progress .tabs-header,
+.before-after-product-progress .tabs-header button  {
+    border-radius: 150px;
+}
+
+.before-after-product-progress .tabs-header {
+    margin: 50px auto;
+    border: 1px solid black;
+    display: flex;
+}
+
+.before-after-product-progress .tabs-header button  {
+   font-size: 18px;
+   font-weight: 600;
+   padding: 20px 0;
+   text-align: center;
+   width: 100%;
+}
+
+.before-after-product-progress .tabs-header button.active,
+.before-after-product-progress .tabs-header button:hover {
+    background-color: black;
+    color: white;
+}
+
+.before-after-product-progress .tab-content-item:not(.active) {
+    display: none;
+}
+
+.before-after-product-progress .tab-content-title{
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.before-after-product-progress .tab-content-subtitle {
+    font-size: 30px;
+    font-weight: 400;
+    color: #777;
+}
+
+.before-after-product-progress .tab-content-text {
+    font-size: 21px;
+    color: #222;
+    font-weight: 400;
+}
+
+.before-after-product-progress .headings h2 {
+    font-weight: 500;
+}
+
+.before-after-product-progress .headings h3 {
+    color: #FF004A;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.before-after-product-progress .before-after__label {
+    color: white;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 7px 15px;
+}
+
+.before-after-product-progress .before-after__label--top {
+    top: 20px;
+}
+
+.before-after-product-progress .before-after__before-image  .before-after__label{
+    left: 15px
+}
+
+.before-after-product-progress .before-after__after-image  .before-after__label{
+    right: 15px
+}
+
+.before-after-product-progress  img {
+    max-height: 480px;
+    object-fit: cover;
+}
+
+.before-after-product-progress .tab-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.before-after-product-progress .tabs-content.is_simple_img .tab-title-wrapper {
+    margin-bottom: 20px;
+}
+
+.before-after-product-progress .headings.is_simple_img .subheading  {
+    font-size: 18px;
+}
+
+
+.before-after-product-progress .reversed  {
+    display: flex;
+    flex-direction: column;
+}
+
+.before-after-product-progress .headings h2 {
+    margin-bottom: unset;
+}
+
+.before-after-product-progress .headings.is_simple_img {
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+.before-after-product-progress .reversed.headings  {
+    display: flex;
+    flex-direction: column;
+}
+
+.before-after-product-progress .reversed.headings h2 {
+    line-height: 1.2;
+}
+
+.before-after-product-progress .reversed.headings .subheading {
+    font-size: 30px;
+}

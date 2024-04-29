@@ -1,0 +1,229 @@
+{{ 'before-after-product-progress.css' | asset_url | stylesheet_tag }}
+
+<style>
+    #shopify-section-{{ section.id }} {
+      --before-after-initial-drag-position: 50%;
+      --rounded: 0
+    }
+</style>
+
+<div class="section-wrapper-padding" style="background-color: {{ section.settings.bg_color }}" >
+
+    <div class="container">
+        <div class="headings {% if section.settings.just_simple_image %}is_simple_img{% endif %}  {% if section.settings.just_simple_image %}reversed{% endif %}">
+            <h2 class="heading">{{ section.settings.heading }}</h2>
+            <h3 class="subheading">{{ section.settings.subheading }}</h3>
+        </div>
+
+        <div class="tabs-header {% if section.settings.just_simple_image %}is_simple_img{% endif %}" style="max-width: {{ section.settings.max_width }}px ">
+            {% for tab in section.blocks %}
+                <button data-target-id="{{ tab.id }}" class="tab-header-btn{% if forloop.index == 1 %} active{% endif %}">
+                  
+                  {{ tab.settings.tab_title }}
+                  
+              </button>
+            {% endfor %}    
+        </div>
+
+        <div class="tabs-content {% if section.settings.just_simple_image %}is_simple_img{% endif %}">
+           
+                {% for item in section.blocks %}
+                    <div id="{{ item.id }}" class="tab-content-item align-item-center grid cols-2 gap-100 {% if forloop.index == 1 %} active{% endif %}"> 
+                        <div class="grid-item">
+                            <div class="tab-title-wrapper">
+                              {% if item.settings.hide_progress == false %}
+                                {% render 'circle-progress' progress: item.settings.progress %}
+                              {% endif %}
+                            
+                              <h4 class="tab-content-title"> {{ item.settings.title }}</h4>
+                            </div>
+                           
+                            <h5 class="tab-content-subtitle">{{ item.settings.subtitle }}</h5>
+                            <div class="tab-content-text">{{ item.settings.text }}</div>
+                        </div>
+                        <div class="grid-item">
+                          {% if section.settings.just_simple_image != true %}
+                            {% render 'before-after-image' 
+                              before_image: item.settings.before_image,
+                              after_image: item.settings.after_image,
+                              before_text: item.settings.before_text,
+                              after_text: item.settings.after_text,
+                              before_after_text_position: 'top',
+                              drag_cursor_color: '#fff',
+                              drag_cursor_background: section.settings.drag_cursor_background
+                            %}
+                          {% else %}
+                            {{- item.settings.simple_img | image_url: width: item.settings.simple_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+                        {% endif %}
+                            
+                        </div>
+                    </div>
+                {% endfor %}
+           
+        </div>
+
+    </div>
+
+</div>
+
+
+<script async>
+    (function () {
+
+      const tabHeader = document.querySelectorAll('.tabs-header button');
+      const tabContent = document.querySelectorAll('.tabs-content .tab-content-item');
+
+      [...tabHeader].forEach( function(item) {
+       
+        item.addEventListener('click', selectTab);
+      });
+
+      function selectTab() {
+        const btn = this;
+        const tabId = btn.getAttribute('data-target-id');
+
+        [...tabHeader].forEach( function(item) {
+            item.classList.remove('active');
+            btn.classList.add('active');
+        });
+
+        [...tabContent].forEach((content) => {
+           
+            content.classList.remove('active');
+            if(content.id == tabId) content.classList.add('active');
+        });
+        
+      }
+
+    
+    }());
+</script>
+
+{% schema %}
+    {
+        "name": "Product Progress Tabs",
+        "class": "before-after-product-progress",
+        "settings": [
+            {
+                "type": "text",
+                "label": "Heading",
+                "id": "heading"
+            },
+            {
+              "type": "checkbox",
+              "label": "Just Simple Image in Tab Content",
+              "id": "just_simple_image"
+            },
+            {
+              "type": "number",
+              "default": 800,
+              "id": "max_width",
+              "label": "Tabs Header Max Width"
+            },
+            {
+              "type": "checkbox",
+              "label": "Reverse Heading",
+              "id": "reverse_heading",
+              "default": false
+            },
+            {
+                "type": "text",
+                "label": "Subheading",
+                "id": "subheading"
+            },
+            {
+                "type": "color",
+                "label": "Background Color",
+                "id": "bg_color",
+                "default": "transparent"
+            },
+            {
+                "type": "color",
+                "id": "drag_cursor_background",
+                "label": "Drag Cursor Color",
+                "default": "#000"
+            }
+        ],
+        "blocks": [
+            {
+                "name": "Tab Item",
+                "type": "slide",
+                "settings": [
+                  {
+                    "type": "image_picker",
+                    "id": "simple_img",
+                    "label": "Simple Image",
+                    "info": "This image will show if simple image mode is activated"
+                  },
+                  {
+                    "type": "text",
+                    "id": "tab_title",
+                    "label": "Tab Title"
+                  },
+                  {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Content Title"
+                  },
+                  {
+                    "type": "text",
+                    "id": "subtitle",
+                    "label": "Content Subtitle"
+                  },
+                  {
+                    "type": "richtext",
+                    "id": "text",
+                    "label": "Text"
+                  },
+                  {
+                    "type": "checkbox",
+                    "id": "hide_progress",
+                    "label": "Hide Progress",
+                    "default": false
+                  },
+                  {
+                    "type": "range",
+                    "min": 0,
+                    "max": 100,
+                    "unit": "%",
+                    "step": 1,
+                    "label": "Progress Percentage",
+                    "id": "progress",
+                    "default": 0
+                  },
+                  {
+                    "type": "header",
+                    "content": "Before/After Images"
+                  },
+                  {
+                    "type": "text",
+                    "id": "before_text",
+                    "label": "Before Text",
+                    "default": "Before"
+                  },
+                  {
+                    "type": "image_picker",
+                    "id": "before_image",
+                    "label": "Before Image"
+                  },
+                  {
+                    "type": "text",
+                    "id": "after_text",
+                    "label": "After Text",
+                    "default": "After"
+                  },
+                  {
+                    "type": "image_picker",
+                    "id": "after_image",
+                    "label": "After Image"
+                  }      
+                ]
+              }
+        ],
+        "presets": [
+            {
+              "name": "Product Progress Tabs"
+            }
+          ]
+    }
+{% endschema %}

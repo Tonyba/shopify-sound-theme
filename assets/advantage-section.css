@@ -1,0 +1,35 @@
+.advantage-section .container {
+    border-radius: 40px;
+}
+
+
+.advantage-section .lazyload-bg {
+    border-radius: 0 40px 40px 0;
+}
+
+.advantage-section h3 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #333;
+}
+
+.advantage-section .item p {
+    color: #3d3d3d;
+}
+
+.advantage-section .grid-item:first-child {
+    padding: 70px 50px 70px 50px;
+}
+
+.advantage-section .item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.advantage-section  .subheading {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.advantage-section  h2 {
+    font-weight: 500;
+}

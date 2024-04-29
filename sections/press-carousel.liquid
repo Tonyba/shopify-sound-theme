@@ -1,0 +1,125 @@
+{{ 'press-carousel.css' | asset_url | stylesheet_tag }}
+{{ 'splide.min.css' | asset_url | stylesheet_tag }}
+
+<div class="section-wrapper-margin">
+    <div class="headings center">
+        <div class="subheading uppercase">{{ section.settings.subheading }}</div>
+        <h2>{{ section.settings.heading }}</h2>
+    </div>
+ 
+    <div class="splide press-carousel {% if section.settings.is_autoscroll %}autoscroll{% endif %}">
+        <div class="splide__track">
+            <div class="splide__list">
+                {% for press in section.blocks %}
+                    <div class="splide__slide press-item">
+                        <p> {{ press.settings.text }}</p>
+                        {{- press.settings.image | image_url: width: press.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{{ 'splide.min.js' | asset_url }}" defer></script>
+{% if section.settings.is_autoscroll %}
+  <script src="{{ 'autoscroll.min.js' | asset_url }}" defer></script>
+{% endif %}
+
+<script defer>
+    (function () {
+
+        function init() {
+            const splide = document.querySelector('.splide.press-carousel');
+            const config = {
+              type: 'loop',
+              arrows: false,
+              pagination: false,
+              perPage: 5,
+              gap: 20,
+              autoscroll: {
+                speed: 1000,
+              },
+            };
+            const splideInstance = new Splide(splide, config);
+        
+            if (splide.classList.contains('autoscroll')) {
+              deferAutoScroll(function () {
+                splideInstance.mount(window.splide.Extensions);
+              });
+            } else {
+              splideInstance.mount();
+            }
+          }
+        
+          function deferAutoScroll(method) {
+            if (typeof window.splide != 'undefined') {
+              method();
+            } else {
+              setTimeout(function () {
+                deferAutoScroll(method);
+              }, 50);
+            }
+          }
+        
+          function deferSplide(method) {
+            if (typeof Splide != 'undefined') {
+              method();
+            } else {
+              setTimeout(function () {
+                deferSplide(method);
+              }, 50);
+            }
+          }
+        
+          deferSplide(init);
+    })();
+</script>
+
+{% schema %}
+    {
+        "name": "Press Carousel",
+        "class": "press-carousel-wrapper",
+        "settings": [
+            {
+                "type": "checkbox",
+                "id": "is_autoscroll",
+                "label": "Autoscroll",
+                "default": true
+            },
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "text",
+                "id": "subheading",
+                "label": "Subheading"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "Press Item",
+                "settings": [
+                    {
+                        "id": "text",
+                        "label": "Press Text",
+                        "type": "textarea"
+                    },
+                    {
+                        "id": "image",
+                        "label": "Image",
+                        "type": "image_picker"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Press Carousel"
+            }
+        ]
+    }
+{% endschema %}

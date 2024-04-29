@@ -1,0 +1,668 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "product_icon_list_PMUFtB": {
+          "type": "product-icon-list",
+          "settings": {
+            "list_heading": "Who It’s For"
+          }
+        },
+        "accordion_data_9aq9g6": {
+          "type": "accordion-data",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "badges",
+        "price",
+        "separator",
+        "variant_picker",
+        "payment_terms",
+        "quantity_selector",
+        "buy_buttons",
+        "product_icon_list_PMUFtB",
+        "accordion_data_9aq9g6"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "visible_results_UbQKUh": {
+      "type": "visible-results",
+      "blocks": {
+        "slide_AHKzx9": {
+          "type": "slide",
+          "settings": {
+            "top_text": "97%",
+            "bottom_text": "experienced tighter and firmer skin"
+          }
+        },
+        "slide_VdQtwk": {
+          "type": "slide",
+          "settings": {
+            "top_text": "86%",
+            "bottom_text": "noticed an improvement in skin tone and texture"
+          }
+        },
+        "slide_p8ciYD": {
+          "type": "slide",
+          "settings": {
+            "top_text": "92%",
+            "bottom_text": "saw a reduction in breakouts"
+          }
+        }
+      },
+      "block_order": [
+        "slide_AHKzx9",
+        "slide_VdQtwk",
+        "slide_p8ciYD"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/02014bfbcf05bc386ced34f32c8951aa_1.png",
+        "bg_color": "linear-gradient(99.09deg, rgba(243, 230, 214, 1) 0.29%, rgba(254, 248, 240, 1) 99.4%)",
+        "heading": "Visible Results in 3-4 Days",
+        "subheading": "Just use two or three times per week."
+      }
+    },
+    "product_testimonials_tmP6tw": {
+      "type": "product-testimonials",
+      "blocks": {
+        "slide_EWApb6": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
+          }
+        },
+        "slide_3dDYRU": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
+          }
+        },
+        "slide_LXiyFx": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
+          }
+        },
+        "slide_jL3Ti7": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
+          }
+        },
+        "slide_aFwK4R": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_EWApb6",
+        "slide_3dDYRU",
+        "slide_LXiyFx",
+        "slide_jL3Ti7",
+        "slide_aFwK4R"
+      ],
+      "settings": {
+        "heading": "Results From Our Satisfied Customers"
+      }
+    },
+    "what_make_it_special_PLt79V": {
+      "type": "what-make-it-special",
+      "blocks": {
+        "slide_pbaNbP": {
+          "type": "slide",
+          "settings": {
+            "title": "Includes 4 beauty applicators\u2028",
+            "text": "For treating a variety of areas face, body and hair.\u2028"
+          }
+        },
+        "slide_LJfcYf": {
+          "type": "slide",
+          "settings": {
+            "title": "Customizable Dial\u2028",
+            "text": "The electrical current can be increased or decreased for your comfort level.\u2028"
+          }
+        },
+        "slide_rTTkXc": {
+          "type": "slide",
+          "settings": {
+            "title": "Simple to clean\u2028",
+            "text": "All you need to do is turn the power off and then wipe the electrodes with a damp cloth and surface disinfectant.\u2028"
+          }
+        },
+        "slide_nVNXXL": {
+          "type": "slide",
+          "settings": {
+            "title": "Quick to set up\u2028",
+            "text": "Just plug in the device and apply your preferred applicator\u2028"
+          }
+        }
+      },
+      "block_order": [
+        "slide_pbaNbP",
+        "slide_LJfcYf",
+        "slide_rTTkXc",
+        "slide_nVNXXL"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/8cc178bb9c7e3c3b6767a2a0c96c87e5.png",
+        "heading": "What makes it special",
+        "info_text": "<p>Safety Considerations:\u2028<\/p><p>Be sure to remove any metal jewelry before your treatment.\u2028Avoid using AHA or glycolic acid products with the high frequency wand. Avoid contact with broken capillaries, spider veins, and rosacea. Do not use high frequency during pregnancy. Never operate a high-frequency machine with a broken bulb. Always use a towel or tissue folded over the electrode to remove the electrodes and pull directly outward.<\/p>"
+      }
+    },
+    "custom_multicolumn_CqdQrY": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "slide_N7PPXC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2b771f8b8352bf153ae27505ecdff092_1.png",
+            "border_radius": 30,
+            "title": "Mashroom Tube",
+            "text": "For Wide Areas Such as cheeks or Forehead",
+            "bg_color": "linear-gradient(180deg, rgba(239, 239, 239, 1), rgba(253, 253, 253, 1) 100%)"
+          }
+        },
+        "slide_fAkbPe": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3f1b1ee1d7a1d7c724bfe90f28febd4d_1.png",
+            "border_radius": 30,
+            "title": "Tongue Tube",
+            "text": "For Small areas of the face such as eyes or nose",
+            "bg_color": "linear-gradient(180deg, rgba(239, 239, 239, 1), rgba(253, 253, 253, 1) 100%)"
+          }
+        },
+        "slide_wXnKG8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7fce66593aa328ebe833e0dcf2ac0f89_1.png",
+            "border_radius": 30,
+            "title": "Bend Tube",
+            "text": "For nasal fossa or spots on the face",
+            "bg_color": "linear-gradient(180deg, rgba(239, 239, 239, 1), rgba(253, 253, 253, 1) 100%)"
+          }
+        },
+        "slide_V9cYP3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3c29b4125a96ab0df3b21254ca2b3848.png",
+            "border_radius": 30,
+            "title": "Comb Tube",
+            "text": "For Hair",
+            "bg_color": "linear-gradient(180deg, rgba(239, 239, 239, 1), rgba(253, 253, 253, 1) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "slide_N7PPXC",
+        "slide_fAkbPe",
+        "slide_wXnKG8",
+        "slide_V9cYP3"
+      ],
+      "settings": {
+        "heading": "4 Glass Tubes",
+        "subheading": "Meet The Needs Of Each Part Of Your Skin"
+      }
+    },
+    "routine_AkENrV": {
+      "type": "routine",
+      "blocks": {
+        "slide_gnCERw": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 1",
+            "subheading": "Insert the electrode into the wand",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_pUFhgP": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 2",
+            "subheading": "Turn on the device and gradually adjust the dial",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_r63cEU": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 3",
+            "subheading": "Move the wand in a circular motion",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_BpCJqF": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 4",
+            "subheading": "Tap the Tip of the wand against the lesion 2-3 times",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        }
+      },
+      "block_order": [
+        "slide_gnCERw",
+        "slide_pUFhgP",
+        "slide_r63cEU",
+        "slide_BpCJqF"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/27f1bb0655ed2cbfb8b88c85f6979b52.jpg",
+        "img_max_height": 825,
+        "heading": "Meet the Routine",
+        "subheading": "Skinpetra IPL Benefits"
+      }
+    },
+    "big_img_section_rmm7Ak": {
+      "type": "big-img-section",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/081eaf81b32d59000571f733b0789289.jpg",
+        "heading": "Pain-Free & Effective SkinPetra High Frequency Therapy",
+        "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely to be absorbed by the melanin in your skin and more by the melanin in your hair for safer, and more effective at-home treatments.”"
+      }
+    },
+    "press_carousel_kdbbCz": {
+      "type": "press-carousel",
+      "blocks": {
+        "slide_A8x4ca": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
+          }
+        },
+        "slide_WHUB3X": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f_53fc781b-f018-4ca2-b71b-e9ba8a057813.png"
+          }
+        },
+        "slide_HcCxkT": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/3bbf467d37c3cb3101c3efeac22258ac.png"
+          }
+        },
+        "slide_KmAGQU": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/ad3e2346f4c0ed84b29ccdb325793a37.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_A8x4ca",
+        "slide_WHUB3X",
+        "slide_HcCxkT",
+        "slide_KmAGQU"
+      ],
+      "settings": {
+        "is_autoscroll": true,
+        "heading": "Hot Off the Press",
+        "subheading": "mAGAZINES"
+      }
+    },
+    "multiple_images_with_text_rdtyyE": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_QxMAYr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7bd6a8c8d2950dbc1025bb89aa8879c4.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "Flash Window",
+            "title": "Smooth, soft skin",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_QxMAYr"
+      ],
+      "settings": {
+        "full_width": true,
+        "extra_css_class": "right-left-section pt-0",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "multiple_images_with_text_xhE9mY": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_98BKyM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e0859a08c76a2a0658fbdfb72925cb1e.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "AutoGlide Mode",
+            "title": "Save time & money",
+            "content": "<p>Swap out the time and money you'd spend on laser, in-salon waxing, or annoying razors for affordable, long-term hair removal.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_98BKyM"
+      ],
+      "settings": {
+        "full_width": true,
+        "extra_css_class": "right-left-section pt-0 reversed",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "multiple_images_with_text_VFC7z8": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_eHFirM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3af40f6443b4e7a67a7d4822b274d0f1.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "Laser-like Results, From Home",
+            "title": "Cheaper than razors, effective like laser.",
+            "content": "<p>Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With SkinPetra IPL, get laser-like results from the comfort of your home.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_eHFirM"
+      ],
+      "settings": {
+        "full_width": true,
+        "extra_css_class": "right-left-section pt-0",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "two_cols_list_image_tBY647": {
+      "type": "two-cols-list-image",
+      "blocks": {
+        "slide_6y7ftf": {
+          "type": "slide",
+          "settings": {
+            "text": "Mashroom Tube"
+          }
+        },
+        "slide_7CqHNB": {
+          "type": "slide",
+          "settings": {
+            "text": "Tongue Tube"
+          }
+        },
+        "slide_cRaVRV": {
+          "type": "slide",
+          "settings": {
+            "text": "Bend Tube"
+          }
+        },
+        "slide_Fg6rn3": {
+          "type": "slide",
+          "settings": {
+            "text": "Comb Tube"
+          }
+        }
+      },
+      "block_order": [
+        "slide_6y7ftf",
+        "slide_7CqHNB",
+        "slide_cRaVRV",
+        "slide_Fg6rn3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/f54c9ac2da2098e2acaa0e1cc85227cb.png",
+        "bg_Color": "#f3f3f3",
+        "heading": "In the Box",
+        "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
+      }
+    },
+    "faq_wDjk4R": {
+      "type": "faq",
+      "blocks": {
+        "item_bWKpBQ": {
+          "type": "item",
+          "settings": {
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "item_KUXWUW": {
+          "type": "item",
+          "settings": {
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "item_aYPDUq": {
+          "type": "item",
+          "settings": {
+            "title": "Who Should Not Use IPL?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        },
+        "item_WT9nHX": {
+          "type": "item",
+          "settings": {
+            "title": "When Can I See the Effect, and is it Permanent?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "item_cb6X3y": {
+          "type": "item",
+          "settings": {
+            "title": "Does IPL Hair Remover Hurt?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "item_wTMiBi": {
+          "type": "item",
+          "settings": {
+            "title": "Who Should Not Use IPL?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "item_94R7Hc": {
+          "type": "item",
+          "settings": {
+            "title": "Do I Need to Shave Before Using IPL?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "item_WwNLik": {
+          "type": "item",
+          "settings": {
+            "title": "Which Areas of the Body Can I Use This On?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_bWKpBQ",
+        "item_KUXWUW",
+        "item_aYPDUq",
+        "item_WT9nHX",
+        "item_cb6X3y",
+        "item_wTMiBi",
+        "item_94R7Hc",
+        "item_WwNLik"
+      ],
+      "settings": {
+        "extra_class": "custom-faqs",
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Let’s Answer Your Questions<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "17143306286f1c2a35": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_E3r7Gf": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_E3r7Gf"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "#f3f3f3",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "visible_results_UbQKUh",
+    "product_testimonials_tmP6tw",
+    "what_make_it_special_PLt79V",
+    "custom_multicolumn_CqdQrY",
+    "routine_AkENrV",
+    "big_img_section_rmm7Ak",
+    "press_carousel_kdbbCz",
+    "multiple_images_with_text_rdtyyE",
+    "multiple_images_with_text_xhE9mY",
+    "multiple_images_with_text_VFC7z8",
+    "two_cols_list_image_tBY647",
+    "faq_wDjk4R",
+    "17143306286f1c2a35"
+  ]
+}

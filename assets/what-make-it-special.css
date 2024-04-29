@@ -1,0 +1,35 @@
+.what-make-it-special img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 786px;
+}
+
+.what-make-it-special .heading-divider {
+    margin-bottom: 40px;
+}
+
+.what-make-it-special h3 {
+    color: #FF004A;
+    font-size: 24px;
+}
+
+.what-make-it-special .subsection p {
+    font-size: 18px;
+}
+
+.what-make-it-special .subsection {
+    margin-bottom: 30px;
+}
+
+.what-make-it-special .grid-item .subsection:last-child {
+    margin-bottom: 50px;
+}
+
+.what-make-it-special .info-text {
+    padding: 12px 17px;
+    padding-bottom: 22px;
+    background: linear-gradient(97.25deg, #F3E6D6 1.63%, #FEF7EE 101.61%);
+    font-style: italic;
+    color: #777;
+}

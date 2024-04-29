@@ -1,0 +1,63 @@
+.reviews-scroller h2 {
+    font-weight: 500;
+}
+
+.reviews-carousel-section {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.reviews-carousel-section .scroll-wrapper {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.reviews-carousel-section .os-scrollbar-handle {
+    max-width: 120px;
+}
+
+
+.reviews-carousel-section .os-scrollbar{
+    max-width: 570px;
+}
+
+.reviews-carousel-section {
+    display: flex;
+}
+
+.reviews-carousel-section .grid-item:first-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reviews-carousel-section .left-side {
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.reviews-carousel-section .left-side-inner {
+    max-width: 472px;
+}
+
+.reviews-carousel-section a {
+    margin-top: 20px;
+    border-radius: 0;
+    font-size: 15px;
+}
+
+.reviews-carousel-section > div:first-child {
+   width: 35%;
+   padding-right: 40px;
+}
+
+.reviews-carousel-section > div:last-child {
+    width: 65%;
+}
+
+
+
+.reviews-carousel-section .os-content {
+    display: flex;
+}
+

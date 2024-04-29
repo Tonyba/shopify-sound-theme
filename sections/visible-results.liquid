@@ -1,0 +1,80 @@
+{{ 'visible-results.css' | asset_url | stylesheet_tag }}
+
+<div class="wrapper flex align-item-center relative" style="background:{{ section.settings.bg_color }}" >
+
+    <div class="image">
+        {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+    </div>
+
+    <div class="container">
+        <div class="content" >
+            <div class="headings center">
+                <h2>{{ section.settings.heading }}</h2>
+                <div class="subheading">{{ section.settings.subheading }}</div>
+            </div>
+
+            <div class="grid cols-3 gap-40">
+                {% for item in section.blocks %}
+                    <div class="grid-item center">
+                        <h3 class="top-text">{{ item.settings.top_text }}</h3>
+                        <p class="bottom-text">{{ item.settings.bottom_text }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "Visible Results",
+        "class": "visible-results",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "color_background",
+                "id": "bg_color",
+                "label": "Background Color"
+            },
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "text",
+                "id": "subheading",
+                "label": "Subheading"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "Column Text",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "top_text",
+                        "label": "Top Text"
+                    },
+                    {
+                        "type": "text",
+                        "id": "bottom_text",
+                        "label": "Bottom Text"
+                    }
+                ]
+            }
+        ],
+            
+        "presets": [
+            {
+               "name": "Visible Results"                                
+            }
+        ]
+    }
+{% endschema %}
+

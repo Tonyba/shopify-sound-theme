@@ -1,0 +1,22 @@
+.big-img-section img {
+    margin: -150px 0;
+}
+
+.big-img-section h2 {
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.big-img-section  p{
+    font-size: 17px;
+}
+
+.big-img-section .w-65 {
+    padding: 40px;
+}
+
+.big-img-section .section-wrapper-margin {
+    margin: 250px 0;
+}
+

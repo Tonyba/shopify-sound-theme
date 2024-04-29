@@ -1,0 +1,22 @@
+.product-testimonials.scroll-wrapper {
+    padding-bottom: 50px;
+}
+
+.product-tesminonials .os-scrollbar-handle {
+    max-width: 120px;
+}
+
+.product-tesminonials h2 {
+    text-align: center;
+    margin: auto;
+    max-width: 550px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    line-height: 1.2;
+}
+
+.product-tesminonials .os-scrollbar{
+    max-width: 1300px;
+}
+
+

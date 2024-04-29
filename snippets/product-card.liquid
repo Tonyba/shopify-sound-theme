@@ -153,9 +153,14 @@ Supported variables
             {%- render 'product-rating', product: product, class: rating_class, display_mode: settings.product_rating_mode -%}
           {%- endif -%}
         </div>
+
+     <div class="star-rating">{% render 'five-stars' %}</div> 
+
       {%- else -%}
         <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></span>
       {%- endif -%}
+
+      <p class="prod-desc">90% hair reduction in 4 weeks</p>
 
       {%- render 'price-list', product: product, text_alignment: text_alignment -%}
     </div>

@@ -1,0 +1,142 @@
+{{ '3-seconds-quick.css' | asset_url | stylesheet_tag }}
+
+
+<style>
+    .three-seconds-heat .section-wrapper-padding:before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-image: url({{ section.settings.bg_image | image_url }}); 
+        z-index: 1;
+        background-repeat: no-repeat;
+        background-size: auto 100%
+    }
+
+    .three-seconds-heat .section-wrapper-padding:after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: {{ section.settings.bg_color }};
+        top: 0;
+        left: 0;
+    }
+
+</style>
+
+<div class="section-wrapper-padding relative">
+    <div class="container relative z-1">
+        <div class="flex">
+            <div class="grid-item w-42">
+                
+            </div>
+            <div class="grid-item w-58">
+                <div class="content-container">
+                    <h2>{{ section.settings.heading }}</h2>
+                    <div class="subheading">{{ section.settings.subheading }}</div>
+        
+                    <div class="inner-container">
+                        <div class="grid cols-2  align-item-center">
+                            <div class="grid-item">
+                                <h3>{{ section.settings.stage_title }}</h3>
+                                <div class="state-subtitle">{{ section.settings.stage_subtitle }}</div>
+                                {% for item in section.blocks %}
+                                    <div class="stage-item center">
+                                        <div class="flex justify-content-center align-item-center gap-20">
+                                            <span class="icon">{% render 'icon-temperature' icon_color: item.settings.icon_color  %}</span>
+                                            <span class="text">{{ item.settings.title }}</span>
+                                        </div>
+                                        <div class="button-text" style="border-color: {{ item.settings.icon_color }}">
+                                            {{ item.settings.btn_text }}
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                            <div class="grid-item">
+                                {{- section.settings.right_img | image_url: width: section.settings.right_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>    
+    </div>
+
+</div>
+
+{% schema %}
+    {
+        "name": "3 Seconds Quick Heat",
+        "class": "three-seconds-heat",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "bg_image",
+                "label": "Background Image"
+            },
+            {
+                "type": "color_background",
+                "id": "bg_color",
+                "label": "Background Color"
+            },
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "text",
+                "id": "subheading",
+                "label": "Subheading"
+            },
+            {
+                "type": "text",
+                "id": "stage_title",
+                "label": "Stage Title"
+            },
+            {
+                "type": "text",
+                "id": "stage_subtitle",
+                "label": "Stage Sub Title"
+            },
+            {
+                "type": "image_picker",
+                "id": "right_img",
+                "label": "Right Image"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "item",
+                "settings": [
+                    {
+                        "type": "color",
+                        "id": "icon_color",
+                        "label": "Icon Color"
+                    },
+                    {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title"
+                    },
+                    {
+                        "type": "text",
+                        "id": "btn_text",
+                        "label": "Button Text"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+              "name": "3 Seconds Quick Heat"
+            }
+        ]
+    }
+{% endschema %}
+

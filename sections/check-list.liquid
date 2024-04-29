@@ -1,0 +1,54 @@
+{{ 'check-list.css' | asset_url | stylesheet_tag }}
+
+<div class="section-wrapper-margin section-wrapper-padding" style="background-color: {{ section.settings.bg_color }}">
+    <div class="container">
+        <div class="grid cols-2">
+            <div class="grid-item">
+                {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+            </div>
+            <div class="grid-item">
+                <ul>
+                    {% for item in section.blocks %}
+                        <li class="list-item"><span class="icon">{% render 'icon-checked' %}</span> {{ item.settings.text }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "Check List",
+        "class": "check-list",
+        "settings": [
+            {
+                "type": "color",
+                "id": "bg_color",
+                "label": "Background Color",
+                "default": "#f3f3f3"
+            },
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "List Item",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "text",
+                        "label": "Text"
+                    }
+                ]
+            }
+        ],
+        "presets": [{
+            "name": "Check List"
+        }]
+    }
+{% endschema %}

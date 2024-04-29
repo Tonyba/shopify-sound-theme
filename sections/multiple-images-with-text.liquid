@@ -61,79 +61,84 @@ LIQUID
   {%- assign is_narrow = true -%}
 {%- endif -%}
 
-<div {% render 'section-properties', narrow: is_narrow %}>
-  <multiple-images-with-text class="multiple-images-with-text">
-    <multiple-images-with-text-image-list reversed swipeable="false" layout="{{ section.settings.images_layout }}" class="multiple-images-with-text__image-list">
-      {%- if visible_images_count == 0 -%}
-        {{- 'collection-1' | placeholder_svg_tag: 'placeholder' -}}
-      {%- else -%}
-        {%- comment -%}We have to reverse the images when they are stacked so that the image of the first block appears at the top of the stack{%- endcomment -%}
-        {%- if section.settings.images_layout == 'stacked' -%}
-          {%- assign section_blocks = section.blocks | reverse -%}
+<div class="{{ section.settings.extra_css_class }}">
+  <div  {% render 'section-properties', narrow: is_narrow %}>
+    <multiple-images-with-text class="multiple-images-with-text">
+      <multiple-images-with-text-image-list reversed swipeable="false" layout="{{ section.settings.images_layout }}" class="multiple-images-with-text__image-list">
+        {%- if visible_images_count == 0 -%}
+          {{- 'collection-1' | placeholder_svg_tag: 'placeholder' -}}
         {%- else -%}
-          {%- assign section_blocks = section.blocks -%}
-        {%- endif -%}
-
-        {%- for block in section_blocks -%}
-          {%- if block.settings.image != blank -%}
-            {%- if section.settings.images_layout == 'scattered' -%}
-              {%- capture style -%}--image-rotation: {{ block.settings.image_rotation_degrees }}deg;{%- endcapture -%}
+          {%- comment -%}We have to reverse the images when they are stacked so that the image of the first block appears at the top of the stack{%- endcomment -%}
+          {%- if section.settings.images_layout == 'stacked' -%}
+            {%- assign section_blocks = section.blocks | reverse -%}
+          {%- else -%}
+            {%- assign section_blocks = section.blocks -%}
+          {%- endif -%}
+  
+          {%- for block in section_blocks -%}
+            {%- if block.settings.image != blank -%}
+              {%- if section.settings.images_layout == 'scattered' -%}
+                {%- capture style -%}--image-rotation: {{ block.settings.image_rotation_degrees }}deg;{%- endcapture -%}
+              {%- endif -%}
+  
+              {%- capture image_id -%}image-{{ block.id }}{%- endcapture -%}
+              {%- capture image_class -%}rounded-sm shadow-sm {% unless section.settings.images_layout == 'stacked' %}reveal{% endunless %}{%- endcapture -%}
+  
+              {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: id: image_id, loading: 'lazy', style: style, sizes: 'min(100vw, 500px)', widths: '200,300,400,500,600,700,800,900,1000', class: image_class -}}
             {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+      </multiple-images-with-text-image-list>
+  
+      <div class="multiple-images-with-text__content-with-nav">
+        <multiple-images-with-text-content-list swipeable="false" class="multiple-images-with-text__content-list">
+          {%- assign outputted_text_count = 0 -%}
+  
+          {%- for block in section.blocks -%}
+            {%- if block.settings.subheading != blank or block.settings.title != blank or block.settings.content != blank -%}
+              <div class="prose {% if outputted_text_count == 0 %}is-selected{% else %}reveal-invisible{% endif %}" {% if block.settings.image != blank %}image-id="image-{{ block.id }}"{% endif %} {{ block.shopify_attributes }}>
+                {%- if block.settings.subheading != blank -%}
+                  <p class="bold">{{ block.settings.subheading | escape }}</p>
+                {%- endif -%}
+  
+                {%- if block.settings.title != blank -%}
+                  <p class="h1" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %}>
+                    {%- render 'styled-text', content: block.settings.title, apparition_effect: true -%}
+                  </p>
+                {%- endif -%}
+  
+                {{- block.settings.content -}}
+  
+                {%- if block.settings.button_text != blank -%}
+                  {%- render 'button', href: block.settings.button_url, content: block.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+                {%- endif -%}
+              </div>
+  
+              {%- assign outputted_text_count = outputted_text_count | plus: 1 -%}
+            {%- endif -%}
+          {%- endfor -%}
+        </multiple-images-with-text-content-list>
+  
+        {%- if outputted_text_count > 1 -%}
+          <div class="prev-next-buttons">
+            <button is="prev-button" class="circle-button ring group">
+              <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
+              <span class="animated-arrow animated-arrow--reverse"></span>
+            </button>
+  
+            <button is="next-button" class="circle-button ring group">
+              <span class="sr-only">{{ 'general.accessibility.next' | t }}</span>
+              <span class="animated-arrow"></span>
+            </button>
+          </div>
+        {%- endif -%}
+      </div>
+    </multiple-images-with-text>
+  </div>
+  
 
-            {%- capture image_id -%}image-{{ block.id }}{%- endcapture -%}
-            {%- capture image_class -%}rounded-sm shadow-sm {% unless section.settings.images_layout == 'stacked' %}reveal{% endunless %}{%- endcapture -%}
-
-            {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: id: image_id, loading: 'lazy', style: style, sizes: 'min(100vw, 500px)', widths: '200,300,400,500,600,700,800,900,1000', class: image_class -}}
-          {%- endif -%}
-        {%- endfor -%}
-      {%- endif -%}
-    </multiple-images-with-text-image-list>
-
-    <div class="multiple-images-with-text__content-with-nav">
-      <multiple-images-with-text-content-list swipeable="false" class="multiple-images-with-text__content-list">
-        {%- assign outputted_text_count = 0 -%}
-
-        {%- for block in section.blocks -%}
-          {%- if block.settings.subheading != blank or block.settings.title != blank or block.settings.content != blank -%}
-            <div class="prose {% if outputted_text_count == 0 %}is-selected{% else %}reveal-invisible{% endif %}" {% if block.settings.image != blank %}image-id="image-{{ block.id }}"{% endif %} {{ block.shopify_attributes }}>
-              {%- if block.settings.subheading != blank -%}
-                <p class="bold">{{ block.settings.subheading | escape }}</p>
-              {%- endif -%}
-
-              {%- if block.settings.title != blank -%}
-                <p class="h1" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %}>
-                  {%- render 'styled-text', content: block.settings.title, apparition_effect: true -%}
-                </p>
-              {%- endif -%}
-
-              {{- block.settings.content -}}
-
-              {%- if block.settings.button_text != blank -%}
-                {%- render 'button', href: block.settings.button_url, content: block.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
-              {%- endif -%}
-            </div>
-
-            {%- assign outputted_text_count = outputted_text_count | plus: 1 -%}
-          {%- endif -%}
-        {%- endfor -%}
-      </multiple-images-with-text-content-list>
-
-      {%- if outputted_text_count > 1 -%}
-        <div class="prev-next-buttons">
-          <button is="prev-button" class="circle-button ring group">
-            <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
-            <span class="animated-arrow animated-arrow--reverse"></span>
-          </button>
-
-          <button is="next-button" class="circle-button ring group">
-            <span class="sr-only">{{ 'general.accessibility.next' | t }}</span>
-            <span class="animated-arrow"></span>
-          </button>
-        </div>
-      {%- endif -%}
-    </div>
-  </multiple-images-with-text>
 </div>
+
 
 {% schema %}
 {
@@ -151,6 +156,11 @@ LIQUID
       "id": "full_width",
       "label": "Full width",
       "default": true
+    },
+    {
+      "type": "text",
+      "id": "extra_css_class",
+      "label": "Extra CSS Class"
     },
     {
       "type": "select",

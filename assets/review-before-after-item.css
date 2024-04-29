@@ -1,0 +1,68 @@
+.review-before-after-item .review-info {
+    background-color: #F3F3F3;
+    padding: 20px 30px;
+}
+
+.review-before-after-item  h3 {
+    font-size: 20px;
+    font-weight:500;
+}
+
+.review-before-after-item .before-after-badge {
+    background-color: #00000059;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    padding: 7px 15px;
+    position: absolute;
+    top: 10px;
+}
+
+.review-before-after-item .before-badge {
+    left: 10px;
+    
+}
+
+.review-before-after-item .after-badge {
+    right: 10px;
+}
+
+
+.review-before-after-item  .review-text {
+    color: #575757;
+    font-size: 15px;
+}
+
+.review-before-after-item .review-author {
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.review-before-after-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.review-before-after-item {
+    flex-grow: 1;
+    flex-shrink: 0;
+    max-width: 392px;
+}
+
+.review-before-after-item {
+    display: block;
+}
+
+.review-before-after-item img {
+    width: 100%;
+    height: 296px;
+    object-fit: cover;
+}
+
+.review-before-after-item.horizontal-review  {
+    max-width: 515px;
+}
+
+.review-before-after-item.horizontal-review .review-author {
+    text-align: right;
+}

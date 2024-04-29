@@ -1,0 +1,71 @@
+{{ 'product-grid-with-photo.css' | asset_url | stylesheet_tag }}
+
+
+<div style="background-color: {{ section.settings.bg_color }} " >
+    <div class="container">
+        <h2 style="text-align:center" >{{ section.settings.heading }}</h2>
+        <div class="grid cols-2 gap-40" >
+            <div class="grid-item">
+                <div class="col-img">
+                    {% if  section.settings.col_img != blank %}
+                    <img src="{{ section.settings.col_img  | image_url }}" decoding="async" loading="lazy" alt="Column image">
+                    {% endif %}
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="top-product">
+                    {% render 'custom-horizontal-product' product: section.settings.top_prod %}
+                </div>
+                <div class="bottom-products grid cols-2 gap-20">
+                    {% for product in section.settings.bottom_prods %}
+                        {% render 'custom-horizontal-product' product: product  %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
+
+
+
+
+{% schema %}
+    {
+        "name": "Product Grid - Photo",
+        "class": "product-grid-col-photo",
+        "settings": [
+            {
+                "type": "color",
+                "label": "Background Color",
+                "id": "bg_color"
+            },
+            {
+                "type": "text",
+                "label": "Heading",
+                "id": "heading"
+            },
+            {
+                "type": "image_picker",
+                "label": "Column Image",
+                "id": "col_img"
+            },
+            {
+                "type": "product",
+                "label": "Top Product",
+                "id": "top_prod"
+            },
+            {
+                "type": "product_list",
+                "id": "bottom_prods",
+                "label": "Bottom Products",
+                "limit": 2
+            }
+        ],
+        "presets": [
+            {
+               "name": "Product Grid with Photo"
+            }
+        ]
+    }
+{% endschema %}
+

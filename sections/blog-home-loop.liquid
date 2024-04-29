@@ -1,0 +1,54 @@
+{{ 'blog_post_loop.css' | asset_url | stylesheet_tag }}
+
+
+<div class="container"> 
+    <div class="grid cols-2">
+        <div class="grid-item"><h2>{{ section.settings.heading }}</h2>  </div>
+        
+        <div class="grid-item" >
+            <a class="btn" href="{{ section.settings.btn_link }}">{{ section.settings.btn_text }}</a>
+        </div>
+    </div>
+    <div class="grid cols-5 gap-40"> 
+
+        {% for post in section.settings.blog_posts.articles %}
+
+            {% render 'blog_post' post: post %}
+
+        {% endfor %}
+    </div>
+</div>
+
+
+{% schema %} 
+    {
+        "name": "Home Blogs",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                 "label": "Heading"
+            },
+            {
+                "type": "text",
+                "label": "Button text",
+                "id": "btn_text"
+            },
+            {
+                "type": "url",
+                "label": "Button Link",
+                "id": "btn_link"
+            },
+            {
+                  "type": "blog",
+                   "id": "blog_posts",
+                   "label": "blog"   
+            }
+        ],
+        "presets": [
+            {
+              "name": "Home Blogs"
+            }
+        ]
+    }
+{% endschema %}

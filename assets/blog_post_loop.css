@@ -1,0 +1,19 @@
+ .post_loop_item {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 30px;
+ }
+
+ .post_loop_item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px; 
+ }
+
+ .post-date{
+    font-weight: 600;
+ }
+
+ #shopify-section-template--16704955089049__blog_home_loop_ttXaDD .grid-item:last-child{
+    text-align: right;
+ }

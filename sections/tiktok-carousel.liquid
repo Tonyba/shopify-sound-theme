@@ -1,0 +1,112 @@
+{{ 'tiktok-carousel.css' | asset_url | stylesheet_tag }}
+{{ 'splide.min.css' | asset_url | stylesheet_tag }}
+
+<div class="section-wrapper-margin">
+
+  <div class="container">
+          <div class="heading-wrapper">
+              <h2>{{ section.settings.heading }}</h2>
+              <p>{{ section.settings.text }}</p>
+          </div>
+
+          <div class="splide tiktok-carousel">
+            <div class="splide__track">
+              <div class="splide__list">
+                {% for item in section.blocks %}
+                  <div class="splide__slide">
+                    {{ item.settings.tiktok_embed }}
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+  </div> 
+ 
+</div>
+
+<script async src="https://www.tiktok.com/embed.js"></script>
+<script src="{{ 'splide.min.js' | asset_url }}" defer></script>
+<script defer>
+    function init() {
+        const splide = document.querySelector('.splide.tiktok-carousel');
+
+        const config = {
+          arrows: true,
+          pagination: false,
+          perPage: 4,
+          gap: 20, 
+          autoscroll: {
+            speed: 1000,
+          },
+        }; 
+        const splideInstance = new Splide(splide, config);
+    
+        if (splide.classList.contains('autoscroll')) { 
+          deferAutoScroll(function () {
+            splideInstance.mount(window.splide.Extensions);
+          });
+        } else {
+          splideInstance.mount();
+        }
+      }
+    
+      function deferAutoScroll(method) {
+        if (typeof window.splide != 'undefined') {
+          method();
+        } else {
+          setTimeout(function () {
+            deferAutoScroll(method);
+          }, 50);
+        }
+      }
+    
+      function deferSplide(method) {
+        if (typeof Splide != 'undefined') {
+          method();
+        } else {
+          setTimeout(function () {
+            deferSplide(method);
+          }, 50);
+        }
+      }
+    
+      deferSplide(init);
+</script>
+ 
+{% schema %}
+    {
+        "name": "Tiktok Carousel",
+        "class": "tiktok-carousel",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "richtext",
+                "id": "text",
+                "label": "Text"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "Tiktok Video Embed",
+                "settings": [
+                    {
+                        "type": "html",
+                        "id": "tiktok_embed",
+                        "label": "Tiktok embed",
+                        "info": "remove  <script async src='https://www.tiktok.com/embed.js'></script> to avoid loading an unnecessary script since it is already being loaded"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+               "name": "Tiktok Carousel"
+            }
+        ]
+    }
+{% endschema %}

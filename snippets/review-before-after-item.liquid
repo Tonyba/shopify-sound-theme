@@ -1,0 +1,34 @@
+{{ 'review-before-after-item.css' | asset_url | stylesheet_tag }}
+
+<div class="review-before-after-item {% if is_left %}horizontal-review{% endif %} relative">
+
+    <span class="before-after-badge before-badge">{{  before_text}}</span>
+    <span class="before-after-badge after-badge">{{ after_text }}</span>
+
+    {% if review.review_img != blank  %} 
+        {{- review.review_img | image_url: width: review.review_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+    {% endif %}
+    
+    <div class="review-info">
+
+        {% if is_left %}
+            <div class="grid cols-2">
+                <div class="grid-item">
+                    <h3 class="review-title" >{{ review.review_title }}</h3>
+                </div>
+                <div class="grid-item">
+                    <div class="stars"> {% render 'five-stars' %}</div>
+                    <p class="review-text">{{ review.review_text }}</p>
+                    <div class="review-author">{{ review.author }}</div>
+                </div>
+            </div>
+        {% else %}
+            <div class="stars"> {% render 'five-stars' %}</div>
+            <h3 class="review-title" >{{ review.review_title }}</h3>
+            <p class="review-text">{{ review.review_text }}</p>
+            <div class="review-author">{{ review.author }}</div>
+        {% endif %}
+
+
+    </div>
+</div>

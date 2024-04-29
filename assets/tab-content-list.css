@@ -1,0 +1,79 @@
+.tab-content-list h2 {
+    text-align: center;
+    max-width: 700px;
+    line-height: 1.2;
+    margin: auto;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.tab-content-list .tabs-header,
+.tab-content-list .tabs-header button  {
+    border-radius: 150px;
+}
+
+.tab-content-list .tabs-header {
+    max-width: 630px;
+    margin: 50px auto;
+    border: 1px solid black;
+    display: flex;
+}
+
+.tab-content-list .tab-content-item > .grid-item:first-child {
+    padding-right: 20px;
+    border-right: 1px solid black;
+}
+
+.tab-content-list .tab-content-item > .grid-item:last-child {
+    padding-left: 20px;
+}
+
+.tab-content-list .tabs-header button  {
+   font-size: 18px;
+   font-weight: 600;
+   padding: 20px 0;
+   text-align: center;
+   width: 100%;
+}
+
+.tab-content-list .tabs-header button.active,
+.tab-content-list .tabs-header button:hover {
+    background-color: black;
+    color: white;
+}
+
+.tab-content-list .tab-content-item:not(.active) {
+    display: none;
+}
+
+.tab-content-list .icon svg {
+    width: 30px;
+    height: 30px;
+}
+
+.tab-content-list .icon-list-item  {
+    display: flex;
+    gap: 20px;
+}
+
+.tab-content-list .icon-list-item {
+    margin-bottom: 30px;
+}
+.tab-content-list p {
+    color: #4F4F4F;
+}
+
+.tab-content-list img {
+    height: 220px;
+    object-fit: contain;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.tab-content-list h3 {
+    font-size: 22px;
+    color: #000;
+    line-height: 1;
+}

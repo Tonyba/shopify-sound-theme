@@ -1,1 +1,61 @@
-{"type":"header","name":"Header group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"message":{"type":"message","settings":{"text":"Announce something here"}}},"block_order":["message"],"settings":{"enable_sticky":false,"text_size":"text-xs","navigation_mode":"scrolling","scrolling_speed":10,"background":"#1a1a1a","text_color":"#ffffff"}},"header":{"type":"header","settings":{"enable_sticky":true,"hide_on_scroll":false,"logo":"{{shop.brand.logo}}","logo_max_width":120,"logo_mobile_max_width":100,"menu":"main-menu","menu_open_trigger":"click","opening_from":"bottom","layout":"logo_left_navigation_center","show_social_media":true,"show_country_flag":true,"show_country_name":false,"transparent_header_text_color":"#ffffff","reduce_padding":false,"background_opacity":100,"background_blur_radius":0}}},"order":["announcement-bar","header"]}
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "custom_html_nMH4Xg": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<span class=\"top-shop-message\">Free Shipping &amp; Up To 55% Off<\/span>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "disabled": true,
+      "settings": {
+        "enable_sticky": false,
+        "text_size": "text-xs",
+        "navigation_mode": "scrolling",
+        "scrolling_speed": 10,
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "logo": "{{shop.brand.logo}}",
+        "logo_max_width": 120,
+        "logo_mobile_max_width": 100,
+        "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "click",
+        "opening_from": "bottom",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": true,
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "transparent_header_text_color": "#000000",
+        "reduce_padding": false,
+        "background_opacity": 100,
+        "background_blur_radius": 0
+      }
+    }
+  },
+  "order": [
+    "custom_html_nMH4Xg",
+    "announcement-bar",
+    "header"
+  ]
+}

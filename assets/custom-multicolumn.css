@@ -1,0 +1,36 @@
+.custom-multicolumn img {
+    max-width: 76px;
+    height: 380px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.custom-multicolumn h2 {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.custom-multicolumn .subheading {
+    margin-bottom: 50px;
+    color: #5E5E5E;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.custom-multicolumn .grid-item {
+    padding: 35px
+}
+
+.custom-multicolumn h3 {
+    color: #3E3E3E;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.custom-multicolumn p {
+    color: #777;
+}
+
+.custom-multicolumn  {
+    text-align: center;
+}

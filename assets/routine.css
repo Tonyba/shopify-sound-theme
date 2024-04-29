@@ -1,0 +1,52 @@
+.routine .subheading {
+    color: #FF004A;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.routine  h2 {
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+
+.routine figure {
+    overflow: hidden;
+}
+
+.routine .lazyload-bg {
+    border-radius: 20px;
+}
+
+.routine  img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.routine .headings {
+    text-align: center;
+}
+
+.routine .step-item {
+    padding: 20px 20px 30px 30px;
+    border-radius: 20px;
+    background: linear-gradient(84.86deg, #FFF9F1 0%, #F3E6D6 97.65%);
+}
+
+.routine .step-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.routine h3 {
+    color: #FF004A;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 10px;
+}
+
+.routine h4 {
+    font-weight: 500;
+    font-size: 24px;
+}

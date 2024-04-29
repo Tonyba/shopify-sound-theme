@@ -1,0 +1,33 @@
+.horizontal-custom-prod{
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+
+.horizontal-custom-prod h3 {
+    font-weight: 700;
+    font-size: 27px;
+}
+
+
+.horizontal-custom-prod .product-desc {
+    color: #B3B3B3;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.horizontal-custom-prod .product-price {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.horizontal-custom-prod  .button {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.horizontal-custom-prod .stars-rating svg {
+    width: 75px;
+}

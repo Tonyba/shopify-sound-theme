@@ -1,0 +1,270 @@
+.shopify-section--slideshow .prose .h1 {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 3%;
+}
+
+.button--secondary {
+    color: white;
+}
+
+.slideshow__controls .circle-button--bordered {
+    color: white
+}
+
+.relative {
+    position: relative;
+}
+
+.grid {
+    display: grid;
+}
+
+.scroll-wrapper .os-content,
+.flex {
+    display: flex;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-42 {
+    width: 42%;
+}
+
+.w-58 {
+    width: 58%;
+}
+
+
+.w-40 {
+    width: 40%;
+}
+
+.os-scrollbar-handle {
+    background-color: black !important;
+    cursor: grab;
+}
+
+.os-scrollbar-track  {
+    background-color: #D8D8D8 !important;
+}
+
+.os-scrollbar{
+    margin: auto;
+}
+
+
+.top-shop-message {
+    background-color: black;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+.header__link-list li a {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.section:has(.top-shop-message) {
+    padding: 0;
+}
+
+.cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cols-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.align-item-start {
+    align-items: flex-start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.gap-100 {
+    gap: 100px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.button {
+    font-weight: 500;
+}
+
+.splide__arrow--prev svg {
+    transform: scaleX(-1);
+}
+
+
+
+.footer {
+    background-color: black;
+    margin-top: 100px;
+}
+
+.footer * {
+    color: white;
+}
+
+.footer .social-media svg {
+    fill: white
+}
+
+.footer__block-list {
+    gap: 40px
+}
+
+.footer input {
+border-color: white;
+}
+
+.section-wrapper-padding {
+    padding: 100px 0;
+}
+
+.section-wrapper-margin {
+    margin: 100px 0;
+}
+
+.section-wrapper-margin-t {
+    margin-top: 100px;
+}
+
+.section-wrapper-margin-b {
+    margin-bottom: 100px;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.rating-with-text .rating  {
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.subheading {
+    color: #FF004A
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.heading-divider {
+    background-color: #d0d0d0;
+    height: 5px;
+    width: 42px;
+    margin: 20px 0;
+}
+
+.gradient-bg {
+    background: linear-gradient(95.94deg, #F5E8DA 57.87%, #FEF8F0 100%);
+}
+
+.gradient-bg-100 {
+    background: linear-gradient(145.62deg, #F3E6D6 0%, #FEF7EF 100.86%);
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.pt-0 {
+    padding-top: unset;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://cdn.shopify.com/s/files/1/0640/3588/1113/files/ibm-plex-sans-v19-latin-700.woff2?v=1714312269') format('woff2');
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('https://cdn.shopify.com/s/files/1/0640/3588/1113/files/ibm-plex-sans-v19-latin-500.woff2?v=1714307990') format('woff2');
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('https://cdn.shopify.com/s/files/1/0640/3588/1113/files/ibm-plex-sans-v19-latin-300.woff2?v=1714310424') format('woff2');
+}
+
+
+
+@media screen and (min-width: 1150px) {
+    #shopify-section-template--16704955089049__featured-collection .section-header {
+        grid-template-columns: 100%;
+    }
+
+    #shopify-section-template--16704955089049__featured-collection .section-header .prose {
+        margin: auto;
+        font-size: 40px;
+        font-weight: 600;
+    }
+}
+

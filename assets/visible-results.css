@@ -1,0 +1,46 @@
+.visible-results .headings * {
+    font-weight: 500;
+}
+
+.visible-results .image {
+    position: absolute;
+    max-height: 458px;
+    top: 0;
+}
+
+.visible-results .content {
+  max-width: 800px;
+  margin-left: auto;
+}
+
+.visible-results .container  {
+    width: 100%;
+    margin-left: auto;
+}
+
+
+.visible-results .wrapper {
+    padding: 200px 0;
+}
+
+.visible-results h2 {
+    font-size: 50px;
+    margin-bottom: unset;
+}
+
+.visible-results  .subheading {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.visible-results .top-text {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+
+.visible-results .bottom-text {
+    font-size: 18px;
+    color: #777;
+    text-transform: capitalize;
+}

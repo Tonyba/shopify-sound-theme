@@ -1,0 +1,48 @@
+
+
+.safety-body-parts .inner-container {
+    max-width: 700px;
+    background-color: #FF004A0D;
+    padding: 50px 100px 200px 100px;
+    margin: auto;
+    border-radius: 21px;
+}
+
+.safety-body-parts  h2 {
+    text-align: center;
+    margin: auto;
+    max-width: 300px;
+    line-height: 1.2;
+    font-size: 38px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.safety-body-parts  h2 span {
+    color: #FF004A;
+    font-size: 30px;
+}
+
+
+
+.safety-body-parts .left-img,
+.safety-body-parts .right-img {
+    position: absolute;
+    bottom: 0;
+}
+
+.safety-body-parts .left-img {
+    left: 0;
+}
+
+.safety-body-parts .right-img  {
+    right: 0;
+}
+
+.safety-body-parts .left-img  img {
+    width: 500px;
+}
+
+.safety-body-parts .right-img  img {
+    width: 650px;
+}
