@@ -482,6 +482,64 @@
         "title_left": false
       }
     },
+    "routine_FCAXLF": {
+      "type": "routine",
+      "blocks": {
+        "slide_79nNiB": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 1",
+            "subheading": "Clean and dry the skin",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_e76aJ9": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 2",
+            "subheading": "Place the device flat against the skin",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_RkNEwM": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 3",
+            "subheading": "Gently rub the Device in circular Motiin",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_hN8DHD": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 4",
+            "subheading": "Recommended to moisturize The skin After Treatment",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        },
+        "slide_QTXw4e": {
+          "type": "slide",
+          "settings": {
+            "heading": "Step 5",
+            "subheading": "Clean the Device in the end Of Treatment",
+            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+          }
+        }
+      },
+      "block_order": [
+        "slide_79nNiB",
+        "slide_e76aJ9",
+        "slide_RkNEwM",
+        "slide_hN8DHD",
+        "slide_QTXw4e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/80155b74440605d692b97ba6aa0b506d.png",
+        "img_max_height": 0,
+        "heading": "",
+        "subheading": ""
+      }
+    },
     "171434810895cd0ab2": {
       "type": "apps",
       "blocks": {
@@ -518,6 +576,7 @@
     "tiktok_carousel_Q9fTUh",
     "two_cols_price_table_with_image_JjB7wC",
     "product_testimonials_CKWDck",
+    "routine_FCAXLF",
     "171434810895cd0ab2"
   ]
 }
