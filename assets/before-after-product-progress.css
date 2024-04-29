@@ -119,6 +119,10 @@
     flex-direction: column;
 }
 
+.before-after-product-progress .reversed.headings h2 {
+    line-height: 1.2;
+}
+
 .before-after-product-progress .reversed.headings .subheading {
-font-size: 30px;
+    font-size: 30px;
 }
