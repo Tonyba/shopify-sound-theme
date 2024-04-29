@@ -15,16 +15,16 @@
     color: white;
     padding: 7px 15px;
     position: absolute;
-    top: 0;
+    top: 10px;
 }
 
 .review-before-after-item .before-badge {
-    left: 0;
+    left: 10px;
     
 }
 
 .review-before-after-item .after-badge {
-    right: 0;
+    right: 10px;
 }
 
 
