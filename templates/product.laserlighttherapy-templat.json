@@ -273,10 +273,11 @@
         "slide_fiazhy": {
           "type": "slide",
           "settings": {
+            "simple_img": "shopify:\/\/shop_images\/rs_1200x1200-240206102159-thumbnail_1.png",
             "tab_title": "Red Light Therapy",
             "title": "Red Light Therapy",
             "subtitle": "",
-            "text": "Combat Aging Signs: Diminish the appearance of fine lines, wrinkles, and uneven skin tone, revealing a smoother, more youthful complexion.\n\nRejuvenate Your Skin: Stimulate collagen and elastin production, the building blocks of youthful-looking skin, for enhanced elasticity and firmness.\n\nAchieve a Radiant Glow: Revitalize your skin's overall health and radiance, fostering a healthy, glowing appearance.",
+            "text": "<p><strong>Combat Aging Signs:<\/strong> Diminish the appearance of fine lines, wrinkles, and uneven skin tone, revealing a smoother, more youthful complexion.<br\/><br\/><strong>Rejuvenate Your Skin: <\/strong>Stimulate collagen and elastin production, the building blocks of youthful-looking skin, for enhanced elasticity and firmness.<br\/><strong><br\/>Achieve a Radiant Glow:<\/strong> Revitalize your skin's overall health and radiance, fostering a healthy, glowing appearance.<\/p>",
             "progress": 0,
             "before_text": "Before",
             "after_text": "After"
@@ -291,7 +292,7 @@
         "just_simple_image": true,
         "subheading": "Visible Results Within 3 Weeks",
         "bg_color": "#f3f3f3",
-        "drag_cursor_background": "#000"
+        "drag_cursor_background": "#000000"
       }
     }
   },
