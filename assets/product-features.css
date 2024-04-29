@@ -6,7 +6,7 @@
     align-items: center;
     background: linear-gradient(180deg, #FF004A 0%, rgba(255, 102, 153, 0.733333) 100%);
     border-radius: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .product-features h2 {
@@ -32,6 +32,11 @@
 .product-features  .inner-container {
     max-width: 601px;
     margin-left: auto;
+}
+
+.product-features h3 {
+    color: #000;
+    font-size: 17px;
 }
 
 .product-features  .grid-item {
