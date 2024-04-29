@@ -3,236 +3,242 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "slide-2": {
           "type": "image",
           "settings": {
-            "content_max_width": 780,
+            "image": "shopify:\/\/shop_images\/19773397446b797bf372c7bcb6d301ee.png",
+            "content_max_width": 400,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "heading_tag": "h0",
-            "button_text": "",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "With advanced technology, achieving long-lasting results has never been easier. Embrace the convenience and effectiveness of DIY laser hair removal",
+            "title": "Beauty Products At Home 2",
+            "heading_tag": "h1",
+            "button_text": "Shop Now",
             "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
+            "text_color": "#000000",
+            "button_background": "#1a1a1a",
+            "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "slide-1",
         "slide-2"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
         "image_size": "auto",
-        "controls_type": "numbers",
+        "controls_type": "outline_arrows",
         "transition_type": "fade_with_text",
         "autoplay": true,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "image-link-blocks": {
-      "type": "image-link-blocks",
+    "slideshow_cmeXET": {
+      "type": "slideshow",
       "blocks": {
-        "1664424046b00c932c-0": {
-          "type": "item",
+        "image_gePaP7": {
+          "type": "image",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/Banner-_Mobile_0e4135b3-224c-4cde-9050-71ad5bcf418a_1.jpg",
+            "content_max_width": 840,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "With advanced technology, achieving long-lasting results has never been easier. Embrace the convenience and effectiveness of DIY laser hair removal",
+            "title": "Beauty Products At Home 2",
+            "heading_tag": "h1",
+            "button_text": "Shop Now",
+            "button_link": "",
+            "text_color": "#000000",
+            "button_background": "#1a1a1a",
+            "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-1": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
+            "overlay_opacity": 0,
             "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-2": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-3": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "1664424046b00c932c-0",
-        "1664424046b00c932c-1",
-        "1664424046b00c932c-2",
-        "1664424046b00c932c-3",
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
+        "image_gePaP7"
       ],
       "settings": {
-        "full_width": false,
-        "block_size": "medium",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "settings": {
         "full_width": true,
-        "text": "Promotion text",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "outline_arrows",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "collection-list": {
-      "type": "collection-list",
+    "brands_carousel_wMaEte": {
+      "type": "brands-carousel",
       "blocks": {
-        "collection-1": {
-          "type": "collection",
+        "slide_JBgDcE": {
+          "type": "slide",
           "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "image": "shopify:\/\/shop_images\/3bbf467d37c3cb3101c3efeac22258ac.png"
           }
         },
-        "collection-2": {
-          "type": "collection",
+        "slide_WwMFBG": {
+          "type": "slide",
           "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f.png"
           }
         },
-        "collection-3": {
-          "type": "collection",
+        "slide_38cYkM": {
+          "type": "slide",
           "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "image": "shopify:\/\/shop_images\/ad3e2346f4c0ed84b29ccdb325793a37.png"
           }
         }
       },
       "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3"
+        "slide_JBgDcE",
+        "slide_WwMFBG",
+        "slide_38cYkM"
       ],
       "settings": {
-        "full_width": true,
-        "stack_collections": false,
-        "collections_per_row": 3,
-        "show_progress_bar": false,
-        "subheading": "",
-        "title": "Collection list",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "is_autoscroll": true,
+        "carousel_bg": "#f3eadd",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_left": 0,
+        "padding_right": 0
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
+    "two_cols_products_gRDEqC": {
+      "type": "two-cols-products",
       "settings": {
-        "collection": "",
+        "title": "Take Care Of Yourself At Home",
+        "title_alignment": "center",
+        "products": [
+          "skinpetra-high-frequency-therapy",
+          "skinpetra-hair-removal"
+        ],
+        "bg_color": "#f3f3f3",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": "#000000"
+      }
+    },
+    "reviews_scroller_jWQtdn": {
+      "type": "reviews-scroller",
+      "blocks": {
+        "slide_eg7iUF": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/image_18.png"
+          }
+        },
+        "slide_kEy4dF": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/image_19.png"
+          }
+        },
+        "slide_nGhkiF": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/image_18.png"
+          }
+        },
+        "slide_wheM7V": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“I’m enjoying the results!”",
+            "author": "-David Hook",
+            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_img": "shopify:\/\/shop_images\/image_18.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_eg7iUF",
+        "slide_kEy4dF",
+        "slide_nGhkiF",
+        "slide_wheM7V"
+      ],
+      "settings": {
+        "heading": "Trusted by Over <strong>300,000<\/strong> Customers",
+        "text": "See real Customers bare it all and hear about their experience. \u2028As they say, a picture’s worth a thousand hairs.",
+        "btn_text": "See More",
+        "btn_link": "#"
+      }
+    },
+    "product_grid_with_photo_pp868q": {
+      "type": "product-grid-with-photo",
+      "settings": {
+        "bg_color": "#f3f3f3",
+        "heading": "At-Home Products",
+        "col_img": "shopify:\/\/shop_images\/effafaad017dc4d91153eb1eaf4ca50e.jpg",
+        "top_prod": "skinpetra-hair-removal",
+        "bottom_prods": [
+          "crystal-hair-remover",
+          "laser-light-therapy-mask"
+        ]
+      }
+    },
+    "customer_testimonials_7AXfGP": {
+      "type": "customer-testimonials",
+      "blocks": {
+        "slide_wjDD4T": {
+          "type": "slide",
+          "settings": {
+            "testimonial_img": "shopify:\/\/shop_images\/Screenshot_7.png",
+            "testimonial_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "slide_CjyNP4": {
+          "type": "slide",
+          "settings": {
+            "testimonial_img": "shopify:\/\/shop_images\/Screenshot_7.png",
+            "testimonial_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        }
+      },
+      "block_order": [
+        "slide_wjDD4T",
+        "slide_CjyNP4"
+      ],
+      "custom_css": [
+        ".grid.cols-4 {gap: 15px;}"
+      ],
+      "settings": {
+        "heading": "Customer Testimonials",
+        "vid_1": "<blockquote class=\"tiktok-embed\" cite=\"https:\/\/www.tiktok.com\/@pabloelectrum\/video\/7360081977627774213\" data-video-id=\"7360081977627774213\" style=\"max-width: 605px;min-width: 325px;height:580px;\"> <section> <a target=\"_blank\" title=\"@pabloelectrum\" href=\"https:\/\/www.tiktok.com\/@pabloelectrum?refer=embed\">@pabloelectrum<\/a> <a title=\"tomacorriente\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/tomacorriente?refer=embed\">#tomacorriente<\/a> <a title=\"electricidad\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/electricidad?refer=embed\">#electricidad<\/a> <a title=\"cortocircuito\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/cortocircuito?refer=embed\">#cortocircuito<\/a> <a title=\"electricity\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/electricity?refer=embed\">#electricity<\/a> <a title=\"energy\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/energy?refer=embed\">#energy<\/a> <a title=\"enchufe\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/enchufe?refer=embed\">#enchufe<\/a> <a target=\"_blank\" title=\"♬ sonido original - Pablo ELECTRUM\" href=\"https:\/\/www.tiktok.com\/music\/sonido-original-7360082048616057605?refer=embed\">♬ sonido original - Pablo ELECTRUM<\/a> <\/section> <\/blockquote>",
+        "vid_2": "<blockquote class=\"tiktok-embed\" cite=\"https:\/\/www.tiktok.com\/@pabloelectrum\/video\/7360081977627774213\" data-video-id=\"7360081977627774213\" style=\"max-width: 605px;min-width: 325px;height:580px;\"> <section> <a target=\"_blank\" title=\"@pabloelectrum\" href=\"https:\/\/www.tiktok.com\/@pabloelectrum?refer=embed\">@pabloelectrum<\/a> <a title=\"tomacorriente\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/tomacorriente?refer=embed\">#tomacorriente<\/a> <a title=\"electricidad\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/electricidad?refer=embed\">#electricidad<\/a> <a title=\"cortocircuito\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/cortocircuito?refer=embed\">#cortocircuito<\/a> <a title=\"electricity\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/electricity?refer=embed\">#electricity<\/a> <a title=\"energy\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/energy?refer=embed\">#energy<\/a> <a title=\"enchufe\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/enchufe?refer=embed\">#enchufe<\/a> <a target=\"_blank\" title=\"♬ sonido original - Pablo ELECTRUM\" href=\"https:\/\/www.tiktok.com\/music\/sonido-original-7360082048616057605?refer=embed\">♬ sonido original - Pablo ELECTRUM<\/a> <\/section> <\/blockquote>",
+        "vid_3": "<blockquote class=\"tiktok-embed\" cite=\"https:\/\/www.tiktok.com\/@pabloelectrum\/video\/7360081977627774213\" data-video-id=\"7360081977627774213\" style=\"max-width: 605px;min-width: 325px;height:580px;\"> <section> <a target=\"_blank\" title=\"@pabloelectrum\" href=\"https:\/\/www.tiktok.com\/@pabloelectrum?refer=embed\">@pabloelectrum<\/a> <a title=\"tomacorriente\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/tomacorriente?refer=embed\">#tomacorriente<\/a> <a title=\"electricidad\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/electricidad?refer=embed\">#electricidad<\/a> <a title=\"cortocircuito\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/cortocircuito?refer=embed\">#cortocircuito<\/a> <a title=\"electricity\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/electricity?refer=embed\">#electricity<\/a> <a title=\"energy\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/energy?refer=embed\">#energy<\/a> <a title=\"enchufe\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/enchufe?refer=embed\">#enchufe<\/a> <a target=\"_blank\" title=\"♬ sonido original - Pablo ELECTRUM\" href=\"https:\/\/www.tiktok.com\/music\/sonido-original-7360082048616057605?refer=embed\">♬ sonido original - Pablo ELECTRUM<\/a> <\/section> <\/blockquote>",
+        "vid_4": "<blockquote class=\"tiktok-embed\" cite=\"https:\/\/www.tiktok.com\/@pabloelectrum\/video\/7360081977627774213\" data-video-id=\"7360081977627774213\" style=\"max-width: 605px;min-width: 325px;height:580px;\"> <section> <a target=\"_blank\" title=\"@pabloelectrum\" href=\"https:\/\/www.tiktok.com\/@pabloelectrum?refer=embed\">@pabloelectrum<\/a> <a title=\"tomacorriente\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/tomacorriente?refer=embed\">#tomacorriente<\/a> <a title=\"electricidad\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/electricidad?refer=embed\">#electricidad<\/a> <a title=\"cortocircuito\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/cortocircuito?refer=embed\">#cortocircuito<\/a> <a title=\"electricity\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/electricity?refer=embed\">#electricity<\/a> <a title=\"energy\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/energy?refer=embed\">#energy<\/a> <a title=\"enchufe\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/enchufe?refer=embed\">#enchufe<\/a> <a target=\"_blank\" title=\"♬ sonido original - Pablo ELECTRUM\" href=\"https:\/\/www.tiktok.com\/music\/sonido-original-7360082048616057605?refer=embed\">♬ sonido original - Pablo ELECTRUM<\/a> <\/section> <\/blockquote>"
+      }
+    },
+    "featured_collection_new_dgJL97": {
+      "type": "featured-collection-new",
+      "custom_css": [
+        ".section-header {justify-items: end;}"
+      ],
+      "settings": {
+        "collection": "automated-collection",
         "products": [
 
         ],
@@ -241,13 +247,13 @@
         "show_progress_bar": false,
         "products_count": 6,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "Featured collection",
+        "title": "Best Bundles",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
-        "background": "",
+        "link_text": "",
+        "background": "#f3f3f3",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -256,633 +262,52 @@
         "product_card_text_color": ""
       }
     },
-    "impact-text": {
-      "type": "impact-text",
+    "two_cols_img_carousel_7KGijH": {
+      "type": "two-cols-img-carousel",
       "blocks": {
-        "1664424181b38582d5-0": {
-          "type": "item",
+        "slide_RVEGCh": {
+          "type": "slide",
           "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
+            "image": "shopify:\/\/shop_images\/a9b63c188eb1ca2218bd700b30ef32ff_1.png"
+          }
+        },
+        "slide_nkKnez": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a9b63c188eb1ca2218bd700b30ef32ff_1.png"
           }
         }
       },
       "block_order": [
-        "1664424181b38582d5-0"
+        "slide_RVEGCh",
+        "slide_nkKnez"
       ],
       "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "heading": "986,800",
+        "subheading": "Over <span>986,800<\/span> Satisfied Users in 60+ Countries",
+        "text": "Bring your devices together for more personalized help around the home.1 And create automations tailored to your needs to simplify everyday tasks."
       }
     },
-    "image-with-text-overlay": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "1664424230c4756b0e-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "1664424230c4756b0e-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "1664424230c4756b0e-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1664424230c4756b0e-0",
-        "1664424230c4756b0e-1",
-        "1664424230c4756b0e-2"
-      ],
+    "blog_home_loop_ttXaDD": {
+      "type": "blog-home-loop",
       "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "media-grid": {
-      "type": "media-grid",
-      "blocks": {
-        "item-1": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item-2": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item-3": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "29246d34-c6e0-4373-84f6-b15e57736a00": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3",
-        "29246d34-c6e0-4373-84f6-b15e57736a00"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
-    "before-after-image": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Before\/after",
-        "content": "<p>Showcase your product benefit by using before\/after image comparison.<\/p>",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "bottom",
-        "before_text": "Before",
-        "after_text": "After",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff"
-      }
-    },
-    "press": {
-      "type": "press",
-      "blocks": {
-        "16644243327ba53d2a-0": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Share info about what your customers say about your products.",
-            "show_rating": false,
-            "rating": 4
-          }
-        },
-        "16644243327ba53d2a-1": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Or share content about your promotion, offers...",
-            "show_rating": false,
-            "rating": 4
-          }
-        }
-      },
-      "block_order": [
-        "16644243327ba53d2a-0",
-        "16644243327ba53d2a-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
-    "hot-spots": {
-      "type": "hot-spots",
-      "blocks": {
-        "1664424434f5b7d0e0-0": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 70,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
-          }
-        },
-        "1664424434f5b7d0e0-1": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 14,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
-          }
-        },
-        "1664424434f5b7d0e0-2": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 75,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1664424434f5b7d0e0-0",
-        "1664424434f5b7d0e0-1",
-        "1664424434f5b7d0e0-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_url": "",
-        "desktop_text_position": "place-self-start text-start",
-        "image_background": "",
-        "image_background_gradient": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
-        "overlay_button_background": "",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
-      }
-    },
-    "multiple-images-with-text": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "1664424486a2b084ab-0": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "1664424486a2b084ab-1": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1664424486a2b084ab-0",
-        "1664424486a2b084ab-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "images_layout": "scattered",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "featured-product": {
-      "type": "featured-product",
-      "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "variant-picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "quantity-selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy-buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "vendor",
-        "title",
-        "badges",
-        "price",
-        "rating",
-        "separator",
-        "description",
-        "variant-picker",
-        "quantity-selector",
-        "buy-buttons"
-      ],
-      "settings": {
-        "full_width": false,
-        "product": "",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
-    },
-    "feature-chart": {
-      "type": "feature-chart",
-      "blocks": {
-        "16644246508f6fa13a-0": {
-          "type": "headings",
-          "settings": {
-            "heading_1": "Heading 1",
-            "heading_2": "Heading 2",
-            "heading_3": "Heading 3",
-            "heading_4": "Heading 4",
-            "heading_5": "",
-            "heading_6": "",
-            "heading_7": "",
-            "heading_8": "",
-            "heading_9": "",
-            "heading_10": "",
-            "heading_11": "",
-            "heading_12": "",
-            "heading_13": "",
-            "heading_14": "",
-            "heading_15": "",
-            "heading_16": "",
-            "heading_17": "",
-            "heading_18": "",
-            "heading_19": "",
-            "heading_20": ""
-          }
-        },
-        "16644246508f6fa13a-1": {
-          "type": "values",
-          "settings": {
-            "product": "",
-            "value_1": "<p>Yes<\/p>",
-            "value_2": "<p>Yes<\/p>",
-            "value_3": "<p>No<\/p>",
-            "value_4": "<p>No<\/p>",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        },
-        "16644246508f6fa13a-2": {
-          "type": "values",
-          "settings": {
-            "product": "",
-            "value_1": "<p>No<\/p>",
-            "value_2": "<p>Yes<\/p>",
-            "value_3": "<p>Yes<\/p>",
-            "value_4": "<p>No<\/p>",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "16644246508f6fa13a-0",
-        "16644246508f6fa13a-1",
-        "16644246508f6fa13a-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "subheading": "Compare",
-        "title": "Product specification",
-        "content": "<p>Give your customers useful information about your products and showcase differences between them.<\/p>",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "max_rows": 5,
-        "view_all_text": "View all",
-        "view_less_text": "View less",
-        "view_product": "View",
-        "viewing_product": "",
-        "show_product_swatch": true,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "chart_background": "",
-        "chart_text_color": "",
-        "chart_true_false_color": ""
-      }
-    },
-    "faq": {
-      "type": "faq",
-      "blocks": {
-        "166442457738b23caf-0": {
-          "type": "item",
-          "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
-          }
-        },
-        "166442457738b23caf-1": {
-          "type": "item",
-          "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
-          }
-        },
-        "166442457738b23caf-2": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "166442457738b23caf-0",
-        "166442457738b23caf-1",
-        "166442457738b23caf-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "heading": "Blogs",
+        "btn_text": "View All",
+        "btn_link": "shopify:\/\/blogs\/news",
+        "blog_posts": "news"
       }
     }
   },
   "order": [
     "slideshow",
-    "image-link-blocks",
-    "scrolling-text",
-    "collection-list",
-    "featured-collection",
-    "impact-text",
-    "image-with-text-overlay",
-    "media-grid",
-    "before-after-image",
-    "press",
-    "hot-spots",
-    "multiple-images-with-text",
-    "featured-product",
-    "feature-chart",
-    "faq"
+    "slideshow_cmeXET",
+    "brands_carousel_wMaEte",
+    "two_cols_products_gRDEqC",
+    "reviews_scroller_jWQtdn",
+    "product_grid_with_photo_pp868q",
+    "customer_testimonials_7AXfGP",
+    "featured_collection_new_dgJL97",
+    "two_cols_img_carousel_7KGijH",
+    "blog_home_loop_ttXaDD"
   ]
 }
