@@ -99,7 +99,7 @@
 }
 
 
-.before-after-product-progress  {
+.before-after-product-progress .reversed  {
     display: flex;
     flex-direction: column-reverse;
 }
