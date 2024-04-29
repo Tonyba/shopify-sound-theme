@@ -9961,5 +9961,10 @@ homepage mobile css
 #shopify-section-template--16704955089049__product_grid_with_photo_pp868q .grid-item.horizontal-img{width:50%;}
 
 #shopify-section-template--16704955089049__product_grid_with_photo_pp868q .grid-item.horizontal-img img{width:200px!important;}
+
+#shopify-section-template--16704955089049__featured_collection_new_dgJL97 .section-header {justify-content:center;}
+#shopify-section-template--16704955089049__two_cols_img_carousel_7KGijH .cols-2{    grid-template-columns: repeat(1, 1fr);}
+
+
 }
   
