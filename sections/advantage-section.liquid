@@ -1,8 +1,8 @@
 {{ 'advantage-section.css' | asset_url | stylesheet_tag }}
 
 <div class="container" style="background: {{ section.settings.bg_color }} ">
-    <div class="grid cols-2">
-        <div class="grid-item">
+    <div class="flex cols-2">
+        <div class="grid-item w-50">
             <div class="subheading">{{ section.settings.subheading }}</div>
             <h2>{{ section.settings.heading }}</h2>
             {% for item in section.blocks %}  
@@ -15,7 +15,7 @@
                 </div>
             {% endfor %}
         </div>
-        <div class="grid-item">
+        <div class="grid-item w-50">
             {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
         </div>
     </div>
