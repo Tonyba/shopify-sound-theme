@@ -13,3 +13,7 @@
 .tiktok-carousel .splide__arrow--next {
         right: 0;
 }
+
+.tiktok-carousel .splide__arrow svg {
+        fill: white;
+}
