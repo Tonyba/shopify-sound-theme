@@ -5,4 +5,5 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(180deg, #FF004A 0%, rgba(255, 102, 153, 0.733333) 100%);
+    border-radius: 100%;
 }
