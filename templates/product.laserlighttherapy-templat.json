@@ -110,9 +110,33 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "product_features_RcFcRk": {
+      "type": "product-features",
+      "blocks": {
+        "slide_RRDjiD": {
+          "type": "slide",
+          "settings": {
+            "icon": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_RRDjiD"
+      ],
+      "settings": {
+        "bg_color": "",
+        "bg_features_color": "",
+        "image": "shopify:\/\/shop_images\/13277468-1184900048392933_1.png",
+        "heading": "4D Anti-Aging",
+        "subheading": "Reduce Wrinkles and Fine Lines",
+        "text": "Designed to strengthen the skin barrier, boost skin glow.\nClinically proven to reduce wrinkles in just <strong>4 weeks<\/strong>."
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "product_features_RcFcRk"
   ]
 }
