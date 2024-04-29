@@ -118,3 +118,7 @@
     display: flex;
     flex-direction: column;
 }
+
+.before-after-product-progress .reversed.headings .subheading {
+font-size: 30px;
+}
