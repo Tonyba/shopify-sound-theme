@@ -402,6 +402,50 @@
         "heading": "What TikTok Says About Us?",
         "text": "<p>With over 120 Million Views on TikTok, <a href=\"#\" target=\"_blank\" title=\"#\">#SkinPetra<\/a> products are loved and trusted by many. Check out some of The Most Popular Videos<\/p>"
       }
+    },
+    "press_carousel_w784jj": {
+      "type": "press-carousel",
+      "blocks": {
+        "slide_YJ9UM4": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/ad3e2346f4c0ed84b29ccdb325793a37.png"
+          }
+        },
+        "slide_MPQAP4": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
+          }
+        },
+        "slide_9naAjg": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f_53fc781b-f018-4ca2-b71b-e9ba8a057813.png"
+          }
+        },
+        "slide_GyzGgP": {
+          "type": "slide",
+          "settings": {
+            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "image": "shopify:\/\/shop_images\/3bbf467d37c3cb3101c3efeac22258ac.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_YJ9UM4",
+        "slide_MPQAP4",
+        "slide_9naAjg",
+        "slide_GyzGgP"
+      ],
+      "settings": {
+        "is_autoscroll": true,
+        "heading": "Hot Off the Press",
+        "subheading": ""
+      }
     }
   },
   "order": [
@@ -411,6 +455,7 @@
     "advantage_section_fKnB8K",
     "before_after_product_progress_xnAMP9",
     "routine_Hqaqak",
-    "tiktok_carousel_BcmmjV"
+    "tiktok_carousel_BcmmjV",
+    "press_carousel_w784jj"
   ]
 }
