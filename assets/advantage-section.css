@@ -16,6 +16,10 @@
     color: #3d3d3d;
 }
 
+.advantage-section  .icon {
+    padding-top: 0.5px;
+}
+
 .advantage-section .grid-item:first-child {
     padding: 70px 30px 70px 50px;
 }
