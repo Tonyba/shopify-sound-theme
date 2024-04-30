@@ -299,6 +299,10 @@ border-color: white;
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .tablet-cols-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .gap-20-tablet {
         gap: 20px;
     }
