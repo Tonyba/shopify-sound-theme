@@ -44,3 +44,11 @@
     color: #777;
     text-transform: capitalize;
 }
+
+
+@media only screen and (max-width: 1024px) {
+    .visible-results .image {
+        max-width: 400px;
+    }
+}
+
