@@ -392,8 +392,8 @@
         "slide_NVGdBh": {
           "type": "slide",
           "settings": {
-            "is_in_loop": false,
-            "full_width": true,
+            "is_in_loop": true,
+            "full_width": false,
             "allow_transparent_header": false,
             "autoplay": false,
             "video_size": "auto",
@@ -407,8 +407,8 @@
         "slide_DNKtF3": {
           "type": "slide",
           "settings": {
-            "is_in_loop": false,
-            "full_width": true,
+            "is_in_loop": true,
+            "full_width": false,
             "allow_transparent_header": false,
             "autoplay": false,
             "video_size": "auto",
@@ -422,8 +422,8 @@
         "slide_caAKTk": {
           "type": "slide",
           "settings": {
-            "is_in_loop": false,
-            "full_width": true,
+            "is_in_loop": true,
+            "full_width": false,
             "allow_transparent_header": false,
             "autoplay": false,
             "video_size": "auto",
@@ -437,8 +437,8 @@
         "slide_Mfdgb7": {
           "type": "slide",
           "settings": {
-            "is_in_loop": false,
-            "full_width": true,
+            "is_in_loop": true,
+            "full_width": false,
             "allow_transparent_header": false,
             "autoplay": false,
             "video_size": "auto",
@@ -452,8 +452,8 @@
         "slide_R4nLix": {
           "type": "slide",
           "settings": {
-            "is_in_loop": false,
-            "full_width": true,
+            "is_in_loop": true,
+            "full_width": false,
             "allow_transparent_header": false,
             "autoplay": false,
             "video_size": "auto",
@@ -467,8 +467,8 @@
         "slide_8zfrtt": {
           "type": "slide",
           "settings": {
-            "is_in_loop": false,
-            "full_width": true,
+            "is_in_loop": true,
+            "full_width": false,
             "allow_transparent_header": false,
             "autoplay": false,
             "video_size": "auto",
