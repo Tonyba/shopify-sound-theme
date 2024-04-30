@@ -275,6 +275,12 @@ border-color: white;
 }
 
 @media screen and (max-width: 1024px) { 
+
+    
+    .footer .footer__block {
+        flex-basis: 50%;        
+    }
+
     .column-lg-tablet {
         flex-direction: column;
     }
