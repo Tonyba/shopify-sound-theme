@@ -65,4 +65,8 @@
         .tiktok-carousel .splide .splide__slide .content-over-media {
                 height: 300px;
         }
+
+        .tiktok-carousel .splide__arrow--prev {
+                left: -15px;
+        }
 }
