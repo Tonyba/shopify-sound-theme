@@ -279,6 +279,10 @@ border-color: white;
         flex-direction: column;
     }
 
+    .flex-lg-tablet {
+        display: flex;
+    }
+
     .column-lg-tablet-reversed {
         flex-direction: column-reverse;
     }
