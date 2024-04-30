@@ -63,7 +63,7 @@
     .product-features .image {
         width: 50%;
         top: unset;
-        bottom: 0;
+        bottom: 300px;
     }
 }
 
