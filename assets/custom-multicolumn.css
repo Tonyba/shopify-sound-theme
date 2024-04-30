@@ -41,6 +41,10 @@
     }
 
     .custom-multicolumn h3 {
-        font-size: 20px;
+        font-size: 17px;
+    }
+
+    .custom-multicolumn p {
+        font-size: 15px;
     }
 }
