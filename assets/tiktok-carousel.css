@@ -52,11 +52,11 @@
 }
 
 
-.tiktok-carousel .videos .grid-item > .section {
+.tiktok-carousel .splide .splide__slide > .section {
         padding: unset;
 }
 
-.tiktok-carousel .videos .grid-item .content-over-media {
+.tiktok-carousel .splide .splide__slide .content-over-media {
   height: 500px;
 
 }
