@@ -82,4 +82,12 @@
     .tab-content-list .tabs-header{
         margin-bottom: 20px;
     }
+
+    .tab-content-list h2  {
+        font-size: 25px;
+    }
+
+    .tab-content-list .tabs-header button {
+        font-size: 14px;
+    }
 }
