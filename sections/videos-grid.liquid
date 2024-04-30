@@ -5,7 +5,7 @@
     <div class="container">
         <h2>{{ section.settings.heading }}</h2>
         
-        <div class="videos grid cols-4 gap-20">
+        <div class="videos grid cols-4 gap-20 scroll-wrapper">
             {% for item in section.blocks %}
                 <div class="grid-item">
                     {% render 'video-item' video: item %}
