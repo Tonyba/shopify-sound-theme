@@ -206,18 +206,10 @@
           "type": "play",
           "settings": {
           }
-        },
-        "heading_bUg3Hj": {
-          "type": "heading",
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h1"
-          }
         }
       },
       "block_order": [
-        "play_EpEXqi",
-        "heading_bUg3Hj"
+        "play_EpEXqi"
       ],
       "settings": {
         "full_width": false,
