@@ -52,4 +52,11 @@
 }
 
 
+.tiktok-carousel .videos .grid-item > .section {
+        padding: unset;
+}
 
+.tiktok-carousel .videos .grid-item .content-over-media {
+  height: 500px;
+
+}
