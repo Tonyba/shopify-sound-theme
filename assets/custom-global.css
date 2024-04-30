@@ -280,5 +280,9 @@ border-color: white;
         flex-grow: 1;
         min-width: 237px;
     }
+
+    .d-none-mobile {
+        display: none;
+    }
     
 }
