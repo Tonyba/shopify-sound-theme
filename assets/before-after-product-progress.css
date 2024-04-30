@@ -162,5 +162,9 @@
         font-size: 15px;
         padding: 10px 0;
     }
+
+    .before-after-product-progress .tabs-header  {
+       margin-bottom: 30px; 
+    }
 }
 
