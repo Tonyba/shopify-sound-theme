@@ -73,11 +73,13 @@
 
     .product-features .section-wrapper-padding {
         padding-bottom: 0;
+        padding-top: 100px;
     }
 
     .product-features .inner-container{
         position: relative;
         z-index: 10;
+        margin: unset;
     }
 }
 
