@@ -52,11 +52,11 @@
 
 @media only screen and (max-width: 1440px) {
     .safety-body-parts .left-img  img {
-        width:50%;
+        width:35%;
     }
     
     .safety-body-parts .right-img  img {
-        width:50%;
+        width:40%;
     }
     
 }
