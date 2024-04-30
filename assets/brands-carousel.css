@@ -26,3 +26,10 @@
     right: 0;
     transform: rotate(-180deg);
 }
+
+@media only screen and (max-width: 767px) {
+    .brands-carousel:after,
+    .brands-carousel:before {
+        width: 50px;
+    }
+}
