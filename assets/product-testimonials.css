@@ -20,3 +20,8 @@
 }
 
 
+@media only screen and (max-width: 767px) {
+    .product-tesminonials h2 {
+        font-size: 25px;
+    }
+}
