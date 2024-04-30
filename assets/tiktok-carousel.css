@@ -69,4 +69,8 @@
         .tiktok-carousel .splide__arrow--prev {
                 left: -15px;
         }
+
+        .tiktok-carousel .splide__arrow--next  {
+                right: -15px;
+        }
 }
