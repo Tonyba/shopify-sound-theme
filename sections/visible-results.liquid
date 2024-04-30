@@ -1,6 +1,6 @@
 {{ 'visible-results.css' | asset_url | stylesheet_tag }}
 
-<div class="wrapper flex gap-40  mobile-cols-1  column-lg-tablet-reversed align-item-center relative" style="background:{{ section.settings.bg_color }}" >
+<div class="wrapper flex gap-40   column-lg-tablet-reversed align-item-center relative" style="background:{{ section.settings.bg_color }}" >
 
     <div class="image">
         {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
@@ -13,7 +13,7 @@
                 <div class="subheading">{{ section.settings.subheading }}</div>
             </div>
 
-            <div class="grid cols-3 gap-40">
+            <div class="grid mobile-cols-1  cols-3 gap-40">
                 {% for item in section.blocks %}
                     <div class="grid-item center">
                         <h3 class="top-text">{{ item.settings.top_text }}</h3>
