@@ -342,6 +342,9 @@ compare-at-price {
 @media only screen and (max-width: 1000px) {
     .right-left-section-single .multiple-images-with-text {
         gap: 20px ;
+    }
+
+    .right-left-section-single .multiple-images-with-text .prose * {
         text-align: left;
     }
 }
