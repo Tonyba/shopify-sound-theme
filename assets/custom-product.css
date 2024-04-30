@@ -366,7 +366,7 @@ compare-at-price {
         padding-right: 0 !important;
     }
 
-    .right-left-section.reversed {
-
+    .right-left-section.reversed multiple-images-with-text-image-list {
+        order: unset !important;
     }
 }
