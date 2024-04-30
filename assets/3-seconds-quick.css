@@ -61,6 +61,10 @@
         padding: 20px;
     }
 
+    .three-seconds-heat .stage-item .text {
+        font-size: 30px;
+    }
+
     .three-seconds-heat .section-wrapper-padding:after {
 
 
