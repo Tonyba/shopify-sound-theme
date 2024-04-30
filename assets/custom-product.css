@@ -354,10 +354,14 @@ compare-at-price {
 }
 
 @media only screen and (max-width: 767px) {
+
     .right-left-section-single .multiple-images-with-text,
     .right-left-section .multiple-images-with-text {
        grid-template-columns: repeat(1, 1fr);
     }
 
-
+    .right-left-section .multiple-images-with-text__content-list {
+        padding-left: 0;
+        padding-top: 50px;
+    }
 }
