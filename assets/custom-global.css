@@ -279,7 +279,7 @@ border-color: white;
         flex-direction: column;
     }
 
-    .column-lg-reversed {
+    .column-lg-tablet-reversed {
         flex-direction: column-reverse;
     }
 }
