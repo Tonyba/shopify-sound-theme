@@ -368,8 +368,8 @@
         "slide_RkNGA6": {
           "type": "slide",
           "settings": {
-            "is_in_loop": false,
-            "full_width": true,
+            "is_in_loop": true,
+            "full_width": false,
             "allow_transparent_header": false,
             "autoplay": false,
             "video_size": "auto",
@@ -383,8 +383,8 @@
         "slide_HaRFWT": {
           "type": "slide",
           "settings": {
-            "is_in_loop": false,
-            "full_width": true,
+            "is_in_loop": true,
+            "full_width": false,
             "allow_transparent_header": false,
             "autoplay": false,
             "video_size": "auto",
@@ -398,8 +398,8 @@
         "slide_7ALhUL": {
           "type": "slide",
           "settings": {
-            "is_in_loop": false,
-            "full_width": true,
+            "is_in_loop": true,
+            "full_width": false,
             "allow_transparent_header": false,
             "autoplay": false,
             "video_size": "auto",
