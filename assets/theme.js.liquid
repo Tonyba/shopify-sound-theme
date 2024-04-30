@@ -4291,35 +4291,4 @@ export {
   waitForEvent
 };
 
-document.addEventListener('DOMContentLoaded', function() {
-    const addToCartButtons = document.querySelectorAll('.add-to-cart-button');
 
-    addToCartButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            const productId = this.getAttribute('data-product-id');
-            const quantity = parseInt(this.getAttribute('data-quantity'), 10);
-
-            fetch('/cart/add.js', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    items: [{
-                        id: productId,
-                        quantity: quantity
-                    }]
-                })
-            })
-            .then(response => response.json())
-            .then(data => {
-                alert('Product added to cart');
-                console.log(data);
-                // Optionally, update cart count or display a confirmation
-            })
-            .catch((error) => {
-                console.error('Error:', error);
-            });
-        });
-    });
-});
