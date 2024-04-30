@@ -58,5 +58,11 @@
 
 .tiktok-carousel .splide .splide__slide .content-over-media {
   height: 500px;
+}
 
+
+@media only screen and (max-width: 767px) {
+        .tiktok-carousel .splide .splide__slide .content-over-media {
+                height: 300px;
+        }
 }
