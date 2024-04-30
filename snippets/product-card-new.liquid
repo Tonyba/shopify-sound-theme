@@ -204,11 +204,7 @@ Supported variables
             {%- form 'product', product, is: 'product-form' -%}
               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
 
-              <div class="pointer-fine:hidden">
-                <button type="submit" is="custom-button" class="product-card__mobile-quick-buy-button" aria-label="{{ quick_add_label | escape }}">
-                  {%- render 'icon' with 'quick-buy-cart' -%}
-                </button>
-              </div>
+           
 
               <div class="pointer-coarse:hidden">
                 {%- render 'button', type: 'submit', content: quick_add_label -%}
@@ -217,11 +213,7 @@ Supported variables
           {%- else -%}
             {%- capture quick_buy_id -%}quick-buy-{{ section.id }}-{{ product.id }}{%- endcapture -%}
 
-            <div class="pointer-fine:hidden">
-              <button type="button" aria-controls="{{ quick_buy_id }}" aria-expanded="false" aria-label="{{ quick_add_label | escape }}" is="custom-button" class="product-card__mobile-quick-buy-button">
-                {%- render 'icon' with 'quick-buy-cart' -%}
-              </button>
-            </div>
+           
 
             <div class="pointer-coarse:hidden">
               {%- render 'button', content: quick_add_label, aria_controls: quick_buy_id -%}
