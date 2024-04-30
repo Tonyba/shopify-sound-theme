@@ -7,11 +7,11 @@
     }
 </style>
 
-<div class="flex gap-40 container">
-    <div class="w-50 lazyload-bg" data-src="{{ section.settings.image | image_url }}">
+<div class="grid cols-2 gap-40 container">
+    <div class="grid-item lazyload-bg" data-src="{{ section.settings.image | image_url }}">
        
     </div>
-    <div class="w-50">
+    <div class="grid-item">
         <div class="subheading">{{ section.settings.subheading }}</div>
         <h2>{{ section.settings.heading }}</h2>
         <div class="heading-divider"></div>
