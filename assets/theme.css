@@ -9938,7 +9938,7 @@ transform: translateX(-50%) translateY(-15%)!important;
 }
   .color-swatch{border-radius: 100%;}
 .bottombuttos{gap:20px;}
-#shopify-section-template--16704955089049__two_cols_products_gRDEqC .pointer-coarse:hidden{width: 100%;
+#shopify-section-template--16704955089049__two_cols_products_gRDEqC .pointer-coarse{width: 100%;
     text-align: center;
     background-color: #1A1A1A!important;
     border-radius: 100px;}
@@ -9980,7 +9980,7 @@ homepage mobile css
     width: 50%;
     right: 0;}
 
-#shopify-section-template--16704955089049__two_cols_products_gRDEqC .pointer-coarse:hidden{width: 100%;
+#shopify-section-template--16704955089049__two_cols_products_gRDEqC .pointer-coarse{width: 100%;
     text-align: center;
     background-color: #1A1A1A;
     border-radius: 100px;}
