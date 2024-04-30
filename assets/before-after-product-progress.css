@@ -151,10 +151,11 @@
 
     .before-after-product-progress h2 {
         font-size: 30px;
+        margin-bottom: 20px;
     }
 
-    .before-after-product-progress .subheading {
-        font-size:17px;
+    .before-after-product-progress h3.subheading {
+        font-size:20px;
     }
 
     .before-after-product-progress .tabs-header button  {
