@@ -62,7 +62,8 @@
         min-height: 350px;
     }
 
-    .routine .headings  h2.heading { 
-        font-size: 30px;
+    .routine   h4 { 
+        margin-bottom: 15px;
+        font-size: 25px;
     }
 }
