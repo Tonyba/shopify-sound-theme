@@ -56,7 +56,14 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+    .three-seconds-heat .stage-item {
+        padding: 20px;
+    }
+
     .three-seconds-heat .section-wrapper-padding:after {
+
+
         opacity: 0.5;
         z-index: 1;
     }
