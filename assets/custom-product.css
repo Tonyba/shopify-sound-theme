@@ -361,7 +361,7 @@ compare-at-price {
     }
 
     .right-left-section .multiple-images-with-text__content-list {
-        padding-left: 0;
-        padding-top: 50px;
+        padding-left: 0 !important;
+        padding-top: 50px !important;
     }
 }
