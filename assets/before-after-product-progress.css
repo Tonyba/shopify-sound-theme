@@ -146,3 +146,10 @@
         font-size: 18px;
     }
 }
+
+@media only screen and (max-width: 767px) {
+    .before-after-product-progress .tabs-header button  {
+        font-size: 15px;
+    }
+}
+

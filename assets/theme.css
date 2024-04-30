@@ -9940,7 +9940,7 @@ transform: translateX(-50%) translateY(-15%)!important;
 .bottombuttos{gap:20px;}
 #shopify-section-template--16704955089049__two_cols_products_gRDEqC .pointer-coarse:hidden{width: 100%;
     text-align: center;
-    background-color: #1A1A1A;
+    background-color: #1A1A1A!important;
     border-radius: 100px;}
 
 /**
