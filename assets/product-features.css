@@ -79,7 +79,8 @@
     .product-features .inner-container{
         position: relative;
         z-index: 10;
-        margin: unset;
+        margin: auto;
+        margin-bottom: 50px;
     }
 }
 
