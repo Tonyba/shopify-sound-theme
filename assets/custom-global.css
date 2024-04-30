@@ -295,6 +295,11 @@ border-color: white;
 
 @media screen and (max-width: 768px) {
 
+
+    .column-mobile {
+        flex-direction: column;
+    }
+
     .tablet-cols-1 {
         grid-template-columns: repeat(1, 1fr);
     }
