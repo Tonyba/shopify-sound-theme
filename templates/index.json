@@ -220,7 +220,7 @@
         "heading_bUg3Hj"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
