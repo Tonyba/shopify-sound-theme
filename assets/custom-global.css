@@ -25,6 +25,10 @@
     display: flex;
 }
 
+.w-25 {
+    width: 25%;
+}
+
 .w-65 {
     width: 65%;
 }
