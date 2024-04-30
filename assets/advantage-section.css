@@ -33,3 +33,9 @@
 .advantage-section  h2 {
     font-weight: 500;
 }
+
+@media only screen and (max-width: 767px) {
+    .advantage-section .grid-item:first-child {
+        padding:  40px 30px;
+    }
+}
