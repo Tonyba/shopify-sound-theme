@@ -28,4 +28,8 @@
     .big-img-section img  {
         margin: unset;
     }
+
+    .big-img-section h2  {
+        font-size: 30px;
+    }
 }
