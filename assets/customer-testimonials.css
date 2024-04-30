@@ -94,3 +94,11 @@
 .testimonial-carousel .splide__pagination button.is-active {
     background-color: black;
 }
+
+@media only screen and (max-width: 767px) {
+    
+    .testimonial-carousel .testimonial-text {
+        font-size: 18px;
+    }
+
+}
