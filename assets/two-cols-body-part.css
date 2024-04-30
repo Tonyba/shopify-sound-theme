@@ -31,14 +31,3 @@
     background: #f3f3f3;
 }
 
-
-@media only screen and (max-width: 768px) {
-    .three-seconds-heat .section-wrapper-padding:after {
-        opacity: 0.5;
-        z-index: 1;
-    }
-
-    .three-seconds-heat .z-1 {
-        z-index: 2;
-    }
-}
