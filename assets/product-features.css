@@ -89,7 +89,9 @@
     .product-features .inner-container {
         text-align: left;
     }
-
+    .product-features .section-wrapper-padding {
+        padding-top: 50px;
+    }
     
     .product-features h2 {
         font-size: 35px;
