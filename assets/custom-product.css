@@ -344,8 +344,8 @@ compare-at-price {
         gap: 20px ;
     }
 
-    .right-left-section .multiple-images-with-text .prose * {
-        text-align: left;
+    .right-left-section .prose * {
+        text-align: left !important;
     }
 }
 
