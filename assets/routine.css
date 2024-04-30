@@ -61,4 +61,8 @@
     .routine .lazyload-bg {
         min-height: 350px;
     }
+
+    .routine  h2 { 
+        font-size: 30px;
+    }
 }
