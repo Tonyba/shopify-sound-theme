@@ -57,5 +57,10 @@
         max-width: 100%;
         padding: 0 20px;
     }
+
+
+    .visible-results .wrapper {
+        padding-bottom: 0;
+    }
 }
 
