@@ -89,4 +89,14 @@
     .product-features .inner-container {
         text-align: left;
     }
+
+    
+    .product-features h2 {
+        font-size: 35px;
+    }
+
+    .product-features h3 {
+        font-size: 25px;
+    }
+
 }
