@@ -533,7 +533,7 @@
       ],
       "settings": {
         "full_width": true,
-        "extra_css_class": "right-left-section",
+        "extra_css_class": "right-left-section reversed",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",

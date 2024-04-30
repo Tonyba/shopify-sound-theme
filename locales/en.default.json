@@ -69,7 +69,7 @@
     "general": {
       "description": "Description",
       "view_product": "View product",
-      "quick_add": "+ Quick add",
+      "quick_add": "Add to cart",
       "add_to_cart_short": "+ Add",
       "add_to_cart_button": "Add to cart",
       "pre_order_button": "Pre-order",
