@@ -279,6 +279,7 @@ border-color: white;
     
     .footer .footer__block {
         flex-basis: 50%;        
+        flex-wrap: wrap;
     }
 
     .column-lg-tablet {
