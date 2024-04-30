@@ -199,32 +199,6 @@
         ]
       }
     },
-    "video_tDapmY": {
-      "type": "video",
-      "blocks": {
-        "play_EpEXqi": {
-          "type": "play",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "play_EpEXqi"
-      ],
-      "settings": {
-        "is_in_loop": false,
-        "full_width": false,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "video": "shopify:\/\/files\/videos\/Snaptik.app_7262147424884378885.mp4",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "poster": "shopify:\/\/shop_images\/Glow-Therapy-LED-Face-Mask-Best-Red-Light_1.png",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "customer_testimonials_7AXfGP": {
       "type": "customer-testimonials",
       "blocks": {
@@ -251,11 +225,7 @@
         ".grid.cols-4 {gap: 15px;}"
       ],
       "settings": {
-        "heading": "Customer Testimonials",
-        "vid_1": "",
-        "vid_2": "",
-        "vid_3": "",
-        "vid_4": ""
+        "heading": ""
       }
     },
     "featured_collection_new_dgJL97": {
@@ -331,7 +301,6 @@
     "two_cols_products_gRDEqC",
     "reviews_scroller_jWQtdn",
     "product_grid_with_photo_pp868q",
-    "video_tDapmY",
     "customer_testimonials_7AXfGP",
     "featured_collection_new_dgJL97",
     "two_cols_img_carousel_7KGijH",
