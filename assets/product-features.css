@@ -61,7 +61,8 @@
 
 @media only screen and (max-width: 1024px) {
     .product-features .image {
-        position: unset;
+        top: 0;
+        bottom: 0;
     }
 }
 
