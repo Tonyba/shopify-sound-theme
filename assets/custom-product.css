@@ -371,4 +371,8 @@ compare-at-price {
     .right-left-section .h1 {
         font-size: 30px !important;
     }
+
+    .right-left-section  .h1 + p{
+        font-size: 17px !important;
+    }
 }
