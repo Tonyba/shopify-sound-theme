@@ -354,6 +354,7 @@ compare-at-price {
 }
 
 @media only screen and (max-width: 767px) {
+    .right-left-section-single .multiple-images-with-text,
     .right-left-section .multiple-images-with-text {
        grid-template-columns: repeat(1, 1fr);
     }
