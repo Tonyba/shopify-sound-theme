@@ -37,7 +37,8 @@
 
 .safety-body-parts .right-img  {
     right: 0;
-    text-align: right;
+   display: flex;
+   justify-content: flex-end;
 }
 
 .safety-body-parts .left-img  img {
