@@ -141,4 +141,8 @@
         width: 70px;
         height: 70px;
     }
+
+    .before-after-product-progress  p {
+        font-size: 18px;
+    }
 }
