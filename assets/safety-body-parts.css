@@ -46,3 +46,14 @@
 .safety-body-parts .right-img  img {
     width: 650px;
 }
+
+@media only screen and (max-width: 1440px) {
+    .safety-body-parts .left-img  img {
+        width:25%;
+    }
+    
+    .safety-body-parts .right-img  img {
+        width: 25%;
+    }
+    
+}
