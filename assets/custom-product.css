@@ -367,4 +367,8 @@ compare-at-price {
     .right-left-section.reversed multiple-images-with-text-image-list {
         order: unset !important;
     }
+
+    .right-left-section .h1 {
+        font-size: 30px !important;
+    }
 }
