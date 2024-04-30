@@ -274,6 +274,12 @@ border-color: white;
     }
 }
 
+@media screen and (max-width: 1024px) { 
+    .column-lg-tablet {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .multiple-images-with-text {
         margin-inline-start: unset;
