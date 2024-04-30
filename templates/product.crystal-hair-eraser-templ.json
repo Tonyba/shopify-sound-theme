@@ -364,11 +364,59 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
+        },
+        "slide_RkNGA6": {
+          "type": "slide",
+          "settings": {
+            "is_in_loop": false,
+            "full_width": true,
+            "allow_transparent_header": false,
+            "autoplay": false,
+            "video_size": "auto",
+            "video": "shopify:\/\/files\/videos\/Snaptik.app_7262147424884378885.mp4",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "slide_HaRFWT": {
+          "type": "slide",
+          "settings": {
+            "is_in_loop": false,
+            "full_width": true,
+            "allow_transparent_header": false,
+            "autoplay": false,
+            "video_size": "auto",
+            "video": "shopify:\/\/files\/videos\/Snaptik.app_7262147424884378885.mp4",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "slide_7ALhUL": {
+          "type": "slide",
+          "settings": {
+            "is_in_loop": false,
+            "full_width": true,
+            "allow_transparent_header": false,
+            "autoplay": false,
+            "video_size": "auto",
+            "video": "shopify:\/\/files\/videos\/Snaptik.app_7262147424884378885.mp4",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
         "slide_ULPLBD",
-        "slide_hXzW4e"
+        "slide_hXzW4e",
+        "slide_RkNGA6",
+        "slide_HaRFWT",
+        "slide_7ALhUL"
       ],
       "settings": {
         "heading": "What TikTok Says About Us?",
