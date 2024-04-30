@@ -50,6 +50,7 @@
     .visible-results .image {
        position: static;
         top: unset;
+        max-height: unset;
     }
 }
 
