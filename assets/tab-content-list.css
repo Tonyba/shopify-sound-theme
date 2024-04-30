@@ -77,3 +77,9 @@
     color: #000;
     line-height: 1;
 }
+
+@media only screen and (max-width: 767px) {
+    .tab-content-list .tabs-header {
+        margin-bottom: 20px;
+    }
+}
