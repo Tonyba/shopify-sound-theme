@@ -62,7 +62,7 @@
         min-height: 350px;
     }
 
-    .routine  h2.heading { 
+    .routine .headings  h2.heading { 
         font-size: 30px;
     }
 }
