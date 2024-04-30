@@ -9284,7 +9284,7 @@ split-lines {
 
 @media not screen and (pointer: fine) {
   .pointer-coarse\:hidden {
-    display: none;
+    display: block;
   }
 
   .pointer-coarse\:block {
