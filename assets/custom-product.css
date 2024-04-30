@@ -344,7 +344,7 @@ compare-at-price {
         gap: 20px ;
     }
 
-    .right-left-section .prose * {
+    .right-left-section  p {
         text-align: left !important;
     }
 }
