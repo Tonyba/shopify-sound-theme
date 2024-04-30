@@ -47,4 +47,8 @@
     .custom-multicolumn p {
         font-size: 15px;
     }
+
+    .custom-multicolumn img {
+        height: 250px;
+    }
 }
