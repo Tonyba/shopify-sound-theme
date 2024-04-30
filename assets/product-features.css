@@ -64,6 +64,10 @@
         position: unset;
     }
 
+    .product-features .section-wrapper-padding {
+        padding-bottom: 0;
+    }
+
     .product-features .inner-container{
         position: relative;
         z-index: 10;
