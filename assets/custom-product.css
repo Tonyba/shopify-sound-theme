@@ -341,6 +341,6 @@ compare-at-price {
 
 @media only screen and (max-width: 768px) {
     .right-left-section-single .multiple-images-with-text {
-        gap: 50px !important;
+        gap: 20px ;
     }
 }
