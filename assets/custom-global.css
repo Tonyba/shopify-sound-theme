@@ -274,7 +274,7 @@ border-color: white;
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
 
     .table-cols-1 {
         grid-template-columns: repeat(1, 1fr);
