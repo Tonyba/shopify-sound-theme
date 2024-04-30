@@ -205,8 +205,8 @@
       ],
       "settings": {
         "heading": "Results From Our Satisfied Customers",
-        "before_text": "",
-        "after_text": "",
+        "before_text": "Before",
+        "after_text": "After",
         "title_left": true
       }
     },
