@@ -126,3 +126,10 @@
 .before-after-product-progress .reversed.headings .subheading {
     font-size: 30px;
 }
+
+
+@media only screen and (max-width: 1024px) {
+    .before-after-product-progress .tab-content-subtitle {
+        font-size: 25px;
+    }
+}
