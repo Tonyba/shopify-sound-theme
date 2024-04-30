@@ -37,6 +37,7 @@
 
 .safety-body-parts .right-img  {
     right: 0;
+    text-align: right;
 }
 
 .safety-body-parts .left-img  img {
@@ -45,6 +46,7 @@
 
 .safety-body-parts .right-img  img {
     width: 650px;
+
 }
 
 @media only screen and (max-width: 1440px) {
