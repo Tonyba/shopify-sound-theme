@@ -1,6 +1,6 @@
 {{ 'visible-results.css' | asset_url | stylesheet_tag }}
 
-<div class="wrapper flex column-lg-tablet align-item-center relative" style="background:{{ section.settings.bg_color }}" >
+<div class="wrapper flex column-lg-reversed align-item-center relative" style="background:{{ section.settings.bg_color }}" >
 
     <div class="image">
         {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}

@@ -278,6 +278,10 @@ border-color: white;
     .column-lg-tablet {
         flex-direction: column;
     }
+
+    .column-lg-reversed {
+        flex-direction: column-reverse;
+    }
 }
 
 @media screen and (max-width: 1000px) {
