@@ -4,10 +4,10 @@
     <div class="container">
         
         <div class="grid cols-2 gap-40">
-            <div class="grid-item">
-                <figure>
-                    {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
-                </figure>
+            <div class="grid-item lazyload-bg" data-src="{{ section.settings.image | image_url }}">
+    
+             
+                
             </div>
             <div class="grid-item">
                 <h2>{{ section.settings.heading }}</h2>
