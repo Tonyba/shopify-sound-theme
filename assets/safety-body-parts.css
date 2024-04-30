@@ -58,5 +58,9 @@
     .safety-body-parts .right-img  img {
         width:40%;
     }
+
+    .safety-body-parts .inner-container {
+        padding: 40px 0 0 0;
+    }
     
 }
