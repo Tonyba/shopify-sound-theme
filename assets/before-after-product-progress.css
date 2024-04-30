@@ -132,4 +132,8 @@
     .before-after-product-progress .tab-content-subtitle {
         font-size: 25px;
     }
+
+    .before-after-product-progress .tab-content-title {
+        font-size: 30px;
+    }
 }
