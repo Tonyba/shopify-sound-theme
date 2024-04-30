@@ -39,4 +39,8 @@
     .custom-multicolumn .grid-item {
         padding: 10px;
     }
+
+    .custom-multicolumn h3 {
+        font-size: 20px;
+    }
 }
