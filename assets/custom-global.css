@@ -335,4 +335,8 @@ border-color: white;
     .cols-2-mobile {
         grid-template-columns: repeat(2, 1fr) !important;
     }
+
+    h2 {
+        line-height: 1.2;
+    }
 }
