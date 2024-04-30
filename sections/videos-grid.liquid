@@ -5,7 +5,9 @@
         
         <div class="videos grid cols-4">
             {% for item in section.blocks %}
-                
+                <div class="grid-item">
+                    {% render 'video-item' video: item %}
+                </div>
             {% endfor %}
         </div>
     </div>
