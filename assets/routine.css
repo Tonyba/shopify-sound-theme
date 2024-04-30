@@ -52,7 +52,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .routine {
-        
+    .routine .lazyload-bg {
+        min-height: 500px;
     }
 }
