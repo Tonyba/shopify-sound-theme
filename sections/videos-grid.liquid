@@ -15,6 +15,36 @@
     </div>
 </div>
 
+<script defer>
+  (function () {
+
+    function defer(method) {
+
+        if ( typeof OverlayScrollbars != 'undefined' ) {
+            method();
+        } else {
+            setTimeout(function() { defer(method) }, 50);
+        }
+    }
+
+    defer(function() {
+        const customScroll = document.querySelector('.scroll-wrapper');
+       
+        new OverlayScrollbars(customScroll, {
+            overflowBehavior : {         
+                    // visible-hidden  || visible-scroll || hidden || scroll || v-h || v-s || h || s
+                    x :'scroll',
+                    // visible-hidden  || visible-scroll || hidden || scroll || v-h || v-s || h || s
+                    y :'hidden'
+                  },
+                
+          });
+
+    });
+    
+})();
+</script>
+
 {% schema %}
     {
         "name": "Videos Grid",
