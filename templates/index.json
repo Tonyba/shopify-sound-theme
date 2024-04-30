@@ -199,6 +199,33 @@
         ]
       }
     },
+    "videos_grid_xbhNpg": {
+      "type": "videos-grid",
+      "blocks": {
+        "slide_ngaVbM": {
+          "type": "slide",
+          "settings": {
+            "is_in_loop": true,
+            "full_width": false,
+            "allow_transparent_header": false,
+            "autoplay": false,
+            "video_size": "auto",
+            "video": "shopify:\/\/files\/videos\/Snaptik.app_7262147424884378885.mp4",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "slide_ngaVbM"
+      ],
+      "settings": {
+        "heading": "Customer Testimonials",
+        "extra_classes": "section-wrapper-margin-t"
+      }
+    },
     "customer_testimonials_7AXfGP": {
       "type": "customer-testimonials",
       "blocks": {
@@ -301,6 +328,7 @@
     "two_cols_products_gRDEqC",
     "reviews_scroller_jWQtdn",
     "product_grid_with_photo_pp868q",
+    "videos_grid_xbhNpg",
     "customer_testimonials_7AXfGP",
     "featured_collection_new_dgJL97",
     "two_cols_img_carousel_7KGijH",
