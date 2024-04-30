@@ -338,8 +338,10 @@ border-color: white;
 }
 
 @media only screen and (max-width: 767px) {
+
     .cols-2,
-    .custom-faqs .accordion-box {
+    .custom-faqs .accordion-box,
+    .mobile-cols-1  {
         grid-template-columns: repeat(1, 1fr) !important;
     }
 
