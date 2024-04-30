@@ -48,7 +48,8 @@
 
 @media only screen and (max-width: 1024px) {
     .visible-results .image {
-       position: relative;
+       position: static;
+        top: unset;
     }
 }
 
