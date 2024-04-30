@@ -9942,7 +9942,7 @@ transform: translateX(-50%) translateY(-15%)!important;
     text-align: center;
     background-color: #1A1A1A!important;
     border-radius: 100px;}
-#shopify-section-template--16704955089049__two_cols_products_gRDEqC .two-cols-products-section .product-card__quick-buy{display: inline-flex;
+#shopify-section-template--16704955089049__two_cols_products_gRDEqC .two-cols-products-section.product-card__quick-buy{display: inline-flex;
     width: 50%!important;
     right: 0;}
 
