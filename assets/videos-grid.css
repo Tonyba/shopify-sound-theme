@@ -1,3 +1,7 @@
 .videos-grid h2 {
     text-align: center;
 }
+
+.videos-grid  .videos .grid-item > .section {
+    padding: unset;
+}
