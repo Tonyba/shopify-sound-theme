@@ -59,6 +59,14 @@
     padding: 235px 0;
 }
 
+@media only screen and (max-width: 1024px) {
+    .product-features .image {
+        width: 50%;
+        top: unset;
+        bottom: 0;
+    }
+}
+
 @media only screen and (max-width: 767px) {
 
 }
