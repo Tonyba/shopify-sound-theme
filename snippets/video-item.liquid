@@ -66,6 +66,12 @@
             {%- for block in video.blocks -%}
               {%- case block.type -%}
                 {%- when 'play' -%}
+                   {% if video.settings.is_in_loop != false %}
+                    <button class="video-play-button" type="button" {{ block.shopify_attributes }}>
+                        <span class="sr-only">{{ 'general.accessibility.play_video' | t }}</span>
+                        {%- render 'icon' with 'play-button', width: 48, height: 48 -%}
+                      </button>
+                   {% endif %} 
                   {%- unless video.settings.autoplay -%}
                     <button class="video-play-button" type="button" {{ block.shopify_attributes }}>
                       <span class="sr-only">{{ 'general.accessibility.play_video' | t }}</span>
