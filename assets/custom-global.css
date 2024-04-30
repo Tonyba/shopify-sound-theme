@@ -284,5 +284,23 @@ border-color: white;
     .d-none-mobile {
         display: none;
     }
+
+    .section-wrapper-padding {
+        padding: 50px 0;
+    }
+    
+    .section-wrapper-margin {
+        margin: 50px 0;
+    }
+    
+    .section-wrapper-margin-t {
+        margin-top: 50px;
+    }
+    
+    .section-wrapper-margin-b {
+        margin-bottom: 50px;
+    }
+
+
     
 }
