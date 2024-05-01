@@ -61,6 +61,10 @@
         font-size: 30px;
     }
 
+    .three-seconds-heat .d-none-desktop  .subheading {
+        font-size: 18px;
+    }
+
     .three-seconds-heat .stage-item {
         padding: 20px;
     }
