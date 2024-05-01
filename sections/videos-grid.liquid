@@ -1,0 +1,182 @@
+
+{{ 'videos-grid.css' | asset_url | stylesheet_tag }}
+
+<div class="section-wrapper {{ section.settings.extra_classes }}">
+    <div class="container">
+        <h2>{{ section.settings.heading }}</h2>
+        
+        <div class="videos flex gap-20 scroll-wrapper">
+            {% for item in section.blocks %}
+                <div class="grid-item w-25">
+                    {% render 'video-item' video: item %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<script defer>
+  (function () {
+
+    function defer(method) {
+
+        if ( typeof OverlayScrollbars != 'undefined' ) {
+            method();
+        } else {
+            setTimeout(function() { defer(method) }, 50);
+        }
+    }
+
+    defer(function() {
+        const customScroll = document.querySelector('.videos.scroll-wrapper');
+       
+        new OverlayScrollbars(customScroll, {
+            overflowBehavior : {         
+                    // visible-hidden  || visible-scroll || hidden || scroll || v-h || v-s || h || s
+                    x :'scroll',
+                    // visible-hidden  || visible-scroll || hidden || scroll || v-h || v-s || h || s
+                    y :'hidden'
+                  },
+                
+          });
+
+    });
+    
+})();
+</script>
+
+{% schema %}
+    {
+        "name": "Videos Grid",
+        "class": "videos-grid",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "text",
+                "id": "extra_classes",
+                "label": "Extra CSS Classes"
+            }
+
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "Video",
+                "settings": [
+                    {
+                        "type": "paragraph",
+                        "content": "For best visual results and avoid platform branding, use a MP4 file."
+                      },
+                      {
+                        "type": "checkbox",
+                        "id": "is_in_loop",
+                        "label": "This widget is in a Loop?",
+                        "default": false
+                      },
+                      {
+                        "type": "checkbox",
+                        "id": "full_width",
+                        "label": "Full width",
+                        "default": true
+                      },
+                      {
+                        "type": "checkbox",
+                        "id": "allow_transparent_header",
+                        "label": "Allow transparent header",
+                        "info": "This setting only applies when this section is the first one.",
+                        "default": false
+                      },
+                      {
+                        "type": "checkbox",
+                        "id": "autoplay",
+                        "label": "Autoplay",
+                        "info": "Video are muted to allow autoplay. For best results, do not add any content on top of the video when autoplay is enabled.",
+                        "default": false
+                      },
+                      {
+                        "type": "select",
+                        "id": "video_size",
+                        "label": "Video size",
+                        "options": [
+                          {
+                            "value": "auto",
+                            "label": "16/9 (recommended)"
+                          },
+                          {
+                            "value": "sm",
+                            "label": "Small"
+                          },
+                          {
+                            "value": "md",
+                            "label": "Medium"
+                          },
+                          {
+                            "value": "lg",
+                            "label": "Large"
+                          },
+                          {
+                            "value": "fill",
+                            "label": "Fill screen"
+                          }
+                        ],
+                        "default": "auto"
+                      },
+                      {
+                        "type": "video",
+                        "id": "video",
+                        "label": "Video",
+                        "info": "Replaces external video if both are set."
+                      },
+                      {
+                        "type": "video_url",
+                        "id": "external_video_url",
+                        "accept": ["vimeo", "youtube"],
+                        "label": "Video URL",
+                        "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+                      },
+                      {
+                        "type": "image_picker",
+                        "id": "poster",
+                        "label": "Poster image",
+                        "info": "3200 x 1600px .jpg recommended. Poster is not visible when autoplay is enabled."
+                      },
+                      {
+                        "type": "header",
+                        "content": "Colors"
+                      },
+                      {
+                        "type": "color",
+                        "id": "text_color",
+                        "label": "Text",
+                        "default": "#ffffff"
+                      },
+                      {
+                        "type": "color",
+                        "id": "overlay_color",
+                        "label": "Overlay",
+                        "default": "#000000"
+                      },
+                      {
+                        "type": "range",
+                        "id": "overlay_opacity",
+                        "label": "Overlay opacity",
+                        "min": 0,
+                        "max": 100,
+                        "step": 1,
+                        "unit": "%",
+                        "default": 30
+                      }
+                ]
+            }
+        ],
+        "presets": [
+            {
+              "name": "Videos Grid"
+            }
+        ]
+    }
+{% endschema %}

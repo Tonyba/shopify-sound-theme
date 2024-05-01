@@ -28,7 +28,7 @@
         <div class="tabs-content {% if section.settings.just_simple_image %}is_simple_img{% endif %}">
            
                 {% for item in section.blocks %}
-                    <div id="{{ item.id }}" class="tab-content-item align-item-center grid cols-2 gap-100 {% if forloop.index == 1 %} active{% endif %}"> 
+                    <div id="{{ item.id }}" class="tab-content-item align-item-center grid cols-2 gap-20-tablet  gap-100 {% if forloop.index == 1 %} active{% endif %}"> 
                         <div class="grid-item">
                             <div class="tab-title-wrapper">
                               {% if item.settings.hide_progress == false %}

@@ -34,3 +34,21 @@
 .custom-multicolumn  {
     text-align: center;
 }
+
+@media only screen and (max-width: 767px) {
+    .custom-multicolumn .grid-item {
+        padding: 10px;
+    }
+
+    .custom-multicolumn h3 {
+        font-size: 17px;
+    }
+
+    .custom-multicolumn p {
+        font-size: 15px;
+    }
+
+    .custom-multicolumn img {
+        height: 270px;
+    }
+}

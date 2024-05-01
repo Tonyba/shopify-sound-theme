@@ -19,3 +19,14 @@
     font-size: 20px;
     line-height: 2;
 }
+
+@media only screen and (max-width: 768px) {
+    .col-list-with-image  .grid .grid-item:last-child {
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-list-with-image img {
+        max-width: 100%;
+    }
+}

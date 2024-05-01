@@ -189,7 +189,7 @@
       ],
       "settings": {
         "full_width": true,
-        "extra_css_class": "",
+        "extra_css_class": "right-left-section-single",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
@@ -502,7 +502,7 @@
       ],
       "settings": {
         "full_width": true,
-        "extra_css_class": "",
+        "extra_css_class": "right-left-section",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
@@ -533,7 +533,7 @@
       ],
       "settings": {
         "full_width": true,
-        "extra_css_class": "",
+        "extra_css_class": "right-left-section reversed",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
@@ -564,7 +564,7 @@
       ],
       "settings": {
         "full_width": true,
-        "extra_css_class": "",
+        "extra_css_class": "right-left-section",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",

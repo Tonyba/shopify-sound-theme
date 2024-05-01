@@ -14,7 +14,7 @@
               <div class="splide__list">
                 {% for item in section.blocks %}
                   <div class="splide__slide">
-                    {{ item.settings.tiktok_embed }}
+                    {% render 'video-item' video: item %}
                   </div>
                 {% endfor %}
               </div>
@@ -24,7 +24,6 @@
  
 </div>
 
-<script defer src="https://www.tiktok.com/embed.js"></script>
 <script src="{{ 'splide.min.js' | asset_url }}" defer></script>
 <script defer>
     function init() {
@@ -38,6 +37,14 @@
           autoscroll: {
             speed: 1000,
           },
+          breakpoints: {
+            1024: {
+              perPage: 3,
+            },
+            767: {
+              perPage: 2,
+            }
+          }
         }; 
         const splideInstance = new Splide(splide, config);
     
@@ -90,18 +97,115 @@
             }
         ],
         "blocks": [
-            {
-                "type": "slide",
-                "name": "Tiktok Video Embed",
-                "settings": [
-                    {
-                        "type": "html",
-                        "id": "tiktok_embed",
-                        "label": "Tiktok embed",
-                        "info": "remove  <script async src='https://www.tiktok.com/embed.js'></script> to avoid loading an unnecessary script since it is already being loaded"
-                    }
-                ]
-            }
+          {
+            "type": "slide",
+            "name": "Video",
+            "settings": [
+                {
+                    "type": "paragraph",
+                    "content": "For best visual results and avoid platform branding, use a MP4 file."
+                  },
+                  {
+                    "type": "checkbox",
+                    "id": "is_in_loop",
+                    "label": "This widget is in a Loop?",
+                    "default": false
+                  },
+                  {
+                    "type": "checkbox",
+                    "id": "full_width",
+                    "label": "Full width",
+                    "default": true
+                  },
+                  {
+                    "type": "checkbox",
+                    "id": "allow_transparent_header",
+                    "label": "Allow transparent header",
+                    "info": "This setting only applies when this section is the first one.",
+                    "default": false
+                  },
+                  {
+                    "type": "checkbox",
+                    "id": "autoplay",
+                    "label": "Autoplay",
+                    "info": "Video are muted to allow autoplay. For best results, do not add any content on top of the video when autoplay is enabled.",
+                    "default": false
+                  },
+                  {
+                    "type": "select",
+                    "id": "video_size",
+                    "label": "Video size",
+                    "options": [
+                      {
+                        "value": "auto",
+                        "label": "16/9 (recommended)"
+                      },
+                      {
+                        "value": "sm",
+                        "label": "Small"
+                      },
+                      {
+                        "value": "md",
+                        "label": "Medium"
+                      },
+                      {
+                        "value": "lg",
+                        "label": "Large"
+                      },
+                      {
+                        "value": "fill",
+                        "label": "Fill screen"
+                      }
+                    ],
+                    "default": "auto"
+                  },
+                  {
+                    "type": "video",
+                    "id": "video",
+                    "label": "Video",
+                    "info": "Replaces external video if both are set."
+                  },
+                  {
+                    "type": "video_url",
+                    "id": "external_video_url",
+                    "accept": ["vimeo", "youtube"],
+                    "label": "Video URL",
+                    "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+                  },
+                  {
+                    "type": "image_picker",
+                    "id": "poster",
+                    "label": "Poster image",
+                    "info": "3200 x 1600px .jpg recommended. Poster is not visible when autoplay is enabled."
+                  },
+                  {
+                    "type": "header",
+                    "content": "Colors"
+                  },
+                  {
+                    "type": "color",
+                    "id": "text_color",
+                    "label": "Text",
+                    "default": "#ffffff"
+                  },
+                  {
+                    "type": "color",
+                    "id": "overlay_color",
+                    "label": "Overlay",
+                    "default": "#000000"
+                  },
+                  {
+                    "type": "range",
+                    "id": "overlay_opacity",
+                    "label": "Overlay opacity",
+                    "min": 0,
+                    "max": 100,
+                    "step": 1,
+                    "unit": "%",
+                    "default": 30
+                  }
+            ]
+        }
         ],
         "presets": [
             {

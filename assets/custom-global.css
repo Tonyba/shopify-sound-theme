@@ -25,6 +25,10 @@
     display: flex;
 }
 
+.w-25 {
+    width: 25%;
+}
+
 .w-65 {
     width: 65%;
 }
@@ -114,9 +118,11 @@
     justify-content: center;
 }
 
-.gap-20 {
+.gap-20,
+.gap-20 .os-content {
     gap: 20px;
 }
+
 
 .gap-40 {
     gap: 40px;
@@ -268,3 +274,107 @@ border-color: white;
     }
 }
 
+@media screen and (max-width: 1024px) { 
+
+    
+    .footer .footer__block {
+        flex-basis: 50%;        
+        flex-wrap: wrap;
+    }
+
+    .column-lg-tablet {
+        flex-direction: column;
+    }
+
+    .flex-lg-tablet {
+        display: flex;
+    }
+
+    .column-lg-tablet-reversed {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .multiple-images-with-text {
+        margin-inline-start: unset;
+        margin-inline-end: unset;
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .w-100-mobile {
+        width: 100%;
+    }
+
+    .column-mobile {
+        flex-direction: column;
+    }
+
+    .tablet-cols-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tablet-cols-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gap-20-tablet {
+        gap: 20px;
+    }
+
+    .table-cols-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .os-content .grid-item {
+        flex-shrink: 0;
+        flex-grow: 1;
+        min-width: 237px;
+    }
+
+    .d-none-mobile {
+        display: none;
+    }
+
+    .section-wrapper-padding {
+        padding: 50px 0;
+    }
+    
+    .section-wrapper-margin {
+        margin: 50px 0;
+    }
+    
+    .section-wrapper-margin-t {
+        margin-top: 50px;
+    }
+    
+    .section-wrapper-margin-b {
+        margin-bottom: 50px;
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 767px) {
+
+    .cols-2,
+    .custom-faqs .accordion-box,
+    .mobile-cols-1  {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .cols-2-mobile {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    h2,
+    h3,
+    h4 {
+        line-height: 1.2;
+    }
+}

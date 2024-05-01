@@ -44,3 +44,42 @@
     color: #777;
     text-transform: capitalize;
 }
+
+
+@media only screen and (max-width: 1024px) {
+    .visible-results .image {
+       position: static;
+        top: unset;
+        max-height: unset;
+    }
+
+    .visible-results .content {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+
+    .visible-results .wrapper {
+        padding-bottom: 0;
+        padding-top: 100px;
+    }
+
+    .visible-results  .image {
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .visible-results h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .visible-results .subheading {
+        font-size: 20px;
+    }
+
+    .visible-results .wrapper {
+        padding-top: 20px;
+    }
+}

@@ -1,7 +1,7 @@
 {{ 'product-features.css' | asset_url | stylesheet_tag }}
 
 <div class="section-wrapper-padding" style="background: {{ section.settings.bg_color }}">
-    <div class="container">
+    <div class="container flex-lg-tablet column-lg-tablet-reversed ">
         <div class="image">
             {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
         </div>
@@ -14,7 +14,7 @@
 </div>
 
 <div class="container features-container" style="background: {{ section.settings.bg_features_color }}">
-    <div class="grid cols-4">
+    <div class="grid cols-4 cols-2-mobile gap-20">
         {% for feauture in section.blocks %}
             <div class="grid-item">
                 <span class="icon">{{ feauture.settings.icon }}</span>

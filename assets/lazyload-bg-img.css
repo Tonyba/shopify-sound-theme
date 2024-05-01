@@ -4,3 +4,15 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+@media only screen and (max-width: 768px) {
+    .lazyload-bg {
+        min-height: 500px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .lazyload-bg {
+        min-height: 400px;
+    }
+}

@@ -54,3 +54,42 @@
 .three-seconds-heat .stage-item:not(:last-child) {
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .three-seconds-heat .stage-item {
+        padding: 20px;
+    }
+
+    .three-seconds-heat  .inner-container {
+        padding-right: 0;
+    }
+
+    .three-seconds-heat .stage-item .text {
+        font-size: 30px;
+    }
+
+    .three-seconds-heat .button-text {
+        font-size: 12px;
+    }
+
+    .three-seconds-heat .icon svg {
+        width: 30px;
+        height: 50px;
+    }
+
+    .three-seconds-heat .section-wrapper-padding:after {
+
+
+        opacity: 0.5;
+        z-index: 1;
+    }
+
+    .three-seconds-heat .z-1 {
+        z-index: 2;
+    }
+
+    .three-seconds-heat .cols-2 {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}

@@ -126,3 +126,45 @@
 .before-after-product-progress .reversed.headings .subheading {
     font-size: 30px;
 }
+
+
+@media only screen and (max-width: 1024px) {
+    .before-after-product-progress .tab-content-subtitle {
+        font-size: 25px;
+    }
+
+    .before-after-product-progress .tab-content-title {
+        font-size: 25px;
+    }
+
+    .before-after-product-progress .progress-bar {
+        width: 70px;
+        height: 70px;
+    }
+
+    .before-after-product-progress  p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .before-after-product-progress h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .before-after-product-progress h3.subheading {
+        font-size:20px;
+    }
+
+    .before-after-product-progress .tabs-header button  {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+    .before-after-product-progress .tabs-header  {
+       margin-bottom: 30px; 
+    }
+}
+

@@ -1,0 +1,12 @@
+.videos-grid h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.videos-grid  .videos .grid-item > .section {
+    padding: unset;
+}
+
+.videos-grid  .videos .grid-item .content-over-media {
+    height: 500px;
+}

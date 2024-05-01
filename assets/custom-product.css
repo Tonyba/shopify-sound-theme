@@ -338,3 +338,64 @@ compare-at-price {
 .footer {
     margin-top: unset;
 }
+
+h1.product-info__title {
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .right-left-section .h1 {
+        font-size: 30px !important;
+    }
+
+    .right-left-section .prose > p:last-child {
+        font-size: 18px;
+    }
+
+    .right-left-section .multiple-images-with-text__content-list {
+        padding-top: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .right-left-section-single .multiple-images-with-text {
+        gap: 20px ;
+    }
+
+    .multiple-images-with-text__content-with-nav p {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   
+}
+
+@media only screen and (max-width: 767px) {
+
+    h1.product-info__title {
+        font-size: 28px;
+    }
+
+    .right-left-section-single .multiple-images-with-text,
+    .right-left-section .multiple-images-with-text {
+       grid-template-columns: repeat(1, 1fr);
+    }
+
+    .right-left-section .multiple-images-with-text__content-list {
+        padding: 50px 0 !important;
+    }
+
+    .right-left-section.reversed multiple-images-with-text-image-list {
+        order: unset !important;
+    }
+
+    .right-left-section .h1 {
+        font-size: 30px !important;
+    }
+
+    .right-left-section  .h1 + p{
+        font-size: 17px !important;
+    }
+}

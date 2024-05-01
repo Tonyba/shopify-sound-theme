@@ -1,0 +1,117 @@
+{%- unless video.settings.full_width -%}
+    {%- render 'section-spacing-collapsing' -%}
+  {%- endunless -%}
+  
+  <style>
+    #shopify-section-{{ video.id }} {
+      {%- if video.settings.full_width -%}
+        --section-outer-spacing-block: 0;
+      {%- endif -%}
+  
+      --content-over-media-overlay: {{ video.settings.overlay_color.rgb }} / {{ video.settings.overlay_opacity | divided_by: 100.0 }};
+  
+      {%- if video.settings.allow_transparent_header -%}
+        margin-block-start: calc(-1 * var(--header-height) * var(--section-is-first));
+      {%- endif -%}
+    }
+  
+    {%- unless video.settings.full_width -%}
+      #shopify-section-{{ video.id }}:first-child .section[allow-transparent-header] {
+        padding-block-start: max(var(--section-inner-max-spacing-block), var(--header-height));
+      }
+    {%- endunless -%}
+  </style>
+  
+  <div {% render 'section-properties', class: class %} {% if video.settings.allow_transparent_header %}allow-transparent-header{% endif %}>
+    {%- capture class -%}content-over-media {% if video.settings.video_size != 'auto' %}content-over-media--{{ video.settings.video_size }}{% endif %} {% if video.settings.full_width %}full-bleed{% else %}shadow-block rounded-lg{% endif %}{%- endcapture -%}
+  
+    <div {% render 'surface', class: class, text_color: video.settings.text_color %}>
+      {%- capture poster -%}
+        {%- assign poster_image = video.settings.poster | default: video.settings.video.preview_image -%}
+  
+        {%- if video.settings.autoplay == false and poster_image != blank -%}
+          {%- capture sizes -%}{% if video.settings.full_width %}100vw{% else %}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min({{ settings.page_width }}px, 100vw - 96px){% endif %}{%- endcapture -%}
+          {{- poster_image | image_url: width: poster_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}
+        {%- endif -%}
+      {%- endcapture -%}
+  
+      {%- if video.settings.video -%}
+        <video-media {% if video.settings.autoplay %}autoplay{% endif %}>
+          {%- if video.settings.autoplay -%}
+            {%- assign show_controls = false -%}
+          {%- else -%}
+            {%- assign show_controls = true -%}
+          {%- endif -%}
+  
+          {{- video.settings.video | video_tag: playsinline: true, preload: 'metadata', muted: video.settings.autoplay, loop: video.settings.autoplay, controls: show_controls, image_size: '800x' -}}
+          {{- poster -}}
+        </video-media>
+      {%- else -%}
+        <video-media host="{{ video.settings.external_video_url.type }}" {% if video.settings.autoplay %}autoplay class="pointer-events-none"{% endif %}>
+          {{- poster -}}
+  
+          <template>
+            {%- if video.settings.external_video_url.type == 'youtube' -%}
+              <iframe src="https://www.youtube.com/embed/{{ video.settings.external_video_url.id }}?playsinline=1&{% if video.settings.autoplay %}autoplay=1&controls=0&mute=1&loop=1&{% endif %}playlist={{ video.settings.external_video_url.id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+            {%- elsif video.settings.external_video_url.type == 'vimeo' -%}
+              <iframe src="https://player.vimeo.com/video/{{ video.settings.external_video_url.id }}?autopause=1&{% if video.settings.autoplay %}background=1&autoplay=1&loop=1&muted=1&{% endif %}transparent=0&responsive=1&portrait=0&title=0&byline=0&color={{ settings.text_color | remove_first: '#' }}" allow="autoplay; encrypted-media;" allowfullscreen="allowfullscreen"></iframe>
+            {%- endif -%}
+          </template>
+        </video-media>
+      {%- endif -%}
+
+      {% if video.settings.is_in_loop != false %}
+
+      <div class="place-self-center text-center">
+        <div class="prose">
+            <button class="video-play-button" type="button" {{ block.shopify_attributes }}>
+              <span class="sr-only">{{ 'general.accessibility.play_video' | t }}</span>
+              {%- render 'icon' with 'play-button', width: 48, height: 48 -%}
+            </button>
+          </div>
+        </div>
+        
+      {% endif %} 
+
+      {%- if video.blocks.size > 0 -%}
+        <div class="place-self-center text-center">
+          <div class="prose">
+            {%- for block in video.blocks -%}
+              {%- case block.type -%}
+                {%- when 'play' -%}
+                  {%- unless video.settings.autoplay -%}
+                    <button class="video-play-button" type="button" {{ block.shopify_attributes }}>
+                      <span class="sr-only">{{ 'general.accessibility.play_video' | t }}</span>
+                      {%- render 'icon' with 'play-button', width: 48, height: 48 -%}
+                    </button>
+                  {%- endunless -%}
+  
+                {%- when 'subheading' -%}
+                  {%- if block.settings.text != blank -%}
+                    <p class="bold" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
+                  {%- endif -%}
+  
+                {%- when 'heading' -%}
+                  {%- if block.settings.text != blank -%}
+                    <p class="{{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
+                  {%- endif -%}
+  
+                {%- when 'richtext' -%}
+                  {%- if block.settings.content != blank -%}
+                    <div {{ block.shopify_attributes }}>
+                      {{- block.settings.content -}}
+                    </div>
+                  {%- endif -%}
+  
+                {%- when 'button' -%}
+                  {%- if block.settings.text != blank -%}
+                    {% render 'button', content: block.settings.text, href: block.settings.url, size: block.settings.size, style: block.settings.style, background: block.settings.background, text_color: block.settings.text_color, block: block %}
+                  {%- endif -%}
+              {%- endcase -%}
+            {%- endfor -%}
+          </div>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+  

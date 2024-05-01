@@ -37,6 +37,8 @@
 
 .safety-body-parts .right-img  {
     right: 0;
+   display: flex;
+   justify-content: flex-end;
 }
 
 .safety-body-parts .left-img  img {
@@ -45,4 +47,26 @@
 
 .safety-body-parts .right-img  img {
     width: 650px;
+
+}
+
+@media only screen and (max-width: 1440px) {
+    .safety-body-parts .left-img  img {
+        width:35%;
+    }
+    
+    .safety-body-parts .right-img  img {
+        width:40%;
+    }
+
+    .safety-body-parts .inner-container {
+        padding: 40px 20px 200px 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .safety-body-parts .inner-container {
+        padding: 40px 20px 25% 20px;
+    }
 }

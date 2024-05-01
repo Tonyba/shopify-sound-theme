@@ -7,13 +7,11 @@
     }
 </style>
 
-<div class="flex gap-40 container">
-    <div class="w-50">
-        <figure style="{% if section.settings.img_h != blank %}max-height:{{ section.settings.img_h}}px {% endif %}">
-            {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
-        </figure>
+<div class="grid cols-2 gap-40 container">
+    <div class="grid-item lazyload-bg" data-src="{{ section.settings.image | image_url }}">
+       
     </div>
-    <div class="w-50">
+    <div class="grid-item">
         <div class="subheading">{{ section.settings.subheading }}</div>
         <h2>{{ section.settings.heading }}</h2>
         <div class="heading-divider"></div>

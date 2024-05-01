@@ -7,7 +7,7 @@
         <div class="subheading">{{ section.settings.subheading }}</div>
     </div>
 
-    <div class="grid cols-4 gap-20">
+    <div class="grid cols-4 gap-20 tablet-cols-2">
         {% for column in section.blocks %}
             <div class="grid-item" style="background: {{ column.settings.bg_color }}; border-radius: {{ column.settings.border_radius }}px" >
                 {% if column.settings.image != blank %}

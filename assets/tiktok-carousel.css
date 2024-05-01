@@ -8,6 +8,7 @@
 .tiktok-carousel .heading-wrapper h2 {
         font-weight: 500;
         margin-bottom: unset;
+        margin-bottom: 20px;
 }
 
 .tiktok-carousel .splide__arrow {
@@ -52,4 +53,35 @@
 }
 
 
+.tiktok-carousel .splide .splide__slide > .section {
+        padding: unset;
+}
 
+.tiktok-carousel .splide .splide__slide .content-over-media {
+  height: 500px;
+}
+
+
+@media only screen and (max-width: 767px) {
+        .tiktok-carousel .splide .splide__slide .content-over-media {
+                height: 300px;
+        }
+
+        .tiktok-carousel .splide__arrow--prev {
+                left: -15px;
+        }
+
+        .tiktok-carousel .splide__arrow--next  {
+                right: -15px;
+        }
+
+        .tiktok-carousel .splide__arrow svg {
+                width: 15px;
+                height: 15px;
+        }
+
+        .tiktok-carousel .splide__arrow {
+                width: 40px;
+                height: 40px;
+        }
+}

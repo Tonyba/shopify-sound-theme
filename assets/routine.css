@@ -50,3 +50,19 @@
     font-weight: 500;
     font-size: 24px;
 }
+
+
+@media only screen and (max-width: 767px) {
+    .routine .lazyload-bg {
+        min-height: 350px;
+    }
+
+    .routine   h4 { 
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .routine h3 {
+        font-size: 17px;
+    }
+}

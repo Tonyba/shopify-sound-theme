@@ -4,8 +4,10 @@
 <div class="container">
 
     <div class="grid cols-2" style="" >
-        <div class="grid-item">
-            {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+        <div class="grid-item lazyload-bg" data-src="{{ section.settings.image | image_url }}">
+    
+             
+                
         </div>
         <div class="grid-item gradient-bg-100 flex flex-column align-item-start justify-content-center">
 
@@ -16,7 +18,7 @@
           
 
             <div class="body-parts-wrapper">
-                <div class="grid cols-3 gap-20">
+                <div class="grid cols-3 gap-20 cols-2-mobile">
                     {% for body_p in section.blocks %}
                         <div class="body-part">
                             <div class="body-icon">{{ body_p.settings.icon }}</div>
