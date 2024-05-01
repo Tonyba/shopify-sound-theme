@@ -57,6 +57,10 @@
 
 @media only screen and (max-width: 768px) {
 
+    .three-seconds-heat .d-none-desktop h2 {
+        font-size: 30px;
+    }
+
     .three-seconds-heat .stage-item {
         padding: 20px;
     }
