@@ -343,6 +343,13 @@ h1.product-info__title {
     font-weight: 500;
 }
 
+
+@media only screen and (max-width: 1024px) {
+    .right-left-section .h1 {
+        font-size: 30px !important;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .right-left-section-single .multiple-images-with-text {
         gap: 20px ;
