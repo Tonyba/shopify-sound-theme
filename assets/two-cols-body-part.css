@@ -31,3 +31,13 @@
     background: #f3f3f3;
 }
 
+@media only screen and (max-width: 767px) {
+
+    .two-cols-body-part h2 {
+        font-size: 30px;
+    }
+
+    .two-cols-body-part .grid-item:last-child {
+        padding: 20px;
+    }
+}
