@@ -77,4 +77,8 @@
     .visible-results .subheading {
         font-size: 20px;
     }
+
+    .visible-results .wrapper {
+        padding-top: 20px;
+    }
 }
