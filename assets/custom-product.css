@@ -352,6 +352,10 @@ h1.product-info__title {
     .right-left-section .prose > p:last-child {
         font-size: 18px;
     }
+
+    .right-left-section .multiple-images-with-text__content-list {
+        padding-top: 20px !important;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
