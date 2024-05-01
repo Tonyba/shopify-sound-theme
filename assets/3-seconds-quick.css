@@ -57,6 +57,15 @@
 
 @media only screen and (max-width: 768px) {
 
+    .three-seconds-heat .d-none-desktop h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .three-seconds-heat .d-none-desktop  .subheading {
+        font-size: 18px;
+    }
+
     .three-seconds-heat .stage-item {
         padding: 20px;
     }
