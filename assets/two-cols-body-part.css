@@ -36,7 +36,9 @@
     .two-cols-body-part h2 {
         font-size: 30px;
     }
-
+    .two-cols-body-part .subheading {
+        font-size: 18px;
+    }
     .two-cols-body-part .grid-item:last-child {
         padding: 20px;
     }
