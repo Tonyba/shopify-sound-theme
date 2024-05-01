@@ -90,9 +90,9 @@
         "full_width": true,
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
+        "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": true,
@@ -204,7 +204,10 @@
         "slide_e6tywh"
       ],
       "settings": {
-        "heading": "Trusted By Thousands"
+        "heading": "Trusted By Thousands",
+        "before_text": "",
+        "after_text": "",
+        "title_left": false
       }
     },
     "hightlight_list_mnLzJV": {
@@ -352,6 +355,7 @@
         "slide_9CUfyn"
       ],
       "settings": {
+        "extra_class": "",
         "image": "shopify:\/\/shop_images\/fb18c1197543ef32abbb5bb6a486182a.jpg",
         "heading": "Follow The Steps For Usability",
         "subheading": "HOW TO USE"
