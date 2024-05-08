@@ -261,15 +261,19 @@ border-color: white;
 .two-cols-products-section .product-card__figure {
     height: 400px;
   }
-  .two-cols-products-section .product-card {
+
+  .two-cols-products-section .product-card,
+  .products-carousel .product-card {
     border-radius: 20px;
   }
+
   .two-cols-products-section .product-card__info {
     display: inline-flex;
     flex-direction: row;
     align-content: flex-start;
     justify-content: space-between;
   }
+
   .two-cols-products-section .color-swatch--sm,
   .products-carousel .color-swatch--sm {
     width: 25px;
