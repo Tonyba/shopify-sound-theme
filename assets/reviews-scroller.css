@@ -71,6 +71,10 @@
 
     .reviews-carousel-section > div:first-child {
         width: 100%;
+       row-gap: 50px;
+    }
+
+    .reviews-carousel-section .grid-item:first-child {
         justify-content: center;
     }
 }
