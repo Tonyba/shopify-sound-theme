@@ -12,7 +12,7 @@
 %}
 
 <div class="">
-    <div class="reviews-carousel-section {% if section.settings.is_autoscroll %}autoscroll{% endif %}">
+    <div class="reviews-carousel-section">
        
         <div class="grid-item">
            
@@ -30,7 +30,7 @@
             
         </div>
         <div class="grid-item">
-            <div class="scroll-wrapper splide">
+            <div class="scroll-wrapper splide {% if section.settings.is_autoscroll %}autoscroll{% endif %}">
                 <div class="splide__track">
                     <div class="splide__list">
                         {%- for block in section.blocks -%}
