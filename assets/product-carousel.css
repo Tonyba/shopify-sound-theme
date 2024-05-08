@@ -19,3 +19,10 @@
 .products-carousel .product-card__figure {
     height: 400px;
 }
+
+.products-carousel  .splide__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
