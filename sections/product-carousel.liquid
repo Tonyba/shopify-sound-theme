@@ -2,7 +2,23 @@
 <div class="section-wrapper-padding" style="background: {{ section.settings.bg_color }}">
     <div class="container">
         <h2>{{ section.settings.heading }}</h2>
-
+        <div class="products-carousel splide">
+            <div class="splide__track">
+                <div class="splide__list">
+                    {% for prod in section.settings.products %}
+                        <div class="splide_slide">
+                            {%- render 'product-card-new', 
+                                product: product, 
+                                stacked: false, 
+                                background: section.settings.product_card_background, 
+                                text_color: section.settings.product_card_text_color, 
+                                show_badges: true 
+                            -%}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -28,6 +44,20 @@
                 "id": "products",
                 "label": "Products",
                 "limit": 12
+            },
+            {
+                "type": "header",
+                "content": "Product Settings"
+            },
+            {
+                "type": "color",
+                "id": "product_card_background",
+                "label": "Product Card Background"
+            },
+            {
+                "type": "color",
+                "id": "product_card_text_color",
+                "label": "Product Card Text"
             }
         ],
         "presets": [
