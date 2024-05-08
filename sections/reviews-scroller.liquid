@@ -1,6 +1,7 @@
 
 {{ "reviews-scroller.css" | asset_url | stylesheet_tag }}
 {{ "OverlayScrollbars.min.css" | asset_url | stylesheet_tag }}
+{{ "splide.min.css" | asset_url | stylesheet_tag }}
 
 {%liquid
     assign s = section.settings
@@ -41,7 +42,8 @@
 </div>
 
 
-<script src="{{ 'OverlayScrollbars.min.js' | asset_url }}" defer></script>
+<script src="{{ 'splide.min.js' | asset_url }}" defer></script>
+
 <script defer>
 (function () {
 
