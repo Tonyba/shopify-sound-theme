@@ -43,14 +43,22 @@
     }
 
     deferSplide(function() {
-      
         const carousel = document.querySelector('.videos.splide');
+        const config = {
+          type: 'loop',
+          arrows: false,
+          pagination: false,
+          perPage: 3,
+          gap: 20,
+          breakpoints: {
+            768: { perPage: 2 },
+            520: { perPage: 1 } 
+          },
+        };
 
-
-
-      
+        const splideInstance = new Splide(splide, config);
+        splideInstance.mount();
     });
-
 
     /*deferScrollbar(function() {
         const customScroll = document.querySelector('.videos.scroll-wrapper');
