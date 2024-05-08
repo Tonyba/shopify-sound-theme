@@ -1,8 +1,20 @@
+
+<div class="section-wrapper-padding" style="background: {{ section.settings.bg_color }}">
+</div>
+
+
 {% schema %}
     {
         "name": "Products Carousel",
         "class": "products-carousel",
-        "settings": [],
+        "settings": [
+            {
+                "type": "color",
+                "id": "bg_color",
+                "label": "Background Color",
+                "default": "#f3f3f3"
+            }
+        ],
         "presets": [
             {
                 "name": "Products Carousel"
