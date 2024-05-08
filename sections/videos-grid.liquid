@@ -74,7 +74,11 @@
 
         splideInstance.mount(); 
 
+        window.addEventListener("resize", function(){console.log('resize')});
+
         window.dispatchEvent(new Event("resize"));
+      
+
     });
 
     /*deferScrollbar(function() {
