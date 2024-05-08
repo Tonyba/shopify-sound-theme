@@ -63,3 +63,13 @@
     margin: auto;
     margin-top: 40px;
 }
+
+@media only screen and (max-width: 768px) {
+    .reviews-carousel-section {
+        flex-direction: column;
+    }    
+
+    .reviews-carousel-section  > div {
+        width: 100%;
+    }
+}
