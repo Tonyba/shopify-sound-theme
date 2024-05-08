@@ -1,5 +1,6 @@
 
 {{ 'videos-grid.css' | asset_url | stylesheet_tag }}
+{{ 'splide.min.css' | asset_url | stylesheet_tag }}
 
 <div class="section-wrapper {{ section.settings.extra_classes }}">
     <div class="container">
@@ -15,6 +16,7 @@
     </div>
 </div>
 
+<script src="{{ 'splide.min.js' | asset_url }}" defer></script>
 <script defer>
   (function () {
 
