@@ -19,7 +19,7 @@
   
 .videos-grid .slider-progress-bar {
     background: black;
-    height: 12px;
+    height: 10px;
     transition: width 400ms ease;
     width: 0;
     border-radius: 20px;
