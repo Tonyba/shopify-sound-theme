@@ -241,6 +241,19 @@ border-color: white;
     font-weight: 400;
 }
 
+.slider-progress {
+    background: #d8d8d8;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+  
+.slider-progress-bar {
+    background: black;
+    height: 6px;
+    transition: width 400ms ease;
+    width: 0;
+    border-radius: 10px;
+}
 
 /*extra weights for main font*/
 @font-face {
