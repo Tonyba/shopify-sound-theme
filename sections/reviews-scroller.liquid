@@ -111,7 +111,7 @@
         
         const splideInstance = new Splide(splide, config);
 
-        splideInstance.on( 'mounted move', function () {
+        splideInstance.on( 'mounted move active', function () {
             const end  = splideInstance.Components.Controller.getEnd() + 1;
             const rate = Math.min( ( splideInstance.index + 1 ) / end, 1 );
             bar.style.width = String( 100 * rate ) + '%';
