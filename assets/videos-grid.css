@@ -28,7 +28,8 @@
         display: none;
     }
 
-    .videos-grid .splide__slide:not(.splide__slide--clone):not(.is-active) {
+    .videos-grid .splide__slide:not(.splide__slide--clone):not(.is-active),
+    .videos-grid .splide__slide.is-next {
         transform: scale(0.85);
     }
 
