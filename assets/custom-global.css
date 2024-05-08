@@ -236,6 +236,120 @@ border-color: white;
     z-index: 1;
 }
 
+.header__icon-list summary {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.slider-progress {
+    background: #d8d8d8;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+  
+.slider-progress-bar {
+    background: black;
+    height: 6px;
+    transition: width 400ms ease;
+    width: 0;
+    border-radius: 10px;
+}
+
+/*extra weights for main font*/
+
+/*kristi code*/
+.two-cols-products-section .product-card__figure {
+    height: 400px;
+  }
+
+  .two-cols-products-section .product-card,
+  .products-carousel .product-card {
+    border-radius: 20px;
+  }
+
+  .two-cols-products-section .product-card__info {
+    display: inline-flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-between;
+  }
+
+  .two-cols-products-section .color-swatch--sm,
+  .products-carousel .color-swatch--sm {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+  }
+  .two-cols-products-section .rating,
+  .products-carousel  .rating{
+    display: none;
+  }
+  .two-cols-products-section .star-rating,
+  .products-carousel .star-rating {
+    order: -1;
+  }
+  
+  .two-cols-products-section .product-card__aside,
+  .products-carousel .product-card__aside{
+    margin-top: 30px;
+  }
+  
+  .two-cols-products-section .product-card__figure {
+    height: 400px;
+  }
+  .two-cols-products-section .product-card { 
+    border-radius: 20px;
+  }
+  .two-cols-products-section .product-card__info {
+    display: inline-flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-between;
+  }
+  .two-cols-products-section .color-swatch--sm {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+  }
+  .two-cols-products-section .rating {
+    display: none;
+  }
+  .two-cols-products-section .star-rating {
+    order: -1;
+  }
+  .two-cols-products-section .product-card__aside {
+    margin-top: 30px;
+  }
+  .learnmore {
+    display: inline-flex;
+    width: 50%;
+  }
+  .view-more-button {
+    border: 1px solid;
+    width: 100%;
+    border-radius: 100px;
+    padding: 9px 18px;
+    text-align: center;
+  }
+  .bottombuttos {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 10px 10px 20px 10px;
+  }
+  
+  .two-cols-products-section .text-subdued,
+  .products-carousel .text-subdued {
+    color: black;
+    font-weight: bold;
+  }
+  .testimonial-carousel .icon-quote svg {
+    fill: #e5e5e5e5;
+  }
+/*kristi code end*/
+
 @font-face {
     font-display: swap; 
     font-family: 'IBM Plex Sans';
@@ -259,6 +373,7 @@ border-color: white;
     font-weight: 300;
     src: url('https://cdn.shopify.com/s/files/1/0640/3588/1113/files/ibm-plex-sans-v19-latin-300.woff2?v=1714310424') format('woff2');
 }
+/*extra weights for main font end*/
 
 
 

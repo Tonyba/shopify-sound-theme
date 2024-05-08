@@ -1,6 +1,6 @@
 
 {{ "reviews-scroller.css" | asset_url | stylesheet_tag }}
-{{ "OverlayScrollbars.min.css" | asset_url | stylesheet_tag }}
+{{ "splide.min.css" | asset_url | stylesheet_tag }}
 
 {%liquid
     assign s = section.settings
@@ -13,6 +13,7 @@
 
 <div class="">
     <div class="reviews-carousel-section">
+       
         <div class="grid-item">
            
                 <div class="left-side">
@@ -29,32 +30,104 @@
             
         </div>
         <div class="grid-item">
-            
-            <div class="scroll-wrapper">
-                {%- for block in section.blocks -%}
-                    {% render 'review-before-after-item' review:block.settings %}
-                {%- endfor -%}
-    
+            <div class="scroll-wrapper splide {% if section.settings.is_autoscroll %}autoscroll{% endif %}">
+                <div class="splide__track">
+                    <div class="splide__list">
+                        {%- for block in section.blocks -%}
+                            <div class="splide__slide">
+                                {% render 'review-before-after-item' review:block.settings %}
+                            </div>
+                        {%- endfor -%}
+                    </div>
+                </div>
+
+                <div class="slider-progress">
+                    <div class="slider-progress-bar"></div>
+                </div>
+        
             </div>
         </div>
     </div>
 </div>
 
 
-<script src="{{ 'OverlayScrollbars.min.js' | asset_url }}" defer></script>
+<script src="{{ 'splide.min.js' | asset_url }}" defer></script>
+{% if section.settings.is_autoscroll %}
+    <script src="{{ 'autoscroll.min.js' | asset_url }}" defer></script>
+  {% endif %}
+
 <script defer>
 (function () {
 
-    function defer(method) {
+    function deferScrollbar(method) {
 
         if ( typeof OverlayScrollbars != 'undefined' ) {
             method();
         } else {
-            setTimeout(function() { defer(method) }, 50);
+            setTimeout(function() { deferScrollbar(method) }, 50);
         }
     }
 
-    defer(function() {
+    function deferAutoScroll(method) {
+        if (typeof window.splide != 'undefined') {
+          method();
+        } else {
+          setTimeout(function () {
+            deferAutoScroll(method);
+          }, 50);
+        }
+      }
+
+    function deferSplide(method) {
+        if ( typeof Splide != 'undefined' ) {
+            method();
+        } else {
+            setTimeout(function() { deferSplide(method) }, 50);
+        }
+    }
+
+    deferSplide(function() {
+
+        const splide = document.querySelector('.reviews-carousel-section .splide.scroll-wrapper');
+        const bar = splide.querySelector( '.slider-progress-bar' );
+    
+        const config = {
+            type: 'loop',
+            arrows: false,
+            pagination: false,
+            perPage: 2,
+            fixedWidth : '392px',
+            gap: 20,
+            padding: {
+                right: '20%'
+            },
+            autoScroll: {
+              speed: 1,
+            },
+            breakpoints: {
+            
+            },
+          };
+        
+        const splideInstance = new Splide(splide, config);
+
+        splideInstance.on( 'mounted move active', function () {
+            const end  = splideInstance.Components.Controller.getEnd() + 1;
+            const rate = Math.min( ( splideInstance.index + 1 ) / end, 1 );
+            bar.style.width = String( 100 * rate ) + '%';
+        });
+
+        if (splide.classList.contains('autoscroll')) {
+            deferAutoScroll(function () {
+              splideInstance.mount(window.splide.Extensions);
+            });
+          } else {
+            splideInstance.mount();
+          }
+    });
+
+
+  /*  deferScrollbar(function() {
         const customScroll = document.querySelector('.scroll-wrapper');
        
         new OverlayScrollbars(customScroll, {
@@ -67,7 +140,7 @@
                 
           });
 
-    });
+    });*/
     
 })();
 </script>
@@ -107,6 +180,13 @@
             }
         ],
         "settings": [
+            {
+                "type": "checkbox",
+                "id": "is_autoscroll",
+                "default": true,
+                "label": "Autoscroll",
+                "info": "It'll make the carousel autoscroll"
+            },
             {
                 "type": "text",
                 "id": "heading",

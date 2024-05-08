@@ -10,3 +10,30 @@
 .videos-grid  .videos .grid-item .content-over-media {
     height: 500px;
 }
+
+
+.videos-grid .splide__slide > .section {
+    transition: transform .25s;
+}
+
+@media only screen and (min-width: 769px) {
+
+    .videos-grid .slider-progress {
+        display: none;
+    }
+
+    .videos-grid .splide__slide:not(.splide__slide--clone):not(.is-active) > .section,
+    .videos-grid .splide__slide.is-next > .section,
+    .videos-grid .splide__slide.splide__slide--clone:not(.is-active) > .section {
+        transform: scale(0.85);
+    }
+
+    /* .videos-grid .grid-item:not(.is-middle) {
+        width: 16%;
+        transform: scale(.85);
+    }
+
+    .videos-grid .grid-item.is-middle {
+        flex: 1
+    } */
+}

@@ -1,0 +1,113 @@
+{{ 'product-carousel.css' | asset_url | stylesheet_tag }}
+{{ 'splide.min.css' | asset_url | stylesheet_tag }}
+
+<div class="section-wrapper-padding" style="background: {{ section.settings.bg_color }}">
+    <div class="container">
+        <h2>{{ section.settings.heading }}</h2>
+        <div class="products-carousel splide">
+            <div class="splide__track">
+                <div class="splide__list">
+                    {% for prod in section.settings.products %}
+                        <div class="splide__slide">
+                            {%- render 'product-card-new', 
+                                product: prod, 
+                                stacked: false, 
+                                background: section.settings.product_card_background, 
+                                text_color: section.settings.product_card_text_color, 
+                                show_badges: true 
+                            -%}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{{ 'splide.min.js' | asset_url }}" defer></script>
+<script defer>
+    (function () {
+
+        function deferSplide(method) {
+            if ( typeof Splide != 'undefined' ) {
+                method();
+            } else {
+                setTimeout(function() { deferSplide(method) }, 50);
+            }
+        }
+    
+        deferSplide(function() {
+    
+            const splide = document.querySelector('.products-carousel.splide');
+    
+            const config = {
+                arrows: true,
+                rewind: true,
+                pagination: false,
+                perPage: 3,
+                gap: 20,
+                breakpoints: {
+                    1024: {
+                        perPage: 2
+                    },
+                    767: {
+                        perPage: 1
+                    }
+                }
+              };
+            
+            const splideInstance = new Splide(splide, config);
+            splideInstance.mount();
+            
+        });
+    
+    })();
+
+    
+</script>
+
+
+{% schema %}
+    {
+        "name": "Products Carousel",
+        "class": "products-carousel",
+        "settings": [
+            {
+                "type": "color",
+                "id": "bg_color",
+                "label": "Background Color",
+                "default": "#f3f3f3"
+            },
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "product_list",
+                "id": "products",
+                "label": "Products",
+                "limit": 12
+            },
+            {
+                "type": "header",
+                "content": "Product Settings"
+            },
+            {
+                "type": "color",
+                "id": "product_card_background",
+                "label": "Product Card Background"
+            },
+            {
+                "type": "color",
+                "id": "product_card_text_color",
+                "label": "Product Card Text"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Products Carousel"
+            }
+        ]
+    }
+{% endschema %}

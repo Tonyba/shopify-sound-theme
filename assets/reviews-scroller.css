@@ -8,7 +8,6 @@
 }
 
 .reviews-carousel-section .scroll-wrapper {
-    display: flex;
     padding-bottom: 60px;
 }
 
@@ -17,7 +16,8 @@
 }
 
 
-.reviews-carousel-section .os-scrollbar{
+.reviews-carousel-section .os-scrollbar,
+.reviews-carousel-section  .slider-progress {
     max-width: 570px;
 }
 
@@ -55,9 +55,28 @@
     width: 65%;
 }
 
-
-
 .reviews-carousel-section .os-content {
     display: flex;
 }
 
+.reviews-carousel-section  .slider-progress {
+    margin: auto;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .reviews-carousel-section {
+        flex-direction: column;
+        row-gap: 50px;
+    }    
+
+    .reviews-carousel-section > div:first-child,
+    .reviews-carousel-section > div:last-child {
+        width: 100%;
+   
+    }
+
+    .reviews-carousel-section .grid-item:first-child {
+        justify-content: center;
+    }
+}

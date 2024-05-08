@@ -1,33 +1,81 @@
 
 {{ 'videos-grid.css' | asset_url | stylesheet_tag }}
+{{ 'splide.min.css' | asset_url | stylesheet_tag }}
 
 <div class="section-wrapper {{ section.settings.extra_classes }}">
     <div class="container">
         <h2>{{ section.settings.heading }}</h2>
         
-        <div class="videos flex gap-20 scroll-wrapper">
-            {% for item in section.blocks %}
-                <div class="grid-item w-25">
+        <div class="videos splide scroll-wrapper"> 
+          <div class="splide__track">
+            <div class="splide__list">
+              {% for item in section.blocks %}
+                <div class="grid-item  splide__slide">
                     {% render 'video-item' video: item %}
                 </div>
-            {% endfor %}
+              {% endfor %}
+            </div>
+          </div>
+
+          <div class="slider-progress">
+            <div class="slider-progress-bar"></div>
+          </div>
+
         </div>
     </div>
 </div>
 
+<script src="{{ 'splide.min.js' | asset_url }}" defer></script>
 <script defer>
   (function () {
 
-    function defer(method) {
-
+    function deferScrollbar(method) {
         if ( typeof OverlayScrollbars != 'undefined' ) {
             method();
         } else {
-            setTimeout(function() { defer(method) }, 50);
+            setTimeout(function() { deferScrollbar(method) }, 50);
         }
     }
 
-    defer(function() {
+
+    function deferSplide(method) {
+      if ( typeof Splide != 'undefined' ) {
+        method();
+      } else {
+        setTimeout(function() { deferSplide(method) }, 50);
+      }
+    }
+
+    deferSplide(function() {
+        const carousel = document.querySelector('.videos.splide');
+        const bar = carousel.querySelector( '.slider-progress-bar' );
+
+        const config = {
+          type: 'loop',
+          arrows: false,
+          pagination: false,
+          perPage: 3,
+          focus  : 'center',
+          gap: 20,
+          breakpoints: {
+            768: { perPage: 2 },
+            520: { perPage: 1 } 
+          },
+        };
+
+        const splideInstance = new Splide(carousel, config);
+
+        splideInstance.on( 'mounted move', function () {
+          const end  = splideInstance.Components.Controller.getEnd() + 1;
+          const rate = Math.min( ( splideInstance.index + 1 ) / end, 1 );
+          bar.style.width = String( 100 * rate ) + '%';
+        } );
+
+        splideInstance.mount(); 
+
+    });
+
+    /*deferScrollbar(function() {
         const customScroll = document.querySelector('.videos.scroll-wrapper');
        
         new OverlayScrollbars(customScroll, {
@@ -40,7 +88,7 @@
                 
           });
 
-    });
+    });*/
     
 })();
 </script>
