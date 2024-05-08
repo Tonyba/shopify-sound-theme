@@ -73,6 +73,8 @@
         } );
 
         splideInstance.mount();
+
+        window.dispatchEvent(new Event("resize"));
     });
 
     /*deferScrollbar(function() {
