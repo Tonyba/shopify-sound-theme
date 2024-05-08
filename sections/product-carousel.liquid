@@ -42,9 +42,12 @@
     
             const config = {
                 type: 'loop',
-                arrows: true,
+                arrows: false,
+                pagination: false,
                 perPage: 3,
-                gap: 20
+                gap: 20,
+                breakpoints: {
+                }
               };
             
             const splideInstance = new Splide(splide, config);
