@@ -59,7 +59,7 @@
     display: flex;
 }
 
-.reviews-carousel-section {
-
+.reviews-carousel-section  .slider-progress {
+    margin: auto;
+    margin-top: 40px;
 }
-
