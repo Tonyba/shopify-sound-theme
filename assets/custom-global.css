@@ -293,7 +293,7 @@ border-color: white;
   .two-cols-products-section .product-card__figure {
     height: 400px;
   }
-  .two-cols-products-section .product-card {
+  .two-cols-products-section .product-card { 
     border-radius: 20px;
   }
   .two-cols-products-section .product-card__info {
