@@ -13,6 +13,10 @@
 
 @media only screen and (min-width: 769px) {
     .videos-grid .grid-item:not(.is-middle) {
-        width: 15%;
+        width: 16%;
+    }
+
+    .videos-grid .grid-item.is-middle {
+        flex: 1
     }
 }
