@@ -70,7 +70,8 @@
         row-gap: 50px;
     }    
 
-    .reviews-carousel-section > div:first-child {
+    .reviews-carousel-section > div:first-child,
+    .reviews-carousel-section > div:last-child {
         width: 100%;
    
     }
