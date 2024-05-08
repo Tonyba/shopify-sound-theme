@@ -236,6 +236,12 @@ border-color: white;
     z-index: 1;
 }
 
+.header__icon-list summary {
+    text-transform: uppercase;
+}
+
+
+/*extra weights for main font*/
 @font-face {
     font-display: swap; 
     font-family: 'IBM Plex Sans';
@@ -259,6 +265,7 @@ border-color: white;
     font-weight: 300;
     src: url('https://cdn.shopify.com/s/files/1/0640/3588/1113/files/ibm-plex-sans-v19-latin-300.woff2?v=1714310424') format('woff2');
 }
+/*extra weights for main font end*/
 
 
 
