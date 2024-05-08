@@ -24,6 +24,33 @@
 </div>
 
 
+<script defer>
+    function deferSplide(method) {
+        if ( typeof Splide != 'undefined' ) {
+            method();
+        } else {
+            setTimeout(function() { deferSplide(method) }, 50);
+        }
+    }
+
+    deferSplide(function() {
+
+        const splide = document.querySelector('.products-carousel.splide');
+
+        const config = {
+            type: 'loop',
+            arrows: true,
+            perPage: 3,
+            gap: 20,
+          };
+        
+        const splideInstance = new Splide(splide, config);
+        splideInstance.mount();
+        
+    });
+</script>
+
+
 {% schema %}
     {
         "name": "Products Carousel",
