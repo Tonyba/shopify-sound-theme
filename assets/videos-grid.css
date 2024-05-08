@@ -11,19 +11,6 @@
     height: 500px;
 }
 
-.videos-grid .slider-progress {
-    background: #ccc;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-  
-.videos-grid .slider-progress-bar {
-    background: black;
-    height: 6px;
-    transition: width 400ms ease;
-    width: 0;
-    border-radius: 10px;
-}
 
 .videos-grid .splide__slide > .section {
     transition: transform .25s;
