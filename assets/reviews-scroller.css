@@ -71,5 +71,6 @@
 
     .reviews-carousel-section > div:first-child {
         width: 100%;
+        justify-content: center;
     }
 }
