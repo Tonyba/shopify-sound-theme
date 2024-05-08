@@ -8,7 +8,9 @@
             <div class="grid-item">
                 <div class="col-img">
                     {% if  section.settings.col_img != blank %}
-                        {{- section.settings.col_img | image_url: width: section.settings.col_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false, alt: 'Column image' -}}
+                        <a href="{{ section.settings.img_url }}">
+                            {{- section.settings.col_img | image_url: width: section.settings.col_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false, alt: 'Column image' -}}
+                        </a>
                     {% endif %}
                 </div>
             </div>
