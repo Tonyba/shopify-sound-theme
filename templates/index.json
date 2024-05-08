@@ -315,36 +315,6 @@
         "heading": ""
       }
     },
-    "featured_collection_new_dgJL97": {
-      "type": "featured-collection-new",
-      "custom_css": [
-        ".section-header {justify-items: end;}"
-      ],
-      "settings": {
-        "collection": "automated-collection",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "Best Bundles",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "#f3f3f3",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "product_carousel_CYqLXT": {
       "type": "product-carousel",
       "settings": {
@@ -406,7 +376,6 @@
     "product_grid_with_photo_pp868q",
     "videos_grid_xbhNpg",
     "customer_testimonials_7AXfGP",
-    "featured_collection_new_dgJL97",
     "product_carousel_CYqLXT",
     "two_cols_img_carousel_7KGijH",
     "blog_home_loop_ttXaDD"
