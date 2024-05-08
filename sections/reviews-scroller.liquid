@@ -47,16 +47,30 @@
 <script defer>
 (function () {
 
-    function defer(method) {
+    function deferScrollbar(method) {
 
         if ( typeof OverlayScrollbars != 'undefined' ) {
             method();
         } else {
-            setTimeout(function() { defer(method) }, 50);
+            setTimeout(function() { deferScrollbar(method) }, 50);
         }
     }
 
-    defer(function() {
+    function deferSplide(method) {
+
+        if ( typeof Splide != 'undefined' ) {
+            method();
+        } else {
+            setTimeout(function() { deferSplide(method) }, 50);
+        }
+    }
+
+    deferSplide(function() {
+        
+    });
+
+
+  /*  deferScrollbar(function() {
         const customScroll = document.querySelector('.scroll-wrapper');
        
         new OverlayScrollbars(customScroll, {
@@ -69,7 +83,7 @@
                 
           });
 
-    });
+    });*/
     
 })();
 </script>
