@@ -103,12 +103,19 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ad3e2346f4c0ed84b29ccdb325793a37.png"
           }
+        },
+        "slide_ECWUp7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/forbes.png"
+          }
         }
       },
       "block_order": [
         "slide_JBgDcE",
         "slide_WwMFBG",
-        "slide_38cYkM"
+        "slide_38cYkM",
+        "slide_ECWUp7"
       ],
       "settings": {
         "is_autoscroll": true,
