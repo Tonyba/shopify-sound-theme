@@ -32,11 +32,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    backdrop-filter: blur(14px);
 }
 
 .products-carousel  .splide__arrow svg {
     width: 18px;
     fill: white;
+}
+
+.products-carousel  .splide__arrow.splide__arrow--prev {
+    left: -25px
 }
 
 .products-carousel  .splide__arrow.splide__arrow--next {
