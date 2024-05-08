@@ -13,7 +13,7 @@
 
 .videos-grid .slider-progress {
     background: #ccc;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-top: 20px;
 }
   
@@ -22,7 +22,7 @@
     height: 6px;
     transition: width 400ms ease;
     width: 0;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .videos-grid .splide__slide > .section {
