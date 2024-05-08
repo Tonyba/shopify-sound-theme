@@ -25,6 +25,8 @@
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
+    border-radius: 100%;
+    background-color: #00000054;
 }
 
 .products-carousel  .splide__arrow svg {
