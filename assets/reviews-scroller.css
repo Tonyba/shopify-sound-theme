@@ -69,7 +69,7 @@
         flex-direction: column;
     }    
 
-    .reviews-carousel-section  > div {
+    .reviews-carousel-section > div:first-child {
         width: 100%;
     }
 }
