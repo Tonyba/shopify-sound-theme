@@ -90,7 +90,8 @@
     deferSplide(function() {
 
         const splide = document.querySelector('.reviews-carousel-section .splide.scroll-wrapper');
-        console.log(splide);
+        const bar = splide.querySelector( '.slider-progress-bar' );
+    
         const config = {
             type: 'loop',
             arrows: false,
@@ -107,7 +108,14 @@
             
             },
           };
+        
         const splideInstance = new Splide(splide, config);
+
+        splideInstance.on( 'mounted move', function () {
+            const end  = splideInstance.Components.Controller.getEnd() + 1;
+            const rate = Math.min( ( splideInstance.index + 1 ) / end, 1 );
+            bar.style.width = String( 100 * rate ) + '%';
+        });
 
         if (splide.classList.contains('autoscroll')) {
             deferAutoScroll(function () {
