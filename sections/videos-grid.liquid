@@ -33,7 +33,7 @@
         if ( typeof OverlayScrollbars != 'undefined' ) {
             method();
         } else {
-            setTimeout(function() { defer(method) }, 50);
+            setTimeout(function() { deferScrollbar(method) }, 50);
         }
     }
 
@@ -42,7 +42,7 @@
       if ( typeof Splide != 'undefined' ) {
         method();
       } else {
-        setTimeout(function() { defer(method) }, 50);
+        setTimeout(function() { deferSplide(method) }, 50);
       }
     }
 
