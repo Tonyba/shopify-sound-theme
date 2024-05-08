@@ -16,7 +16,11 @@
               {% endfor %}
             </div>
           </div>
-          
+
+          <div class="slider-progress">
+            <div class="slider-progress-bar"></div>
+          </div>
+
         </div>
     </div>
 </div>
@@ -45,11 +49,14 @@
     console.log('init')
     deferSplide(function() {
         const carousel = document.querySelector('.videos.splide');
+        const bar = carousel.root.querySelector( '.carousel-progress-bar' );
+
         const config = {
           type: 'loop',
           arrows: false,
           pagination: false,
           perPage: 3,
+          focus  : 'center',
           gap: 20,
           breakpoints: {
             768: { perPage: 2 },
@@ -58,6 +65,13 @@
         };
 
         const splideInstance = new Splide(carousel, config);
+
+        splideInstance.on( 'mounted move', function () {
+          const end  = carousel.Components.Controller.getEnd() + 1;
+          const rate = Math.min( ( carousel.index + 1 ) / end, 1 );
+          bar.style.width = String( 100 * rate ) + '%';
+        } );
+
         splideInstance.mount();
     });
 

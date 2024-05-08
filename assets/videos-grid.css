@@ -11,6 +11,17 @@
     height: 500px;
 }
 
+.videos-grid .slider-progress {
+    background: #ccc;
+}
+  
+.videos-grid .slider-progress-bar {
+    background: black;
+    height: 2px;
+    transition: width 400ms ease;
+    width: 0;
+}
+
 @media only screen and (min-width: 769px) {
     .videos-grid .grid-item:not(.is-middle) {
         width: 16%;

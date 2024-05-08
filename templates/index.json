@@ -103,19 +103,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ad3e2346f4c0ed84b29ccdb325793a37.png"
           }
-        },
-        "slide_ECWUp7": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/forbes.png"
-          }
         }
       },
       "block_order": [
         "slide_JBgDcE",
         "slide_WwMFBG",
-        "slide_38cYkM",
-        "slide_ECWUp7"
+        "slide_38cYkM"
       ],
       "settings": {
         "is_autoscroll": true,
@@ -268,29 +261,13 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
-        },
-        "slide_XkGtmH": {
-          "type": "slide",
-          "settings": {
-            "is_in_loop": true,
-            "full_width": false,
-            "allow_transparent_header": false,
-            "autoplay": false,
-            "video_size": "auto",
-            "video": "shopify:\/\/files\/videos\/Snaptik.app_7262147424884378885.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
         "slide_ngaVbM",
         "slide_nRUXi6",
         "slide_kAizwX",
-        "slide_YgM6NJ",
-        "slide_XkGtmH"
+        "slide_YgM6NJ"
       ],
       "settings": {
         "heading": "Customer Testimonials",
