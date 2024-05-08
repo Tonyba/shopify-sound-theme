@@ -47,3 +47,14 @@
 .products-carousel  .splide__arrow.splide__arrow--next {
     right: -25px;
 }
+
+@media only screen and (max-width: 767px) {
+    .products-carousel  .splide__arrow.splide__arrow--prev {
+        left: -20px
+    }
+    
+    .products-carousel  .splide__arrow.splide__arrow--next {
+        right: -20px;
+    }
+    
+}
