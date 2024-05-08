@@ -238,6 +238,7 @@ border-color: white;
 
 .header__icon-list summary {
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 
