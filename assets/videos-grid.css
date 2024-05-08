@@ -10,3 +10,7 @@
 .videos-grid  .videos .grid-item .content-over-media {
     height: 500px;
 }
+
+@media only screen and (max-width: 767px) {
+    
+}
