@@ -22,6 +22,12 @@
     width: 0;
 }
 
+.videos-grid .splide__slide:not(.splide__slide--clone):not(.is-active),
+.videos-grid .splide__slide.is-next,
+.videos-grid .splide__slide.splide__slide--clone:not(.is-active) {
+    transition: transform .25s;
+}
+
 @media only screen and (min-width: 769px) {
 
     .videos-grid .slider-progress {
