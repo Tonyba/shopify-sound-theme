@@ -67,11 +67,12 @@
 @media only screen and (max-width: 768px) {
     .reviews-carousel-section {
         flex-direction: column;
+        row-gap: 50px;
     }    
 
     .reviews-carousel-section > div:first-child {
         width: 100%;
-       row-gap: 50px;
+   
     }
 
     .reviews-carousel-section .grid-item:first-child {
