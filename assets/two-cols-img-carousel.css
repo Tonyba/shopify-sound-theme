@@ -93,4 +93,8 @@ text-align: center;
     .two-cols-image-carousel .grid {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .two-cols-image-carousel h2 {
+        margin-bottom: 10px;
+    }
 }
