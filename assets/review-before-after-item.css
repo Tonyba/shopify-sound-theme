@@ -70,3 +70,11 @@
 .review-before-after-item.horizontal-review .review-author {
     text-align: right;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .product-tesminonials .review-before-after-item  {
+        max-width: 35%;
+    }
+
+}
