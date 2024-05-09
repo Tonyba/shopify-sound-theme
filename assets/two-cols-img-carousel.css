@@ -94,7 +94,9 @@ text-align: center;
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .two-cols-image-carousel h2 {
+    .two-cols-image-carousel h2.heading {
         margin-bottom: 15px;
+        font-size: 30px;
     }
+
 }
