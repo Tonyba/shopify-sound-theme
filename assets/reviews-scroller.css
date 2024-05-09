@@ -72,6 +72,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+    .reviews-carousel-section .splide  {
+        padding: 0 20px;
+    }   
+    
     .reviews-carousel-section {
         flex-direction: column;
         row-gap: 50px;
