@@ -10030,5 +10030,10 @@ homepage mobile css
     flex-direction: column;
     justify-content: space-between;}
  #shopify-section-template--16704955089049__product_grid_with_photo_pp868q .horizontal-custom-prod{padding: 20px 22px!important;}
+
+  .product-info__price .rating-with-text {
+    display: flex;
+    flex-direction: column;
+}
 }
 
