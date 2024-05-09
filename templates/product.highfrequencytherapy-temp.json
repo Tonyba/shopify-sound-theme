@@ -62,6 +62,11 @@
             "list_heading": "Who It’s For"
           }
         },
+        "right_side_info_features_aGwbPX": {
+          "type": "right-side-info-features",
+          "settings": {
+          }
+        },
         "accordion_data_9aq9g6": {
           "type": "accordion-data",
           "settings": {
@@ -78,6 +83,7 @@
         "quantity_selector",
         "buy_buttons",
         "product_icon_list_PMUFtB",
+        "right_side_info_features_aGwbPX",
         "accordion_data_9aq9g6"
       ],
       "settings": {
