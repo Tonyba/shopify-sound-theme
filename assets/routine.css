@@ -26,9 +26,12 @@
     text-align: center;
 }
 
-.routine .step-item:nth-child(odd) {
+.routine .step-item {
     padding: 20px 20px 30px 30px;
     border-radius: 20px;
+}
+
+.routine .step-item:nth-child(odd) {
     background: linear-gradient(84.86deg, #F3E6D6 0%, #FFF9F1 97.65%);
 }
 
