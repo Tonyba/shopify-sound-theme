@@ -10033,3 +10033,16 @@ homepage mobile css
 
 
 }
+@media screen and (max-width: 768px) {
+   .product-info__price .rating-with-text {
+    display: flex;
+    flex-direction: column;
+}
+  .product-info__price .product-info__badge-list {
+    align-self: inherit;
+   
+    float: left!important;
+}
+
+}
+ 
