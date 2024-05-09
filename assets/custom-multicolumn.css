@@ -43,6 +43,10 @@
         padding: 10px;
     }
 
+    .custom-multicolumn .subheading {
+        font-size: 18px
+    }
+
     .custom-multicolumn h3 {
         font-size: 17px;
     }
