@@ -53,7 +53,7 @@
         padding-bottom: 50px;
     }
     
-    .horizontal-custom-prod h3 {
-        font-size: 20px;
+    .horizontal-custom-prod .top-product h3 {
+        font-size: 20px !important;
     }
 }
