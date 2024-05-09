@@ -35,6 +35,7 @@
 
 .two-cols-image-carousel .text{
     margin-bottom: 20px;
+    text-transform: capitalize;
 }
 
 .two-cols-image-carousel  {
