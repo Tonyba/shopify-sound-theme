@@ -9926,7 +9926,7 @@ split-lines {
   bottom:0;
 }
 
-body:has(:not(.shopify-section--main-product)) .reviews-carousel-section{padding-left:30px;}
+body:not(:has(.shopify-section--main-product)) .reviews-carousel-section{padding-left:30px;}
 
 html,body{max-width:100%!important;
          overflow-x:hidden!important;}
