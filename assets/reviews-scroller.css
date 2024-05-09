@@ -65,7 +65,7 @@
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1025px) {
     .reviews-carousel-section .slider-progress {
         display: none;
     }
