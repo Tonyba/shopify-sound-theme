@@ -19,10 +19,6 @@
     max-width: 1300px;
 }
 
-.product-tesminonials {
-    padding: 0 20px;
-}
-
 
 @media only screen and (max-width: 767px) {
     .product-tesminonials h2 {
