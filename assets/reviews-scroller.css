@@ -64,6 +64,10 @@
     margin-top: 40px;
 }
 
+.reviews-carousel-section .before-after-badge  {
+display: none;
+}
+
 
 @media only screen and (min-width: 1025px) {
     .reviews-carousel-section .slider-progress {
