@@ -11,6 +11,7 @@
     margin-bottom: 20px;
 }
 
+
 .two-cols-image-carousel .splide__pagination {
     gap: 10px;
     margin-top: -30px;
@@ -53,12 +54,13 @@ text-align: center;
     font-size: 18px;
 }
 
-.two-cols-image-carousel .subheading span {
-    color: #FF004A
+
+.two-cols-image-carousel .subheading {
+    color: #2B2B2B
 }
 
-.two-cols-image-carousel img {
-
+.two-cols-image-carousel .subheading span {
+    color: #FF004A
 }
 
 .carousel-top-message {
