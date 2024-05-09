@@ -487,6 +487,10 @@ border-color: white;
 
 @media only screen and (max-width: 767px) {
 
+    h2 { 
+        font-size: 30px;
+    }
+
     .cols-2,
     .custom-faqs .accordion-box,
     .mobile-cols-1  {
