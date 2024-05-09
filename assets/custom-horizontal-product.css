@@ -31,3 +31,25 @@
 .horizontal-custom-prod .stars-rating svg {
     width: 75px;
 }
+
+@media only screen and (max-width: 768px) {
+    .top-product h3 a {
+        font-size: 20px;
+    }
+
+    .top-product h3 {
+        margin-bottom: 10px;
+    }
+
+    .horizontal-custom-prod .product-desc {
+        font-size: 14px;
+    }
+
+    .top-product .product-price {
+        font-size: 16px ;
+    }
+
+    .horizontal-custom-prod .button {
+        
+    }
+}
