@@ -26,10 +26,14 @@
     text-align: center;
 }
 
-.routine .step-item:nth-child(even) {
+.routine .step-item:nth-child(odd) {
     padding: 20px 20px 30px 30px;
     border-radius: 20px;
     background: linear-gradient(84.86deg, #F3E6D6 0%, #FFF9F1 97.65%);
+}
+
+.routine .step-item:nth-child(even) {
+    background: linear-gradient(84.86deg, #FFF9F1 0%, #F3E6D6 97.65%);
 }
 
 .routine .step-item:not(:last-child) {
