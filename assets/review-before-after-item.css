@@ -49,6 +49,10 @@
     max-width: 392px;
 }
 
+.product-tesminonials .review-before-after-item {
+    max-width: 456px;
+}
+
 .review-before-after-item {
     display: block;
 }
