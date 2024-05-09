@@ -55,7 +55,10 @@
     
     .top-product h3 a {
         font-size: 20px;
-        padding-bottom: 10px;
+    }
+
+    .top-product h3 {
+        margin-bottom: 20px;
     }
 
     .horizontal-custom-prod .product-desc {
