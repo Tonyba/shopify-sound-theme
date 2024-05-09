@@ -58,6 +58,6 @@
     }
 
     .horizontal-custom-prod .product-desc {
-        font-size: 14px;
+        font-size: 14px !important;
     }
 }
