@@ -78,3 +78,10 @@
     }
 
 }
+
+
+@media only screen and (max-width: 767px) {
+    .product-tesminonials .review-before-after-item  {
+        max-width: 100%;
+    }
+}
