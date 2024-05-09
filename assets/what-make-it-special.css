@@ -33,6 +33,6 @@
     color: #777;
 }
 
-.what-make-it-special .info-text > p:first-child {
+.what-make-it-special .info-text > p:first-of-type {
     font-weight: bold;
 }
