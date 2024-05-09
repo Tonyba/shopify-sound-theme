@@ -9,8 +9,9 @@
                 <h2 class="heading" >{{ section.settings.heading }}</h2>
                 <h3 class="subheading" >{{ section.settings.subheading }}</h3>
                 <p class="text" >{{ section.settings.text }}</p>
+
+                {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
                 
-                <img src="//shop-sitetest.myshopify.com/cdn/shop/files/07c7995e598f637918823e6733524978.png?v=1714104320" alt="logos">
             </div>
   
              
@@ -84,6 +85,11 @@
                 "type": "textarea",
                 "id": "text",
                 "label": "Text"
+            },
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
             }
         ],
         "blocks": [ 
