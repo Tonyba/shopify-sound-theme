@@ -10026,7 +10026,7 @@ homepage mobile css
 }
 
 @media screen and (min-width: 770px) {
-  #shopify-section-template--16704955089049__product_grid_with_photo_pp868q .grid.cols-2.gap-40:last-child{    display: flex;
+  #shopify-section-template--16704955089049__product_grid_with_photo_pp868q .grid-item:last-child{    display: flex;
     flex-direction: column;
     justify-content: space-between;}
 
