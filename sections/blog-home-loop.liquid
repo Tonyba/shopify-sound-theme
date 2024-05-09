@@ -2,14 +2,14 @@
 
 
 <div class="container"> 
-    <div class="grid cols-2">
+    <div class="grid cols-2 cols-2-mobile">
         <div class="grid-item"><h2>{{ section.settings.heading }}</h2>  </div>
         
         <div class="grid-item" >
             <a class="btn" href="{{ section.settings.btn_link }}">{{ section.settings.btn_text }}</a>
         </div>
     </div>
-    <div class="grid cols-5 gap-40 gap-20-tablet tablet-cols-2 mobile-cols-1  "> 
+    <div class="grid cols-5 gap-40 gap-20-tablet tablet-cols-2 mobile-cols-1"> 
 
         {% for post in section.settings.blog_posts.articles %}
 
