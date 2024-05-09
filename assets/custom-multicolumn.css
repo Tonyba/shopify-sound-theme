@@ -35,6 +35,8 @@
     text-align: center;
 }
 
+
+
 @media only screen and (max-width: 767px) {
     .custom-multicolumn .grid-item {
         padding: 10px;
@@ -49,6 +51,8 @@
     }
 
     .custom-multicolumn img {
-        height: 270px;
+        height: 190px;
+        width: 70px;
+        object-fit: contain;
     }
 }
