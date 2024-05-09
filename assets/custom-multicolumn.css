@@ -3,6 +3,7 @@
     height: 380px;
     margin: auto;
     margin-bottom: 20px;
+    object-fit: contain;
 }
 
 .custom-multicolumn h2 {
@@ -53,6 +54,5 @@
     .custom-multicolumn img {
         height: 190px;
         width: 70px;
-        object-fit: contain;
     }
 }
