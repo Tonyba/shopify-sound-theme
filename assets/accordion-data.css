@@ -35,6 +35,10 @@ button.accordion.active .accordion-icon svg {
     transform: rotate(180deg);
 }
 
+button.accordion.active .accordion-icon svg {
+    transform: rotate(180deg);
+}
+
 
 
 .panel {
