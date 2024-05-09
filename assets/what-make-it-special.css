@@ -32,3 +32,7 @@
     font-style: italic;
     color: #777;
 }
+
+.what-make-it-special .info-text > p:first-child {
+    font-weight: bold;
+}
