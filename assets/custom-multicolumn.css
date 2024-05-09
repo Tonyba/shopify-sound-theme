@@ -44,7 +44,8 @@
     }
 
     .custom-multicolumn .subheading {
-        font-size: 18px
+        font-size: 18px;
+        margin-bottom: 20px;
     }
 
     .custom-multicolumn h3 {
