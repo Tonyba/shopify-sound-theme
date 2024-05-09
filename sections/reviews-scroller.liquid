@@ -59,6 +59,8 @@
 <script defer>
 (function () {
 
+    const w = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+
     function deferScrollbar(method) {
 
         if ( typeof OverlayScrollbars != 'undefined' ) {
@@ -114,7 +116,7 @@
             bar.style.width = String( 100 * rate ) + '%';
         });
 
-        if (splide.classList.contains('autoscroll')) {
+        if (splide.classList.contains('autoscroll') && w > 768 ) {
             deferAutoScroll(function () {
               splideInstance.mount(window.splide.Extensions);
             });
