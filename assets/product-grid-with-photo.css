@@ -53,8 +53,9 @@
         padding-bottom: 50px;
     }
     
-    .horizontal-custom-prod .top-product h3 {
-        font-size: 20px !important;
+    .top-product h3 a {
+        font-size: 20px;
+        margin-bottom: 10px;
     }
 
     .horizontal-custom-prod .product-desc {
