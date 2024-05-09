@@ -18,3 +18,10 @@
 .two-cols-products-section h2 {
     margin-bottom: 40px;
 }
+
+@media only screen and (max-width: 767px) {
+    .two-cols-products-section .products-wrapper {
+        padding-top: 30px;
+    }
+}
+
