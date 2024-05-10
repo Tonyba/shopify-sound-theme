@@ -4,6 +4,9 @@
   "sections": {
     "custom_html_nMH4Xg": {
       "type": "custom-html",
+      "custom_css": [
+        ".top-shop-message{height:40px; padding:7px 0px 0px 0px;}"
+      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
