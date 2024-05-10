@@ -89,7 +89,7 @@
         "slide_JBgDcE": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3bbf467d37c3cb3101c3efeac22258ac.png"
+            "image": "shopify:\/\/shop_images\/glamour-logo.png"
           }
         },
         "slide_WwMFBG": {
@@ -103,12 +103,19 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ad3e2346f4c0ed84b29ccdb325793a37.png"
           }
+        },
+        "slide_zhFnpF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Forbes-logo_450x_721773fa-9ddd-43b9-97e5-b5ccf21a025e.png"
+          }
         }
       },
       "block_order": [
         "slide_JBgDcE",
         "slide_WwMFBG",
-        "slide_38cYkM"
+        "slide_38cYkM",
+        "slide_zhFnpF"
       ],
       "settings": {
         "is_autoscroll": true,
