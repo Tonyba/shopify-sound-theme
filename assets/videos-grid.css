@@ -67,6 +67,7 @@
     }
 
     .videos-grid .slider-progress {
-        margin: 20px 20px;
+        margin: 0 20px;
+        margin-top: 50px;
     }
 }
