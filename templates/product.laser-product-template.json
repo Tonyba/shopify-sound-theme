@@ -377,7 +377,7 @@
       "settings": {
         "style": "style_2",
         "bg_color": "#f7ecdf",
-        "heading": "Safe To Use On  All Body Parts",
+        "heading": "Safe To Use On  <span>All Body Parts<\/span>",
         "left_img": "shopify:\/\/shop_images\/3_7.png",
         "right_img": "shopify:\/\/shop_images\/beautiful-girl-with-perfect-face_1.png"
       }
