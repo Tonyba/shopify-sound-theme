@@ -21,7 +21,25 @@
     <div class="grid">
         <div class="grid-item">
             {% for item in firstCol %}
-                
+                <div class="section-stack__main" >
+                    <div {% render 'surface', class: 'accordion-box rounded', 
+                        background: section.settings.accordion_background, 
+                        text_color: section.settings.accordion_text_color, 
+                        background_fallback: 'bg-secondary'
+                     %}>
+
+                      {%- for block in section.blocks -%}
+                        {%- if block.settings.title != blank and block.settings.content != blank -%}
+                          {%- capture accordion_content -%}
+                            <div class="prose">{{ block.settings.content }}</div>
+                          {%- endcapture -%}
+            
+                          {%- render 'accordion', title: block.settings.title, content: accordion_content, block: block -%}
+                        {%- endif -%}
+                      {%- endfor -%}
+
+                    </div>
+                  </div>
             {% endfor %}
         </div>
         <div class="grid-item">
@@ -67,6 +85,11 @@
                 "type": "text",
                 "id": "subheading",
                 "label": "Subtitle"
+            },
+            {
+                "type": "color",
+                "id": "accordion_text_color",
+                "label": "Accordion Text Color"
             }
         ],
         "blocks": [
