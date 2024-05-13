@@ -57,6 +57,7 @@
 .safety-body-parts .style_2 .body-part {
     background-color: #FFFFFF;
     padding: 32px 50px;
+    border-radius: 50px;
 }
 
 @media only screen and (max-width: 1440px) {
