@@ -3,7 +3,9 @@
     margin-bottom: 3rem;
 }  
 
-
+.custom-faqs .accordion {
+    border: 0;
+}
 
 .custom-faqs .headings div {
     font-size: 20px;
