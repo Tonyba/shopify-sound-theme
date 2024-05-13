@@ -60,3 +60,13 @@
         flex: 1
     } */
 }
+
+@media only screen and (max-width: 768px) {
+    .videos-grid .container {
+        margin: unset;
+    }
+
+    .videos-grid .slider-progress {
+        padding: 0 20px;
+    }
+}
