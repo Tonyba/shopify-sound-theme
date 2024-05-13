@@ -1,10 +1,9 @@
 {%liquid 
 
 
-        assign halfBlocksSize = section.blocks.size | divided_by: 2
-        assign firstCol = section.blocks | slice: 0, halfBlocksSize
-        assign secondCol = section.blocks | slice: halfBlocksSize, section.blocks.size
-    
+    assign halfBlocksSize = section.blocks.size | divided_by: 2
+    assign firstCol = section.blocks | slice: 0, halfBlocksSize
+    assign secondCol = section.blocks | slice: halfBlocksSize, section.blocks.size
 
 %}
 
@@ -12,7 +11,7 @@
   
 
 <div class="container">
-    {{ section.blocks.size | json }}
+    {{ halfBlocksSize | json }}
     <div class="headings">
         <h2 class="heading">{{ section.settings.heading }}</h2>
         <div>{{ section.settings.subheading }}</div>
