@@ -10034,6 +10034,8 @@ homepage mobile css
 
 }
 @media screen and (max-width: 768px) {
+  #shopify-section-template--16704955089049__slideshow_cmeXET .h1{font-size:35px!important;}
+  #shopify-section-template--16704955089049__slideshow_cmeXET p{font-size:18px!important;}
    .product-info__price .rating-with-text {
     display: flex;
     flex-direction: column;
