@@ -657,97 +657,63 @@
         "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
       }
     },
-    "faq_AazXpU": {
-      "type": "faq",
+    "custom_faqs_xyrtaM": {
+      "type": "custom-faqs",
       "blocks": {
-        "item_JYPWUe": {
-          "type": "item",
+        "slide_Jaah9p": {
+          "type": "slide",
           "settings": {
             "title": "What skin tone and hair color are suitable for IPL hair removal device?",
             "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
           }
         },
-        "item_Vpp7ie": {
-          "type": "item",
+        "slide_8Renji": {
+          "type": "slide",
           "settings": {
             "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
           }
         },
-        "item_W8FpwW": {
-          "type": "item",
+        "slide_GchWmY": {
+          "type": "slide",
           "settings": {
-            "title": "Who Should Not Use IPL?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
           }
         },
-        "item_8NVp7D": {
-          "type": "item",
+        "slide_yfQygF": {
+          "type": "slide",
           "settings": {
-            "title": "When Can I See the Effect, and is it Permanent?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
           }
         },
-        "item_HNETTx": {
-          "type": "item",
+        "slide_8KpjxW": {
+          "type": "slide",
           "settings": {
-            "title": "Does IPL Hair Remover Hurt?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
           }
         },
-        "item_tBU7Tf": {
-          "type": "item",
+        "slide_MAJXG3": {
+          "type": "slide",
           "settings": {
-            "title": "Who Should Not Use IPL?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
-          }
-        },
-        "item_DyN86a": {
-          "type": "item",
-          "settings": {
-            "title": "Do I Need to Shave Before Using IPL?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
-          }
-        },
-        "item_eAxeVV": {
-          "type": "item",
-          "settings": {
-            "title": "Which Areas of the Body Can I Use This On?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
           }
         }
       },
       "block_order": [
-        "item_JYPWUe",
-        "item_Vpp7ie",
-        "item_W8FpwW",
-        "item_8NVp7D",
-        "item_HNETTx",
-        "item_tBU7Tf",
-        "item_DyN86a",
-        "item_eAxeVV"
+        "slide_Jaah9p",
+        "slide_8Renji",
+        "slide_GchWmY",
+        "slide_yfQygF",
+        "slide_8KpjxW",
+        "slide_MAJXG3"
       ],
       "settings": {
-        "extra_class": "custom-faqs",
-        "full_width": true,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Let’s Answer Your Questions<\/p>",
-        "team_avatar_width": 160,
-        "support_hours": "",
-        "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "heading": "FAQ",
+        "subheading": "Let’s Answer Your Questions"
       }
     },
     "1714399521759d2898": {
@@ -790,7 +756,7 @@
     "multiple_images_with_text_F8fCf8",
     "multiple_images_with_text_6E8gFT",
     "two_cols_list_image_TN9xV8",
-    "faq_AazXpU",
+    "custom_faqs_xyrtaM",
     "1714399521759d2898"
   ]
 }
