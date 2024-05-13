@@ -35,6 +35,10 @@
     background-color: white;
 }
 
+.videos-grid .splide__arrow--next {
+    right: 0;
+}
+
 @media only screen and (min-width: 769px) {
 
     .videos-grid .slider-progress {
