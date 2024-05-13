@@ -34,12 +34,14 @@
     position: absolute;
     top: 0;
     transition-duration: .15s;
+    visibility: hidden;
 }
 
 .before-after-product-progress .tab-content-item {
     opacity: 1;
     transition: opacity .5s;
     position: unset;
+    visibility: visible;
 }
 
 .before-after-product-progress .tab-content-title{
