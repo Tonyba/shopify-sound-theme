@@ -293,44 +293,6 @@
         "extra_classes": "section-wrapper-margin-t"
       }
     },
-    "impact_text_CXpjq9": {
-      "type": "impact-text",
-      "blocks": {
-        "item_fbj6X7": {
-          "type": "item",
-          "settings": {
-            "title": "",
-            "subheading": "",
-            "content": "<h2><strong>Customer Testimonials<\/strong><\/h2>",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "item_fbj6X7"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "customer_testimonials_7AXfGP": {
       "type": "customer-testimonials",
       "blocks": {
@@ -357,7 +319,7 @@
         ".grid.cols-4 {gap: 15px;}"
       ],
       "settings": {
-        "heading": ""
+        "heading": "Customer Testimonials"
       }
     },
     "product_carousel_CYqLXT": {
@@ -421,7 +383,6 @@
     "reviews_scroller_jWQtdn",
     "product_grid_with_photo_pp868q",
     "videos_grid_xbhNpg",
-    "impact_text_CXpjq9",
     "customer_testimonials_7AXfGP",
     "product_carousel_CYqLXT",
     "two_cols_img_carousel_7KGijH",
