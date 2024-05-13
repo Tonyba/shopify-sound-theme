@@ -49,7 +49,11 @@
 
 .product-grid-col-photo .col-img .button {
     display: inline-block;
-    margin: auto;
+    margin-top: -20px;
+}
+
+.product-grid-col-photo .col-img {
+    text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
