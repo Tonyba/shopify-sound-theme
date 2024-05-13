@@ -1,3 +1,8 @@
 .custom-faqs .headings {
     text-align: center;
+}  
+
+.custom-faqs .headings div {
+    font-size: 20px;
+    color: #4F4F4F;
 }
