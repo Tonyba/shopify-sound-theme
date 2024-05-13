@@ -30,13 +30,13 @@
 }
 
 .before-after-product-progress .tab-content-item:not(.active) {
-    /* display: none; */
+    display: none;
     opacity: 0;
 }
 
 .before-after-product-progress .tab-content-item {
     opacity: 1;
-    transition: all .25s;
+    transition: all 2s;
     transition-delay: 1s;
 }
 
