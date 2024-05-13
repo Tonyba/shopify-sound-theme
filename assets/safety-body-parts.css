@@ -52,6 +52,7 @@
 
 .safety-body-parts .style_2 .inner-container  {
     max-width: unset;
+    padding: unset;
 }
 
 @media only screen and (max-width: 1440px) {
