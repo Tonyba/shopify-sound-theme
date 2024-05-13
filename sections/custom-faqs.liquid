@@ -1,0 +1,43 @@
+
+
+
+{% schema %}
+    {
+        "name": "Custom Faqs",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "text",
+                "id": "subheading",
+                "label": "Subtitle"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "Item",
+                "settings": [
+                   {
+                    "type": "textarea",
+                    "id": "question",
+                    "label": "Question"
+                   },
+                   {
+                    "type": "richtext",
+                    "id": "answer",
+                    "label": "Answer"
+                   }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Custom Faqs"
+            }
+        ]
+    }
+{% endschema %}
