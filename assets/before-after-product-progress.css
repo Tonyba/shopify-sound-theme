@@ -35,7 +35,7 @@
 
 .before-after-product-progress .tab-content-item {
     opacity: 1;
-    transition: all 5s;
+    transition: opacity .25s;
 }
 
 .before-after-product-progress .tab-content-title{
