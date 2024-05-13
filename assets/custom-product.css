@@ -290,12 +290,16 @@ compare-at-price {
 .custom-faqs  .accordion-box {
     padding: 0;
     background-color: unset;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 40px;
-    row-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
+.custom-faqs  .accordion-box > * {
+    width: 50%;
+    align-self: flex-start;
+}
 
 .custom-faqs .accordion__toggle {
     background-color: #F3F3F3;

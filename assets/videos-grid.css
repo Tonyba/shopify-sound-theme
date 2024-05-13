@@ -16,6 +16,29 @@
     transition: transform .25s;
 }
 
+.videos-grid .splide__arrow svg {
+    width: 16px;
+    height: 16px;
+}
+
+.videos-grid .splide__arrow {
+    border: 1px solid #e5e5e5;
+    border-radius: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: white;
+}
+
+.videos-grid .splide__arrow--next {
+    right: 0;
+}
+
 @media only screen and (min-width: 769px) {
 
     .videos-grid .slider-progress {
@@ -36,4 +59,15 @@
     .videos-grid .grid-item.is-middle {
         flex: 1
     } */
+}
+
+@media only screen and (max-width: 768px) {
+    .videos-grid .container {
+        margin: unset;
+    }
+
+    .videos-grid .slider-progress {
+        margin: 0 20px;
+        margin-top: 50px;
+    }
 }

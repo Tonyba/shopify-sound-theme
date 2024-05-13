@@ -9925,7 +9925,8 @@ split-lines {
   transform: translateY(0px);
   bottom:0;
 }
-.reviews-carousel-section{padding-left:30px;}
+
+body:not(:has(.shopify-section--main-product)) .reviews-carousel-section{padding-left:30px;}
 
 html,body{max-width:100%!important;
          overflow-x:hidden!important;}
@@ -10024,3 +10025,48 @@ homepage mobile css
 
 }
 
+@media screen and (min-width: 770px) {
+  #shopify-section-template--16704955089049__product_grid_with_photo_pp868q .grid-item:last-child{    display: flex;
+    flex-direction: column;
+    justify-content: space-between;}
+ #shopify-section-template--16704955089049__product_grid_with_photo_pp868q .horizontal-custom-prod{padding: 20px 22px!important;}
+
+
+}
+@media screen and (max-width: 768px) {
+
+#shopify-section-template--16709282037913__visible_results_UbQKUh .grid.mobile-cols-1.cols-3.gap-40{gap:15px;}
+  
+#shopify-section-template--16704955089049__reviews_scroller_jWQtdn .reviews-carousel-section{padding-bottom:30px!important;}
+  #shopify-section-template--16704955089049__slideshow_cmeXET .h1{font-size:35px!important;}
+  #shopify-section-template--16704955089049__slideshow_cmeXET p{font-size:18px!important;}
+   .product-info__price .rating-with-text {
+    display: flex;
+    flex-direction: column;
+}
+  .product-info__price .product-info__badge-list {
+    align-self: inherit;
+   
+    float: left!important;
+}
+.pointer-coarse{border:1px solid black;}
+#shopify-section-template--16704955089049__reviews_scroller_jWQtdn .left-side-inner{text-align:center!important;}
+  #shopify-section-template--16704955089049__reviews_scroller_jWQtdn .left-side-inner p{font-size:18px;}
+
+
+#shopify-section-template--16704955089049__customer_testimonials_7AXfGP .container {margin-top:35px!important;}
+#shopify-section-template--16704955089049__impact_text_CXpjq9 .section {padding-top:68px;
+                                                                       padding-bottom:0px;}
+}
+
+
+#shopify-section-template--16704955089049__product_grid_with_photo_pp868q .horizontal-custom-prod .button{width:100%!important;}
+
+
+
+
+#shopify-section-template--16704955089049__product_carousel_CYqLXT .splide__arrow.splide__arrow--prev,#shopify-section-template--16704955089049__product_carousel_CYqLXT .splide__arrow.splide__arrow--next{top:40%;}
+.what-make-it-special .info-text .icon{display:inline!important;}
+.what-make-it-special .info-text>p:first-of-type{display:inline!important;
+                                                    font-size: 18px;
+    color: black;}

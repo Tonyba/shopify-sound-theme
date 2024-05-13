@@ -89,7 +89,7 @@
         "slide_JBgDcE": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3bbf467d37c3cb3101c3efeac22258ac.png"
+            "image": "shopify:\/\/shop_images\/glamour-11.png"
           }
         },
         "slide_WwMFBG": {
@@ -103,12 +103,19 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ad3e2346f4c0ed84b29ccdb325793a37.png"
           }
+        },
+        "slide_zhFnpF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Forbes-logo_450x_721773fa-9ddd-43b9-97e5-b5ccf21a025e.png"
+          }
         }
       },
       "block_order": [
         "slide_JBgDcE",
         "slide_WwMFBG",
-        "slide_38cYkM"
+        "slide_38cYkM",
+        "slide_zhFnpF"
       ],
       "settings": {
         "is_autoscroll": true,
@@ -203,6 +210,7 @@
         "bg_color": "#f3f3f3",
         "heading": "At-Home Products",
         "col_img": "shopify:\/\/shop_images\/effafaad017dc4d91153eb1eaf4ca50e.jpg",
+        "btn_text": "SHOP NOW",
         "img_url": "shopify:\/\/collections\/all",
         "top_prod": "skinpetra-hair-removal",
         "bottom_prods": [
@@ -282,7 +290,7 @@
         "slide_YgM6NJ"
       ],
       "settings": {
-        "heading": "Customer Testimonials",
+        "heading": "Video Testimonials",
         "extra_classes": "section-wrapper-margin-t"
       }
     },
@@ -312,7 +320,7 @@
         ".grid.cols-4 {gap: 15px;}"
       ],
       "settings": {
-        "heading": ""
+        "heading": "Customer Testimonials"
       }
     },
     "product_carousel_CYqLXT": {
@@ -353,8 +361,9 @@
       ],
       "settings": {
         "heading": "986,800",
-        "subheading": "Over <span>986,800<\/span> Satisfied Users in 60+ Countries",
-        "text": "Bring your devices together for more personalized help around the home.1 And create automations tailored to your needs to simplify everyday tasks."
+        "subheading": "Over 986,800 Satisfied Users in 60+ Countries",
+        "text": "Bring your devices together for more personalized help around the home.1 And create automations tailored to your needs to simplify everyday tasks.",
+        "image": "shopify:\/\/shop_images\/11brands.png"
       }
     },
     "blog_home_loop_ttXaDD": {

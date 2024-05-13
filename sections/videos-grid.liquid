@@ -52,13 +52,19 @@
 
         const config = {
           type: 'loop',
-          arrows: false,
+          arrows: true,
           pagination: false,
           perPage: 3,
           focus  : 'center',
           gap: 20,
           breakpoints: {
-            768: { perPage: 2 },
+            768: { 
+              perPage: 2,
+              padding: {
+                right: "10%",
+                left: "10%"
+              } 
+            },
             520: { perPage: 1 } 
           },
         };

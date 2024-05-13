@@ -64,7 +64,23 @@
     margin-top: 40px;
 }
 
+.reviews-carousel-section .before-after-badge  {
+display: none;
+}
+
+
+@media only screen and (min-width: 1025px) {
+    .reviews-carousel-section .slider-progress {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 768px) {
+
+    .reviews-carousel-section .splide  {
+        padding: 0 20px;
+    }   
+    
     .reviews-carousel-section {
         flex-direction: column;
         row-gap: 50px;

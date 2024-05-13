@@ -14,7 +14,7 @@
     position: absolute;
     top: 0;
     z-index: 1;
-    background: linear-gradient(92.35deg, #F3F3F3 1.97%, rgba(243, 234, 221, 0.63) 104.47%);
+    background: linear-gradient(92.35deg, #F3F3F3 1.97%, rgba(243, 234, 221, 0) 104.47%);
 }
 
 .brands-carousel:before {

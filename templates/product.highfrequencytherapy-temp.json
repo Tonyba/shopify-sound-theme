@@ -62,6 +62,11 @@
             "list_heading": "Who It’s For"
           }
         },
+        "right_side_info_features_aGwbPX": {
+          "type": "right-side-info-features",
+          "settings": {
+          }
+        },
         "accordion_data_9aq9g6": {
           "type": "accordion-data",
           "settings": {
@@ -78,6 +83,7 @@
         "quantity_selector",
         "buy_buttons",
         "product_icon_list_PMUFtB",
+        "right_side_info_features_aGwbPX",
         "accordion_data_9aq9g6"
       ],
       "settings": {
@@ -237,7 +243,7 @@
         "slide_nVNXXL"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/8cc178bb9c7e3c3b6767a2a0c96c87e5.png",
+        "image": "shopify:\/\/shop_images\/skinpetrtaime-1.jpg",
         "heading": "What makes it special",
         "info_text": "<p>Safety Considerations:\u2028<\/p><p>Be sure to remove any metal jewelry before your treatment.\u2028Avoid using AHA or glycolic acid products with the high frequency wand. Avoid contact with broken capillaries, spider veins, and rosacea. Do not use high frequency during pregnancy. Never operate a high-frequency machine with a broken bulb. Always use a towel or tissue folded over the electrode to remove the electrodes and pull directly outward.<\/p>"
       }
@@ -248,7 +254,7 @@
         "slide_N7PPXC": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2b771f8b8352bf153ae27505ecdff092_1.png",
+            "image": "shopify:\/\/shop_images\/img111.png",
             "border_radius": 30,
             "title": "Mashroom Tube",
             "text": "For Wide Areas Such as cheeks or Forehead",
@@ -278,7 +284,7 @@
         "slide_V9cYP3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3c29b4125a96ab0df3b21254ca2b3848.png",
+            "image": "shopify:\/\/shop_images\/4_1.png",
             "border_radius": 30,
             "title": "Comb Tube",
             "text": "For Hair",
@@ -341,7 +347,7 @@
       ],
       "settings": {
         "extra_class": "",
-        "image": "shopify:\/\/shop_images\/27f1bb0655ed2cbfb8b88c85f6979b52.jpg",
+        "image": "shopify:\/\/shop_images\/imageskinpetra.jpg",
         "heading": "Meet the Routine",
         "subheading": "Skinpetra IPL Benefits"
       }
@@ -532,97 +538,63 @@
         "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
       }
     },
-    "faq_wDjk4R": {
-      "type": "faq",
+    "custom_faqs_LCwJca": {
+      "type": "custom-faqs",
       "blocks": {
-        "item_bWKpBQ": {
-          "type": "item",
+        "slide_kJJdqG": {
+          "type": "slide",
           "settings": {
             "title": "What skin tone and hair color are suitable for IPL hair removal device?",
             "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
           }
         },
-        "item_KUXWUW": {
-          "type": "item",
+        "slide_k7JrQp": {
+          "type": "slide",
           "settings": {
             "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
           }
         },
-        "item_aYPDUq": {
-          "type": "item",
+        "slide_fmdtQY": {
+          "type": "slide",
           "settings": {
-            "title": "Who Should Not Use IPL?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
           }
         },
-        "item_WT9nHX": {
-          "type": "item",
+        "slide_NL4kTi": {
+          "type": "slide",
           "settings": {
-            "title": "When Can I See the Effect, and is it Permanent?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
           }
         },
-        "item_cb6X3y": {
-          "type": "item",
+        "slide_tM6xAq": {
+          "type": "slide",
           "settings": {
-            "title": "Does IPL Hair Remover Hurt?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
           }
         },
-        "item_wTMiBi": {
-          "type": "item",
+        "slide_gTYcpT": {
+          "type": "slide",
           "settings": {
-            "title": "Who Should Not Use IPL?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
-          }
-        },
-        "item_94R7Hc": {
-          "type": "item",
-          "settings": {
-            "title": "Do I Need to Shave Before Using IPL?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
-          }
-        },
-        "item_WwNLik": {
-          "type": "item",
-          "settings": {
-            "title": "Which Areas of the Body Can I Use This On?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
           }
         }
       },
       "block_order": [
-        "item_bWKpBQ",
-        "item_KUXWUW",
-        "item_aYPDUq",
-        "item_WT9nHX",
-        "item_cb6X3y",
-        "item_wTMiBi",
-        "item_94R7Hc",
-        "item_WwNLik"
+        "slide_kJJdqG",
+        "slide_k7JrQp",
+        "slide_fmdtQY",
+        "slide_NL4kTi",
+        "slide_tM6xAq",
+        "slide_gTYcpT"
       ],
       "settings": {
-        "extra_class": "custom-faqs",
-        "full_width": true,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Let’s Answer Your Questions<\/p>",
-        "team_avatar_width": 160,
-        "support_hours": "",
-        "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "heading": "FAQ",
+        "subheading": "Let’s Answer Your Questions"
       }
     },
     "17143306286f1c2a35": {
@@ -665,7 +637,7 @@
     "multiple_images_with_text_xhE9mY",
     "multiple_images_with_text_VFC7z8",
     "two_cols_list_image_tBY647",
-    "faq_wDjk4R",
+    "custom_faqs_LCwJca",
     "17143306286f1c2a35"
   ]
 }

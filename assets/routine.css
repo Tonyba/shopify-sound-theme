@@ -29,6 +29,13 @@
 .routine .step-item {
     padding: 20px 20px 30px 30px;
     border-radius: 20px;
+}
+
+.routine .step-item:nth-child(odd) {
+    background: linear-gradient(84.86deg, #F3E6D6 0%, #FFF9F1 97.65%);
+}
+
+.routine .step-item:nth-child(even) {
     background: linear-gradient(84.86deg, #FFF9F1 0%, #F3E6D6 97.65%);
 }
 
@@ -51,6 +58,10 @@
     font-size: 24px;
 }
 
+.routine .lazyload-bg {
+    background-color: white;
+    background-size: auto 100%;
+}
 
 @media only screen and (max-width: 767px) {
     .routine .lazyload-bg {

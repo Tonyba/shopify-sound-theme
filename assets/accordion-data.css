@@ -31,8 +31,12 @@ button.accordion .accordion-icon svg  {
     transition: 0.2s;
 }
 
-button.accordion.active .accordion-icon svg {
+button.accordion .accordion-icon svg {
     transform: rotate(180deg);
+}
+
+button.accordion.active .accordion-icon svg {
+    transform: rotate(0deg);
 }
 
 

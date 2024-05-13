@@ -3,6 +3,7 @@
     height: 380px;
     margin: auto;
     margin-bottom: 20px;
+    object-fit: contain;
 }
 
 .custom-multicolumn h2 {
@@ -35,9 +36,16 @@
     text-align: center;
 }
 
+
+
 @media only screen and (max-width: 767px) {
     .custom-multicolumn .grid-item {
         padding: 10px;
+    }
+
+    .custom-multicolumn .subheading {
+        font-size: 18px;
+        margin-bottom: 20px;
     }
 
     .custom-multicolumn h3 {
@@ -49,6 +57,7 @@
     }
 
     .custom-multicolumn img {
-        height: 270px;
+        height: 190px;
+        width: 70px;
     }
 }

@@ -6,11 +6,12 @@
         <h2 style="text-align:center" >{{ section.settings.heading }}</h2>
         <div class="grid cols-2 gap-40" >
             <div class="grid-item">
-                <div class="col-img">
+                <div class="col-img relative">
                     {% if  section.settings.col_img != blank %}
                         <a href="{{ section.settings.img_url }}">
                             {{- section.settings.col_img | image_url: width: section.settings.col_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false, alt: 'Column image' -}}
                         </a>
+                        <a class="button" href="{{ section.settings.img_url }}">{{ section.settings.btn_text }}</a>
                     {% endif %}
                 </div>
             </div>
@@ -50,6 +51,11 @@
                 "type": "image_picker",
                 "label": "Column Image",
                 "id": "col_img"
+            },
+            {
+                "type": "text",
+                "label": "Button Text",
+                "id": "btn_text"
             },
             {
                 "type": "url",

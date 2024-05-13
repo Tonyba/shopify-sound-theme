@@ -30,7 +30,18 @@
 }
 
 .before-after-product-progress .tab-content-item:not(.active) {
-    display: none;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition-duration: .25s;
+    visibility: hidden;
+}
+
+.before-after-product-progress .tab-content-item {
+    opacity: 1;
+    transition: opacity .5s;
+    position: unset;
+    visibility: visible;
 }
 
 .before-after-product-progress .tab-content-title{

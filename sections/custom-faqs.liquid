@@ -1,0 +1,107 @@
+{{ 'custom-faqs.css' | asset_url | stylesheet_tag }}
+
+{%liquid 
+    assign halfBlocksSize = section.blocks.size | divided_by: 2
+    assign firstCol = section.blocks | slice: 1, halfBlocksSize
+    assign secondCol = section.blocks | slice: halfBlocksSize, section.blocks.size
+%}
+
+<div class="section-wrapper-margin">
+    <div class="container">
+        <div class="headings">
+            <h2 class="heading h2">{{ section.settings.heading }}</h2>
+            <div>{{ section.settings.subheading }}</div>
+        </div>
+    
+        <div class="grid cols-2 gap-20 tablet-cols-1">
+            <div class="grid-item">
+                {% for item in firstCol %}
+                    {%- if item.settings.title != blank and item.settings.content != blank -%}
+                    {%- capture accordion_content -%}
+                        <div class="prose">{{ item.settings.content }}</div>
+                    {%- endcapture -%}
+        
+                    {%- render 'accordion', title: item.settings.title, content: accordion_content, block: item -%}
+                    {%- endif -%}                        
+                {% endfor %}
+            </div>
+            <div class="grid-item">
+                {% for item in secondCol %}
+                    {%- if item.settings.title != blank and item.settings.content != blank -%}
+                        {%- capture accordion_content -%}
+                            <div class="prose">{{ item.settings.content }}</div>
+                        {%- endcapture -%}
+            
+                        {%- render 'accordion', title: item.settings.title, content: accordion_content, block: item -%}
+                        {%- endif -%}                        
+                {% endfor %}
+            </div>
+        </div>
+    
+    </div>
+    
+</div>
+
+
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {%- for block in section.blocks -%}
+          {
+            "@type": "Question",
+            "name": {{ block.settings.title | json }},
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": {{ block.settings.content | json }}
+            }
+          }{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+      ]
+    }
+</script>
+
+
+{% schema %}
+    {
+        "name": "Custom Faqs",
+        "class": "custom-faqs",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "text",
+                "id": "subheading",
+                "label": "Subtitle"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "Item",
+                "settings": [
+                   {
+                    "type": "textarea",
+                    "id": "title",
+                    "label": "Question"
+                   },
+                   {
+                    "type": "richtext",
+                    "id": "content",
+                    "label": "Answer"
+                   }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Custom Faqs"
+            }
+        ]
+    }
+{% endschema %}
