@@ -3,12 +3,12 @@
 
 
 
-<div class="section-wrapper-padding relative" style="background-color: {{ section.settings.bg_color }}" >
+<div class="section-wrapper-padding relative {{section.settings.style}}" style="background-color: {{ section.settings.bg_color }}" >
 
     <div class="container">
         <h2>{{ section.settings.heading }}</h2>
         <div class="inner-container">
-            <div class="grid cols-3 gap-40 cols-2-mobile">
+            <div class="grid {% if section.settings.style == "style_1" %}cols-3{% else %}cols-6{% endif %} gap-20 cols-2-mobile">
                 {% for body_p in section.blocks %}
                     <div class="body-part">
                         <div class="body-icon">{{ body_p.settings.icon }}</div>
@@ -17,12 +17,15 @@
                 {% endfor %}
             </div>
         </div>
-        <div class="left-img">
-            {{- section.settings.left_img | image_url: width: section.settings.left_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
-        </div>
-        <div class="right-img">
-            {{- section.settings.right_img | image_url: width: section.settings.right_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
-        </div>
+
+        {% if section.settings.style == "style_1" %}
+            <div class="left-img">
+                {{- section.settings.left_img | image_url: width: section.settings.left_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+            </div>
+            <div class="right-img">
+                {{- section.settings.right_img | image_url: width: section.settings.right_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
+            </div>
+        {% endif %}        
     </div>
 
 </div>
@@ -34,15 +37,32 @@
         "class": "safety-body-parts",
         "settings": [
             {
+                "type": "select",
+                "id": "style",
+                "label": "Section Style",
+                "default": "style_1",
+                "options": [
+                    {
+                        "value": "style_1",
+                        "label": "Style 1"
+                    },
+                    {
+                        "value": "style_2",
+                        "label": "Style 2"
+                    }
+                ]
+            },
+            {
                 "type": "color",
                 "label": "Background Color",
                 "id": "bg_color",
                 "default": "#f3f3f3"
             },
             {
-                "type": "text",
+                "type": "richtext",
                 "id": "heading",
-                "label": "Heading"
+                "label": "Heading",
+                "default": "<p>Safe To Use On <span>All Body Parts</span></p>"
             },
             {
                 "type": "image_picker",
