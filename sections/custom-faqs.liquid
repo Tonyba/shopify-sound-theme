@@ -1,11 +1,7 @@
-
-
 {%liquid 
-
     assign halfBlocksSize = section.blocks.size | divided_by: 2
     assign firstCol = section.blocks | slice: 0, halfBlocksSize
     assign secondCol = section.blocks | slice: halfBlocksSize, section.blocks.size
-
 %}
 
 
@@ -17,7 +13,7 @@
         <div>{{ section.settings.subheading }}</div>
     </div>
 
-    <div class="grid">
+    <div class="grid cols-2">
         <div class="grid-item">
             <div class="section-stack__main" >
                 <div {% render 'surface', class: 'accordion-box rounded', 
