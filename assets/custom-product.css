@@ -294,6 +294,10 @@ compare-at-price {
     flex-wrap: wrap;
 }
 
+.custom-faqs  .accordion-box > * {
+    width: 50%;
+}
+
 
 .custom-faqs .accordion__toggle {
     background-color: #F3F3F3;
