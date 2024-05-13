@@ -1,5 +1,35 @@
 
 
+{%liquid 
+
+    assign halfBlocksSize = section.blocks.size | divided_by: 2
+    assign firstCol = section.blocks | slice: 0, halfBlocksSize
+    assign secondCol = section.blocks | slice: halfBlocksSize, section.blocks.size
+
+%}
+
+<div class="container">
+
+    <div class="headings">
+        <h2 class="heading">{{ section.settings.heading }}</h2>
+        <div>{{ section.settings.subheading }}</div>
+    </div>
+
+    <div class="grid">
+        <div class="grid-item">
+            {% for item in firstCol %}
+                
+            {% endfor %}
+        </div>
+        <div class="grid-item">
+            {% for item in secondCol %}
+                
+            {% endfor %}
+        </div>
+    </div>
+
+</div>
+
 
 {% schema %}
     {
