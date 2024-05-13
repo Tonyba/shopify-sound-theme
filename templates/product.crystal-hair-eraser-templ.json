@@ -701,6 +701,27 @@
         "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
       }
     },
+    "custom_faqs_z9aTdX": {
+      "type": "custom-faqs",
+      "blocks": {
+        "slide_hHVf83": {
+          "type": "slide",
+          "settings": {
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_hHVf83"
+      ],
+      "settings": {
+        "heading": "FAQ",
+        "subheading": "Let's Answer Your Question",
+        "accordion_background": "#000000",
+        "accordion_text_color": ""
+      }
+    },
     "faq_bFegJY": {
       "type": "faq",
       "blocks": {
@@ -835,6 +856,7 @@
     "multiple_images_with_text_LhxgJU",
     "multiple_images_with_text_PDfGiQ",
     "two_cols_list_image_9DzV7n",
+    "custom_faqs_z9aTdX",
     "faq_bFegJY",
     "171434810895cd0ab2"
   ]
