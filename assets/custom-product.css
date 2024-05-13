@@ -290,10 +290,8 @@ compare-at-price {
 .custom-faqs  .accordion-box {
     padding: 0;
     background-color: unset;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 40px;
-    row-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
