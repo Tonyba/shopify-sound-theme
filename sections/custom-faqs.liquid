@@ -6,38 +6,42 @@
     assign secondCol = section.blocks | slice: halfBlocksSize, section.blocks.size
 %}
 
-<div class="container">
-    <div class="headings">
-        <h2 class="heading h2">{{ section.settings.heading }}</h2>
-        <div>{{ section.settings.subheading }}</div>
-    </div>
-
-    <div class="grid cols-2 gap-20">
-        <div class="grid-item">
-            {% for item in firstCol %}
-                {%- if item.settings.title != blank and item.settings.content != blank -%}
-                {%- capture accordion_content -%}
-                    <div class="prose">{{ item.settings.content }}</div>
-                {%- endcapture -%}
-    
-                {%- render 'accordion', title: item.settings.title, content: accordion_content, block: item -%}
-                {%- endif -%}                        
-            {% endfor %}
+<div class="section-wrapper-margin">
+    <div class="container">
+        <div class="headings">
+            <h2 class="heading h2">{{ section.settings.heading }}</h2>
+            <div>{{ section.settings.subheading }}</div>
         </div>
-        <div class="grid-item">
-            {% for item in secondCol %}
-                {%- if item.settings.title != blank and item.settings.content != blank -%}
+    
+        <div class="grid cols-2 gap-20">
+            <div class="grid-item">
+                {% for item in firstCol %}
+                    {%- if item.settings.title != blank and item.settings.content != blank -%}
                     {%- capture accordion_content -%}
                         <div class="prose">{{ item.settings.content }}</div>
                     {%- endcapture -%}
         
                     {%- render 'accordion', title: item.settings.title, content: accordion_content, block: item -%}
                     {%- endif -%}                        
-            {% endfor %}
+                {% endfor %}
+            </div>
+            <div class="grid-item">
+                {% for item in secondCol %}
+                    {%- if item.settings.title != blank and item.settings.content != blank -%}
+                        {%- capture accordion_content -%}
+                            <div class="prose">{{ item.settings.content }}</div>
+                        {%- endcapture -%}
+            
+                        {%- render 'accordion', title: item.settings.title, content: accordion_content, block: item -%}
+                        {%- endif -%}                        
+                {% endfor %}
+            </div>
         </div>
+    
     </div>
-
+    
 </div>
+
 
 
 <script type="application/ld+json">
