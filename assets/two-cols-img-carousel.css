@@ -69,6 +69,11 @@ text-align: center;
     width: 100%;
 }
 
+
+.two-cols-image-carousel img {
+    margin: auto;
+}
+
 .carousel-top-message {
     color: white;
     background-color: black;
