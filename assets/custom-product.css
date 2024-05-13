@@ -292,10 +292,12 @@ compare-at-price {
     background-color: unset;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .custom-faqs  .accordion-box > * {
     width: 50%;
+    align-self: flex-start;
 }
 
 
