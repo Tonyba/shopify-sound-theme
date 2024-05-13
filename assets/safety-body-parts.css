@@ -64,6 +64,12 @@
     border-color: #FF004A;
 }
 
+@media only screen and (max-width: 1350px) {
+    .safety-body-parts .grid {
+        grid-template-columns: repeat(3, 1fr) ;
+    }
+}
+
 @media only screen and (max-width: 1440px) {
     .safety-body-parts .left-img  img {
         width:35%;
