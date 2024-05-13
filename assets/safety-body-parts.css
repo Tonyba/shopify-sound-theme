@@ -60,6 +60,11 @@
     border-radius: 15px;
 }
 
+.safety-body-parts .style_2 .body-part h3 {
+    color: #515151;
+    font-weight: 500;
+}
+
 .safety-body-parts .style_2 .body-icon {
     border-color: #FF004A;
     margin-bottom: 20px;
