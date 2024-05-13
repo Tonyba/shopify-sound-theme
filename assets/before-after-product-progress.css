@@ -38,6 +38,7 @@
     opacity: 1;
     transition: opacity .5s;
     position: unset;
+    transition-delay: 1s;
 }
 
 .before-after-product-progress .tab-content-title{
