@@ -725,6 +725,13 @@
             "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
           }
         },
+        "slide_yEii4J": {
+          "type": "slide",
+          "settings": {
+            "title": "Who Should Not Use IPL?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
         "slide_VtbwFT": {
           "type": "slide",
           "settings": {
@@ -738,14 +745,31 @@
             "title": "Does IPL Hair Remover Hurt?",
             "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
           }
+        },
+        "slide_HDGy8W": {
+          "type": "slide",
+          "settings": {
+            "title": "Do I Need to Shave Before Using IPL?",
+            "content": ""
+          }
+        },
+        "slide_8DrJcd": {
+          "type": "slide",
+          "settings": {
+            "title": "Which Areas of the Body Can I Use This On?",
+            "content": ""
+          }
         }
       },
       "block_order": [
         "slide_hHVf83",
         "slide_aWEjTx",
         "slide_xVXKMG",
+        "slide_yEii4J",
         "slide_VtbwFT",
-        "slide_mUiNtX"
+        "slide_mUiNtX",
+        "slide_HDGy8W",
+        "slide_8DrJcd"
       ],
       "settings": {
         "heading": "FAQ",
