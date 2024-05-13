@@ -717,11 +717,35 @@
             "title": "What skin tone and hair color are suitable for IPL hair removal device?",
             "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
           }
+        },
+        "slide_xVXKMG": {
+          "type": "slide",
+          "settings": {
+            "title": "Who Should Not Use IPL?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        },
+        "slide_VtbwFT": {
+          "type": "slide",
+          "settings": {
+            "title": "When Can I See the Effect, and is it Permanent?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "slide_mUiNtX": {
+          "type": "slide",
+          "settings": {
+            "title": "Does IPL Hair Remover Hurt?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
         }
       },
       "block_order": [
         "slide_hHVf83",
-        "slide_aWEjTx"
+        "slide_aWEjTx",
+        "slide_xVXKMG",
+        "slide_VtbwFT",
+        "slide_mUiNtX"
       ],
       "settings": {
         "heading": "FAQ",
