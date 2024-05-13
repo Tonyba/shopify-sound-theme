@@ -19,12 +19,12 @@
     <div class="grid cols-2">
         <div class="grid-item">
             {% for item in firstCol %}
-                {%- if firstCol.settings.title != blank and firstCol.settings.content != blank -%}
+                {%- if item.settings.title != blank and item.settings.content != blank -%}
                 {%- capture accordion_content -%}
-                    <div class="prose">{{ firstCol.settings.content }}</div>
+                    <div class="prose">{{ item.settings.content }}</div>
                 {%- endcapture -%}
     
-                {%- render 'accordion', title: firstCol.settings.title, content: accordion_content, block: item -%}
+                {%- render 'accordion', title: item.settings.title, content: accordion_content, block: item -%}
                 {%- endif -%}                        
             {% endfor %}
         </div>
