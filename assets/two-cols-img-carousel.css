@@ -65,6 +65,10 @@ text-align: center;
     color: #FF004A
 }
 
+.two-cols-image-carousel .image-carousel img {
+    width: 100%;
+}
+
 .carousel-top-message {
     color: white;
     background-color: black;
