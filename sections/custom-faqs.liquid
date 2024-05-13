@@ -1,5 +1,7 @@
 {%liquid 
 
+    assign firstCol = "orange,apple,peach" | split: ','
+
     if section.blocks.size > 1
         assign halfBlocksSize = section.blocks.size | divided_by: 2
         assign firstCol = section.blocks | slice: 0, halfBlocksSize
