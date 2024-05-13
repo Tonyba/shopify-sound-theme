@@ -10064,4 +10064,6 @@ homepage mobile css
 
 #shopify-section-template--16704955089049__product_carousel_CYqLXT .splide__arrow.splide__arrow--prev,#shopify-section-template--16704955089049__product_carousel_CYqLXT .splide__arrow.splide__arrow--next{top:40%;}
 .what-make-it-special .info-text .icon{display:inline!important;}
-.what-make-it-special .info-text>p:first-of-type{display:inline!important;}
+.what-make-it-special .info-text>p:first-of-type{display:inline!important;
+                                                    font-size: 18px;
+    color: black;}
