@@ -750,14 +750,28 @@
           "type": "slide",
           "settings": {
             "title": "Do I Need to Shave Before Using IPL?",
-            "content": ""
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
           }
         },
         "slide_8DrJcd": {
           "type": "slide",
           "settings": {
             "title": "Which Areas of the Body Can I Use This On?",
-            "content": ""
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "slide_D4M8KC": {
+          "type": "slide",
+          "settings": {
+            "title": "Which Areas of the Body Can I Use This On?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "slide_D4irKf": {
+          "type": "slide",
+          "settings": {
+            "title": "Which Areas of the Body Can I Use This On?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
           }
         }
       },
@@ -769,7 +783,9 @@
         "slide_VtbwFT",
         "slide_mUiNtX",
         "slide_HDGy8W",
-        "slide_8DrJcd"
+        "slide_8DrJcd",
+        "slide_D4M8KC",
+        "slide_D4irKf"
       ],
       "settings": {
         "heading": "FAQ",
