@@ -30,7 +30,7 @@
 }
 
 .before-after-product-progress .tab-content-item:not(.active) {
-    display: none;
+    /* display: none; */
     opacity: 0;
 }
 
