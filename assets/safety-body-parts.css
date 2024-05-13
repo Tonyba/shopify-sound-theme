@@ -54,6 +54,10 @@
    all: unset
 }
 
+.safety-body-parts .style_2 .body-part {
+    background-color: #FFFFFF;
+}
+
 @media only screen and (max-width: 1440px) {
     .safety-body-parts .left-img  img {
         width:35%;
