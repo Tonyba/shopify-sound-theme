@@ -62,7 +62,10 @@
 
 .safety-body-parts .style_2 .body-icon {
     border-color: #FF004A;
+    margin-bottom: 20px;
 }
+
+
 
 @media only screen and (max-width: 1350px) {
     .safety-body-parts .grid {
