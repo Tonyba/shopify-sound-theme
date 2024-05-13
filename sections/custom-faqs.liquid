@@ -8,7 +8,7 @@
   
 
 <div class="container">
-    {{ section.blocks | json }}
+    {{ section.blocks[0].settings.title | json }}
     <div class="headings">
         <h2 class="heading">{{ section.settings.heading }}</h2>
         <div>{{ section.settings.subheading }}</div>
