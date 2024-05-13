@@ -28,16 +28,14 @@
                         background_fallback: 'bg-secondary'
                      %}>
 
-                      {%- for block in section.blocks -%}
-                        {%- if block.settings.title != blank and block.settings.content != blank -%}
+                        {%- if firstCol.settings.title != blank and firstCol.settings.content != blank -%}
                           {%- capture accordion_content -%}
-                            <div class="prose">{{ block.settings.content }}</div>
+                            <div class="prose">{{ firstCol.settings.content }}</div>
                           {%- endcapture -%}
             
-                          {%- render 'accordion', title: block.settings.title, content: accordion_content, block: block -%}
+                          {%- render 'accordion', title: firstCol.settings.title, content: accordion_content, block: item -%}
                         {%- endif -%}
-                      {%- endfor -%}
-
+              
                     </div>
                   </div>
             {% endfor %}
