@@ -4,6 +4,9 @@
         assign halfBlocksSize = section.blocks.size | divided_by: 2
         assign firstCol = section.blocks | slice: 0, halfBlocksSize
         assign secondCol = section.blocks | slice: halfBlocksSize, section.blocks.size
+    
+    else
+        assign firstCol = section.blocks
     endif
 %}
 
@@ -18,23 +21,15 @@
 
     <div class="grid cols-2">
         <div class="grid-item">
-            <div class="section-stack__main" >
-                <div {% render 'surface', class: 'accordion-box rounded', 
-                    background: section.settings.accordion_background, 
-                    text_color: section.settings.accordion_text_color, 
-                    background_fallback: 'bg-secondary'
-                 %}>
-                    {% for item in firstCol %}
-                        {%- if firstCol.settings.title != blank and firstCol.settings.content != blank -%}
-                        {%- capture accordion_content -%}
-                            <div class="prose">{{ firstCol.settings.content }}</div>
-                        {%- endcapture -%}
-            
-                        {%- render 'accordion', title: firstCol.settings.title, content: accordion_content, block: item -%}
-                        {%- endif -%}                        
-                    {% endfor %}
-                </div>
-            </div>
+            {% for item in firstCol %}
+                {%- if firstCol.settings.title != blank and firstCol.settings.content != blank -%}
+                {%- capture accordion_content -%}
+                    <div class="prose">{{ firstCol.settings.content }}</div>
+                {%- endcapture -%}
+    
+                {%- render 'accordion', title: firstCol.settings.title, content: accordion_content, block: item -%}
+                {%- endif -%}                        
+            {% endfor %}
         </div>
         <div class="grid-item">
             {% for item in secondCol %}
