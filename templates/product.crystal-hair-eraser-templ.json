@@ -710,10 +710,18 @@
             "title": "What skin tone and hair color are suitable for IPL hair removal device?",
             "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
           }
+        },
+        "slide_aWEjTx": {
+          "type": "slide",
+          "settings": {
+            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
         }
       },
       "block_order": [
-        "slide_hHVf83"
+        "slide_hHVf83",
+        "slide_aWEjTx"
       ],
       "settings": {
         "heading": "FAQ",
