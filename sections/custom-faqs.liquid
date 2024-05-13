@@ -20,25 +20,23 @@
 
     <div class="grid">
         <div class="grid-item">
-            {% for item in firstCol %}
-                <div class="section-stack__main" >
-                    <div {% render 'surface', class: 'accordion-box rounded', 
-                        background: section.settings.accordion_background, 
-                        text_color: section.settings.accordion_text_color, 
-                        background_fallback: 'bg-secondary'
-                     %}>
-
+            <div class="section-stack__main" >
+                <div {% render 'surface', class: 'accordion-box rounded', 
+                    background: section.settings.accordion_background, 
+                    text_color: section.settings.accordion_text_color, 
+                    background_fallback: 'bg-secondary'
+                 %}>
+                    {% for item in firstCol %}
                         {%- if firstCol.settings.title != blank and firstCol.settings.content != blank -%}
-                          {%- capture accordion_content -%}
+                        {%- capture accordion_content -%}
                             <div class="prose">{{ firstCol.settings.content }}</div>
-                          {%- endcapture -%}
+                        {%- endcapture -%}
             
-                          {%- render 'accordion', title: firstCol.settings.title, content: accordion_content, block: item -%}
-                        {%- endif -%}
-              
-                    </div>
-                  </div>
-            {% endfor %}
+                        {%- render 'accordion', title: firstCol.settings.title, content: accordion_content, block: item -%}
+                        {%- endif -%}                        
+                    {% endfor %}
+                </div>
+            </div>
         </div>
         <div class="grid-item">
             {% for item in secondCol %}
