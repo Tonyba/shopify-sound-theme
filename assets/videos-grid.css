@@ -32,6 +32,7 @@
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
+    background-color: white;
 }
 
 @media only screen and (min-width: 769px) {
