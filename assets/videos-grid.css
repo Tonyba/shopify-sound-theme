@@ -1,6 +1,6 @@
 .videos-grid h2 {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 .videos-grid  .videos .grid-item > .section {
@@ -37,6 +37,11 @@
 
 .videos-grid .splide__arrow--next {
     right: 0;
+}
+
+.videos-grid .splide__list {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
 }
 
 @media only screen and (min-width: 769px) {
