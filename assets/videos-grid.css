@@ -40,6 +40,7 @@
 }
 
 .videos-grid .splide__list {
+    padding-top: 45px !important;
     padding-bottom: 45px !important;
 }
 
