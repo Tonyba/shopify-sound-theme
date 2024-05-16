@@ -17,10 +17,7 @@
             </div>
           </div>
 
-          <div class="slider-progress">
-            <div class="slider-progress-bar"></div>
-          </div>
-
+        
         </div>
     </div>
 </div>
@@ -48,7 +45,7 @@
 
     deferSplide(function() {
         const carousel = document.querySelector('.videos.splide');
-        const bar = carousel.querySelector( '.slider-progress-bar' );
+      
 
         const config = {
           type: 'loop',
@@ -70,12 +67,6 @@
         };
 
         const splideInstance = new Splide(carousel, config);
-
-        splideInstance.on( 'mounted move', function () {
-          const end  = splideInstance.Components.Controller.getEnd() + 1;
-          const rate = Math.min( ( splideInstance.index + 1 ) / end, 1 );
-          bar.style.width = String( 100 * rate ) + '%';
-        } );
 
         splideInstance.mount(); 
 
