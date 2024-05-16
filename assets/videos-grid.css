@@ -39,6 +39,10 @@
     right: 0;
 }
 
+.videos-grid .splide__list {
+    padding: 18px 0 !important;
+}
+
 @media only screen and (min-width: 769px) {
 
     .videos-grid .slider-progress {
