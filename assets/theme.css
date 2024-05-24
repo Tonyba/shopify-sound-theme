@@ -10072,3 +10072,8 @@ homepage mobile css
 .what-make-it-special .info-text>p:first-of-type{display:inline!important;
                                                     font-size: 18px;
     color: black;}
+
+
+
+#shopify-section-template--16704955089049__product_carousel_CYqLXT .products-carousel product-card, .products-carousel .product-card__figure img {
+    object-fit:cover!important;}
