@@ -546,43 +546,29 @@
         "slide_zGThnm": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "text": "\"SkinPetra Crystal Hair Remover: the ultimate choice for efficacy. A simple and effective hair removal method that is simply trending.\"",
             "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
           }
         },
         "slide_XkJ6Cq": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "text": "\"Quick, easy and way better than shaving! SkinPetra Crystal Hair Remover is being praised as the best hair removal method at the moment.\"",
             "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f_53fc781b-f018-4ca2-b71b-e9ba8a057813.png"
           }
         },
         "slide_TzCWnd": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "text": "\"Your ticket to easy hair removal at home. If you want to make a smart purchase, the SkinPetra Crystal Hair Remover is definitely a winner in the beauty market.\"",
             "image": "shopify:\/\/shop_images\/3bbf467d37c3cb3101c3efeac22258ac.png"
           }
         },
         "slide_3kP7G4": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "text": "\"SkinPetra Crystal Hair Remover is the transformative beauty essential for pain-free hair removal and glowing skin.\"",
             "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f.png"
-          }
-        },
-        "slide_JiyGqK": {
-          "type": "slide",
-          "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
-            "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
-          }
-        },
-        "slide_fxyVUi": {
-          "type": "slide",
-          "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
-            "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
           }
         }
       },
@@ -590,9 +576,7 @@
         "slide_zGThnm",
         "slide_XkJ6Cq",
         "slide_TzCWnd",
-        "slide_3kP7G4",
-        "slide_JiyGqK",
-        "slide_fxyVUi"
+        "slide_3kP7G4"
       ],
       "settings": {
         "is_autoscroll": true,
@@ -608,9 +592,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/3823ed8e4af272f70c24385ef0128521.jpg",
             "image_rotation_degrees": -2,
-            "subheading": "Flash Window",
-            "title": "Dead skin Exfoliate, callus removal .",
-            "content": "<p>Full Mute Working Without Disturbing your Sound Sleep, Full Mute Working Without Disturbing your Sound Sleep<\/p>",
+            "subheading": "GLOWING WITH LOVE",
+            "title": "Dead Skin Exfoliation for Vibrant Skin",
+            "content": "<p>Thoroughly remove dead skin cells and enjoy baby-smooth skin. No need to pay for scrubs or waste time with an exfoliating glove when you can combine hair removal and exfoliating all in one!<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -639,9 +623,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/9980ce7f750d3972618b51d4daf10351.jpg",
             "image_rotation_degrees": -2,
-            "subheading": "AutoGlide Mode",
-            "title": "No razor Bumps, Happy Waman!",
-            "content": "<p>Swap out the time and money you'd spend on laser, in-salon waxing, or annoying razors for affordable, long-term hair removal.<br\/><\/p>",
+            "subheading": "BYE BYE RAZOR BUMPS",
+            "title": "Pain-Free and Gentle On the Skin",
+            "content": "<p>You know that dreadful feeling of razor bumps itching and burning away at your skin? You can forget all about it! Our device is used on dry skin, removing unwanted hair and <strong>eliminating the risk of irritation<\/strong>.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -670,9 +654,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/449637840dc8e108fc71e9bb903a2f8b.jpg",
             "image_rotation_degrees": -2,
-            "subheading": "Laser-like Results, From Home",
-            "title": "It Is Suitable For Men!",
-            "content": "<p>Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With SkinPetra IPL, get laser-like results from the comfort of your home.<\/p>",
+            "subheading": "SUITABLE FOR EVERYONE",
+            "title": "Perfect for Men Too",
+            "content": "<p>The SkinPetra Crystal Hair Remover isn't just for women; it's ideal for men as well! No matter the density or texture of your hair, the Crystal Hair Remover offers a gentle yet effective hair removal solution for all.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -699,56 +683,28 @@
         "slide_7NGFbc": {
           "type": "slide",
           "settings": {
-            "text": "Product 1"
-          }
-        },
-        "slide_zqtzFD": {
-          "type": "slide",
-          "settings": {
-            "text": "Product2"
+            "text": "SkinPetra Crystal Hair Remover"
           }
         }
       },
       "block_order": [
-        "slide_7NGFbc",
-        "slide_zqtzFD"
+        "slide_7NGFbc"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/b0b9445f09b62098f14712f52fd5ce2f.png",
         "bg_Color": "#f3f3f3",
         "heading": "In the Box",
-        "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
+        "text": "You’ll get the SkinPetra Crystal Hair Remover accompanied by a custom bag for convenient storage and travel."
       }
     },
     "custom_faqs_z9aTdX": {
       "type": "custom-faqs",
       "blocks": {
-        "slide_8DrJcd": {
+        "slide_DHK7zV": {
           "type": "slide",
           "settings": {
-            "title": "Is the SkinPetra device safe to use?",
-            "content": "<p>Absolutely!<br\/>SkinPetra uses IPL tecAbsolutely! SkinPetra uses IPL technology, which is a well-researched and popular method for permanent hair removal. Our device is approved by dermatologists and it is regarded as one of the safest methods for long-term hair removal at-home.hnology, which is a well-researched and popular method<br\/>for permanent hair removal. Our device is approved by dermatologists and it is<br\/>regarded as one of the safest methods for long-term hair removal at-home. <\/p>"
-          }
-        },
-        "slide_tnbabw": {
-          "type": "slide",
-          "settings": {
-            "title": "Does using SkinPetra hurt?",
-            "content": "<p>Not at all! Unlike other hair removal methods, IPL is virtually painless. While higher intensity settings may cause mild discomfort in certain sensitive areas, you can easily adjust the settings at any time to ensure a totally comfortable and pain-free experience.<\/p>"
-          }
-        },
-        "slide_zdUXnE": {
-          "type": "slide",
-          "settings": {
-            "title": "When will I start seeing results?",
-            "content": "<p>Most users notice a significant visible reduction in hair growth after just the first treatment! Typically, complete results are achieved after about 12 sessions. Individual results may vary based on hair coarseness and the area being treated, but you’ll see hair grow back slower and sparser over time.<\/p>"
-          }
-        },
-        "slide_E7dKyq": {
-          "type": "slide",
-          "settings": {
-            "title": "Can I use SkinPetra at any time?",
-            "content": "<p>We often hear people saying, \"No laser during summer.\" However, with SkinPetra's IPL technology, you can safely use the device year-round. For best results, follow a proper treatment schedule and ensure your skin is clean and dry before each session.<\/p>"
+            "title": "",
+            "content": ""
           }
         },
         "slide_4W7VQU": {
@@ -760,10 +716,7 @@
         }
       },
       "block_order": [
-        "slide_8DrJcd",
-        "slide_tnbabw",
-        "slide_zdUXnE",
-        "slide_E7dKyq",
+        "slide_DHK7zV",
         "slide_4W7VQU"
       ],
       "settings": {
