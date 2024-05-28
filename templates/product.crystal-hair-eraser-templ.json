@@ -703,21 +703,93 @@
         "slide_DHK7zV": {
           "type": "slide",
           "settings": {
-            "title": "",
-            "content": ""
+            "title": "Does friction from the Crystal Hair Remover cause darkening?",
+            "content": "<p>No, on the contrary, using the SkinPetra Crystal Hair Remover enhances your skin tone by eliminating dead skin cells, leading to a brighter complexion!<\/p>"
           }
         },
         "slide_4W7VQU": {
           "type": "slide",
           "settings": {
-            "title": "Can I use SkinPetra Hair Removal on any body part?",
-            "content": "<p>Absolutely! SkinPetra Hair Removal can be used on any body part where you wish to get rid of unwanted hair, including legs, arms, underarms, bikini line, and even the face.<\/p>"
+            "title": "When is the optimal time to utilize the Crystal Hair Remover?",
+            "content": "<p>You can use the Crystal Hair Remover at any time convenient for you, although many find it effective during their regular grooming routine. We recommend using it before you shower, as in this way you incorporate hair removal and exfoliation in your usual self-care session.<\/p>"
+          }
+        },
+        "slide_RAtqbK": {
+          "type": "slide",
+          "settings": {
+            "title": "Where can I apply the Crystal Hair Remover?",
+            "content": "<p>You can use the Crystal Hair Remover on various body areas, including legs, arms, underarms, and even the bikini line. The device is designed for optimal compatibility with any body part and it ensures a completely pain-free and gentle process!<\/p>"
+          }
+        },
+        "slide_Hh7KHJ": {
+          "type": "slide",
+          "settings": {
+            "title": "I have \"strawberry skin.\" Will the Crystal Hair Remover be suitable for me?",
+            "content": "<p>Absolutely! The Crystal Hair Remover is designed to address various skin types and concerns, including \"strawberry skin.\" Its gentle exfoliating action can help alleviate the appearance of rough skin, revealing smoother and softer skin over time.<\/p>"
+          }
+        },
+        "slide_mEDdp9": {
+          "type": "slide",
+          "settings": {
+            "title": "How frequently can I use the Crystal Hair Remover?",
+            "content": "<p>You can safely use the Crystal Hair Remover as often as needed, but most users find that once every few days provides optimal results.<\/p>"
+          }
+        },
+        "slide_7yU6KE": {
+          "type": "slide",
+          "settings": {
+            "title": "Can I use the SkinPetra Crystal Hair Removal device on sensitive areas?",
+            "content": "<p>Absolutely! The SkinPetra Crystal Hair Removal device is designed with gentle precision, making it safe and effective for use on sensitive areas. Its technology ensures a comfortable, pain-free experience that won’t irritate the skin.<\/p>"
+          }
+        },
+        "slide_HYWNQL": {
+          "type": "slide",
+          "settings": {
+            "title": "Is the SkinPetra Crystal Hair Remover waterproof?",
+            "content": "<p>Yes, the SkinPetra Crystal Hair Remover is waterproof, allowing for versatile use in the shower or bath. Its waterproof design makes it convenient to incorporate into your regular grooming routine. However, it is recommended that you use the device on completely dry skin for optimal results!<\/p>"
+          }
+        },
+        "slide_HWzcTf": {
+          "type": "slide",
+          "settings": {
+            "title": "Will the SkinPetra Crystal Hair Remover work on coarse hair?",
+            "content": "<p>Absolutely! The SkinPetra Crystal Hair Remover is highly effective on all hair types. No matter the density or color, this technique ensures a quick and effective hair removal process.<\/p>"
+          }
+        },
+        "slide_hCgLqG": {
+          "type": "slide",
+          "settings": {
+            "title": "Does the SkinPetra Crystal Hair Remover help with ingrown hair?",
+            "content": "<p>Yes, indeed! The SkinPetra Crystal Hair Remover is designed to help prevent and reduce ingrown hairs, leaving your skin beautifully smooth and bump-free.<\/p>"
+          }
+        },
+        "slide_Tgk7Bp": {
+          "type": "slide",
+          "settings": {
+            "title": "Is it safe to use the SkinPetra Crystal Hair Remover on the bikini area?",
+            "content": "<p>Absolutely! The SkinPetra Crystal Hair Remover is safe and gentle for use on the bikini area. Moreover, the exfoliation process will help lighten the area which may have been previously darkened by continuous shaving.<\/p>"
+          }
+        },
+        "slide_tLfDYJ": {
+          "type": "slide",
+          "settings": {
+            "title": "How do I clean the SkinPetra Crystal Hair Remover?",
+            "content": "<p>After each use, simply wipe the device with a soft, damp cloth to remove any residue or buildup. Be sure to avoid using harsh chemicals or abrasive materials, as these may damage the device. Store the device in a cool, dry place to keep it in optimal condition for your next hair removal session.<\/p>"
           }
         }
       },
       "block_order": [
         "slide_DHK7zV",
-        "slide_4W7VQU"
+        "slide_4W7VQU",
+        "slide_RAtqbK",
+        "slide_Hh7KHJ",
+        "slide_mEDdp9",
+        "slide_7yU6KE",
+        "slide_HYWNQL",
+        "slide_HWzcTf",
+        "slide_hCgLqG",
+        "slide_Tgk7Bp",
+        "slide_tLfDYJ"
       ],
       "settings": {
         "heading": "FAQ",
