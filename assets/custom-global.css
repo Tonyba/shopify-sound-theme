@@ -402,8 +402,8 @@ border-color: white;
 @media screen and (max-width: 1024px) {
     
 
-    .tablet-lg-cols-2 {
-        grid-template-columns: repeat(2, 1fr);
+    .tablet-lg-cols-1 {
+        grid-template-columns: repeat(1, 1fr);
     }
 
 
