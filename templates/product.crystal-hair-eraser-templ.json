@@ -717,11 +717,19 @@
             "title": "Does using SkinPetra hurt?",
             "content": "<p>Not at all! Unlike other hair removal methods, IPL is virtually painless. While higher intensity settings may cause mild discomfort in certain sensitive areas, you can easily adjust the settings at any time to ensure a totally comfortable and pain-free experience.<\/p>"
           }
+        },
+        "slide_zdUXnE": {
+          "type": "slide",
+          "settings": {
+            "title": "When will I start seeing results?",
+            "content": ""
+          }
         }
       },
       "block_order": [
         "slide_8DrJcd",
-        "slide_tnbabw"
+        "slide_tnbabw",
+        "slide_zdUXnE"
       ],
       "settings": {
         "heading": "FAQ",
