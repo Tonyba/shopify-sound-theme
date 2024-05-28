@@ -107,13 +107,6 @@
     "visible_results_UbQKUh": {
       "type": "visible-results",
       "blocks": {
-        "slide_aMmagG": {
-          "type": "slide",
-          "settings": {
-            "top_text": "",
-            "bottom_text": ""
-          }
-        },
         "slide_AHKzx9": {
           "type": "slide",
           "settings": {
@@ -137,7 +130,6 @@
         }
       },
       "block_order": [
-        "slide_aMmagG",
         "slide_AHKzx9",
         "slide_VdQtwk",
         "slide_p8ciYD"
