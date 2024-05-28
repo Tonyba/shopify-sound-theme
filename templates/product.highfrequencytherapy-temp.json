@@ -596,6 +596,20 @@
             "title": "Is SkinPetra High Frequency Therapy safe to use on my own?",
             "content": "<p>Absolutely! SkinPetra High Frequency Therapy is designed for at-home use and is equipped with safety features to ensure user comfort and protection. Our goal was to develop technology that delivers salon-like results and clinic-level safety in the comfort of your own home, making it accessible to everyone.<\/p>"
           }
+        },
+        "slide_hTtgaG": {
+          "type": "slide",
+          "settings": {
+            "title": "Can SkinPetra High Frequency Therapy be used alongside other skincare products?",
+            "content": "<p>Of course. SkinPetra High Frequency Therapy is the missing link of your existing skincare routine! It’s completely fine to keep using your usual skincare products. However, we recommend using SkinPetra High Frequency Therapy on clean, dry skin before applying other products for optimal absorption and effectiveness.<\/p>"
+          }
+        },
+        "slide_XqVYdM": {
+          "type": "slide",
+          "settings": {
+            "title": "How long will it take to see results from SkinPetra High Frequency Therapy?",
+            "content": "<p>Results may vary depending on individual skin concerns and consistency of use. Typically, visible improvement starts showing in just 3 to 4 days! Continued use over time typically yields the best results.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -606,7 +620,9 @@
         "slide_tM6xAq",
         "slide_gTYcpT",
         "slide_8RnpJc",
-        "slide_yNYttR"
+        "slide_yNYttR",
+        "slide_hTtgaG",
+        "slide_XqVYdM"
       ],
       "settings": {
         "heading": "FAQ",
