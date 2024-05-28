@@ -11,6 +11,10 @@
    
 }
 
+.accordion-data .accordion[href="#faqs"] {
+    padding-bottom: 18px;
+}
+
 .accordion-item{
     border-top: 1px solid #5F5F5F;
 }
