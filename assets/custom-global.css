@@ -399,7 +399,13 @@ border-color: white;
     }
 }
 
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
+    
+
+    .tablet-lg-cols-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 
     
     .d-none-tablet {
