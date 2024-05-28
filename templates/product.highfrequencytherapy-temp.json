@@ -445,7 +445,7 @@
             "image_rotation_degrees": -2,
             "subheading": "AFFORDABLE LUXURY",
             "title": "Endless Treatments, Only One Device",
-            "content": "<p>With SkinPetra High Frequency Therapy, you can enjoy endless sessions at<br\/>home, saving time and money compared to costly salon visits.<\/p>",
+            "content": "<p>With SkinPetra High Frequency Therapy, you can enjoy endless sessions at home, saving time and money compared to costly salon visits.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -582,6 +582,20 @@
             "title": "I’m a man and I have a beard. Can I still use SkinPetra High Frequency Therapy?",
             "content": "<p>Absolutely! SkinPetra High Frequency Therapy can be used on men with full beards. Simply maneuver the wand around facial hair to target desired areas without direct contact with the skin.<\/p>"
           }
+        },
+        "slide_8RnpJc": {
+          "type": "slide",
+          "settings": {
+            "title": "Can SkinPetra High Frequency Therapy be used on all skin types?",
+            "content": "<p>Yes, SkinPetra High Frequency Therapy therapy is suitable for all skin types. Whether you have oily, dry, combination, sensitive, or normal skin, you can incorporate this treatment into your skincare routine. <\/p>"
+          }
+        },
+        "slide_yNYttR": {
+          "type": "slide",
+          "settings": {
+            "title": "Is SkinPetra High Frequency Therapy safe to use on my own?",
+            "content": "<p>Absolutely! SkinPetra High Frequency Therapy is designed for at-home use and is equipped with safety features to ensure user comfort and protection. Our goal was to develop technology that delivers salon-like results and clinic-level safety in the comfort of your own home, making it accessible to everyone.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -590,7 +604,9 @@
         "slide_fmdtQY",
         "slide_NL4kTi",
         "slide_tM6xAq",
-        "slide_gTYcpT"
+        "slide_gTYcpT",
+        "slide_8RnpJc",
+        "slide_yNYttR"
       ],
       "settings": {
         "heading": "FAQ",
