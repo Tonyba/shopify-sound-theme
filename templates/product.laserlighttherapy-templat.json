@@ -261,7 +261,7 @@
       ],
       "settings": {
         "bg_color": "linear-gradient(103.48deg, rgba(243, 230, 214, 1), rgba(252, 245, 235, 1) 100.22%)",
-        "image": "shopify:\/\/shop_images\/3cccd0f759baf5f48e293c1972fc35b1.jpg",
+        "image": "shopify:\/\/shop_images\/treat.jpg",
         "img_max_height": 0,
         "heading": "Treat Beyond The Face",
         "subheading": "Neck & Decollete"
@@ -273,7 +273,7 @@
         "slide_fiazhy": {
           "type": "slide",
           "settings": {
-            "simple_img": "shopify:\/\/shop_images\/rs_1200x1200-240206102159-thumbnail_1.png",
+            "simple_img": "shopify:\/\/shop_images\/foter1.jpg",
             "tab_title": "Red Light Therapy",
             "title": "Red Light Therapy",
             "subtitle": "",
@@ -287,7 +287,7 @@
         "slide_qCzEWw": {
           "type": "slide",
           "settings": {
-            "simple_img": "shopify:\/\/shop_images\/rs_1200x1200-240206102159-thumbnail_1.png",
+            "simple_img": "shopify:\/\/shop_images\/footer2.jpg",
             "tab_title": "Blue Light Therapy",
             "title": "Blue Light Therapy",
             "subtitle": "",
@@ -301,7 +301,7 @@
         "slide_eew3bW": {
           "type": "slide",
           "settings": {
-            "simple_img": "shopify:\/\/shop_images\/rs_1200x1200-240206102159-thumbnail_1.png",
+            "simple_img": "shopify:\/\/shop_images\/footer3.jpg",
             "tab_title": "Near-Infrared (NIR) Light Therapy",
             "title": "Near-Infrared (NIR) Light Therapy",
             "subtitle": "",
