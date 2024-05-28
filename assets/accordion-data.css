@@ -1,4 +1,4 @@
-button.accordion {
+.accordion-data .accordion {
     cursor: pointer;
     padding: 18px 0 0 0;
     width: 100%;
@@ -9,6 +9,10 @@ button.accordion {
     justify-content: space-between;
     color: #2F2F2F;
    
+}
+
+.accordion-data .accordion[href="#faqs"] {
+    padding-bottom: 18px;
 }
 
 .accordion-item{

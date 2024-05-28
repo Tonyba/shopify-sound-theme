@@ -164,8 +164,8 @@
           "type": "slide",
           "settings": {
             "review_title": "“100% Percent Recomened”",
-            "author": "Shayden Thomas",
-            "review_text": "\"Doesn't hurt at all!\" I've been using it for weeks and noticed a difference. Definitely going to tell my sister to get one too!\"",
+            "author": "Rebecca Smith",
+            "review_text": "\"SkinPetra Hair Removal changed my life. After just a few weeks of consistent use, I'm amazed at how smooth and hair-free my skin looks. I feel like a whole different person!\"",
             "review_img": "shopify:\/\/shop_images\/cd5e507524f1309b7ddfcd58b9106f7d.png"
           }
         },
@@ -173,8 +173,8 @@
           "type": "slide",
           "settings": {
             "review_title": "“100% Percent Recomened”",
-            "author": "Shayden Thomas",
-            "review_text": "\"Doesn't hurt at all!\" I've been using it for weeks and noticed a difference. Definitely going to tell my sister to get one too!\"",
+            "author": "Emma Johnson",
+            "review_text": "\"I’ve always had a problem with “strawberry legs”. Shaving was a real nightmare and even when freshly shaved, I was conscious of wearing shorts. SkinPetra was so worth it. I've been using it for a few weeks now. The results are incredible.\"",
             "review_img": "shopify:\/\/shop_images\/d43d50a2b0cfb3c05c05ae75f2a1cd24.png"
           }
         },
@@ -182,8 +182,8 @@
           "type": "slide",
           "settings": {
             "review_title": "“100% Percent Recomened”",
-            "author": "Shayden Thomas",
-            "review_text": "\"Doesn't hurt at all!\" I've been using it for weeks and noticed a difference. Definitely going to tell my sister to get one too!\"",
+            "author": "Olivia Brown",
+            "review_text": "\"In less than a month of using SkinPetra Hair Removal, my hair has been growing less and less. My skin looks and feels so much better.\"",
             "review_img": "shopify:\/\/shop_images\/c0ec0fe9e0e00beca412eb3d25f6d3d7.png"
           }
         },
@@ -191,9 +191,18 @@
           "type": "slide",
           "settings": {
             "review_title": "“100% Percent Recomened”",
-            "author": "Shayden Thomas",
-            "review_text": "\"Doesn't hurt at all!\" I've been using it for weeks and noticed a difference. Definitely going to tell my sister to get one too!\"",
+            "author": "Sophia Garcia",
+            "review_text": "\"I have eczema and so I used to struggle with shaving and waxing. Everything would irritate my skin. SkinPetra Hair Removal has been a lifesaver. I’ve never had smoother skin. I can’t believe I get to be hair-free without the need for constant upkeep!\"",
             "review_img": "shopify:\/\/shop_images\/4b7f9bc1d726196abe6b74c25edc3b46.png"
+          }
+        },
+        "slide_cYFG9r": {
+          "type": "slide",
+          "settings": {
+            "review_title": "“100% Percent Recomened”",
+            "author": "Ava Martinez",
+            "review_text": "\"Getting a laser hair removal treatment was always on my mind, but I just couldn’t stand the idea of going to a salon. A friend recommended I look into SkinPetra. The results speak for themselves. I couldn't be happier with the investment.\"",
+            "review_img": "shopify:\/\/shop_images\/Screenshot_11.png"
           }
         }
       },
@@ -201,10 +210,11 @@
         "slide_3kNM4B",
         "slide_mJbzR4",
         "slide_deFRMM",
-        "slide_b4e6Lz"
+        "slide_b4e6Lz",
+        "slide_cYFG9r"
       ],
       "settings": {
-        "heading": "Results From Our Satisfied Customers",
+        "heading": "Hear It from Our Satisfied Customers",
         "before_text": "Before",
         "after_text": "After",
         "title_left": true
@@ -217,10 +227,10 @@
           "type": "slide",
           "settings": {
             "simple_img": "shopify:\/\/shop_images\/7f9fb7c197694644121dc0d26857413f_1.png",
-            "tab_title": "Get Rid Of Strawberry Skin",
-            "title": "No More Dark Pores",
-            "subtitle": "",
-            "text": "<p>In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction. In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.<\/p>",
+            "tab_title": "Visible Results Within 3 Weeks",
+            "title": "1-4 Weeks",
+            "subtitle": "3 treatments per week",
+            "text": "<p>In just the first 4 weeks, you'll start to see changes. Hair growth slows down, and new hair grows thinner. You'll begin to notice less hair overall, and any ingrown hairs will start to disappear.<\/p>",
             "hide_progress": false,
             "progress": 25,
             "before_text": "Before",
@@ -232,9 +242,9 @@
           "settings": {
             "simple_img": "shopify:\/\/shop_images\/7f9fb7c197694644121dc0d26857413f_1.png",
             "tab_title": "Ingrown Hair Reduction",
-            "title": "Ingrown Hair Reduction",
-            "subtitle": "",
-            "text": "<p>In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction. In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.<\/p>",
+            "title": "5-8 Weeks",
+            "subtitle": "3 treatments per week",
+            "text": "<p>With regular use, hair growth is significantly reduced. Follicles are targeted at various stages of the hair growth cycle, therefore new hair growth is drastically eliminated. Skin feels and looks smoother.<\/p>",
             "hide_progress": false,
             "progress": 75,
             "before_text": "Before",
@@ -247,9 +257,9 @@
           "settings": {
             "simple_img": "shopify:\/\/shop_images\/7f9fb7c197694644121dc0d26857413f_1.png",
             "tab_title": "Skin Firmness Improvement",
-            "title": "Skin Firmness Improvement",
-            "subtitle": "",
-            "text": "<p>In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction. In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.<\/p>",
+            "title": "8-12 Weeks",
+            "subtitle": "3 treatments per week",
+            "text": "<p>Enjoy the complete results of the full-body SkinPetra Hair Removal treatment. No more irritated skin or strawberry legs. The hair follicles have been successfully treated to prevent new hair growth. Touch-ups and maintenance sessions can be easily done at any time.<\/p>",
             "hide_progress": false,
             "progress": 100,
             "before_text": "Before",
@@ -263,11 +273,11 @@
         "slide_YBKRBK"
       ],
       "settings": {
-        "heading": "Clean And Hairless Skin",
+        "heading": "Full Body Hair Removal Treatment",
         "just_simple_image": true,
         "max_width": 870,
         "reverse_heading": true,
-        "subheading": "REVEAL SMOOTHER SKIN",
+        "subheading": "in Less than 30 Minutes",
         "bg_color": "rgba(0,0,0,0)",
         "drag_cursor_background": "#000000"
       }
@@ -328,8 +338,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Apply-For-Body-Any-Par1t.jpg",
-        "heading": "Apply For Body Any Part",
-        "subheading": "SkinPetra Crystal Hair Removal"
+        "heading": "Pain-Free & EffectiveSkinPetra IPL",
+        "subheading": "Salon-Quality. At-Home Comfort."
       }
     },
     "tiktok_carousel_Q9fTUh": {
@@ -429,7 +439,7 @@
         "slide_FmaxtV": {
           "type": "slide",
           "settings": {
-            "item_text": "Shaving",
+            "item_text": "SHAVING",
             "price": 480
           }
         },
@@ -443,7 +453,14 @@
         "slide_ix8NY4": {
           "type": "slide",
           "settings": {
-            "item_text": "The eraser",
+            "item_text": "LASER",
+            "price": 950
+          }
+        },
+        "slide_YiPnG8": {
+          "type": "slide",
+          "settings": {
+            "item_text": "SKINPETRA IPL",
             "price": 220
           }
         }
@@ -451,16 +468,17 @@
       "block_order": [
         "slide_FmaxtV",
         "slide_ka9Pbc",
-        "slide_ix8NY4"
+        "slide_ix8NY4",
+        "slide_YiPnG8"
       ],
       "settings": {
         "bg_color": "#f3f3f3",
         "image": "shopify:\/\/shop_images\/6bfa61ad6bf6ea29155fcabc491d4c8e.jpg",
         "badge_text": "Save 80%!",
-        "heading": "Less Hair.More Savings.",
-        "subheading": "SkinPetra Crystal Hair Removal",
-        "text": "Choose SkinPetra IPL for a more cost-effective hair removal option and make your time more meaningful.",
-        "after_table_text": "*Cost evaluated over 4 years<br>\n*Cost of standard out of home treatments."
+        "heading": "Your Skin (and Wallet) Will Thank You For It",
+        "subheading": "SkinPetra Hair Removal Treatment",
+        "text": "Shaving gel, razors, waxing appointments add up over time, don’t they? And frankly, laser sessions are overpriced. SkinPetra IPL guarantees a cost-effective, permanent hair removal option.",
+        "after_table_text": "*Cost evaluated over 4 years.<br>\n*Cost of standard out of home treatments."
       }
     },
     "routine_FCAXLF": {
@@ -704,88 +722,48 @@
     "custom_faqs_z9aTdX": {
       "type": "custom-faqs",
       "blocks": {
-        "slide_hHVf83": {
-          "type": "slide",
-          "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
-          }
-        },
-        "slide_aWEjTx": {
-          "type": "slide",
-          "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
-          }
-        },
-        "slide_xVXKMG": {
-          "type": "slide",
-          "settings": {
-            "title": "Who Should Not Use IPL?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
-          }
-        },
-        "slide_yEii4J": {
-          "type": "slide",
-          "settings": {
-            "title": "Who Should Not Use IPL?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
-          }
-        },
-        "slide_VtbwFT": {
-          "type": "slide",
-          "settings": {
-            "title": "When Can I See the Effect, and is it Permanent?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
-          }
-        },
-        "slide_mUiNtX": {
-          "type": "slide",
-          "settings": {
-            "title": "Does IPL Hair Remover Hurt?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
-          }
-        },
-        "slide_HDGy8W": {
-          "type": "slide",
-          "settings": {
-            "title": "Do I Need to Shave Before Using IPL?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
-          }
-        },
         "slide_8DrJcd": {
           "type": "slide",
           "settings": {
-            "title": "Which Areas of the Body Can I Use This On?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+            "title": "Is the SkinPetra device safe to use?",
+            "content": "<p>Absolutely!<br\/>SkinPetra uses IPL tecAbsolutely! SkinPetra uses IPL technology, which is a well-researched and popular method for permanent hair removal. Our device is approved by dermatologists and it is regarded as one of the safest methods for long-term hair removal at-home.hnology, which is a well-researched and popular method<br\/>for permanent hair removal. Our device is approved by dermatologists and it is<br\/>regarded as one of the safest methods for long-term hair removal at-home. <\/p>"
           }
         },
-        "slide_D4M8KC": {
+        "slide_tnbabw": {
           "type": "slide",
           "settings": {
-            "title": "Which Areas of the Body Can I Use This On?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+            "title": "Does using SkinPetra hurt?",
+            "content": "<p>Not at all! Unlike other hair removal methods, IPL is virtually painless. While higher intensity settings may cause mild discomfort in certain sensitive areas, you can easily adjust the settings at any time to ensure a totally comfortable and pain-free experience.<\/p>"
           }
         },
-        "slide_D4irKf": {
+        "slide_zdUXnE": {
           "type": "slide",
           "settings": {
-            "title": "Which Areas of the Body Can I Use This On?",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+            "title": "When will I start seeing results?",
+            "content": "<p>Most users notice a significant visible reduction in hair growth after just the first treatment! Typically, complete results are achieved after about 12 sessions. Individual results may vary based on hair coarseness and the area being treated, but you’ll see hair grow back slower and sparser over time.<\/p>"
+          }
+        },
+        "slide_E7dKyq": {
+          "type": "slide",
+          "settings": {
+            "title": "Can I use SkinPetra at any time?",
+            "content": "<p>We often hear people saying, \"No laser during summer.\" However, with SkinPetra's IPL technology, you can safely use the device year-round. For best results, follow a proper treatment schedule and ensure your skin is clean and dry before each session.<\/p>"
+          }
+        },
+        "slide_4W7VQU": {
+          "type": "slide",
+          "settings": {
+            "title": "Can I use SkinPetra Hair Removal on any body part?",
+            "content": "<p>Absolutely! SkinPetra Hair Removal can be used on any body part where you wish to get rid of unwanted hair, including legs, arms, underarms, bikini line, and even the face.<\/p>"
           }
         }
       },
       "block_order": [
-        "slide_hHVf83",
-        "slide_aWEjTx",
-        "slide_xVXKMG",
-        "slide_yEii4J",
-        "slide_VtbwFT",
-        "slide_mUiNtX",
-        "slide_HDGy8W",
         "slide_8DrJcd",
-        "slide_D4M8KC",
-        "slide_D4irKf"
+        "slide_tnbabw",
+        "slide_zdUXnE",
+        "slide_E7dKyq",
+        "slide_4W7VQU"
       ],
       "settings": {
         "heading": "FAQ",
