@@ -261,9 +261,7 @@ compare-at-price {
     max-width: unset;
 }
 .multiple-images-with-text img {
-    width: 100%;
-    object-fit: cover;
-    max-width: unset;
+   
 }
 
 #shopify-section-template--16709264310425__multiple_images_with_text_3ndzkV .multiple-images-with-text {
