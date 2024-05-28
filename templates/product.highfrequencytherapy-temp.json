@@ -59,7 +59,7 @@
         "product_icon_list_PMUFtB": {
           "type": "product-icon-list",
           "settings": {
-            "list_heading": "Who It’s For"
+            "list_heading": "Designed For Your Unique Needs"
           }
         },
         "right_side_info_features_aGwbPX": {
@@ -107,38 +107,54 @@
     "visible_results_UbQKUh": {
       "type": "visible-results",
       "blocks": {
+        "slide_aMmagG": {
+          "type": "slide",
+          "settings": {
+            "top_text": "",
+            "bottom_text": ""
+          }
+        },
         "slide_AHKzx9": {
           "type": "slide",
           "settings": {
-            "top_text": "97%",
-            "bottom_text": "experienced tighter and firmer skin"
+            "top_text": "95%",
+            "bottom_text": "Reported a Reduction in Acne Breakouts"
           }
         },
         "slide_VdQtwk": {
           "type": "slide",
           "settings": {
             "top_text": "86%",
-            "bottom_text": "noticed an improvement in skin tone and texture"
+            "bottom_text": "Experienced Improved Scalp Health"
+          }
+        },
+        "slide_a6hha3": {
+          "type": "slide",
+          "settings": {
+            "top_text": "",
+            "bottom_text": ""
           }
         },
         "slide_p8ciYD": {
           "type": "slide",
           "settings": {
             "top_text": "92%",
-            "bottom_text": "saw a reduction in breakouts"
+            "bottom_text": "Noticed A Rejuvenated Skin tone & Texture"
           }
         }
       },
       "block_order": [
+        "slide_aMmagG",
         "slide_AHKzx9",
         "slide_VdQtwk",
+        "slide_a6hha3",
         "slide_p8ciYD"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/02014bfbcf05bc386ced34f32c8951aa_1.png",
         "bg_color": "linear-gradient(99.09deg, rgba(243, 230, 214, 1) 0.29%, rgba(254, 248, 240, 1) 99.4%)",
-        "heading": "Visible Results in 3-4 Days",
-        "subheading": "Just use two or three times per week."
+        "heading": "Visible Results in Only 3-4 Days",
+        "subheading": "Use SkinPetra High Frequency Therapy 2-3 times per week to witnesssignificant changes."
       }
     },
     "product_testimonials_tmP6tw": {
@@ -148,8 +164,8 @@
           "type": "slide",
           "settings": {
             "review_title": "“I’m enjoying the results!”",
-            "author": "-David Hook",
-            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "author": "- Sarah Miller",
+            "review_text": "After just a few weeks of using SkinPetra High Frequency Therapy, my acne has significantly cleared up. I feel more confident and my skin looks smoother than ever.",
             "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
           }
         },
@@ -157,8 +173,8 @@
           "type": "slide",
           "settings": {
             "review_title": "“I’m enjoying the results!”",
-            "author": "-David Hook",
-            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "author": "- Emily Clark",
+            "review_text": "Ever since I started using SkinPetra High Frequency Therapy, my scalp health has improved dramatically. I've noticed less itching and flakiness, and my hair feels stronger and healthier overall.",
             "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
           }
         },
@@ -166,8 +182,8 @@
           "type": "slide",
           "settings": {
             "review_title": "“I’m enjoying the results!”",
-            "author": "-David Hook",
-            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "author": "- Eva Jones",
+            "review_text": "In less than a month of consistent use, I've seen way less fine lines and wrinkles on my face. My skin looks firmer. I feel 10 years younger! Couldn't be happier with the results.",
             "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
           }
         },
@@ -175,8 +191,8 @@
           "type": "slide",
           "settings": {
             "review_title": "“I’m enjoying the results!”",
-            "author": "-David Hook",
-            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "author": "- Jessica Taylor",
+            "review_text": "I used to be so self-conscious about my acne scars. SkinPetra High Frequency Therapy has been a real life-changer! Definitely a must in my skincare routine.",
             "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
           }
         },
@@ -184,8 +200,8 @@
           "type": "slide",
           "settings": {
             "review_title": "“I’m enjoying the results!”",
-            "author": "-David Hook",
-            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "author": "- Jennifer Lee",
+            "review_text": "I got SkinPetra High Frequency Therapy in hopes of giving my skin a “lift” without the need of surgery. I've been doing the routine religiously. My skin feels tighter and more lifted. Definitely recommend!",
             "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
           }
         }
@@ -198,7 +214,7 @@
         "slide_aFwK4R"
       ],
       "settings": {
-        "heading": "Results From Our Satisfied Customers",
+        "heading": "Hear It from Our Satisfied Customers",
         "before_text": "Before",
         "after_text": "After",
         "title_left": false
