@@ -263,7 +263,7 @@ compare-at-price {
 
 @media only screen and (min-width: 1025px) {
     .multiple-images-with-text img {
-        width: 650px;
+        width: 650px !important;
         height: 625px;
     }
     
