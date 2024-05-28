@@ -374,21 +374,21 @@
           "type": "slide",
           "settings": {
             "text": "\"A game-changing device that will absolutely transform your skin complexion. We just love a good self-care product and SkinPetra High Frequency Therapy is right up our alley.\"",
-            "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f_53fc781b-f018-4ca2-b71b-e9ba8a057813.png"
+            "image": "shopify:\/\/shop_images\/forbes.png"
           }
         },
         "slide_HcCxkT": {
           "type": "slide",
           "settings": {
             "text": "“One single product that combines multiple salon treatments. You can’t possibly get a better deal!\"",
-            "image": "shopify:\/\/shop_images\/3bbf467d37c3cb3101c3efeac22258ac.png"
+            "image": "shopify:\/\/shop_images\/glamour-11.png"
           }
         },
         "slide_KmAGQU": {
           "type": "slide",
           "settings": {
             "text": "\"SkinPetra High Frequency Therapy is our newest beauty secret. A must-have if you want to have your skin looking glowing. You will thank us 10 years later!\"",
-            "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
+            "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f_53fc781b-f018-4ca2-b71b-e9ba8a057813.png"
           }
         }
       },
@@ -401,7 +401,7 @@
       "settings": {
         "is_autoscroll": true,
         "heading": "Hot Off the Press",
-        "subheading": "mAGAZINES"
+        "subheading": "MAGAZINES"
       }
     },
     "multiple_images_with_text_rdtyyE": {
@@ -410,7 +410,7 @@
         "item_QxMAYr": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7bd6a8c8d2950dbc1025bb89aa8879c4.jpg",
+            "image": "shopify:\/\/shop_images\/1-Footer-_1.jpg",
             "image_rotation_degrees": -2,
             "subheading": "CLINIC-QUALITY INNOVATION",
             "title": "Professional Results, Personal Convenience",
