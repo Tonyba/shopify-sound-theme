@@ -291,7 +291,7 @@
             "tab_title": "Blue Light Therapy",
             "title": "Blue Light Therapy",
             "subtitle": "",
-            "text": "<p><strong>Combat Aging Signs:<\/strong> Diminish the appearance of fine lines, wrinkles, and uneven skin tone, revealing a smoother, more youthful complexion.<br\/><br\/><strong>Rejuvenate Your Skin: <\/strong>Stimulate collagen and elastin production, the building blocks of youthful-looking skin, for enhanced elasticity and firmness.<br\/><strong><br\/>Achieve a Radiant Glow:<\/strong> Revitalize your skin's overall health and radiance, fostering a healthy, glowing appearance.<\/p>",
+            "text": "<p><strong>Clear Acne Breakouts:<\/strong> Target and eliminate acne-causing bacteria on the skin, effectively reducing existing breakouts and preventing future pimples.<br\/><br\/><strong>Control Sebum Production:<\/strong> By reducing excess oil production, blue light therapy helps to manage oily skin, thereby minimizing the likelihood of clogged pores and subsequent acne formation.<br\/><br\/><strong>Soothe Skin Irritation:<\/strong> Blue light therapy also has anti-inflammatory properties, which help to calm irritated skin and reduce redness and swelling associated with acne.<\/p>",
             "hide_progress": true,
             "progress": 0,
             "before_text": "Before",
@@ -305,7 +305,7 @@
             "tab_title": "Near-Infrared (NIR) Light Therapy",
             "title": "Near-Infrared (NIR) Light Therapy",
             "subtitle": "",
-            "text": "<p><strong>Combat Aging Signs:<\/strong> Diminish the appearance of fine lines, wrinkles, and uneven skin tone, revealing a smoother, more youthful complexion.<br\/><br\/><strong>Rejuvenate Your Skin: <\/strong>Stimulate collagen and elastin production, the building blocks of youthful-looking skin, for enhanced elasticity and firmness.<br\/><strong><br\/>Achieve a Radiant Glow:<\/strong> Revitalize your skin's overall health and radiance, fostering a healthy, glowing appearance.<\/p>",
+            "text": "<p><strong>Enhance Collagen and Elastin Production:<\/strong> Boost the production of collagen and elastin. Significantly improve skin firmness and elasticity.<br\/><br\/><strong>Promote Skin Healing and Repair:<\/strong> Accelerates the healing process of damaged skin by increasing blood flow and supporting cellular repair.<br\/><br\/><strong>Improve Skin Tone and Clarity: <\/strong>NIR light therapy helps to even out skin tone and reduce pigmentation issues by enhancing cellular turnover, giving your complexion a more vibrant glow.<\/p>",
             "hide_progress": true,
             "progress": 0,
             "before_text": "Before",
@@ -319,7 +319,7 @@
         "slide_eew3bW"
       ],
       "settings": {
-        "heading": "Ultimate 4D LED Light Therapy<br>In Less Than 10 Minutes",
+        "heading": "Ultimate 4D LED Light TherapyIn Less Than 10 Minutes",
         "just_simple_image": true,
         "max_width": 950,
         "reverse_heading": false,
@@ -335,40 +335,40 @@
           "type": "slide",
           "settings": {
             "heading": "Step 1",
-            "subheading": "Clean Your Face",
-            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+            "subheading": "Cleanse your skin",
+            "text": "Start with a clean face. Use a gentle cleanser to remove any makeup, dirt, or oil from your skin. Pat your face dry with a clean towel."
           }
         },
         "slide_XcUKaX": {
           "type": "slide",
           "settings": {
             "heading": "Step 2",
-            "subheading": "Press and hold the button on the controller",
-            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+            "subheading": "Select the light mode",
+            "text": "Choose the appropriate light therapy mode (red, blue, or near-infrared) based on the skin issue you want to address. Rule of thumb: Red for anti-aging, blue for acne, and near-infrared for deeper rejuvenation."
           }
         },
         "slide_BCHNnW": {
           "type": "slide",
           "settings": {
             "heading": "Step 3",
-            "subheading": "Press the timing button",
-            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+            "subheading": "Adjust the fit to your liking",
+            "text": "Place the SkinPetra 4D LED Mask on your face, ensuring it fits comfortably and securely. Adjust the straps if necessary to make sure it stays in place during the whole duration of your treatment."
           }
         },
         "slide_fXPfNb": {
           "type": "slide",
           "settings": {
             "heading": "Step 4",
-            "subheading": "Pres + Or - for Energy Level",
-            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair. Gently exfoliating your skin with The Revealer removes dead skin cells and makes"
+            "subheading": "Start the treatment",
+            "text": "Turn on the mask and begin your session. Relax and leave the mask on for the recommended time, usually around 10 minutes, while the light therapy works wonders on your skin."
           }
         },
         "slide_PDJnRF": {
           "type": "slide",
           "settings": {
             "heading": "Step 5",
-            "subheading": "Enjoy the treatment",
-            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+            "subheading": "Follow up with your usual skincare",
+            "text": "After the session, remove the mask and apply your regular skin care products, such as moisturizer or serum, to enhance the effects of the treatment. Clean the mask as per the instructions to keep it ready for your next use."
           }
         }
       },
@@ -382,8 +382,8 @@
       "settings": {
         "extra_class": "section-wrapper-margin-t",
         "image": "shopify:\/\/shop_images\/4e30ad08e2c467cb4a8ea55b6d8adc49_1_1.png",
-        "heading": "Follow The Steps For Usability",
-        "subheading": "HOW TO USE"
+        "heading": "Your LED Light Therapy Routine",
+        "subheading": "All-In-One Skin-Care"
       }
     },
     "tiktok_carousel_BcmmjV": {
@@ -499,28 +499,28 @@
         "slide_YJ9UM4": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "text": "\"The SkinPetra 4D LED Light Therapy Mask offers a truly luxurious at-home skin care experience. One single device that represents cutting-edge light therapy.\"",
             "image": "shopify:\/\/shop_images\/ad3e2346f4c0ed84b29ccdb325793a37.png"
           }
         },
         "slide_MPQAP4": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "text": "\"LED therapy has become a real trend and for good reason! The SkinPetra 4D LED Mask has proven to be amazing for reducing fine lines and improving skin tone.\"",
             "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
           }
         },
         "slide_9naAjg": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "text": "\"Customers are raving about the SkinPetra LED Light Mask. An effective and non-invasive treatment option that delivers professional results at home.\"",
             "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f_53fc781b-f018-4ca2-b71b-e9ba8a057813.png"
           }
         },
         "slide_GyzGgP": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "text": "\"Beauty starts with beautiful skin, doesn’t it? The SkinPetra 4D LED Light Mask is a must-have if you are looking for an easy way to fight aging.\"",
             "image": "shopify:\/\/shop_images\/3bbf467d37c3cb3101c3efeac22258ac.png"
           }
         }
@@ -545,9 +545,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/71e8ulm58ML_1.png",
             "image_rotation_degrees": -2,
-            "subheading": "Flash Window",
-            "title": "Blemishes - free skin for nicer makeup",
-            "content": "<p>Full Mute Working Without Disturbing your Sound Sleep, Full Mute Working Without Disturbing your Sound Sleep<\/p>",
+            "subheading": "DEEP-DOWN SKIN CARE",
+            "title": "Treat Your Skin From Within",
+            "content": "<p>Scientifically proven to enhance skin health and elasticity, the SkinPetra LED mask reduces fine lines, wrinkles, and age spots more effectively than surface lotions ever could.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -576,9 +576,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/71MiDsPJAkL_1.png",
             "image_rotation_degrees": -2,
-            "subheading": "AutoGlide Mode",
-            "title": "7- Type Mask Light Therapy",
-            "content": "<p>Swap out the time and money you'd spend on laser, in-salon waxing, or annoying razors for affordable, long-term hair removal.<br\/><\/p>",
+            "subheading": "CUSTOM SESSIONS",
+            "title": "Tailored Therapy for Your Skin",
+            "content": "<p>With three distinct light modes - red, blue, and near infrared - you won’t need multiple clinic treatments. Customize your skincare routine to meet your unique needs at any time.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -607,9 +607,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Glow-Therapy-LED-Face-Mask-Best-Red-Light_1.png",
             "image_rotation_degrees": -2,
-            "subheading": "Laser-like Results, From Home",
-            "title": "Transform Your Skin from the Comfort of Home",
-            "content": "<p>Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With SkinPetra IPL, get laser-like results from the comfort of your home.<\/p>",
+            "subheading": "COST-EFFECTIVE BEAUTY",
+            "title": "Spa-Like Bliss Without the Price Tag",
+            "content": "<p>Why spend on pricey salon visits when you can pamper your skin in the comfort of your home? The SkinPetra 4D LED Light Therapy Mask offers an affordable, convenient way to save time and money while enjoying a luxurious spa day on your couch.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -636,13 +636,13 @@
         "slide_84DTm8": {
           "type": "slide",
           "settings": {
-            "text": "Product 1"
+            "text": "SkinPetra 4D LED Therapy Mask"
           }
         },
         "slide_6rd9bK": {
           "type": "slide",
           "settings": {
-            "text": "Product2"
+            "text": "SkinPetra 4D LED Therapy Neck& Decollete Attachmentuct2"
           }
         }
       },
@@ -654,62 +654,62 @@
         "image": "shopify:\/\/shop_images\/0ae87d3d6f9d3b2a8a5ec543d8f3591c_1.png",
         "bg_Color": "#f3f3f3",
         "heading": "In the Box",
-        "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
+        "text": "Your beauty toolkit! At SkinPetra, we’ll make sure that every inch of your skin receives the care it deserves."
       }
     },
     "custom_faqs_xyrtaM": {
       "type": "custom-faqs",
       "blocks": {
-        "slide_Jaah9p": {
-          "type": "slide",
-          "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
-          }
-        },
-        "slide_8Renji": {
-          "type": "slide",
-          "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
-          }
-        },
-        "slide_GchWmY": {
-          "type": "slide",
-          "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
-          }
-        },
-        "slide_yfQygF": {
-          "type": "slide",
-          "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
-          }
-        },
-        "slide_8KpjxW": {
-          "type": "slide",
-          "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
-          }
-        },
         "slide_MAJXG3": {
           "type": "slide",
           "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "How does the SkinPetra 4D LED Therapy Mask work?",
+            "content": "<p>The SkinPetra 4D LED Therapy Mask uses advanced LED light technology to penetrate the skin at different depths, targeting various skin concerns such as acne, wrinkles, and uneven skin tone. The red, blue, and near-infrared lights work synergistically to stimulate collagen production, reduce inflammation, and promote overall skin health.<\/p>"
+          }
+        },
+        "slide_FWgYF4": {
+          "type": "slide",
+          "settings": {
+            "title": "Is the SkinPetra 4D LED Therapy Mask safe for all skin types?",
+            "content": "<p>Yes, the SkinPetra 4D LED Therapy Mask is suitable for all skin types, including sensitive skin. The gentle LED light wavelengths are non-invasive and do not cause any damage to the skin. However, we recommend consulting with a dermatologist if you have specific skin concerns or conditions.<\/p>"
+          }
+        },
+        "slide_ayMwLX": {
+          "type": "slide",
+          "settings": {
+            "title": "How often should I use the SkinPetra 4D LED Therapy Mask?",
+            "content": "<p>For optimal results, we recommend using the SkinPetra 4D LED Therapy Mask 3-4 times per week for at least 10 minutes each session. Consistency is key to achieving visible improvements in skin texture, tone, and overall appearance.<\/p>"
+          }
+        },
+        "slide_aHBQmT": {
+          "type": "slide",
+          "settings": {
+            "title": "Can I wear the SkinPetra 4D LED Therapy Mask over makeup or skincare products?",
+            "content": "<p>We always recommend that you use the SkinPetra LED Mask on clean, dry skin free from any makeup or skincare products. This ensures maximum penetration of the LED light and allows for better absorption of the beneficial wavelengths into the skin. Feel free to apply your usual skincare creams after the treatment!<\/p>"
+          }
+        },
+        "slide_DfKmHa": {
+          "type": "slide",
+          "settings": {
+            "title": "How long until I see results with the SkinPetra 4D LED Therapy Mask?",
+            "content": "<p>Results may vary depending on individual skin concerns and conditions. However, most users report noticing significant improvements in skin texture and appearance within just a few weeks of regular use! For best results, continue using the mask as part of your skincare routine.<\/p>"
+          }
+        },
+        "slide_J4ggXY": {
+          "type": "slide",
+          "settings": {
+            "title": "Is LED Light Therapy painful? Are there any side effects?",
+            "content": "<p>LED light therapy is a pain-free, non-invasive treatment for multiple skin concerns and conditions. The SkinPetra 4D LED Therapy Mask is designed to be gentle on all types of skin! For personalized advice on addressing specific skin issues, we encourage consulting with your dermatologist for any additional recommendations.<\/p>"
           }
         }
       },
       "block_order": [
-        "slide_Jaah9p",
-        "slide_8Renji",
-        "slide_GchWmY",
-        "slide_yfQygF",
-        "slide_8KpjxW",
-        "slide_MAJXG3"
+        "slide_MAJXG3",
+        "slide_FWgYF4",
+        "slide_ayMwLX",
+        "slide_aHBQmT",
+        "slide_DfKmHa",
+        "slide_J4ggXY"
       ],
       "settings": {
         "heading": "FAQ",
