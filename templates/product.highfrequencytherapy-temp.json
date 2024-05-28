@@ -59,7 +59,7 @@
         "product_icon_list_PMUFtB": {
           "type": "product-icon-list",
           "settings": {
-            "list_heading": "Who It’s For"
+            "list_heading": "Designed For Your Unique Needs"
           }
         },
         "right_side_info_features_aGwbPX": {
@@ -110,22 +110,22 @@
         "slide_AHKzx9": {
           "type": "slide",
           "settings": {
-            "top_text": "97%",
-            "bottom_text": "experienced tighter and firmer skin"
+            "top_text": "95%",
+            "bottom_text": "Reported a Reduction in Acne Breakouts"
           }
         },
         "slide_VdQtwk": {
           "type": "slide",
           "settings": {
             "top_text": "86%",
-            "bottom_text": "noticed an improvement in skin tone and texture"
+            "bottom_text": "Experienced Improved Scalp Health"
           }
         },
         "slide_p8ciYD": {
           "type": "slide",
           "settings": {
             "top_text": "92%",
-            "bottom_text": "saw a reduction in breakouts"
+            "bottom_text": "Noticed A Rejuvenated Skin tone & Texture"
           }
         }
       },
@@ -137,8 +137,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/02014bfbcf05bc386ced34f32c8951aa_1.png",
         "bg_color": "linear-gradient(99.09deg, rgba(243, 230, 214, 1) 0.29%, rgba(254, 248, 240, 1) 99.4%)",
-        "heading": "Visible Results in 3-4 Days",
-        "subheading": "Just use two or three times per week."
+        "heading": "Visible Results in Only 3-4 Days",
+        "subheading": "Use SkinPetra High Frequency Therapy 2-3 times per week to witnesssignificant changes."
       }
     },
     "product_testimonials_tmP6tw": {
@@ -147,45 +147,45 @@
         "slide_EWApb6": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
-            "author": "-David Hook",
-            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_title": "\"Clearer Skin and Renewed Confidence\"",
+            "author": "- Sarah Miller",
+            "review_text": "After just a few weeks of using SkinPetra High Frequency Therapy, my acne has significantly cleared up. I feel more confident and my skin looks smoother than ever.",
             "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
           }
         },
         "slide_3dDYRU": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
-            "author": "-David Hook",
-            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_title": "“Dramatically Improved Scalp Health”",
+            "author": "- Emily Clark",
+            "review_text": "Ever since I started using SkinPetra High Frequency Therapy, my scalp health has improved dramatically. I've noticed less itching and flakiness, and my hair feels stronger and healthier overall.",
             "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
           }
         },
         "slide_LXiyFx": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
-            "author": "-David Hook",
-            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_title": "“Youthful, Firm Skin in Less Than a Month”",
+            "author": "- Eva Jones",
+            "review_text": "In less than a month of consistent use, I've seen way less fine lines and wrinkles on my face. My skin looks firmer. I feel 10 years younger! Couldn't be happier with the results.",
             "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
           }
         },
         "slide_jL3Ti7": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
-            "author": "-David Hook",
-            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_title": "“Life-Changing Acne Scar Reduction”",
+            "author": "- Jessica Taylor",
+            "review_text": "I used to be so self-conscious about my acne scars. SkinPetra High Frequency Therapy has been a real life-changer! Definitely a must in my skincare routine.",
             "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
           }
         },
         "slide_aFwK4R": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
-            "author": "-David Hook",
-            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
+            "review_title": "“Non-Surgical Skin Lift”",
+            "author": "- Jennifer Lee",
+            "review_text": "I got SkinPetra High Frequency Therapy in hopes of giving my skin a “lift” without the need of surgery. I've been doing the routine religiously. My skin feels tighter and more lifted. Definitely recommend!",
             "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
           }
         }
@@ -198,7 +198,7 @@
         "slide_aFwK4R"
       ],
       "settings": {
-        "heading": "Results From Our Satisfied Customers",
+        "heading": "Hear It from Our Satisfied Customers",
         "before_text": "Before",
         "after_text": "After",
         "title_left": false
@@ -210,41 +210,41 @@
         "slide_pbaNbP": {
           "type": "slide",
           "settings": {
-            "title": "Includes 4 beauty applicators\u2028",
-            "text": "For treating a variety of areas face, body and hair.\u2028"
+            "title": "Versatile Applicators",
+            "text": "Equipped with four beauty applicators to target different areas of the face, body, and hair."
           }
         },
         "slide_LJfcYf": {
           "type": "slide",
           "settings": {
-            "title": "Customizable Dial\u2028",
-            "text": "The electrical current can be increased or decreased for your comfort level.\u2028"
+            "title": "Adjustable Dial",
+            "text": "Customize your treatment by easily increasing or decreasing the electrical current for optimal comfort."
+          }
+        },
+        "slide_GpT4Gy": {
+          "type": "slide",
+          "settings": {
+            "title": "Effortless Maintenance",
+            "text": "Simple cleaning process - power off and wipe electrodes with a damp cloth and surface disinfectant."
           }
         },
         "slide_rTTkXc": {
           "type": "slide",
           "settings": {
-            "title": "Simple to clean\u2028",
-            "text": "All you need to do is turn the power off and then wipe the electrodes with a damp cloth and surface disinfectant.\u2028"
-          }
-        },
-        "slide_nVNXXL": {
-          "type": "slide",
-          "settings": {
-            "title": "Quick to set up\u2028",
-            "text": "Just plug in the device and apply your preferred applicator\u2028"
+            "title": "Quick & Easy Setup",
+            "text": "Quick and hassle-free - just plug in the device and apply your chosen applicator."
           }
         }
       },
       "block_order": [
         "slide_pbaNbP",
         "slide_LJfcYf",
-        "slide_rTTkXc",
-        "slide_nVNXXL"
+        "slide_GpT4Gy",
+        "slide_rTTkXc"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/skinpetrtaime-1.jpg",
-        "heading": "What makes it special",
+        "heading": "What Sets It Apart",
         "info_text": "<p>Safety Considerations:\u2028<\/p><p>Be sure to remove any metal jewelry before your treatment.\u2028Avoid using AHA or glycolic acid products with the high frequency wand. Avoid contact with broken capillaries, spider veins, and rosacea. Do not use high frequency during pregnancy. Never operate a high-frequency machine with a broken bulb. Always use a towel or tissue folded over the electrode to remove the electrodes and pull directly outward.<\/p>"
       }
     },
@@ -257,7 +257,7 @@
             "image": "shopify:\/\/shop_images\/img111.png",
             "border_radius": 30,
             "title": "Mashroom Tube",
-            "text": "For Wide Areas Such as cheeks or Forehead",
+            "text": "Targets Wide Areas like Cheeks or Forehead",
             "bg_color": "linear-gradient(180deg, rgba(239, 239, 239, 1), rgba(253, 253, 253, 1) 100%)"
           }
         },
@@ -267,7 +267,7 @@
             "image": "shopify:\/\/shop_images\/3f1b1ee1d7a1d7c724bfe90f28febd4d_1.png",
             "border_radius": 30,
             "title": "Tongue Tube",
-            "text": "For Small areas of the face such as eyes or nose",
+            "text": "Precision for Small Areas like Eyes or Nose",
             "bg_color": "linear-gradient(180deg, rgba(239, 239, 239, 1), rgba(253, 253, 253, 1) 100%)"
           }
         },
@@ -277,7 +277,7 @@
             "image": "shopify:\/\/shop_images\/7fce66593aa328ebe833e0dcf2ac0f89_1.png",
             "border_radius": 30,
             "title": "Bend Tube",
-            "text": "For nasal fossa or spots on the face",
+            "text": "Targets Nasal Fossa or Facial Spots",
             "bg_color": "linear-gradient(180deg, rgba(239, 239, 239, 1), rgba(253, 253, 253, 1) 100%)"
           }
         },
@@ -287,7 +287,7 @@
             "image": "shopify:\/\/shop_images\/4_1.png",
             "border_radius": 30,
             "title": "Comb Tube",
-            "text": "For Hair",
+            "text": "Designed for The Hair and Scalp",
             "bg_color": "linear-gradient(180deg, rgba(239, 239, 239, 1), rgba(253, 253, 253, 1) 100%)"
           }
         }
@@ -300,7 +300,7 @@
       ],
       "settings": {
         "heading": "4 Glass Tubes",
-        "subheading": "Meet The Needs Of Each Part Of Your Skin"
+        "subheading": "Specific Needs, Specific Applicators "
       }
     },
     "routine_AkENrV": {
@@ -311,31 +311,31 @@
           "settings": {
             "heading": "Step 1",
             "subheading": "Insert the electrode into the wand",
-            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+            "text": "Activate the device, and adjust the dial until you feel a subtle tingling sensation."
           }
         },
         "slide_pUFhgP": {
           "type": "slide",
           "settings": {
             "heading": "Step 2",
-            "subheading": "Turn on the device and gradually adjust the dial",
-            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+            "subheading": "Move the wand in a circular motion",
+            "text": "Use circular motions while moving the wand over any blemishes for 1-3 minutes. Maintain a distance of up to ¼ inch from the skin for optimal results."
           }
         },
         "slide_r63cEU": {
           "type": "slide",
           "settings": {
             "heading": "Step 3",
-            "subheading": "Move the wand in a circular motion",
-            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+            "subheading": "Target any specific areas",
+            "text": "For targeted treatment on acne, spots or blemishes, tap the wand's tip against the lesion 2-3 times while continuing the circular motion."
           }
         },
         "slide_BpCJqF": {
           "type": "slide",
           "settings": {
             "heading": "Step 4",
-            "subheading": "Tap the Tip of the wand against the lesion 2-3 times",
-            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+            "subheading": "Post-treatment care",
+            "text": "Limit treatment to 3-5 min per specific area and no more than 20 min for the entire face. Once you’re done, remove the electrode from the wand by wrapping a towel or tissue around it and pulling straight out of the handle"
           }
         }
       },
@@ -348,8 +348,8 @@
       "settings": {
         "extra_class": "",
         "image": "shopify:\/\/shop_images\/imageskinpetra.jpg",
-        "heading": "Meet the Routine",
-        "subheading": "Skinpetra IPL Benefits"
+        "heading": "Your Beauty Regimen",
+        "subheading": "Simple and Completely Pain-Free"
       }
     },
     "big_img_section_rmm7Ak": {
@@ -357,7 +357,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/081eaf81b32d59000571f733b0789289.jpg",
         "heading": "Pain-Free & Effective SkinPetra High Frequency Therapy",
-        "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely to be absorbed by the melanin in your skin and more by the melanin in your hair for safer, and more effective at-home treatments.”"
+        "text": "SkinPetra High Frequency Therapy represents our vision of turning intensely effective salon beauty procedures into accessible at-home treatments. Designed with your comfort and safety in mind, this device offers a completely pain-free experience. Tested and approved by dermatologists, even the highest frequency settings are 100% safe for your skin."
       }
     },
     "press_carousel_kdbbCz": {
@@ -366,29 +366,29 @@
         "slide_A8x4ca": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
-            "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
+            "text": "\"SkinPetra High Frequency Therapy revolutionizes skincare with its accessible yet innovative technology, delivering professional-quality results at home.”",
+            "image": "shopify:\/\/shop_images\/ad3e2346f4c0ed84b29ccdb325793a37.png"
           }
         },
         "slide_WHUB3X": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
-            "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f_53fc781b-f018-4ca2-b71b-e9ba8a057813.png"
+            "text": "\"A game-changing device that will absolutely transform your skin complexion. We just love a good self-care product and SkinPetra High Frequency Therapy is right up our alley.\"",
+            "image": "shopify:\/\/shop_images\/forbes.png"
           }
         },
         "slide_HcCxkT": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
-            "image": "shopify:\/\/shop_images\/3bbf467d37c3cb3101c3efeac22258ac.png"
+            "text": "“One single product that combines multiple salon treatments. You can’t possibly get a better deal!\"",
+            "image": "shopify:\/\/shop_images\/glamour-11.png"
           }
         },
         "slide_KmAGQU": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
-            "image": "shopify:\/\/shop_images\/ad3e2346f4c0ed84b29ccdb325793a37.png"
+            "text": "\"SkinPetra High Frequency Therapy is our newest beauty secret. A must-have if you want to have your skin looking glowing. You will thank us 10 years later!\"",
+            "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f_53fc781b-f018-4ca2-b71b-e9ba8a057813.png"
           }
         }
       },
@@ -401,7 +401,7 @@
       "settings": {
         "is_autoscroll": true,
         "heading": "Hot Off the Press",
-        "subheading": "mAGAZINES"
+        "subheading": "MAGAZINES"
       }
     },
     "multiple_images_with_text_rdtyyE": {
@@ -410,11 +410,11 @@
         "item_QxMAYr": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7bd6a8c8d2950dbc1025bb89aa8879c4.jpg",
+            "image": "shopify:\/\/shop_images\/FOOTER-1-IMAGE.jpg",
             "image_rotation_degrees": -2,
-            "subheading": "Flash Window",
-            "title": "Smooth, soft skin",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "subheading": "CLINIC-QUALITY INNOVATION",
+            "title": "Professional Results, Personal Convenience",
+            "content": "<p>What was once exclusive to clinics just a few years ago is now a safe and effective option for customers to get the results they’ve always wanted. <\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -441,11 +441,11 @@
         "item_98BKyM": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/e0859a08c76a2a0658fbdfb72925cb1e.jpg",
+            "image": "shopify:\/\/shop_images\/IMAGEEE1.jpg",
             "image_rotation_degrees": -2,
-            "subheading": "AutoGlide Mode",
-            "title": "Save time & money",
-            "content": "<p>Swap out the time and money you'd spend on laser, in-salon waxing, or annoying razors for affordable, long-term hair removal.<\/p>",
+            "subheading": "AFFORDABLE LUXURY",
+            "title": "Endless Treatments, Only One Device",
+            "content": "<p>With SkinPetra High Frequency Therapy, you can enjoy endless sessions at home, saving time and money compared to costly salon visits.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -474,9 +474,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/3af40f6443b4e7a67a7d4822b274d0f1.jpg",
             "image_rotation_degrees": -2,
-            "subheading": "Laser-like Results, From Home",
-            "title": "Cheaper than razors, effective like laser.",
-            "content": "<p>Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With SkinPetra IPL, get laser-like results from the comfort of your home.<\/p>",
+            "subheading": "SKINCARE SIMPLIFIED ",
+            "title": "Your Ultimate All-In-One Solution",
+            "content": "<p>One-size-fits-all. Acne? Check. Check. Scalp health? Check. Collagen boost? Check. Proper skincare no longer seems complicated with our specialized<br\/>multi-purpose treatment.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -535,7 +535,7 @@
         "image": "shopify:\/\/shop_images\/f54c9ac2da2098e2acaa0e1cc85227cb.png",
         "bg_Color": "#f3f3f3",
         "heading": "In the Box",
-        "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
+        "text": "No more endless skincare products or costly salon appointments. SkinPetra High Frequency Therapy comes with four tubes, offering targeted solutions for various skincare needs, all within the comfort of your home."
       }
     },
     "custom_faqs_LCwJca": {
@@ -544,43 +544,71 @@
         "slide_kJJdqG": {
           "type": "slide",
           "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "Will SkinPetra High Frequency Therapy help me get rid of cystic acne?",
+            "content": "<p>High-frequency therapy has been a trusted method used by estheticians for years, particularly in the treatment of acne. The current stimulates natural cleansing processes within the skin, successfully targeting existing acne. Additionally, neon gas within the device promotes the oxygenation of bacteria, while argon gas eliminates bacteria through UV light exposure. With consistent use, SkinPetra High Frequency Therapy can notably reduce the occurrence of future acne breakouts.<\/p>"
           }
         },
         "slide_k7JrQp": {
           "type": "slide",
           "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "Is it necessary to refill the gas?",
+            "content": "<p>No, SkinPetra High Frequency Therapy does not require the replacement or refilling of gas. The device comes pre-filled with inert gasses, ensuring long-lasting performance without the need for maintenance or gas replenishment.<\/p>"
           }
         },
         "slide_fmdtQY": {
           "type": "slide",
           "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "How often should I use SkinPetra High Frequency Therapy?",
+            "content": "<p>For optimal results, we recommend using SkinPetra High Frequency Therapy 2-3 times per week. However, frequency may vary based on individual skin concerns and your own personal goals. Start with a lower frequency and gradually increase as needed.<\/p>"
           }
         },
         "slide_NL4kTi": {
           "type": "slide",
           "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "Can SkinPetra High Frequency Therapy help with hair loss?",
+            "content": "<p>By promoting blood circulation to the scalp and stimulating hair follicles, SkinPetra High Frequency Therapy encourages healthier hair growth and can definitely reduce hair loss. While individual results may vary, regular use of SkinPetra High Frequency Therapy can improve hair density, thickness, and overall scalp health.<\/p>"
           }
         },
         "slide_tM6xAq": {
           "type": "slide",
           "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "Is it safe to use SkinPetra High Frequency Therapy on other areas of my body?",
+            "content": "<p>While SkinPetra High Frequency Therapy is primarily designed for facial use, it can also be used on other areas of the body, such as the neck, chest, or back, to address various skincare concerns.<\/p>"
           }
         },
         "slide_gTYcpT": {
           "type": "slide",
           "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "I’m a man and I have a beard. Can I still use SkinPetra High Frequency Therapy?",
+            "content": "<p>Absolutely! SkinPetra High Frequency Therapy can be used on men with full beards. Simply maneuver the wand around facial hair to target desired areas without direct contact with the skin.<\/p>"
+          }
+        },
+        "slide_8RnpJc": {
+          "type": "slide",
+          "settings": {
+            "title": "Can SkinPetra High Frequency Therapy be used on all skin types?",
+            "content": "<p>Yes, SkinPetra High Frequency Therapy therapy is suitable for all skin types. Whether you have oily, dry, combination, sensitive, or normal skin, you can incorporate this treatment into your skincare routine. <\/p>"
+          }
+        },
+        "slide_yNYttR": {
+          "type": "slide",
+          "settings": {
+            "title": "Is SkinPetra High Frequency Therapy safe to use on my own?",
+            "content": "<p>Absolutely! SkinPetra High Frequency Therapy is designed for at-home use and is equipped with safety features to ensure user comfort and protection. Our goal was to develop technology that delivers salon-like results and clinic-level safety in the comfort of your own home, making it accessible to everyone.<\/p>"
+          }
+        },
+        "slide_hTtgaG": {
+          "type": "slide",
+          "settings": {
+            "title": "Can SkinPetra High Frequency Therapy be used alongside other skincare products?",
+            "content": "<p>Of course. SkinPetra High Frequency Therapy is the missing link of your existing skincare routine! It’s completely fine to keep using your usual skincare products. However, we recommend using SkinPetra High Frequency Therapy on clean, dry skin before applying other products for optimal absorption and effectiveness.<\/p>"
+          }
+        },
+        "slide_XqVYdM": {
+          "type": "slide",
+          "settings": {
+            "title": "How long will it take to see results from SkinPetra High Frequency Therapy?",
+            "content": "<p>Results may vary depending on individual skin concerns and consistency of use. Typically, visible improvement starts showing in just 3 to 4 days! Continued use over time typically yields the best results.<\/p>"
           }
         }
       },
@@ -590,7 +618,11 @@
         "slide_fmdtQY",
         "slide_NL4kTi",
         "slide_tM6xAq",
-        "slide_gTYcpT"
+        "slide_gTYcpT",
+        "slide_8RnpJc",
+        "slide_yNYttR",
+        "slide_hTtgaG",
+        "slide_XqVYdM"
       ],
       "settings": {
         "heading": "FAQ",
