@@ -624,56 +624,96 @@
     "custom_faqs_RwBmWt": {
       "type": "custom-faqs",
       "blocks": {
-        "slide_KGxKCQ": {
-          "type": "slide",
-          "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
-          }
-        },
-        "slide_w7LxPN": {
-          "type": "slide",
-          "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
-          }
-        },
-        "slide_Md8QTi": {
-          "type": "slide",
-          "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
-          }
-        },
-        "slide_pEpydG": {
-          "type": "slide",
-          "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
-          }
-        },
-        "slide_KJwLr4": {
-          "type": "slide",
-          "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
-          }
-        },
         "slide_dja8FN": {
           "type": "slide",
           "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "How often should I use SkinPetra Hair Removal?",
+            "content": "<p>For the best results, use the SkinPetra Hair Removal device 2-3 times a week for the first month. Make sure to specifically target any areas that need extra attention. After that, you can reduce the frequency as needed for maintenance.<\/p>"
+          }
+        },
+        "slide_8RBXPC": {
+          "type": "slide",
+          "settings": {
+            "title": "Can I use SkinPetra Hair Removal on sensitive skin?",
+            "content": "<p>Yes, SkinPetra Hair Removal is designed with multiple intensity settings to accommodate different skin types, including sensitive skin. Start with the lowest intensity and gradually increase as your skin becomes accustomed to the treatment.<\/p>"
+          }
+        },
+        "slide_E4nwFd": {
+          "type": "slide",
+          "settings": {
+            "title": "How long does each treatment session take?",
+            "content": "<p>A full-body treatment session with SkinPetra IPL Hair Removal typically takes less than 30 minutes. Smaller areas like the underarms or bikini line can be treated in just a few minutes.<\/p>"
+          }
+        },
+        "slide_eCagVd": {
+          "type": "slide",
+          "settings": {
+            "title": "Is the SkinPetra Hair Removal Treatment safe for all skin tones?",
+            "content": "<p>SkinPetra IPL Hair Removal is suitable for a wide range of skin tones. Always refer to the user manual to check compatibility with your specific skin tone and hair color.<\/p>"
+          }
+        },
+        "slide_TBa4PJ": {
+          "type": "slide",
+          "settings": {
+            "title": "What should I do before using SkinPetra IPL Hair Removal?",
+            "content": "<p>Before using SkinPetra Hair Removal, ensure your skin is clean, dry, and free of any lotions or creams. Shave the area you plan to treat to allow the IPL light to effectively target the hair follicles.<\/p>"
+          }
+        },
+        "slide_YkfMar": {
+          "type": "slide",
+          "settings": {
+            "title": "How long will it take to see results with SkinPetra IPL Hair Removal?",
+            "content": "<p>Most users begin to see a reduction in hair growth after just a few sessions, typically within 3-4 weeks. For optimal results, continue with regular treatments. Also, always make sure to do maintenance sessions as needed.<\/p>"
+          }
+        },
+        "slide_6mqPqR": {
+          "type": "slide",
+          "settings": {
+            "title": "Is the SkinPetra device safe to use?",
+            "content": "<p>Absolutely! SkinPetra uses IPL technology, which is a well-researched and popular method for permanent hair removal. Our device is approved by dermatologists and it is regarded as one of the safest methods for long-term hair removal at-home.<\/p>"
+          }
+        },
+        "slide_eWrq4D": {
+          "type": "slide",
+          "settings": {
+            "title": "Does using SkinPetra hurt?",
+            "content": "<p>Not at all! Unlike other hair removal methods, IPL is virtually painless. While higher intensity settings may cause mild discomfort in certain sensitive areas, you can easily adjust the settings at any time to ensure a totally comfortable and pain-free experience.<\/p>"
+          }
+        },
+        "slide_Hdr7GY": {
+          "type": "slide",
+          "settings": {
+            "title": "When will I start seeing results?",
+            "content": "<p>Most users notice a significant visible reduction in hair growth after just the first treatment! Typically, complete results are achieved after about 12 sessions. Individual results may vary based on hair coarseness and the area being treated, but you’ll see hair grow back slower and sparser over time.<\/p>"
+          }
+        },
+        "slide_g493Ax": {
+          "type": "slide",
+          "settings": {
+            "title": "Can I use SkinPetra at any time?",
+            "content": "<p>We often hear people saying, \"No laser during summer.\" However, with SkinPetra's IPL technology, you can safely use the device year-round. For best results, follow a proper treatment schedule and ensure your skin is clean and dry before each session.<\/p>"
+          }
+        },
+        "slide_QLyJgU": {
+          "type": "slide",
+          "settings": {
+            "title": "Can I use SkinPetra Hair Removal on any body part?",
+            "content": "<p>Absolutely! SkinPetra Hair Removal can be used on any body part where you wish to get rid of unwanted hair, including legs, arms, underarms, bikini line, and even the face.<\/p>"
           }
         }
       },
       "block_order": [
-        "slide_KGxKCQ",
-        "slide_w7LxPN",
-        "slide_Md8QTi",
-        "slide_pEpydG",
-        "slide_KJwLr4",
-        "slide_dja8FN"
+        "slide_dja8FN",
+        "slide_8RBXPC",
+        "slide_E4nwFd",
+        "slide_eCagVd",
+        "slide_TBa4PJ",
+        "slide_YkfMar",
+        "slide_6mqPqR",
+        "slide_eWrq4D",
+        "slide_Hdr7GY",
+        "slide_g493Ax",
+        "slide_QLyJgU"
       ],
       "settings": {
         "heading": "FAQ",
