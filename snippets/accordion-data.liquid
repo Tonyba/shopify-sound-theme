@@ -30,7 +30,10 @@
         </div>
     </div>
     <a class="accordion-item" href="#faqs">
-        <div class="accordion">FAQS</div>
+        <button class="accordion">FAQS <span class="accordion-icon"> {% render 'icon-chevron-up' %} </span></button>
+        <div class="panel">
+          <p>{{faqs | metafield_tag}}</p>
+        </div>
     </a>
 
 </div>
