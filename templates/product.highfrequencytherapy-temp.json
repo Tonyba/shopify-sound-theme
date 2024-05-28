@@ -428,9 +428,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/7bd6a8c8d2950dbc1025bb89aa8879c4.jpg",
             "image_rotation_degrees": -2,
-            "subheading": "Flash Window",
-            "title": "Smooth, soft skin",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "subheading": "CLINIC-QUALITY INNOVATION",
+            "title": "Professional Results, Personal Convenience",
+            "content": "<p>What was once exclusive to clinics just a few years ago is now a safe and effective option for customers to get the results they’ve always wanted. <\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -459,9 +459,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/e0859a08c76a2a0658fbdfb72925cb1e.jpg",
             "image_rotation_degrees": -2,
-            "subheading": "AutoGlide Mode",
-            "title": "Save time & money",
-            "content": "<p>Swap out the time and money you'd spend on laser, in-salon waxing, or annoying razors for affordable, long-term hair removal.<\/p>",
+            "subheading": "AFFORDABLE LUXURY",
+            "title": "Endless Treatments, Only One Device",
+            "content": "<p>With SkinPetra High Frequency Therapy, you can enjoy endless sessions at<br\/>home, saving time and money compared to costly salon visits.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -490,9 +490,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/3af40f6443b4e7a67a7d4822b274d0f1.jpg",
             "image_rotation_degrees": -2,
-            "subheading": "Laser-like Results, From Home",
-            "title": "Cheaper than razors, effective like laser.",
-            "content": "<p>Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With SkinPetra IPL, get laser-like results from the comfort of your home.<\/p>",
+            "subheading": "SKINCARE SIMPLIFIED ",
+            "title": "Your Ultimate All-In-One Solution",
+            "content": "<p>One-size-fits-all. Acne? Check. Check. Scalp health? Check. Collagen boost? Check. Proper skincare no longer seems complicated with our specialized<br\/>multi-purpose treatment.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -551,7 +551,7 @@
         "image": "shopify:\/\/shop_images\/f54c9ac2da2098e2acaa0e1cc85227cb.png",
         "bg_Color": "#f3f3f3",
         "heading": "In the Box",
-        "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
+        "text": "No more endless skincare products or costly salon appointments. SkinPetra High Frequency Therapy comes with four tubes, offering targeted solutions for various skincare needs, all within the comfort of your home."
       }
     },
     "custom_faqs_LCwJca": {
@@ -560,43 +560,43 @@
         "slide_kJJdqG": {
           "type": "slide",
           "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "Will SkinPetra High Frequency Therapy help me get rid of cystic acne?",
+            "content": "<p>High-frequency therapy has been a trusted method used by estheticians for years, particularly in the treatment of acne. The current stimulates natural cleansing processes within the skin, successfully targeting existing acne. Additionally, neon gas within the device promotes the oxygenation of bacteria, while argon gas eliminates bacteria through UV light exposure. With consistent use, SkinPetra High Frequency Therapy can notably reduce the occurrence of future acne breakouts.<\/p>"
           }
         },
         "slide_k7JrQp": {
           "type": "slide",
           "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "Is it necessary to refill the gas?",
+            "content": "<p>No, SkinPetra High Frequency Therapy does not require the replacement or refilling of gas. The device comes pre-filled with inert gasses, ensuring long-lasting performance without the need for maintenance or gas replenishment.<\/p>"
           }
         },
         "slide_fmdtQY": {
           "type": "slide",
           "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "How often should I use SkinPetra High Frequency Therapy?",
+            "content": "<p>For optimal results, we recommend using SkinPetra High Frequency Therapy 2-3 times per week. However, frequency may vary based on individual skin concerns and your own personal goals. Start with a lower frequency and gradually increase as needed.<\/p>"
           }
         },
         "slide_NL4kTi": {
           "type": "slide",
           "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "Can SkinPetra High Frequency Therapy help with hair loss?",
+            "content": "<p>By promoting blood circulation to the scalp and stimulating hair follicles, SkinPetra High Frequency Therapy encourages healthier hair growth and can definitely reduce hair loss. While individual results may vary, regular use of SkinPetra High Frequency Therapy can improve hair density, thickness, and overall scalp health.<\/p>"
           }
         },
         "slide_tM6xAq": {
           "type": "slide",
           "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "Is it safe to use SkinPetra High Frequency Therapy on other areas of my body?",
+            "content": "<p>While SkinPetra High Frequency Therapy is primarily designed for facial use, it can also be used on other areas of the body, such as the neck, chest, or back, to address various skincare concerns.<\/p>"
           }
         },
         "slide_gTYcpT": {
           "type": "slide",
           "settings": {
-            "title": "What skin tone and hair color are suitable for IPL hair removal device?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "I’m a man and I have a beard. Can I still use SkinPetra High Frequency Therapy?",
+            "content": "<p>Absolutely! SkinPetra High Frequency Therapy can be used on men with full beards. Simply maneuver the wand around facial hair to target desired areas without direct contact with the skin.<\/p>"
           }
         }
       },
