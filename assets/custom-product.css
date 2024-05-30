@@ -380,7 +380,7 @@ h1.product-info__title {
 @media only screen and (max-width: 999px) {
    
    .product-gallery__media-list-wrapper  {
-        height: 80%;
+        
    }
 
    .product-gallery__media-list img {
