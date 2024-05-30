@@ -49,12 +49,15 @@
           </div>
    
       {%- when 'variant_picker' -%}
-        <div class="new-custom-variation {{ product.variants.size  }}  {% if  product.variants.size == 0  %}no-variants{% endif %}">
-         
+        <div class="new-custom-variation">
+
+              {% if product.has_only_default_variant %}
+                <div class="product-info__variant-picker" {{ block.shopify_attributes }}>
+                  {%- render 'variant-picker', product: product, form_id: product_form_id, update_url: update_url, hide_sold_out_variants: block.settings.hide_sold_out_variants, block: block -%}
+                </div>
+              {% endif %}
         
-            <div class="product-info__variant-picker" {{ block.shopify_attributes }}>
-              {%- render 'variant-picker', product: product, form_id: product_form_id, update_url: update_url, hide_sold_out_variants: block.settings.hide_sold_out_variants, block: block -%}
-            </div>
+         
       
 
           {%- if product.available -%}
