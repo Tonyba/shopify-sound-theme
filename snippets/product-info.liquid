@@ -84,8 +84,7 @@
 
           {%liquid 
              assign face_mask = product.variants.first 
-             assign neck_mask = product.variants[1] 
-             assign both = product.variants.last
+             assign neck_mask = product.variants[1]
           %}
 
           <div>Choose One or Both</div>
@@ -94,6 +93,9 @@
                 <div class="opt-item flex pointer align-item-center space-between">
                      <div class="grid-item flex align-item-center">
                         <div class="selected_circle"></div>
+                        <div class="opt-icon">
+                           {% render 'face-mask-icon' %}
+                        </div>
                         <div class="opt-detail">
                             <p class="opt-title">Laser Light Therapy (Face Mask)</p>
                             <p class="opt-subtitlte" >For Face</p>
