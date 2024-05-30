@@ -83,7 +83,7 @@
         {% if product.id == laser_therapy_id %}
           <div>Choose One or Both</div>
             <div class="laser-therapy-opts">
-                {{ product.variants.first.price }}
+               {%- render 'price-list', variant: product.selected_or_first_available_variant, form_id: product_form_id, size: 'lg', block: block -%}
             </div>
          {% endif %}
        
