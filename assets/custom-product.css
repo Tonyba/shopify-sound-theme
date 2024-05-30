@@ -385,7 +385,8 @@ h1.product-info__title {
    }
 
    .product-gallery__media-list img {
-    object-fit: contain;
+        object-fit: contain;
+        height: 100%;
    }
 }
 
