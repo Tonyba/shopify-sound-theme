@@ -379,8 +379,9 @@ h1.product-info__title {
 
 @media only screen and (max-width: 999px) {
    
+   .product-gallery__ar-wrapper,
    .product-gallery__media-list-wrapper  {
-        
+        height: 350px;
    }
 
    .product-gallery__media-list img {
