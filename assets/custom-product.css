@@ -377,7 +377,7 @@ h1.product-info__title {
     }
 }
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 768px) {
    
    .product-gallery__ar-wrapper,
    .product-gallery__media-list-wrapper,
