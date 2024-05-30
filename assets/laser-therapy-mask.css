@@ -14,3 +14,7 @@
     border-radius: 100%;
     border: 1px solid #FF004A;
 }
+
+.select-circle.selected {
+    background-color: #FF004A;
+}
