@@ -62,12 +62,7 @@
                 </div>
               {% endif %}
         
-             {% if product.id == laser_therapy_id %}
-                    <div>Choose One or Both</div>
-                    <div class="laser-therapy-opts">
-                        
-                    </div>
-             {% endif %}
+            
       
 
           {%- if product.available -%}
@@ -84,8 +79,14 @@
             </div>
           {%- endif -%}
         </div>
-    
-
+        
+        {% if product.id == laser_therapy_id %}
+          <div>Choose One or Both</div>
+            <div class="laser-therapy-opts">
+              
+            </div>
+         {% endif %}
+       
         {%- if block.settings.show_taxes_notice -%}
           <p class="text-sm text-subdued">
             {%- if cart.taxes_included -%}
