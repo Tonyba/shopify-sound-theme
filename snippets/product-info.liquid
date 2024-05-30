@@ -81,13 +81,29 @@
         </div>
         
         {% if product.id == laser_therapy_id %}
+
+          {%liquid 
+             assign face_mask = product.variants.first 
+             assign neck_mask = product.variants[1] 
+             assign both = product.variants.last
+          %}
+
           <div>Choose One or Both</div>
             <div class="laser-therapy-opts">
-              {%- if settings.currency_code_enabled -%}
-                {{- product.price | money_with_currency -}}
-              {%- else -%}
-                {{- product.price | money -}}
-              {%- endif -%}
+
+                <div class="opt-item flex pointer align-item-center">
+                     <div class="grid-item flex align-item-center">
+                        <div class="selected_circle"></div>
+                        <div class="opt-detail">
+                            <p>Laser Light Therapy (Face Mask)</p>
+                            <p>For Face</p>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                       <div class="prod-price">{{- face_mask.price | money_with_currency -}}</div>
+                    </div>
+                </div>
+              
             </div>
          {% endif %}
        
