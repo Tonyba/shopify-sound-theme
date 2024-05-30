@@ -60,7 +60,7 @@
 }
 
 @media only screen and (min-width: 1025px) {
-    .bottom-products .button {
+    .bottom-products .button:not(.button-full) {
         display: none;
     }
 }
