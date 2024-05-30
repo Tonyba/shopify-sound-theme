@@ -54,7 +54,7 @@
           </div>
    
       {%- when 'variant_picker' -%}
-        <div class="new-custom-variation ">
+        <div class="new-custom-variation product-id-{{ product.id }}">
 
               {% if product.variants.size > 0 %}
                 <div class="product-info__variant-picker" {{ block.shopify_attributes }}>
@@ -83,7 +83,11 @@
         {% if product.id == laser_therapy_id %}
           <div>Choose One or Both</div>
             <div class="laser-therapy-opts">
-               {%- render 'price-list', variant: product.selected_or_first_available_variant, form_id: product_form_id, size: 'lg', block: block -%}
+              {%- if settings.currency_code_enabled -%}
+                {{- product.price | money_with_currency -}}
+              {%- else -%}
+                {{- product.price | money -}}
+              {%- endif -%}
             </div>
          {% endif %}
        
