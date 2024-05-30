@@ -14,56 +14,17 @@
                 
             </div>
   
-             
-    
         </div>
         <div class="grid-item relative">  
             <div class="carousel-top-message">At-Home SkinPetra’s Products</div>
-            <div class="splide image-carousel">
-                <div class="splide__track">
-                    <div class="splide__list">    
-                            {% for item in section.blocks %}
-                                <div class="splide__slide">
-                                    {{- item.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
-                                </div>
-                            {% endfor %}                              
-                    </div>
-                </div>
+            <div class="image-carousel">          
+                 {{- section.settings.right_img | image_url: width: section.settings.right_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}    
             </div>
         </div>
     </div>
 </div>
 
-<script defer>
-    (function () {
 
-        function defer(method) {
-            if (typeof Splide != 'undefined' ) {
-                method();
-            } else {
-                setTimeout(function() { defer(method) }, 50);
-            }
-        }
-
-        defer(function() {
-
-            const testimonialCarousel = document.querySelector('.splide.image-carousel');
-
-            const args = {
-                perPage: 1,
-                arrows: false,
-                pagination: true,
-                type: 'loop'
-            }
-
-            const splideInstance = new Splide(testimonialCarousel, args);
-        
-            splideInstance.mount();
-
-        });
-     
-    })();
-</script>
 
 
 {% schema %}
@@ -90,20 +51,12 @@
                 "type": "image_picker",
                 "id": "image",
                 "label": "Image"
-            }
-        ],
-        "blocks": [ 
+            },
             {
-                "type": "slide",
-                "name": "Image",
-                "settings": [
-                    {
-                        "type": "image_picker",
-                        "label": "Image",
-                        "id": "image"
-                    }
-                ]
-            }  
+                "type": "image_picker",
+                "id": "right_img",
+                "label": "Right Image"
+            }
         ],
         "presets": [
             {
