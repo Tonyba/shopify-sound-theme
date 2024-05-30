@@ -122,6 +122,10 @@
     justify-content: center;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
 .gap-20,
 .gap-20 .os-content {
     gap: 20px;
