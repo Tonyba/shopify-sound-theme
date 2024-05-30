@@ -49,7 +49,7 @@
           </div>
    
       {%- when 'variant_picker' -%}
-        <div class="new-custom-variation {% if  product.variants.size == 0  %}no-variants{% endif %}">
+        <div class="new-custom-variation {{ product.variants.size  }}  {% if  product.variants.size == 0  %}no-variants{% endif %}">
          
         
             <div class="product-info__variant-picker" {{ block.shopify_attributes }}>
