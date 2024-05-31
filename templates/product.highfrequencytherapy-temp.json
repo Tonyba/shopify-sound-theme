@@ -354,6 +354,9 @@
     },
     "big_img_section_rmm7Ak": {
       "type": "big-img-section",
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.big-img-section img{height: 450px; object-fit: cover; }}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Pain-Free-_-Effective-SkinPetra-High-Frequency-Therapy.jpg",
         "heading": "Pain-Free & Effective SkinPetra High Frequency Therapy",
