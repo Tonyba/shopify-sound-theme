@@ -112,7 +112,7 @@
 
    async function addToCart(id, quantity) {
       await jQuery.ajax({
-            url: '/cart/add.js',
+            url: window.Shopify.routes.root + '/cart/add.js',
             type: 'post',
             dataType: 'json',
             data: `quantity=${quantity}&id=${id}`,
