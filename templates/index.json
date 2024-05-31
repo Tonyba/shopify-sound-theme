@@ -49,7 +49,7 @@
         "image_gePaP7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BANNER-MOBILE.jpg",
+            "image": "shopify:\/\/shop_images\/1BANNER-MOBILE.jpg",
             "content_max_width": 840,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
