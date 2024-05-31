@@ -10,6 +10,10 @@
     color: black;
 }
 
+.opt-subtitle {
+   color: #777777; 
+}
+
 .opt-price {
     color: #FF004A;
 }
