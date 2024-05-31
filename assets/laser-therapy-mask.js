@@ -26,6 +26,7 @@
 
     if(isAllOutofStock()) {
         console.log('pasando')
+        console.log(price)
         price.innerHTML('<p>No Stock for this products.</p>');
         opts.map(function(opt) { opt.classList.remove('selected') });
         add_to_cart.classList.add('disabled');
