@@ -71,9 +71,9 @@
 
     function isAllOutofStock() {
         var noStock = false;
-        var selectedOpt = document.querySelectorAll('.opt-item.out-of-stock');
+        var noStockOpts = document.querySelectorAll('.opt-item.out-of-stock');
 
-        if(selectedOpt.length == opts.length) noStock = false;
+        if(noStockOpts.length == opts.length) noStock = false;
 
         return noStock;
     }
