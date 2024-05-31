@@ -21,8 +21,8 @@
 
 
     function searchParamLogic() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const variant = urlParams.get('variant');
+        var urlParams = new URLSearchParams(window.location.search);
+        var variant = urlParams.get('variant');
 
         if(variant) {
             switch (variant) {
