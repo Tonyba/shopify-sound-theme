@@ -10082,3 +10082,7 @@ homepage mobile css
 variations hide
 **/
 .product-info__variant-picker{display:none!important;}
+/**
+accordion details
+**/
+.accordion.active{margin-bottom: 20px;}
