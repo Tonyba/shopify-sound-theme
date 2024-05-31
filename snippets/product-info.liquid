@@ -87,13 +87,13 @@
              assign neck_mask = product.variants[1]
 
 
-             assign isFaceOutClass = 'default' 
-             assign isNeckOutClass = ''
+             assign isFaceOutClass = "default" 
+             assign isNeckOutClass = ""
              
              if face_mask.inventory_quantity == 0
-             assign isFaceOutClass = 'out-of-stock'
+             assign isFaceOutClass = "out-of-stock"
              else 
-             assign isFaceOutClass = 'selected'
+             assign isFaceOutClass = "selected"
             endif
 
             if neck_mask.inventory_quantity == 0
