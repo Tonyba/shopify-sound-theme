@@ -90,7 +90,7 @@
           <div>Choose One or Both:</div>
             <div class="laser-therapy-opts flex flex-column gap-12">
 
-                <div class="opt-item flex pointer align-item-center space-between {% if face_mask.inventory_quantity == 0 %}out-of-stock{% else %}selected{% endif %}" data-value="{{ face_mask.title }}" >
+                <div class="opt-item flex pointer align-item-center space-between {% if face_mask.inventory_quantity == 0 %}out-of-stock{% else %}selected{% endif %}" data-value="{{ face_mask.title }}" data-variant-id="{{ product.id }}" >
                      <div class="grid-item flex align-item-center">
                         <div class="select-circle"></div>
                         <div class="opt-icon">
@@ -107,9 +107,9 @@
                 </div>
 
                 <div class="opt-item flex pointer align-item-center space-between 
-                  {% if face_mask.inventory_quantity == '0' %} selected {% endif %} 
+                  {% if face_mask.inventory_quantity == 0 %} selected {% endif %} 
                   {% if neck_mask.inventory_quantity == 0 %} out-of-stock {% endif %}
-                " data-value="{{ neck_mask.title }}" >
+                " data-value="{{ neck_mask.title }}" data-variant-id="{{ product.id }}" >
                   <div class="grid-item flex align-item-center">
                      <div class="select-circle"></div>
                      <div class="opt-icon">
