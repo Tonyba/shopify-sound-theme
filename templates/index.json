@@ -347,6 +347,9 @@
     },
     "two_cols_img_carousel_7KGijH": {
       "type": "two-cols-img-carousel",
+      "custom_css": [
+        ".two-cols-image-carousel .image-carousel img {border-radius: 30px;}"
+      ],
       "settings": {
         "heading": "986,800",
         "subheading": "Over 986,800 Satisfied Users in 60+ Countries",
