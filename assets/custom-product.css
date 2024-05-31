@@ -392,6 +392,9 @@ h1.product-info__title {
 }
 
 @media only screen and (max-width: 767px) {
+  #shopify-section-template--16709264310425__multiple_images_with_text_3ndzkV .multiple-images-with-text {
+    margin-bottom: 50px;
+}
 
     h1.product-info__title {
         font-size: 28px;
