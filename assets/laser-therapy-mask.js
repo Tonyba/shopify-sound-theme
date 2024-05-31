@@ -21,6 +21,9 @@
 
     searchParamLogic();
 
+
+    console.log(isAllOutofStock())
+
     if(isAllOutofStock()) {
         console.log('pasando')
         price.innerHTML('<p>No Stock for this products.</p>');
