@@ -174,7 +174,7 @@
         "item_i8kbzR": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4789a76e11ecb14af5b2cc40c008904c.jpg",
+            "image": "shopify:\/\/shop_images\/Pain-Free.png",
             "image_rotation_degrees": -2,
             "subheading": "Salon-Quality. At-Home Comfort.",
             "title": "Pain-Free & Effective SkinPetra IPL",
@@ -239,7 +239,7 @@
       ],
       "settings": {
         "bg_color": "#f3f3f3",
-        "image": "shopify:\/\/shop_images\/8a2e0646767543030ee025a2226bf8d2.jpg",
+        "image": "shopify:\/\/shop_images\/skin-and-wallet.png",
         "badge_text": "Save 90%!",
         "heading": "Your Skin (and Wallet) Will Thank You For It",
         "subheading": "SkinPetra Hair Removal Treatment",
@@ -253,46 +253,46 @@
         "slide_kAUdW6": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
+            "review_title": "\"Life-Changing Smoothness\"",
             "author": "- Rebecca Smith",
             "review_text": "\"SkinPetra Hair Removal changed my life. After just a few weeks of consistent use, I'm amazed at how smooth and hair-free my skin looks. I feel like a whole different person!\"",
-            "review_img": "shopify:\/\/shop_images\/image_18.png"
+            "review_img": "shopify:\/\/shop_images\/Testimonial-1_0aab0d83-f0e8-4590-9a44-e55a57d272fc.jpg"
           }
         },
         "slide_BcYJ4W": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
+            "review_title": "\"Smooth Legs Relief\"",
             "author": "- Emma Johnson",
             "review_text": "\"I’ve always had a problem with “strawberry legs”. Shaving was a real nightmare and even when freshly shaved, I was conscious of wearing shorts. SkinPetra was so worth it. I've been using it for a few weeks now. The results are incredible.\"",
-            "review_img": "shopify:\/\/shop_images\/Screenshot_11.png"
+            "review_img": "shopify:\/\/shop_images\/Testimonial-2_d700c8e9-976b-4cb6-ad92-33a7799891f2.jpg"
           }
         },
         "slide_dm43Eh": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
-            "author": "- Olivia Brown",
+            "review_title": "\"Effortless Progress\"",
+            "author": "- Oliver Brown",
             "review_text": "\"In less than a month of using SkinPetra Hair Removal, my hair has been growing less and less. My skin looks and feels so much better.\"",
-            "review_img": "shopify:\/\/shop_images\/Screenshot_11.png"
+            "review_img": "shopify:\/\/shop_images\/Testimonial-3_65c0c2e3-a852-4142-931e-f76ed6480fcd.jpg"
           }
         },
         "slide_JNBMxp": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
-            "author": "- Sophia Garcia",
+            "review_title": "\"Gentle Eczema Relief\"",
+            "author": "- Martin Garcia",
             "review_text": "\"I have eczema and so I used to struggle with shaving and waxing. Everything would irritate my skin. SkinPetra Hair Removal has been a lifesaver. I’ve never had smoother skin. I can’t believe I get to be hair-free without the need for constant upkeep!\"",
-            "review_img": "shopify:\/\/shop_images\/image_18.png"
+            "review_img": "shopify:\/\/shop_images\/Testimonial-4_a3e94fc8-a2d9-4d53-b29d-578db159881d.jpg"
           }
         },
         "slide_wAzP7g": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
-            "author": "- Ava Martinez",
+            "review_title": "\"At-Home Satisfaction\"",
+            "author": "- Horge Martinez",
             "review_text": "\"Getting a laser hair removal treatment was always on my mind, but I just couldn’t stand the idea of going to a salon. A friend recommended I look into SkinPetra. The results speak for themselves. I couldn't be happier with the investment.\"",
-            "review_img": "shopify:\/\/shop_images\/Screenshot_11.png"
+            "review_img": "shopify:\/\/shop_images\/Testimonial-5_6ca87e84-ccf4-4e9a-92aa-bcf703292c74.jpg"
           }
         }
       },
@@ -466,20 +466,13 @@
             "text": "\"We adore self-care innovations and SkinPetra Hair Removal hit the spot. Essential for anyone who wants flawless, hair-free skin.\"",
             "image": "shopify:\/\/shop_images\/glamour-11.png"
           }
-        },
-        "slide_MjyVcE": {
-          "type": "slide",
-          "settings": {
-            "text": ""
-          }
         }
       },
       "block_order": [
         "slide_MCD8pd",
         "slide_eiL9VL",
         "slide_TKnejb",
-        "slide_tEW3Gw",
-        "slide_MjyVcE"
+        "slide_tEW3Gw"
       ],
       "settings": {
         "is_autoscroll": true,
@@ -493,7 +486,7 @@
         "item_3acy4E": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/f71c36f9442e186e7ee894ca901a5048.jpg",
+            "image": "shopify:\/\/shop_images\/footeer11.png",
             "image_rotation_degrees": 0,
             "subheading": "AN INVESTMENT WORTH A LIFETIME",
             "title": "Feel Confident In Your Own Skin, Literally",
@@ -524,7 +517,7 @@
         "item_nrpcQd": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8b2faf2384ca164279507e1f208be091.jpg",
+            "image": "shopify:\/\/shop_images\/footer22.png",
             "image_rotation_degrees": 0,
             "subheading": "SUITABLE FOR EVERYONE",
             "title": "Unwanted Stubborn Hair Begone!",
@@ -555,7 +548,7 @@
         "item_JHWBHK": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/63d69191b961bf1753cc721c18273f73.jpg",
+            "image": "shopify:\/\/shop_images\/footer33.png",
             "image_rotation_degrees": 0,
             "subheading": "RADIANT SKIN, RIGHT AT HOME",
             "title": "Results, Privacy &Cost-Efficiency",

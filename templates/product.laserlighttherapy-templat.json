@@ -149,6 +149,9 @@
         "slide_yaftQd",
         "slide_APjHXF"
       ],
+      "custom_css": [
+        "img {margin-top: 30px; border-radius: 40px;}"
+      ],
       "settings": {
         "bg_color": "linear-gradient(103.48deg, rgba(243, 230, 214, 1), rgba(252, 245, 235, 1) 100.22%)",
         "bg_features_color": "linear-gradient(188.62deg, rgba(243, 230, 214, 1) 5.9%, rgba(252, 244, 234, 1) 92.77%)",
@@ -164,19 +167,19 @@
         "slide_TQn6BC": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
+            "review_title": "\"Acne Relief\"",
             "author": "- Sarah Mitchell",
             "review_text": "\"I've struggled with persistent acne for years, and nothing seemed to work. After using the SkinPetra LED Light Therapy Mask for a month, my breakouts have significantly reduced. Simply amazed.\"",
-            "review_img": "shopify:\/\/shop_images\/image_121.png"
+            "review_img": "shopify:\/\/shop_images\/Testimonial-1_76d4e3ad-4cd2-41aa-921e-503b44d784a0.jpg"
           }
         },
         "slide_UTWBy4": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
+            "review_title": "\"Youthful Revival\"",
             "author": "- Jessica Davis",
             "review_text": "\"Fine lines and wrinkles were becoming more noticeable on my face. After three weeks of using SkinPetra 4D LED Mask, I already started noticing wrinkles getting less visible. My skin feels much firmer. Couldn’t be happier.\"",
-            "review_img": "shopify:\/\/shop_images\/image_122.png"
+            "review_img": "shopify:\/\/shop_images\/Testimonial-2_95bd0ea9-f7d2-4872-98dd-a93a8d84ca5c.jpg"
           }
         },
         "slide_CYj9R4": {
@@ -185,25 +188,25 @@
             "review_title": "“I’m enjoying the results!”",
             "author": "- Barbara Evans",
             "review_text": "\"These past years I’ve gotten quite a lot of dark spots from sun damage. Since adding the SkinPetra LED Mask into my skincare routine, my complexion has become more even and the dark spots have faded remarkably.\"",
-            "review_img": "shopify:\/\/shop_images\/c5361c55fb5e95034c08b823b8b8ce24.png"
+            "review_img": "shopify:\/\/shop_images\/Testimonial-3_f43de3d8-bd6b-49c9-95a3-4cba06a6ba5d.jpg"
           }
         },
         "slide_peFcDB": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
+            "review_title": "\"Redness Relief\"",
             "author": "- Vanessa McKeen",
             "review_text": "\"My skin was constantly inflamed and red. I’ve always been a bit self-conscious about it but I was tired of buying creams that didn’t do much. The SkinPetra LED Mask has dramatically helped calm my skin and reduce redness. It’s now an essential part of my skin-care routine.\"",
-            "review_img": "shopify:\/\/shop_images\/image_121.png"
+            "review_img": "shopify:\/\/shop_images\/Testimonial-4_e2bcc84a-1576-410b-8674-7286e6f0b0b6.jpg"
           }
         },
         "slide_y67a6x": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
+            "review_title": "\"Pigmentation Progress\"",
             "author": "- Anna Hendrick",
             "review_text": "\"I was dealing with hyperpigmentation. Salons were too expensive and putting on make-up felt pointless. So, I decided to get the SkinPetra LED Light Therapy Mask. I’ve used it regularly for about 2 months now. The dark patches are way lighter and my skin looks much ealthier!\"",
-            "review_img": "shopify:\/\/shop_images\/image_122.png"
+            "review_img": "shopify:\/\/shop_images\/Testimonial-5_aeb63430-23eb-4af5-87d3-e81cf817f705.jpg"
           }
         }
       },
@@ -213,6 +216,9 @@
         "slide_CYj9R4",
         "slide_peFcDB",
         "slide_y67a6x"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "heading": "A Review Is Worth 1000 Words",
@@ -259,6 +265,9 @@
         "slide_JqMwey",
         "slide_4rCh4Y"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.advantage-section .lazyload-bg {border-top-right-radius: 0px; border-bottom-left-radius: 40px; }}"
+      ],
       "settings": {
         "bg_color": "linear-gradient(103.48deg, rgba(243, 230, 214, 1), rgba(252, 245, 235, 1) 100.22%)",
         "image": "shopify:\/\/shop_images\/treat.jpg",
@@ -302,8 +311,8 @@
           "type": "slide",
           "settings": {
             "simple_img": "shopify:\/\/shop_images\/footer3.jpg",
-            "tab_title": "Near-Infrared (NIR) Light Therapy",
-            "title": "Near-Infrared (NIR) Light Therapy",
+            "tab_title": "Near-Infrared Light Therapy",
+            "title": "Near-Infrared Light Therapy",
             "subtitle": "",
             "text": "<p><strong>Enhance Collagen and Elastin Production:<\/strong> Boost the production of collagen and elastin. Significantly improve skin firmness and elasticity.<br\/><br\/><strong>Promote Skin Healing and Repair:<\/strong> Accelerates the healing process of damaged skin by increasing blood flow and supporting cellular repair.<br\/><br\/><strong>Improve Skin Tone and Clarity: <\/strong>NIR light therapy helps to even out skin tone and reduce pigmentation issues by enhancing cellular turnover, giving your complexion a more vibrant glow.<\/p>",
             "hide_progress": true,
@@ -488,6 +497,9 @@
         "slide_R4nLix",
         "slide_8zfrtt"
       ],
+      "custom_css": [
+        "{display: none;}"
+      ],
       "settings": {
         "heading": "What TikTok Says About Us?",
         "text": "<p>With over 120 Million Views on TikTok, <a href=\"#\" target=\"_blank\" title=\"#\">#SkinPetra<\/a> products are loved and trusted by many. Check out some of The Most Popular Videos<\/p>"
@@ -649,6 +661,9 @@
       "block_order": [
         "slide_84DTm8",
         "slide_6rd9bK"
+      ],
+      "custom_css": [
+        "{display: none;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/0ae87d3d6f9d3b2a8a5ec543d8f3591c_1.png",

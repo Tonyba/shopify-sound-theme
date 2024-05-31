@@ -39,6 +39,7 @@
     "social_pinterest": "#",
     "social_instagram": "#",
     "social_tiktok": "#",
+    "favicon": "shopify:\/\/shop_images\/faviocn.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [

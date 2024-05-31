@@ -9,7 +9,10 @@
     <h2 style="text-align: {{ section.settings.title_alignment }}">
       {{ section.settings.title }}
     </h2>
-    <div class="grid cols-2 gap-40">
+     <p class="deschome">
+         {{ section.settings.description }}
+    </p>
+    <div class="grid cols-3 gap-40">
       {% for product in section.settings.products %}
         <li class="grid-item">
             {%- render 'product-card-new', product: product, stacked: false, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
@@ -29,6 +32,11 @@
                 "id": "title",
                 "label": "Title"
               },
+           {
+                "type": "text",
+                "id": "description",
+                "label": "Description"
+              },
               {
                 "type": "text_alignment",
                 "id": "title_alignment",
@@ -38,7 +46,7 @@
                 "type": "product_list",
                 "id": "products",
                 "label": "Products",
-                "limit": 2
+                "limit": 3
             },
             {
                 "type": "color",
