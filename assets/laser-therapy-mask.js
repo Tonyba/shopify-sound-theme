@@ -3,9 +3,9 @@
   document.addEventListener('DOMContentLoaded', init);
 
   function init() {
-    var faceMaskInput = document.querySelector('#swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-face-mask');
-    var neckMaskInput = document.querySelector('#swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-neck-mask');
-    var bothInput =  document.querySelector('#swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-both');
+    var faceMaskInput = document.querySelector('label[for="swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-face-mask"]');
+    var neckMaskInput = document.querySelector('label[for="swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-neck-mask"]');
+    var bothInput =  document.querySelector('label[for="swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-both"]');
 
     var opts = Array.from(document.querySelectorAll('.opt-item'));
 
