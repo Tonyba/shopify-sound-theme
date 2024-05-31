@@ -218,7 +218,7 @@
         "slide_y67a6x"
       ],
       "custom_css": [
-        "@media screen and (min-width: 768px) {.review-before-after-item .review-info {min-height: 400px; } .review-before-after-item .review-author {position: absolute; bottom: 20px; right:20px; }}"
+
       ],
       "settings": {
         "heading": "A Review Is Worth 1000 Words",
