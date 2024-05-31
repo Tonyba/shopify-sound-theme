@@ -17,7 +17,8 @@
         selectedOpt.classList.toggle('selected');
         var isSelected = selectedOpt.classList.contains('selected');
         if(noneSelected()) opts[0].classList.add('selected');
-
+        if(isAllSelected()) opts[opts.length].click();
+      
         if(isSelected) {
             switch (selectedOpt.getAttribute('data-value')) {
                 case 'Face Mask':
@@ -34,6 +35,16 @@
 
         
 
+    }
+
+
+    function isAllSelected() {
+        var allSelected = false;
+        var selectedOpts = document.querySelectorAll('.opt-item.selected');
+
+        if(selectedOpts.length == bothInput) nonSelected = true; 
+
+        return allSelected;
     }
 
     function noneSelected() {
