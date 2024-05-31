@@ -43,7 +43,7 @@
         var allSelected = false;
         var selectedOpts = document.querySelectorAll('.opt-item.selected');
 
-        if(selectedOpts.length == opts.length) nonSelected = true; 
+        if(selectedOpts.length === opts.length) selectedOpts = true; 
 
         return allSelected;
     }
