@@ -76,7 +76,7 @@
 
     function isAllOutofStock() {
         var noStock = false;
-        var noStockOpts = document.querySelectorAll('.opt-item.out-of-stock');
+        var noStockOpts = document.querySelectorAll('.out-of-stock');
 
         if(noStockOpts.length == opts.length) noStock = false;
 
