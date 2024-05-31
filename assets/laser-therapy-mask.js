@@ -16,9 +16,8 @@
     function selectLogic(selectedOpt) {
         selectedOpt.classList.toggle('selected');
         var isSelected = selectedOpt.classList.contains('selected');
-        if(noneSelected) opts[0].classList.add('selected');
+        if(noneSelected()) opts[0].classList.add('selected');
 
-        console.log(isSelected)
         if(isSelected) {
             switch (selectedOpt.getAttribute('data-value')) {
                 case 'Face Mask':
@@ -26,6 +25,7 @@
                     break;
     
                 case 'Neck Mask':
+                    console.log('pasando')
                     neckMaskInput.dispatchEvent(new Event('click'));
                 default:
                     faceMaskInput.dispatchEvent(new Event('click'));
