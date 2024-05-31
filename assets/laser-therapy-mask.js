@@ -7,8 +7,6 @@
     var neckMaskInput = document.querySelector('label[for="swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-neck-mask"]');
     var bothInput =  document.querySelector('label[for="swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-both"]');
 
-    var quantity = document.querySelector('#product-form-7998517149849-template--16709282136217__main-quantity');
-
     var neckMaskId = '44439074668697';
 
    
@@ -55,12 +53,10 @@
             faceMaskInput.click();
             opts[0].classList.add('selected');
         }
-        if(isAllSelected()) {
-            opts.map(async function(opt) {
-                console.log(opt.getAttribute('data-variant-id'), quantity.value);
-                await addToCart( opt.getAttribute('data-variant-id') ,quantity.value);
-            });
-        }
+        if(isAllSelected()) bothInput.click();
+
+ 
+
     }
 
 
@@ -69,7 +65,7 @@
 
     function checkSelected() {
         
-        var selectedOpt = document.querySelectorAll('.opt-item.selected:not(.out-of-stock)');
+        var selectedOpt = document.querySelectorAll('.opt-item.selected:not(out-of-stock)');
         
         if(selectedOpt.length == 1) {
 
@@ -91,7 +87,7 @@
 
     function isAllSelected() {
         var allSelected = false;
-        var selectedOpts = document.querySelectorAll('.opt-item.selected:not(.out-of-stock)');
+        var selectedOpts = document.querySelectorAll('.opt-item.selected');
 
         if(selectedOpts.length === opts.length) allSelected = true; 
 
@@ -100,7 +96,7 @@
 
     function noneSelected() {
         var nonSelected = false;
-        var selectedOpts = document.querySelectorAll('.opt-item.selected:not(.out-of-stock)');
+        var selectedOpts = document.querySelectorAll('.opt-item.selected');
 
         console.log(selectedOpts)
 
@@ -109,21 +105,6 @@
 
         return nonSelected;
     }
-
-   async function addToCart(id, quantity) {
-      await jQuery.ajax({
-            url: window.Shopify.routes.root + '/cart/add.js',
-            type: 'post',
-            dataType: 'json',
-            data: `quantity=${quantity}&id=${id}`,
-            success: function (){
-                console.log('added')
-                document.dispatchEvent(new Event('cart:change'));
-            }
-        });
-    }
-
-    
 
   }
 
