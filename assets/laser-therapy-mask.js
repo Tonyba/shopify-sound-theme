@@ -30,6 +30,7 @@
         price.innerHTML = '<p>No Stock for this product.</p>';
         opts.map(function(opt) { opt.classList.remove('selected') });
         add_to_cart.classList.add('disabled');
+        add_to_cart.querySelector('button').setAttribute('disabled', true);
     }
 
     function searchParamLogic() {
