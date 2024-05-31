@@ -85,13 +85,23 @@
           {%liquid 
              assign face_mask = product.variants.first 
              assign neck_mask = product.variants[1]     
-             assign both = product.variants.last
+             
+             assign is_face_with_no_stock = false
+             assign is_neck_with_no_stock = false
+
+            if face_mask.inventory_quantity = 0
+                assign is_face_with_no_stock = true
+            endif
+
+            if neck_mask.inventory_quantity = 0
+              assign is_neck_with_no_stock = true
+            endif
           %}
 
           <div class="opts-title" >Choose one option:</div>
             <div class="laser-therapy-opts flex flex-column gap-12">
 
-                <div class="opt-item flex pointer align-item-center space-between" data-stock="{{ face_mask.inventory_quantity }}" data-value="{{ face_mask.title }}" data-variant-id="{{ product.id }}" >
+                <div class="opt-item flex pointer align-item-center space-between {% if is_face_with_no_stock %}out-of-stock{% endif %}" data-stock="{{ face_mask.inventory_quantity }}" data-value="{{ face_mask.title }}" data-variant-id="{{ product.id }}" >
                      <div class="grid-item flex align-item-center">
                         <div class="select-circle"></div>
                         <div class="opt-icon">
@@ -107,7 +117,7 @@
                     </div>
                 </div>
 
-                <div class="opt-item flex pointer align-item-center space-between " data-value="{{ neck_mask.title }}" data-stock="{{ face_mask.inventory_quantity }}" data-variant-id="{{ product.id }}" >
+                <div class="opt-item flex pointer align-item-center space-between {% if is_neck_with_no_stock %}out-of-stock{% endif %}" data-value="{{ neck_mask.title }}" data-stock="{{ face_mask.inventory_quantity }}" data-variant-id="{{ product.id }}" >
                   <div class="grid-item flex align-item-center">
                      <div class="select-circle"></div>
                      <div class="opt-icon">
