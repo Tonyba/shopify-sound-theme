@@ -7,11 +7,39 @@
     var neckMaskInput = document.querySelector('label[for="swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-neck-mask"]');
     var bothInput =  document.querySelector('label[for="swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-both"]');
 
+    var faceMaskId = '44439074668697';
+    var neckMaskId = '44439074635929';
+
+    searchParamLogic();
+
     var opts = Array.from(document.querySelectorAll('.opt-item'));
 
     opts.map(function(opt) {
         opt.addEventListener('click', () => selectLogic(opt));
     });
+
+
+
+    function searchParamLogic() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const variant = urlParams.get('variant');
+
+        if(variant) {
+            switch (variant) {
+                case neckMaskId:
+                    variant = 'Neck Mask';
+                    break;
+            
+                default:
+                    variant = 'Face Mask';
+                    break;
+            }
+            
+            var selectedOpt = document.querySelector(`opt-item[data-value="${variant}"]`);
+
+            selectLogic(selectedOpt);
+        }
+    }
 
     function selectLogic(selectedOpt) {
         selectedOpt.classList.toggle('selected');
@@ -26,6 +54,9 @@
  
 
     }
+
+
+
 
 
     function checkSelected() {
