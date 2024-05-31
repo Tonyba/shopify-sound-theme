@@ -21,6 +21,14 @@
 
     searchParamLogic();
 
+    if(isAllOutofStock()) {
+        console.log('pasando')
+        price.innerHTML('<p>No Stock for this products.</p>');
+        opts.map(function(opt) { opt.classList.remove('selected') });
+        add_to_cart.classList.add('disabled');
+        add_to_cart.querySelector('button').setAttribute('disabled', true);
+    }
+
     function searchParamLogic() {
         var urlParams = new URLSearchParams(window.location.search);
         var variant = urlParams.get('variant');
@@ -57,13 +65,7 @@
         }
         if(isAllSelected()) bothInput.click();
 
-        if(isAllOutofStock()) {
-            console.log('pasando')
-            price.innerHTML('<p>No Stock for this products.</p>');
-            opts.map(function(opt) { opt.classList.remove('selected') });
-            add_to_cart.classList.add('disabled');
-            add_to_cart.querySelector('button').setAttribute('disabled', true);
-        }
+        
 
     }
 
