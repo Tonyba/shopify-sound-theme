@@ -15,26 +15,34 @@
 
     function selectLogic(selectedOpt) {
         selectedOpt.classList.toggle('selected');
-        var isSelected = selectedOpt.classList.contains('selected');
 
-      
-      
-        if(isSelected) {
+        checkSelected();
+        if(noneSelected()) opts[0].classList.add('selected');
+        if(isAllSelected()) bothInput.click();
+
+ 
+
+    }
+
+
+    function checkSelected() {
+        
+        var selectedOpt = document.querySelectorAll('.opt-item.selected');
+        
+        if(selectedOpts.length == 1) {
+
+            selectedOpt = Array.from(selectedOpt)[0];
+
             switch (selectedOpt.getAttribute('data-value')) {
-                case 'Face Mask':
-                    faceMaskInput.click();
-                    break;
-    
                 case 'Neck Mask':
                     neckMaskInput.click();
+                 break;
                 default:
                     faceMaskInput.click();
-                break;
+                    break;
             }
         }
 
-        if(noneSelected()) opts[0].classList.add('selected');
-        if(isAllSelected()) bothInput.click();
 
     }
 
