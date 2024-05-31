@@ -106,6 +106,23 @@
         return nonSelected;
     }
 
+    async function addToCart(id) {
+        try {
+    
+            const response = await fetch("/cart/add.js",{
+                method: 'POST', 
+                contentType:'application/json'
+              });
+    
+            const serverResponse = await response.json(); // or response.json() if your servers sends JSON back
+    
+            console.log("Success! serverResponse is = ", serverResponse ); // "Done!"
+    
+        } catch (e) {
+            console.log(e.message);
+        }
+    }
+
   }
 
 })();
