@@ -18,3 +18,8 @@
 .select-circle.selected {
     background-color: #FF004A;
 }
+
+.opt-item.selected {
+    background-color: #FFEBF1;
+    border-width: 2px;
+}
