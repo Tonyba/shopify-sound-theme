@@ -32,6 +32,15 @@
     width: 75px;
 }
 
+.horizontal-custom-prod .horizontal-img  {
+    padding-left: 20px;
+}
+
+
+.horizontal-custom-prod .horizontal-img  img {
+    margin: auto;
+}
+
 @media only screen and (max-width: 768px) {
     .top-product h3 a {
         font-size: 20px;
