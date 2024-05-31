@@ -61,7 +61,9 @@
         }
     }
 
-    const siblings = ele => [].slice.call(ele.parentNode.children).filter((child) => (child !== ele));
+    function siblings(ele) { 
+        return [].slice.call(ele.parentNode.children).filter((child) => (child !== ele)) 
+    };
 
     function selectLogic(selectedOpt) {
         
