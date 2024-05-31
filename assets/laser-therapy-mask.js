@@ -23,9 +23,9 @@
     searchParamLogic();
 
     if(isAnyOutOfStock()) {
-        var optWithStock = document.querySelector('.out-of-stock ~ .opt-item');
+        var optWithStock = siblings(document.querySelector('.out-of-stock'));
         console.log(optWithStock)
-        selectLogic(optWithStock);
+        
     }
 
     if(isAllOutofStock()) {
@@ -60,6 +60,8 @@
             selectLogic(selectedOpt);
         }
     }
+
+    const siblings = ele => [].slice.call(ele.parentNode.children).filter((child) => (child !== ele));
 
     function selectLogic(selectedOpt) {
         
