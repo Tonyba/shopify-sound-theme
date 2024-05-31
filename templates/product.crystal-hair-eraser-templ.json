@@ -469,6 +469,9 @@
         "slide_ka9Pbc",
         "slide_ix8NY4"
       ],
+      "custom_css": [
+        "{margin-top:100px;}"
+      ],
       "settings": {
         "bg_color": "#f3f3f3",
         "image": "shopify:\/\/shop_images\/Less-Hair.More-Savings.jpg",
