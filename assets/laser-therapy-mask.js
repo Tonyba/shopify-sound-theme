@@ -24,7 +24,7 @@
 
     if(isAnyOutOfStock()) {
         var optWithStock = document.querySelector('.out-of-stock ~ .opt-item');
-
+        console.log(optWithStock)
         selectLogic(optWithStock);
     }
 
