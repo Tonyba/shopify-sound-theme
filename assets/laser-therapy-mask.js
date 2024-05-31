@@ -65,7 +65,7 @@
 
     function checkSelected() {
         
-        var selectedOpt = document.querySelectorAll('.opt-item.selected');
+        var selectedOpt = document.querySelectorAll('.opt-item.selected:not(.out-of-stock)');
         
         if(selectedOpt.length == 1) {
 
@@ -87,7 +87,7 @@
 
     function isAllSelected() {
         var allSelected = false;
-        var selectedOpts = document.querySelectorAll('.opt-item.selected');
+        var selectedOpts = document.querySelectorAll('.opt-item.selected:not(.out-of-stock)');
 
         if(selectedOpts.length === opts.length) allSelected = true; 
 
@@ -96,7 +96,7 @@
 
     function noneSelected() {
         var nonSelected = false;
-        var selectedOpts = document.querySelectorAll('.opt-item.selected');
+        var selectedOpts = document.querySelectorAll('.opt-item.selected:not(.out-of-stock)');
 
         console.log(selectedOpts)
 
