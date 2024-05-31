@@ -10,7 +10,7 @@
     var faceMaskId = '44439074668697';
     var neckMaskId = '44439074635929';
 
-    searchParamLogic();
+   
 
     var opts = Array.from(document.querySelectorAll('.opt-item'));
 
@@ -18,7 +18,7 @@
         opt.addEventListener('click', () => selectLogic(opt));
     });
 
-
+    searchParamLogic();
 
     function searchParamLogic() {
         var urlParams = new URLSearchParams(window.location.search);
