@@ -78,9 +78,7 @@
         var noStock = false;
         var noStockOpts = document.querySelectorAll('.out-of-stock');
 
-        console.log(noStockOpts.length, opts.length)
-
-        if(noStockOpts.length == opts.length) noStock = false;
+        if(noStockOpts.length === opts.length) noStock = false;
 
         return noStock;
     }
