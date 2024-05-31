@@ -7,6 +7,8 @@
     var neckMaskInput = document.querySelector('label[for="swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-neck-mask"]');
     var bothInput =  document.querySelector('label[for="swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-both"]');
 
+    var quantity = document.querySelector('#product-form-7998517149849-template--16709282136217__main-quantity');
+
     var neckMaskId = '44439074668697';
 
    
@@ -53,10 +55,9 @@
             faceMaskInput.click();
             opts[0].classList.add('selected');
         }
-        if(isAllSelected()) addToCart()
-
- 
-
+        if(isAllSelected()) {
+            addToCart( selectedOpt.getAttribute('data-variant-id'),quantity.value);
+        }
     }
 
 
