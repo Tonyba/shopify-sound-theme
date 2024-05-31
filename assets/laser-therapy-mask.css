@@ -7,7 +7,11 @@
     border-radius: 10px;
     padding: 15px 20px;
     font-size: 17px;
-    gap: 12px
+}
+
+
+.opt-item  > .grid-item {
+    gap: 12px;
 }
 
 .select-circle {
