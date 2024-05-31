@@ -10024,6 +10024,8 @@ homepage mobile css
 }
 
 @media screen and (max-width: 768px) {
+  #shopify-section-template--16704955089049__two_cols_products_gRDEqC .cols-3{
+grid-template-columns: repeat(1, 1fr) !important;}
   #shopify-section-template--16704955089049__two_cols_img_carousel_7KGijH .grid-item.relative{margin-top:50px}
 
 }
