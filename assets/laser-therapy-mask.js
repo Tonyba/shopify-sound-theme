@@ -15,13 +15,30 @@
 
     function selectLogic(selectedOpt) {
         selectedOpt.classList.toggle('selected');
-
+        var isSelected = selectedOpt.classList.contains('selected');
         if(noneSelected) opts[0].classList.add('selected');
+
+
+        if(isSelected) {
+            switch (selectedOpt.getAttribute('data-value')) {
+                case 'Face Mask':
+                    faceMaskInput.click();
+                    break;
+    
+                case 'Neck Mask':
+                    neckMaskInput.click();
+                default:
+                    faceMaskInput.click();
+                break;
+            }
+        }
+
+        
+
     }
 
     function noneSelected() {
         var nonSelected = false;
-        console.log('pasando')
         var selectedOpts = document.querySelectorAll('.opt-item.selected');
 
         console.log(selectedOpts)
