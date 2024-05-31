@@ -6,6 +6,7 @@
 
 {% if product.id == laser_therapy_id %}
   {{ 'laser-therapy-mask.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'jquery.min.js' | asset_url }}" defer></script>
   <script src="{{ 'laser-therapy-mask.js' | asset_url }}" defer></script>
 {% endif %}
 
