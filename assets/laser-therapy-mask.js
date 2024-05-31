@@ -11,7 +11,8 @@
 
     var price = document.querySelector('.rating-with-text');
     var quantity = document.querySelector('.product-info__quantity-selector ');
-    var add_to_cart = document.querySelector('.shopify-product-form');
+ 
+    var submitBtn = document.querySelector('.product-info__buy-buttons button');
 
     var opts = Array.from(document.querySelectorAll('.opt-item'));
 
@@ -29,9 +30,9 @@
         console.log(price)
         price.innerHTML = '<p>No Stock for this product.</p>';
         opts.map(function(opt) { opt.classList.remove('selected') });
-        add_to_cart.classList.add('disabled');
         
-        console.log(add_to_cart)
+        submitBtn.setAttribute('disabled', true);
+        
     }
 
     function searchParamLogic() {
