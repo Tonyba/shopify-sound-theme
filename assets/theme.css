@@ -10115,9 +10115,9 @@ accordion details
     bottom: 15px;
     right: 15px;
   }
-.icon-list .icon-list-item{align-items: flex-start;}
+.icon-list .icon-list-item{align-items: flex-start!important;}
 .icon-list .icon {
-    margin-top: 5px;
+    margin-top: 5px!important;
 }
 }
 
