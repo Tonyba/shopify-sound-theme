@@ -259,6 +259,9 @@
         "slide_JqMwey",
         "slide_4rCh4Y"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.advantage-section .lazyload-bg {border-top-right-radius: 0px; border-bottom-left-radius: 40px; }}"
+      ],
       "settings": {
         "bg_color": "linear-gradient(103.48deg, rgba(243, 230, 214, 1), rgba(252, 245, 235, 1) 100.22%)",
         "image": "shopify:\/\/shop_images\/treat.jpg",
@@ -302,8 +305,8 @@
           "type": "slide",
           "settings": {
             "simple_img": "shopify:\/\/shop_images\/footer3.jpg",
-            "tab_title": "Near-Infrared (NIR) Light Therapy",
-            "title": "Near-Infrared (NIR) Light Therapy",
+            "tab_title": "Near-Infrared Light Therapy",
+            "title": "Near-Infrared Light Therapy",
             "subtitle": "",
             "text": "<p><strong>Enhance Collagen and Elastin Production:<\/strong> Boost the production of collagen and elastin. Significantly improve skin firmness and elasticity.<br\/><br\/><strong>Promote Skin Healing and Repair:<\/strong> Accelerates the healing process of damaged skin by increasing blood flow and supporting cellular repair.<br\/><br\/><strong>Improve Skin Tone and Clarity: <\/strong>NIR light therapy helps to even out skin tone and reduce pigmentation issues by enhancing cellular turnover, giving your complexion a more vibrant glow.<\/p>",
             "hide_progress": true,
