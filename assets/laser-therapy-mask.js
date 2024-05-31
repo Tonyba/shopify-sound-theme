@@ -15,6 +15,7 @@
 
     function selectLogic(selectedOpt) {
         selectedOpt.classList.toggle('selected');
+
         if(noneSelected) opts[0].classList.add('selected');
     }
 
@@ -22,6 +23,8 @@
         var nonSelected = false;
 
         var selectedOpts = document.querySelectorAll('.opt-item.selected');
+
+        console.log(selectedOpts)
 
         if(!selectedOpts.length) nonSelected = true; 
         
