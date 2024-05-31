@@ -22,13 +22,13 @@
         if(isSelected) {
             switch (selectedOpt.getAttribute('data-value')) {
                 case 'Face Mask':
-                    faceMaskInput.click();
+                    faceMaskInput.dispatchEvent(new Event('click'));
                     break;
     
                 case 'Neck Mask':
-                    neckMaskInput.click();
+                    neckMaskInput.dispatchEvent(new Event('click'));
                 default:
-                    faceMaskInput.click();
+                    faceMaskInput.dispatchEvent(new Event('click'));
                 break;
             }
         }
