@@ -7,6 +7,10 @@
     color: black;
 }
 
+.opt-item.out-of-stock {
+    opacity: 0.5;
+}
+
 .opt-subtitle {
    color: #777777; 
 }
