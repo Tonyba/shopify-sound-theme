@@ -58,7 +58,7 @@
             
             var selectedOpt = document.querySelector(`.opt-item[data-value="${variant}"]:not(.out-of-stock)`);
 
-            selectLogic(selectedOpt);
+            if(selectedOpt) selectLogic(selectedOpt);
         }
     }
 
