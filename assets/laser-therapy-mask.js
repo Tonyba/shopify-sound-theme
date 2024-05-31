@@ -7,6 +7,8 @@
     var neckMaskInput = document.querySelector('label[for="swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-neck-mask"]');
     var bothInput =  document.querySelector('label[for="swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-both"]');
 
+    console.log(faceMaskInput)
+
     var opts = Array.from(document.querySelectorAll('.opt-item'));
 
     opts.map(function(opt) {
