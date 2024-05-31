@@ -7,9 +7,7 @@
     color: black;
 }
 
-.opt-item.out-of-stock {
-    opacity: 0.5;
-}
+
 
 .opt-subtitle {
    color: #777777; 
@@ -38,4 +36,10 @@
 .opt-item.selected {
     background-color: #FFEBF1;
     border-width: 2px;
+}
+
+.opt-item.out-of-stock {
+    opacity: 0.5;
+    background-color: #777777;
+    border-color: #777777;
 }
