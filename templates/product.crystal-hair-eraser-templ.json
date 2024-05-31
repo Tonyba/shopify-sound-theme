@@ -336,6 +336,9 @@
         "slide_AC3pKy",
         "slide_RGVh8w"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.grid.cols-2 {display: flex; flex-direction: column-reverse; }}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Apply-For-Body-Any-Part.jpg",
         "heading": "SkinPetra Crystal Hair Remover",
