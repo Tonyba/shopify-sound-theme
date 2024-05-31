@@ -7,6 +7,11 @@
     display: none;
 }
 
+button.disabled[type="submit"] {
+    background-color: #777 !important;
+    color: black;
+}
+
 .opt-item  {
     border: 1px solid #FF004A;
     border-radius: 10px;
