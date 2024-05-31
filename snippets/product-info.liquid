@@ -88,7 +88,7 @@
              assign both = product.variants.last
           %}
 
-          <div class="opts-title" >Choose one options: </div>
+          <div class="opts-title" >Choose one option:</div>
             <div class="laser-therapy-opts flex flex-column gap-12">
 
                 <div class="opt-item flex pointer align-item-center space-between" data-stock="{{ face_mask.inventory_quantity }}" data-value="{{ face_mask.title }}" data-variant-id="{{ product.id }}" >
@@ -107,8 +107,7 @@
                     </div>
                 </div>
 
-                <div class="opt-item flex pointer align-item-center space-between 
-                " data-value="{{ neck_mask.title }}" data-stock="{{ face_mask.inventory_quantity }}" data-variant-id="{{ product.id }}" >
+                <div class="opt-item flex pointer align-item-center space-between" data-value="{{ neck_mask.title }}" data-stock="{{ face_mask.inventory_quantity }}" data-variant-id="{{ product.id }}" >
                   <div class="grid-item flex align-item-center">
                      <div class="select-circle"></div>
                      <div class="opt-icon">
@@ -122,7 +121,7 @@
                  <div class="grid-item">
                     <div class="opt-price">{{- neck_mask.price | money -}}</div>
                  </div>
-             </div>
+                </div>
               
             </div>
          {% endif %}
