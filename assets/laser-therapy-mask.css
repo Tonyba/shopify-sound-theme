@@ -7,7 +7,7 @@
     display: none;
 }
 
-button[type="submit"] {
+button[disabled="true"] {
     background-color: #ddd;
     color: black;
 }
