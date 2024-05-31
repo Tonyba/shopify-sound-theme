@@ -17,7 +17,10 @@
         selectedOpt.classList.toggle('selected');
 
         checkSelected();
-        if(noneSelected()) opts[0].classList.add('selected');
+        if(noneSelected()) {
+            faceMaskInput.click();
+            opts[0].classList.add('selected');
+        }
         if(isAllSelected()) bothInput.click();
 
  
