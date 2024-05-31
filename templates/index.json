@@ -53,8 +53,8 @@
             "content_max_width": 840,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "With advanced technology, achieving long-lasting results has never been easier. Embrace the convenience and effectiveness of DIY laser hair removal",
-            "title": "Beauty Products At Home 2",
+            "subheading": "Tired of shaving every two-days? Wrinkles are becoming a bit too threatening? Redefine your skincare routine with our technology designed for achieving long-term results.",
+            "title": "Bring The Salon Home",
             "heading_tag": "h1",
             "button_text": "Shop Now",
             "button_link": "shopify:\/\/collections\/all",
@@ -378,7 +378,7 @@
       "type": "two-cols-img-carousel",
       "custom_css": [
         ".two-cols-image-carousel .image-carousel img {border-radius: 30px;}",
-        " {margin-top: 30px; margin-bottom:0px;}"
+        " {margin-top: 30px; margin-bottom: 0px;}"
       ],
       "settings": {
         "heading": "16,800",
