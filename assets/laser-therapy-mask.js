@@ -73,7 +73,7 @@
         checkSelected();
         if(noneSelected()) {
             faceMaskInput.click();
-            opts[0].classList.add('selected');
+            if(!opts.classList.contains('out-of-stock')) opts[0].classList.add('selected');
         }
         if(isAllSelected()) bothInput.click();
 
@@ -125,7 +125,7 @@
 
     function isAllSelected() {
         var allSelected = false;
-        var selectedOpts = document.querySelectorAll('.opt-item.selected');
+        var selectedOpts = document.querySelectorAll('.opt-item.selected:not(.out-of-stock)');
 
         if(selectedOpts.length === opts.length) allSelected = true; 
 
