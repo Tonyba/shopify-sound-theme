@@ -53,7 +53,7 @@
             faceMaskInput.click();
             opts[0].classList.add('selected');
         }
-        if(isAllSelected()) bothInput.click();
+        if(isAllSelected()) addToCart()
 
  
 
