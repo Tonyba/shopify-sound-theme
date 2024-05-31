@@ -95,6 +95,7 @@
     
     .product-features h2 {
         font-size: 35px;
+      text-align:center;
     }
 
     .product-features .subheading {
