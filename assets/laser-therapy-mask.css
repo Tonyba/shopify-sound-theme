@@ -1,3 +1,6 @@
+.product-info__variant-picker {
+    display: none;
+}
 
 .opt-item  {
     border: 1px solid #FF004A;
