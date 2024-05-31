@@ -134,7 +134,7 @@
 
     function noneSelected() {
         var nonSelected = false;
-        var selectedOpts = document.querySelectorAll('.opt-item.selected');
+        var selectedOpts = document.querySelectorAll('.opt-item.selected:not(.out-of-stock)');
 
         console.log(selectedOpts)
 
