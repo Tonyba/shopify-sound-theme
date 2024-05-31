@@ -24,6 +24,10 @@
         var urlParams = new URLSearchParams(window.location.search);
         var variant = urlParams.get('variant');
 
+        opts.map(function(opt) {
+            opt.classList.remove('selected');
+        });
+
         if(variant) {
             switch (variant) {
                 case neckMaskId:
@@ -34,8 +38,6 @@
                     variant = 'Face Mask';
                     break;
             }
-
-            console.log(variant)
             
             var selectedOpt = document.querySelector(`.opt-item[data-value="${variant}"]`);
 
