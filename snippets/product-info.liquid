@@ -94,7 +94,7 @@
                assign isFaceOutClass = "out-of-stock"
             
              endif
-             
+
             if neck_mask.inventory_quantity == 0
              assign isNeckOutClass = true
             endif
@@ -104,7 +104,7 @@
           <div class="opts-title" >Choose One or Both:</div>
             <div class="laser-therapy-opts flex flex-column gap-12">
 
-                <div class="opt-item flex pointer align-item-center space-between  {{ isFaceOutClass }}" data-value="{{ face_mask.title }}" data-variant-id="{{ product.id }}" >
+                <div class="opt-item flex pointer align-item-center space-between  {{ isFaceOutClass }}" data-stock="{{ face_mask.inventory_quantity }}" data-value="{{ face_mask.title }}" data-variant-id="{{ product.id }}" >
                      <div class="grid-item flex align-item-center">
                         <div class="select-circle"></div>
                         <div class="opt-icon">
