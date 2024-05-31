@@ -113,6 +113,7 @@
             dataType: 'json',
             data: `quantity=${quantity}&id=${id}`,
             success: function (){
+                console.log('added')
                 document.dispatchEvent(new Event('cart:change'));
             }
         });
