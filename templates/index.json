@@ -289,6 +289,9 @@
         "slide_kAizwX",
         "slide_YgM6NJ"
       ],
+      "custom_css": [
+        "{display: none;}"
+      ],
       "settings": {
         "heading": "Video Testimonials",
         "extra_classes": "section-wrapper-margin-t"
@@ -325,6 +328,9 @@
     },
     "product_carousel_CYqLXT": {
       "type": "product-carousel",
+      "custom_css": [
+        "{display: none;}"
+      ],
       "settings": {
         "bg_color": "#f3f3f3",
         "heading": "Best Bundles",
