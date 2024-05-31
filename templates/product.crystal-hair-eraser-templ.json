@@ -214,7 +214,7 @@
         "slide_cYFG9r"
       ],
       "custom_css": [
-        ".cols-2{grid-template-columns: repeat(1, 1fr);}"
+        ".cols-2 {grid-template-columns: repeat(1, 1fr);}"
       ],
       "settings": {
         "heading": "Results From Our Satisfied Customers",
@@ -258,7 +258,7 @@
         "slide_YBKRBK": {
           "type": "slide",
           "settings": {
-            "simple_img": "shopify:\/\/shop_images\/Clean-And-Hairless-Skin-_3_beab00be-e589-4f14-bf31-d8efd2d8a376.jpg",
+            "simple_img": "shopify:\/\/shop_images\/foto-nfund.png",
             "tab_title": "Skin Firmness Improvement",
             "title": "Skin Firmness Improvement",
             "subtitle": "",
