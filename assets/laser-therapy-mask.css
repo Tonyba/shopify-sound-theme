@@ -39,7 +39,19 @@
 }
 
 .opt-item.out-of-stock {
+    position: relative;
     opacity: 0.5;
-    background-color: #777777;
+    background-color: #ccc;
     border-color: #777777;
+}
+
+.opt-item.out-of-stock:after {
+    contain: 'Out of Stock';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 5p 10px;
+    font-size: 14px;
 }
