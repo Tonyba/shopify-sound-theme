@@ -21,7 +21,7 @@
 
     function noneSelected() {
         var nonSelected = false;
-
+        console.log('pasando')
         var selectedOpts = document.querySelectorAll('.opt-item.selected');
 
         console.log(selectedOpts)
