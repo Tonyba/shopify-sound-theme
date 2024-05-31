@@ -87,17 +87,16 @@
              assign neck_mask = product.variants[1]
 
 
-             assign isFaceOutClass = "default" 
+             assign isFaceOutClass = "" 
              assign isNeckOutClass = ""
              
              if face_mask.inventory_quantity == 0
-             assign isFaceOutClass = "out-of-stock"
-             else 
-             assign isFaceOutClass = "selected"
-            endif
-
+               assign isFaceOutClass = "out-of-stock"
+            
+             endif
+             
             if neck_mask.inventory_quantity == 0
-             assign isNeckOut = true
+             assign isNeckOutClass = true
             endif
 
           %}
@@ -122,8 +121,8 @@
                 </div>
 
                 <div class="opt-item flex pointer align-item-center space-between 
-                  {% if isFaceOut %} selected {% endif %} 
-                  {% if isNeckOut == 0 %} out-of-stock {% endif %}
+              
+                
                 " data-value="{{ neck_mask.title }}" data-variant-id="{{ product.id }}" >
                   <div class="grid-item flex align-item-center">
                      <div class="select-circle"></div>
