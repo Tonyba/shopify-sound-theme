@@ -85,12 +85,16 @@
           {%liquid 
              assign face_mask = product.variants.first 
              assign neck_mask = product.variants[1]
+
+             assign isFaceOut = face_mask.inventory_quantity == 0 
+             assign isNeckOut = neck_mask.inventory_quantity == 0 
+
           %}
 
           <div>Choose One or Both:</div>
             <div class="laser-therapy-opts flex flex-column gap-12">
 
-                <div class="opt-item flex pointer align-item-center space-between  {% if face_mask.inventory_quantity == 0 %}out-of-stock{% else %}selected{% endif %}" data-value="{{ face_mask.title }}" data-variant-id="{{ product.id }}" >
+                <div class="opt-item flex pointer align-item-center space-between  {% if isFaceOut %}out-of-stock{% else %}selected{% endif %}" data-value="{{ face_mask.title }}" data-variant-id="{{ product.id }}" >
                      <div class="grid-item flex align-item-center">
                         <div class="select-circle"></div>
                         <div class="opt-icon">
