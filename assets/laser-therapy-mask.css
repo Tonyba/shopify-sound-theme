@@ -10,6 +10,10 @@
     color: black;
 }
 
+.opt-price {
+    color: #FF004A;
+}
+
 
 .opt-item  > .grid-item {
     gap: 12px;
