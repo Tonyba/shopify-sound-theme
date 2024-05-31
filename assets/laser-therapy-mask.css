@@ -43,6 +43,7 @@
     opacity: 0.5;
     background-color: #ccc;
     border-color: #777777;
+    pointer-events: none;
 }
 
 .opt-item.out-of-stock:after {
