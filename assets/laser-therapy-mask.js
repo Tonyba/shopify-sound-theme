@@ -55,7 +55,7 @@
         }
         if(isAllSelected()) bothInput.click();
 
- 
+        if(isAllOutofStock()) opts.map(function(opt) { opt.classList.remove('selected') }),
 
     }
 
