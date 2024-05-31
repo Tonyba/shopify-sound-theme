@@ -130,12 +130,12 @@
       "type": "two-cols-products",
       "custom_css": [
         ".product-card__figure img {object-fit: cover;}",
-        "h2{margin-bottom:0px;}",
-        ".deschome{text-alig:center; margin-bottom:40px;}"
+        "h2 {margin-bottom: 0px;}",
+        ".deschome {text-align: center; margin-bottom: 40px;}"
       ],
       "settings": {
         "title": "Bring The Salon Home",
-        "description": "Tired of shaving every two-days? Wrinkles are becoming a bit too threatening?<br>Redefine your skincare routine with our technology designed for achieving long-term results.",
+        "description": "Tired of shaving every two-days? Wrinkles are becoming a bit too threatening?Redefine your skincare routine with our technology designed for achieving long-term results.",
         "title_alignment": "center",
         "products": [
           "skinpetra-high-frequency-therapy",
