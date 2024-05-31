@@ -56,7 +56,10 @@
             opts[0].classList.add('selected');
         }
         if(isAllSelected()) {
-            addToCart( selectedOpt.getAttribute('data-variant-id'),quantity.value);
+            opts.map(async function(opt) {
+                console.log(opt.getAttribute('data-variant-id'), quantity.value);
+                await addToCart( opt.getAttribute('data-variant-id') ,quantity.value);
+            });
         }
     }
 
@@ -107,8 +110,8 @@
         return nonSelected;
     }
 
-    function addToCart(id, quantity) {
-        jQuery.ajax({
+   async function addToCart(id, quantity) {
+      await jQuery.ajax({
             url: '/cart/add.js',
             type: 'post',
             dataType: 'json',
@@ -119,6 +122,8 @@
             }
         });
     }
+
+    
 
   }
 
