@@ -10,7 +10,6 @@
     var opts = Array.from(document.querySelectorAll('.opt-item'));
 
     neckMaskInput.click();
-    console.log('click')
 
     opts.map(function(opt) {
         opt.addEventListener('click', () => selectLogic(opt));
@@ -24,14 +23,13 @@
         if(isSelected) {
             switch (selectedOpt.getAttribute('data-value')) {
                 case 'Face Mask':
-                    faceMaskInput.dispatchEvent(new Event('click'));
+                    faceMaskInput.click();
                     break;
     
                 case 'Neck Mask':
-                    console.log('pasando')
-                    neckMaskInput.dispatchEvent(new Event('click'));
+                    neckMaskInput.click();
                 default:
-                    faceMaskInput.dispatchEvent(new Event('click'));
+                    faceMaskInput.click();
                 break;
             }
         }
