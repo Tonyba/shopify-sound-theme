@@ -27,7 +27,7 @@
     border: 1px solid #FF004A;
 }
 
-.select-circle.selected {
+.opt-item.selected .select-circle {
     background-color: #FF004A;
 }
 
