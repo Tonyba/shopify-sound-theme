@@ -17,6 +17,7 @@
         selectedOpt.classList.toggle('selected');
         var isSelected = selectedOpt.classList.contains('selected');
         if(noneSelected()) opts[0].classList.add('selected');
+
         if(isAllSelected()) opts[opts.length].click();
       
         if(isSelected) {
@@ -42,7 +43,7 @@
         var allSelected = false;
         var selectedOpts = document.querySelectorAll('.opt-item.selected');
 
-        if(selectedOpts.length == bothInput) nonSelected = true; 
+        if(selectedOpts.length == opts.length) nonSelected = true; 
 
         return allSelected;
     }
