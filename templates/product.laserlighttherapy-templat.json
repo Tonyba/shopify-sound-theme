@@ -217,6 +217,10 @@
         "slide_peFcDB",
         "slide_y67a6x"
       ],
+      "custom_css": [
+        ".review-before-after-item .review-info {min-height: 400px;}",
+        ".review-before-after-item .review-author{position: absolute; bottom: 20px;}"
+      ],
       "settings": {
         "heading": "A Review Is Worth 1000 Words",
         "before_text": "Before",
@@ -494,6 +498,9 @@
         "slide_R4nLix",
         "slide_8zfrtt"
       ],
+      "custom_css": [
+        "{display: none;}"
+      ],
       "settings": {
         "heading": "What TikTok Says About Us?",
         "text": "<p>With over 120 Million Views on TikTok, <a href=\"#\" target=\"_blank\" title=\"#\">#SkinPetra<\/a> products are loved and trusted by many. Check out some of The Most Popular Videos<\/p>"
@@ -657,7 +664,7 @@
         "slide_6rd9bK"
       ],
       "custom_css": [
-        "{display:none;}"
+        "{display: none;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/0ae87d3d6f9d3b2a8a5ec543d8f3591c_1.png",
