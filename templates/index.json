@@ -10,8 +10,8 @@
             "content_max_width": 400,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "With advanced technology, achieving long-lasting results has never been easier. Embrace the convenience and effectiveness of DIY laser hair removal",
-            "title": "Beauty Products At Home 2",
+            "subheading": "Tired of shaving every two-days? Wrinkles are becoming a bit too threatening? Redefine your skincare routine with our technology designed for achieving long-term results.",
+            "title": "Bring The Salon Home",
             "heading_tag": "h1",
             "button_text": "Shop Now",
             "button_link": "shopify:\/\/collections\/all",
@@ -129,13 +129,11 @@
     "two_cols_products_gRDEqC": {
       "type": "two-cols-products",
       "custom_css": [
-        ".product-card__figure img {object-fit: cover;}",
-        "h2 {margin-bottom: 0px;}",
-        ".deschome {text-align: center; margin-bottom: 40px;}"
+        ".product-card__figure img {object-fit: cover;}"
       ],
       "settings": {
-        "title": "Bring The Salon Home",
-        "description": "Tired of shaving every two-days? Wrinkles are becoming a bit too threatening?Redefine your skincare routine with our technology designed for achieving long-term results.",
+        "title": "Meet Your New Reflection",
+        "description": "",
         "title_alignment": "center",
         "products": [
           "skinpetra-high-frequency-therapy",
