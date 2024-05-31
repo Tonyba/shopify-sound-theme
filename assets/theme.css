@@ -10092,3 +10092,12 @@ accordion details
 **/
 .accordion.active{margin-bottom: 20px;}
 
+.review-before-after-item .review-info {
+           max-height: 320px;
+        min-height: 280px;
+
+  }
+  .review-before-after-item .review-author {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
