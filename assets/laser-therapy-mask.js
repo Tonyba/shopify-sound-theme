@@ -112,8 +112,8 @@
             type: 'post',
             dataType: 'json',
             data: `quantity=${quantity}&id=${id}`,
-            success: function (cart){
-                
+            success: function (){
+                document.dispatchEvent(new Event('cart:change'));
             }
         });
     }
