@@ -9,8 +9,6 @@
 
     var opts = Array.from(document.querySelectorAll('.opt-item'));
 
-    neckMaskInput.click();
-
     opts.map(function(opt) {
         opt.addEventListener('click', () => selectLogic(opt));
     });
