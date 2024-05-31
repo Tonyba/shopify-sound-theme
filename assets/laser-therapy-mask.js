@@ -22,6 +22,12 @@
 
     searchParamLogic();
 
+    if(isAnyOutOfStock()) {
+        var optWithStock = document.querySelector('.out-of-stock ~ .opt-item');
+
+        selectLogic(optWithStock);
+    }
+
     if(isAllOutofStock()) {
         price.innerHTML = '<p>No Stock for this product.</p>';
         opts.map(function(opt) { opt.classList.remove('selected') });
@@ -71,6 +77,15 @@
     }
 
 
+    function isAnyOutOfStock() {
+        var isAnyofStock = false;
+        var noStockOpts = document.querySelectorAll('.out-of-stock');
+
+        if( noStockOpts.length == 1 ) isAnyofStock = true;
+
+
+        return isAnyofStock;
+    }
 
     function isAllOutofStock() {
         var noStock = false;
