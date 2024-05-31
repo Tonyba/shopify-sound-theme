@@ -18,7 +18,7 @@
         var isSelected = selectedOpt.classList.contains('selected');
         if(noneSelected) opts[0].classList.add('selected');
 
-
+        console.log(isSelected)
         if(isSelected) {
             switch (selectedOpt.getAttribute('data-value')) {
                 case 'Face Mask':
