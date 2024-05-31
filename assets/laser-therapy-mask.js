@@ -22,16 +22,12 @@
 
     searchParamLogic();
 
-
-    console.log(isAllOutofStock())
-
     if(isAllOutofStock()) {
         price.innerHTML = '<p>No Stock for this product.</p>';
         opts.map(function(opt) { opt.classList.remove('selected') });
         submitBtn.setAttribute('disabled', true);
         quantity.classList.add('disabled');
         submitBtn.innerHTML = 'No Stock'
-        
     }
 
     function searchParamLogic() {
