@@ -377,7 +377,8 @@
     "two_cols_img_carousel_7KGijH": {
       "type": "two-cols-img-carousel",
       "custom_css": [
-        ".two-cols-image-carousel .image-carousel img {border-radius: 30px;}"
+        ".two-cols-image-carousel .image-carousel img {border-radius: 30px;}",
+        "{margin-top:-30px;}"
       ],
       "settings": {
         "heading": "16,800",
