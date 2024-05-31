@@ -9968,7 +9968,7 @@ transform: translateX(-50%) translateY(-15%)!important;
 /**
 homepage mobile css
 **/
-
+.stars{margin:10px 0px;}
 @media screen and (max-width: 767px) {
 
 #shopify-section-template--16709282103449__check_list_P9dcVV .grid-item:last-child{padding:25px!important;}
