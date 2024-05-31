@@ -27,6 +27,7 @@
     height: 15px;
     border-radius: 100%;
     border: 1px solid #FF004A;
+    flex-shrink: 0;
 }
 
 .opt-item.selected .select-circle {
