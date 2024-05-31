@@ -100,10 +100,12 @@
 
     .product-features .subheading {
         font-size: 25px;
+        text-align:center;
     }
 
     .product-features .inner-container p {
         font-size: 17px;
+        text-align:center;
     }
     
     .product-features .features-container {
