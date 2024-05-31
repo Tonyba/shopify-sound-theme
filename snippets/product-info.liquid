@@ -111,8 +111,8 @@
                 </div>
 
                 <div class="opt-item flex pointer align-item-center space-between 
-                  {% if face_mask.inventory_quantity == 0 %} selected {% endif %} 
-                  {% if neck_mask.inventory_quantity == 0 %} out-of-stock {% endif %}
+                  {% if isFaceOut %} selected {% endif %} 
+                  {% if isNeckOut == 0 %} out-of-stock {% endif %}
                 " data-value="{{ neck_mask.title }}" data-variant-id="{{ product.id }}" >
                   <div class="grid-item flex align-item-center">
                      <div class="select-circle"></div>
