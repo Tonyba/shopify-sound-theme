@@ -10091,3 +10091,6 @@ variations hide
 accordion details
 **/
 .accordion.active{margin-bottom: 20px;}
+
+.deschome p{text-align:center;
+          }
