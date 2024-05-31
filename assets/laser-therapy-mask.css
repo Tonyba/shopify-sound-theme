@@ -7,8 +7,8 @@
     display: none;
 }
 
-button.disabled[type="submit"] {
-    background-color: #777 !important;
+button[type="submit"] {
+    background-color: #ccc;
     color: black;
 }
 
