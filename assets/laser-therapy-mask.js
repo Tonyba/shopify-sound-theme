@@ -9,7 +9,9 @@
 
     var neckMaskId = '44439074668697';
 
-   
+    var price = document.querySelector('.rating-with-text');
+    var quantity = document.querySelector('.product-info__quantity-selector ');
+    var add_to_cart = document.querySelector('.shopify-product-form');
 
     var opts = Array.from(document.querySelectorAll('.opt-item'));
 
@@ -55,7 +57,11 @@
         }
         if(isAllSelected()) bothInput.click();
 
-        if(isAllOutofStock()) opts.map(function(opt) { opt.classList.remove('selected') }),
+        if(isAllOutofStock()) {
+
+            opts.map(function(opt) { opt.classList.remove('selected') });
+
+        }
 
     }
 
