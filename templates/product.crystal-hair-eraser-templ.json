@@ -431,6 +431,9 @@
         "slide_HaRFWT",
         "slide_7ALhUL"
       ],
+      "custom_css": [
+        "{display: none;}"
+      ],
       "settings": {
         "heading": "What TikTok Says About Us?",
         "text": "<p>With over 120 Million Views on TikTok, <a href=\"#\" target=\"_blank\" title=\"#\">#SkinPetra<\/a> products are loved and trusted by many. Check out some of The Most Popular Videos<\/p>"
@@ -469,7 +472,7 @@
       "settings": {
         "bg_color": "#f3f3f3",
         "image": "shopify:\/\/shop_images\/Less-Hair.More-Savings.jpg",
-        "badge_text": "Save 80%!",
+        "badge_text": "",
         "heading": "Less Hair. More Savings.",
         "subheading": "SkinPetra Crystal Hair Removal",
         "text": "The SkinPetra Crystal Hair Remover works on its own! No need for shaving creams, gels or lotions. Make grooming costs more affordable by saving money in the long-run.",
