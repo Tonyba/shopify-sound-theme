@@ -37,7 +37,7 @@
 
             console.log(variant)
             
-            var selectedOpt = document.querySelector(`opt-item[data-value="${variant}"]`);
+            var selectedOpt = document.querySelector(`.opt-item[data-value="${variant}"]`);
 
             selectLogic(selectedOpt);
         }
