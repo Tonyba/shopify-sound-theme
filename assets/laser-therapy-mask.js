@@ -26,12 +26,11 @@
     console.log(isAllOutofStock())
 
     if(isAllOutofStock()) {
-        console.log('pasando')
-        console.log(price)
         price.innerHTML = '<p>No Stock for this product.</p>';
         opts.map(function(opt) { opt.classList.remove('selected') });
-        
         submitBtn.setAttribute('disabled', true);
+
+        submitBtn.innerHTML = 'No Stock'
         
     }
 
