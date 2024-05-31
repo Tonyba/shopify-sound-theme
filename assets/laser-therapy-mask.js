@@ -56,7 +56,7 @@
                     break;
             }
             
-            var selectedOpt = document.querySelector(`.opt-item[data-value="${variant}"]`);
+            var selectedOpt = document.querySelector(`.opt-item[data-value="${variant}"]:not(.out-of-stock)`);
 
             selectLogic(selectedOpt);
         }
