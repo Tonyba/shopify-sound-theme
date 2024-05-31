@@ -34,7 +34,7 @@
         }
 
         if(noneSelected()) opts[0].classList.add('selected');
-        if(isAllSelected()) opts[opts.length-1].click();
+        if(isAllSelected()) bothInput.click();
 
     }
 
