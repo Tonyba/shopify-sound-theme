@@ -46,7 +46,7 @@
     pointer-events: none;
 }
 
-.opt-item.out-of-stock:after {
+.opt-item.out-of-stock::after {
     contain: 'Out of Stock';
     position: absolute;
     top: 0;
