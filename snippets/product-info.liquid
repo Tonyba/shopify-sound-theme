@@ -90,7 +90,15 @@
              assign isFaceOutClass = "default" 
              assign isNeckOutClass = ""
              
-         
+             if face_mask.inventory_quantity == 0
+             assign isFaceOutClass = "outofstock"
+             else 
+             assign isFaceOutClass = "selected"
+            endif
+
+            if neck_mask.inventory_quantity == 0
+             assign isNeckOut = true
+            endif
 
           %}
 
