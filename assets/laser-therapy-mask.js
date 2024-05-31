@@ -29,7 +29,7 @@
         
         var selectedOpt = document.querySelectorAll('.opt-item.selected');
         
-        if(selectedOpts.length == 1) {
+        if(selectedOpt.length == 1) {
 
             selectedOpt = Array.from(selectedOpt)[0];
 
