@@ -18,7 +18,7 @@
         var isSelected = selectedOpt.classList.contains('selected');
         if(noneSelected()) opts[0].classList.add('selected');
 
-        if(isAllSelected()) opts[opts.length].click();
+        if(isAllSelected()) opts[opts.length-1].click();
       
         if(isSelected) {
             switch (selectedOpt.getAttribute('data-value')) {
