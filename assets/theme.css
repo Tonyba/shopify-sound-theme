@@ -9970,10 +9970,7 @@ homepage mobile css
 **/
 
 @media screen and (max-width: 767px) {
-.before-after-product-progress .tabs-header button   .before-after-product-progress .tabs-header button {
-        font-size: 14px!important;
-        line-height: 1.1em!important;
-    }
+#shopify-section-template--16709282103449__two_cols_body_part_zqetUw .two-cols-body-part .grid-item:last-child{oder:-1!important;}
 #shopify-section-template--16709282103449__check_list_P9dcVV .grid-item:last-child{padding:25px!important;}
 #shopify-section-template--16704955089049__two_cols_products_gRDEqC .cols-2 {    grid-template-columns: repeat(1, 1fr);}
 
