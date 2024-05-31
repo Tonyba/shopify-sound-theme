@@ -86,8 +86,17 @@
              assign face_mask = product.variants.first 
              assign neck_mask = product.variants[1]
 
-             assign isFaceOut = face_mask.inventory_quantity == 0 
-             assign isNeckOut = neck_mask.inventory_quantity == 0 
+
+             assign isFaceOut = false 
+             assign isNeckOut = false
+             
+            if face_mask == 0
+            assign isFaceOut = true
+            endif
+
+            if isNeckOut == 0
+             assign isNeckOut = true
+            endif
 
           %}
 
