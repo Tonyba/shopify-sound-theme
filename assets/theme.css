@@ -9928,8 +9928,10 @@ split-lines {
 
 body:not(:has(.shopify-section--main-product)) .reviews-carousel-section{padding-left:30px;}
 
-html,body{max-width:100%!important;
-         overflow-x:hidden!important;}
+html,body{
+  max-width:100%!important;
+  overflow-x: clip !important;
+}
 .carousel-top-message{
 transform: translateX(-50%) translateY(-15%)!important;
     left: 50%!important;}
