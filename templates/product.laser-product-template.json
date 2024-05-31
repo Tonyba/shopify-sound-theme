@@ -466,20 +466,13 @@
             "text": "\"We adore self-care innovations and SkinPetra Hair Removal hit the spot. Essential for anyone who wants flawless, hair-free skin.\"",
             "image": "shopify:\/\/shop_images\/glamour-11.png"
           }
-        },
-        "slide_MjyVcE": {
-          "type": "slide",
-          "settings": {
-            "text": ""
-          }
         }
       },
       "block_order": [
         "slide_MCD8pd",
         "slide_eiL9VL",
         "slide_TKnejb",
-        "slide_tEW3Gw",
-        "slide_MjyVcE"
+        "slide_tEW3Gw"
       ],
       "settings": {
         "is_autoscroll": true,
@@ -493,7 +486,7 @@
         "item_3acy4E": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/footeer1.png",
+            "image": "shopify:\/\/shop_images\/footeer11.png",
             "image_rotation_degrees": 0,
             "subheading": "AN INVESTMENT WORTH A LIFETIME",
             "title": "Feel Confident In Your Own Skin, Literally",
@@ -524,7 +517,7 @@
         "item_nrpcQd": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/footer2.png",
+            "image": "shopify:\/\/shop_images\/footer22.png",
             "image_rotation_degrees": 0,
             "subheading": "SUITABLE FOR EVERYONE",
             "title": "Unwanted Stubborn Hair Begone!",
@@ -555,7 +548,7 @@
         "item_JHWBHK": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/footer3.png",
+            "image": "shopify:\/\/shop_images\/footer33.png",
             "image_rotation_degrees": 0,
             "subheading": "RADIANT SKIN, RIGHT AT HOME",
             "title": "Results, Privacy &Cost-Efficiency",
