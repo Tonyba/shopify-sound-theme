@@ -24,8 +24,7 @@
 
     if(isAnyOutOfStock()) {
         var optWithStock = siblings(document.querySelector('.out-of-stock'));
-        console.log(optWithStock)
-        
+        selectLogic(optWithStock[0]);
     }
 
     if(isAllOutofStock()) {
