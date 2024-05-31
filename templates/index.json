@@ -357,6 +357,9 @@
     },
     "blog_home_loop_ttXaDD": {
       "type": "blog-home-loop",
+      "custom_css": [
+        "{display: none;}"
+      ],
       "settings": {
         "heading": "Blogs",
         "btn_text": "View All",
