@@ -149,6 +149,9 @@
         "slide_yaftQd",
         "slide_APjHXF"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 767px){img{border-radius:40px;}}"
+      ],
       "settings": {
         "bg_color": "linear-gradient(103.48deg, rgba(243, 230, 214, 1), rgba(252, 245, 235, 1) 100.22%)",
         "bg_features_color": "linear-gradient(188.62deg, rgba(243, 230, 214, 1) 5.9%, rgba(252, 244, 234, 1) 92.77%)",
