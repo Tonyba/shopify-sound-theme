@@ -61,7 +61,14 @@
 
 
 
+    function isAllOutofStock() {
+        var noStock = false;
+        var selectedOpt = document.querySelectorAll('.opt-item.out-of-stock');
 
+        if(selectedOpt.length == opts.length) noStock = false;
+
+        return noStock;
+    }
 
     function checkSelected() {
         
