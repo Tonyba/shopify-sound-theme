@@ -264,7 +264,7 @@
         "slide_fAkbPe": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3f1b1ee1d7a1d7c724bfe90f28febd4d_1.png",
+            "image": "shopify:\/\/shop_images\/pngggg.png",
             "border_radius": 30,
             "title": "Tongue Tube",
             "text": "Precision for Small Areas like Eyes or Nose",
@@ -355,7 +355,7 @@
     "big_img_section_rmm7Ak": {
       "type": "big-img-section",
       "custom_css": [
-        "@media screen and (max-width: 767px) {.big-img-section img{height: 450px; object-fit: cover; }}"
+        "@media screen and (max-width: 767px) {.big-img-section img {height: 450px; object-fit: cover; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Pain-Free-_-Effective-SkinPetra-High-Frequency-Therapy.jpg",
