@@ -10,7 +10,7 @@
     var opts = Array.from(document.querySelectorAll('.opt-item'));
 
     opts.map(function(opt) {
-        opt.addEventListener('click', selectLogic(opt));
+        opt.addEventListener('click', () => selectLogic(opt));
     });
 
     function selectLogic(selectedOpt) {
