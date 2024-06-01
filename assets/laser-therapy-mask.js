@@ -24,8 +24,8 @@
     searchParamLogic();
 
     if(isAnyOutOfStock()) {
-        var optWithStock = siblings(document.querySelector('.out-of-stock'));
-        selectLogic(optWithStock[0]);
+        var optWithStock = siblings(document.querySelector('.out-of-stock:not(.face-opt)'));
+        if(optWithStock) selectLogic(optWithStock[0]);
     }
 
     if(isAllOutofStock()) {
