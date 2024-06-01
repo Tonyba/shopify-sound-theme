@@ -112,7 +112,6 @@
     .tab-content-list .tab-content-item > .grid-item:first-child {
         padding-bottom: 20px;
         padding-right: 0;
-        border-right: 0;
     }
 
     .tab-content-list .tab-content-item > .grid-item:last-child {
