@@ -266,6 +266,10 @@ compare-at-price {
     max-width: 625px !important;
 }
 
+.square-img.right-left-section {
+    max-width: 1200px;
+}
+
 @media only screen and (min-width: 1025px) {
     .multiple-images-with-text img {
         width: 650px;
