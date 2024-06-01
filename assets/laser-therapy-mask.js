@@ -54,6 +54,7 @@
 
                 case bothId:
                     selectAll();
+                    break;
                 default:
                     variant = 'Face Mask';
                     break;
