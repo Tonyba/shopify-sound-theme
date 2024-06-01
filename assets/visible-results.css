@@ -83,6 +83,9 @@
     .visible-results .image {
         padding: 0 20px;
         padding-bottom: 50px;
+    }
+
+    .visible-results img {
         border-radius: 40px;
     }
 
