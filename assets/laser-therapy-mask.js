@@ -71,8 +71,8 @@
     };
 
     function selectLogic(selectedOpt) {
-       
-         selectedOpt.classList.toggle('selected');
+    
+        if(!selectedOpt.classList.contains('out-of-stock')) selectedOpt.classList.toggle('selected');
        
         checkSelected();
 
