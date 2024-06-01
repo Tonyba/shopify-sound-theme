@@ -5,7 +5,9 @@
 
 /*home slider*/
 
-
+.slideshow .content-over-media {
+    height: 600px;
+}
 
 /*home slider end*/
 
