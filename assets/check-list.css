@@ -19,6 +19,12 @@
 }   
 
 @media only screen and (max-width: 767px) {
+
+    .check-list img {
+        height: 350px;
+        object-fit: contain;
+    }
+
     .check-list li {
         font-size: 14px;
         padding: 10px 20px 10px 30px;
