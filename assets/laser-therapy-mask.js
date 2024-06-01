@@ -53,7 +53,7 @@
                     break;
 
                 case bothId:
-                    
+                    selectAll();
                 default:
                     variant = 'Face Mask';
                     break;
@@ -89,7 +89,7 @@
 
 
     function selectAll() {
-        var allOpts = document.querySelectorAll('.opt-item.selected:not(out-of-stock)');
+        var allOpts = document.querySelectorAll('.opt-item');
 
         Array.from(allOpts).map(function(opt) {selectLogic(opt)})
         
