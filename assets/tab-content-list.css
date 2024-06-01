@@ -95,6 +95,10 @@
         font-size: 16px;
     }
 
+    .tab-content-list svg {
+        width: 20px;
+    }
+
     .tab-content-list .tabs-header button {
         font-size: 14px;
         padding: 10px 0;
