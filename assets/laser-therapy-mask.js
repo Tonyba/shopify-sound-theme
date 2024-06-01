@@ -111,7 +111,7 @@
 
     function isAllOutofStock() {
         var noStock = false;
-        var noStockOpts = document.querySelectorAll('.out-of-stock');
+        var noStockOpts = document.querySelectorAll('.out-of-stock:not(.face-opt)');
 
         if(noStockOpts.length === opts.length) noStock = true;
 
@@ -120,7 +120,7 @@
 
     function checkSelected() {
         
-        var selectedOpt = document.querySelectorAll('.opt-item.selected:not(.out-of-stock)');
+        var selectedOpt = document.querySelectorAll('.opt-item.selected:not(.out-of-stock):not(.face-opt)');
         
         if(selectedOpt.length == 1) {
 
