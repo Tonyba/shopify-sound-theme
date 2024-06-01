@@ -141,9 +141,10 @@
 
     function isAllSelected() {
         var allSelected = false;
+        var currentOpts = document.querySelectorAll('.opt-item:not(.out-of-stock)');
         var selectedOpts = document.querySelectorAll('.opt-item.selected:not(.out-of-stock)');
 
-        if(selectedOpts.length === opts.length) allSelected = true; 
+        if(selectedOpts.length === currentOpts.length) allSelected = true; 
 
         return allSelected;
     }
