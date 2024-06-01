@@ -290,8 +290,14 @@ border-color: white;
 
 .product-card__info .rating,
 .product-card__mobile-quick-buy-button {
-    display: none
+    display: none !important
 }
+
+
+label[for="swatch-template--16709282103449__main-product-form-7998516920473-template--16709282103449__main--option1-purple"] {
+    --swatch-background: #7E6EA7 !important
+}
+
 
 /*kristi code*/
 .two-cols-products-section .product-card__figure {
