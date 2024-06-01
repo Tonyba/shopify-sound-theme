@@ -15,7 +15,7 @@
  
     var submitBtn = document.querySelector('.product-info__buy-buttons button');
 
-    var opts = Array.from(document.querySelectorAll('.opt-item:not(.face-opt)'));
+    var opts = Array.from(document.querySelectorAll('.opt-item:not(.mask-opt)'));
 
     opts.map(function(opt) {
         opt.addEventListener('click', () => selectLogic(opt));
@@ -24,7 +24,7 @@
     searchParamLogic();
 
     if(isAnyOutOfStock()) {
-        var optWithStock = siblings(document.querySelector('.out-of-stock:not(.face-opt)'));
+        var optWithStock = siblings(document.querySelector('.out-of-stock:not(.mask-opt)'));
         if(optWithStock) selectLogic(optWithStock[0]);
     }
 
@@ -61,7 +61,7 @@
                     break;
             }
             
-            var selectedOpt = document.querySelector(`.opt-item[data-value="${variant}"]:not(.out-of-stock):not(.face-opt)`);
+            var selectedOpt = document.querySelector(`.opt-item[data-value="${variant}"]:not(.out-of-stock):not(.mask-opt)`);
 
             if(selectedOpt) selectLogic(selectedOpt);
         }
@@ -91,7 +91,7 @@
 
 
     function selectAll() {
-        var allOpts = document.querySelectorAll('.opt-item:not(.out-of-stock):not(.face-opt)');
+        var allOpts = document.querySelectorAll('.opt-item:not(.out-of-stock):not(.mask-opt)');
         bothInput.click();
 
         Array.from(allOpts).map(function(opt) { opt.classList.add('selected') })
@@ -101,7 +101,7 @@
 
     function isAnyOutOfStock() {
         var isAnyofStock = false;
-        var noStockOpts = document.querySelectorAll('.out-of-stock:not(.face-opt)');
+        var noStockOpts = document.querySelectorAll('.out-of-stock:not(.mask-opt)');
 
         if( noStockOpts.length == 1 ) isAnyofStock = true;
 
@@ -111,7 +111,7 @@
 
     function isAllOutofStock() {
         var noStock = false;
-        var noStockOpts = document.querySelectorAll('.out-of-stock:not(.face-opt)');
+        var noStockOpts = document.querySelectorAll('.out-of-stock:not(.mask-opt)');
 
         if(noStockOpts.length === opts.length) noStock = true;
 
@@ -120,7 +120,7 @@
 
     function checkSelected() {
         
-        var selectedOpt = document.querySelectorAll('.opt-item.selected:not(.out-of-stock):not(.face-opt)');
+        var selectedOpt = document.querySelectorAll('.opt-item.selected:not(.out-of-stock):not(.mask-opt)');
         
         if(selectedOpt.length == 1) {
 
