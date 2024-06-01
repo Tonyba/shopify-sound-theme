@@ -42,7 +42,7 @@
             "hide_sold_out_variants": false,
             "stack_blocks": true,
             "selector_mode": "block",
-            "color_mode": "color",
+            "color_mode": "block",
             "size_chart_page": ""
           }
         },
