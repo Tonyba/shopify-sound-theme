@@ -87,6 +87,11 @@
         gap: 8px
     }
 
+    .tab-content-list img {
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
     .item-content p {
         display: none;
     }
