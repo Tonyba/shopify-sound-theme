@@ -20,6 +20,11 @@ button[disabled="true"] {
     color: black;
 }
 
+
+.opt-item svg {
+    display: flex;
+}
+
 .opts-title {
     font-size: 18px;
 }
