@@ -74,7 +74,7 @@
         
         if(!selectedOpt.classList.contains('out-of-stock')) selectedOpt.classList.toggle('selected');
 
-        console.log(selectedOpt.classList)
+        console.log(!selectedOpt.classList.contains('out-of-stock'))
 
         checkSelected();
 
