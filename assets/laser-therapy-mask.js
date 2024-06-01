@@ -155,7 +155,6 @@
         var nonSelected = false;
         var selectedOpts = document.querySelectorAll('.opt-item.neck-opt.selected:not(.out-of-stock)');
 
-        console.log(selectedOpts)
      
         if(!selectedOpts.length) nonSelected = true; 
         
