@@ -119,7 +119,7 @@
 
     function checkSelected() {
         
-        var selectedOpt = document.querySelectorAll('.opt-item.selected:not(.out-of-stock):not(.mask-opt)');
+        var selectedOpt = document.querySelectorAll('.opt-item.neck-opt.selected:not(.out-of-stock)');
         
         if(selectedOpt.length == 1) {
 
