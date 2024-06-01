@@ -127,8 +127,6 @@
 
             selectedOpt = Array.from(selectedOpt)[0];
 
-            console.log(selectedOpt)
-
             switch (selectedOpt.getAttribute('data-value')) {
                 case 'Neck Mask':
                     neckMaskInput.click();
