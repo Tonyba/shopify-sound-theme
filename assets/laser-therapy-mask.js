@@ -61,7 +61,7 @@
                     break;
             }
             
-            var selectedOpt = document.querySelector(`.opt-item[data-value="${variant}"]:not(.out-of-stock)`);
+            var selectedOpt = document.querySelector(`.opt-item[data-value="${variant}"]:not(.out-of-stock):not(.face-opt)`);
 
             if(selectedOpt) selectLogic(selectedOpt);
         }
