@@ -2,6 +2,10 @@
     border-radius: 40px;
 }
 
+.advantage-section  {
+    margin-top: 100px;
+}
+
 
 .advantage-section .lazyload-bg {
     border-radius: 0 40px 40px 0;
@@ -35,6 +39,12 @@
 }
 
 @media only screen and (max-width: 767px) {
+
+    .advantage-section  {
+        margin-top: 50px;
+    }
+    
+    
 
     .advantage-section .subheading {
         font-size: 18px;
