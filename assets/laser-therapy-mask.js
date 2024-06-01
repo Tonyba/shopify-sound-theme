@@ -92,7 +92,7 @@
 
     function selectAll() {
         var allOpts = document.querySelectorAll('.opt-item:not(.out-of-stock)');
-        both.click();
+        bothInput.click();
 
         Array.from(allOpts).map(function(opt) { opt.classList.add('selected') })
         
