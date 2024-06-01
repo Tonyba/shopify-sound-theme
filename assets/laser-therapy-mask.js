@@ -75,7 +75,7 @@
         if(!selectedOpt.classList.contains('out-of-stock')) selectedOpt.classList.toggle('selected');
 
         checkSelected();
-        
+
         if(noneSelected()) {
             if(!opts[0].classList.contains('out-of-stock')) {
                 faceMaskInput.click();
@@ -155,6 +155,7 @@
         var nonSelected = false;
         var selectedOpts = document.querySelectorAll('.opt-item.selected:not(.out-of-stock)');
 
+        console.log(selectedOpts)
      
         if(!selectedOpts.length) nonSelected = true; 
         
