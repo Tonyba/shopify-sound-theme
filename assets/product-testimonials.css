@@ -12,6 +12,10 @@
     line-height: 1.2;
 }
 
+.product-tesminonials .section-wrapper-margin {
+margin-bottom: 0;
+}
+
 .product-tesminonials .os-scrollbar{
     max-width: 1300px;
 }
