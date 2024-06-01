@@ -1,6 +1,3 @@
-.product-testimonials.scroll-wrapper {
-    padding-bottom: 50px;
-}
 
 .product-tesminonials .os-scrollbar-handle {
     max-width: 120px;
@@ -13,6 +10,10 @@
     font-weight: 500;
     margin-bottom: 50px;
     line-height: 1.2;
+}
+
+.product-tesminonials .section-wrapper-margin {
+margin-bottom: 0;
 }
 
 .product-tesminonials .os-scrollbar{
