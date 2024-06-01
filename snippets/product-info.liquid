@@ -102,7 +102,10 @@
             <div class="laser-therapy-opts flex flex-column gap-12">
 
                 <div class="opt-item flex pointer  mask-opt align-item-center space-between 
-                  {% if is_face_with_no_stock %} out-of-stock  {% else %}selected{% endif %} " data-stock="{{ face_mask.inventory_quantity }} " data-value="{{ face_mask.title }}" data-variant-id="{{ product.id }}" >
+                  {% if is_face_with_no_stock %} out-of-stock  {% else %}selected{% endif %} " 
+                  data-stock="{{ face_mask.inventory_quantity }} " data-value="{{ face_mask.title }}" data-variant-id="{{ product.id }}" 
+                  data-opt="mask"
+                >
                      <div class="grid-item flex align-item-center">
                         <div class="select-circle"></div>
                         <div class="opt-icon">
