@@ -15,12 +15,12 @@
             </div>
   
         </div>
-        <div class="grid-item relative">  
+        <a href="{{ section.settings.img_url }}" class="grid-item relative">  
             <div class="carousel-top-message">At-Home SkinPetra’s Products</div>
             <div class="image-carousel">          
                  {{- section.settings.right_img | image_url: width: section.settings.right_img.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}    
             </div>
-        </div>
+        </a>
     </div>
 </div>
 
@@ -56,6 +56,11 @@
                 "type": "image_picker",
                 "id": "right_img",
                 "label": "Right Image"
+            },
+            {
+                "type": "url",
+                "id": "img_url",
+                "label": "Image Url"
             }
         ],
         "presets": [
