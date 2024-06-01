@@ -75,8 +75,8 @@
         if(!selectedOpt.classList.contains('out-of-stock')) selectedOpt.classList.toggle('selected');
 
         checkSelected();
+        
         if(noneSelected()) {
-         
             if(!opts[0].classList.contains('out-of-stock')) {
                 faceMaskInput.click();
                 opts[0].classList.add('selected');
