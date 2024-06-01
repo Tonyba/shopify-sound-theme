@@ -288,7 +288,8 @@ border-color: white;
 /*extra weights for main font*/
 
 
-.product-card__info .rating {
+.product-card__info .rating,
+.product-card__mobile-quick-buy-button {
     display: none
 }
 
