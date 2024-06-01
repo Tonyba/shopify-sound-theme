@@ -104,4 +104,8 @@
     .testimonial-carousel .splide__pagination {
         margin-top: 0;
     }
+
+    .testimonial-carousel {
+        margin-bottom: 20px;
+    }
 }
