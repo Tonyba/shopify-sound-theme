@@ -314,6 +314,8 @@ border-color: white;
   :checked+.color-swatch:before, .color-swatch.is-selected:before {
     width: 100% !important;
     height: 100% !important;
+    top: 0;
+    left: 0;
   }
 
   .two-cols-products-section .rating,
