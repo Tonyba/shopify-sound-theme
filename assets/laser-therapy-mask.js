@@ -90,6 +90,7 @@
 
     function selectAll() {
         var allOpts = document.querySelectorAll('.opt-item');
+        both.click();
 
         Array.from(allOpts).map(function(opt) {selectLogic(opt)})
         
