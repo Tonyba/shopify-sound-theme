@@ -66,6 +66,13 @@
     text-align: right;
 }
 
+@media only screen and (min-width: 1025px) {
+    .product-tesminonials .slider-progress {
+        display: none;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
 
     .product-tesminonials .review-before-after-item  {
