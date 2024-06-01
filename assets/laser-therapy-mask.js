@@ -53,7 +53,6 @@
                     break;
 
                 case bothId:
-                    console.log('eyhe')
                     selectAll();
                     break;
                 default:
