@@ -125,8 +125,8 @@
 
             selectedOpt = Array.from(selectedOpt)[0];
 
-            switch (selectedOpt.getAttribute('data-value')) {
-                case 'Neck Mask':
+            switch (selectedOpt.getAttribute('data-variant-id')) {
+                case neckMaskId:
                     neckMaskInput.click();
                  break;
                 default:
