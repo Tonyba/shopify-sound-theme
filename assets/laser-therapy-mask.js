@@ -79,7 +79,6 @@
         if(noneSelected()) {
             if(!opts[0].classList.contains('out-of-stock')) {
                 faceMaskInput.click();
-                opts[0].classList.add('selected');
             }
         }
         if(isAllSelected()) bothInput.click();
