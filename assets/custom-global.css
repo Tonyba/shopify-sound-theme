@@ -294,7 +294,8 @@ border-color: white;
 }
 
 
-label[for="swatch-template--16709282103449__main-product-form-7998516920473-template--16709282103449__main--option1-purple"] {
+label[for="swatch-template--16709282103449__main-product-form-7998516920473-template--16709282103449__main--option1-purple"],
+label[for="swatch-template--16704955187353__main---swatch-template-16704955187353__main-7998516920473-1-purple"] {
     --swatch-background: #7E6EA7 !important
 }
 
