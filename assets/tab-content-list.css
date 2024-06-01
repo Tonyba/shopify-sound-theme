@@ -83,6 +83,10 @@
         margin-bottom: 20px;
     }
 
+    .icon-list-item {
+        gap: 5px
+    }
+
     .item-content p {
         display: none;
     }
