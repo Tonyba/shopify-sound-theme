@@ -287,6 +287,11 @@ border-color: white;
 
 /*extra weights for main font*/
 
+
+.product-card__info .rating {
+    display: none
+}
+
 /*kristi code*/
 .two-cols-products-section .product-card__figure {
     height: 400px;
