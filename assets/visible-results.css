@@ -54,6 +54,10 @@
         margin: auto;
     }
 
+    .visible-results img {
+        border-radius: 40px !important;
+    }
+
     .visible-results .content {
         max-width: 100%;
         padding: 0 20px;
@@ -85,9 +89,7 @@
         padding-bottom: 50px;
     }
 
-    .visible-results img {
-        border-radius: 40px !important;
-    }
+   
 
     .visible-results .wrapper {
         padding-top: 20px;
