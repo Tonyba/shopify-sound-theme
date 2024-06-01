@@ -267,7 +267,8 @@ compare-at-price {
 }
 
 .square-img.right-left-section {
-    max-width: 1200px;
+    max-width: 1300px;
+   margin: auto;
 }
 
 @media only screen and (min-width: 1025px) {
