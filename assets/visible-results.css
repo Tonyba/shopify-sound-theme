@@ -86,7 +86,7 @@
     }
 
     .visible-results img {
-        border-radius: 40px;
+        border-radius: 40px !important;
     }
 
     .visible-results .wrapper {
