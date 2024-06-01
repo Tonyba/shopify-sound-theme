@@ -52,6 +52,7 @@
         top: unset;
         max-height: unset;
         margin: auto;
+        padding-bottom: 50px;
     }
 
     .visible-results img {
