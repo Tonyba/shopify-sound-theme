@@ -121,7 +121,9 @@
                     </div>
                 </div>
 
-                <div class="opt-item flex pointer neck-opt align-item-center space-between {% if is_neck_with_no_stock %}out-of-stock{% endif %}" data-value="{{ neck_mask.title }}" data-stock="{{ neck_mask.inventory_quantity }}" data-variant-id="{{ product.id }}" >
+                <div class="opt-item flex pointer neck-opt align-item-center space-between {% if is_neck_with_no_stock %}out-of-stock{% endif %}" 
+                  data-opt="neck"
+                  data-value="{{ neck_mask.title }}" data-stock="{{ neck_mask.inventory_quantity }}" data-variant-id="{{ product.id }}" >
                   <div class="grid-item flex align-item-center">
                      <div class="select-circle"></div>
                      <div class="opt-icon">
