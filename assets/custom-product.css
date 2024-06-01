@@ -271,6 +271,10 @@ compare-at-price {
    margin: auto;
 }
 
+label[for="swatch-template--16709282103449__main-product-form-7998516920473-template--16709282103449__main--option1-purple"] {
+    --swatch-background: #7E6EA7 !important
+}
+
 @media only screen and (min-width: 1025px) {
     .multiple-images-with-text img {
         width: 650px;
