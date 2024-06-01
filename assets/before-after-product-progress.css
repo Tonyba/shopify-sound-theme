@@ -160,6 +160,14 @@
 
 @media only screen and (max-width: 767px) {
 
+    .tab-content-item {
+        text-align: center;
+    }
+
+    .tab-title-wrapper {
+        justify-content: center;
+    }
+
     .before-after-product-progress h2 {
         font-size: 30px;
         padding-bottom: 20px;
@@ -170,9 +178,12 @@
     }
 
     .before-after-product-progress .tabs-header button  {
-        font-size: 15px;
-        padding: 10px 0;
+ 
+        font-size: 14px!important;
+        line-height: 1.1em!important;
+       padding: 10px 0;
     }
+
 
     .before-after-product-progress .tabs-header  {
        margin-bottom: 30px; 

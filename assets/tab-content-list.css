@@ -83,8 +83,31 @@
         margin-bottom: 20px;
     }
 
+    .tab-content-list .icon-list-item{
+        gap: 8px
+    }
+
+    .tab-content-list img {
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        height: 120px;
+    }
+
+    .item-content p {
+        display: none;
+    }
+
     .tab-content-list h2  {
         font-size: 25px;
+    }
+
+    .tab-content-list h3 {
+        font-size: 16px;
+    }
+
+    .tab-content-list .icon svg {
+        width: 20px;
+        height: 20px;
     }
 
     .tab-content-list .tabs-header button {
@@ -92,15 +115,5 @@
         padding: 10px 0;
     }
 
-    .tab-content-list .tab-content-item > .grid-item:first-child {
-        padding-bottom: 20px;
-        padding-right: 0;
-        border-right: 0;
-        border-bottom: 1px solid black;
-    }
-
-    .tab-content-list .tab-content-item > .grid-item:last-child {
-        padding-left: 0;
-        padding-top: 50px;
-    }
+    
 }

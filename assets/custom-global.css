@@ -1,3 +1,17 @@
+.shopify-section--header {
+    z-index: 999 !important;
+}
+
+
+/*home slider*/
+
+.slideshow .content-over-media {
+    height: 600px;
+}
+
+/*home slider end*/
+
+
 .shopify-section--slideshow .prose .h1 {
     font-size: 50px;
     font-weight: 600;
@@ -122,9 +136,17 @@
     justify-content: center;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
 .gap-20,
 .gap-20 .os-content {
     gap: 20px;
+}
+
+.gap-12 {
+    gap: 12px;
 }
 
 
@@ -228,6 +250,10 @@ border-color: white;
     background: linear-gradient(145.62deg, #F3E6D6 0%, #FEF7EF 100.86%);
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 .flex-column {
     flex-direction: column;
 }
@@ -261,6 +287,19 @@ border-color: white;
 
 /*extra weights for main font*/
 
+
+.product-card__info .rating,
+.product-card__mobile-quick-buy-button {
+    display: none !important
+}
+
+
+label[for="swatch-template--16709282103449__main-product-form-7998516920473-template--16709282103449__main--option1-purple"],
+label[for="swatch-template--16704955187353__main---swatch-template-16704955187353__main-7998516920473-1-purple"] {
+    --swatch-background: #7E6EA7 !important
+}
+
+
 /*kristi code*/
 .two-cols-products-section .product-card__figure {
     height: 400px;
@@ -284,6 +323,9 @@ border-color: white;
     height: 25px;
     border-radius: 100%;
   }
+
+ 
+
   .two-cols-products-section .rating,
   .products-carousel  .rating{
     display: none;

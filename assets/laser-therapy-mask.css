@@ -1,0 +1,79 @@
+
+
+.disabled,
+.variant-picker .variant-picker__option:first-child {
+    display: none;
+}
+
+button[disabled="true"] {
+    background-color: #ddd;
+    color: black;
+}
+
+.opt-item  {
+    border: 1px solid #FF004A;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 17px;
+    color: black;
+}
+
+
+.opt-item svg {
+    display: flex;
+}
+
+.opts-title {
+    font-size: 18px;
+}
+
+
+.opt-subtitle {
+   color: #777777; 
+}
+
+.opt-price {
+    color: #FF004A;
+}
+
+
+.opt-item  > .grid-item {
+    gap: 12px;
+}
+
+.select-circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 1px solid #FF004A;
+    flex-shrink: 0;
+}
+
+.opt-item.selected .select-circle {
+    background-color: #FF004A;
+}
+
+.opt-item.selected {
+    background-color: #FFEBF1;
+    border-width: 2px;
+}
+
+.opt-item.out-of-stock {
+    position: relative;
+    opacity: 0.5;
+    background-color: #ccc;
+    border-color: #777777;
+    pointer-events: none;
+}
+
+.opt-item.out-of-stock::after {
+    content: 'Out of Stock';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: black;
+    color: white;
+    padding: 2px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+}

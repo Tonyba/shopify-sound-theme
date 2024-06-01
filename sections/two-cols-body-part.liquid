@@ -3,17 +3,14 @@
 
 <div class="container">
 
-    <div class="grid cols-2" style="" >
-        <div class="grid-item lazyload-bg" data-src="{{ section.settings.image | image_url }}">
-    
-             
-                
+    <div class="grid cols-2 table-cols-1" style="" >
+        <div class="grid-item lazyload-bg d-none-mobile" data-src="{{ section.settings.image | image_url }}">
         </div>
         <div class="grid-item gradient-bg-100 flex flex-column align-item-start justify-content-center">
 
             <div class="headings">
-                <div class="subheading">{{ section.settings.subheading }}</div>
-                <h2>{{ section.settings.heading }}</h2>
+                <div class="subheading center">{{ section.settings.subheading }}</div>
+                <h2 class="center" >{{ section.settings.heading }}</h2>
             </div>
           
 

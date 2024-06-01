@@ -6,15 +6,15 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/19773397446b797bf372c7bcb6d301ee.png",
+            "image": "shopify:\/\/shop_images\/BANNER-SKINPETRA-HOME.jpg",
             "content_max_width": 400,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "With advanced technology, achieving long-lasting results has never been easier. Embrace the convenience and effectiveness of DIY laser hair removal",
-            "title": "Beauty Products At Home 2",
+            "subheading": "Tired of shaving every two-days? Wrinkles are becoming a bit too threatening? Redefine your skincare routine with our technology designed for achieving long-term results.",
+            "title": "Bring The Salon Home",
             "heading_tag": "h1",
             "button_text": "Shop Now",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/all",
             "text_color": "#000000",
             "button_background": "#1a1a1a",
             "button_text_color": "#ffffff",
@@ -49,15 +49,15 @@
         "image_gePaP7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-_Mobile_0e4135b3-224c-4cde-9050-71ad5bcf418a_1.jpg",
+            "image": "shopify:\/\/shop_images\/1BANNER-MOBILE.jpg",
             "content_max_width": 840,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "With advanced technology, achieving long-lasting results has never been easier. Embrace the convenience and effectiveness of DIY laser hair removal",
-            "title": "Beauty Products At Home 2",
+            "subheading": "Tired of shaving every two-days? Wrinkles are becoming a bit too threatening? Redefine your skincare routine with our technology designed for achieving long-term results.",
+            "title": "Bring The Salon Home",
             "heading_tag": "h1",
             "button_text": "Shop Now",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/all",
             "text_color": "#000000",
             "button_background": "#1a1a1a",
             "button_text_color": "#ffffff",
@@ -128,12 +128,17 @@
     },
     "two_cols_products_gRDEqC": {
       "type": "two-cols-products",
+      "custom_css": [
+        ".product-card__figure img {object-fit: cover;}"
+      ],
       "settings": {
-        "title": "Take Care Of Yourself At Home",
+        "title": "Meet Your New Reflection",
+        "description": "",
         "title_alignment": "center",
         "products": [
           "skinpetra-high-frequency-therapy",
-          "skinpetra-hair-removal"
+          "skinpetra-hair-removal",
+          "laser-light-therapy-mask"
         ],
         "bg_color": "#f3f3f3",
         "product_card_background": "#ffffff",
@@ -146,46 +151,46 @@
         "slide_eg7iUF": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
-            "author": "-David Hook",
-            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
-            "review_img": "shopify:\/\/shop_images\/image_18.png"
+            "review_title": "\"Salon-Free Freedom\"",
+            "author": "- Lily",
+            "review_text": "\"No more salon trips, no more costly laser sessions. Ever since I discovered SkinPetra Hair Removal I’ve been hair-free for good. Couldn’t be happier.\"",
+            "review_img": "shopify:\/\/shop_images\/Testimonial-3.jpg"
           }
         },
         "slide_kEy4dF": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
-            "author": "-David Hook",
-            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
-            "review_img": "shopify:\/\/shop_images\/image_19.png"
+            "review_title": "\"Glowing Skin Delight\"",
+            "author": "- Sofia",
+            "review_text": "\"The SkinPetra Light Therapy Mask did wonders for my fine lines. A spa-like experience at home, my skin is glowing!\"",
+            "review_img": "shopify:\/\/shop_images\/Testimonial-5_aeb63430-23eb-4af5-87d3-e81cf817f705.jpg"
           }
         },
         "slide_nGhkiF": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
-            "author": "-David Hook",
-            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
-            "review_img": "shopify:\/\/shop_images\/image_18.png"
+            "review_title": "\"Effortless Hair Removal\"",
+            "author": "- Grace",
+            "review_text": "\"The SkinPetra Crystal has made hair removal so much easier, wish I had tried it sooner!\"",
+            "review_img": "shopify:\/\/shop_images\/Testimonial-4.jpg"
           }
         },
         "slide_wheM7V": {
           "type": "slide",
           "settings": {
-            "review_title": "“I’m enjoying the results!”",
-            "author": "-David Hook",
-            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
-            "review_img": "shopify:\/\/shop_images\/image_18.png"
+            "review_title": "\"Life-Changing Acne Relief\"",
+            "author": "- Emma",
+            "review_text": "\"SkinPetra High frequency Therapy changed my life. Highly effective for treating my acne, my skin feels amazing!\"",
+            "review_img": "shopify:\/\/shop_images\/Testimonial-3_6189b424-4efd-4c39-b01c-202f279d0715.jpg"
           }
         },
         "slide_jdEbhy": {
           "type": "slide",
           "settings": {
             "review_title": "“I’m enjoying the results!”",
-            "author": "-David Hook",
-            "review_text": "In less than 4 weeks of consistent treatments, you'll begin to see visible hair growth reduction.",
-            "review_img": "shopify:\/\/shop_images\/image_18.png"
+            "author": "- Olivia",
+            "review_text": "\"The SkinPetra Warm Uterus Waist is heaven-sent. Finally, a natural solution for period pain that actually works!\"",
+            "review_img": "shopify:\/\/shop_images\/2_be328000-17d5-4b27-aed4-90143029acfd.jpg"
           }
         }
       },
@@ -198,8 +203,8 @@
       ],
       "settings": {
         "is_autoscroll": true,
-        "heading": "Trusted by Over 300,000 Customers",
-        "text": "See real Customers bare it all and hear about their experience. \u2028As they say, a picture’s worth a thousand hairs.",
+        "heading": "SkinPetra Is +300,000 Customers’ Best Friend",
+        "text": "Professional-grade results are now achieved in the comfort of your own home. See the difference for yourself!",
         "btn_text": "See More",
         "btn_link": "#"
       }
@@ -209,7 +214,7 @@
       "settings": {
         "bg_color": "#f3f3f3",
         "heading": "At-Home Products",
-        "col_img": "shopify:\/\/shop_images\/effafaad017dc4d91153eb1eaf4ca50e.jpg",
+        "col_img": "shopify:\/\/shop_images\/11111111111111.jpg",
         "btn_text": "SHOP NOW",
         "img_url": "shopify:\/\/collections\/all",
         "top_prod": "skinpetra-hair-removal",
@@ -289,6 +294,9 @@
         "slide_kAizwX",
         "slide_YgM6NJ"
       ],
+      "custom_css": [
+        "{display: none;}"
+      ],
       "settings": {
         "heading": "Video Testimonials",
         "extra_classes": "section-wrapper-margin-t"
@@ -301,20 +309,44 @@
           "type": "slide",
           "settings": {
             "testimonial_img": "shopify:\/\/shop_images\/Screenshot_7.png",
-            "testimonial_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "testimonial_text": "\"I've always been self-conscious about my body hair, so I decided to try the SkinPetra IPL Hair Removal device. I was skeptical at first, but after a few treatments, I noticed a huge reduction in hair growth. It's so easy to use, and I love that I can do it at home (I really appreciate the privacy). I've saved so much time and money on salon treatments, and my skin has never felt smoother. I highly recommend it to anyone looking for a long-term hair removal solution.\""
           }
         },
         "slide_CjyNP4": {
           "type": "slide",
           "settings": {
             "testimonial_img": "shopify:\/\/shop_images\/Screenshot_7.png",
-            "testimonial_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "testimonial_text": "\"After struggling with ingrown hair and “strawberry legs” from shaving for years, I decided to try the SkinPetra Crystal Hair Remover. I couldn't be happier with the results. It’s completely painless, quick, easy to use, and incredibly effective as an exfoliator! My skin looks smooth. No spots and no more ingrown hair. If you’re looking for an easy and better alternative to shaving or waxing, this is the way to go.\""
+          }
+        },
+        "slide_K6zBNt": {
+          "type": "slide",
+          "settings": {
+            "testimonial_img": "shopify:\/\/shop_images\/Screenshot_7.png",
+            "testimonial_text": "\"I've struggled with acne and uneven skin tone for years, and nothing seemed to work. That is until I tried the SkinPetra High Frequency Therapy. After just a few weeks of use, my acne scars were less noticeable. Now, my acne has completely cleared up, and my skin looks brighter and more even-toned. The results speak for themselves. I feel more confident in my skin than ever before, and I can't thank SkinPetra enough.\""
+          }
+        },
+        "slide_XBeMeF": {
+          "type": "slide",
+          "settings": {
+            "testimonial_img": "shopify:\/\/shop_images\/Screenshot_7.png",
+            "testimonial_text": "“Couple of years ago I noticed my fine lines were becoming more apparent. I tried countless creams and treatments with little success. Botox was out of the question (I don’t like needles and I was hoping I could find a more sustainable treatment). Then I discovered the SkinPetra Laser Light Therapy Mask. It has truly transformed my skin. After just a few weeks of consistent use, the fine lines around my eyes and mouth have noticeably softened, and my overall skin texture looks better. So far, I’m thrilled with the results.”"
+          }
+        },
+        "slide_y3tAjJ": {
+          "type": "slide",
+          "settings": {
+            "testimonial_img": "shopify:\/\/shop_images\/Screenshot_7.png",
+            "testimonial_text": "\"Dealing with period cramps has always been a struggle for me. Back pain is terrible and sometimes I feel so bloated even wearing leggings hurts. Thanks to the SkinPetra Warm Uterus Waist, I finally have found relief. The heat is so soothing and I especially love the massage function. I use it at home or on the go, basically whenever I feel like the pain is becoming too much. The device is light and compact so it’s easy to carry it with me. I no longer dread that time of the month, it’s almost unbelievable.\""
           }
         }
       },
       "block_order": [
         "slide_wjDD4T",
-        "slide_CjyNP4"
+        "slide_CjyNP4",
+        "slide_K6zBNt",
+        "slide_XBeMeF",
+        "slide_y3tAjJ"
       ],
       "custom_css": [
         ".grid.cols-4 {gap: 15px;}"
@@ -325,6 +357,9 @@
     },
     "product_carousel_CYqLXT": {
       "type": "product-carousel",
+      "custom_css": [
+        "{display: none;}"
+      ],
       "settings": {
         "bg_color": "#f3f3f3",
         "heading": "Best Bundles",
@@ -341,33 +376,23 @@
     },
     "two_cols_img_carousel_7KGijH": {
       "type": "two-cols-img-carousel",
-      "blocks": {
-        "slide_RVEGCh": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/a9b63c188eb1ca2218bd700b30ef32ff_1.png"
-          }
-        },
-        "slide_nkKnez": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/a9b63c188eb1ca2218bd700b30ef32ff_1.png"
-          }
-        }
-      },
-      "block_order": [
-        "slide_RVEGCh",
-        "slide_nkKnez"
+      "custom_css": [
+        ".two-cols-image-carousel .image-carousel img {border-radius: 30px;}",
+        " {margin-top: 30px; margin-bottom: 0px;}"
       ],
       "settings": {
-        "heading": "986,800",
-        "subheading": "Over 986,800 Satisfied Users in 60+ Countries",
-        "text": "Bring your devices together for more personalized help around the home.1 And create automations tailored to your needs to simplify everyday tasks.",
-        "image": "shopify:\/\/shop_images\/11brands.png"
+        "heading": "16,800",
+        "subheading": "Over 16,800 Satisfied Users in 60+ Countries",
+        "text": "We’ve proudly made a breakthrough in dermatology with our range of true and tested at-home products. From permanent hair removal to non-invasive treatments for complex skin concerns, our technology has helped reshape the lives and confidence of thousands of customers.",
+        "image": "shopify:\/\/shop_images\/11brands.png",
+        "right_img": "shopify:\/\/shop_images\/IMAGEEE.jpg"
       }
     },
     "blog_home_loop_ttXaDD": {
       "type": "blog-home-loop",
+      "custom_css": [
+        "{display: none;}"
+      ],
       "settings": {
         "heading": "Blogs",
         "btn_text": "View All",

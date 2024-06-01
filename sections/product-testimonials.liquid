@@ -1,47 +1,106 @@
-
-{{ "OverlayScrollbars.min.css" | asset_url | stylesheet_tag }}
 {{ "product-testimonials.css" | asset_url | stylesheet_tag }}
-
+{{ "splide.min.css" | asset_url | stylesheet_tag }}
 
 <div class="section-wrapper-margin reviews-carousel-section">
     <h2>{{ section.settings.heading }}</h2>
-    <div class="product-testimonials scroll-wrapper">
-        {%- for block in section.blocks -%}
-            {% render 'review-before-after-item' review:block.settings, is_left: section.settings.title_left, before_text: section.settings.before_text, after_text: section.settings.after_text  %}
-        {%- endfor -%}
+    <div class="product-testimonials scroll-wrapper splide autoscroll">
+        <div class="splide__track">
+            <div class="splide__list">
+                {%- for block in section.blocks -%}
+                    <div class="splide__slide">
+                        {% render 'review-before-after-item' review:block.settings, is_left: section.settings.title_left, before_text: section.settings.before_text, after_text: section.settings.after_text  %}
+                    </div>
+                {%- endfor -%}
+            </div>
+        </div>
+      
+        <div class="slider-progress">
+            <div class="slider-progress-bar"></div>
+        </div>
     </div>
 </div>
 
-<script src="{{ 'OverlayScrollbars.min.js' | asset_url }}" defer></script>
+<script src="{{ 'splide.min.js' | asset_url }}" defer></script>
+<script src="{{ 'autoscroll.min.js' | asset_url }}" defer></script>
+
 <script defer>
-    (function () {
-    
-        function defer(method) {
-    
-            if ( typeof OverlayScrollbars != 'undefined' ) {
-                method();
-            } else {
-                setTimeout(function() { defer(method) }, 50);
-            }
+
+  const w = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+
+    function deferScrollbar(method) {
+
+        if ( typeof OverlayScrollbars != 'undefined' ) {
+            method();
+        } else {
+            setTimeout(function() { deferScrollbar(method) }, 50);
         }
+    }
+
+    function deferAutoScroll(method) {
+        if (typeof window.splide != 'undefined') {
+          method();
+        } else {
+          setTimeout(function () {
+            deferAutoScroll(method);
+          }, 50);
+        }
+      }
+
+    function deferSplide(method) {
+        if ( typeof Splide != 'undefined' ) {
+            method();
+        } else {
+            setTimeout(function() { deferSplide(method) }, 50);
+        }
+    }
+
+    deferSplide(function() {
+
+        const splide = document.querySelector('.reviews-carousel-section .splide.scroll-wrapper');
+        const bar = splide.querySelector( '.slider-progress-bar' );
     
-        defer(function() {
-            const customScroll = document.querySelector('.scroll-wrapper');
-           
-            new OverlayScrollbars(customScroll, {
-                overflowBehavior : {         
-                        // visible-hidden  || visible-scroll || hidden || scroll || v-h || v-s || h || s
-                        x :'scroll',
-                        // visible-hidden  || visible-scroll || hidden || scroll || v-h || v-s || h || s
-                        y :'hidden'
-                      },
-                    
-              });
-    
-        });
+        const config = {
+            type: 'loop',
+            arrows: false,
+            pagination: false,
+            perPage: 2,
+            fixedWidth : '456px',
+            gap: 20,
+            padding: {
+                right: '20%'
+            },
+            autoScroll: {
+              speed: 1,
+            },
+            breakpoints: {
+                768: {
+                    perPage: 1,
+                    fixedWidth : '100%',
+                    padding: {
+                        right: 'unset'
+                    }
+                }
+            }   
+          };
         
-    })();
-    </script>
+        const splideInstance = new Splide(splide, config);
+
+        splideInstance.on( 'mounted move active', function () {
+            const end  = splideInstance.Components.Controller.getEnd() + 1;
+            const rate = Math.min( ( splideInstance.index + 1 ) / end, 1 );
+            bar.style.width = String( 100 * rate ) + '%';
+        });
+
+        if (splide.classList.contains('autoscroll') && w > 768 ) {
+            deferAutoScroll(function () {
+              splideInstance.mount(window.splide.Extensions);
+            });
+          } else {
+            splideInstance.mount();
+          }
+    });
+
+</script>
 
 
 {% schema %}

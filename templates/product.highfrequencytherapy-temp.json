@@ -135,7 +135,7 @@
         "slide_p8ciYD"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/02014bfbcf05bc386ced34f32c8951aa_1.png",
+        "image": "shopify:\/\/shop_images\/Visible-Results-in-3-4-Days.jpg",
         "bg_color": "linear-gradient(99.09deg, rgba(243, 230, 214, 1) 0.29%, rgba(254, 248, 240, 1) 99.4%)",
         "heading": "Visible Results in Only 3-4 Days",
         "subheading": "Use SkinPetra High Frequency Therapy 2-3 times per week to witnesssignificant changes."
@@ -147,10 +147,10 @@
         "slide_EWApb6": {
           "type": "slide",
           "settings": {
-            "review_title": "\"Clearer Skin and Renewed Confidence\"",
+            "review_title": "\"Clear Skin Confidence\"",
             "author": "- Sarah Miller",
             "review_text": "After just a few weeks of using SkinPetra High Frequency Therapy, my acne has significantly cleared up. I feel more confident and my skin looks smoother than ever.",
-            "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
+            "review_img": "shopify:\/\/shop_images\/Testimonial-1_4527c54f-f32a-4b14-81ef-8f60b81ba4dd.jpg"
           }
         },
         "slide_3dDYRU": {
@@ -159,7 +159,7 @@
             "review_title": "“Dramatically Improved Scalp Health”",
             "author": "- Emily Clark",
             "review_text": "Ever since I started using SkinPetra High Frequency Therapy, my scalp health has improved dramatically. I've noticed less itching and flakiness, and my hair feels stronger and healthier overall.",
-            "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
+            "review_img": "shopify:\/\/shop_images\/Testimonial-2_c646a80b-3141-4c5e-8316-a941b7363ed6.jpg"
           }
         },
         "slide_LXiyFx": {
@@ -168,7 +168,7 @@
             "review_title": "“Youthful, Firm Skin in Less Than a Month”",
             "author": "- Eva Jones",
             "review_text": "In less than a month of consistent use, I've seen way less fine lines and wrinkles on my face. My skin looks firmer. I feel 10 years younger! Couldn't be happier with the results.",
-            "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
+            "review_img": "shopify:\/\/shop_images\/Testimonial-3_6189b424-4efd-4c39-b01c-202f279d0715.jpg"
           }
         },
         "slide_jL3Ti7": {
@@ -177,7 +177,7 @@
             "review_title": "“Life-Changing Acne Scar Reduction”",
             "author": "- Jessica Taylor",
             "review_text": "I used to be so self-conscious about my acne scars. SkinPetra High Frequency Therapy has been a real life-changer! Definitely a must in my skincare routine.",
-            "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
+            "review_img": "shopify:\/\/shop_images\/Testimonial-4_8537670b-7083-47bb-8a30-a6471cbc1e77.jpg"
           }
         },
         "slide_aFwK4R": {
@@ -186,7 +186,7 @@
             "review_title": "“Non-Surgical Skin Lift”",
             "author": "- Jennifer Lee",
             "review_text": "I got SkinPetra High Frequency Therapy in hopes of giving my skin a “lift” without the need of surgery. I've been doing the routine religiously. My skin feels tighter and more lifted. Definitely recommend!",
-            "review_img": "shopify:\/\/shop_images\/eda08d724e927e4e1c3bc8079a0811f8.png"
+            "review_img": "shopify:\/\/shop_images\/Testimonial-5_ba5debf3-6d79-4956-9554-4ef188264784.jpg"
           }
         }
       },
@@ -243,7 +243,7 @@
         "slide_rTTkXc"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/skinpetrtaime-1.jpg",
+        "image": "shopify:\/\/shop_images\/What-makes-it-special.jpg",
         "heading": "What Sets It Apart",
         "info_text": "<p>Safety Considerations:\u2028<\/p><p>Be sure to remove any metal jewelry before your treatment.\u2028Avoid using AHA or glycolic acid products with the high frequency wand. Avoid contact with broken capillaries, spider veins, and rosacea. Do not use high frequency during pregnancy. Never operate a high-frequency machine with a broken bulb. Always use a towel or tissue folded over the electrode to remove the electrodes and pull directly outward.<\/p>"
       }
@@ -264,7 +264,7 @@
         "slide_fAkbPe": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3f1b1ee1d7a1d7c724bfe90f28febd4d_1.png",
+            "image": "shopify:\/\/shop_images\/pngggg.png",
             "border_radius": 30,
             "title": "Tongue Tube",
             "text": "Precision for Small Areas like Eyes or Nose",
@@ -347,15 +347,18 @@
       ],
       "settings": {
         "extra_class": "",
-        "image": "shopify:\/\/shop_images\/imageskinpetra.jpg",
+        "image": "shopify:\/\/shop_images\/Meet-the-Routine.jpg",
         "heading": "Your Beauty Regimen",
         "subheading": "Simple and Completely Pain-Free"
       }
     },
     "big_img_section_rmm7Ak": {
       "type": "big-img-section",
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.big-img-section img {height: 450px; object-fit: cover; }}"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/081eaf81b32d59000571f733b0789289.jpg",
+        "image": "shopify:\/\/shop_images\/Pain-Free-_-Effective-SkinPetra-High-Frequency-Therapy.jpg",
         "heading": "Pain-Free & Effective SkinPetra High Frequency Therapy",
         "text": "SkinPetra High Frequency Therapy represents our vision of turning intensely effective salon beauty procedures into accessible at-home treatments. Designed with your comfort and safety in mind, this device offers a completely pain-free experience. Tested and approved by dermatologists, even the highest frequency settings are 100% safe for your skin."
       }
@@ -441,7 +444,7 @@
         "item_98BKyM": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMAGEEE1.jpg",
+            "image": "shopify:\/\/shop_images\/FOOTER-2.jpg",
             "image_rotation_degrees": -2,
             "subheading": "AFFORDABLE LUXURY",
             "title": "Endless Treatments, Only One Device",
@@ -472,7 +475,7 @@
         "item_eHFirM": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3af40f6443b4e7a67a7d4822b274d0f1.jpg",
+            "image": "shopify:\/\/shop_images\/FOOTER-3.jpg",
             "image_rotation_degrees": -2,
             "subheading": "SKINCARE SIMPLIFIED ",
             "title": "Your Ultimate All-In-One Solution",

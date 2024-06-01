@@ -110,37 +110,37 @@
         "slide_Gxw6Dy": {
           "type": "slide",
           "settings": {
-            "text": "Micro Etched Crystals & Ergonomic Grip"
+            "text": "Micro-Etched Crystals & Comfortable Grip Design"
           }
         },
         "slide_QekVAJ": {
           "type": "slide",
           "settings": {
-            "text": "Hairs and Chicken Skin"
+            "text": "Targets Both Unwanted Hairs and \"Chicken Skin\""
           }
         },
         "slide_gjraUy": {
           "type": "slide",
           "settings": {
-            "text": "Gentle and easy to use"
+            "text": "Extremely Gentle, Quick and Easy-To-Use"
           }
         },
         "slide_rQTwLL": {
           "type": "slide",
           "settings": {
-            "text": "Pain Free and hassle free"
+            "text": "Painlessly Effective and Super Convenient"
           }
         },
         "slide_4bPaAQ": {
           "type": "slide",
           "settings": {
-            "text": "Saves time and money"
+            "text": "Time-Saving and Economical Solution"
           }
         },
         "slide_afFLeE": {
           "type": "slide",
           "settings": {
-            "text": "reusable and ecofriendly"
+            "text": "Reusable and Environmentally Friendly"
           }
         }
       },
@@ -163,46 +163,46 @@
         "slide_3kNM4B": {
           "type": "slide",
           "settings": {
-            "review_title": "“100% Percent Recomened”",
-            "author": "Rebecca Smith",
-            "review_text": "\"SkinPetra Hair Removal changed my life. After just a few weeks of consistent use, I'm amazed at how smooth and hair-free my skin looks. I feel like a whole different person!\"",
-            "review_img": "shopify:\/\/shop_images\/cd5e507524f1309b7ddfcd58b9106f7d.png"
+            "review_title": "\"Ingrown Solution\"",
+            "author": "Annie Johnson",
+            "review_text": "\"Struggling with ingrown hairs was a daily battle until I discovered the SkinPetra Crystal Hair Remover. The exfoliation process helped me eliminate ingrown hair completely in no time!\"",
+            "review_img": "shopify:\/\/shop_images\/Testimonial-1.jpg"
           }
         },
         "slide_mJbzR4": {
           "type": "slide",
           "settings": {
-            "review_title": "“100% Percent Recomened”",
-            "author": "Emma Johnson",
-            "review_text": "\"I’ve always had a problem with “strawberry legs”. Shaving was a real nightmare and even when freshly shaved, I was conscious of wearing shorts. SkinPetra was so worth it. I've been using it for a few weeks now. The results are incredible.\"",
-            "review_img": "shopify:\/\/shop_images\/d43d50a2b0cfb3c05c05ae75f2a1cd24.png"
+            "review_title": "\"Gentle Solution\"",
+            "author": "Luca Reeves",
+            "review_text": "\"Razor bumps used to be my worst nightmare! And waxing was out of the question because I can’t stand the pain. The SkinPetra Crystal Hair Remover was exactly what I needed. Definitely recommend it!\"",
+            "review_img": "shopify:\/\/shop_images\/Testimonial-2.jpg"
           }
         },
         "slide_deFRMM": {
           "type": "slide",
           "settings": {
-            "review_title": "“100% Percent Recomened”",
-            "author": "Olivia Brown",
-            "review_text": "\"In less than a month of using SkinPetra Hair Removal, my hair has been growing less and less. My skin looks and feels so much better.\"",
-            "review_img": "shopify:\/\/shop_images\/c0ec0fe9e0e00beca412eb3d25f6d3d7.png"
+            "review_title": "\"Smooth Transformation\"",
+            "author": "Ruby Taylor",
+            "review_text": "\"There’s nothing worse than shaving your whole body, only to see those awful strawberry legs. SkinPetra Crystal’s exfoliating action completely smoothed out my rough skin texture! I wouldn’t go back to any other hair removal method.\"",
+            "review_img": "shopify:\/\/shop_images\/Testimonial-3.jpg"
           }
         },
         "slide_b4e6Lz": {
           "type": "slide",
           "settings": {
-            "review_title": "“100% Percent Recomened”",
-            "author": "Sophia Garcia",
-            "review_text": "\"I have eczema and so I used to struggle with shaving and waxing. Everything would irritate my skin. SkinPetra Hair Removal has been a lifesaver. I’ve never had smoother skin. I can’t believe I get to be hair-free without the need for constant upkeep!\"",
-            "review_img": "shopify:\/\/shop_images\/4b7f9bc1d726196abe6b74c25edc3b46.png"
+            "review_title": "\"Affordable Luxury\"",
+            "author": "Erica Thomas",
+            "review_text": "\"Forget expensive salon visits! SkinPetra Crystal Hair Remover is my go-to for quick, pain-free hair removal. It's a lifesaver for busy schedules and tight budgets.\"",
+            "review_img": "shopify:\/\/shop_images\/Testimonial-4.jpg"
           }
         },
         "slide_cYFG9r": {
           "type": "slide",
           "settings": {
-            "review_title": "“100% Percent Recomened”",
-            "author": "Ava Martinez",
-            "review_text": "\"Getting a laser hair removal treatment was always on my mind, but I just couldn’t stand the idea of going to a salon. A friend recommended I look into SkinPetra. The results speak for themselves. I couldn't be happier with the investment.\"",
-            "review_img": "shopify:\/\/shop_images\/Screenshot_11.png"
+            "review_title": "\"Brighter Confidence\"",
+            "author": "Emily Williams",
+            "review_text": "\"I used to hate my dark underarms. The SkinPetra Crystal Hair Remover was a lifesaver! The exfoliation helped lighten those stubborn dark patches in just a few weeks. I still can’t believe I can raise my arms without a second thought.\"",
+            "review_img": "shopify:\/\/shop_images\/Testimonial-5.jpg"
           }
         }
       },
@@ -213,8 +213,11 @@
         "slide_b4e6Lz",
         "slide_cYFG9r"
       ],
+      "custom_css": [
+        ".cols-2 {grid-template-columns: repeat(1, 1fr);}"
+      ],
       "settings": {
-        "heading": "Hear It from Our Satisfied Customers",
+        "heading": "Results From Our Satisfied Customers",
         "before_text": "Before",
         "after_text": "After",
         "title_left": true
@@ -226,11 +229,11 @@
         "slide_bdnnQC": {
           "type": "slide",
           "settings": {
-            "simple_img": "shopify:\/\/shop_images\/7f9fb7c197694644121dc0d26857413f_1.png",
-            "tab_title": "Visible Results Within 3 Weeks",
-            "title": "1-4 Weeks",
-            "subtitle": "3 treatments per week",
-            "text": "<p>In just the first 4 weeks, you'll start to see changes. Hair growth slows down, and new hair grows thinner. You'll begin to notice less hair overall, and any ingrown hairs will start to disappear.<\/p>",
+            "simple_img": "shopify:\/\/shop_images\/Clean-And-Hairless-Skin-_1.jpg",
+            "tab_title": "Get Rid Of Strawberry Skin",
+            "title": "Get Rid Of Strawberry Skin",
+            "subtitle": "",
+            "text": "<p>After just one use you’ll immediately notice how this product gently exfoliates the skin, eliminating rough patches and dark pores. No more \"strawberry skin\"! SkinPetra Crystal Hair Remover is specifically designed for refining the skin texture<\/p>",
             "hide_progress": false,
             "progress": 25,
             "before_text": "Before",
@@ -240,11 +243,11 @@
         "slide_AnnLC8": {
           "type": "slide",
           "settings": {
-            "simple_img": "shopify:\/\/shop_images\/7f9fb7c197694644121dc0d26857413f_1.png",
+            "simple_img": "shopify:\/\/shop_images\/Clean-And-Hairless-Skin-_2.jpg",
             "tab_title": "Ingrown Hair Reduction",
-            "title": "5-8 Weeks",
-            "subtitle": "3 treatments per week",
-            "text": "<p>With regular use, hair growth is significantly reduced. Follicles are targeted at various stages of the hair growth cycle, therefore new hair growth is drastically eliminated. Skin feels and looks smoother.<\/p>",
+            "title": "Ingrown Hair Reduction",
+            "subtitle": "",
+            "text": "<p>With each pass, the crystalline glass peels off layers of dead skin untrapping ingrown hairs. As such, it allows the SkinPetra Crystal Hair Remover to target the ingrown hairs directly at the root, effectively reducing their occurrence with each use.<\/p>",
             "hide_progress": false,
             "progress": 75,
             "before_text": "Before",
@@ -255,11 +258,11 @@
         "slide_YBKRBK": {
           "type": "slide",
           "settings": {
-            "simple_img": "shopify:\/\/shop_images\/7f9fb7c197694644121dc0d26857413f_1.png",
+            "simple_img": "shopify:\/\/shop_images\/foto-nfund.png",
             "tab_title": "Skin Firmness Improvement",
-            "title": "8-12 Weeks",
-            "subtitle": "3 treatments per week",
-            "text": "<p>Enjoy the complete results of the full-body SkinPetra Hair Removal treatment. No more irritated skin or strawberry legs. The hair follicles have been successfully treated to prevent new hair growth. Touch-ups and maintenance sessions can be easily done at any time.<\/p>",
+            "title": "Skin Firmness Improvement",
+            "subtitle": "",
+            "text": "<p>A thorough hair removal and exfoliation routine that promotes blood circulation and gives your skin a special glow. The SkinPetra Crystal Hair Remover simultaneously promotes skin firmness and elasticity for a more youthful look.<\/p>",
             "hide_progress": false,
             "progress": 100,
             "before_text": "Before",
@@ -273,11 +276,11 @@
         "slide_YBKRBK"
       ],
       "settings": {
-        "heading": "Full Body Hair Removal Treatment",
+        "heading": "Clean, Smooth & Hairless Skin",
         "just_simple_image": true,
         "max_width": 870,
         "reverse_heading": true,
-        "subheading": "in Less than 30 Minutes",
+        "subheading": "Your No.1 Go-To Hair Removal Option",
         "bg_color": "rgba(0,0,0,0)",
         "drag_cursor_background": "#000000"
       }
@@ -336,10 +339,13 @@
         "slide_AC3pKy",
         "slide_RGVh8w"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.grid.cols-2 {display: flex; flex-direction: column-reverse; }}"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Apply-For-Body-Any-Par1t.jpg",
-        "heading": "Pain-Free & EffectiveSkinPetra IPL",
-        "subheading": "Salon-Quality. At-Home Comfort."
+        "image": "shopify:\/\/shop_images\/Apply-For-Body-Any-Part.jpg",
+        "heading": "SkinPetra Crystal Hair Remover",
+        "subheading": "Perfect for Every Part of YourBody"
       }
     },
     "tiktok_carousel_Q9fTUh": {
@@ -428,6 +434,9 @@
         "slide_HaRFWT",
         "slide_7ALhUL"
       ],
+      "custom_css": [
+        "{display: none;}"
+      ],
       "settings": {
         "heading": "What TikTok Says About Us?",
         "text": "<p>With over 120 Million Views on TikTok, <a href=\"#\" target=\"_blank\" title=\"#\">#SkinPetra<\/a> products are loved and trusted by many. Check out some of The Most Popular Videos<\/p>"
@@ -456,28 +465,23 @@
             "item_text": "LASER",
             "price": 950
           }
-        },
-        "slide_YiPnG8": {
-          "type": "slide",
-          "settings": {
-            "item_text": "SKINPETRA IPL",
-            "price": 220
-          }
         }
       },
       "block_order": [
         "slide_FmaxtV",
         "slide_ka9Pbc",
-        "slide_ix8NY4",
-        "slide_YiPnG8"
+        "slide_ix8NY4"
+      ],
+      "custom_css": [
+        "{margin-top: 100px;}"
       ],
       "settings": {
         "bg_color": "#f3f3f3",
-        "image": "shopify:\/\/shop_images\/6bfa61ad6bf6ea29155fcabc491d4c8e.jpg",
-        "badge_text": "Save 80%!",
-        "heading": "Your Skin (and Wallet) Will Thank You For It",
-        "subheading": "SkinPetra Hair Removal Treatment",
-        "text": "Shaving gel, razors, waxing appointments add up over time, don’t they? And frankly, laser sessions are overpriced. SkinPetra IPL guarantees a cost-effective, permanent hair removal option.",
+        "image": "shopify:\/\/shop_images\/Less-Hair.More-Savings.jpg",
+        "badge_text": "",
+        "heading": "Less Hair. More Savings.",
+        "subheading": "SkinPetra Crystal Hair Removal",
+        "text": "The SkinPetra Crystal Hair Remover works on its own! No need for shaving creams, gels or lotions. Make grooming costs more affordable by saving money in the long-run.",
         "after_table_text": "*Cost evaluated over 4 years.<br>\n*Cost of standard out of home treatments."
       }
     },
@@ -496,32 +500,40 @@
           "type": "slide",
           "settings": {
             "heading": "Step 2",
-            "subheading": "Place the device flat against the skin",
-            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+            "subheading": "Clean and dry the skin",
+            "text": "Before beginning the hair removal process, thoroughly cleanse the area you intend to treat with a gentle cleanser and ensure it is completely dry before proceeding."
           }
         },
         "slide_RkNEwM": {
           "type": "slide",
           "settings": {
             "heading": "Step 3",
-            "subheading": "Gently rub the Device in circular Motiin",
-            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+            "subheading": "Apply the device flat against the skin",
+            "text": "Once your skin is prepped, position the Crystal Hair Remover flat against the targeted area. Ensuring full contact with the skin surface helps remove the unwanted hair efficiently."
           }
         },
         "slide_hN8DHD": {
           "type": "slide",
           "settings": {
             "heading": "Step 4",
-            "subheading": "Recommended to moisturize The skin After Treatment",
-            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+            "subheading": "Gently rub in circular motions",
+            "text": "Start by gently gliding the hair remover over the skin's surface in circular motions. As you do so, the hair will be removed leaving behind silky smooth skin. You don’t need to apply any force."
           }
         },
         "slide_QTXw4e": {
           "type": "slide",
           "settings": {
             "heading": "Step 5",
-            "subheading": "Clean the Device in the end Of Treatment",
-            "text": "Gently exfoliating your skin with The Revealer removes dead skin cells and makes it easier for the light from IPL to reach the melanin in your hair."
+            "subheading": "Moisturize your skin",
+            "text": "After completing the hair removal process, it's important to bring back moisture to the skin. Consider applying a soothing moisturizer to help hydrate and nourish it."
+          }
+        },
+        "slide_JjYmxq": {
+          "type": "slide",
+          "settings": {
+            "heading": "STEP 6",
+            "subheading": "Clean the device",
+            "text": "To maintain optimal hygiene and prolong the lifespan of your Crystal Hair Remover, remember to clean it thoroughly after each use. This simple yet essential step helps to remove any residue and ensures that the device is ready for your next hair removal session."
           }
         }
       },
@@ -530,7 +542,8 @@
         "slide_e76aJ9",
         "slide_RkNEwM",
         "slide_hN8DHD",
-        "slide_QTXw4e"
+        "slide_QTXw4e",
+        "slide_JjYmxq"
       ],
       "settings": {
         "extra_class": "",
@@ -545,43 +558,29 @@
         "slide_zGThnm": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "text": "\"SkinPetra Crystal Hair Remover: the ultimate choice for efficacy. A simple and effective hair removal method that is simply trending.\"",
             "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
           }
         },
         "slide_XkJ6Cq": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "text": "\"Quick, easy and way better than shaving! SkinPetra Crystal Hair Remover is being praised as the best hair removal method at the moment.\"",
             "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f_53fc781b-f018-4ca2-b71b-e9ba8a057813.png"
           }
         },
         "slide_TzCWnd": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "text": "\"Your ticket to easy hair removal at home. If you want to make a smart purchase, the SkinPetra Crystal Hair Remover is definitely a winner in the beauty market.\"",
             "image": "shopify:\/\/shop_images\/3bbf467d37c3cb3101c3efeac22258ac.png"
           }
         },
         "slide_3kP7G4": {
           "type": "slide",
           "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
+            "text": "\"SkinPetra Crystal Hair Remover is the transformative beauty essential for pain-free hair removal and glowing skin.\"",
             "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f.png"
-          }
-        },
-        "slide_JiyGqK": {
-          "type": "slide",
-          "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
-            "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
-          }
-        },
-        "slide_fxyVUi": {
-          "type": "slide",
-          "settings": {
-            "text": "“SkinPetra™ IPL flashes at 10 ms, which is up to 4 times longer than competitor IPL*. This means light is less likely “.",
-            "image": "shopify:\/\/shop_images\/2cd4985ebffaf3999be21ac68eaf8444.png"
           }
         }
       },
@@ -589,9 +588,7 @@
         "slide_zGThnm",
         "slide_XkJ6Cq",
         "slide_TzCWnd",
-        "slide_3kP7G4",
-        "slide_JiyGqK",
-        "slide_fxyVUi"
+        "slide_3kP7G4"
       ],
       "settings": {
         "is_autoscroll": true,
@@ -605,11 +602,11 @@
         "item_VV99hn": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3823ed8e4af272f70c24385ef0128521.jpg",
+            "image": "shopify:\/\/shop_images\/footterrr2222.png",
             "image_rotation_degrees": -2,
-            "subheading": "Flash Window",
-            "title": "Dead skin Exfoliate, callus removal .",
-            "content": "<p>Full Mute Working Without Disturbing your Sound Sleep, Full Mute Working Without Disturbing your Sound Sleep<\/p>",
+            "subheading": "GLOWING WITH LOVE",
+            "title": "Dead Skin Exfoliation for Vibrant Skin",
+            "content": "<p>Thoroughly remove dead skin cells and enjoy baby-smooth skin. No need to pay for scrubs or waste time with an exfoliating glove when you can combine hair removal and exfoliating all in one!<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -636,11 +633,11 @@
         "item_RQiNDU": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/9980ce7f750d3972618b51d4daf10351.jpg",
+            "image": "shopify:\/\/shop_images\/foooterrrr1111.png",
             "image_rotation_degrees": -2,
-            "subheading": "AutoGlide Mode",
-            "title": "No razor Bumps, Happy Waman!",
-            "content": "<p>Swap out the time and money you'd spend on laser, in-salon waxing, or annoying razors for affordable, long-term hair removal.<br\/><\/p>",
+            "subheading": "BYE BYE RAZOR BUMPS",
+            "title": "Pain-Free and Gentle On the Skin",
+            "content": "<p>You know that dreadful feeling of razor bumps itching and burning away at your skin? You can forget all about it! Our device is used on dry skin, removing unwanted hair and <strong>eliminating the risk of irritation<\/strong>.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -667,11 +664,11 @@
         "item_Ka9rLa": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/449637840dc8e108fc71e9bb903a2f8b.jpg",
+            "image": "shopify:\/\/shop_images\/footererr333.png",
             "image_rotation_degrees": -2,
-            "subheading": "Laser-like Results, From Home",
-            "title": "It Is Suitable For Men!",
-            "content": "<p>Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With SkinPetra IPL, get laser-like results from the comfort of your home.<\/p>",
+            "subheading": "SUITABLE FOR EVERYONE",
+            "title": "Perfect for Men Too",
+            "content": "<p>The SkinPetra Crystal Hair Remover isn't just for women; it's ideal for men as well! No matter the density or texture of your hair, the Crystal Hair Remover offers a gentle yet effective hair removal solution for all.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -698,72 +695,113 @@
         "slide_7NGFbc": {
           "type": "slide",
           "settings": {
-            "text": "Product 1"
-          }
-        },
-        "slide_zqtzFD": {
-          "type": "slide",
-          "settings": {
-            "text": "Product2"
+            "text": "SkinPetra Crystal Hair Remover"
           }
         }
       },
       "block_order": [
-        "slide_7NGFbc",
-        "slide_zqtzFD"
+        "slide_7NGFbc"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/b0b9445f09b62098f14712f52fd5ce2f.png",
         "bg_Color": "#f3f3f3",
         "heading": "In the Box",
-        "text": "Say goodbye to the endless cycle of razors and inconvenient trips to the clinic. With Air 3, get laser-like results from the comfort of your home."
+        "text": "You’ll get the SkinPetra Crystal Hair Remover accompanied by a custom bag for convenient storage and travel."
       }
     },
     "custom_faqs_z9aTdX": {
       "type": "custom-faqs",
       "blocks": {
-        "slide_8DrJcd": {
+        "slide_DHK7zV": {
           "type": "slide",
           "settings": {
-            "title": "Is the SkinPetra device safe to use?",
-            "content": "<p>Absolutely!<br\/>SkinPetra uses IPL tecAbsolutely! SkinPetra uses IPL technology, which is a well-researched and popular method for permanent hair removal. Our device is approved by dermatologists and it is regarded as one of the safest methods for long-term hair removal at-home.hnology, which is a well-researched and popular method<br\/>for permanent hair removal. Our device is approved by dermatologists and it is<br\/>regarded as one of the safest methods for long-term hair removal at-home. <\/p>"
-          }
-        },
-        "slide_tnbabw": {
-          "type": "slide",
-          "settings": {
-            "title": "Does using SkinPetra hurt?",
-            "content": "<p>Not at all! Unlike other hair removal methods, IPL is virtually painless. While higher intensity settings may cause mild discomfort in certain sensitive areas, you can easily adjust the settings at any time to ensure a totally comfortable and pain-free experience.<\/p>"
-          }
-        },
-        "slide_zdUXnE": {
-          "type": "slide",
-          "settings": {
-            "title": "When will I start seeing results?",
-            "content": "<p>Most users notice a significant visible reduction in hair growth after just the first treatment! Typically, complete results are achieved after about 12 sessions. Individual results may vary based on hair coarseness and the area being treated, but you’ll see hair grow back slower and sparser over time.<\/p>"
-          }
-        },
-        "slide_E7dKyq": {
-          "type": "slide",
-          "settings": {
-            "title": "Can I use SkinPetra at any time?",
-            "content": "<p>We often hear people saying, \"No laser during summer.\" However, with SkinPetra's IPL technology, you can safely use the device year-round. For best results, follow a proper treatment schedule and ensure your skin is clean and dry before each session.<\/p>"
+            "title": "Does friction from the Crystal Hair Remover cause darkening?",
+            "content": "<p>No, on the contrary, using the SkinPetra Crystal Hair Remover enhances your skin tone by eliminating dead skin cells, leading to a brighter complexion!<\/p>"
           }
         },
         "slide_4W7VQU": {
           "type": "slide",
           "settings": {
-            "title": "Can I use SkinPetra Hair Removal on any body part?",
-            "content": "<p>Absolutely! SkinPetra Hair Removal can be used on any body part where you wish to get rid of unwanted hair, including legs, arms, underarms, bikini line, and even the face.<\/p>"
+            "title": "When is the optimal time to utilize the Crystal Hair Remover?",
+            "content": "<p>You can use the Crystal Hair Remover at any time convenient for you, although many find it effective during their regular grooming routine. We recommend using it before you shower, as in this way you incorporate hair removal and exfoliation in your usual self-care session.<\/p>"
+          }
+        },
+        "slide_RAtqbK": {
+          "type": "slide",
+          "settings": {
+            "title": "Where can I apply the Crystal Hair Remover?",
+            "content": "<p>You can use the Crystal Hair Remover on various body areas, including legs, arms, underarms, and even the bikini line. The device is designed for optimal compatibility with any body part and it ensures a completely pain-free and gentle process!<\/p>"
+          }
+        },
+        "slide_Hh7KHJ": {
+          "type": "slide",
+          "settings": {
+            "title": "I have \"strawberry skin.\" Will the Crystal Hair Remover be suitable for me?",
+            "content": "<p>Absolutely! The Crystal Hair Remover is designed to address various skin types and concerns, including \"strawberry skin.\" Its gentle exfoliating action can help alleviate the appearance of rough skin, revealing smoother and softer skin over time.<\/p>"
+          }
+        },
+        "slide_mEDdp9": {
+          "type": "slide",
+          "settings": {
+            "title": "How frequently can I use the Crystal Hair Remover?",
+            "content": "<p>You can safely use the Crystal Hair Remover as often as needed, but most users find that once every few days provides optimal results.<\/p>"
+          }
+        },
+        "slide_7yU6KE": {
+          "type": "slide",
+          "settings": {
+            "title": "Can I use the SkinPetra Crystal Hair Removal device on sensitive areas?",
+            "content": "<p>Absolutely! The SkinPetra Crystal Hair Removal device is designed with gentle precision, making it safe and effective for use on sensitive areas. Its technology ensures a comfortable, pain-free experience that won’t irritate the skin.<\/p>"
+          }
+        },
+        "slide_HYWNQL": {
+          "type": "slide",
+          "settings": {
+            "title": "Is the SkinPetra Crystal Hair Remover waterproof?",
+            "content": "<p>Yes, the SkinPetra Crystal Hair Remover is waterproof, allowing for versatile use in the shower or bath. Its waterproof design makes it convenient to incorporate into your regular grooming routine. However, it is recommended that you use the device on completely dry skin for optimal results!<\/p>"
+          }
+        },
+        "slide_HWzcTf": {
+          "type": "slide",
+          "settings": {
+            "title": "Will the SkinPetra Crystal Hair Remover work on coarse hair?",
+            "content": "<p>Absolutely! The SkinPetra Crystal Hair Remover is highly effective on all hair types. No matter the density or color, this technique ensures a quick and effective hair removal process.<\/p>"
+          }
+        },
+        "slide_hCgLqG": {
+          "type": "slide",
+          "settings": {
+            "title": "Does the SkinPetra Crystal Hair Remover help with ingrown hair?",
+            "content": "<p>Yes, indeed! The SkinPetra Crystal Hair Remover is designed to help prevent and reduce ingrown hairs, leaving your skin beautifully smooth and bump-free.<\/p>"
+          }
+        },
+        "slide_Tgk7Bp": {
+          "type": "slide",
+          "settings": {
+            "title": "Is it safe to use the SkinPetra Crystal Hair Remover on the bikini area?",
+            "content": "<p>Absolutely! The SkinPetra Crystal Hair Remover is safe and gentle for use on the bikini area. Moreover, the exfoliation process will help lighten the area which may have been previously darkened by continuous shaving.<\/p>"
+          }
+        },
+        "slide_tLfDYJ": {
+          "type": "slide",
+          "settings": {
+            "title": "How do I clean the SkinPetra Crystal Hair Remover?",
+            "content": "<p>After each use, simply wipe the device with a soft, damp cloth to remove any residue or buildup. Be sure to avoid using harsh chemicals or abrasive materials, as these may damage the device. Store the device in a cool, dry place to keep it in optimal condition for your next hair removal session.<\/p>"
           }
         }
       },
       "block_order": [
-        "slide_8DrJcd",
-        "slide_tnbabw",
-        "slide_zdUXnE",
-        "slide_E7dKyq",
-        "slide_4W7VQU"
+        "slide_DHK7zV",
+        "slide_4W7VQU",
+        "slide_RAtqbK",
+        "slide_Hh7KHJ",
+        "slide_mEDdp9",
+        "slide_7yU6KE",
+        "slide_HYWNQL",
+        "slide_HWzcTf",
+        "slide_hCgLqG",
+        "slide_Tgk7Bp",
+        "slide_tLfDYJ"
       ],
       "settings": {
         "heading": "FAQ",

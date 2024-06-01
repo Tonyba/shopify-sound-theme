@@ -20,7 +20,7 @@
                     assign left_list_items = item.settings.left_list | split: '<br>'
                     assign right_list_item = item.settings.right_list | split : '<br>'
                 %}
-                <div id="{{ item.id }}" class="tab-content-item  grid cols-2 {% if forloop.index == 1 %} active{% endif %}"> 
+                <div id="{{ item.id }}" class="tab-content-item  grid cols-2 cols-2-mobile {% if forloop.index == 1 %} active{% endif %}"> 
                     <div class="grid-item">
                         <div class="image">
                             {{- item.settings.left_image | image_url: width: item.settings.left_image.width | image_tag: loading: 'lazy', decoding: 'async' , draggable: false -}}
