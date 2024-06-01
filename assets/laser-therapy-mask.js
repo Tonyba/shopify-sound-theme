@@ -91,7 +91,7 @@
 
 
     function selectAll() {
-        var allOpts = document.querySelectorAll('.opt-item:not(.out-of-stock)');
+        var allOpts = document.querySelectorAll('.opt-item:not(.out-of-stock):not(.face-opt)');
         bothInput.click();
 
         Array.from(allOpts).map(function(opt) { opt.classList.add('selected') })
@@ -101,7 +101,7 @@
 
     function isAnyOutOfStock() {
         var isAnyofStock = false;
-        var noStockOpts = document.querySelectorAll('.out-of-stock');
+        var noStockOpts = document.querySelectorAll('.out-of-stock:not(.face-opt)');
 
         if( noStockOpts.length == 1 ) isAnyofStock = true;
 
