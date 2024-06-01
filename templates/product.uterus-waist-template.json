@@ -150,13 +150,13 @@
     "product_testimonials_kFXNEf": {
       "type": "product-testimonials",
       "blocks": {
-        "slide_8Xixpa": {
+        "slide_6HXjw8": {
           "type": "slide",
           "settings": {
-            "review_title": "“Relief and Relaxation”",
-            "author": "- Sarah Jones",
-            "review_text": "\"I used to dread my period because of the back pain, but ever since I started using SkinPetra Warm Uterus Waist, I’ve found peace. Now, I can truly relax after a long day. Thanks, SkinPetra!\"",
-            "review_img": "shopify:\/\/shop_images\/1_34a21009-e18c-46f3-8cf7-55867e5aac0c.jpg"
+            "review_title": "\"Bloating Relief\"",
+            "author": "- Ashley Harris",
+            "review_text": "\"Dealing with bloating during my period was such a hassle. I’d come home and I’d still feel uncomfortable even in my pajamas. I use the SkinPetra Warm Uterus Waist every month and it helps me feel lighter. It's made my period so much more bearable.\"",
+            "review_img": "shopify:\/\/shop_images\/4_f6a90b9a-c822-4a3c-b202-ca6d128f0d2d.jpg"
           }
         },
         "slide_BGpxWn": {
@@ -177,21 +177,21 @@
             "review_img": "shopify:\/\/shop_images\/3_90e8014f-26c2-48f7-bc65-3f4aa1024267.jpg"
           }
         },
-        "slide_6HXjw8": {
+        "slide_8Xixpa": {
           "type": "slide",
           "settings": {
-            "review_title": "\"Bloating Relief\"",
-            "author": "- Ashley Harris",
-            "review_text": "\"Dealing with bloating during my period was such a hassle. I’d come home and I’d still feel uncomfortable even in my pajamas. I use the SkinPetra Warm Uterus Waist every month and it helps me feel lighter. It's made my period so much more bearable.\"",
-            "review_img": "shopify:\/\/shop_images\/4_f6a90b9a-c822-4a3c-b202-ca6d128f0d2d.jpg"
+            "review_title": "“Relief and Relaxation”",
+            "author": "- Sarah Jones",
+            "review_text": "\"I used to dread my period because of the back pain, but ever since I started using SkinPetra Warm Uterus Waist, I’ve found peace. Now, I can truly relax after a long day. Thanks, SkinPetra!\"",
+            "review_img": "shopify:\/\/shop_images\/1_34a21009-e18c-46f3-8cf7-55867e5aac0c.jpg"
           }
         }
       },
       "block_order": [
-        "slide_8Xixpa",
+        "slide_6HXjw8",
         "slide_BGpxWn",
         "slide_wTRq93",
-        "slide_6HXjw8"
+        "slide_8Xixpa"
       ],
       "settings": {
         "heading": "Tried and True: Hear from Our Customers",
