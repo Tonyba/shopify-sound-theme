@@ -18,6 +18,11 @@
     transform: translateY(-50%);
 }   
 
+
+.check-list .section-wrapper-margin {
+    margin-bottom: 0 !important;
+}
+
 @media only screen and (max-width: 767px) {
 
     .check-list img {
