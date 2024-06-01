@@ -83,6 +83,10 @@
         margin-bottom: 20px;
     }
 
+    .item-content p {
+        display: none;
+    }
+
     .tab-content-list h2  {
         font-size: 25px;
     }
