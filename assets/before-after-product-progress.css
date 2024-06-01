@@ -164,6 +164,10 @@
         text-align: center;
     }
 
+    .tab-title-wrapper {
+        justify-content: center;
+    }
+
     .before-after-product-progress h2 {
         font-size: 30px;
         padding-bottom: 20px;
