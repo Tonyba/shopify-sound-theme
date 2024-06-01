@@ -15,7 +15,7 @@
  
     var submitBtn = document.querySelector('.product-info__buy-buttons button');
 
-    var opts = Array.from(document.querySelectorAll('.opt-item'));
+    var opts = Array.from(document.querySelectorAll('.opt-item:not(.face-opt)'));
 
     opts.map(function(opt) {
         opt.addEventListener('click', () => selectLogic(opt));
