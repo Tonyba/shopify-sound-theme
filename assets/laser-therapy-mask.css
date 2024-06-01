@@ -1,5 +1,7 @@
 
-.disabled {
+
+.disabled,
+.variant-picker .variant-picker__option:first-child {
     display: none;
 }
 
