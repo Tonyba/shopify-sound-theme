@@ -53,7 +53,6 @@
                     break;
 
                 case bothId:
-                    console.log('eyhe')
                     selectAll();
                     break;
                 default:
@@ -72,15 +71,14 @@
     };
 
     function selectLogic(selectedOpt) {
-        
+    
         if(!selectedOpt.classList.contains('out-of-stock')) selectedOpt.classList.toggle('selected');
-
+       
         checkSelected();
+
         if(noneSelected()) {
-         
             if(!opts[0].classList.contains('out-of-stock')) {
                 faceMaskInput.click();
-                opts[0].classList.add('selected');
             }
         }
         if(isAllSelected()) bothInput.click();
@@ -120,14 +118,14 @@
 
     function checkSelected() {
         
-        var selectedOpt = document.querySelectorAll('.opt-item.selected:not(.out-of-stock):not(.mask-opt)');
+        var selectedOpt = document.querySelectorAll('.opt-item.neck-opt.selected:not(.out-of-stock)');
         
         if(selectedOpt.length == 1) {
 
             selectedOpt = Array.from(selectedOpt)[0];
 
-            switch (selectedOpt.getAttribute('data-value')) {
-                case 'Neck Mask':
+            switch (selectedOpt.getAttribute('data-variant-id')) {
+                case neckMaskId:
                     neckMaskInput.click();
                  break;
                 default:
@@ -142,19 +140,19 @@
 
     function isAllSelected() {
         var allSelected = false;
+        var currentOpts = document.querySelectorAll('.opt-item:not(.out-of-stock)');
         var selectedOpts = document.querySelectorAll('.opt-item.selected:not(.out-of-stock)');
 
-        if(selectedOpts.length === opts.length) allSelected = true; 
+        if(selectedOpts.length === currentOpts.length) allSelected = true; 
 
         return allSelected;
     }
 
     function noneSelected() {
         var nonSelected = false;
-        var selectedOpts = document.querySelectorAll('.opt-item.selected:not(.out-of-stock)');
+        var selectedOpts = document.querySelectorAll('.opt-item.neck-opt.selected:not(.out-of-stock)');
 
-        console.log(selectedOpts)
-
+     
         if(!selectedOpts.length) nonSelected = true; 
         
 
