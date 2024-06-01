@@ -20,7 +20,7 @@
 
 
 .check-list .section-wrapper-margin {
-    margin-bottom: 0 !important;
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 767px) {
