@@ -51,6 +51,7 @@
        position: static;
         top: unset;
         max-height: unset;
+        margin: auto;
     }
 
     .visible-results .content {
