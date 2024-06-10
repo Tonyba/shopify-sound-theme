@@ -21,7 +21,13 @@
                 </div>
                 <div class="bottom-products grid cols-2 gap-20">
                     {% for product in section.settings.bottom_prods %}
-                        {% render 'custom-horizontal-product' product: product  %}
+                        {% if forloop.index == 1 %}
+                            {% render 'custom-horizontal-product' product: product img: section.settings.bottom_img_1  %}
+                        
+                            {% else %}
+                            {% render 'custom-horizontal-product' product: product img: section.settings.bottom_img_2  %}
+                        {% endif %}
+
                     {% endfor %}
                 </div>
             </div>
