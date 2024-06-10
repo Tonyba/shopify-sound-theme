@@ -45,6 +45,8 @@
     }
     #shopify-section-template--16709282103449__check_list_P9dcVV .grid-item:last-child {
         padding: 0 !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
     .check-list svg {
         width: 35px;
