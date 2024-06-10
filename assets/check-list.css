@@ -23,11 +23,12 @@
     margin-bottom: 0;
 }
 
-@media only screend and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     
-    .check-list .grid .grid-item {
+    .check-list .grid .grid-item:first-child {
       display: flex;
       justify-content: center;
+      margin-bottom: 50px;
     }
 }
 
