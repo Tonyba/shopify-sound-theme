@@ -33,8 +33,13 @@
     .check-list .grid .grid-item:first-child {
       display: flex;
       justify-content: center;
-      margin-bottom: 50px;
+      margin-bottom: 30px;
     }
+
+    
+    .check-list .section-wrapper-padding {
+            padding-top: 20px;
+    }   
 }
 
 @media only screen and (max-width: 767px) {
