@@ -25,7 +25,7 @@
 
 @media only screend and (max-width: 768) {
     
-    .check-list .grid > *:first-child {
+    .check-list .grid .grid-item {
       display: flex;
       justify-content: center;
     }
