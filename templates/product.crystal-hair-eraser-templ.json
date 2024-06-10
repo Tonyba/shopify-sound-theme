@@ -107,6 +107,12 @@
     "check_list_P9dcVV": {
       "type": "check-list",
       "blocks": {
+        "slide_QAWVhK": {
+          "type": "slide",
+          "settings": {
+            "text": "Micro-Etched Crystals & Comfortable Grip"
+          }
+        },
         "slide_gjraUy": {
           "type": "slide",
           "settings": {
@@ -127,6 +133,7 @@
         }
       },
       "block_order": [
+        "slide_QAWVhK",
         "slide_gjraUy",
         "slide_rQTwLL",
         "slide_afFLeE"
