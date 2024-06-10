@@ -21,7 +21,7 @@
                 </div>
                 <div class="bottom-products grid cols-2 gap-20">
                     {% for product in section.settings.bottom_prods %}
-                        {% render 'custom-horizontal-product' product: product  %}
+                        {% render 'custom-horizontal-product' product: product image1: section.settings.bottom_img_1 image2: section.settings.bottom_img_2  %}
                     {% endfor %}
                 </div>
             </div>
