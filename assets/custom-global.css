@@ -305,6 +305,10 @@ label[for="swatch-template--16704955187353__main---swatch-template-1670495518735
     height: 400px;
   }
 
+  .product-card__figure img {
+    width: 100%;
+  }
+
   .two-cols-products-section .product-card,
   .products-carousel .product-card {
     border-radius: 20px;
