@@ -107,18 +107,6 @@
     "check_list_P9dcVV": {
       "type": "check-list",
       "blocks": {
-        "slide_Gxw6Dy": {
-          "type": "slide",
-          "settings": {
-            "text": "Micro-Etched Crystals & Comfortable Grip Design"
-          }
-        },
-        "slide_QekVAJ": {
-          "type": "slide",
-          "settings": {
-            "text": "Targets Both Unwanted Hairs and \"Chicken Skin\""
-          }
-        },
         "slide_gjraUy": {
           "type": "slide",
           "settings": {
@@ -131,12 +119,6 @@
             "text": "Painlessly Effective and Super Convenient"
           }
         },
-        "slide_4bPaAQ": {
-          "type": "slide",
-          "settings": {
-            "text": "Time-Saving and Economical Solution"
-          }
-        },
         "slide_afFLeE": {
           "type": "slide",
           "settings": {
@@ -145,11 +127,8 @@
         }
       },
       "block_order": [
-        "slide_Gxw6Dy",
-        "slide_QekVAJ",
         "slide_gjraUy",
         "slide_rQTwLL",
-        "slide_4bPaAQ",
         "slide_afFLeE"
       ],
       "settings": {
