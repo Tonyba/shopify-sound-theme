@@ -485,6 +485,10 @@ label[for="swatch-template--16704955187353__main---swatch-template-1670495518735
     .column-lg-tablet-reversed {
         flex-direction: column-reverse;
     }
+
+    .footer__block-list {
+        flex-wrap: wrap !important;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -494,9 +498,7 @@ label[for="swatch-template--16704955187353__main---swatch-template-1670495518735
         max-width: 100%;
     }
 
-    .footer__block-list {
-        flex-wrap: wrap !important;
-    }
+   
 }
 
 
