@@ -9,7 +9,11 @@ goes around that, Impact offers a hack using alt tags whose usage is described h
 The implementation is rather complex and inefficient due to a lot of string parsings, but it is, unfortunately, the
 only way to do it on Shopify right now.
 {%- endcomment -%}
-{{ product.media.first | image_url }}
+
+
+<link rel="preload" href="{{ product.media.first | img_url  }}" as="image">
+
+
 
 {% assign filtered_indexes = null | sort %}
 
