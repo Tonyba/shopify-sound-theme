@@ -13,7 +13,7 @@ only way to do it on Shopify right now.
 
 {% if template == 'product' %}
 
-  <link rel="preload" as="image" href="{{ product.media.first | img_url: '600x' }}">
+  <link rel="preload" as="image" href="{{ product.media.first | img_url: '600px' }}">
 
 {% endif %}
 
