@@ -11,7 +11,7 @@ only way to do it on Shopify right now.
 {%- endcomment -%}
 
 
-{{ product.media.first | image_url: width: 600 | image_tag: preload: true }}
+<link rel="preload" href="//shop-sitetest.myshopify.com/cdn/shop/files/Product---3.jpg?v=1717148761&width=600" as="image">
 
 {% assign filtered_indexes = null | sort %}
 
