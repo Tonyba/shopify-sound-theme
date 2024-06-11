@@ -1,4 +1,4 @@
-{{ 'review-before-after-item.css' | asset_url | stylesheet_tag }}
+{%- render 'css_async', css: 'review-before-after-item.css', section_index: 3 -%}
 
 <div class="review-before-after-item {% if is_left %}horizontal-review{% endif %} relative">
 
