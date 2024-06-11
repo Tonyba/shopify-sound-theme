@@ -1,4 +1,4 @@
-{{ 'routine.css' | asset_url | stylesheet_tag }}
+{%- render 'css_async', css: 'routine.css', section_index: section.index -%}
 
 
 <div class="section-wrapper {{ section.settings.extra_class }}">
