@@ -1,0 +1,13 @@
+{%- liquid
+    assign css = css | default: false
+    assign section_index = section_index | default: 3
+  -%}
+
+  {%- if section_index > 2 -%}
+    <link rel="stylesheet" href="{{- css | asset_url -}}" media="print" onload="this.media='all'">
+    <noscript>
+      {{- css | asset_url | stylesheet_tag -}}
+    </noscript>
+  {%- else -%}
+    {{- css | asset_url | stylesheet_tag -}}
+  {%- endif -%}
