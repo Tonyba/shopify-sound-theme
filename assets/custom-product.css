@@ -166,8 +166,8 @@ compare-at-price {
 }
 
 @media only screen and (max-width: 1024px) {
-    .right-left-section p {
-        font-size: 18px;
+    .right-left-section .h1 + p {
+        font-size: 18px !important;
     }
 }
 
