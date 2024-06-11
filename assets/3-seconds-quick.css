@@ -56,6 +56,20 @@
 }
 
 
+.three-seconds-heat .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 40%;
+}
+
+.three-seconds-heat .image img {
+    object-fit: cover;
+    height: 100%
+}
+
 @media only screen and (max-width: 1024px) {
 
     .three-seconds-heat .d-none-desktop h2 {
