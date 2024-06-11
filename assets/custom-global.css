@@ -489,6 +489,10 @@ label[for="swatch-template--16704955187353__main---swatch-template-1670495518735
     .footer__block-list {
         flex-wrap: wrap !important;
     }
+
+    .footer__block--menu {
+        max-width: unset;
+    }
 }
 
 @media screen and (max-width: 1000px) {
