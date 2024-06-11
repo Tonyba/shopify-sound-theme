@@ -7,9 +7,9 @@
 
 %}
 
-<link rel="preload" href="{{font_700}}" as="font" type="font/woff2">
-<link rel="preload" href="{{font_500}}" as="font" type="font/woff2">
-<link rel="preload" href="{{font_300}}" as="font" type="font/woff2">
+{{ font_700 | asset_url | preload_tag: as: 'font' }}
+{{ font_500 | asset_url | preload_tag: as: 'font' }}
+{{ font_300 | asset_url | preload_tag: as: 'font' }}
 
 <style>
     @font-face {
