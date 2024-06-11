@@ -10,10 +10,10 @@
   <script src="{{ 'laser-therapy-mask.js' | asset_url }}" defer></script>
 {% endif %}
 
-
   <link rel="preload" as="image" 
-    href="{{ product.featured_media | img_url: '600x' }}" 
-    imagesrcset="{{ product.featured_media | img_url: '360x' }} 360w, {{ product.featured_media | img_url: '540x' }} 540w, {{ product.featured_media | img_url: '720x' }} 720w" imagesizes="180vw">
+    href="{{ product.media.first.preview_image | img_url: product.media.first.preview_image.width }}" 
+    imagesrcset="{{ product.media.first.preview_image | img_url: '360x' }} 360w, {{ product.media.first.preview_image | img_url: '540x' }} 540w, {{ product.media.first.preview_image | img_url: '720x' }} 720w" 
+    imagesizes="(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min(580px, 30vw)">
 
 
 
