@@ -45,6 +45,14 @@
     text-transform: capitalize;
 }
 
+@media only screen and (max-width: 1600px) {
+    .visible-results .image {
+        max-height: unset;
+        height: 100%;
+        width: 60%;
+    }
+}
+
 
 @media only screen and (max-width: 1024px) {
     .visible-results .image {
