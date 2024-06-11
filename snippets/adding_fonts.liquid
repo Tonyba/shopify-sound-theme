@@ -1,15 +1,15 @@
 
 {% liquid
 
-    assign font_500 = 'ibm-plex-sans-v19-latin-500.woff2' | font_url
-    assign font_700 = 'ibm-plex-sans-v19-latin-700.woff2' | font_url
-    assign font_300 = 'ibm-plex-sans-v19-latin-300.woff2' | font_url
+    assign font_500 = 'ibm-plex-sans-v19-latin-500.woff2' | asset_url
+    assign font_700 = 'ibm-plex-sans-v19-latin-700.woff2' | asset_url
+    assign font_300 = 'ibm-plex-sans-v19-latin-300.woff2' | asset_url
 
 %}
 
-{{ font_700 | font_url | preload_tag: as: 'font', type: 'font/woff2' }}
-{{ font_500 | font_url | preload_tag: as: 'font', type: 'font/woff2' }}
-{{ font_300 | font_url | preload_tag: as: 'font', type: 'font/woff2' }}
+{{ font_700 | asset_url | preload_tag: as: 'font', type: 'font/woff2' }}
+{{ font_500 | asset_url | preload_tag: as: 'font', type: 'font/woff2' }}
+{{ font_300 | asset_url | preload_tag: as: 'font', type: 'font/woff2' }}
 
 <style>
     @font-face {
