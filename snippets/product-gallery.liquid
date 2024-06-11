@@ -10,12 +10,8 @@ The implementation is rather complex and inefficient due to a lot of string pars
 only way to do it on Shopify right now.
 {%- endcomment -%}
 
-<div>aca</div>
-{% if template == 'product' %}
+<link rel="preload" as="image" href="{{ product.media.first | img_url: '600px' }}">
 
-  <link rel="preload" as="image" href="{{ product.media.first | img_url: '600px' }}">
-
-{% endif %}
 
 {% assign filtered_indexes = null | sort %}
 
