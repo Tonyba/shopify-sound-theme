@@ -9,8 +9,7 @@ goes around that, Impact offers a hack using alt tags whose usage is described h
 The implementation is rather complex and inefficient due to a lot of string parsings, but it is, unfortunately, the
 only way to do it on Shopify right now.
 {%- endcomment -%}
-
-{{ 'test' }}
+{{ product.media.first | json }}
 
 {% assign filtered_indexes = null | sort %}
 
