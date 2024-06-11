@@ -11,9 +11,54 @@
     margin-bottom: 20px;
 }
 
+
+.check-list .section-wrapper-padding {
+    padding: 60px 0;
+}
+
 .check-list .icon {
     position: absolute;
     left: -15px;
     top: 50%;
     transform: translateY(-50%);
 }   
+
+
+.check-list .section-wrapper-margin {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .check-list .grid .grid-item:first-child {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    
+    .check-list .section-wrapper-padding {
+            padding: 30px 0;
+    }   
+}
+
+@media only screen and (max-width: 767px) {
+
+    .check-list img {
+        height: 350px;
+        object-fit: contain;
+    }
+
+    .check-list li {
+        font-size: 14px;
+        padding: 10px 20px 10px 30px;
+    }
+    #shopify-section-template--16709282103449__check_list_P9dcVV .grid-item:last-child {
+        padding: 0 !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .check-list svg {
+        width: 35px;
+    }
+}

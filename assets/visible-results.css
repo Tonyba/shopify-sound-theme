@@ -51,6 +51,12 @@
        position: static;
         top: unset;
         max-height: unset;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+
+    .visible-results img {
+        border-radius: 40px !important;
     }
 
     .visible-results .content {
@@ -78,6 +84,13 @@
     .visible-results .subheading {
         font-size: 20px;
     }
+
+    .visible-results .image {
+        padding: 0 20px;
+        padding-bottom: 50px;
+    }
+
+   
 
     .visible-results .wrapper {
         padding-top: 20px;

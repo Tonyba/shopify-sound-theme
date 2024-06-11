@@ -56,6 +56,14 @@
     height: 16px;
 }
 
+.testimonial-carousel .splide__arrow--prev {
+    margin-right: 20px;
+}
+
+.testimonial-carousel .splide__arrow--next {
+    margin-left: 20px;
+}
+
 .testimonial-carousel .splide__pagination button {
         background-color: #b2b2b2;
         width: 8px;
@@ -93,4 +101,11 @@
         font-size: 18px;
     }
 
+    .testimonial-carousel .splide__pagination {
+        margin-top: 20px;
+    }
+
+    .testimonial-carousel {
+        margin-bottom: 10px;
+    }
 }

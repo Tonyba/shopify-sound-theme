@@ -8,11 +8,19 @@
     display: flex;
     justify-content: space-between;
     color: #2F2F2F;
-   
 }
 
-.accordion-data .accordion[href="#faqs"] {
+.accordion-data .faqs {
+    cursor: pointer;
+    padding: 18px 0 0;
     padding-bottom: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    color: #2f2f2f;
 }
 
 .accordion-item{

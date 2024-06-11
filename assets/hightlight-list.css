@@ -3,6 +3,10 @@
     font-weight: 500;
 }
 
+.hightlist-list {
+    margin-top: 100px;
+}
+
 .hightlist-list span {
     line-height: 1;
 }
@@ -40,4 +44,11 @@
     height: 70px;
     border: 1px solid #FF004A;
     border-radius: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .hightlist-list {
+        margin-top: 50px;
+    }
+    
 }

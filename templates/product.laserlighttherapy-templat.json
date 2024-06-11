@@ -555,7 +555,7 @@
         "item_9farBd": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/foter1.jpg",
+            "image": "shopify:\/\/shop_images\/Face_Mask_1.jpg",
             "image_rotation_degrees": -2,
             "subheading": "DEEP-DOWN SKIN CARE",
             "title": "Treat Your Skin From Within",
@@ -570,7 +570,7 @@
       ],
       "settings": {
         "full_width": true,
-        "extra_css_class": "right-left-section pt-0",
+        "extra_css_class": "right-left-section pt-0 square-img",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
@@ -586,7 +586,7 @@
         "item_aLkVHH": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/footer2.jpg",
+            "image": "shopify:\/\/shop_images\/Face_Mask_2.jpg",
             "image_rotation_degrees": -2,
             "subheading": "CUSTOM SESSIONS",
             "title": "Tailored Therapy for Your Skin",
@@ -601,7 +601,7 @@
       ],
       "settings": {
         "full_width": true,
-        "extra_css_class": "right-left-section pt-0 reversed",
+        "extra_css_class": "right-left-section pt-0 reversed square-img",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
@@ -617,7 +617,7 @@
         "item_YGyHy4": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/footer3.jpg",
+            "image": "shopify:\/\/shop_images\/Face_Mask_3.jpg",
             "image_rotation_degrees": -2,
             "subheading": "COST-EFFECTIVE BEAUTY",
             "title": "Spa-Like Bliss Without the Price Tag",
@@ -632,7 +632,7 @@
       ],
       "settings": {
         "full_width": true,
-        "extra_css_class": "right-left-section pt-0 section-wrapper-margin-b",
+        "extra_css_class": "right-left-section pt-0 section-wrapper-margin-b square-img",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
