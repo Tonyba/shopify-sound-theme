@@ -11,8 +11,7 @@ only way to do it on Shopify right now.
 {%- endcomment -%}
 
 
-<link rel="preload" href="{{ product.media.first | img_url  }}" as="image">
-
+<link rel="preload" href="{{ product.media.first | img_url: 'master' }}" as="image">
 
 
 {% assign filtered_indexes = null | sort %}
