@@ -15,7 +15,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/contact.jpg",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
+            "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "SUPPORT",
@@ -36,7 +36,8 @@
         "image_tqVHTh"
       ],
       "custom_css": [
-
+        ".slideshow .content-over-media {height: 400px;}",
+        "@media only screen and (max-width: 699px) {.slideshow .content-over-media {height: 350px; }}"
       ],
       "settings": {
         "full_width": true,
@@ -46,7 +47,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
