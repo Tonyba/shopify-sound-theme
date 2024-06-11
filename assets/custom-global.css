@@ -472,7 +472,13 @@ label[for="swatch-template--16704955187353__main---swatch-template-1670495518735
         flex-basis: 50%;        
         flex-wrap: wrap;
     }
+    
 
+    .footer__wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+   
     .column-lg-tablet {
         flex-direction: column;
     }
