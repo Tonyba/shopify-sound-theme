@@ -55,7 +55,8 @@
     margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 1024px) {
 
     .three-seconds-heat .d-none-desktop h2 {
         font-size: 30px;
@@ -88,8 +89,6 @@
     }
 
     .three-seconds-heat .section-wrapper-padding:after {
-
-
         opacity: 0.5;
         z-index: 1;
     }
