@@ -34,11 +34,11 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
 
     {%- unless settings.heading_font.system? -%}
-      {{ settings.heading_font | font_url | preload_tag: as: 'font', type: 'font/woff2' }}
+      <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
 
     {%- unless settings.text_font.system? -%}
-      {{ settings.text_font | font_url | preload_tag: as: 'font', type: 'font/woff2' }}
+      <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
 
 
