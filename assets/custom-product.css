@@ -165,6 +165,14 @@ compare-at-price {
     padding-right: 50px;
 }
 
+@media only screen and (max-width: 1024px) {
+    .right-left-section p {
+        font-size: 18px;
+    }
+}
+
+
+
 /*right-left sections end*/
 
 #shopify-section-template--16709264310425__multiple_images_with_text_Pwad3c .section,
