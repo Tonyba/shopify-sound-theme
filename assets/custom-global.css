@@ -493,6 +493,10 @@ label[for="swatch-template--16704955187353__main---swatch-template-1670495518735
         margin-inline-end: unset;
         max-width: 100%;
     }
+
+    .footer__block-list {
+        flex-wrap: wrap !important;
+    }
 }
 
 
