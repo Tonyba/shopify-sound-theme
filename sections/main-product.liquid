@@ -12,9 +12,8 @@
 
 
   <link rel="preload" as="image" 
-    href="{{ product.featured_media | img_url }}" 
-    imagesrcset="{{ product.featured_media | img_url: '360x' }} 360w, {{ product.featured_media | img_url: '540x' }} 540w, {{ product.featured_media | img_url: '720x' }} 720w, 
-  {{ product.featured_media | img_url: '900x' }} 900w, {{ product.featured_media | img_url: '1080x' }} 1080w" imagesizes="180vw">
+    href="{{ product.featured_media | img_url: '600' }}" 
+    imagesrcset="{{ product.featured_media | img_url: '360x' }} 360w, {{ product.featured_media | img_url: '540x' }} 540w, {{ product.featured_media | img_url: '720x' }} 720w" imagesizes="180vw">
 
 
 
