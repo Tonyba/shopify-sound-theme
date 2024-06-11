@@ -2,21 +2,6 @@
 
 
 <style>
-    
-
-    .three-seconds-heat .section-wrapper-padding:before {
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background-image: url({{ section.settings.bg_image | image_url }}); 
-        z-index: 1;
-        background-repeat: no-repeat;
-        background-size: auto 100%
-    }
-
     .three-seconds-heat .section-wrapper-padding:after {
         position: absolute;
         content: "";
@@ -26,24 +11,26 @@
         top: 0;
         left: 0;
     }
-
 </style>
 
-<div class="d-none-desktop center section-wrapper-margin-b">
+<div class="d-none-desktop center section-wrapper-margin-b three-seconds-headings">
     <h2  >{{ section.settings.heading }}</h2>
     <div class="subheading">{{ section.settings.subheading }}</div>
 </div>
 
 <div class="section-wrapper-padding relative">
 
- 
+    <div class="image">
+        {{- section.settings.bg_image | image_url: width: section.settings.bg_image.width | image_tag: loading: 'lazy', sizes: '(max-width: 1200px) 420px, 767px, 1024px', widths: '420,767,1024,1200' -}}
+    </div>
+    
 
     <div class="container relative z-1">
-        <div class="flex column-mobile">
-            <div class="grid-item w-42 w-100-mobile">
+        <div class="flex column-tablet-lg">
+            <div class="grid-item w-42 w-100-tablet">
                 
             </div>
-            <div class="grid-item w-58 w-100-mobile">
+            <div class="grid-item w-58 w-100-tablet">
                 <div class="content-container">
                     <h2 class="d-none-tablet"  >{{ section.settings.heading }}</h2>
 
