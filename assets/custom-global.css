@@ -488,6 +488,7 @@ label[for="swatch-template--16704955187353__main---swatch-template-1670495518735
 
     .footer__block-list {
         flex-wrap: wrap !important;
+        gap: 0;
     }
 
     .footer__block--menu {
