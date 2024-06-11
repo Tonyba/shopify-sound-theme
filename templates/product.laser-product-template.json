@@ -372,18 +372,6 @@
         "right_img": "shopify:\/\/shop_images\/beautiful-girl-with-perfect-face_1.png"
       }
     },
-    "custom_html_4PayMf": {
-      "type": "custom-html",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<br>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "routine_yaThnt": {
       "type": "routine",
       "blocks": {
@@ -608,7 +596,7 @@
         "slide_m9yrU3"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/dc2a7c13e3c98f6f1c70004dde2e2947.png",
+        "image": "shopify:\/\/shop_images\/In_the_Box.png",
         "bg_Color": "#f3f3f3",
         "heading": "In the Box",
         "text": "Your brand new hair removal routine with SkinPetra. Everything you need for smooth, hair-free skin is right here."
@@ -747,7 +735,6 @@
     "two_cols_price_table_with_image_tjAkjz",
     "product_testimonials_KVrUgn",
     "safety_body_parts_CUBHMY",
-    "custom_html_4PayMf",
     "routine_yaThnt",
     "press_carousel_idJVxd",
     "multiple_images_with_text_rbVrWj",

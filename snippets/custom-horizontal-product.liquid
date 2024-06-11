@@ -2,7 +2,7 @@
 {{ 'custom-horizontal-product.css' | asset_url | stylesheet_tag }}
 
 
-<div class="horizontal-custom-prod">
+<div class="horizontal-custom-prod flex flex-column space-between">
     <div class="grid cols-2 align-item-center">
 
         <div class="grid-item">
@@ -22,7 +22,12 @@
         </div>
         <div class="grid-item horizontal-img">
             <a href="{{ product.url }}">           
-             {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 64px, 280px', widths: '64,128,165,280', class: 'horizontal-product__image rounded-xs' -}}
+                {% if img %}
+                    {{- img | image_url: width: img.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 64px, 280px', widths: '64,128,165,280', class: 'horizontal-product__image rounded-xs' -}}
+                    {% else %}
+                    {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 64px, 280px', widths: '64,128,165,280', class: 'horizontal-product__image rounded-xs' -}}
+                {% endif %}
+             
             </a>
         </div>
     

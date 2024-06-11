@@ -55,7 +55,32 @@
     margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+
+.three-seconds-heat .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 40%;
+}
+
+.three-seconds-heat .image img {
+    object-fit: cover;
+    height: 100%
+}
+
+.three-seconds-headings {
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .three-seconds-heat .image,
+    .three-seconds-heat .image img  {
+        width: 100%;
+    }
 
     .three-seconds-heat .d-none-desktop h2 {
         font-size: 30px;
@@ -88,8 +113,6 @@
     }
 
     .three-seconds-heat .section-wrapper-padding:after {
-
-
         opacity: 0.5;
         z-index: 1;
     }

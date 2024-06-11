@@ -107,16 +107,10 @@
     "check_list_P9dcVV": {
       "type": "check-list",
       "blocks": {
-        "slide_Gxw6Dy": {
+        "slide_QAWVhK": {
           "type": "slide",
           "settings": {
-            "text": "Micro-Etched Crystals & Comfortable Grip Design"
-          }
-        },
-        "slide_QekVAJ": {
-          "type": "slide",
-          "settings": {
-            "text": "Targets Both Unwanted Hairs and \"Chicken Skin\""
+            "text": "Micro-Etched Crystals & Comfortable Grip"
           }
         },
         "slide_gjraUy": {
@@ -131,12 +125,6 @@
             "text": "Painlessly Effective and Super Convenient"
           }
         },
-        "slide_4bPaAQ": {
-          "type": "slide",
-          "settings": {
-            "text": "Time-Saving and Economical Solution"
-          }
-        },
         "slide_afFLeE": {
           "type": "slide",
           "settings": {
@@ -145,16 +133,14 @@
         }
       },
       "block_order": [
-        "slide_Gxw6Dy",
-        "slide_QekVAJ",
+        "slide_QAWVhK",
         "slide_gjraUy",
         "slide_rQTwLL",
-        "slide_4bPaAQ",
         "slide_afFLeE"
       ],
       "settings": {
         "bg_color": "#ece3dc",
-        "image": "shopify:\/\/shop_images\/c92f017f13b5c38f44ac046428d87526_1_1.png"
+        "image": "shopify:\/\/shop_images\/Background_Removed.png"
       }
     },
     "product_testimonials_prqpDg": {
@@ -703,7 +689,7 @@
         "slide_7NGFbc"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/b0b9445f09b62098f14712f52fd5ce2f.png",
+        "image": "shopify:\/\/shop_images\/In_the_Box_Hair_Removal.png",
         "bg_Color": "#f3f3f3",
         "heading": "In the Box",
         "text": "You’ll get the SkinPetra Crystal Hair Remover accompanied by a custom bag for convenient storage and travel."
