@@ -70,6 +70,10 @@
     height: 100%
 }
 
+.three-seconds-headings {
+    margin-bottom: 50px;
+}
+
 @media only screen and (max-width: 1024px) {
 
     .three-seconds-heat .image,
