@@ -4,18 +4,17 @@
 <style>
     
 
-    .three-seconds-heat .image {
+    .three-seconds-heat .section-wrapper-padding:before {
         position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
         top: 0;
         left: 0;
+        background-image: url({{ section.settings.bg_image | image_url }}); 
         z-index: 1;
-        height: 100%;
-        width: 40%;
-    }
-
-    .three-seconds-heat .image img {
-        object-fit: cover;
-        height: 100%
+        background-repeat: no-repeat;
+        background-size: auto 100%
     }
 
     .three-seconds-heat .section-wrapper-padding:after {
@@ -37,11 +36,6 @@
 
 <div class="section-wrapper-padding relative">
 
-    <div class="image">
-    
-        {{- section.settings.bg_image | image_url: width: section.settings.bg_image.width | image_tag: loading: 'lazy', sizes: '(max-width: 1200px) 300px, 768px, 1024px', widths: '300,768,1024,1200' -}}
-
-    </div>
  
 
     <div class="container relative z-1">
