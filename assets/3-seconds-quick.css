@@ -72,7 +72,8 @@
 
 @media only screen and (max-width: 1024px) {
 
-    .three-seconds-heat .image {
+    .three-seconds-heat .image,
+    .three-seconds-heat .image img  {
         width: 100%;
     }
 
