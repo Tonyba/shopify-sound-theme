@@ -11,7 +11,11 @@ only way to do it on Shopify right now.
 {%- endcomment -%}
 
 
-<link rel="preload" href="//shop-sitetest.myshopify.com/cdn/shop/files/Product---3.jpg?v=1717148761&width=600" as="image">
+{% if template == 'product' %}
+
+  <link rel="preload" as="image" href="{{ product.media.first | img_url: '600x' }}">
+
+{% endif %}
 
 {% assign filtered_indexes = null | sort %}
 
