@@ -456,6 +456,9 @@ label[for="swatch-template--16704955187353__main---swatch-template-1670495518735
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .column-tablet-lg {
+        flex-direction: column;
+    }
     
     .d-none-tablet {
         display: none;
