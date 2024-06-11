@@ -11,6 +11,7 @@
 {% endif %}
 
 
+<link rel="preload" as="image" href="{{ product.media.first | img_url: '600x' }}">
 
 {%- render 'section-spacing-collapsing' -%}
 
