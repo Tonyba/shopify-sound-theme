@@ -36,6 +36,11 @@
 
 <div class="section-wrapper-padding relative">
 
+    <div class="image">
+    
+        {{- section.settings.bg_image | image_url: width: section.settings.bg_image.width | image_tag: loading: 'lazy', sizes: '(max-width: 1200px) 300px, 768px, 1024px', widths: '300,768,1024,1200' -}}
+
+    </div>
  
 
     <div class="container relative z-1">
