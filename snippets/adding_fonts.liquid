@@ -7,9 +7,9 @@
 
 %}
 
-{{ font_700  | preload_tag: as: 'font', type: 'font/woff2' }}
-{{ font_500  | preload_tag: as: 'font', type: 'font/woff2' }}
-{{ font_300  | preload_tag: as: 'font', type: 'font/woff2' }}
+{{ font_700  | preload_tag: as: 'font', type: 'font/woff2',  crossorigin:"anonymous" }}
+{{ font_500  | preload_tag: as: 'font', type: 'font/woff2',  crossorigin:"anonymous" }}
+{{ font_300  | preload_tag: as: 'font', type: 'font/woff2', crossorigin:"anonymous" }}
 
 <style>
     @font-face {
