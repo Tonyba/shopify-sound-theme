@@ -49,7 +49,11 @@
     .visible-results .image {
         max-height: unset;
         height: 100%;
-        width: 60%;
+        width: 30%;
+    }
+
+    .visible-results img {
+        height: 100%;
     }
 }
 
