@@ -1,4 +1,4 @@
-{{ 'what-make-it-special.css' | asset_url | stylesheet_tag }}
+{%- render 'css_async', css: 'what-make-it-special.css', section_index: section.index -%}
 
 <div class="section-wrapper-margin">
     <div class="container">
