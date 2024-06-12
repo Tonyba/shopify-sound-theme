@@ -60,6 +60,12 @@
 
 
 
+@media only screen and (max-width: 1364px) { 
+    .product-features .container {
+        flex-direction: column;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .product-features .image {
         position: unset;
