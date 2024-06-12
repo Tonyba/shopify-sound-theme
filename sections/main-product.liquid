@@ -12,7 +12,10 @@
 
 
 {% if template contains 'product' %}
-  <link rel="preload" href="{{ product.media.first | img_url: 'master' }}" as="image">
+  <link rel="preload" 
+    href="{{ product.media.first | image_url: width: media.preview_image.width }}" 
+    as="image"
+>
 {% endif %}
 
 
