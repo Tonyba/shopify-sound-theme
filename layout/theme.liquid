@@ -62,6 +62,13 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 
     {{-  'lazyload-bg-img.css' | asset_url | stylesheet_tag: preload: true -}}
     <script src="{{ 'lazyload-bg-img.js' | asset_url }}" defer></script>
+
+    {% if template contains 'product' %}
+      <link rel="preload" 
+        href="{{ product.media.first | image_url: width: '600x' }}" 
+        as="image"
+    >
+    {% endif %}
   </head>
 
   <body class="{% if settings.show_page_transition %}page-transition{% endif %} {% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
