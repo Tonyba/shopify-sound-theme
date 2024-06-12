@@ -1,4 +1,4 @@
-{{ 'customer-testimonials.css' | asset_url | stylesheet_tag }}
+{% render 'css_async' css: 'customer-testimonials.css', index: section.index %}
 
 <div class="container">
     <h2>  {{ section.settings.heading }}</h2>
