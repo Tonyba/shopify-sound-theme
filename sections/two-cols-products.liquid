@@ -1,5 +1,5 @@
 
-{{ 'two-cols-products.css' | asset_url | stylesheet_tag }}
+{% render 'css_async' css: 'two-cols-products.css', index: section.index %}
 
 <div
   class="products-wrapper"
