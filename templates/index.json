@@ -225,84 +225,6 @@
         "bottom_img_1": "shopify:\/\/shop_images\/Homepage.png"
       }
     },
-    "videos_grid_xbhNpg": {
-      "type": "videos-grid",
-      "blocks": {
-        "slide_ngaVbM": {
-          "type": "slide",
-          "settings": {
-            "is_in_loop": true,
-            "full_width": false,
-            "allow_transparent_header": false,
-            "autoplay": false,
-            "video_size": "auto",
-            "video": "shopify:\/\/files\/videos\/Snaptik.app_7262147424884378885.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "slide_nRUXi6": {
-          "type": "slide",
-          "settings": {
-            "is_in_loop": true,
-            "full_width": false,
-            "allow_transparent_header": false,
-            "autoplay": false,
-            "video_size": "auto",
-            "video": "shopify:\/\/files\/videos\/Snaptik.app_7262147424884378885.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "slide_kAizwX": {
-          "type": "slide",
-          "settings": {
-            "is_in_loop": true,
-            "full_width": false,
-            "allow_transparent_header": false,
-            "autoplay": false,
-            "video_size": "auto",
-            "video": "shopify:\/\/files\/videos\/Snaptik.app_7262147424884378885.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "slide_YgM6NJ": {
-          "type": "slide",
-          "settings": {
-            "is_in_loop": true,
-            "full_width": false,
-            "allow_transparent_header": false,
-            "autoplay": false,
-            "video_size": "auto",
-            "video": "shopify:\/\/files\/videos\/Snaptik.app_7262147424884378885.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "slide_ngaVbM",
-        "slide_nRUXi6",
-        "slide_kAizwX",
-        "slide_YgM6NJ"
-      ],
-      "custom_css": [
-        "{display: none;}"
-      ],
-      "settings": {
-        "heading": "Video Testimonials",
-        "extra_classes": "section-wrapper-margin-t"
-      }
-    },
     "customer_testimonials_7AXfGP": {
       "type": "customer-testimonials",
       "blocks": {
@@ -356,25 +278,6 @@
         "heading": "Customer Testimonials"
       }
     },
-    "product_carousel_CYqLXT": {
-      "type": "product-carousel",
-      "custom_css": [
-        "{display: none;}"
-      ],
-      "settings": {
-        "bg_color": "#f3f3f3",
-        "heading": "Best Bundles",
-        "products": [
-          "crystal-hair-remover",
-          "laser-light-therapy-mask",
-          "skinpetra-hair-removal",
-          "skinpetra-high-frequency-therapy",
-          "skinpetra-warm-uterus-waist"
-        ],
-        "product_card_background": "#ffffff",
-        "product_card_text_color": "#1a1a1a"
-      }
-    },
     "two_cols_img_carousel_7KGijH": {
       "type": "two-cols-img-carousel",
       "custom_css": [
@@ -410,9 +313,7 @@
     "two_cols_products_gRDEqC",
     "reviews_scroller_jWQtdn",
     "product_grid_with_photo_pp868q",
-    "videos_grid_xbhNpg",
     "customer_testimonials_7AXfGP",
-    "product_carousel_CYqLXT",
     "two_cols_img_carousel_7KGijH",
     "blog_home_loop_ttXaDD"
   ]

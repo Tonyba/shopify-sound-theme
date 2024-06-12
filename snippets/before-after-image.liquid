@@ -3,7 +3,7 @@
       {%- capture sizes -%}(max-width: 999px) 100vw, {% if text_position == 'center' and expand_image %}min({{ settings.page_width }}px, 100vw){% else %}1000px{% endif %}{%- endcapture -%}
 
       {%- if before_image != blank -%}
-        {{- before_image | image_url: width: before_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', draggable: false, class: 'rounded w-full' -}}
+        {{- before_image | image_url: width: before_image.width | image_tag: loading: 'lazy', decoding: 'async', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', draggable: false, class: 'rounded w-full' -}}
       {%- else -%}
         {{- 'lifestyle-1' | placeholder_svg_tag: 'placeholder rounded' | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"' -}}
       {%- endif -%}
@@ -17,7 +17,7 @@
 
     <div {% render 'surface', class: 'before-after__after-image', text_color: after_text_color %}>
       {%- if after_image != blank -%}
-        {{- after_image | image_url: width: after_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', class: 'object-fill rounded', draggable: false -}}
+        {{- after_image | image_url: width: after_image.width | image_tag: loading: 'lazy', decoding: 'async', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', class: 'object-fill rounded', draggable: false -}}
       {%- else -%}
         {{- 'lifestyle-2' | placeholder_svg_tag: 'bg-text filter-invert rounded' | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"' -}}
       {%- endif -%}

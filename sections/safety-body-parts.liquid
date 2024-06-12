@@ -1,7 +1,5 @@
-{{ 'safety-body-parts.css' | asset_url | stylesheet_tag }}
-{{ 'body-parts-icon.css' | asset_url | stylesheet_tag }}
-
-
+{% render 'css_async' css: 'safety-body-parts.css' index: section.index %}
+{% render 'css_async' css: 'body-parts-icon.css' index: section.index %}
 
 <div class="section-wrapper-padding relative {{section.settings.style}}" style="background-color: {{ section.settings.bg_color }}" >
 

@@ -1,11 +1,11 @@
-{{ 'custom-product.css' | asset_url | stylesheet_tag }}
+{{ 'custom-product.css' | asset_url | stylesheet_tag: preload: true }}
 
 {%liquid 
   assign laser_therapy_id = 7998517149849
 %}
 
 {% if product.id == laser_therapy_id %}
-  {{ 'laser-therapy-mask.css' | asset_url | stylesheet_tag }}
+  {{ 'laser-therapy-mask.css' | asset_url | stylesheet_tag: preload: true }}
   <script src="{{ 'jquery.min.js' | asset_url }}" defer></script>
   <script src="{{ 'laser-therapy-mask.js' | asset_url }}" defer></script>
 {% endif %}

@@ -1,5 +1,5 @@
-{{ 'press-carousel.css' | asset_url | stylesheet_tag }}
-{{ 'splide.min.css' | asset_url | stylesheet_tag }}
+{%- render 'css_async', css: 'press-carousel.css', section_index: section.index -%}
+{%- render 'css_async', css: 'splide.min.css', section_index: section.index -%}
 
 <div class="section-wrapper-margin">
     <div class="headings center">

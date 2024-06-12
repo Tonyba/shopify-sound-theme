@@ -1,4 +1,4 @@
-{{ 'visible-results.css' | asset_url | stylesheet_tag }}
+{% render 'css_async' css: 'visible-results.css', index: section.index %}
 
 <div class="wrapper flex gap-40   column-lg-tablet-reversed align-item-center relative" style="background:{{ section.settings.bg_color }}" >
 

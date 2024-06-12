@@ -1,5 +1,5 @@
-{{ 'body-parts-icon.css' | asset_url | stylesheet_tag }}
-{{ 'two-cols-body-part.css'| asset_url | stylesheet_tag }}
+{% render 'css_async' css: 'two-cols-body-part.css', index: section.index %}
+{% render 'css_async' css: 'body-parts-icon.css', index: section.index %}
 
 <div class="container">
 

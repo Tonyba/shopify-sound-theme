@@ -60,6 +60,29 @@
 
 
 
+@media only screen and (max-width: 1364px) { 
+    .product-features .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .product-features .image {
+        position: unset;
+        margin: auto;
+    }
+
+    .product-features .inner-container {
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .product-features .section-wrapper-padding {
+        padding-bottom: 150px;
+        padding-top: 100px;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .product-features .image {
         position: unset;

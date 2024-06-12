@@ -1,5 +1,5 @@
 
-{{ 'custom-horizontal-product.css' | asset_url | stylesheet_tag }}
+{% render 'css_async' css: 'custom-horizontal-product.css' %}
 
 
 <div class="horizontal-custom-prod flex flex-column space-between">

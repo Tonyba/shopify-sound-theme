@@ -1,5 +1,5 @@
 
-{{ 'hightlight-list.css' | asset_url | stylesheet_tag }}
+{% render 'css_async' css: 'hightlight-list.css', index: section.index %}
 
 <style>
     .hightlist-list img  {

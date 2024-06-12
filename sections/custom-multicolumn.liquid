@@ -1,4 +1,4 @@
-{{ 'custom-multicolumn.css' | asset_url | stylesheet_tag }}
+{%- render 'css_async', css: 'custom-multicolumn.css', section_index: section.index -%}
 
 <div class="container section-wrapper-margin-b">
 

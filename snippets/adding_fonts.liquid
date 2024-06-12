@@ -1,0 +1,40 @@
+
+{% liquid
+
+    assign font_500 = 'ibm-plex-sans-v19-latin-500.woff2' | asset_url
+    assign font_700 = 'ibm-plex-sans-v19-latin-700.woff2' | asset_url
+    assign font_300 = 'ibm-plex-sans-v19-latin-300.woff2' | asset_url
+
+%}
+
+{{ font_700  | preload_tag: as: 'font', type: 'font/woff2',  crossorigin:"anonymous" }}
+{{ font_500  | preload_tag: as: 'font', type: 'font/woff2',  crossorigin:"anonymous" }}
+{{ font_300  | preload_tag: as: 'font', type: 'font/woff2', crossorigin:"anonymous" }}
+
+<style>
+    @font-face {
+        font-display: swap; 
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: url({{font_700}}) format("woff2");
+    }
+    
+    @font-face {
+        font-display: swap; 
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 500;
+        src: url({{font_500}}) format("woff2");
+    }
+    
+    @font-face {
+        font-display: swap; 
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 300;
+        src: url({{font_300}}) format("woff2");
+    }
+    /*extra weights for main font end*/
+
+</style>

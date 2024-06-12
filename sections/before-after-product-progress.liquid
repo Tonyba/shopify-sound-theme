@@ -1,4 +1,5 @@
-{{ 'before-after-product-progress.css' | asset_url | stylesheet_tag }}
+{% render 'css_async' css: 'before-after-product-progress.css', index: section.index %}
+
 
 <style>
     #shopify-section-{{ section.id }} {

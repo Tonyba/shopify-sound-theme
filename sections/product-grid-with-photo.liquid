@@ -1,4 +1,4 @@
-{{ 'product-grid-with-photo.css' | asset_url | stylesheet_tag }}
+{% render 'css_async' css: 'product-grid-with-photo.css', index: section.index %}
 
 
 <div style="background-color: {{ section.settings.bg_color }} " >
