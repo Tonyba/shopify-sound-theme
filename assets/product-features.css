@@ -74,6 +74,7 @@
     .product-features .inner-container {
         margin: auto;
         margin-bottom: 20px;
+        text-align: center;
     }
 }
 
@@ -81,7 +82,6 @@
     .product-features .image {
         position: unset;
         margin: auto;
-        text-align: center;
     }
 
     .features-container{
