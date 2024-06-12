@@ -1,5 +1,5 @@
-{{ 'tiktok-carousel.css' | asset_url | stylesheet_tag }}
-{{ 'splide.min.css' | asset_url | stylesheet_tag }}
+{% render 'css_async' css: 'tiktok-carousel.css', index: section.index %}
+{% render 'css_async' css: 'splide.min.css', index: section.index %}
 
 <div class="section-wrapper-margin">
 
