@@ -110,6 +110,7 @@
         "slide_tWeeq9": {
           "type": "slide",
           "settings": {
+            "simple_img": "shopify:\/\/shop_images\/1_04ae628f-0da3-466c-b964-ecf666126e34.jpg",
             "tab_title": "1-4 Weeks",
             "title": "1-4 Weeks",
             "subtitle": "3 treatments per week",
@@ -125,6 +126,7 @@
         "slide_QHgzCz": {
           "type": "slide",
           "settings": {
+            "simple_img": "shopify:\/\/shop_images\/2_32b5fc8e-3b1a-4e96-a493-d6564a4a36ad.jpg",
             "tab_title": "5-8 Weeks",
             "title": "5-8 Weeks",
             "subtitle": "3 treatments per week",
@@ -160,7 +162,7 @@
       ],
       "settings": {
         "heading": "Full Body Hair Removal Treatment",
-        "just_simple_image": false,
+        "just_simple_image": true,
         "max_width": 480,
         "reverse_heading": false,
         "subheading": "in Less than 30 Minutes",
