@@ -1,4 +1,4 @@
-{{ 'two-cols-price-table-with-image.css' | asset_url | stylesheet_tag }}
+{% render 'css_async' css: 'two-cols-price-table-with-image.css' index: section.index %}
 
 <div class="section-wrapper-padding" style="background-color: {{ section.settings.bg_color }}" >
 
