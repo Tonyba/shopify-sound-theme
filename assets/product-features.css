@@ -76,6 +76,11 @@
         margin-bottom: 20px;
         text-align: center;
     }
+
+    .product-features .section-wrapper-padding {
+        padding-bottom: 0;
+        padding-top: 100px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
