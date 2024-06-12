@@ -17,7 +17,7 @@
 
     <div {% render 'surface', class: 'before-after__after-image', text_color: after_text_color %}>
       {%- if after_image != blank -%}
-        {{- after_image | image_url: width: after_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', class: 'object-fill rounded', draggable: false -}}
+        {{- after_image | image_url: width: after_image.width | image_tag: loading: 'lazy', decoding: 'async', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', class: 'object-fill rounded', draggable: false -}}
       {%- else -%}
         {{- 'lifestyle-2' | placeholder_svg_tag: 'bg-text filter-invert rounded' | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"' -}}
       {%- endif -%}
