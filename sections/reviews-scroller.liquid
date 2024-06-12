@@ -1,6 +1,6 @@
+{% render 'css_async' css: 'reviews-scroller.css', index: section.index %}
+{% render 'css_async' css: 'splide.min.css', index: section.index %}
 
-{{ "reviews-scroller.css" | asset_url | stylesheet_tag }}
-{{ "splide.min.css" | asset_url | stylesheet_tag }}
 
 {%liquid
     assign s = section.settings
