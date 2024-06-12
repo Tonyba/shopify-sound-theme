@@ -65,6 +65,11 @@
         display: flex;
         flex-direction: column;
     }
+
+    .product-features .image {
+        position: unset;
+        margin: auto;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
