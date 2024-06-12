@@ -67,7 +67,10 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
       <link rel="preload" 
         href="{{ product.media.first | image_url: width: '600x' }}" 
         as="image"
-        imagesrcset="{{ product.media.first | image_url: width: '200x' }} 200w,{{ product.media.first | image_url: width: '300x' }} 300w,{{ product.media.first | image_url: width: '400x' }} 400w,{{ product.media.first | image_url: width: '500x' }} 500w">
+        imagesrcset="{{ product.media.first | image_url: width: '200x' }} 200w,{{ product.media.first | image_url: width: '300x' }} 300w,{{ product.media.first | image_url: width: '400x' }} 400w,{{ product.media.first | image_url: width: '500x' }} 500w"
+        imagesizes="(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min(760px, 42vw)"
+      >
+
     {% endif %}
   </head>
 
