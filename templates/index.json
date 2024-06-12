@@ -356,25 +356,6 @@
         "heading": "Customer Testimonials"
       }
     },
-    "product_carousel_CYqLXT": {
-      "type": "product-carousel",
-      "custom_css": [
-        "{display: none;}"
-      ],
-      "settings": {
-        "bg_color": "#f3f3f3",
-        "heading": "Best Bundles",
-        "products": [
-          "crystal-hair-remover",
-          "laser-light-therapy-mask",
-          "skinpetra-hair-removal",
-          "skinpetra-high-frequency-therapy",
-          "skinpetra-warm-uterus-waist"
-        ],
-        "product_card_background": "#ffffff",
-        "product_card_text_color": "#1a1a1a"
-      }
-    },
     "two_cols_img_carousel_7KGijH": {
       "type": "two-cols-img-carousel",
       "custom_css": [
@@ -412,7 +393,6 @@
     "product_grid_with_photo_pp868q",
     "videos_grid_xbhNpg",
     "customer_testimonials_7AXfGP",
-    "product_carousel_CYqLXT",
     "two_cols_img_carousel_7KGijH",
     "blog_home_loop_ttXaDD"
   ]
