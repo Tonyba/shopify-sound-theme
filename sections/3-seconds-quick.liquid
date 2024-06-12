@@ -1,5 +1,4 @@
-{{ '3-seconds-quick.css' | asset_url | stylesheet_tag }}
-
+{%- render 'css_async', css: '3-seconds-quick.css' -%}
 
 <style>
     .three-seconds-heat .section-wrapper-padding:after {
