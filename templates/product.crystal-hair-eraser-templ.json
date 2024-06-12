@@ -334,100 +334,6 @@
         "subheading": "Perfect for Every Part of YourBody"
       }
     },
-    "tiktok_carousel_Q9fTUh": {
-      "type": "tiktok-carousel",
-      "blocks": {
-        "slide_ULPLBD": {
-          "type": "slide",
-          "settings": {
-            "is_in_loop": true,
-            "full_width": false,
-            "allow_transparent_header": false,
-            "autoplay": false,
-            "video_size": "auto",
-            "video": "shopify:\/\/files\/videos\/Snaptik.app_7262147424884378885.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "slide_hXzW4e": {
-          "type": "slide",
-          "settings": {
-            "is_in_loop": true,
-            "full_width": false,
-            "allow_transparent_header": false,
-            "autoplay": false,
-            "video_size": "auto",
-            "video": "shopify:\/\/files\/videos\/Snaptik.app_7262147424884378885.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "slide_RkNGA6": {
-          "type": "slide",
-          "settings": {
-            "is_in_loop": true,
-            "full_width": false,
-            "allow_transparent_header": false,
-            "autoplay": false,
-            "video_size": "auto",
-            "video": "shopify:\/\/files\/videos\/Snaptik.app_7262147424884378885.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "slide_HaRFWT": {
-          "type": "slide",
-          "settings": {
-            "is_in_loop": true,
-            "full_width": false,
-            "allow_transparent_header": false,
-            "autoplay": false,
-            "video_size": "auto",
-            "video": "shopify:\/\/files\/videos\/Snaptik.app_7262147424884378885.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "slide_7ALhUL": {
-          "type": "slide",
-          "settings": {
-            "is_in_loop": true,
-            "full_width": false,
-            "allow_transparent_header": false,
-            "autoplay": false,
-            "video_size": "auto",
-            "video": "shopify:\/\/files\/videos\/Snaptik.app_7262147424884378885.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "slide_ULPLBD",
-        "slide_hXzW4e",
-        "slide_RkNGA6",
-        "slide_HaRFWT",
-        "slide_7ALhUL"
-      ],
-      "custom_css": [
-        "{display: none;}"
-      ],
-      "settings": {
-        "heading": "What TikTok Says About Us?",
-        "text": "<p>With over 120 Million Views on TikTok, <a href=\"#\" target=\"_blank\" title=\"#\">#SkinPetra<\/a> products are loved and trusted by many. Check out some of The Most Popular Videos<\/p>"
-      }
-    },
     "two_cols_price_table_with_image_JjB7wC": {
       "type": "two-cols-price-table-with-image",
       "blocks": {
@@ -827,7 +733,6 @@
     "product_testimonials_prqpDg",
     "before_after_product_progress_xD6BQm",
     "two_cols_body_part_zqetUw",
-    "tiktok_carousel_Q9fTUh",
     "two_cols_price_table_with_image_JjB7wC",
     "routine_FCAXLF",
     "press_carousel_MYGMMi",
