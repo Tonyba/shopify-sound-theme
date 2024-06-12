@@ -292,18 +292,6 @@
         "right_img": "shopify:\/\/shop_images\/IMAGEEE.jpg",
         "img_url": "shopify:\/\/collections\/all"
       }
-    },
-    "blog_home_loop_ttXaDD": {
-      "type": "blog-home-loop",
-      "custom_css": [
-        "{display: none;}"
-      ],
-      "settings": {
-        "heading": "Blogs",
-        "btn_text": "View All",
-        "btn_link": "shopify:\/\/blogs\/news",
-        "blog_posts": "news"
-      }
     }
   },
   "order": [
@@ -314,7 +302,6 @@
     "reviews_scroller_jWQtdn",
     "product_grid_with_photo_pp868q",
     "customer_testimonials_7AXfGP",
-    "two_cols_img_carousel_7KGijH",
-    "blog_home_loop_ttXaDD"
+    "two_cols_img_carousel_7KGijH"
   ]
 }
