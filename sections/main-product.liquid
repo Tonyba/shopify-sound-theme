@@ -10,12 +10,10 @@
   <script src="{{ 'laser-therapy-mask.js' | asset_url }}" defer></script>
 {% endif %}
 
-  <link rel="preload" as="image" 
-    href="{{ product.featured_image | image_url: product.featured_image.width }}" 
-    imagesrcset="{{ product.featured_image | img_url: '360x' }} 360w, {{ product.featured_image | img_url: '540x' }} 540w, 
-    {{ product.featured_image | img_url: '720x' }} 720w" 
-    imagesizes="(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min(580px, 30vw)">
 
+{% if template contains 'product' %}
+  <link rel="preload" href="{{ product.media.first | img_url: 'master' }}" as="image">
+{% endif %}
 
 
 {%- render 'section-spacing-collapsing' -%}
