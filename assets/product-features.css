@@ -63,7 +63,7 @@
 @media only screen and (max-width: 1364px) { 
     .product-features .container {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .product-features .image {
