@@ -381,6 +381,7 @@ h1.product-info__title {
     flex-direction: row !important;
     flex-wrap: wrap !important;
     align-items: center !important;
+    column-gap: 10px;
 }
 
 
