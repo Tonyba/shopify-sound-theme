@@ -380,7 +380,7 @@ h1.product-info__title {
 .moonbundle-option-col {
     flex-direction: row !important;
     flex-wrap: wrap !important;
-    align-items: center;
+    align-items: center !important;
 }
 
 
