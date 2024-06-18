@@ -376,6 +376,12 @@ h1.product-info__title {
     font-weight: 500;
 }
 
+/*bundles*/
+.moonbundle-option-col {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/*bundles end*/
 
 @media only screen and (max-width: 1024px) {
     .right-left-section .h1 {
