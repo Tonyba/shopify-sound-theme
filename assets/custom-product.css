@@ -378,8 +378,8 @@ h1.product-info__title {
 
 /*bundles*/
 .moonbundle-option-col {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
 }
 /*bundles end*/
 
