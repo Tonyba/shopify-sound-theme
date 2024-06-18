@@ -389,7 +389,7 @@ h1.product-info__title {
 }
 
 .moonbundle-option-active .moonbundle-option-subtitle {
-    color: #c1c1c1;
+    color: red;
 }
 
 .moonbundle-option-subtitle {
