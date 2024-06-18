@@ -389,7 +389,11 @@ h1.product-info__title {
 }
 
 .moonbundle-option-active .moonbundle-option-subtitle {
-    color: #1c1c1c !important;
+    color: #1c1c1c;
+}
+
+.moonbundle-option-active .moonbundle-option-old-price {
+    color: #4d4d4d;
 }
 
 .moonbundle-option-subtitle {
