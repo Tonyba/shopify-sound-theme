@@ -416,6 +416,11 @@ body:has(.moonbundle-box) .new-custom-variation   {
 .moonbundle-title::after {
     background-color: #FF004A !important
 }
+
+.moonbundle-title {
+    font-weight: normal !important;
+}
+
 /*bundles end*/
 
 @media only screen and (max-width: 1024px) {
