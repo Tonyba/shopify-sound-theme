@@ -384,8 +384,8 @@ h1.product-info__title {
     column-gap: 10px;
 }
 
-.moonbundle-option-active {
-    border-width: 2px !important;
+.moonbundle-option:not(.moonbundle-option-active) {
+    border-width: 1px;
 }
 
 .moonbundle-option-subtitle {
