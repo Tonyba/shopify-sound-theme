@@ -27,6 +27,7 @@
     "show_page_transition": true,
     "heading_apparition": "none",
     "color_swatch_style": "square",
+    "color_swatch_config": "Purple:#7e6ea7",
     "show_quick_buy": true,
     "show_product_rating": true,
     "product_color_display": "swatch",
@@ -48,12 +49,6 @@
     "blocks": {
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "7054877461618660028": {
-        "type": "shopify:\/\/apps\/moon-bundle-quantity-breaks\/blocks\/app-embed\/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
         "disabled": false,
         "settings": {
         }

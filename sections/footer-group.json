@@ -10,13 +10,13 @@
           "settings": {
             "title": "About SkinPetra",
             "content": "<p>Intelligent beauty solutions at home.\u2028Joyful, Optimal, Vibrant, Self-care.\u2028Experience the beauty within.<\/p>",
-            "enable_follow_on_shop": true
+            "enable_follow_on_shop": false
           }
         },
         "links_J6WQRU": {
           "type": "links",
           "settings": {
-            "menu": "shop",
+            "menu": "shop-footer",
             "show_menu_title": true
           }
         },
@@ -31,8 +31,8 @@
           "type": "text",
           "settings": {
             "title": "Keep In Touch",
-            "content": "<p>Support: Support@Skinpetra.com<\/p><p>Distributors: Distributor@Skinpetra.com<\/p><p><\/p><p>Mon-Fr: 9AM - 7PM EST<\/p><p>+1833-2558-99658<\/p>",
-            "enable_follow_on_shop": true
+            "content": "<p>Support: <a href=\"mailto:Support@Skinpetra.com\" title=\"mailto:Support@Skinpetra.com\">Support@Skinpetra.com<\/a><\/p><p>Distributors: <a href=\"mailto:Distributor@Skinpetra.com\" title=\"mailto:Distributor@Skinpetra.com\">Distributor@Skinpetra.com<\/a><\/p><p><\/p><p>Mon-Fr: 9AM - 7PM EST<\/p><p>+1833-2558-99658<\/p>",
+            "enable_follow_on_shop": false
           }
         },
         "newsletter": {

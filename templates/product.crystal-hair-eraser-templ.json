@@ -48,7 +48,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": false,
+            "show_payment_button": true,
             "show_gift_card_recipient": true,
             "atc_button_background": "",
             "atc_button_text_color": "",
@@ -571,7 +571,7 @@
       ],
       "settings": {
         "full_width": true,
-        "extra_css_class": "right-left-section pt-0 section-wrapper-margin-b",
+        "extra_css_class": "right-left-section pt-0 section-wrapper-margin-b section-mb-mobile-10",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",

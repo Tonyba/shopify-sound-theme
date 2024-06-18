@@ -193,7 +193,7 @@
       "settings": {
         "full_width": true,
         "extra_css_class": "right-left-section-single",
-        "images_layout": "stacked",
+        "images_layout": "collage",
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
@@ -554,7 +554,7 @@
       ],
       "settings": {
         "full_width": true,
-        "extra_css_class": "right-left-section",
+        "extra_css_class": "right-left-section pt-0 section-wrapper-margin-b section-mb-mobile-10",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",

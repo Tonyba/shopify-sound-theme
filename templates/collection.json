@@ -1,1 +1,49 @@
-{"sections":{"banner":{"type":"collection-banner","settings":{}},"main":{"type":"main-collection","settings":{}}},"order":["banner","main"]}
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/BANNER-SKINPETRA-HOME_3c03efae-9ff8-49f3-bc88-9ab97e662f71.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/1BANNER-MOBILE_0eb15e82-c711-4dac-a422-04c4fda26437.jpg",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main"
+  ]
+}
