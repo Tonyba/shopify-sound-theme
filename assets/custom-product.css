@@ -378,9 +378,11 @@ h1.product-info__title {
 
 /*bundles*/
 
-body:has(.moonbundle-box) .new-custom-variation .product-info__variant-picker:after  {
+body:has(.moonbundle-box) .new-custom-variation .product-info__variant-picker:after,
+body:has(.moonbundle-box) .new-custom-variation   {
     display: none;
 }
+
 
 .moonbundle-option-col {
     flex-direction: row !important;
