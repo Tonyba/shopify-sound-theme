@@ -397,7 +397,8 @@ h1.product-info__title {
 }
 
 .moonbundle-label-inside {
-    border: 1px solid #FF004A
+    border: 1px solid #FF004A;
+    border-radius: 6px;
 }
 
 .moonbundle-option-subtitle {
