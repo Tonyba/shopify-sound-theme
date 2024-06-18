@@ -388,6 +388,10 @@ h1.product-info__title {
     border-width: 1px;
 }
 
+.moonbundle-option-active .moonbundle-option-subtitle {
+    color: #c1c1c1;
+}
+
 .moonbundle-option-subtitle {
     width: 100%;
 }
