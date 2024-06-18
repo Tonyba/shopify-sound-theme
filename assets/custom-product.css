@@ -396,6 +396,10 @@ h1.product-info__title {
     color: #4d4d4d;
 }
 
+.moonbundle-label-inside {
+    border: 1px solid #FF004A
+}
+
 .moonbundle-option-subtitle {
     width: 100%;
 }
