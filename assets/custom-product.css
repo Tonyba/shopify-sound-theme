@@ -404,7 +404,9 @@ h1.product-info__title {
 .moonbundle-option-subtitle {
     width: 100%;
 }
-.moonbundle-title::before, .moonbundle-box .moonbundle-title::after {
+
+.moonbundle-title::before,
+.moonbundle-title::after {
     background-color: #FF004A
 }
 /*bundles end*/
