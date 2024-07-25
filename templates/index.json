@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "slideshow": {
@@ -89,25 +98,25 @@
         "slide_JBgDcE": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/glamour-new-slider-slider.png"
+            "image": "shopify:\/\/shop_images\/glamour-11.png"
           }
         },
         "slide_WwMFBG": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/INSTYLE-NEW-LOGO-SLIDER-1.png"
+            "image": "shopify:\/\/shop_images\/989b6fa6af7634668e8f54a34269440f.png"
           }
         },
         "slide_38cYkM": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vogue-vogue-ew.png"
+            "image": "shopify:\/\/shop_images\/ad3e2346f4c0ed84b29ccdb325793a37.png"
           }
         },
         "slide_zhFnpF": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FORBESSSS.png"
+            "image": "shopify:\/\/shop_images\/Forbes-logo_450x_721773fa-9ddd-43b9-97e5-b5ccf21a025e.png"
           }
         }
       },

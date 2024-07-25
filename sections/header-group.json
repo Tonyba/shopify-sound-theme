@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "header",
   "name": "Header group",
@@ -5,7 +14,7 @@
     "custom_html_nMH4Xg": {
       "type": "custom-html",
       "custom_css": [
-        ".top-shop-message {height: 40px; padding: 7px 0px 0px 0px;}"
+        ".top-shop-message{height:40px; padding:7px 0px 0px 0px;}"
       ],
       "settings": {
         "full_width": true,
@@ -38,8 +47,8 @@
         "logo": "{{shop.brand.logo}}",
         "logo_max_width": 120,
         "logo_mobile_max_width": 100,
-        "menu": "main-menu-1",
-        "sidebar_menu": "main-menu-1",
+        "menu": "main-menu",
+        "sidebar_menu": "",
         "secondary_menu": "",
         "menu_open_trigger": "click",
         "opening_from": "bottom",

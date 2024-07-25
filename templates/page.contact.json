@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -19,10 +28,10 @@
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
             "title": "Support",
-            "heading_tag": "h0",
+            "heading_tag": "h1",
             "button_text": "",
             "button_link": "",
-            "text_color": "#ffffff",
+            "text_color": "#1a1a1a",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
@@ -37,7 +46,7 @@
       ],
       "custom_css": [
         ".slideshow .content-over-media {height: 400px;}",
-        "@media only screen and (max-width: 699px) {.slideshow .content-over-media {height: 250px; }}"
+        "@media only screen and (max-width: 699px) {.slideshow .content-over-media {height: 350px; }}"
       ],
       "settings": {
         "full_width": true,
