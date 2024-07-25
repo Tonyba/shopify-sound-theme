@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "page_width": 1300,
@@ -55,6 +64,12 @@
       },
       "7054877461618660028": {
         "type": "shopify:\/\/apps\/moon-bundle-quantity-breaks\/blocks\/app-embed\/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "12893132836628567133": {
+        "type": "shopify:\/\/apps\/qikify-checkout-plus\/blocks\/app-embed\/6fd40802-0d8b-41fa-a1e3-0676a18f92a5",
         "disabled": false,
         "settings": {
         }
