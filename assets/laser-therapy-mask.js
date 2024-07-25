@@ -3,21 +3,12 @@
   document.addEventListener('DOMContentLoaded', init);
 
   function init() {
+    var faceMaskInput = document.querySelector('label[for="swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-face-mask"]');
+    var neckMaskInput = document.querySelector('label[for="swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-neck-mask"]');
+    var bothInput =  document.querySelector('label[for="swatch-template--16709282136217__main-product-form-7998517149849-template--16709282136217__main--option1-face-neck-mask"]');
 
-    var variantPicker = document.querySelector('.variant-picker > .variant-picker__option:first-child .variant-picker__option-values');
-
-    var labels = variantPicker.querySelectorAll('label');
-
-    labels = Array.from(labels);
-
-  
-
-    var faceMaskInput = labels[0];
-    var neckMaskInput = labels[1];
-    var bothInput =  labels[2];
-
-    var neckMaskId = '48299091591500';
-    var bothId = '48299091624268';
+    var neckMaskId = '44439074668697';
+    var bothId = '44439074701465';
 
     var price = document.querySelector('.rating-with-text');
     var quantity = document.querySelector('.product-info__quantity-selector ');
