@@ -68,6 +68,9 @@
 .cart-drawer .horizontal-product button {
     background-color: #f83a3a;
     color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
 @keyframes slideBar {
