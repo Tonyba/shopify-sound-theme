@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
     console.log('checkout.js')
     var intervalID = setInterval(function() {
         // Select the ZIP code input field
@@ -12,4 +11,3 @@ document.addEventListener('DOMContentLoaded', function() {
             clearInterval(intervalID);
         }
     }, 100); // Check every 100ms until the element is found
-});

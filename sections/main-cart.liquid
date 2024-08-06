@@ -17,7 +17,9 @@
     <div class="page-spacer">
       <div class="cart">
         <div class="cart-header">
-          <h1 class="h2">{{ 'cart.general.title' | t }}</h1>
+          <h1 class="h2">{{ 'cart.general.title' | t }}  </h1>
+         
+          <div id="lb-cart-progress-bar"></div>
 
           {%- if settings.cart_show_free_shipping_threshold -%}
             {%- render 'free-shipping-bar' -%}
