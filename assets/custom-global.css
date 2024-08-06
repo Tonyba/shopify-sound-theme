@@ -6,11 +6,6 @@
 
 
 
-@media only screen and (min-width: 480px) {
-    .shopify-section--main-cart #lb-cart-progress-bar {
-        min-width: 500px;
-    }
-}
 
 .lb-cpb-progress-text-wrapper * {
     font-weight: 700;
@@ -75,8 +70,22 @@
     color: white;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 16px; 
 }
+
+
+@media only screen and (min-width: 1025px) {
+    .cart-drawer .horizontal-product button {
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (min-width: 480px) {
+    .shopify-section--main-cart #lb-cart-progress-bar {
+        min-width: 500px;
+    }
+}
+
 
 @keyframes slideBar {
     0% {
