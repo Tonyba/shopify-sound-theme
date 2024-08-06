@@ -65,6 +65,11 @@
       width: 100%;
 }
 
+.cart-drawer .horizontal-product button {
+    background-color: #f83a3a;
+    color: white;
+}
+
 @keyframes slideBar {
     0% {
         background-position-x: 0;
