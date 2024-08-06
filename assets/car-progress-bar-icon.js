@@ -7,13 +7,9 @@
 
         if(!checkIcon.length) {
             if(checkpoints.length) {
-
                 Array.from(checkpoints).map(function(cpoint, i) {
-        
                     cpoint.append(checkIcon[i]);
-        
                 });
-        
            } 
 
         } 
