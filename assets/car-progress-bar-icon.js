@@ -5,8 +5,11 @@
         const checkpoints = document.querySelectorAll('.lb-cpb-marker-container');
         const checkIcon = Array.from (document.querySelectorAll('.progress-checkpoint'));
 
-        console.log(checkIcon.length)
-        if(checkIcon.length == 0) {
+        const hasIcon = document.querySelector('.lb-cpb-progress-bar-container .progress-checkpoint').length > 0;
+
+       
+        if(!hasIcon) {
+            
             console.log(checkpoints)
             if(checkpoints.length) {
                 Array.from(checkpoints).map(function(cpoint, i) {
