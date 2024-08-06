@@ -7,10 +7,8 @@
 
         const hasIcon = document.querySelector('.lb-cpb-progress-bar-container .progress-checkpoint')?.length > 0;
 
-        if(!hasIcon) {
-
-            console.log('hasicon')
-
+        if(hasIcon == false) {
+            
             if(checkpoints.length) {
                 Array.from(checkpoints).map(function(cpoint, i) {
                     cpoint.append(checkIcon[i]);
