@@ -29,6 +29,7 @@
     border: 2px  solid #f83a3a; 
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 .lb-cpb-multiple-progress-bar-wrapper .lb-cpb-progress-indicator {
