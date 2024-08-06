@@ -79,17 +79,22 @@
 }
 
 
+
 @media only screen and (min-width: 1025px) {
     .cart-drawer .horizontal-product button {
         font-size: 16px;
     }
+
+}
+
+
+@media only screen and (min-width: 769px) { 
 
     .cart-drawer .horizontal-product img {
         object-fit: cover;
         height: 80px;
     }
 }
-
 
 @media only screen and (min-width: 480px) {
     .shopify-section--main-cart #lb-cart-progress-bar {
