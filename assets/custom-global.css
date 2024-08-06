@@ -27,6 +27,8 @@
     height: 24px;
     border-radius: 100%;
     border: .2rem  solid #f83a3a;
+    justify-self: center;
+    align-items: center;
 }
 
 .lb-cpb-multiple-progress-bar-wrapper .lb-cpb-progress-indicator {
