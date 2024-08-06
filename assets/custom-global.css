@@ -62,6 +62,10 @@
       padding: 10px;
 }
 
+.cart-drawer .text-subdued {
+    color: #f83a3a;
+}
+
 .cart-drawer .horizontal-product__cta {
     margin-inline-end: 0;
 }
