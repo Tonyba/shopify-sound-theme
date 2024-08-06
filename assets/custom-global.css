@@ -40,7 +40,11 @@
 
 .lb-cpb-progress-bar,
 .lb-cpb-multiple-goal-list-item {
-    overflow: visible;
+    overflow: visible !important;
+}
+
+.lb-cpb-multiple-goal-list-item  {
+    position: relative;
 }
 
 @keyframes slideBar {
