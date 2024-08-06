@@ -18,6 +18,7 @@
 
 .progress-bar-customized .progress-checkpoint svg {
     width: 14px;
+    fill: #f83a3a;
 }
 
 .lb-cpb-multiple-progress-bar-wrapper .lb-cpb-progress-indicator {
