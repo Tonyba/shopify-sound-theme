@@ -38,7 +38,8 @@
     background-size: 1rem 1rem;
 }
 
-.lb-cpb-progress-bar {
+.lb-cpb-progress-bar,
+.lb-cpb-multiple-goal-list-item {
     overflow: visible !important;
 }
 
