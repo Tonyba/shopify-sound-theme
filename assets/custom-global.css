@@ -39,7 +39,7 @@
 }
 
 .lb-cpb-progress-bar {
-    overflow: visible;
+    overflow: visible !important;
 }
 
 @keyframes slideBar {
