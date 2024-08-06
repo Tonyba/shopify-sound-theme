@@ -66,6 +66,10 @@
       border-radius: 10px;
 }
 
+.cart-drawer .horizontal-product__cta {
+    margin-right: 0;
+}
+
 .cart-drawer .horizontal-product button {
     background-color: #f83a3a;
     color: white;
