@@ -58,7 +58,7 @@
 }
 
 .cart-drawer .horizontal-product-list {
-    display: flex;
+    display: flex !important;
 }
 
 @keyframes slideBar {
