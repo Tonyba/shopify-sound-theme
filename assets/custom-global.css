@@ -26,7 +26,7 @@
     width: 24px;
     height: 24px;
     border-radius: 100%;
-    border: 2px solid #f83a3a;
+    border: .2rem  solid #f83a3a;
 }
 
 .lb-cpb-multiple-progress-bar-wrapper .lb-cpb-progress-indicator {
