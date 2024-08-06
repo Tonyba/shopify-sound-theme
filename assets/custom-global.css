@@ -12,7 +12,7 @@
     }
 }
 
-.lb-cpb-progress-text-wrapper {
+.lb-cpb-progress-text-wrapper * {
     font-weight: 700;
 }
 
