@@ -4,8 +4,9 @@
 
 /*cart progress bar*/
 
-
-
+#lb-cart-progress-bar lb-cart-progress-bar:nth-child(2) {
+    display: none;
+}
 
 .lb-cpb-progress-text-wrapper * {
     font-weight: 700;
