@@ -1,1 +1,74 @@
-{"sections":{"main":{"type":"main-cart","blocks":{"totals":{"type":"totals","settings":{}},"cart_note":{"type":"cart_note","settings":{}},"checkout_button":{"type":"checkout_button","settings":{}}},"block_order":["totals","cart_note","checkout_button"],"settings":{}}},"order":["main"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "172294966960dca8ff": {
+      "type": "apps",
+      "blocks": {
+        "dealeasy_cvg_progress_bar_F368Ly": {
+          "type": "shopify:\/\/apps\/dealeasy\/blocks\/cvg-progress-bar\/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "dealeasy_cvg_progress_bar_F368Ly"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-cart",
+      "blocks": {
+        "totals": {
+          "type": "totals",
+          "settings": {
+            "show_order_weight": false,
+            "show_shipping_text": true
+          }
+        },
+        "cart_note": {
+          "type": "cart_note",
+          "settings": {
+          }
+        },
+        "checkout_button": {
+          "type": "checkout_button",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "totals",
+        "cart_note",
+        "checkout_button"
+      ],
+      "settings": {
+        "show_shipping_estimator": true,
+        "show_payment_icons": true
+      }
+    }
+  },
+  "order": [
+    "172294966960dca8ff",
+    "main"
+  ]
+}
