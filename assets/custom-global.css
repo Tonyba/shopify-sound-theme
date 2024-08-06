@@ -49,6 +49,10 @@
     position: relative;
 }
 
+.lb-cpb-cart-goal-title-text {
+    padding-bottom: 10px;
+}
+
 @keyframes slideBar {
     0% {
         background-position-x: 0;
