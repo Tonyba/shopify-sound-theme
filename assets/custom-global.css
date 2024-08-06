@@ -27,7 +27,7 @@
     height: 24px;
     border-radius: 100%;
     border: .2rem  solid #f83a3a;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
 }
 
