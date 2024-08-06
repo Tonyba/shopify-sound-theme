@@ -16,9 +16,17 @@
     font-weight: 700;
 }
 
-.progress-bar-customized .progress-checkpoint svg {
+.progress-checkpoint svg {
     width: 14px;
     fill: #f83a3a;
+}
+
+.progress-checkpoint {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    border: 2px solid #f83a3a;
 }
 
 .lb-cpb-multiple-progress-bar-wrapper .lb-cpb-progress-indicator {
