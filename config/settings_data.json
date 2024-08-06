@@ -43,7 +43,7 @@
     "product_info_alignment": "start",
     "cart_type": "drawer",
     "cart_icon": "shopping_basket",
-    "cart_show_free_shipping_threshold": true,
+    "cart_show_free_shipping_threshold": false,
     "cart_free_shipping_threshold": 550,
     "social_facebook": "#",
     "social_twitter": "#",
