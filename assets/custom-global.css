@@ -57,6 +57,10 @@
     padding-top: 10px;
 }
 
+.cart-drawer .horizontal-product-list {
+    display: flex;
+}
+
 @keyframes slideBar {
     0% {
         background-position-x: 0;
