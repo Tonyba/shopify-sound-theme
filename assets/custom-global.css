@@ -63,6 +63,7 @@
 
 .cart-drawer .horizontal-product {
       width: 100%;
+      border-radius: 10px;
 }
 
 .cart-drawer .horizontal-product button {
