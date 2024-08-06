@@ -38,6 +38,9 @@
     background-size: 1rem 1rem;
 }
 
+.lb-cpb-progress-bar {
+    overflow: visible;
+}
 
 @keyframes slideBar {
     0% {
