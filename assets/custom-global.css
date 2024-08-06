@@ -67,7 +67,7 @@
 }
 
 .cart-drawer .horizontal-product__cta {
-    margin-right: 0;
+    margin-inline-end: 0;
 }
 
 .cart-drawer .horizontal-product button {
