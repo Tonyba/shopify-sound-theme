@@ -1,0 +1,5 @@
+(function () {
+
+    var Book = 'hello';
+
+}());
