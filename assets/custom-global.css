@@ -12,6 +12,10 @@
     }
 }
 
+.lb-cpb-progress-text-wrapper {
+    font-weight: 700;
+}
+
 .lb-cpb-multiple-progress-bar-wrapper .lb-cpb-progress-indicator {
     background-image: linear-gradient(315deg, rgba(255, 255, 255, .4) 25%, transparent 0, transparent 50%, rgba(255, 255, 255, .4) 0, rgba(255, 255, 255, .4) 75%, transparent 0, transparent);
     animation: slideBar 4s linear infinite;
