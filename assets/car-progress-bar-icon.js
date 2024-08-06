@@ -5,7 +5,9 @@
         const checkpoints = document.querySelectorAll('.lb-cpb-marker-container');
         const checkIcon = Array.from (document.querySelectorAll('.progress-checkpoint'));
 
-        const hasIcon = Array.from(document.querySelector('.lb-cpb-progress-bar-container .progress-checkpoint')).length > 0;
+        const hasIcon = Array.from(document.querySelector('.lb-cpb-progress-bar-container .progress-checkpoint')).length;
+
+        console.log(hasIcon)
 
         if(hasIcon == false || hasIcon == null) {
 
