@@ -62,6 +62,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "7107336029660443536": {
+        "type": "shopify:\/\/apps\/progressify-multi-bar-upsells\/blocks\/embed\/82c18c6a-85d2-42a6-aa30-f91433549659",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
