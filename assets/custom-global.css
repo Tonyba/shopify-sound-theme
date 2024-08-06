@@ -83,6 +83,11 @@
     .cart-drawer .horizontal-product button {
         font-size: 16px;
     }
+
+    .cart-drawer .horizontal-product img {
+        object-fit: cover;
+        height: 80px;
+    }
 }
 
 
