@@ -53,6 +53,10 @@
     padding-bottom: 10px;
 }
 
+.lb-cpb-cart-goal-value-text {
+    padding-top: 10px;
+}
+
 @keyframes slideBar {
     0% {
         background-position-x: 0;
