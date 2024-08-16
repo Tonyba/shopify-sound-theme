@@ -40,6 +40,16 @@
             "heading": "Choose what you need the most"
           }
         },
+        "product_custom_bundle_Byzhxd": {
+          "type": "product-custom-bundle",
+          "settings": {
+            "bundle_title": "High Frequency Therapy",
+            "base_price": "320.00",
+            "comparing_price": "380.00",
+            "discount_percentage": 0,
+            "image": "shopify:\/\/shop_images\/7982757751ed0dd44598e3761af57815_c478da54-dbd0-4255-9cc6-6f11bcae4018.png"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -94,6 +104,7 @@
         "price",
         "separator",
         "prod_info_title_j3JBDm",
+        "product_custom_bundle_Byzhxd",
         "variant_picker",
         "payment_terms",
         "quantity_selector",
