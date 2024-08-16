@@ -50,6 +50,16 @@
             "image": "shopify:\/\/shop_images\/7982757751ed0dd44598e3761af57815_c478da54-dbd0-4255-9cc6-6f11bcae4018.png"
           }
         },
+        "product_custom_bundle_NwcPPc": {
+          "type": "product-custom-bundle",
+          "settings": {
+            "bundle_title": "Frequency wand , Crystal hair remover gift",
+            "base_price": "129.99",
+            "comparing_price": "236.99",
+            "discount_percentage": 0,
+            "image": "shopify:\/\/shop_images\/Screenshot_16-removebg-preview.png"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -105,6 +115,7 @@
         "separator",
         "prod_info_title_j3JBDm",
         "product_custom_bundle_Byzhxd",
+        "product_custom_bundle_NwcPPc",
         "variant_picker",
         "payment_terms",
         "quantity_selector",
