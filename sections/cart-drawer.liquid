@@ -79,7 +79,7 @@
                 {%- assign horizontal_products_blends = false -%}
               {%- endif -%}
 
-                <div class="{% if horizontal_products_blends %}divide-x{% else %}separate{% endif %}">
+                <div class="{% if horizontal_products_blends %}divide-y{% else %}separate{% endif %}">
                   {%- for recommended_product in section.settings.products -%}
                     {%- render 'horizontal-product', product: recommended_product, show_add_to_cart: true, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color -%}
                   {%- endfor -%}
