@@ -126,7 +126,11 @@
 
 /*cart recommendations*/
 .cart-drawer__recommendations .horizontal-product__info {
-display: flex;
+display: flex !important;
+}
+
+.cart-drawer__recommendations .horizontal-product   {
+    align-items: center;
 }
 
 /*cart recommendations end*/
