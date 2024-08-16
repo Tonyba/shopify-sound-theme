@@ -129,6 +129,10 @@
 display: flex !important;
 }
 
+.cart-drawer__recommendations .horizontal-product__cta {
+    flex-shrink: 0;
+}
+
 .cart-drawer__recommendations .horizontal-product   {
     align-items: center;
 }
