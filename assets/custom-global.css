@@ -124,6 +124,13 @@
 
 /*cart progress bar end*/
 
+/*cart recommendations*/
+.cart-drawer__recommendations .horizontal-product__info {
+display: flex;
+}
+
+/*cart recommendations end*/
+
 /*home slider*/
 
 .slideshow .content-over-media {
