@@ -39,10 +39,7 @@
         "show_checkout_button": true,
         "recommendations_title": "Trending this month",
         "products": [
-          "crystal-hair-remover",
-          "laser-light-therapy-mask",
-          "skinpetra-warm-uterus-waist",
-          "skinpetra-hair-removal"
+          "crystal-hair-remover"
         ],
         "product_card_background": "#f2f2f2",
         "product_card_text_color": ""
