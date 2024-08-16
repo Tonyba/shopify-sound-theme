@@ -63,12 +63,12 @@
                     <p>{{ section.settings.recommendations_title | escape }}</p>
                   {%- endif -%}
 
-                  {%- if section.settings.products.count > 1 -%}
+                  {% comment %} {%- if section.settings.products.count > 1 -%}
                     <div class="h-stack gap-2 hidden sm:flex">
                       <button is="prev-button" class="circle-chevron hover:colors" aria-controls="{{ carousel_id }}" aria-label="{{ 'general.accessibility.previous' | t | escape }}" disabled>{%- render 'icon' with 'chevron-left-small', direction_aware: true -%}</button>
                       <button is="next-button" class="circle-chevron hover:colors" aria-controls="{{ carousel_id }}" aria-label="{{ 'general.accessibility.next' | t | escape }}">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</button>
                     </div>
-                  {%- endif -%}
+                  {%- endif -%} {% endcomment %}
                 </div>
               {%- endif -%}
 
