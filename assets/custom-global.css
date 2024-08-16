@@ -130,7 +130,7 @@ display: flex !important;
 }
 
 .cart-drawer__recommendations .horizontal-product__cta {
-    flex-shrink: 0;
+    flex-shrink: 0 !important;
 }
 
 .cart-drawer__recommendations .horizontal-product   {
