@@ -1,0 +1,84 @@
+.product-custom-bundle-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 15px;
+    text-align: center;
+} 
+
+.variant-picker__option + * {
+    display: none;
+}
+
+.bundle-item img {
+    height: 128px;
+    object-fit: contain;
+}
+
+.bundle-item,
+.bundle-details   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bundle-title {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.bundle-price {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.bundle-price .base-price {
+    color: #FF004A;
+}
+
+.bundle-price  .discount-price {
+    color: #9A9A9A;
+    text-decoration: line-through;
+}
+
+.bundle-item {
+    background-color: #FF004A0D;
+    border: 1px solid #FF004A0D;
+    border-radius: 10px;
+    justify-content: space-between;
+    gap: 13px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.bundle-item .bundle-discount {
+    background-color: #FF004A;
+    color: white;
+    border-radius: 17px;
+    padding: 6px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.bundle-item.is-selected {
+    border: 1px solid black
+}
+
+@media only screen and (max-width: 767px) {
+    .bundle-title {
+        font-size: 13px;
+    }
+
+    .bundle-price {
+        font-size: 12px;
+    }
+
+    .bundle-item .bundle-discount  {
+        font-size: 10px;
+    }
+
+    .bundle-item img {
+        height: 85px;
+    }
+}

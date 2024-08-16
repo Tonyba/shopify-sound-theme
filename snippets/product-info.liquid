@@ -1,9 +1,12 @@
 {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
 
+
 {%liquid 
   assign laser_therapy_id = 7998517149849
+  assign bundle_items = ""
 %}
 
+{% render 'css_async' css: 'what-you-need-most.css'   %}
 
 <safe-sticky class="product-info">
   {%- for block in section.blocks -%}
@@ -31,6 +34,23 @@
           </h2>
         {%- endif -%}
 
+      {%- when 'prod-info-title' -%}
+        {%- if request.page_type == 'product' -%}
+          {% render 'prod-info-title' title: block.settings.heading  %}
+        {%- endif -%}
+
+      
+    
+      
+      {%- when 'product-custom-bundle' -%}
+        {%- if request.page_type == 'product' -%}
+          {%- capture bundle_item_content -%}
+            {% render 'bundle-item', item: block.settings %}
+          {%- endcapture -%}
+          {% assign bundle_items = bundle_items | append: bundle_item_content %}
+        {%- endif -%}
+    
+          
       {%- when 'badges' -%}
         {%- render 'product-badges', product: product, types: 'custom', form_id: product_form_id, class: 'product-info__badge-list', block: block -%}
 
@@ -463,6 +483,10 @@
     {%- endcase -%}
   {%- endfor -%}
 
+  <div class="product-custom-bundle-container">
+    {{ bundle_items  }}
+  </div>
+
   {%- comment -%}
     IMPLEMENTATION NOTE: under rare circumstances, merchant may want to show selectors to allow variant selection, but hide
     the add to cart button. This is however problematic as product info is changed based on the form, so we create a default
@@ -475,3 +499,6 @@
     {%- endform -%}
   {%- endunless -%}
 </safe-sticky>
+
+
+<script src="{{ 'what-need-most.js' | asset_url }}" defer></script>

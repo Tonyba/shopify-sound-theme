@@ -1,0 +1,18 @@
+<div class="bundle-item">
+    <div class="bundle-details">
+        {{- item.image | image_url: width: 150 | image_tag: decoding: 'async' , draggable: false -}}
+        <div class="bundle-title">{{ item.bundle_title }}</div>
+    
+        <div class="bundle-price" >
+            <span class="base-price">${{ item.base_price  }}</span>
+           
+            {% if item.comparing_price != blank  %}
+                <span class="discount-price">${{ item.comparing_price  }}</span>
+            {% endif %}
+    
+        </div>
+    </div>
+    
+
+    <div class="bundle-discount">{{ item.discount_percentage }}% OFF</div>
+</div>
