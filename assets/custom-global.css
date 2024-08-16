@@ -126,7 +126,7 @@
 
 /*cart recommendations*/
 .cart-drawer__recommendations .horizontal-product__info {
-display: flex !important;
+    display: flex !important;
 }
 
 .cart-drawer__recommendations .horizontal-product__cta {
@@ -137,6 +137,9 @@ display: flex !important;
     align-items: center;
 }
 
+.cart-drawer__recommendations > div .h-stack p  {
+    font-weight: 500;
+}
 /*cart recommendations end*/
 
 /*home slider*/
