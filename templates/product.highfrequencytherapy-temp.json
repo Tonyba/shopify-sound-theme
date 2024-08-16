@@ -70,6 +70,16 @@
             "image": "shopify:\/\/shop_images\/Screenshot_16-removebg-preview.png"
           }
         },
+        "product_custom_bundle_eTBp3T": {
+          "type": "product-custom-bundle",
+          "settings": {
+            "bundle_title": "Frequency wand, 4D mask , IPL PRO , crystal gift, moisturizer gift, gua sha gift set",
+            "base_price": "279.99",
+            "comparing_price": "526.99",
+            "discount_percentage": 52,
+            "image": "shopify:\/\/shop_images\/Screenshot_16-removebg-preview.png"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -127,6 +137,7 @@
         "product_custom_bundle_Byzhxd",
         "product_custom_bundle_NwcPPc",
         "product_custom_bundle_aiFUmm",
+        "product_custom_bundle_eTBp3T",
         "variant_picker",
         "payment_terms",
         "quantity_selector",
