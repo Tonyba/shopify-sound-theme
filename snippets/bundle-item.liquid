@@ -51,29 +51,13 @@
        <div class="step-items">
             {%- for item in step_items -%}
 
-                {% if   forloop.index == 1 %}
+              
                     <div class="icon-list-item gap-5 step-item">
                         <span class="icon" >{% render 'close-icon' %}</span>
                         <span class="badge-custom" >Free</span>
                         <span class="text">{{ item }}</span>
                     </div> 
-                {% endif  %}
-
-                {% if   forloop.index == 2 %}
-                    <div class="icon-list-item gap-5 step-item">
-                        <span class="icon" >{% render 'close-icon' %}</span>
-                        <span class="badge-custom" >Gift</span>
-                        <span class="text">{{ item }}</span>
-                    </div> 
-                {% endif  %}
-
-                {% if   forloop.index == 3 %}
-                    <div class="icon-list-item gap-5 step-item">
-                        <span class="icon" >{% render 'close-icon' %}</span>
-                        <span class="badge-custom" >10%</span>
-                        <span class="text">{{ item }}</span>
-                    </div> 
-                {% endif  %}
+             
             {% endfor  %}
         </div>
     </div>
