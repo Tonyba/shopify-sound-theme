@@ -69,7 +69,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .bundle-item.is-selected .bundle-discount {
+    .bundle-item .bundle-discount {
         padding: 4px 10px
     }
     .product-custom-bundle-container {
@@ -82,10 +82,6 @@
 
     .bundle-price {
         font-size: 12px;
-    }
-
-    .bundle-item .bundle-discount  {
-        font-size: 10px;
     }
 
     .bundle-item img {
