@@ -1,3 +1,14 @@
+{%- liquid
+    
+    assign base_price = item.base_price | times: 1.0
+    assign comparing_price = item.comparing_price | times: 1.0
+    
+    assign discount = base_price | minus: comparing_price
+    assign discount = discount | divided_by: comparing_price 
+    assign discount = discount |  times: 100 | round: 2
+
+-%}
+
 <div class="bundle-item">
     <div class="bundle-details">
         {{- item.image | image_url: width: 150 | image_tag: decoding: 'async' , draggable: false -}}
@@ -14,5 +25,5 @@
     </div>
     
 
-    <div class="bundle-discount">{{ item.discount_percentage }}% OFF</div>
+    <div class="bundle-discount">{{ discount }}% OFF</div>
 </div>

@@ -1,8 +1,7 @@
 .product-custom-bundle-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 20px;
-    row-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
     text-align: center;
 } 
 
@@ -42,8 +41,7 @@
 }
 
 .bundle-item {
-    background-color: #FF004A0D;
-    border: 1px solid #FF004A0D;
+    border: 1px solid #CCCCCC;
     border-radius: 10px;
     justify-content: space-between;
     gap: 13px;
@@ -52,17 +50,22 @@
 }
 
 .bundle-item .bundle-discount {
-    background-color: #FF004A;
     color: white;
     border-radius: 17px;
     padding: 6px 20px;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
+    background-color: #DADADA;
 }
 
 .bundle-item.is-selected {
-    border: 1px solid black
+    border: 1px solid #FFB5CA;
+    background-color: #FF004A05;
+}
+
+.bundle-item.is-selected .bundle-discount {
+    background-color: #FF004A;
 }
 
 @media only screen and (max-width: 767px) {
