@@ -69,6 +69,13 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .bundle-item.is-selected .bundle-discount {
+        padding: 4px 10px
+    }
+    .product-custom-bundle-container {
+        gap: 10px
+    }
+
     .bundle-title {
         font-size: 13px;
     }
