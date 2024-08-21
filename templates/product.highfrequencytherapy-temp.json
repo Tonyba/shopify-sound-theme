@@ -37,15 +37,15 @@
         "prod_info_title_j3JBDm": {
           "type": "prod-info-title",
           "settings": {
-            "heading": "Choose what you need the most"
+            "heading": "Choose your bundle"
           }
         },
         "product_custom_bundle_Byzhxd": {
           "type": "product-custom-bundle",
           "settings": {
-            "bundle_title": "High Frequency Therapy",
-            "base_price": "320.00",
-            "comparing_price": "380.00",
+            "bundle_title": "Basic",
+            "base_price": "89.99",
+            "comparing_price": "190.00",
             "discount_percentage": 52,
             "image": "shopify:\/\/shop_images\/7982757751ed0dd44598e3761af57815_c478da54-dbd0-4255-9cc6-6f11bcae4018.png"
           }
@@ -53,31 +53,21 @@
         "product_custom_bundle_NwcPPc": {
           "type": "product-custom-bundle",
           "settings": {
-            "bundle_title": "Frequency wand , Crystal hair remover gift",
+            "bundle_title": "Standard",
             "base_price": "129.99",
             "comparing_price": "236.99",
             "discount_percentage": 52,
-            "image": "shopify:\/\/shop_images\/Screenshot_16-removebg-preview.png"
+            "image": "shopify:\/\/shop_images\/7982757751ed0dd44598e3761af57815_c478da54-dbd0-4255-9cc6-6f11bcae4018.png"
           }
         },
         "product_custom_bundle_aiFUmm": {
           "type": "product-custom-bundle",
           "settings": {
-            "bundle_title": "Frequency wand , Laser IPL OG , moisturizer gift, crystal hair gift,",
+            "bundle_title": "Premium",
             "base_price": "179.99",
             "comparing_price": "286.99",
             "discount_percentage": 52,
-            "image": "shopify:\/\/shop_images\/Screenshot_16-removebg-preview.png"
-          }
-        },
-        "product_custom_bundle_eTBp3T": {
-          "type": "product-custom-bundle",
-          "settings": {
-            "bundle_title": "Frequency wand, 4D mask , IPL PRO , crystal gift, moisturizer gift, gua sha gift set",
-            "base_price": "279.99",
-            "comparing_price": "526.99",
-            "discount_percentage": 52,
-            "image": "shopify:\/\/shop_images\/Screenshot_16-removebg-preview.png"
+            "image": "shopify:\/\/shop_images\/7982757751ed0dd44598e3761af57815_c478da54-dbd0-4255-9cc6-6f11bcae4018.png"
           }
         },
         "variant_picker": {
@@ -137,7 +127,6 @@
         "product_custom_bundle_Byzhxd",
         "product_custom_bundle_NwcPPc",
         "product_custom_bundle_aiFUmm",
-        "product_custom_bundle_eTBp3T",
         "variant_picker",
         "payment_terms",
         "quantity_selector",
