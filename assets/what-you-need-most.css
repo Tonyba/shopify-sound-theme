@@ -70,7 +70,8 @@
 
 @media only screen and (max-width: 767px) {
     .bundle-item .bundle-discount {
-        padding: 4px 10px
+        padding: 4px 10px;
+        font-size: 10px;
     }
     .product-custom-bundle-container {
         gap: 10px
