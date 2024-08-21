@@ -177,10 +177,16 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           "label": "Comparing Price",
         },
         {
-          "type": "number",
-          "id": "discount_percentage",
-          "label": "Discount Percentage",
-          "default": 0
+          "type": "textarea",
+          "id": "whats_included",
+          "label": "What it is included",
+          "info": "you must add | for a new list item"
+        },
+        {
+          "type": "textarea",
+          "id": "step_items",
+          "label": "What it is not included",
+          "info": "First Item is free shipping, second item is for gift, third item if for 10% discount. you must add | for a new list item"
         },
         {
           "type": "image_picker",

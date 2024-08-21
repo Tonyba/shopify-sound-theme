@@ -68,6 +68,66 @@
     background-color: #FF004A;
 }
 
+
+.what-included-wrapper {
+    padding: 20px 15px;
+    border: 0.5px solid #CCC;
+    border-radius: 10px;
+}
+
+.included-header {
+    padding-bottom: 10px;
+}
+
+.included-header .bundle-price {
+font-size: 14px;
+font-weight: 400;
+}
+
+
+.included-content  svg {
+    width: 15px;
+}
+
+.included-content .step-item .icon svg {
+    width: 11px;
+}
+
+.included-header h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #3E3E3E;
+}
+
+.badge-custom {
+   background-color: rgb(var(--button-background-secondary));
+   color: white;
+   font-size: 12px;
+   padding: 0 4px;
+}
+
+.included-content {
+    font-size: 14px;
+    color: #000;
+}
+
+.step-item .icon svg {
+ fill: red   
+}
+
+.included-content {
+    padding: 15px 0;
+    border-top: 0.3px solid #CCC;
+    border-bottom: 0.3px solid #CCC;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.included-footer {
+    color: #000;
+    font-size: 12px;
+}
+
 @media only screen and (max-width: 767px) {
     .bundle-item .bundle-discount {
         padding: 4px 10px;
@@ -87,5 +147,13 @@
 
     .bundle-item img {
         height: 85px;
+    }
+
+    .included-content {
+        font-size: 11px;
+    }
+
+    .badge-custom {
+        font-size: 10px;
     }
 }

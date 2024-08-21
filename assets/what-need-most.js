@@ -1,6 +1,7 @@
 (function(){
     const bundles = document.querySelector('.product-custom-bundle-container');
     const bundlesItems = Array.from(bundles.children);
+    const includedContainer = document.querySelector('.product-custom-bundle-included');
 
     const variantPickersOpts = document.querySelectorAll('.variant-picker .variant-picker__option .block-swatch');
 
@@ -11,12 +12,12 @@
     const varientValue = params.get('variant');
 
 
-
     init();
     
     function appendBundles() {
        const title = document.querySelector('.product-info-title');
        title.after(bundles);
+       bundles.after(includedContainer);
     }
 
     function init() {
@@ -27,7 +28,14 @@
             bundlesItems[0].classList.add('is-selected');
         
             bundlesItems.map(function(item, index) {
-                item.addEventListener('click', () => handleClick(item, index));
+                const bundleIncluded = item.querySelector('.what-included-wrapper');
+
+                if(index === 0) bundleIncluded.classList.remove('hidden');
+               
+                includedContainer.append(bundleIncluded);
+                item.addEventListener('click', () => handleClick(item, index, bundleIncluded));
+
+
             });
         }  
     }
@@ -38,10 +46,15 @@
         }
     }
 
-    function handleClick(item, index) {
+    function handleClick(item, index, bundleIncluded) {
+        
+        Array.from(document.querySelectorAll('.what-included-wrapper')).map(function(wi) {
+            wi.classList.add('hidden');
+        });
+
+        bundleIncluded.classList.remove('hidden');
 
         variantPickersOpts[index].click();
-
         addSelected(item);
     }
 
@@ -55,5 +68,6 @@
             item.classList.remove('is-selected');
         });
     }
+
 
 }());

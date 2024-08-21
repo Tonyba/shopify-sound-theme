@@ -21,10 +21,12 @@ compare-at-price {
 .icon-list .icon-list-item  {
     color: #777;
     font-size: 18px;
+}
+
+.icon-list-item  {
     display: flex;
     align-items: center;
     gap: 10px;
- 
 }
 
 .col-list-with-image .icon-list-item .icon {

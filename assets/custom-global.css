@@ -173,6 +173,10 @@
     display: grid;
 }
 
+.hidden {
+    display: none;
+}
+
 .scroll-wrapper .os-content,
 .flex {
     display: flex;
@@ -284,6 +288,10 @@
     gap: 20px;
 }
 
+.gap-5 {
+    gap: 5px;
+}
+
 .gap-12 {
     gap: 12px;
 }
@@ -295,6 +303,10 @@
 
 .gap-100 {
     gap: 100px;
+}
+
+.pt-3 {
+    padding-top: 3px;
 }
 
 h2 {

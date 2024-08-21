@@ -7,6 +7,9 @@
     assign discount = discount | divided_by: comparing_price 
     assign discount = discount |  times: 100 | round: 2
 
+    assign whats_included_list = item.whats_included | split: '|'
+    assign step_items = item.step_items | split: '|'
+
 -%}
 
 <div class="bundle-item">
@@ -23,7 +26,62 @@
     
         </div>
     </div>
+    <div class="bundle-discount">{{ discount }}% OFF</div>    
+<div class="what-included-wrapper hidden">
+    <div class="included-header flex space-between align-item-center">
+        <h3>What's Included</h3>
+        <div class="bundle-price" >
+            <span class="base-price">${{ item.base_price  }}</span>
+           
+            {% if item.comparing_price != blank  %}
+                <span class="discount-price">${{ item.comparing_price  }}</span>
+            {% endif %}
     
+        </div>
+    </div>
+    <div class="included-content grid cols-2 cols-2-mobile gap-12">
+        <div class="list-items">
+            {%- for item in whats_included_list -%}
+                <div class="icon-list-item">
+                    <span class="icon">{% render 'check-icon' %}</span>
+                    <span class="text">{{ item }}</span>
+                </div>
+            {% endfor  %}
+        </div>
+       <div class="step-items">
+            {%- for item in step_items -%}
 
-    <div class="bundle-discount">{{ discount }}% OFF</div>
+                {% if   forloop.index == 1 %}
+                    <div class="icon-list-item gap-5 step-item">
+                        <span class="icon" >{% render 'close-icon' %}</span>
+                        <span class="badge-custom" >Free</span>
+                        <span class="text">{{ item }}</span>
+                    </div> 
+                {% endif  %}
+
+                {% if   forloop.index == 2 %}
+                    <div class="icon-list-item gap-5 step-item">
+                        <span class="icon" >{% render 'close-icon' %}</span>
+                        <span class="badge-custom" >Gift</span>
+                        <span class="text">{{ item }}</span>
+                    </div> 
+                {% endif  %}
+
+                {% if   forloop.index == 3 %}
+                    <div class="icon-list-item gap-5 step-item">
+                        <span class="icon" >{% render 'close-icon' %}</span>
+                        <span class="badge-custom" >10%</span>
+                        <span class="text">{{ item }}</span>
+                    </div> 
+                {% endif  %}
+            {% endfor  %}
+        </div>
+    </div>
+    <div class="included-footer flex align-item-start gap-5">
+        <img src="{{ 'warning.jpg' | asset_url  }}" class="pt-3" alt="warning" width="12" height="10"  decoding= "async">
+        <span> You're 4 times more likely to reach your body goals if you subscribe. Plus you can easily cancel anytime. Reconsider subscribing.</span>
+    </div>
 </div>
+
+</div>
+
