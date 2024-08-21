@@ -53,7 +53,7 @@
         "product_custom_bundle_NwcPPc": {
           "type": "product-custom-bundle",
           "settings": {
-            "bundle_title": "Premium",
+            "bundle_title": "Standard",
             "base_price": "129.99",
             "comparing_price": "236.99",
             "discount_percentage": 52,
