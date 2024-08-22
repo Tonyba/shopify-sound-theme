@@ -2,6 +2,8 @@
 
     const cartDrawer = document.querySelector('.cart-drawer');
 
+    console.log(cartDrawer)
+
     detectGift();
     // Options for the observer (which mutations to observe)
     var config = {  childList: true };
