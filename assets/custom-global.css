@@ -95,7 +95,7 @@
 }
 
 .cart-drawer:has(.lb-cpb-multiple-goal-list-item:nth-child(2) .lb-cpb-multiple-goal-progress-marker-unlocked )
-.line-item:first-child {
+.gift-item {
     order: 1;
 }
 
