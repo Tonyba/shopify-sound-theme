@@ -30,7 +30,7 @@
       const itemList = Array.from(cartDrawer.querySelectorAll('.line-item'));
       itemList.map(function(item) {
             const price = item.querySelector('.text-on-sale');
-            if(price.textContent.includes('$0.00')) {
+            if(price.textContent?.includes('$0.00')) {
                 item.classList.add('gift');
             }
       });
