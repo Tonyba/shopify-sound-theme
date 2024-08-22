@@ -3,17 +3,15 @@
     const cartDrawer = document.querySelector('.cart-drawer');
 
     // Options for the observer (which mutations to observe)
-    var config = { attributes: true, childList: true };
+    var config = {  childList: true };
 
     // Callback function to execute when mutations are observed
     var callback = function(mutationsList) {
         for(var mutation of mutationsList) {
             if (mutation.type == 'childList') {
-                console.log('A child node has been added or removed.');
+                
             }
-            else if (mutation.type == 'attributes') {
-                console.log('The ' + mutation.attributeName + ' attribute was modified.');
-            }
+          
         }
     };
 
@@ -25,5 +23,13 @@
 
     // Later, you can stop observing
    // observer.disconnect();
+
+   function detectGift() {
+      const itemList = Array.from(cartDrawer.querySelectorAll('.list-item'));
+      itemList.map(function(item) {
+            const price = item.querySelector('.text-on-sale');
+            console.log(price.textContent)
+      });
+   }
 
 }());
