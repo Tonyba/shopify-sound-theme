@@ -87,7 +87,9 @@
     text-transform: uppercase;
 }
 
-
+.cart-drawer .lb-cpb-multiple-goal-list-item:nth-child(2) {
+    background-color: red;
+}
 
 @media only screen and (min-width: 1025px) {
     .cart-drawer .horizontal-product button {
