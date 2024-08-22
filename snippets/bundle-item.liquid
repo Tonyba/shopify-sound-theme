@@ -67,8 +67,14 @@
        <div class="list-items">
             {%- for item in all_items limit: halfLength  -%}
                 {% assign real_text = item | split: '_' | last %}
+                {% assign type = item | split: '_' | first %}
                 <div class="icon-list-item">
-                    <span class="icon">{% render 'check-icon' %}</span>
+                    {% if type == 'check' %}
+                        <span class="icon">{% render 'check-icon' %}</span>
+                        {% else %}
+                        <span class="icon" >{% render 'close-icon' %}</span>
+                        <span class="badge-custom" >Free</span>
+                    {% endif  %}   
                     <span class="text">{{ real_text }}</span>
                 </div>
             {% endfor  %}
@@ -76,9 +82,14 @@
        <div class="step-items">
             {%- for item in all_items offset: halfLength  -%}
                      {% assign real_text = item | split: '_' | last %}
+                     {% assign type = item | split: '_' | first %}
                     <div class="icon-list-item gap-5 step-item">
-                        <span class="icon" >{% render 'close-icon' %}</span>
-                        <span class="badge-custom" >Free</span>
+                        {% if type == 'check' %}
+                            <span class="icon">{% render 'check-icon' %}</span>
+                            {% else %}
+                            <span class="icon" >{% render 'close-icon' %}</span>
+                            <span class="badge-custom" >Free</span>
+                        {% endif  %}   
                         <span class="text">{{ real_text }}</span>
                     </div> 
             {% endfor  %}
