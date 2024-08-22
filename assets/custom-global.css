@@ -91,6 +91,7 @@
 .cart-drawer__line-items  {
     display: flex;
     flex-direction: column;
+    gap: 20px
 }
 
 .cart-drawer:has(.lb-cpb-multiple-goal-list-item:nth-child(2) .lb-cpb-multiple-goal-progress-marker-unlocked )
