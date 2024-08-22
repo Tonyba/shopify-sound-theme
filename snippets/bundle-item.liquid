@@ -30,8 +30,9 @@
     assign all_items = '' | split: ''
     assign all_items = all_items | concat: new_included_list
     assign all_items = all_items | concat: new_step_items
-   
     
+    assign halfLength = all_items.size | divided_by: 2
+
 -%}
 
 <div class="bundle-item">
@@ -62,16 +63,9 @@
         </div>
     </div>
     <div class="included-content grid cols-2 cols-2-mobile gap-12">
-        <div class="list_items">
-            {%- for item in all_items -%}
-                <div class="icon-list-item">
-                    <span class="icon">{% render 'check-icon' %}</span>
-                    <span class="text">{{ item }}</span>
-                </div>
-            {% endfor  %}
-        </div>
-        {% comment %} <div class="list-items">
-            {%- for item in whats_included_list -%}
+     
+       <div class="list-items">
+            {%- for item in whats_included_list limit: halfLength  -%}
                 <div class="icon-list-item">
                     <span class="icon">{% render 'check-icon' %}</span>
                     <span class="text">{{ item }}</span>
@@ -79,17 +73,14 @@
             {% endfor  %}
         </div>
        <div class="step-items">
-            {%- for item in step_items -%}
-
-              
+            {%- for item in step_item offset: halfLength  -%}
                     <div class="icon-list-item gap-5 step-item">
                         <span class="icon" >{% render 'close-icon' %}</span>
                         <span class="badge-custom" >Free</span>
                         <span class="text">{{ item }}</span>
                     </div> 
-             
             {% endfor  %}
-        </div> {% endcomment %}
+        </div>
     </div>
     <div class="included-footer flex align-item-start gap-5">
         <img src="{{ 'warning.jpg' | asset_url  }}" class="pt-3" alt="warning" width="12" height="10"  decoding= "async">
