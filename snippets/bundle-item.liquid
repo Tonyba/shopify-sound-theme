@@ -66,9 +66,10 @@
      
        <div class="list-items">
             {%- for item in all_items limit: halfLength  -%}
+                {% assign real_text = item | split: '_' | first %}
                 <div class="icon-list-item">
                     <span class="icon">{% render 'check-icon' %}</span>
-                    <span class="text">{{ item }}</span>
+                    <span class="text">{{ real_text }}</span>
                 </div>
             {% endfor  %}
         </div>
