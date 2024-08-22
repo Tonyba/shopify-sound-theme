@@ -2,6 +2,7 @@
 
     const cartDrawer = document.querySelector('.cart-drawer');
 
+    detectGift();
     // Options for the observer (which mutations to observe)
     var config = {  childList: true };
 
@@ -9,7 +10,7 @@
     var callback = function(mutationsList) {
         for(var mutation of mutationsList) {
             if (mutation.type == 'childList') {
-                
+                detectGift();
             }
           
         }
