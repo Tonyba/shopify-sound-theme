@@ -14,15 +14,15 @@
     assign new_step_items = ''
 
     for included_item in whats_included_list
-        assign new_included_list = new_included_list | append: ',' | prepend: 'check_'
+        assign new_included_list = included_item | append: ',' | prepend: 'check_'
     endfor
 
-    for step_items in step_items
-        assign new_step_items = new_step_items | append: ',' | prepend: 'no_'
+    for step_item in step_items
+        assign new_step_items = step_item | append: ',' | prepend: 'no_'
     endfor
 
     assign new_included_list = new_included_list | remove_first: ',' | split: ','
-
+    assign new_step_items = new_step_items | remove_first: ',' | split: ','
     
 
     assign all_items = '' | split: ''
