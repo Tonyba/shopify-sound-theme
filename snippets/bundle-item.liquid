@@ -21,8 +21,8 @@
         assign new_step_items = step_item | append: ',' | prepend: 'no_'
     endfor
 
-    assign new_included_list = new_included_list | remove_first: ',' | split: ','
-    assign new_step_items = new_step_items | remove_first: ',' | split: ','
+    assign new_included_list = new_included_list | split: ','
+    assign new_step_items = new_step_items | split: ','
     
 
     assign all_items = '' | split: ''
