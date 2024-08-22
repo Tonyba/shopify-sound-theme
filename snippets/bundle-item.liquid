@@ -28,8 +28,8 @@
     
 
     assign all_items = '' | split: ''
-    assign all_items = all_items | concat: whats_included_list
-    assign all_items = all_items | concat: step_items
+    assign all_items = all_items | concat: new_included_list
+    assign all_items = all_items | concat: new_step_items
    
 
 -%}
