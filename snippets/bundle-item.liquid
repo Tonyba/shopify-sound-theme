@@ -65,7 +65,7 @@
     <div class="included-content grid cols-2 cols-2-mobile gap-12">
      
        <div class="list-items">
-            {%- for item in whats_included_list limit: halfLength  -%}
+            {%- for item in all_items limit: halfLength  -%}
                 <div class="icon-list-item">
                     <span class="icon">{% render 'check-icon' %}</span>
                     <span class="text">{{ item }}</span>
@@ -73,7 +73,7 @@
             {% endfor  %}
         </div>
        <div class="step-items">
-            {%- for item in step_item offset: halfLength  -%}
+            {%- for item in all_items offset: halfLength  -%}
                     <div class="icon-list-item gap-5 step-item">
                         <span class="icon" >{% render 'close-icon' %}</span>
                         <span class="badge-custom" >Free</span>
