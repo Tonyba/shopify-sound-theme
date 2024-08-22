@@ -2,7 +2,6 @@
 
     const cartDrawer = document.querySelector('.cart-drawer');
 
-    console.log(cartDrawer)
 
     detectGift();
     // Options for the observer (which mutations to observe)
@@ -28,7 +27,7 @@
    // observer.disconnect();
 
    function detectGift() {
-      const itemList = Array.from(cartDrawer.querySelectorAll('.list-item'));
+      const itemList = Array.from(cartDrawer.querySelectorAll('.line-item'));
       itemList.map(function(item) {
             const price = item.querySelector('.text-on-sale');
             console.log(price.textContent)
