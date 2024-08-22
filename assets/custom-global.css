@@ -182,7 +182,7 @@
     display: grid;
 }
 
-.hidden {
+.hidden-custom {
     display: none;
 }
 

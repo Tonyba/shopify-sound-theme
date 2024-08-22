@@ -30,7 +30,7 @@
             bundlesItems.map(function(item, index) {
                 const bundleIncluded = item.querySelector('.what-included-wrapper');
 
-                if(index === 0) bundleIncluded.classList.remove('hidden');
+                if(index === 0) bundleIncluded.classList.remove('hidden-custom');
                
                 includedContainer.append(bundleIncluded);
                 item.addEventListener('click', () => handleClick(item, index, bundleIncluded));
@@ -49,10 +49,10 @@
     function handleClick(item, index, bundleIncluded) {
         
         Array.from(document.querySelectorAll('.what-included-wrapper')).map(function(wi) {
-            wi.classList.add('hidden');
+            wi.classList.add('hidden-custom');
         });
 
-        bundleIncluded.classList.remove('hidden');
+        bundleIncluded.classList.remove('hidden-custom');
 
         variantPickersOpts[index].click();
         addSelected(item);
