@@ -5,10 +5,16 @@
     
     assign discount = base_price | minus: comparing_price
     assign discount = discount | divided_by: comparing_price 
-    assign discount = discount |  times: 100 | round: 1
+    assign discount = discount |  times: 100 | round: 0
 
     assign whats_included_list = item.whats_included | split: '|'
     assign step_items = item.step_items | split: '|'
+
+    assign all_items = '' | split: ''
+
+    assign all_items = all_items | | concat: whats_included_list
+    assign all_items = all_items | | concat: step_items
+   
 
 -%}
 
