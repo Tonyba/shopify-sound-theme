@@ -14,7 +14,8 @@
     assign new_step_items = ''
 
     for included_item in whats_included_list
-        assign new_included_list = included_item | append: ',' | prepend: 'check_'
+        assign new_string = included_item | append: ',' | prepend: 'check_'
+        assign new_included_list = new_included_list | append: new_string
     endfor
 
     for step_item in step_items
