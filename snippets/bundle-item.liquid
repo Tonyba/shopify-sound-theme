@@ -19,7 +19,8 @@
     endfor
 
     for step_item in step_items
-        assign new_step_items = step_item | append: ',' | prepend: 'no_'
+        assign new_string = step_item | append: ',' | prepend: 'no_'
+        assign new_step_items = new_step_items | append: new_string
     endfor
 
     assign new_included_list = new_included_list | split: ','
