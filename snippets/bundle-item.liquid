@@ -10,8 +10,22 @@
     assign whats_included_list = item.whats_included | split: '|'
     assign step_items = item.step_items | split: '|'
 
-    assign all_items = '' | split: ''
+    assign new_included_list = '' 
+    assign new_step_items = ''
 
+    for included_item in whats_included_list
+        assign new_included_list = new_included_list | append: ',' | prepend: 'check_'
+    endfor
+
+    for step_items in step_items
+        assign new_step_items = new_step_items | append: ',' | prepend: 'no_'
+    endfor
+
+    assign new_included_list = new_included_list | remove_first: ',' | split: ','
+
+    
+
+    assign all_items = '' | split: ''
     assign all_items = all_items | concat: whats_included_list
     assign all_items = all_items | concat: step_items
    
