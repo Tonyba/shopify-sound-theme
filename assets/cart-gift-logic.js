@@ -5,7 +5,8 @@
 
     detectGift();
     // Options for the observer (which mutations to observe)
-    var config = {  childList: true };
+    const config = { attributes: true, childList: true, subtree: true };
+
 
     // Callback function to execute when mutations are observed
     var callback = function(mutationsList) {
