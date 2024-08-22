@@ -46,7 +46,15 @@
         </div>
     </div>
     <div class="included-content grid cols-2 cols-2-mobile gap-12">
-        <div class="list-items">
+        <div class="list_items">
+            {%- for item in all_items -%}
+                <div class="icon-list-item">
+                    <span class="icon">{% render 'check-icon' %}</span>
+                    <span class="text">{{ item }}</span>
+                </div>
+            {% endfor  %}
+        </div>
+        {% comment %} <div class="list-items">
             {%- for item in whats_included_list -%}
                 <div class="icon-list-item">
                     <span class="icon">{% render 'check-icon' %}</span>
@@ -65,7 +73,7 @@
                     </div> 
              
             {% endfor  %}
-        </div>
+        </div> {% endcomment %}
     </div>
     <div class="included-footer flex align-item-start gap-5">
         <img src="{{ 'warning.jpg' | asset_url  }}" class="pt-3" alt="warning" width="12" height="10"  decoding= "async">
