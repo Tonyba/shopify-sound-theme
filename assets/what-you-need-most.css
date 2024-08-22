@@ -116,7 +116,7 @@ font-weight: 400;
 }
 
 .included-content {
-    padding: 15px 0;
+    padding-top: 15px;
     border-top: 0.3px solid #CCC;
     color: #000;
 }
