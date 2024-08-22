@@ -27,7 +27,7 @@
    // observer.disconnect();
 
    function detectGift() {
-      const itemList = Array.from(cartDrawer.querySelectorAll('.line-item'));
+      const itemList = Array.from(document.querySelectorAll('.cart-drawer .line-item'));
       itemList.map(function(item) {
             const price = item.querySelector('.text-on-sale');
             if(price?.textContent?.includes('$0.00')) {
